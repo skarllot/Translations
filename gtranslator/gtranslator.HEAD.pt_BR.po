@@ -5,15 +5,14 @@
 # Raphael Higino <raphaelh@uai.com.br>, 2004.
 # Afonso Celso Medina <medina@maua.br>, 2004, 2005.
 # Leonardo Ferreira Fontenelle <leo.fontenelle@gmail.com>, 2007.
-# Fabrício Godoy <skarllot@gmail.com>, 2008Leonardo Ferreira Fontenelle <leo.fontenelle@gmail.com>, 2008.
-# 
+# Fabrício Godoy <skarllot@gmail.com>, 2008.
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: gtranslator\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-03-31 20:17+0100\n"
-"PO-Revision-Date: 2008-04-01 16:19-0300\n"
+"PO-Revision-Date: 2008-04-06 04:06-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Portuguese/Brazil <gnome-l10n-br@listas.cipsga.org.br>\n"
 "MIME-Version: 1.0\n"
@@ -41,7 +40,7 @@ msgstr "Variável especial"
 #: ../data/po.lang.h:3
 #, fuzzy
 msgid "Tag"
-msgstr "Tagalog"
+msgstr "Mensagem"
 
 # src/gui.c:451
 #: ../data/po.lang.h:4
@@ -55,7 +54,7 @@ msgstr "Mensagem não encontrada"
 
 #: ../plugins/alternate-language/alternate-language-panel.c:203
 msgid "Open file for alternate language"
-msgstr "Abrir arquivo para uma língua alternativa"
+msgstr "Abre um arquivo para uma língua alternativa"
 
 #: ../plugins/alternate-language/alternate-language-panel.c:216
 msgid "File closed"
@@ -144,7 +143,7 @@ msgstr "Dê um clique duplo no banco de dados para usá-lo"
 #.
 #: ../plugins/dictionary/dict-panel.c:453
 msgid "Look _up:"
-msgstr "Cons_ultar:"
+msgstr "_Consultar:"
 
 #: ../plugins/dictionary/dict-panel.c:519
 msgid "Similar words"
@@ -165,7 +164,7 @@ msgstr "Dicionário"
 
 #: ../plugins/dictionary/dict.gtranslator-plugin.desktop.in.h:2
 msgid "Look up words in a dictionary."
-msgstr "Pesquisa palavras no dicionário."
+msgstr "Consulta palavras no dicionário."
 
 # src/gui.c:140
 #: ../plugins/insert-tags/insert-tags-plugin.c:67
