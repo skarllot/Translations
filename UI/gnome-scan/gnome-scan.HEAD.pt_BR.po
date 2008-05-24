@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: gnome-scan\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-03-03 00:59+0000\n"
-"PO-Revision-Date: 2007-07-23 20:27-0300\n"
-"Last-Translator: Raphael Higino <phhigino@gmail.com>\n"
+"PO-Revision-Date: 2008-05-24 19:05-0300\n"
+"Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portugues <gnome-l10n-br@listas.cipsga.org.br>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,7 +25,6 @@ msgstr "Digitalização"
 
 #. secondary text
 #: ../lib/gnome-scan-acquisition-dialog.c:127
-#, fuzzy
 msgid ""
 "The software now acquires and processes images according to the settings."
 msgstr ""
@@ -44,7 +43,7 @@ msgstr "_Geral"
 #. Preview
 #: ../lib/gnome-scan-dialog.c:275
 msgid "Pre_view"
-msgstr "Pré_ver"
+msgstr "Pre_ver"
 
 #. Advanced
 #: ../lib/gnome-scan-dialog.c:284
@@ -54,7 +53,7 @@ msgstr "_Avançado"
 #. Processing
 #: ../lib/gnome-scan-dialog.c:292
 msgid "P_rocessing"
-msgstr ""
+msgstr "P_rocessando"
 
 #. Sink
 #: ../lib/gnome-scan-dialog.c:301
@@ -67,7 +66,6 @@ msgid "Scan"
 msgstr "Digitalizar"
 
 #: ../lib/gnome-scan-dialog.c:515
-#, fuzzy
 msgid "Unable to detect scanners!"
 msgstr "Não foi possível detectar scanners."
 
@@ -76,7 +74,6 @@ msgid "No drivers has been found."
 msgstr "Nenhum driver foi encontrado."
 
 #: ../lib/gnome-scan-dialog.c:522
-#, fuzzy
 msgid "No device found!"
 msgstr "Nenhum dispositivo encontrado."
 
@@ -87,18 +84,19 @@ msgid ""
 "will run until you plug a scanner or cancel."
 msgstr ""
 "Certifique-se de que o dispositivo está conectado, ligado, que é suportado e "
-"está configurado. O diálogo executará até que você conecte um scanner ou "
-"cancele."
+"que está configurado. A janela continuará aberta até que você conecte um "
+"scanner ou cancele."
 
 #: ../lib/gnome-scan-dialog.c:891
 msgid "No device found !"
 msgstr "Nenhum dispositivo encontrado."
 
 #: ../lib/gnome-scan-dialog.c:892
+#, fuzzy
 msgid "Ensure your device is plugged, powered, supported and configured."
 msgstr ""
 "Certifique-se de que o dispositivo está conectado, ligado, que é suportado e "
-"está configurado."
+"que está configurado."
 
 #: ../lib/gnome-scan-dialog.c:932
 msgid "Scanner"
@@ -110,11 +108,12 @@ msgstr "Status"
 
 #: ../lib/gnome-scan-dialog.c:1378
 msgid "Acquiring Preview"
-msgstr "Obtendo visualização"
+msgstr "Obtendo Visualização"
 
 #: ../lib/gnome-scan-dialog.c:1383
+#, fuzzy
 msgid "The software preview acquisition and processing."
-msgstr ""
+msgstr "O software de aquisição de visualização e processamento"
 
 #. translator: initial state before preview begin.
 #: ../lib/gnome-scan-dialog.c:1394
@@ -139,12 +138,12 @@ msgstr "Digitalizando do scanner"
 
 #: ../lib/gnome-scan-job.c:525
 msgid "Processing page"
-msgstr ""
+msgstr "Processando página"
 
 #: ../lib/gnome-scan-job.c:538
 #, fuzzy
 msgid "Outputting page"
-msgstr "Nome do arquivo de saida"
+msgstr "Página de saída"
 
 #: ../lib/gnome-scanner.c:273
 msgid "Unknown"
@@ -220,30 +219,31 @@ msgstr "Selecionar _tudo"
 
 #: ../lib/gnome-scan-preview-plugin-rotation.c:65
 msgid "Rotate left"
-msgstr ""
+msgstr "Rotacionar à esquerda"
 
 #: ../lib/gnome-scan-preview-plugin-rotation.c:74
 msgid "Rotate right"
-msgstr ""
+msgstr "Rotacionar à direita"
 
 #: ../lib/gnome-scan-processor-common.c:44
 msgid "Common Processing"
-msgstr ""
+msgstr "Processamento Comum"
 
 #: ../lib/gnome-scan-processor-common.c:63
 msgid "Rotation"
-msgstr ""
+msgstr "Rotação"
 
 #: ../lib/gnome-scan-processor-common.c:70
-#, fuzzy
 msgid "Automatic color enhancement"
-msgstr "Alimentadora automática de documentos"
+msgstr "Ajuste automático de cor"
 
 #: ../lib/gnome-scan-processor-common.c:71
 msgid ""
 "Color enhancement produces better photos, but takes more time to process and "
 "can be useless for text."
 msgstr ""
+"Ajuste de cor produz melhores fotos, mas leva mais tempo de processamento e "
+"pode ser unútil para texto."
 
 #. note: decomposing area in three options orientation, origin and paper-size
 #. except these optoin to appear in this order.
@@ -259,16 +259,17 @@ msgstr "Orientação da página"
 #. ORIG
 #: ../modules/gsane-meta-param.c:282
 msgid "Origin"
-msgstr ""
+msgstr "Origem"
 
 #: ../modules/gsane-meta-param.c:282
+#, fuzzy
 msgid "Origin of scan window"
-msgstr ""
+msgstr "Origem da janela de digitalização"
 
 #: ../modules/gsane-meta-param.c:337
 #, fuzzy
 msgid "Maximal"
-msgstr "Manual"
+msgstr "Máximo"
 
 #: ../modules/gsane-meta-param.c:346
 msgid "Paper Size"
@@ -280,8 +281,9 @@ msgstr "Tamanho do papel do documento."
 
 #. SANE 2 well known source option value
 #: ../modules/gsane-meta-param.c:538
+#, fuzzy
 msgid "Flatbed"
-msgstr ""
+msgstr "Scanner de mesa"
 
 #: ../modules/gsane-meta-param.c:539
 msgid "Automatic Document Feeder"
@@ -290,7 +292,7 @@ msgstr "Alimentadora automática de documentos"
 #. device source option allowing to scan film and transparency
 #: ../modules/gsane-meta-param.c:541
 msgid "Transparency Adapter"
-msgstr "Adptador de transparência"
+msgstr "Adptador de Transparência"
 
 #: ../modules/gsfile-filenames-widget.c:115
 msgid "Preview"
@@ -329,65 +331,64 @@ msgstr "Arquivos para importar."
 
 #: ../modules/gsfile-scanner.c:137
 msgid "Import from files."
-msgstr "Importar de arquivos."
+msgstr "Importar dos arquivos."
 
 #. GtkWidget *toplevel = gtk_widget_get_toplevel (GTK_WIDGET (gspw));
 #: ../src/flegita-action-selector.c:148
-#, fuzzy
 msgid "Configure printing"
-msgstr "Configurando"
+msgstr "Configurar impressão"
 
 #: ../src/flegita.c:52 ../flegita.desktop.in.h:2
 #, fuzzy
 msgid "Simply scan images"
-msgstr "Imagem digitalizada"
+msgstr "Digitalização simples de imagens"
 
 #. Translators: Add your names here with one name per
 #. line, like
 #. "John Smith <email1@example.com>\n
 #. Robert Foo <email2@example.com>"
 #: ../src/flegita.c:76
+#, fuzzy
 msgid "translator-credit"
-msgstr ""
+msgstr "Raphael Higino <phhigino@gmail.com>\n"
+"Fabrício Godoy <skarllot@gmail.com>"
 
 #: ../src/flegita.c:79
 msgid "Gnome Scan website"
-msgstr ""
+msgstr "Site do Gnome-Scan"
 
 #: ../src/flegita.c:98 ../flegita.desktop.in.h:1
 #, fuzzy
 msgid "Scanner Utility"
-msgstr "Scanner"
+msgstr "Utilitário do Scanner"
 
 #: ../src/flegita-gimp.c:89
-#, fuzzy
 msgid "Scan a new image."
-msgstr "Imagem digitalizada"
+msgstr "Digitalizar uma nova imagem."
 
 #: ../src/flegita-gimp.c:90 ../src/flegita-gimp.c:105
 msgid "Help"
-msgstr ""
+msgstr "Ajuda"
 
 #: ../src/flegita-gimp.c:94
-#, fuzzy
 msgid "Scan ..."
-msgstr "Digitalizar"
+msgstr "Digitalizar..."
 
 #: ../src/flegita-gimp.c:104
 msgid "Scan picture as new layer..."
-msgstr ""
+msgstr "Digitalizar imagem como uma nova camada..."
 
 #: ../src/flegita-gimp.c:109
 msgid "Scan as Layer..."
-msgstr ""
+msgstr "Digitalizar como Camada..."
 
 #: ../src/flegita-gimp-sink.c:77
 msgid "Layer"
-msgstr ""
+msgstr "Camada"
 
 #: ../src/flegita-gimp-sink.c:78
 msgid "New layer name"
-msgstr ""
+msgstr "Nome da nova camada"
 
 #: ../src/flegita-gimp-sink.c:80 ../src/flegita-output-filename-widget.c:88
 msgid "Scanned image"
@@ -417,20 +418,21 @@ msgstr "Nível de compressão de PNG"
 #. translator: this explain the PNG compression level
 #: ../src/flegita-sink.c:136
 msgid "Higher level means lower file size, but takes more time to save"
-msgstr ""
+msgstr "Níveis altos significa tamanho de arquivo menor, mas leva mais tempo para salvar"
 
 #: ../src/flegita-sink.c:178
+#, fuzzy
 msgid "Various common action on scan output not related to specific software"
-msgstr ""
+msgstr "Várias ações comuns na saída de digitalização não relacionadas a um programa específico"
 
 #: ../src/flegita-sink.c:303
 msgid "Custom"
-msgstr ""
+msgstr "Personalizado"
 
 #: ../src/flegita-sink.c:334
 #, fuzzy
 msgid "Scan to printer"
-msgstr "Opções de digitalização"
+msgstr "Digitalizar para impressora"
 
 #~ msgid "%s:"
 #~ msgstr "%s:"
