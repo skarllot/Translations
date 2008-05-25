@@ -1,17 +1,19 @@
-# Brazilian Portuguse translation of gnome-scan.
-# Copyright (C) 2007 Free Software Foundation, Inc.
+# Brazilian Portuguese translation of gnome-scan.
+# Copyright (C) 2007-2008 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gnome-scan package.
 # Raphael Higino <phhigino@gmail.com>, 2007.
+# Fabrício Godoy <skarllot@gmail.com>, 2008.
 #
 # Acquire -> Digitalizar
 # Scan -> Digitalizar, Scannear
+# Flatbed -> Scanner de mesa
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-scan\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-03-03 00:59+0000\n"
-"PO-Revision-Date: 2008-05-24 19:05-0300\n"
+"PO-Revision-Date: 2008-05-24 22:25-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portugues <gnome-l10n-br@listas.cipsga.org.br>\n"
 "MIME-Version: 1.0\n"
