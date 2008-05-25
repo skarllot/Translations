@@ -69,7 +69,7 @@ msgstr "Digitalizar"
 
 #: ../lib/gnome-scan-dialog.c:515
 msgid "Unable to detect scanners!"
-msgstr "Não foi possível detectar scanners."
+msgstr "Não foi possível detectar scanners!"
 
 #: ../lib/gnome-scan-dialog.c:516
 msgid "No drivers has been found."
@@ -77,7 +77,7 @@ msgstr "Nenhum driver foi encontrado."
 
 #: ../lib/gnome-scan-dialog.c:522
 msgid "No device found!"
-msgstr "Nenhum dispositivo encontrado."
+msgstr "Nenhum dispositivo encontrado!"
 
 #: ../lib/gnome-scan-dialog.c:523
 #, fuzzy
@@ -91,7 +91,7 @@ msgstr ""
 
 #: ../lib/gnome-scan-dialog.c:891
 msgid "No device found !"
-msgstr "Nenhum dispositivo encontrado."
+msgstr "Nenhum dispositivo encontrado!"
 
 #: ../lib/gnome-scan-dialog.c:892
 #, fuzzy
@@ -106,7 +106,7 @@ msgstr "Scanner"
 
 #: ../lib/gnome-scan-dialog.c:939
 msgid "Status"
-msgstr "Status"
+msgstr "Estado"
 
 #: ../lib/gnome-scan-dialog.c:1378
 msgid "Acquiring Preview"
@@ -115,7 +115,7 @@ msgstr "Obtendo Visualização"
 #: ../lib/gnome-scan-dialog.c:1383
 #, fuzzy
 msgid "The software preview acquisition and processing."
-msgstr "O software de aquisição de visualização e processamento"
+msgstr "O software de aquisição de visualização e processamento."
 
 #. translator: initial state before preview begin.
 #: ../lib/gnome-scan-dialog.c:1394
@@ -197,7 +197,7 @@ msgstr "mm"
 #. translator: unit dot per inch
 #: ../lib/gnome-scan-param-widget.c:117
 msgid "dpi"
-msgstr "dpi"
+msgstr "ppp"
 
 #. translator: unit percent
 #: ../lib/gnome-scan-param-widget.c:121
@@ -213,7 +213,7 @@ msgstr "ms"
 #: ../lib/gnome-scan-preview-plugin-area.c:487
 #: ../modules/gsane-meta-param.c:332
 msgid "Manual"
-msgstr "Manual"
+msgstr "Personalizado"
 
 #: ../lib/gnome-scan-preview-plugin-area.c:619
 msgid "Select _All"
