@@ -342,248 +342,264 @@ msgid "APE tag"
 msgstr "Etiqueta APE"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:68
+#, fuzzy
 msgid "ICY internet radio"
 msgstr "Rádio on-line ICY"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:91
 msgid "Apple Lossless Audio (ALAC)"
-msgstr ""
+msgstr "Áudio Sem Perdas da Apple (ALAC)"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:100
 msgid "Free Lossless Audio Codec (FLAC)"
-msgstr ""
+msgstr "Codec de Áudio Sem Perdas Livre (FLAC)"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:124
 #: ../gst-libs/gst/pbutils/descriptions.c:125
 msgid "Lossless True Audio (TTA)"
-msgstr ""
+msgstr "Áudio Real Sem Perdas (TTA)"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:133
+#, fuzzy
 msgid "Windows Media Speech"
-msgstr ""
+msgstr "Mídia de Voz do Windows"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:147
 msgid "CYUV Lossless"
-msgstr ""
+msgstr "CYUV Sem Perdas"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:150
 msgid "FFMpeg v1"
-msgstr ""
+msgstr "FFMpeg v1"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:162
 msgid "Lossless MSZH"
-msgstr ""
+msgstr "MSZH Sem Perdas"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:168
+#, fuzzy
 msgid "Uncompressed Gray Image"
-msgstr ""
+msgstr "Imagem Cinza Sem Compressão"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:173
+#, fuzzy
 msgid "Run-length encoding"
-msgstr ""
+msgstr "Codifição Durante a Execução"
 
 #. subtitle formats with static descriptions
 #: ../gst-libs/gst/pbutils/descriptions.c:207
 msgid "Sami subtitle format"
-msgstr ""
+msgstr "Formato de legendas Sami"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:208
 msgid "TMPlayer subtitle format"
-msgstr ""
+msgstr "Formato de legendas TMPlayer"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:267
+#, fuzzy
 msgid "Uncompressed planar YUV 4:2:0"
-msgstr ""
+msgstr "YUV 4:2:0 planar sem compressão"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:270
+#, fuzzy
 msgid "Uncompressed planar YVU 4:2:0"
-msgstr ""
+msgstr "YVU 4:2:0 planar sem compressão"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:273
 #: ../gst-libs/gst/pbutils/descriptions.c:283
+#, fuzzy
 msgid "Uncompressed packed YUV 4:2:2"
-msgstr ""
+msgstr "YUV 4:2:2 empacotamento sem compressão"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:276
+#, fuzzy
 msgid "Uncompressed packed YUV 4:1:0"
-msgstr ""
+msgstr "YUV 4:1:0 empacotamento sem compressão"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:279
+#, fuzzy
 msgid "Uncompressed packed YVU 4:1:0"
-msgstr ""
+msgstr "YVU 4:1:0 empacotamento sem compressão"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:286
+#, fuzzy
 msgid "Uncompressed packed YUV 4:1:1"
-msgstr ""
+msgstr "YUV 4:1:1 empacotamento sem compressão"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:289
+#, fuzzy
 msgid "Uncompressed packed YUV 4:4:4"
-msgstr ""
+msgstr "YUV 4:4:4 empacotamento sem compressão"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:292
+#, fuzzy
 msgid "Uncompressed planar YUV 4:2:2"
-msgstr ""
+msgstr "YUV 4:2:2 planar sem compressão"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:295
+#, fuzzy
 msgid "Uncompressed planar YUV 4:1:1"
-msgstr ""
+msgstr "YUV 4:1:1 planar sem compressão"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:298
+#, fuzzy
 msgid "Uncompressed black and white Y-plane"
-msgstr ""
+msgstr "Plano-Y preto e branco sem compressão"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:301
+#, fuzzy
 msgid "Uncompressed YUV"
-msgstr ""
+msgstr "YUV sem compressão"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:312
-#, c-format
+#, fuzzy, c-format
 msgid "Uncompressed palettized %d-bit %s"
-msgstr ""
+msgstr "%s %d bits  com paletas sem compressão"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:362
 #, c-format
 msgid "DivX MPEG-4 Version %d"
-msgstr ""
+msgstr "DivX MPEG-4 Versão %d"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:580
 #, c-format
 msgid "Raw %d-bit PCM audio"
-msgstr ""
+msgstr "Áudio PCM Raw de %d bits"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:582
+#, fuzzy
 msgid "Raw PCM audio"
-msgstr ""
+msgstr "Áudio PCM Raw"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:588
 #, c-format
 msgid "Raw %d-bit floating-point audio"
-msgstr ""
+msgstr "Áudio Raw de ponto-flutuante de %d bits"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:590
 msgid "Raw floating-point audio"
-msgstr ""
+msgstr "Áudio Raw de ponto-flutuante"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:677
 msgid "Audio CD source"
-msgstr ""
+msgstr "Origem de CD de áudio"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:680
 msgid "DVD source"
-msgstr ""
+msgstr "Origem de DVD"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:683
 msgid "Real Time Streaming Protocol (RTSP) source"
-msgstr ""
+msgstr "Origem de Protocolo de Fluxo Contínuo em Tempo Real (RTSP)"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:687
 msgid "Microsoft Media Server (MMS) protocol source"
-msgstr ""
+msgstr "Origem de protocolo do Servidor de Mídia da Microsoft (MMS)"
 
 #. TODO: find out how to add a comment for translators to the source code
 #. * (and tell them to make the first letter uppercase below if they move
 #. * the protocol to the middle or end of the string)
 #: ../gst-libs/gst/pbutils/descriptions.c:695
-#, c-format
+#, fuzzy, c-format
 msgid "%s protocol source"
-msgstr ""
+msgstr "Fonte de protocolo %s"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:763
-#, c-format
+#, fuzzy, c-format
 msgid "%s video RTP depayloader"
-msgstr ""
+msgstr "Vídeo RTP depayloader %s"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:765
-#, c-format
+#, fuzzy, c-format
 msgid "%s audio RTP depayloader"
-msgstr ""
+msgstr "Áudio RTP depayloader %s"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:767
-#, c-format
+#, fuzzy, c-format
 msgid "%s RTP depayloader"
-msgstr ""
+msgstr "RTP depayloader %s"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:774
-#, c-format
+#, fuzzy, c-format
 msgid "%s demuxer"
-msgstr ""
+msgstr "Demultiplexador %s"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:776
 #, c-format
 msgid "%s decoder"
-msgstr ""
+msgstr "Decodificador %s"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:811
-#, c-format
+#, fuzzy, c-format
 msgid "%s video RTP payloader"
-msgstr ""
+msgstr "Vídeo RTP payloader %s"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:813
-#, c-format
+#, fuzzy, c-format
 msgid "%s audio RTP payloader"
-msgstr ""
+msgstr "Áudio RTP payloader %s"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:815
-#, c-format
+#, fuzzy, c-format
 msgid "%s RTP payloader"
-msgstr ""
+msgstr "RTP payloader %s"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:822
-#, c-format
+#, fuzzy, c-format
 msgid "%s muxer"
-msgstr ""
+msgstr "Multiplexador %s"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:824
 #, c-format
 msgid "%s encoder"
-msgstr ""
+msgstr "Codificador %s"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:855
-#, c-format
+#, fuzzy, c-format
 msgid "GStreamer element %s"
-msgstr ""
+msgstr "Elemento GStreamer %s"
 
 #: ../gst-libs/gst/pbutils/missing-plugins.c:553
 msgid "Unknown source element"
-msgstr ""
+msgstr "Elemento de origem desconhecida"
 
 #: ../gst-libs/gst/pbutils/missing-plugins.c:556
 msgid "Unknown sink element"
-msgstr ""
+msgstr "Elemento coletor desconhecido"
 
 #: ../gst-libs/gst/pbutils/missing-plugins.c:559
 msgid "Unknown element"
-msgstr ""
+msgstr "Elemento desconhecido"
 
 #: ../gst-libs/gst/pbutils/missing-plugins.c:562
 msgid "Unknown decoder element"
-msgstr ""
+msgstr "Elemento decodificador desconhecido"
 
 #: ../gst-libs/gst/pbutils/missing-plugins.c:565
 msgid "Unknown encoder element"
-msgstr ""
+msgstr "Elemento codificador desconhecido"
 
 #. we should really never get here, but we better still return
 #. * something if we do
 #: ../gst-libs/gst/pbutils/missing-plugins.c:570
 msgid "Plugin or element of unknown type"
-msgstr ""
+msgstr "Elemento ou complemento de tipo desconhecido"
 
 #: ../sys/v4l/v4l_calls.c:159
 msgid "No device specified."
-msgstr ""
+msgstr "Nenhum dispositivo especificado."
 
 #: ../sys/v4l/v4l_calls.c:168
 #, c-format
 msgid "Device \"%s\" does not exist."
-msgstr ""
+msgstr "O dispositivo \"%s\" não existe."
 
 #: ../sys/v4l/v4l_calls.c:173
 #, c-format
 msgid "Device \"%s\" is already being used."
-msgstr ""
+msgstr "O dispositivo \"%s\" já está sendo usado."
 
 #: ../sys/v4l/v4l_calls.c:178
 #, c-format
 msgid "Could not open device \"%s\" for reading and writing."
-msgstr ""
+msgstr "Não foi possível abrir o dispositivo \"%s\" para leitura e escrita."
