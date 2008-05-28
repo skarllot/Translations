@@ -3,12 +3,15 @@
 # This file is distributed under the same license as the gst-plugins-base package.
 # Fabrício Godoy <skarllot@gmail.com>, 2008.
 #
+# Plugin -> Complemento
+# PCM -> PCM
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: gst-plugins-base HEAD\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2008-05-25 03:49+0000\n"
-"PO-Revision-Date: 2008-05-25 12:23-0003\n"
+"PO-Revision-Date: 2008-05-28 01:18-0003\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-l10n-br@listas.cipsga.org.br>\n"
 "MIME-Version: 1.0\n"
@@ -29,12 +32,10 @@ msgid "Treble"
 msgstr "Agudo"
 
 #: ../ext/alsa/gstalsamixertrack.c:134
-#, fuzzy
 msgid "PCM"
 msgstr "PCM"
 
 #: ../ext/alsa/gstalsamixertrack.c:135
-#, fuzzy
 msgid "Synth"
 msgstr "Sintetizador"
 
@@ -138,7 +139,7 @@ msgstr "Não foi fornecido um nome de arquivo"
 #: ../ext/gnomevfs/gstgnomevfssink.c:421
 #, c-format
 msgid "Could not close vfs file \"%s\"."
-msgstr "Não foi possível fechar o arquivo VFS \"%s\""
+msgstr "Não foi possível fechar o arquivo VFS \"%s\"."
 
 #: ../ext/gnomevfs/gstgnomevfssink.c:575
 #, c-format
@@ -146,9 +147,8 @@ msgid "Error while writing to file \"%s\"."
 msgstr "Erro ao escrever no arquivo \"%s\"."
 
 #: ../ext/ogg/gstoggdemux.c:3113
-#, fuzzy
 msgid "Internal data stream error."
-msgstr "Erro no fluxo de dados internos."
+msgstr "Erro interno no fluxo de dados."
 
 #: ../gst/playback/gstdecodebin.c:842 ../gst/playback/gstdecodebin2.c:1017
 #: ../gst/playback/gstplaybasebin.c:1531 ../gst/playback/gstplaybasebin.c:1667
@@ -207,7 +207,7 @@ msgstr ""
 
 #: ../gst/playback/gstplaybasebin.c:2292
 msgid "This is not a media file"
-msgstr "Este não é um arquivo de mídia."
+msgstr "Este não é um arquivo de mídia"
 
 #: ../gst/playback/gstplaybasebin.c:2297
 msgid "A subtitle stream was detected, but no video stream."
@@ -245,7 +245,7 @@ msgstr "Decodificador não disponível para o tipo \"%s\"."
 
 #: ../gst/playback/gsturidecodebin.c:780
 msgid "This stream type cannot be played yet."
-msgstr "Este tipo fluxo ainda não pode ser reproduzido."
+msgstr "Este tipo de fluxo ainda não pode ser reproduzido."
 
 #: ../gst/playback/gsturidecodebin.c:791
 #, c-format
@@ -270,14 +270,14 @@ msgid "Error while sending data to \"%s:%d\"."
 msgstr "Erro ao enviar dados para \"%s:%d\"."
 
 #: ../gst/tcp/gsttcp.c:555
-#, fuzzy, c-format
+#, c-format
 msgid "Error while sending gdp header data to \"%s:%d\"."
 msgstr "Erro ao enviar o cabeçalho GDP de dados para \"%s:%d\"."
 
 #: ../gst/tcp/gsttcp.c:564
-#, fuzzy, c-format
+#, c-format
 msgid "Error while sending gdp payload data to \"%s:%d\"."
-msgstr "Erro ao enviar carga GDP de dados para \"%s:%d\"."
+msgstr "Erro ao enviar carga de dados GDP para \"%s:%d\"."
 
 #: ../gst/tcp/gsttcpclientsink.c:384 ../gst/tcp/gsttcpclientsrc.c:368
 #, c-format
@@ -290,43 +290,43 @@ msgstr "Não é possível gravar áudio rápido suficiente"
 
 #: ../gst-libs/gst/tag/tags.c:57
 msgid "track ID"
-msgstr "Identificação da trilha"
+msgstr "ident. da trilha"
 
 #: ../gst-libs/gst/tag/tags.c:57
 msgid "MusicBrainz track ID"
-msgstr "Identificação da trilha no MusicBrainz"
+msgstr "ident. da trilha no MusicBrainz"
 
 #: ../gst-libs/gst/tag/tags.c:59
 msgid "artist ID"
-msgstr "Identificação do artista"
+msgstr "ident. do artista"
 
 #: ../gst-libs/gst/tag/tags.c:59
 msgid "MusicBrainz artist ID"
-msgstr "Identificação do artista no MusicBrainz"
+msgstr "ident. do artista no MusicBrainz"
 
 #: ../gst-libs/gst/tag/tags.c:61
 msgid "album ID"
-msgstr "Identificação do álbum"
+msgstr "ident. do álbum"
 
 #: ../gst-libs/gst/tag/tags.c:61
 msgid "MusicBrainz album ID"
-msgstr "Identificação do álbum no MusicBrainz"
+msgstr "ident. do álbum no MusicBrainz"
 
 #: ../gst-libs/gst/tag/tags.c:64
 msgid "album artist ID"
-msgstr "Identificação do artista do álbum"
+msgstr "ident. do artista do álbum"
 
 #: ../gst-libs/gst/tag/tags.c:64
 msgid "MusicBrainz album artist ID"
-msgstr "Identificação do artista do álbum no MusicBrainz"
+msgstr "ident. do artista do álbum no MusicBrainz"
 
 #: ../gst-libs/gst/tag/tags.c:66
 msgid "track TRM ID"
-msgstr "Identificação da trilha TRM"
+msgstr "ident. da trilha TRM"
 
 #: ../gst-libs/gst/tag/tags.c:66
 msgid "MusicBrainz TRM ID"
-msgstr "Identificação da trilha TRM no MusicBrainz"
+msgstr "ident. da trilha TRM no MusicBrainz"
 
 #: ../gst-libs/gst/cdda/gstcddabasesrc.c:1400
 #: ../gst-libs/gst/cdda/gstcddabasesrc.c:1433
@@ -342,7 +342,6 @@ msgid "APE tag"
 msgstr "Etiqueta APE"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:68
-#, fuzzy
 msgid "ICY internet radio"
 msgstr "Rádio on-line ICY"
 
@@ -352,7 +351,7 @@ msgstr "Áudio Sem Perdas da Apple (ALAC)"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:100
 msgid "Free Lossless Audio Codec (FLAC)"
-msgstr "Codec de Áudio Sem Perdas Livre (FLAC)"
+msgstr "Codec Livre de Áudio Sem Perdas (FLAC)"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:124
 #: ../gst-libs/gst/pbutils/descriptions.c:125
@@ -384,7 +383,7 @@ msgstr "Imagem Cinza Sem Compressão"
 #: ../gst-libs/gst/pbutils/descriptions.c:173
 #, fuzzy
 msgid "Run-length encoding"
-msgstr "Codifição Durante a Execução"
+msgstr "Codifição durante a execução"
 
 #. subtitle formats with static descriptions
 #: ../gst-libs/gst/pbutils/descriptions.c:207
@@ -398,48 +397,48 @@ msgstr "Formato de legendas TMPlayer"
 #: ../gst-libs/gst/pbutils/descriptions.c:267
 #, fuzzy
 msgid "Uncompressed planar YUV 4:2:0"
-msgstr "YUV 4:2:0 planar sem compressão"
+msgstr "Planar sem compressão YUV 4:2:0"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:270
 #, fuzzy
 msgid "Uncompressed planar YVU 4:2:0"
-msgstr "YVU 4:2:0 planar sem compressão"
+msgstr "Planar sem compressão YVU 4:2:0"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:273
 #: ../gst-libs/gst/pbutils/descriptions.c:283
 #, fuzzy
 msgid "Uncompressed packed YUV 4:2:2"
-msgstr "YUV 4:2:2 empacotamento sem compressão"
+msgstr "Empacotamento sem compressão YUV 4:2:2"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:276
 #, fuzzy
 msgid "Uncompressed packed YUV 4:1:0"
-msgstr "YUV 4:1:0 empacotamento sem compressão"
+msgstr "Empacotamento sem compressão YUV 4:1:0"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:279
 #, fuzzy
 msgid "Uncompressed packed YVU 4:1:0"
-msgstr "YVU 4:1:0 empacotamento sem compressão"
+msgstr "Empacotamento sem compressão YVU 4:1:0"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:286
 #, fuzzy
 msgid "Uncompressed packed YUV 4:1:1"
-msgstr "YUV 4:1:1 empacotamento sem compressão"
+msgstr "Empacotamento sem compressão YUV 4:1:1"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:289
 #, fuzzy
 msgid "Uncompressed packed YUV 4:4:4"
-msgstr "YUV 4:4:4 empacotamento sem compressão"
+msgstr "Empacotamento sem compressão YUV 4:4:4"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:292
 #, fuzzy
 msgid "Uncompressed planar YUV 4:2:2"
-msgstr "YUV 4:2:2 planar sem compressão"
+msgstr "Planar sem compressão YUV 4:2:2"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:295
 #, fuzzy
 msgid "Uncompressed planar YUV 4:1:1"
-msgstr "YUV 4:1:1 planar sem compressão"
+msgstr "Planar sem compressão YUV 4:1:1"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:298
 #, fuzzy
@@ -447,14 +446,13 @@ msgid "Uncompressed black and white Y-plane"
 msgstr "Plano-Y preto e branco sem compressão"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:301
-#, fuzzy
 msgid "Uncompressed YUV"
 msgstr "YUV sem compressão"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:312
 #, fuzzy, c-format
 msgid "Uncompressed palettized %d-bit %s"
-msgstr "%s %d bits  com paletas sem compressão"
+msgstr "%s de %d bits com paletas sem compressão"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:362
 #, c-format
@@ -467,7 +465,6 @@ msgid "Raw %d-bit PCM audio"
 msgstr "Áudio PCM Raw de %d bits"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:582
-#, fuzzy
 msgid "Raw PCM audio"
 msgstr "Áudio PCM Raw"
 
@@ -520,7 +517,7 @@ msgid "%s RTP depayloader"
 msgstr "RTP depayloader %s"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:774
-#, fuzzy, c-format
+#, c-format
 msgid "%s demuxer"
 msgstr "Demultiplexador %s"
 
@@ -545,7 +542,7 @@ msgid "%s RTP payloader"
 msgstr "RTP payloader %s"
 
 #: ../gst-libs/gst/pbutils/descriptions.c:822
-#, fuzzy, c-format
+#, c-format
 msgid "%s muxer"
 msgstr "Multiplexador %s"
 
