@@ -640,31 +640,32 @@ msgid ""
 msgstr "Todos %(monthday)s do mês a cada minuto entre %(time_from)s e %(time_to)s"
 
 #: ../src/lang.py:185
-#, fuzzy, python-format
+#, python-format
 msgid "On day %(monthday)s of every month at %(time)s"
-msgstr "Todos %(monthday)s do mês ao %(time)s"
+msgstr "Todos %(monthday)s do mês às %(time)s"
 
 #: ../src/lang.py:190
 #, python-format
 msgid "On every day in %(month)s at every full hour"
-msgstr "Todos dias em %(month)s a cada hora inteira"
+msgstr "Todos dias de %(month)s a cada hora inteira"
 
 #: ../src/lang.py:192
 #, python-format
 msgid "On every day in %(month)s at every minute"
-msgstr "Todos dias em %(month)s a cada minuto"
+msgstr "Todos dias de %(month)s a cada minuto"
 
 #: ../src/lang.py:194
 #, python-format
 msgid "On every day in %(month)s at minute %(minute)s of every hour"
-msgstr "Todos dias em %(month)s no minuto %(minute)s de cada hora"
+msgstr "Todos dias de %(month)s no minuto %(minute)s de cada hora"
 
 #: ../src/lang.py:196
 #, python-format
 msgid ""
 "On every day in %(month)s at every minute between %(time_from)s and %"
 "(time_to)s"
-msgstr ""
+msgstr "Todos dias de %(month)s nos minutos entre %(time_from)s e "
+"%(time_to)s"
 
 #: ../src/lang.py:198
 #, python-format
@@ -672,25 +673,26 @@ msgid "On every day in %(month)s at %(time)s"
 msgstr "Todo dia de %(month)s às %(time)s"
 
 #: ../src/lang.py:203
-#, fuzzy, python-format
+#, python-format
 msgid "Every year on %(date)s at every full hour"
-msgstr "Todo %s minuto de cada hora"
+msgstr "Todo ano em %(date)s em toda hora inteira"
 
 #: ../src/lang.py:205
-#, fuzzy, python-format
+#, python-format
 msgid "Every year on %(date)s at every minute"
-msgstr "Todo %s dia da semana, a todo minuto"
+msgstr "Todo ano em %(date)s em todo minuto"
 
 #: ../src/lang.py:207
-#, fuzzy, python-format
+#, python-format
 msgid "Every year on %(date)s at minute %(minute)s of every hour"
-msgstr "Todo %s dia da semana, no %s minuto de cada hora"
+msgstr "Todo ano em %(date)s no minuto %(minute)s de cada hora"
 
 #: ../src/lang.py:209
 #, python-format
 msgid ""
 "Every year on %(date)s at every minute between %(time_from)s and %(time_to)s"
 msgstr ""
+"Todo ano em %(date)s em todos minutos entre %(time_from)s e %(time_to)s"
 
 #: ../src/lang.py:211
 #, python-format
@@ -698,65 +700,71 @@ msgid "Every year on %(date)s at %(time)s"
 msgstr "Todo ano em %(date)s às %(time)s"
 
 #: ../src/lang.py:216
-#, fuzzy, python-format
+#, python-format
 msgid "On every weekday: %(weekday)s at every full hour"
-msgstr "Todo %s minuto de cada hora"
+msgstr "Todos(as) %(weekday)s a cada hora inteira"
 
 #: ../src/lang.py:218
-#, fuzzy, python-format
+#, python-format
 msgid "On every weekday: %(weekday)s at every minute"
-msgstr "Todo(a) %(weekday)s a cada minuto"
+msgstr "Todos(as) %(weekday)s a cada minuto"
 
 #: ../src/lang.py:220
-#, fuzzy, python-format
+#, python-format
 msgid "On every weekday: %(weekday)s at minute %(minute)s of every hour"
-msgstr "Todo %s dia da semana, no %s minuto de cada hora"
+msgstr "Todos(as) %(weekday)s no minuto %(minute)s de cada hora"
 
 #: ../src/lang.py:222
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "On every weekday: %(weekday)s at every minute between %(time_from)s and %"
 "(time_to)s"
-msgstr "Todo(a) %(weekday)s de %(month)s às %(time)s"
+msgstr "Todos(as) %(weekday)s de cada minuto entre %(time_from)s e %(time_to)s"
 
 #: ../src/lang.py:224
-#, fuzzy, python-format
+#, python-format
 msgid "On every weekday: %(weekday)s at %(time)s"
-msgstr "Todo(a) %(weekday)s às %(time)s"
+msgstr "Todos(as) %(weekday)s às %(time)s"
 
 #: ../src/lang.py:229
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "On day %(monthday)s of every month and every weekday: %(weekday)s at every "
 "full hour"
-msgstr "Todo %s dia da semana, no %s minuto de cada hora"
+msgstr "Todos dias %(monthday)s do mês e todos(as) %(weekday)s a cada "
+"hora inteira"
 
 #: ../src/lang.py:231
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "On day %(monthday)s of every month and every weekday: %(weekday)s at every "
 "minute"
-msgstr "Todo %s dia da semana, no %s minuto de cada hora"
+msgstr ""
+"Todos dias %(monthday)s do mês e todos(as) %(weekday)s a cada minuto"
 
 #: ../src/lang.py:233
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "On day %(monthday)s of every month and every weekday: %(weekday)s at minute %"
 "(minute)s of every hour"
-msgstr "Todo %s dia da semana, no %s minuto de cada hora"
+msgstr ""
+"Todos dias %(monthday)s do mês e todos(as) %(weekday)s no minuto %(minute)s "
+"de cada hora"
 
 #: ../src/lang.py:235
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "On day %(monthday)s of every month and every weekday: %(weekday)s at every "
 "minute between %(time_from)s and %(time_to)s"
-msgstr "Todo %s dia da semana, no %s minuto de cada hora"
+msgstr ""
+"Todos dias %(monthday)s do mês e todos(as) %(weekday)s de todos minutos "
+"entre %(time_from)s e %(time_to)s"
 
 #: ../src/lang.py:237
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "On day %(monthday)s of every month and every weekday: %(weekday)s at %(time)s"
-msgstr "Todo %s dia da semana, no %s minuto de cada hora"
+msgstr "Todos dias %(monthday)s do mês e todos(as) %(weekday)s às %(time)s"
 
 #: ../src/lang.py:242
 #, fuzzy, python-format
