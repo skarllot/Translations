@@ -1,21 +1,24 @@
 # Brazilian Portuguese translation of gnome-schedule.
-# Copyright (C) 2004-2006 Free Software Foundation, Inc.
+# Copyright (C) 2004-2008 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gnome-schedule package.
 # Welther José O. Esteves <weltherjoe@yahoo.com.br>, 2004.
 # Raphael Higino <raphaelh@uai.com.br>, 2004-2006.
 # Fabrício Godoy <skarllot@gmail.com>, 2008
+#
+# Weekday -> dia da semana
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-schedule\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-03-17 15:30+0000\n"
-"PO-Revision-Date: 2008-05-31 01:12-0300\n"
+"PO-Revision-Date: 2008-05-31 02:06-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-l10-br@listas.cipsga.org.br>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../desktop/gnome-schedule.desktop.in.in.h:1
 msgid "Manage your system tasks"
@@ -31,7 +34,7 @@ msgstr "Configura suas tarefas agendadas"
 
 #: ../servers/GNOME_GnomeSchedule.server.in.in.h:2
 msgid "Gnome schedule"
-msgstr "Gnome schedule"
+msgstr "Gnome Schedule"
 
 #: ../servers/GNOME_GnomeSchedule.server.in.in.h:3
 msgid "System tools"
@@ -42,7 +45,7 @@ msgid ""
 "Failed to create data dir! Make sure ~/.gnome and ~/.gnome/gnome-schedule "
 "are writable."
 msgstr ""
-"Falha ao criar diretório de dados. Garanta que ~/.gnome e ~/.gnome/gnome-schedule "
+"Falha ao criar diretório de dados! Garanta que ~/.gnome e ~/.gnome/gnome-schedule "
 "são graváveis."
 
 #: ../src/at.py:110 ../src/crontab.py:157
@@ -63,7 +66,7 @@ msgstr "VALIDAÇÃO PERIGOSA: %(preview)s"
 #: ../src/at.py:488
 #, python-format
 msgid "On %(date)s at %(time)s"
-msgstr "De %(date)s às %(time)s"
+msgstr "Dia %(date)s às %(time)s"
 
 #: ../src/at.py:493 ../src/at.py:498
 msgid "Once"
@@ -71,7 +74,7 @@ msgstr "Uma vez"
 
 #: ../src/at.py:502
 msgid "Warning: a line in atq's output didn't parse"
-msgstr "Aviso: uma linha na saída do atq não pôde ser validada"
+msgstr "Aviso: uma linha na saída do ATQ não pôde ser validada"
 
 #: ../src/crontab.py:82
 msgid "Minute"
@@ -91,7 +94,7 @@ msgstr "Mês"
 
 #: ../src/crontab.py:86
 msgid "Weekday"
-msgstr "Dia útil"
+msgstr "Dia da semana"
 
 #: ../src/crontab.py:187 ../src/gnome-schedule.glade.h:13
 msgid "Basic"
@@ -100,7 +103,7 @@ msgstr "Básico"
 #: ../src/crontab.py:187
 #, python-format
 msgid "This is not a valid special record: %(record)s"
-msgstr "Este não é um registro especial válido: %(record)s"
+msgstr "Esse não é um registro especial válido: %(record)s"
 
 #: ../src/crontab.py:215 ../src/crontab.py:220 ../src/crontab.py:224
 #, python-format
@@ -145,14 +148,14 @@ msgstr "mês"
 
 #: ../src/crontab.py:459
 msgid "weekday"
-msgstr "dia útil"
+msgstr "dia da semana"
 
 #: ../src/crontab.py:558
 #, fuzzy
 msgid ""
 "Failed to parse the Day of Month field, possibly due to a bug in crontab."
 msgstr ""
-"Falha ao validar o campo Dia do Mês, possivelmente por causa de um bug no "
+"Falha ao validar o campo Dia do Mês, possivelmente devido a um erro no "
 "crontab."
 
 #: ../src/crontabEditor.py:69 ../src/crontabEditorHelper.py:87
@@ -186,7 +189,7 @@ msgstr "Criar uma Nova Tarefa Agendada"
 #. edit template
 #: ../src/crontabEditor.py:201 ../src/atEditor.py:155
 msgid "Edit template"
-msgstr "Editar modelo:"
+msgstr "Editar modelo"
 
 #. edit template
 #: ../src/crontabEditor.py:231 ../src/atEditor.py:176
@@ -204,7 +207,7 @@ msgid ""
 "This is an invalid record! The problem could be in the %(field)s field. "
 "Reason: %(reason)s"
 msgstr ""
-"Este é um registro inválido! O problema pode estar no campo %(field)s. "
+"Esse é um registro inválido! O problema pode estar no campo %(field)s. "
 "Razão: %(reason)s"
 
 #: ../src/crontabEditor.py:321
@@ -220,10 +223,9 @@ msgstr ""
 "Seu comando contém um ou mais do caractere %, esse caractere é especial para "
 "o cron e não pode ser usado com o Gnome Schedule por causa do formato que "
 "ele usa para armazenar informações extras na linha do crontab. Por favor use "
-"o caractere redirecionador | para conseguir a mesma funcionalidade. Dirija-se "
-"ao manual crontab para mais informações sobre o caractere %. Se você não "
-"quiser usá-lo para redirecionamento o caractere pode ser devidamente escapado "
-"com a letra \\."
+"o caractere redirecionador | para conseguir a mesma funcionalidade. Consulte "
+"o manual do crontab para mais informações sobre o caractere %. Se você não "
+"quiser usá-lo para redirecionamento escape-o com \\."
 
 #: ../src/crontabEditor.py:489
 msgid ""
@@ -233,7 +235,7 @@ msgid ""
 msgstr ""
 "Nota sobre o diretório de trabalho das tarefas executadas:\n"
 "\n"
-"Tarefas recorrentes podem ser executadas do diretório pessoal."
+"Tarefas recorrentes serão executadas do diretório pessoal."
 
 #: ../src/crontabEditor.py:490 ../src/mainWindow.py:663 ../src/atEditor.py:575
 msgid "_Don't show again"
@@ -245,7 +247,7 @@ msgstr "Aviso: Diretório de trabalho das tarefas executadas"
 
 #: ../src/crontabEditorHelper.py:111
 msgid "Every weekday"
-msgstr "Todo dia útil"
+msgstr "Toda semana"
 
 #: ../src/crontabEditorHelper.py:163
 msgid "Edit minute"
@@ -265,12 +267,12 @@ msgstr "Editar mês"
 
 #: ../src/crontabEditorHelper.py:171
 msgid "Edit weekday"
-msgstr "Editar dia útil"
+msgstr "Editar dia da semana"
 
 #: ../src/crontabEditorHelper.py:185
 #, python-format
 msgid "This is invalid. Reason: %s"
-msgstr "Isto é inválido. Razão: %s"
+msgstr "Isso é inválido. Razão: %s"
 
 #. minute
 #: ../src/crontabEditorHelper.py:231 ../src/gnome-schedule.glade.h:12
@@ -311,11 +313,11 @@ msgstr "Mês:"
 #. weekday
 #: ../src/crontabEditorHelper.py:247
 msgid "On a weekday"
-msgstr "Num dia útil"
+msgstr "Num dia da semana"
 
 #: ../src/crontabEditorHelper.py:248 ../src/gnome-schedule.glade.h:58
 msgid "Weekday:"
-msgstr "Dia útil:"
+msgstr "Dia da semana:"
 
 #: ../src/crontabEditorHelper.py:253 ../src/gnome-schedule.glade.h:41
 #, fuzzy
@@ -340,7 +342,7 @@ msgstr "Meses:"
 
 #: ../src/crontabEditorHelper.py:263
 msgid "Weekdays:"
-msgstr "Dias úteis:"
+msgstr "Dias da semana:"
 
 #: ../src/gnome-schedule-applet.xml.h:1
 msgid "A_bout"
@@ -421,7 +423,7 @@ msgstr "Escolha o usuário cujas tarefas você deseja modificar"
 #: ../src/gnome-schedule.glade.h:18 ../src/template.py:192
 #: ../src/template.py:202
 msgid "Command:"
-msgstr "Co_mando:"
+msgstr "Comando:"
 
 #: ../src/gnome-schedule.glade.h:19
 msgid "Configure Scheduled Tasks"
@@ -478,11 +480,11 @@ msgid ""
 "weekdays or months."
 msgstr ""
 "Execução à um período específico. Por exemplo, a cada cinco minutos, "
-"horas, dias, dias úteis ou meses."
+"horas, dias, semanas ou meses."
 
 #: ../src/gnome-schedule.glade.h:35
 msgid "Execution at every minute, hour, day, weekday or month."
-msgstr "Execução a cada minuto, hora, dia, dia útil ou mês."
+msgstr "Execução a cada minuto, hora, dia, semana ou mês."
 
 #: ../src/gnome-schedule.glade.h:36
 msgid "Execution in a range."
@@ -522,7 +524,7 @@ msgstr "Tarefas agendadas e ativas"
 
 #: ../src/gnome-schedule.glade.h:50
 msgid "See \"man 5 crontab\" for information about the crontab format."
-msgstr "Veja \"man 5 crontab\" para informações sobre o formato da crontab."
+msgstr "Veja \"man 5 crontab\" para informações sobre o formato do crontab."
 
 #: ../src/gnome-schedule.glade.h:51
 msgid "Show help"
@@ -545,7 +547,6 @@ msgid "Time expression help"
 msgstr "Ajuda em expressões de tempo"
 
 #: ../src/gnome-schedule.glade.h:56
-#, fuzzy
 msgid "Time:"
 msgstr "Hora: "
 
@@ -603,7 +604,6 @@ msgstr "A cada minuto"
 
 #: ../src/lang.py:168
 #, python-format
-#, fuzzy
 msgid "At minute %(minute)s of every hour"
 msgstr "No minuto %(minute)s de cada hora"
 
@@ -620,29 +620,30 @@ msgstr "Todos dias às %(time)s"
 #: ../src/lang.py:177
 #, python-format
 msgid "On day %(monthday)s of every month at every full hour"
-msgstr "Todos %(monthday)s do mês a cada hora cheia"
+msgstr "Todo dia %(monthday)s do mês a cada hora cheia"
 
 #: ../src/lang.py:179
 #, python-format
 msgid "On day %(monthday)s of every month at every minute"
-msgstr "Todos %(monthday)s do mês a cada minuto"
+msgstr "Todo dia %(monthday)s do mês a cada minuto"
 
 #: ../src/lang.py:181
 #, python-format
 msgid "On day %(monthday)s of every month at minute %(minute)s of every hour"
-msgstr "Todos %(monthday)s do mês no minuto %(minute)s de cada hora"
+msgstr "Todo dia %(monthday)s do mês no minuto %(minute)s de cada hora"
 
 #: ../src/lang.py:183
 #, python-format
 msgid ""
 "On day %(monthday)s of every month at every minute between %(time_from)s and "
 "%(time_to)s"
-msgstr "Todos %(monthday)s do mês a cada minuto entre %(time_from)s e %(time_to)s"
+msgstr ""
+"Todo dia %(monthday)s do mês a cada minuto entre %(time_from)s e %(time_to)s"
 
 #: ../src/lang.py:185
 #, python-format
 msgid "On day %(monthday)s of every month at %(time)s"
-msgstr "Todos %(monthday)s do mês às %(time)s"
+msgstr "Todo dia %(monthday)s do mês às %(time)s"
 
 #: ../src/lang.py:190
 #, python-format
@@ -664,8 +665,8 @@ msgstr "Todos dias de %(month)s no minuto %(minute)s de cada hora"
 msgid ""
 "On every day in %(month)s at every minute between %(time_from)s and %"
 "(time_to)s"
-msgstr "Todos dias de %(month)s nos minutos entre %(time_from)s e "
-"%(time_to)s"
+msgstr ""
+"Todos dias de %(month)s nos minutos entre %(time_from)s e %(time_to)s"
 
 #: ../src/lang.py:198
 #, python-format
@@ -883,7 +884,7 @@ msgstr "Em %(minute)s, %(hour)s, %(monthday)s, %(month)s"
 #: ../src/lang.py:293
 #, python-format
 msgid "weekday: %s"
-msgstr "dia útil: %s"
+msgstr "dia da semana: %s"
 
 #: ../src/lang.py:294
 #, python-format
@@ -1002,8 +1003,8 @@ msgstr "Copyright (c) %(year)s %(name)s."
 #: ../src/mainWindow.py:749
 msgid "translator-credits"
 msgstr ""
-"Raphael Higino <raphaelh@uai.com.br>\n"
 "Welther José O. Esteves <weltherjoe@yahoo.com.br>\n"
+"Raphael Higino <raphaelh@uai.com.br>\n"
 "Fabrício Godoy <skarllot@gmail.com>"
 
 #: ../src/mainWindow.py:770
@@ -1131,10 +1132,10 @@ msgstr "Execução única"
 #~ msgstr "Edita a Expressão de Tempo para meses"
 
 #~ msgid "Weekday settings"
-#~ msgstr "Configurações de dias úteis"
+#~ msgstr "Configurações de dias da semana"
 
 #~ msgid "Edit Time Expression for weekday"
-#~ msgstr "Edita a Expressão de Tempo para dias úteis"
+#~ msgstr "Edita a Expressão de Tempo para dias da semana"
 
 #~ msgid "<b>Date and Time Settings</b>"
 #~ msgstr "<b>Configurações de Data e Hora</b>"
@@ -1245,7 +1246,7 @@ msgstr "Execução única"
 #~ msgstr "_Ver"
 
 #~ msgid "_Weekdays:"
-#~ msgstr "_Dias úteis:"
+#~ msgstr "_Dias da semana:"
 
 #~ msgid "Icon"
 #~ msgstr "Ícone"
@@ -1368,7 +1369,7 @@ msgstr "Execução única"
 #~ "minute, hour, day, weekday or month"
 #~ msgstr ""
 #~ "Acontece em uma ocorrência definida. Por exemplo, acontece no segundo "
-#~ "minuto, hora, dia, dia da semana ou mês"
+#~ "minuto, hora, dia, semana ou mês"
 
 #~ msgid "Happens at the"
 #~ msgstr "Acontece no"
