@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: gnome-schedule\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-03-17 15:30+0000\n"
-"PO-Revision-Date: 2008-05-24 22:05-0300\n"
+"PO-Revision-Date: 2008-05-31 01:12-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-l10-br@listas.cipsga.org.br>\n"
 "MIME-Version: 1.0\n"
@@ -670,29 +670,29 @@ msgstr "Todos dias de %(month)s nos minutos entre %(time_from)s e "
 #: ../src/lang.py:198
 #, python-format
 msgid "On every day in %(month)s at %(time)s"
-msgstr "Todo dia de %(month)s às %(time)s"
+msgstr "Todos dias de %(month)s às %(time)s"
 
 #: ../src/lang.py:203
 #, python-format
 msgid "Every year on %(date)s at every full hour"
-msgstr "Todo ano em %(date)s em toda hora inteira"
+msgstr "Todo ano no dia %(date)s em toda hora inteira"
 
 #: ../src/lang.py:205
 #, python-format
 msgid "Every year on %(date)s at every minute"
-msgstr "Todo ano em %(date)s em todo minuto"
+msgstr "Todo ano no dia %(date)s em todo minuto"
 
 #: ../src/lang.py:207
 #, python-format
 msgid "Every year on %(date)s at minute %(minute)s of every hour"
-msgstr "Todo ano em %(date)s no minuto %(minute)s de cada hora"
+msgstr "Todo ano no dia %(date)s no minuto %(minute)s de cada hora"
 
 #: ../src/lang.py:209
 #, python-format
 msgid ""
 "Every year on %(date)s at every minute between %(time_from)s and %(time_to)s"
 msgstr ""
-"Todo ano em %(date)s em todos minutos entre %(time_from)s e %(time_to)s"
+"Todo ano no dia %(date)s em todos minutos entre %(time_from)s e %(time_to)s"
 
 #: ../src/lang.py:211
 #, python-format
@@ -767,53 +767,60 @@ msgid ""
 msgstr "Todos dias %(monthday)s do mês e todos(as) %(weekday)s às %(time)s"
 
 #: ../src/lang.py:242
-#, fuzzy, python-format
+#, python-format
 msgid "On every weekday: %(weekday)s in %(month)s at every full hour"
-msgstr "Todo %s dia da semana, a todo minuto"
+msgstr "Todos(as) %(weekday)s de %(month)s a toda hora inteira"
 
 #: ../src/lang.py:244
-#, fuzzy, python-format
+#, python-format
 msgid "On every weekday: %(weekday)s in %(month)s at every minute"
-msgstr "Todo %s dia da semana, a todo minuto"
+msgstr "Todos(as) %(weekday)s de %(month)s a todo minuto"
 
 #: ../src/lang.py:246
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "On every weekday: %(weekday)s in %(month)s at minute %(minute)s of every hour"
-msgstr "Todo %s dia da semana, no %s minuto de cada hora"
+msgstr ""
+"Todos(as) %(weekday)s de %(month)s no minuto %(minute)s de cada hora"
 
 #: ../src/lang.py:248
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "On every weekday: %(weekday)s in %(month)s at every minute between %"
 "(time_from)s and %(time_to)s"
-msgstr "Todo %s dia da semana, a todo minuto"
+msgstr ""
+"Todos(as) %(weekday)s de %(month)s a todo minuto entre %(time_from)s "
+"e %(time_to)s"
 
 #: ../src/lang.py:250
-#, fuzzy, python-format
+#, python-format
 msgid "On every weekday: %(weekday)s in %(month)s at %(time)s"
-msgstr "Todo(a) %(weekday)s de %(month)s às %(time)s"
+msgstr "Todos(as) %(weekday)s de %(month)s às %(time)s"
 
 #: ../src/lang.py:255
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "On every weekday: %(weekday)s in %(month)s and on %(date)s every year at "
 "every full hour"
-msgstr "Todo %s dia da semana, no %s minuto de cada hora"
+msgstr ""
+"Todos(as) %(weekday)s de %(month)s e dia %(date)s de todo ano a cada "
+"hora inteira"
 
 #: ../src/lang.py:257
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "On every weekday: %(weekday)s in %(month)s and on %(date)s every year at "
 "every minute"
-msgstr "Todo %s dia da semana, a todo minuto"
+msgstr "Todos(as) %(weekday)s de %(month)s e dia %(date)s de todo ano a "
+"cada minuto"
 
 #: ../src/lang.py:259
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "On every weekday: %(weekday)s in %(month)s and on %(date)s every year at "
 "minute %(minute)s of every hour"
-msgstr "Todo %s dia da semana, no %s minuto de cada hora"
+msgstr "Todos(as) %(weekday)s de %(month)s e dia %(date)s de todo ano no "
+"minuto %(minute)s de cada hora"
 
 #: ../src/lang.py:261
 #, python-format
@@ -821,17 +828,20 @@ msgid ""
 "On every weekday: %(weekday)s in %(month)s and on %(date)s every year at "
 "every minute between %(time_from)s and %(time_to)s"
 msgstr ""
+"Todos(as) %(weekday)s de %(month)s e dia %(date)s de todo ano a cada "
+"minuto entre %(time_from)s e %(time_to)s"
 
 #: ../src/lang.py:263
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "On every weekday: %(weekday)s in %(month)s and on %(date)s every year at %"
 "(time)s"
-msgstr "Todo(a) %(weekday)s de %(month)s às %(time)s"
+msgstr "Todos(as) %(weekday)s de %(month)s e dia %(date)s de todo ano às "
+"%(time)s"
 
 #: ../src/lang.py:271
 msgid "every minute"
-msgstr "a cada minuto"
+msgstr "todo minuto"
 
 #: ../src/lang.py:273
 #, python-format
@@ -840,7 +850,7 @@ msgstr "minuto: %s"
 
 #: ../src/lang.py:276
 msgid "every hour"
-msgstr "a cada hora"
+msgstr "toda hora"
 
 #: ../src/lang.py:278
 #, python-format
@@ -873,7 +883,7 @@ msgstr "Em %(minute)s, %(hour)s, %(monthday)s, %(month)s"
 #: ../src/lang.py:293
 #, python-format
 msgid "weekday: %s"
-msgstr "dia de semana: %s"
+msgstr "dia útil: %s"
 
 #: ../src/lang.py:294
 #, python-format
@@ -881,23 +891,20 @@ msgid "At %(minute)s, %(hour)s, %(monthday)s, %(month)s, %(weekday)s"
 msgstr "Em %(minute)s, %(hour)s, %(monthday)s, %(month)s, %(weekday)s"
 
 #: ../src/mainWindow.py:111
-#, fuzzy
 msgid "Recurrent task"
-msgstr "Recorrente"
+msgstr "Tarefa recorrente"
 
 #: ../src/mainWindow.py:122
 msgid "One-time task"
-msgstr ""
+msgstr "Tarefa de execução única"
 
 #: ../src/mainWindow.py:133
-#, fuzzy
 msgid "From template"
-msgstr "_Modelo:"
+msgstr "Do modelo"
 
 #: ../src/mainWindow.py:152
-#, fuzzy
 msgid "Add a new task"
-msgstr "_Adicionar uma tarefa"
+msgstr "Adicionar uma nova tarefa"
 
 #: ../src/mainWindow.py:285 ../src/mainWindow.py:415
 #, python-format
@@ -916,9 +923,8 @@ msgstr "ERRO: Não foi possível carregar o arquivo glade"
 
 #: ../src/mainWindow.py:450 ../src/template_chooser.py:69
 #: ../src/template_manager.py:72
-#, fuzzy
 msgid "Task"
-msgstr "_Tarefa"
+msgstr "Tarefa"
 
 #: ../src/mainWindow.py:463 ../src/mainWindow.py:489
 #: ../src/template_chooser.py:78 ../src/template_manager.py:81
@@ -931,7 +937,7 @@ msgstr "Data e Hora"
 
 #: ../src/mainWindow.py:471 ../src/mainWindow.py:484
 msgid "Command preview"
-msgstr ""
+msgstr "Visualização de comando"
 
 #. print ex
 #: ../src/mainWindow.py:543 ../src/mainWindow.py:606
@@ -949,11 +955,14 @@ msgid ""
 "This is used to preview the task and initiates a one-time run, this does not "
 "affect the normal scheduled run times."
 msgstr ""
+"Você tem certeza que deseja executar esta tarefa agora?\n"
+"\n"
+"Isto é usado para visualizar a tarefa e inicializa uma execução única, isso "
+"não deveria afetar a execução normal da tarefa."
 
 #: ../src/mainWindow.py:653
-#, fuzzy
 msgid "Are you sure you want to run this task?"
-msgstr "Você deseja excluir essa tarefa?"
+msgstr "Você tem certeza que deseja executar esta tarefa?"
 
 #: ../src/mainWindow.py:662
 msgid ""
@@ -963,15 +972,19 @@ msgid ""
 "directory where Gnome schedule was run from at the time of task creation "
 "(normally the home directory)."
 msgstr ""
+"Nota sobre o diretório de trabalho de tarefas que são executadas:\n"
+"\n"
+"Tarefas recorrentes serão executadas do diretório pessoal e tarefas de "
+"execução única do diretório onde o Gnome Schedule foi executado da vez em "
+"que foi criada a tarefa (normalmente o diretório pessoal)."
 
 #: ../src/mainWindow.py:717
 msgid "Press ENTER to continue and close this window."
-msgstr ""
+msgstr "Tecle ENTER para continuar e fechar esta janela."
 
 #: ../src/mainWindow.py:725
-#, fuzzy
 msgid "Please select a task!"
-msgstr "Por favor, selecione uma tarefa"
+msgstr "Por favor, selecione uma tarefa!"
 
 #: ../src/mainWindow.py:733
 msgid "About Gnome Schedule"
@@ -984,7 +997,7 @@ msgstr "Gnome Schedule"
 #: ../src/mainWindow.py:736
 #, python-format
 msgid "Copyright (c) %(year)s %(name)s."
-msgstr ""
+msgstr "Copyright (c) %(year)s %(name)s."
 
 #: ../src/mainWindow.py:749
 msgid "translator-credits"
@@ -1008,19 +1021,19 @@ msgstr "Usuário inexistente"
 #: ../src/addWindow.py:51
 #, fuzzy
 msgid "A task that launches recurrently"
-msgstr "Uma tarefa agendada que executará de forma _recorrente"
+msgstr "Uma tarefa que executa recorrentemente"
 
 #: ../src/addWindow.py:64
 msgid "A task that launches one time"
-msgstr ""
+msgstr "Uma tarefa que executa uma vez"
 
 #: ../src/addWindow.py:77
 msgid "A task from a predefined template"
-msgstr ""
+msgstr "Uma tarefa de um modelo pré-definido"
 
 #: ../src/atEditor.py:77
 msgid "Calendar"
-msgstr ""
+msgstr "Calendário"
 
 #: ../src/atEditor.py:495
 msgid ""
@@ -1028,11 +1041,14 @@ msgid ""
 "a number out of range. Remember an hour only has 60 minutes and a day only "
 "24 hours."
 msgstr ""
+"Em um ou ambos campos, hora e minuto, foi inserido uma letra, ou um número "
+"fora dos limites. Lembre-se que uma hora tem apenas 60 minutos e um dia "
+"apenas 24 horas."
 
 #: ../src/atEditor.py:554
 #, python-format
 msgid "This is an invalid record! The problem could be: %s"
-msgstr "Esse é um registro inválido! O problema pode ser: %s"
+msgstr "Este é um registro inválido! O problema pode ser: %s"
 
 #: ../src/atEditor.py:574
 msgid ""
@@ -1041,38 +1057,36 @@ msgid ""
 "One-time tasks will be run from the directory where Gnome schedule is run "
 "from (normally the home directory)."
 msgstr ""
+"Nota sobre o diretório de trabalho das tarefas executadas:\n"
+"\n"
+"Tarefas de execução única serão executadas do diretório onde o Gnome "
+"Schedule foi executado (normalmente do diretório pessoal)."
 
 #: ../src/template.py:192 ../src/template.py:202
-#, fuzzy
 msgid "Title:"
-msgstr "Título"
+msgstr "Título:"
 
 #: ../src/template.py:202
-#, fuzzy
 msgid "Run:"
-msgstr "Executar"
+msgstr "Executar:"
 
 #: ../src/template.py:204
-#, fuzzy
 msgid "No output"
-msgstr "_Sem saída"
+msgstr "Sem saída"
 
 #: ../src/template_chooser.py:40 ../src/template_manager.py:37
-#, fuzzy
 msgid "Use template"
-msgstr "_Adicionar uma tarefa"
+msgstr "Usar modelo"
 
 #: ../src/template_chooser.py:97 ../src/template_manager.py:102
 msgid "One-time"
-msgstr ""
+msgstr "Execução única"
 
-#, fuzzy
 #~ msgid "Edit"
-#~ msgstr "Toda hora"
+#~ msgstr "Editar"
 
-#, fuzzy
 #~ msgid "<b>Manage templates</b>"
-#~ msgstr "<b>Configurações de minutos</b>"
+#~ msgstr "<b>Gerenciar modelos</b>"
 
 #~ msgid "-"
 #~ msgstr "-"
@@ -1117,10 +1131,10 @@ msgstr ""
 #~ msgstr "Edita a Expressão de Tempo para meses"
 
 #~ msgid "Weekday settings"
-#~ msgstr "Configurações de dias da semana"
+#~ msgstr "Configurações de dias úteis"
 
 #~ msgid "Edit Time Expression for weekday"
-#~ msgstr "Edita a Expressão de Tempo para dias da semana"
+#~ msgstr "Edita a Expressão de Tempo para dias úteis"
 
 #~ msgid "<b>Date and Time Settings</b>"
 #~ msgstr "<b>Configurações de Data e Hora</b>"
@@ -1169,7 +1183,7 @@ msgstr ""
 #~ "however, quit this system schedule maintenance tool."
 #~ msgstr ""
 #~ "Sai da aplicação. Isso não vai parar o agendamento do sistema, mas vai "
-#~ "sair dessa ferramenta de manutenção da agenda do sistema."
+#~ "sair dessa ferramenta de manutenção de agendamentos do sistema."
 
 #~ msgid "Rec_urrence:"
 #~ msgstr "_Recorrência:"
@@ -1231,7 +1245,7 @@ msgstr ""
 #~ msgstr "_Ver"
 
 #~ msgid "_Weekdays:"
-#~ msgstr "_Dias de semana:"
+#~ msgstr "_Dias úteis:"
 
 #~ msgid "Icon"
 #~ msgstr "Ícone"
