@@ -5,14 +5,15 @@
 # Raul Pereira <contato@raulpereira.com>, 2007.
 # Leonardo Ferreira Fontenelle <leo.fontenelle@gmail.com>, 2007.
 # Og Maciel <ogmaciel@gnome.org>, 2007-2008.
+# Fabrício Godoy <skarllot@gmail.com>, 2008.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-mount\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-04-17 00:47+0100\n"
-"PO-Revision-Date: 2008-02-27 09:11-0500\n"
-"Last-Translator: Og Maciel <ogmaciel@gnome.org>\n"
+"PO-Revision-Date: 2008-06-04 02:33-0300\n"
+"Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-l10n-br@listas.cipsga.org.br>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,7 +26,7 @@ msgid ""
 "A list of default mount options for volumes formatted with the iso9660 file "
 "system."
 msgstr ""
-"Uma lista de opções de montagem predefinidas para volumes formatados com a "
+"Uma lista de opções de montagem predefinidas para volumes formatados com o "
 "sistema de arquivos iso9660."
 
 #: ../gnome-mount.schemas.in.h:2
@@ -33,15 +34,15 @@ msgid ""
 "A list of default mount options for volumes formatted with the ntfs file "
 "system using ntfs-3g."
 msgstr ""
-"Uma lista de opções predefinidas para montar com ntfs-3g volumes formatados "
-"com o sistema de arquivos ntfs."
+"Uma lista de opções de montagem predefinidas para volumes formatados com o "
+"sistema de arquivos ntfs usando ntfs-3g."
 
 #: ../gnome-mount.schemas.in.h:3
 msgid ""
 "A list of default mount options for volumes formatted with the ntfs file "
 "system."
 msgstr ""
-"Uma lista de opções de montagem predefinidas para volumes formatados com a "
+"Uma lista de opções de montagem predefinidas para volumes formatados com o "
 "sistema de arquivos ntfs."
 
 #: ../gnome-mount.schemas.in.h:4
@@ -49,7 +50,7 @@ msgid ""
 "A list of default mount options for volumes formatted with the udf file "
 "system."
 msgstr ""
-"Uma lista de opções de montagem predefinidas para volumes formatados com a "
+"Uma lista de opções de montagem predefinidas para volumes formatados com o "
 "sistema de arquivos udf."
 
 #: ../gnome-mount.schemas.in.h:5
@@ -88,7 +89,7 @@ msgid ""
 "the 'ntfs' file system driver by overriding it per-volume or on the command "
 "line."
 msgstr ""
-"O nome do \"driver\" (controlador) de sistema de arquivos usado padrão "
+"O nome do \"driver\" (controlador) de sistema de arquivos a usar por padrão "
 "quando \"ntfs\" for detectado. Isso é útil para configurar o sistema para "
 "usar o driver \"ntfs-3g\" para todos os sistemas de arquivos \"ntfs\" por "
 "padrão. Os usuários podem ainda escolher o driver \"ntfs\" substituindo o "
@@ -183,10 +184,13 @@ msgid ""
 "\n"
 "<b>%s:</b> %s"
 msgstr ""
+"Houve um erro ao ejetar o volume ou unidade.\n"
+"\n"
+"<b>%s:</b> %s"
 
 #: ../src/gnome-mount.c:294
 msgid "Cannot unmount volume"
-msgstr "Não foi possível montar volume"
+msgstr "Não foi possível desmontar o volume"
 
 #: ../src/gnome-mount.c:305
 #, c-format
@@ -261,11 +265,11 @@ msgstr "Você não possui privilégios para montar este volume."
 #: ../src/gnome-mount.c:434
 #, c-format
 msgid "Invalid mount option when attempting to mount the volume '%s'."
-msgstr "Opção de montagem inválida ao tentar monta o volume \"%s\"."
+msgstr "Opção de montagem inválida ao tentar montar o volume \"%s\"."
 
 #: ../src/gnome-mount.c:435
 msgid "Invalid mount option when attempting to mount the volume."
-msgstr "Opção de montagem inválida ao tentar monta o volume."
+msgstr "Opção de montagem inválida ao tentar montar o volume."
 
 #: ../src/gnome-mount.c:441
 #, c-format
@@ -273,7 +277,7 @@ msgid ""
 "The volume '%s' uses the <i>%s</i> file system which is not supported by "
 "your system."
 msgstr ""
-"O volume \"%s\" usa o sistema de arquivos <i>%s</i>, ao qual seus sistema "
+"O volume \"%s\" usa o sistema de arquivos <i>%s</i>, ao qual seu sistema "
 "não dá suporte."
 
 #: ../src/gnome-mount.c:442
@@ -282,7 +286,7 @@ msgid ""
 "The volume uses the <i>%s</i> file system which is not supported by your "
 "system."
 msgstr ""
-"O volume usa o sistema de arquivos <i>%s</i>, ao qual seus sistema não dá "
+"O volume usa o sistema de arquivos <i>%s</i>, ao qual seu sistema não dá "
 "suporte."
 
 #: ../src/gnome-mount.c:458
@@ -329,8 +333,8 @@ msgid ""
 "There is data that needs to be written to the device %s before it can be "
 "removed. Please do not remove the media or disconnect the drive."
 msgstr ""
-"Existem dados que precisam ser escritos no dispositivo %s antes que esse "
-"seja removido. Por favor não remova a mídia nem desconecte a unidade."
+"Existem dados que precisam ser escritos no dispositivo %s antes que o mesmo "
+"possa ser removido. Por favor, não remova a mídia nem desconecte a unidade."
 
 #: ../src/gnome-mount.c:1619
 msgid "Device is now safe to remove"
@@ -367,31 +371,31 @@ msgid "Enter password to unlock encrypted data for %s: "
 msgstr "Digite a senha para desbloquear os dados criptografados para %s: "
 
 #: ../src/gnome-mount.c:2236
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "The storage device %s contains encrypted data on partition %d. Enter a "
 "password to unlock."
 msgstr ""
-"O dispositivo de armazenamento %s contém dados criptografados. Digite uma "
-"senha para desbloqueá-lo."
+"O dispositivo de armazenamento %s contém dados criptografados na "
+"partição %d. Digite a senha para desbloqueá-lo."
 
 #: ../src/gnome-mount.c:2240
-#, fuzzy, c-format
+#, c-format
 msgid "Unlock Encrypted Data (partition %d)"
-msgstr "Desbloqueando Dados Criptografados"
+msgstr "Desbloquear Dados Criptografados (partição %d)"
 
 #: ../src/gnome-mount.c:2243
 #, c-format
 msgid ""
 "The storage device %s contains encrypted data. Enter a password to unlock."
 msgstr ""
-"O dispositivo de armazenamento %s contém dados criptografados. Digite uma "
+"O dispositivo de armazenamento %s contém dados criptografados. Digite a "
 "senha para desbloqueá-lo."
 
 #: ../src/gnome-mount.c:2246
 #, c-format
 msgid "Unlock Encrypted Data"
-msgstr "Desbloqueando Dados Criptografados"
+msgstr "Desbloquear Dados Criptografados"
 
 #: ../src/gnome-mount.c:2351
 #, c-format
@@ -412,7 +416,7 @@ msgstr "O dispositivo não criptografado é %s. Montando.\n"
 #, c-format
 msgid "X display not available - using text-based operation.\n"
 msgstr ""
-"Dispositivo do X não disponível - usando a operação baseada em texto.\n"
+"Dispositivo do X não disponível - usando a operação em modo texto.\n"
 
 #: ../src/gnome-mount.c:2885
 #, c-format
@@ -451,16 +455,16 @@ msgstr "Não foi possível desmontar e ejetar simultaneamente"
 #: ../src/gnome-mount.c:3104
 #, c-format
 msgid "Crypto volume '%s' is already setup with clear volume '%s'"
-msgstr "O volume criptografado \"%s\" esta definido com o volume limpo \"%s\""
+msgstr "O volume criptografado \"%s\" já está definido com o volume limpo \"%s\""
 
 #: ../src/gnome-mount.c:3119
 #, c-format
 msgid "Crypto device %s is locked"
-msgstr ""
+msgstr "O dispositivo criptografado %s está travado"
 
 #: ../src/gnome-mount.c:3143
 msgid "Bad crypto password"
-msgstr "Senha criptografada ruim"
+msgstr "Senha de criptografia ruim"
 
 #: ../src/gnome-mount.c:3150
 msgid "Bailing out..."
@@ -705,12 +709,12 @@ msgstr "SecureDigital / MultiMediaCard"
 #: ../src/gnome-mount-properties-view.c:689
 #: ../src/gnome-mount-properties-view.c:989
 msgid "Digital Camera"
-msgstr "Digital Camera"
+msgstr "Câmera Digital"
 
 #: ../src/gnome-mount-properties-view.c:692
 #: ../src/gnome-mount-properties-view.c:992
 msgid "Digital Audio Player"
-msgstr "Digital Audio Player"
+msgstr "Reprodutor de Áudio Digital"
 
 #: ../src/gnome-mount-properties-view.c:695
 #: ../src/gnome-mount-properties-view.c:995
