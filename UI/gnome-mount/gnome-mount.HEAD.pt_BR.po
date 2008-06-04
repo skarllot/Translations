@@ -1,0 +1,850 @@
+# Brazilian Portuguese translation of gnome-mount.
+# Copyright (C) 2001-2007 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gnome-mount package.
+# Washington Lins <washington-lins@uol.com.br>, 2007.
+# Raul Pereira <contato@raulpereira.com>, 2007.
+# Leonardo Ferreira Fontenelle <leo.fontenelle@gmail.com>, 2007.
+# Og Maciel <ogmaciel@gnome.org>, 2007-2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-mount\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-04-17 00:47+0100\n"
+"PO-Revision-Date: 2008-02-27 09:11-0500\n"
+"Last-Translator: Og Maciel <ogmaciel@gnome.org>\n"
+"Language-Team: Brazilian Portuguese <gnome-l10n-br@listas.cipsga.org.br>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: BRAZIL\n"
+
+#: ../gnome-mount.schemas.in.h:1
+msgid ""
+"A list of default mount options for volumes formatted with the iso9660 file "
+"system."
+msgstr ""
+"Uma lista de opções de montagem predefinidas para volumes formatados com a "
+"sistema de arquivos iso9660."
+
+#: ../gnome-mount.schemas.in.h:2
+msgid ""
+"A list of default mount options for volumes formatted with the ntfs file "
+"system using ntfs-3g."
+msgstr ""
+"Uma lista de opções predefinidas para montar com ntfs-3g volumes formatados "
+"com o sistema de arquivos ntfs."
+
+#: ../gnome-mount.schemas.in.h:3
+msgid ""
+"A list of default mount options for volumes formatted with the ntfs file "
+"system."
+msgstr ""
+"Uma lista de opções de montagem predefinidas para volumes formatados com a "
+"sistema de arquivos ntfs."
+
+#: ../gnome-mount.schemas.in.h:4
+msgid ""
+"A list of default mount options for volumes formatted with the udf file "
+"system."
+msgstr ""
+"Uma lista de opções de montagem predefinidas para volumes formatados com a "
+"sistema de arquivos udf."
+
+#: ../gnome-mount.schemas.in.h:5
+msgid ""
+"A list of default mount options for volumes formatted with the vfat file "
+"system."
+msgstr ""
+"Uma lista de opções de montagem predefinidas para volumes formatados com a "
+"sistema de arquivos vfat."
+
+#: ../gnome-mount.schemas.in.h:6
+msgid "Default mount options for iso9660 fs"
+msgstr "Opções de montagem padrão para o sistema de arquivos iso9660"
+
+#: ../gnome-mount.schemas.in.h:7
+msgid "Default mount options for ntfs fs"
+msgstr "Opções de montagem padrão para o sistema de arquivos ntfs"
+
+#: ../gnome-mount.schemas.in.h:8
+msgid "Default mount options for ntfs-3g fs"
+msgstr "Opções de montagem padrão para o sistema de arquivos ntfs-3g"
+
+#: ../gnome-mount.schemas.in.h:9
+msgid "Default mount options for udf fs"
+msgstr "Opções de montagem padrão para o sistema de arquivos udf"
+
+#: ../gnome-mount.schemas.in.h:10
+msgid "Default mount options for vfat fs"
+msgstr "Opções de montagem padrão para o sistema de arquivos vfat"
+
+#: ../gnome-mount.schemas.in.h:11
+msgid ""
+"The name of the file system driver to use by default when 'ntfs' is "
+"detected. This is useful for configuring the system to use the 'ntfs-3g' "
+"driver for all 'ntfs' file systems by default. User can still choose to use "
+"the 'ntfs' file system driver by overriding it per-volume or on the command "
+"line."
+msgstr ""
+"O nome do \"driver\" (controlador) de sistema de arquivos usado padrão "
+"quando \"ntfs\" for detectado. Isso é útil para configurar o sistema para "
+"usar o driver \"ntfs-3g\" para todos os sistemas de arquivos \"ntfs\" por "
+"padrão. Os usuários podem ainda escolher o driver \"ntfs\" substituindo o "
+"driver volume-a-volume ou na linha de comando."
+
+#: ../gnome-mount.schemas.in.h:12
+msgid "When 'ntfs' is detected, what file system driver to use by default"
+msgstr "Driver de sistema de arquivos padrão para \"ntfs\""
+
+#: ../src/copy-paste/gnome-password-dialog.c:210
+msgid "_Username:"
+msgstr "Nome de _usuário:"
+
+#: ../src/copy-paste/gnome-password-dialog.c:213
+msgid "_Domain:"
+msgstr "_Domínio:"
+
+#: ../src/copy-paste/gnome-password-dialog.c:216
+msgid "_Password:"
+msgstr "Sen_ha:"
+
+#: ../src/copy-paste/gnome-password-dialog.c:219
+msgid "_New password:"
+msgstr "_Nova senha:"
+
+#: ../src/copy-paste/gnome-password-dialog.c:220
+msgid "Con_firm password:"
+msgstr "Con_firmar senha:"
+
+#: ../src/copy-paste/gnome-password-dialog.c:223
+msgid "Password quality:"
+msgstr "Qualidade da senha:"
+
+#: ../src/copy-paste/gnome-password-dialog.c:338
+msgid "Co_nnect"
+msgstr "Co_nectar"
+
+#: ../src/copy-paste/gnome-password-dialog.c:371
+msgid "Connect _anonymously"
+msgstr "Conectar _anonimamente"
+
+#: ../src/copy-paste/gnome-password-dialog.c:376
+msgid "Connect as u_ser:"
+msgstr "Conectar como u_suário:"
+
+#: ../src/copy-paste/gnome-password-dialog.c:438
+msgid "_Forget password immediately"
+msgstr "_Esquecer a senha imediatamente"
+
+#: ../src/copy-paste/gnome-password-dialog.c:444
+msgid "_Remember password until you logout"
+msgstr "Lembra_r senha até o logout"
+
+#: ../src/copy-paste/gnome-password-dialog.c:450
+msgid "_Remember forever"
+msgstr "Lembra_r para sempre"
+
+#: ../src/gnome-mount.c:184
+msgid "Unable to mount media."
+msgstr "Não foi possível montar mídia."
+
+#: ../src/gnome-mount.c:187
+msgid "There is probably no media in the drive."
+msgstr "Provavelmente não há mídia na unidade."
+
+#: ../src/gnome-mount.c:217
+msgid "Cannot eject volume"
+msgstr "Não foi possível ejetar o volume"
+
+#: ../src/gnome-mount.c:228
+#, c-format
+msgid "You are not privileged to eject the volume '%s'."
+msgstr "Você não possui privilégios para ejetar o volume \"%s\"."
+
+#: ../src/gnome-mount.c:229
+msgid "You are not privileged to eject this volume."
+msgstr "Você não possui privilégios para ejetar este volume."
+
+#: ../src/gnome-mount.c:237
+#, c-format
+msgid "An application is preventing the volume '%s' from being ejected."
+msgstr "Uma aplicação esta impedindo que o volume \"%s\" seja ejetado."
+
+#: ../src/gnome-mount.c:238
+msgid "An application is preventing the volume from being ejected."
+msgstr "Uma aplicação esta impedindo que o volume seja ejetado."
+
+#: ../src/gnome-mount.c:247
+#, c-format
+msgid ""
+"There was an error ejecting the volume or drive.\n"
+"\n"
+"<b>%s:</b> %s"
+msgstr ""
+
+#: ../src/gnome-mount.c:294
+msgid "Cannot unmount volume"
+msgstr "Não foi possível montar volume"
+
+#: ../src/gnome-mount.c:305
+#, c-format
+msgid "You are not privileged to unmount the volume '%s'."
+msgstr "Você não possui privilégios para desmontar o volume \"%s\"."
+
+#: ../src/gnome-mount.c:306
+msgid "You are not privileged to unmount this volume."
+msgstr "Você não possui privilégios para desmontar o volume."
+
+#: ../src/gnome-mount.c:315
+#, c-format
+msgid "An application is preventing the volume '%s' from being unmounted."
+msgstr "Uma aplicação esta impedindo que o volume \"%s\" seja desmontado."
+
+#: ../src/gnome-mount.c:316
+msgid "An application is preventing the volume from being unmounted."
+msgstr "Uma aplicação esta impedindo que o volume seja desmontado."
+
+#: ../src/gnome-mount.c:323
+#, c-format
+msgid "The volume '%s' is not mounted."
+msgstr "O volume \"%s\" não está montado."
+
+#: ../src/gnome-mount.c:324
+msgid "The volume is not mounted."
+msgstr "O volume não está montado."
+
+#: ../src/gnome-mount.c:332
+#, c-format
+msgid "Cannot unmount the volume '%s'."
+msgstr "Não foi possível desmontar o volume \"%s\"."
+
+#: ../src/gnome-mount.c:333
+msgid "Cannot unmount the volume."
+msgstr "Não foi possível desmontar o volume."
+
+#: ../src/gnome-mount.c:341
+#, c-format
+msgid "The volume '%s' was probably mounted manually on the command line."
+msgstr ""
+"Provavelmente, o volume \"%s\" foi montado manualmente através da linha de "
+"comando."
+
+#: ../src/gnome-mount.c:342
+msgid "The volume was probably mounted manually on the command line."
+msgstr ""
+"Provavelmente, o volume foi montado manualmente através da linha de comando."
+
+#: ../src/gnome-mount.c:352 ../src/gnome-mount.c:506
+#, c-format
+msgid "Error <i>%s</i>."
+msgstr "Erro <i>%s</i>."
+
+#: ../src/gnome-mount.c:362 ../src/gnome-mount.c:518
+msgid "_Details"
+msgstr "_Detalhes"
+
+#: ../src/gnome-mount.c:415
+msgid "Cannot mount volume."
+msgstr "Não foi possível montar o volume."
+
+#: ../src/gnome-mount.c:426
+#, c-format
+msgid "You are not privileged to mount the volume '%s'."
+msgstr "Você não possui privilégios para montar o volume \"%s\"."
+
+#: ../src/gnome-mount.c:427
+msgid "You are not privileged to mount this volume."
+msgstr "Você não possui privilégios para montar este volume."
+
+#: ../src/gnome-mount.c:434
+#, c-format
+msgid "Invalid mount option when attempting to mount the volume '%s'."
+msgstr "Opção de montagem inválida ao tentar monta o volume \"%s\"."
+
+#: ../src/gnome-mount.c:435
+msgid "Invalid mount option when attempting to mount the volume."
+msgstr "Opção de montagem inválida ao tentar monta o volume."
+
+#: ../src/gnome-mount.c:441
+#, c-format
+msgid ""
+"The volume '%s' uses the <i>%s</i> file system which is not supported by "
+"your system."
+msgstr ""
+"O volume \"%s\" usa o sistema de arquivos <i>%s</i>, ao qual seus sistema "
+"não dá suporte."
+
+#: ../src/gnome-mount.c:442
+#, c-format
+msgid ""
+"The volume uses the <i>%s</i> file system which is not supported by your "
+"system."
+msgstr ""
+"O volume usa o sistema de arquivos <i>%s</i>, ao qual seus sistema não dá "
+"suporte."
+
+#: ../src/gnome-mount.c:458
+#, c-format
+msgid "Unable to mount the volume '%s'."
+msgstr "Não foi possível montar o volume \"%s\"."
+
+#: ../src/gnome-mount.c:459
+msgid "Unable to mount the volume."
+msgstr "Não foi possível montar o volume."
+
+#: ../src/gnome-mount.c:474
+#, c-format
+msgid "Volume '%s' is already mounted."
+msgstr "O volume \"%s\" já está montado."
+
+#: ../src/gnome-mount.c:475
+msgid "Volume is already mounted."
+msgstr "Volume já está montado."
+
+#: ../src/gnome-mount.c:845
+#, c-format
+msgid "Mounted %s at \"%s\"\n"
+msgstr "%s montado em \"%s\"\n"
+
+#: ../src/gnome-mount.c:1170 ../src/gnome-mount.c:1733
+#: ../src/gnome-mount.c:1953
+#, c-format
+msgid "Device %s is in /etc/fstab with mount point \"%s\"\n"
+msgstr "Dispositivo %s está em /etc/fstab com ponto de montagem em \"%s\"\n"
+
+#: ../src/gnome-mount.c:1215
+#, c-format
+msgid "Mounted %s at \"%s\" (using /etc/fstab)\n"
+msgstr "%s montado em \"%s\" (usando /etc/fstab)\n"
+
+#: ../src/gnome-mount.c:1576
+msgid "Writing data to device"
+msgstr "Escrevendo dados no dispositivo"
+
+#: ../src/gnome-mount.c:1577
+#, c-format
+msgid ""
+"There is data that needs to be written to the device %s before it can be "
+"removed. Please do not remove the media or disconnect the drive."
+msgstr ""
+"Existem dados que precisam ser escritos no dispositivo %s antes que esse "
+"seja removido. Por favor não remova a mídia nem desconecte a unidade."
+
+#: ../src/gnome-mount.c:1619
+msgid "Device is now safe to remove"
+msgstr "Agora o dispositivo pode ser removido com segurança"
+
+#: ../src/gnome-mount.c:1620
+#, c-format
+msgid "The device %s is now safe to remove."
+msgstr "Agora o dispositivo %s pode ser removido com segurança."
+
+#: ../src/gnome-mount.c:1771
+#, c-format
+msgid "Unmounted %s (using /etc/fstab)\n"
+msgstr "%s desmontado (usando /etc/fstab)\n"
+
+#: ../src/gnome-mount.c:1853
+#, c-format
+msgid "Unmounted %s\n"
+msgstr "%s desmontado\n"
+
+#: ../src/gnome-mount.c:1991
+#, c-format
+msgid "Ejected %s (using /etc/fstab).\n"
+msgstr "%s ejetado (usando /etc/fstab).\n"
+
+#: ../src/gnome-mount.c:2072
+#, c-format
+msgid "Ejected %s\n"
+msgstr "%s ejetado\n"
+
+#: ../src/gnome-mount.c:2212
+#, c-format
+msgid "Enter password to unlock encrypted data for %s: "
+msgstr "Digite a senha para desbloquear os dados criptografados para %s: "
+
+#: ../src/gnome-mount.c:2236
+#, fuzzy, c-format
+msgid ""
+"The storage device %s contains encrypted data on partition %d. Enter a "
+"password to unlock."
+msgstr ""
+"O dispositivo de armazenamento %s contém dados criptografados. Digite uma "
+"senha para desbloqueá-lo."
+
+#: ../src/gnome-mount.c:2240
+#, fuzzy, c-format
+msgid "Unlock Encrypted Data (partition %d)"
+msgstr "Desbloqueando Dados Criptografados"
+
+#: ../src/gnome-mount.c:2243
+#, c-format
+msgid ""
+"The storage device %s contains encrypted data. Enter a password to unlock."
+msgstr ""
+"O dispositivo de armazenamento %s contém dados criptografados. Digite uma "
+"senha para desbloqueá-lo."
+
+#: ../src/gnome-mount.c:2246
+#, c-format
+msgid "Unlock Encrypted Data"
+msgstr "Desbloqueando Dados Criptografados"
+
+#: ../src/gnome-mount.c:2351
+#, c-format
+msgid "Setup clear-text device for %s.\n"
+msgstr "Definir dispositivo não criptografado para %s.\n"
+
+#: ../src/gnome-mount.c:2418
+#, c-format
+msgid "Teared down clear-text device for %s.\n"
+msgstr "Desmontar dispositivo não criptografado para %s.\n"
+
+#: ../src/gnome-mount.c:2465
+#, c-format
+msgid "Clear text device is %s. Mounting.\n"
+msgstr "O dispositivo não criptografado é %s. Montando.\n"
+
+#: ../src/gnome-mount.c:2804
+#, c-format
+msgid "X display not available - using text-based operation.\n"
+msgstr ""
+"Dispositivo do X não disponível - usando a operação baseada em texto.\n"
+
+#: ../src/gnome-mount.c:2885
+#, c-format
+msgid "Resolved device file %s -> %s\n"
+msgstr "Arquivo de dispositivo %s resolvido para %s\n"
+
+#: ../src/gnome-mount.c:2899
+#, c-format
+msgid "Resolved pseudonym \"%s\" -> %s\n"
+msgstr "Pseudônimo \"%s\" resolvido para %s\n"
+
+#: ../src/gnome-mount.c:2902
+#, c-format
+msgid "Cannot resolve pseudonym \"%s\" to a volume\n"
+msgstr "Não foi possível resolver o pseudônimo \"%s\" para o volume\n"
+
+#: ../src/gnome-mount.c:2906
+#, c-format
+msgid "Use --hal-udi, --device or --pseudonym to specify volume\n"
+msgstr "Use --hal-udi, --device ou --pseudonym para especificar um volume\n"
+
+#: ../src/gnome-mount.c:2992
+#, c-format
+msgid "Drive %s does not contain media."
+msgstr "Unidade %s não contém mídia."
+
+#: ../src/gnome-mount.c:3003
+#, c-format
+msgid "Given device '%s' is not a volume or a drive."
+msgstr "O dispositivo fornecido \"%s\" não é um volume ou uma unidade."
+
+#: ../src/gnome-mount.c:3039
+msgid "Cannot unmount and eject simultaneously"
+msgstr "Não foi possível desmontar e ejetar simultaneamente"
+
+#: ../src/gnome-mount.c:3104
+#, c-format
+msgid "Crypto volume '%s' is already setup with clear volume '%s'"
+msgstr "O volume criptografado \"%s\" esta definido com o volume limpo \"%s\""
+
+#: ../src/gnome-mount.c:3119
+#, c-format
+msgid "Crypto device %s is locked"
+msgstr ""
+
+#: ../src/gnome-mount.c:3143
+msgid "Bad crypto password"
+msgstr "Senha criptografada ruim"
+
+#: ../src/gnome-mount.c:3150
+msgid "Bailing out..."
+msgstr "Abortando..."
+
+#: ../src/gnome-mount-properties.c:169 ../src/gnome-mount-properties.c:197
+msgid "Volume"
+msgstr "Volume"
+
+#: ../src/gnome-mount-properties.c:210
+msgid "Drive"
+msgstr "Unidade"
+
+#: ../src/gnome-mount-properties.glade.h:1
+msgid "<b>Connection:</b>"
+msgstr "<b>Conexão:</b>"
+
+#: ../src/gnome-mount-properties.glade.h:2
+msgid "<b>External:</b>"
+msgstr "<b>Externo:</b>"
+
+#: ../src/gnome-mount-properties.glade.h:3
+msgid "<b>File System:</b>"
+msgstr "<b>Sistema de Arquivos:</b>"
+
+#: ../src/gnome-mount-properties.glade.h:4
+msgid "<b>Firmware:</b>"
+msgstr "<b>Firmware:</b>"
+
+#: ../src/gnome-mount-properties.glade.h:5
+msgid "<b>Label:</b>"
+msgstr "<b>Rótulo:</b>"
+
+#: ../src/gnome-mount-properties.glade.h:6
+msgid "<b>Media:</b>"
+msgstr "<b>Mídia:</b>"
+
+#: ../src/gnome-mount-properties.glade.h:7
+msgid "<b>Model:</b>"
+msgstr "<b>Modelo:</b>"
+
+#: ../src/gnome-mount-properties.glade.h:8
+msgid "<b>Mount Options:</b>"
+msgstr "<b>Opções de Montagem:</b>"
+
+#: ../src/gnome-mount-properties.glade.h:9
+msgid "<b>Mount Point:</b>"
+msgstr "<b>Ponto de Montagem:</b>"
+
+#: ../src/gnome-mount-properties.glade.h:10
+msgid "<b>Removable:</b>"
+msgstr "<b>Removível:</b>"
+
+#: ../src/gnome-mount-properties.glade.h:11
+msgid "<b>Serial:</b>"
+msgstr "<b>Série:</b>"
+
+#: ../src/gnome-mount-properties.glade.h:12
+msgid "<b>Settings</b>"
+msgstr "<b>Configurações</b>"
+
+#: ../src/gnome-mount-properties.glade.h:13
+msgid "<b>Size:</b>"
+msgstr "<b>Tamanho:</b>"
+
+#: ../src/gnome-mount-properties.glade.h:14
+msgid "<b>UUID:</b>"
+msgstr "<b>UUID:</b>"
+
+#: ../src/gnome-mount-properties.glade.h:15
+msgid "<b>Vendor:</b>"
+msgstr "<b>Fabricante:</b>"
+
+#: ../src/gnome-mount-properties.glade.h:16
+msgid ""
+"<small><i>Changes in settings will not take effect until the\n"
+"volume is remounted.</i></small>"
+msgstr ""
+"<small><i>Alterações na configuração não terão efeito até que\n"
+"o volume seja remontado.</i></small>"
+
+#: ../src/gnome-mount-properties.glade.h:18
+msgid ""
+"<small><i>Settings for a drive affects all volumes inserted in\n"
+"the drive. This can be overriden for individual \n"
+" volumes using the \"Volume\" tab.</i></small>"
+msgstr ""
+"<small><i>Configurações para uma unidade afetarão todos os volumes\n"
+"inseridos na unidade. Elas podem ser substituídas para\n"
+"volumes individuais usando a aba \"Volume\".</i></small>"
+
+#: ../src/gnome-mount-properties-view.c:571
+#: ../src/gnome-mount-properties-view.c:923
+msgid "Removable Hard Disk"
+msgstr "Disco Rígido Removível"
+
+#: ../src/gnome-mount-properties-view.c:574
+#: ../src/gnome-mount-properties-view.c:926
+msgid "Hard Disk"
+msgstr "Disco Rígido"
+
+#: ../src/gnome-mount-properties-view.c:581
+msgid "CD-ROM Disc"
+msgstr "Disco de CD-ROM"
+
+#: ../src/gnome-mount-properties-view.c:585
+msgid "Blank CD-R Disc"
+msgstr "Disco CD-R Vazio"
+
+#: ../src/gnome-mount-properties-view.c:587
+msgid "CD-R Disc"
+msgstr "Disco CD-R"
+
+#: ../src/gnome-mount-properties-view.c:591
+msgid "Blank CD-RW Disc"
+msgstr "Disco CD-RW Vazio"
+
+#: ../src/gnome-mount-properties-view.c:593
+msgid "CD-RW Disc"
+msgstr "Disco CD-RW"
+
+#: ../src/gnome-mount-properties-view.c:596
+msgid "DVD-ROM Disc"
+msgstr "Disco DVD-ROM"
+
+#: ../src/gnome-mount-properties-view.c:600
+msgid "Blank DVD-RAM Disc"
+msgstr "Disco DVD-RAM Vazio"
+
+#: ../src/gnome-mount-properties-view.c:602
+msgid "DVD-RAM Disc"
+msgstr "Disco DVD-RAM"
+
+#: ../src/gnome-mount-properties-view.c:606
+msgid "Blank DVD-R Disc"
+msgstr "Disco DVD-R Vazio"
+
+#: ../src/gnome-mount-properties-view.c:608
+msgid "DVD-R Disc"
+msgstr "Disco DVD-R"
+
+#: ../src/gnome-mount-properties-view.c:612
+msgid "Blank DVD-RW Disc"
+msgstr "Disco DVD-RW Vazio"
+
+#: ../src/gnome-mount-properties-view.c:614
+msgid "DVD-RW Disc"
+msgstr "Disco DVD-RW"
+
+#: ../src/gnome-mount-properties-view.c:618
+msgid "Blank DVD+R Disc"
+msgstr "Disco DVD+R Vazio"
+
+#: ../src/gnome-mount-properties-view.c:620
+msgid "DVD+R Disc"
+msgstr "Disco DVD+R"
+
+#: ../src/gnome-mount-properties-view.c:624
+msgid "Blank DVD+RW Disc"
+msgstr "Disco DVD+RW Vazio"
+
+#: ../src/gnome-mount-properties-view.c:626
+msgid "DVD+RW Disc"
+msgstr "Disco DVD+RW"
+
+#: ../src/gnome-mount-properties-view.c:630
+msgid "Blank DVD+R Dual Layer Disc"
+msgstr "Disco DVD+R de Dupla Camada Vazio"
+
+#: ../src/gnome-mount-properties-view.c:632
+msgid "DVD+R Dual Layer Disc"
+msgstr "Disco DVD+R de Dupla Camada"
+
+#: ../src/gnome-mount-properties-view.c:636
+msgid "Blank BD-R Disc"
+msgstr "Disco BD-R Vazio"
+
+#: ../src/gnome-mount-properties-view.c:638
+msgid "BD-R Disc"
+msgstr "Disco BD-R"
+
+#: ../src/gnome-mount-properties-view.c:642
+msgid "Blank BD-RE Disc"
+msgstr "Disco BD-RE Vazio"
+
+#: ../src/gnome-mount-properties-view.c:644
+msgid "BD-RE Disc"
+msgstr "Disco BD-RE"
+
+#: ../src/gnome-mount-properties-view.c:647
+msgid "HD DVD-ROM Disc"
+msgstr "Disco HD DVD-ROM"
+
+#: ../src/gnome-mount-properties-view.c:651
+msgid "Blank HD DVD-R Disc"
+msgstr "Disco HD DVD-R Vazio"
+
+#: ../src/gnome-mount-properties-view.c:653
+msgid "HD DVD-R Disc"
+msgstr "Disco HD DVD-R"
+
+#: ../src/gnome-mount-properties-view.c:657
+msgid "Blank HD DVD-RW Disc"
+msgstr "Disco HD DVD-RW Vazio"
+
+#: ../src/gnome-mount-properties-view.c:659
+msgid "HD DVD-RW Disc"
+msgstr "Disco HD DVD-RW"
+
+#: ../src/gnome-mount-properties-view.c:665
+msgid "Audio Disc"
+msgstr "Disco de Áudio"
+
+#: ../src/gnome-mount-properties-view.c:671
+msgid "Floppy Disk"
+msgstr "Disquete"
+
+#: ../src/gnome-mount-properties-view.c:674
+msgid "Tape"
+msgstr "Fita"
+
+#: ../src/gnome-mount-properties-view.c:677
+#: ../src/gnome-mount-properties-view.c:977
+msgid "CompactFlash "
+msgstr "CompactFlash "
+
+#: ../src/gnome-mount-properties-view.c:680
+#: ../src/gnome-mount-properties-view.c:980
+msgid "MemoryStick"
+msgstr "MemoryStick"
+
+#: ../src/gnome-mount-properties-view.c:683
+#: ../src/gnome-mount-properties-view.c:983
+msgid "SmartMedia"
+msgstr "SmartMedia"
+
+#: ../src/gnome-mount-properties-view.c:686
+#: ../src/gnome-mount-properties-view.c:986
+msgid "SecureDigital / MultiMediaCard"
+msgstr "SecureDigital / MultiMediaCard"
+
+#: ../src/gnome-mount-properties-view.c:689
+#: ../src/gnome-mount-properties-view.c:989
+msgid "Digital Camera"
+msgstr "Digital Camera"
+
+#: ../src/gnome-mount-properties-view.c:692
+#: ../src/gnome-mount-properties-view.c:992
+msgid "Digital Audio Player"
+msgstr "Digital Audio Player"
+
+#: ../src/gnome-mount-properties-view.c:695
+#: ../src/gnome-mount-properties-view.c:995
+msgid "Zip"
+msgstr "Zip"
+
+#: ../src/gnome-mount-properties-view.c:698
+#: ../src/gnome-mount-properties-view.c:998
+msgid "Jaz"
+msgstr "Jaz"
+
+#: ../src/gnome-mount-properties-view.c:701
+#: ../src/gnome-mount-properties-view.c:1001
+msgid "Flash Drive"
+msgstr "Unidade Flash"
+
+#: ../src/gnome-mount-properties-view.c:704
+#: ../src/gnome-mount-properties-view.c:1004
+msgid "Unknown Media"
+msgstr "Mídia Desconhecida"
+
+#: ../src/gnome-mount-properties-view.c:768
+#: ../src/gnome-mount-properties-view.c:775
+msgid "<i>Unknown</i>"
+msgstr "<i>Desconhecido</i>"
+
+#: ../src/gnome-mount-properties-view.c:780
+#: ../src/gnome-mount-properties-view.c:781
+#: ../src/gnome-mount-properties-view.c:782
+msgid "<i>Not Mounted</i>"
+msgstr "<i>Não Montado</i>"
+
+#: ../src/gnome-mount-properties-view.c:848
+msgid "ATA"
+msgstr "ATA"
+
+#: ../src/gnome-mount-properties-view.c:851
+msgid "SCSI"
+msgstr "SCSI"
+
+#: ../src/gnome-mount-properties-view.c:857
+msgid "USB"
+msgstr "USB"
+
+#: ../src/gnome-mount-properties-view.c:910
+msgid "Firewire/IEEE1394"
+msgstr "Firewire/IEEE1394"
+
+#: ../src/gnome-mount-properties-view.c:913
+msgid "CCW"
+msgstr "CCW"
+
+#: ../src/gnome-mount-properties-view.c:917
+msgid "Unknown Connection"
+msgstr "Conexão Desconhecida"
+
+#: ../src/gnome-mount-properties-view.c:936
+msgid "CD-ROM"
+msgstr "CD-ROM"
+
+#: ../src/gnome-mount-properties-view.c:938
+msgid "CD-R"
+msgstr "CD-R"
+
+#: ../src/gnome-mount-properties-view.c:940
+msgid "CD-RW"
+msgstr "CD-RW"
+
+#: ../src/gnome-mount-properties-view.c:944
+msgid "DVD-ROM"
+msgstr "DVD-ROM"
+
+#: ../src/gnome-mount-properties-view.c:946
+msgid "DVD+R"
+msgstr "DVD+R"
+
+#: ../src/gnome-mount-properties-view.c:948
+msgid "DVD+RW"
+msgstr "DVD+RW"
+
+#: ../src/gnome-mount-properties-view.c:950
+msgid "DVD-R"
+msgstr "DVD-R"
+
+#: ../src/gnome-mount-properties-view.c:952
+msgid "DVD-RW"
+msgstr "DVD-RW"
+
+#: ../src/gnome-mount-properties-view.c:954
+msgid "DVD-RAM"
+msgstr "DVD-RAM"
+
+#: ../src/gnome-mount-properties-view.c:957
+msgid "DVD±R"
+msgstr "DVD±R"
+
+#: ../src/gnome-mount-properties-view.c:960
+msgid "DVD±RW"
+msgstr "DVD±RW"
+
+#: ../src/gnome-mount-properties-view.c:963
+#, c-format
+msgid "%s/%s Drive"
+msgstr "Unidade %s/%s"
+
+#: ../src/gnome-mount-properties-view.c:965
+#, c-format
+msgid "%s Drive"
+msgstr "Unidade %s"
+
+#: ../src/gnome-mount-properties-view.c:971
+msgid "Floppy Drive"
+msgstr "Unidade de Disquete"
+
+#: ../src/gnome-mount-properties-view.c:974
+msgid "Tape Drive"
+msgstr "Unidade de Fita"
+
+#: ../src/gnome-mount-properties-view.c:1010
+msgid "Yes (ejectable)"
+msgstr "Sim (ejetável)"
+
+#: ../src/gnome-mount-properties-view.c:1012
+#: ../src/gnome-mount-properties-view.c:1019
+msgid "Yes"
+msgstr "Sim"
+
+#: ../src/gnome-mount-properties-view.c:1015
+#: ../src/gnome-mount-properties-view.c:1021
+msgid "No"
+msgstr "Não"
+
+#~ msgid "Cannot eject the volume '%s'."
+#~ msgstr "Não foi possível ejetar o volume \"%s\"."
+
+#~ msgid "Cannot eject the volume."
+#~ msgstr "Não foi possível ejetar o volume."
