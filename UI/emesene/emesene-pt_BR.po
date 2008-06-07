@@ -1,7 +1,8 @@
 # Brazilian portuguese translation for Emesene.
-# Copyright (C) 2007.
+# Copyright (C) 2007-2008.
 # This file is distributed under the same license as the Emesene package.
-# Alex Tercete Matos <alextercete@gmail.com>.
+# Alex Tercete Matos <alextercete@gmail.com>, 2007-2008.
+# Fabrício Godoy <skarllot@gmail.com>, 2008.
 #
 msgid ""
 msgstr ""
@@ -9,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-03-16 10:56-0300\n"
 "PO-Revision-Date: 2008-05-07 03:58+0000\n"
-"Last-Translator: Alex Tercete <alextercete@gmail.com>\n"
+"Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -386,7 +387,7 @@ msgstr "Erro fatal"
 
 #: Controller.py:370
 msgid "This is a bug. Please report it at:"
-msgstr "Isto é um bug. Por favor, relate-o em:"
+msgstr "Isto é um erro. Por favor, relate-o em:"
 
 #: Controller.py:548
 msgid "invalid check() return value"
@@ -571,7 +572,7 @@ msgstr "Contatos"
 
 #: ConversationUI.py:1290
 msgid "For multiple select hold CTRL key and click"
-msgstr "Para seleção múltipla, pressione a tecla CTRL e clique"
+msgstr "Para seleção múltipla, segure a tecla CTRL e clique"
 
 #: ConversationUI.py:1529 plugins_base/CurrentSong.py:425
 msgid "Status:"
@@ -973,7 +974,8 @@ msgstr ""
 "  Alex Tercete https://launchpad.net/~alextercete\n"
 "  Arthur Cruz https://launchpad.net/~s3t-sk8\n"
 "  Nebososo https://launchpad.net/~nebososo\n"
-"  Rodrigo 'LORD' B. Tolledo https://launchpad.net/~rodrigotolledo"
+"  Rodrigo 'LORD' B. Tolledo https://launchpad.net/~rodrigotolledo\n"
+"  Fabríco Godoy https://launchpad.net/~skarllot-gmail"
 
 #: MainMenu.py:473
 msgid "Empty autoreply"
@@ -1065,7 +1067,7 @@ msgstr "Links e arquivos"
 
 #: PreferenceWindow.py:189
 msgid "Enable rgba colormap (requires restart)"
-msgstr "Ativar mapa de cores rgba (é necessário reiniciar)"
+msgstr "Ativar mapa de cores RGBA (é necessário reiniciar)"
 
 #: PreferenceWindow.py:216
 #, python-format
@@ -1233,7 +1235,7 @@ msgstr "_Salvar arquivos em:"
 
 #: SlashCommands.py:86
 msgid "Use \"/help <command>\" for help on a specific command"
-msgstr "Use \"/help <command>\" para obter ajuda sobre um comando específico"
+msgstr "Use \"/help <comando>\" para obter ajuda sobre um comando específico"
 
 #: SlashCommands.py:87
 msgid "The following commands are available:"
@@ -1323,7 +1325,7 @@ msgstr "_Remover do grupo"
 
 #: UserPanel.py:100 UserPanel.py:118 UserPanel.py:274
 msgid "Click here to set your personal message"
-msgstr "Clique aqui para definir sua mensagem pessoal"
+msgstr "Clique para definir mensagem pessoal"
 
 #: UserPanel.py:107 UserPanel.py:292
 msgid "No media playing"
@@ -1331,7 +1333,7 @@ msgstr "Nenhuma música tocando"
 
 #: UserPanel.py:117
 msgid "Click here to set your nick name"
-msgstr "Clique aqui para definir seu apelido"
+msgstr "Clique para definir seu apelido"
 
 #: UserPanel.py:119
 msgid "Your current media"
