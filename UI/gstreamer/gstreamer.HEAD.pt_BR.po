@@ -3,6 +3,10 @@
 # This file is distributed under the same license as the GStreamer package.
 # Fabrício Godoy <skarllot@gmail.com>, 2008.
 #
+# sink -> mecanismo
+# clock -> relógio
+# flow, stream -> fluxo
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: GStreamer\n"
@@ -22,7 +26,7 @@ msgstr "Exibir a versão do GStreamer"
 
 #: ../gst/gst.c:309
 msgid "Make all warnings fatal"
-msgstr "Tornar todos avisos fatais"
+msgstr "Tornar todos avisos como fatais"
 
 #: ../gst/gst.c:313
 msgid "Print available debug categories and exit"
@@ -36,7 +40,6 @@ msgstr ""
 "para nenhuma saída"
 
 #: ../gst/gst.c:319
-#, fuzzy
 msgid "LEVEL"
 msgstr "NÍVEL"
 
@@ -69,7 +72,7 @@ msgstr "Habilitar diagnótico detalhado do carregamento do plugin"
 
 #: ../gst/gst.c:337
 msgid "Colon-separated paths containing plugins"
-msgstr "Caminhos de plugins, separados por dois-pontos"
+msgstr "Caminhos, separados por dois-pontos, de plugins"
 
 #: ../gst/gst.c:337
 #, fuzzy
@@ -81,7 +84,7 @@ msgid ""
 "Comma-separated list of plugins to preload in addition to the list stored in "
 "environment variable GST_PLUGIN_PATH"
 msgstr ""
-"Lista de plugins separada por vírgulas para pré-carregar além da lista "
+"Lista, separada por vírgulas, de plugins para pré-carregar além da lista "
 "armazenada na variável de ambiente GST_PLUGIN_PATH"
 
 #: ../gst/gst.c:342
@@ -164,6 +167,7 @@ msgid "Internal GStreamer error: state change failed."
 msgstr "Erro interno no GStreamer: falha ao alterar estado."
 
 #: ../gst/gsterror.c:147
+#, fuzzy
 msgid "Internal GStreamer error: pad problem."
 msgstr "Erro interno no GStreamer: problema no pad."
 
@@ -184,6 +188,7 @@ msgid "Internal GStreamer error: seek problem."
 msgstr "Erro interno no GStreamer: problema na busca."
 
 #: ../gst/gsterror.c:157
+#, fuzzy
 msgid "Internal GStreamer error: caps problem."
 msgstr "Erro interno no GStreamer: problema no caps."
 
@@ -225,7 +230,7 @@ msgstr "Não foi possível configurar a biblioteca de suporte."
 
 #: ../gst/gsterror.c:199
 msgid "GStreamer encountered a general resource error."
-msgstr "O GStreamer encontrou um erro geral na biblioteca de recursos."
+msgstr "O GStreamer encontrou um erro geral nos recursos."
 
 #: ../gst/gsterror.c:203
 msgid "Resource not found."
@@ -281,7 +286,7 @@ msgstr "O GStreamer encontrou um erro geral no fluxo."
 
 #: ../gst/gsterror.c:235
 msgid "Element doesn't implement handling of this stream. Please file a bug."
-msgstr "Elemento não implementa a manipulação desse fluxo. Por favor, reporte um erro."
+msgstr "Elemento não implementa a manipulação desse fluxo. Por favor, reporte o erro."
 
 #: ../gst/gsterror.c:237
 msgid "Could not determine type of stream."
@@ -293,7 +298,7 @@ msgstr "O fluxo é de um tipo diferente do que o manipulado por esse elemento."
 
 #: ../gst/gsterror.c:241
 msgid "There is no codec present that can handle the stream's type."
-msgstr "Não há codificador presente que possa manipular esse tipo de fluxo."
+msgstr "Não há um CODEC presente que possa manipular esse tipo de fluxo."
 
 #: ../gst/gsterror.c:242
 msgid "Could not decode stream."
@@ -355,7 +360,7 @@ msgstr "título para ordenação"
 
 #: ../gst/gsttaglist.c:100
 msgid "commonly used title for sorting purposes"
-msgstr "título normalmente usado (ordenar)"
+msgstr "título normalmente usado, para ordenação"
 
 #: ../gst/gsttaglist.c:103
 msgid "artist"
@@ -370,8 +375,9 @@ msgid "artist sortname"
 msgstr "artista para ordenação"
 
 #: ../gst/gsttaglist.c:109
+#, fuzzy
 msgid "person(s) responsible for the recording for sorting purposes"
-msgstr "pessoa(s) responsável(is) pela gravação (ordenar)"
+msgstr "pessoa(s) responsável(is) pela gravação, para ordenação"
 
 #: ../gst/gsttaglist.c:112
 msgid "album"
@@ -386,8 +392,9 @@ msgid "album sortname"
 msgstr "álbum para ordenação"
 
 #: ../gst/gsttaglist.c:117
+#, fuzzy
 msgid "album containing this data for sorting purposes"
-msgstr "álbum contendo esses dados (ordernar)"
+msgstr "álbum contendo esses dados, para ordenação"
 
 #: ../gst/gsttaglist.c:119
 msgid "date"
@@ -395,7 +402,7 @@ msgstr "data"
 
 #: ../gst/gsttaglist.c:119
 msgid "date the data was created (as a GDate structure)"
-msgstr "Data que os dados foram criados (como a estrutura GDate)"
+msgstr "data que os dados foram criados (como uma estrutura GDate)"
 
 #: ../gst/gsttaglist.c:122
 msgid "genre"
@@ -418,6 +425,7 @@ msgid "extended comment"
 msgstr "comentário prolongado"
 
 #: ../gst/gsttaglist.c:131
+#, fuzzy
 msgid "free text commenting the data in key=value or key[en]=comment form"
 msgstr "texto livre comentando os dados, usando o formato chave=valor ou chave[en]=comentário"
 
@@ -749,12 +757,12 @@ msgstr "não foi possível validar o caps \"%s\""
 #: ../gst/parse/grammar.y:645 ../gst/parse/grammar.y:693
 #: ../gst/parse/grammar.y:709 ../gst/parse/grammar.y:772
 msgid "link without source element"
-msgstr "vínculo sem elemento fonte"
+msgstr "vínculo sem o elemento fonte"
 
 #: ../gst/parse/grammar.y:651 ../gst/parse/grammar.y:690
 #: ../gst/parse/grammar.y:781
 msgid "link without sink element"
-msgstr "vínculo sem elemento de mecanismo (sink)"
+msgstr "vínculo sem elemento de mecanismo"
 
 #: ../gst/parse/grammar.y:727
 #, c-format
@@ -779,7 +787,7 @@ msgstr "não foi possível vincular o elemento de mecanismo para o URI \"%s\""
 #. NOP
 #: ../gst/parse/grammar.y:766
 msgid "empty pipeline not allowed"
-msgstr "não é permitida fila de processamento vazia"
+msgstr "não é permitido que a fila de processamento seja vazia"
 
 #: ../libs/gst/base/gstbasesrc.c:1915
 msgid "Internal clock error."
@@ -798,6 +806,7 @@ msgid "Internal data stream error."
 msgstr "Erro interno no fluxo de dados."
 
 #: ../plugins/elements/gstcapsfilter.c:109
+#, fuzzy
 msgid "Filter caps"
 msgstr "Filtrar caps"
 
@@ -807,7 +816,7 @@ msgid ""
 "property takes a reference to the supplied GstCaps object."
 msgstr ""
 "Restrinja as possíveis capacidades permitidas (NULO significa TODAS). "
-"Definindo issa propriedade é obtida uma referência para o objeto GstCaps "
+"Definindo essa propriedade é obtida uma referência para o objeto GstCaps "
 "fornecido."
 
 #: ../plugins/elements/gstfdsink.c:297
