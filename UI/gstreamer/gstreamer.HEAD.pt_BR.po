@@ -3,9 +3,14 @@
 # This file is distributed under the same license as the GStreamer package.
 # Fabrício Godoy <skarllot@gmail.com>, 2008.
 #
-# sink -> mecanismo
+# pipeline -> fila de processamento
+# sink -> consumidor
 # clock -> relógio
-# flow, stream -> fluxo
+# flow -> vazão
+# stream -> fluxo
+# preroll -> preparar
+# clock -> temporizador
+# sources + sinks = pad
 #
 msgid ""
 msgstr ""
@@ -26,7 +31,7 @@ msgstr "Exibir a versão do GStreamer"
 
 #: ../gst/gst.c:309
 msgid "Make all warnings fatal"
-msgstr "Tornar todos avisos como fatais"
+msgstr "Tratar todos avisos como fatais"
 
 #: ../gst/gst.c:313
 msgid "Print available debug categories and exit"
@@ -54,7 +59,6 @@ msgstr ""
 "GST_AUTOPLUG:5,GST_ELEMENT_*:3"
 
 #: ../gst/gst.c:324
-#, fuzzy
 msgid "LIST"
 msgstr "LISTA"
 
@@ -75,7 +79,6 @@ msgid "Colon-separated paths containing plugins"
 msgstr "Caminhos, separados por dois-pontos, de plugins"
 
 #: ../gst/gst.c:337
-#, fuzzy
 msgid "PATHS"
 msgstr "CAMINHOS"
 
@@ -88,7 +91,6 @@ msgstr ""
 "armazenada na variável de ambiente GST_PLUGIN_PATH"
 
 #: ../gst/gst.c:342
-#, fuzzy
 msgid "PLUGINS"
 msgstr "PLUGINS"
 
@@ -110,7 +112,7 @@ msgstr "Opções do GStreamer"
 
 #: ../gst/gst.c:377
 msgid "Show GStreamer Options"
-msgstr "Exibir Opções do GStreamer"
+msgstr "Exibir opções do GStreamer"
 
 #: ../gst/gst.c:752
 #, c-format
@@ -169,7 +171,7 @@ msgstr "Erro interno no GStreamer: falha ao alterar estado."
 #: ../gst/gsterror.c:147
 #, fuzzy
 msgid "Internal GStreamer error: pad problem."
-msgstr "Erro interno no GStreamer: problema no pad."
+msgstr "Erro interno no GStreamer: problema no Pad."
 
 #: ../gst/gsterror.c:149
 msgid "Internal GStreamer error: thread problem."
@@ -190,7 +192,7 @@ msgstr "Erro interno no GStreamer: problema na busca."
 #: ../gst/gsterror.c:157
 #, fuzzy
 msgid "Internal GStreamer error: caps problem."
-msgstr "Erro interno no GStreamer: problema no caps."
+msgstr "Erro interno no GStreamer: problema no Caps."
 
 #: ../gst/gsterror.c:158
 msgid "Internal GStreamer error: tag problem."
@@ -202,7 +204,7 @@ msgstr "Sua instalação do GStreamer está com um plugin faltando."
 
 #: ../gst/gsterror.c:162
 msgid "Internal GStreamer error: clock problem."
-msgstr "Erro interno no GStreamer: problema no relógio."
+msgstr "Erro interno no GStreamer: problema no temporizador."
 
 #: ../gst/gsterror.c:164
 msgid ""
@@ -214,7 +216,7 @@ msgstr ""
 
 #: ../gst/gsterror.c:179
 msgid "GStreamer encountered a general supporting library error."
-msgstr "O GStreamer encotrou um erro geral na biblioteca de suporte."
+msgstr "O GStreamer encontrou um erro geral na biblioteca de suporte."
 
 #: ../gst/gsterror.c:183
 msgid "Could not initialize supporting library."
@@ -266,7 +268,7 @@ msgstr "Não foi possível escrever no recurso."
 
 #: ../gst/gsterror.c:212
 msgid "Could not perform seek on resource."
-msgstr "Não foi possível realizar busca no recurso."
+msgstr "Não foi possível realizar uma busca no recurso."
 
 #: ../gst/gsterror.c:213
 msgid "Could not synchronize on resource."
@@ -274,7 +276,7 @@ msgstr "Não foi possível sincronizar no recurso."
 
 #: ../gst/gsterror.c:215
 msgid "Could not get/set settings from/on resource."
-msgstr "Não foi possível obter ou definir configurações para ou do recurso."
+msgstr "Não foi possível obter, ou definir, configurações para, ou do, recurso."
 
 #: ../gst/gsterror.c:216
 msgid "No space left on the resource."
@@ -286,7 +288,7 @@ msgstr "O GStreamer encontrou um erro geral no fluxo."
 
 #: ../gst/gsterror.c:235
 msgid "Element doesn't implement handling of this stream. Please file a bug."
-msgstr "Elemento não implementa a manipulação desse fluxo. Por favor, reporte o erro."
+msgstr "O elemento não implementa a manipulação desse fluxo. Por favor, reporte o erro."
 
 #: ../gst/gsterror.c:237
 msgid "Could not determine type of stream."
@@ -344,7 +346,7 @@ msgstr "Nenhuma mensagem de erro padrão para o domínio %s e código %d."
 
 #: ../gst/gstpipeline.c:527
 msgid "Selected clock cannot be used in pipeline."
-msgstr "O relógio selecionado não pôde ser usado na fila de processamento."
+msgstr "O temporizador selecionado não pôde ser usado na fila de processamento."
 
 #: ../gst/gsttaglist.c:97
 msgid "title"
@@ -392,7 +394,6 @@ msgid "album sortname"
 msgstr "álbum para ordenação"
 
 #: ../gst/gsttaglist.c:117
-#, fuzzy
 msgid "album containing this data for sorting purposes"
 msgstr "álbum contendo esses dados, para ordenação"
 
@@ -591,7 +592,7 @@ msgstr "taxa de bits"
 
 #: ../gst/gsttaglist.c:207
 msgid "exact or average bitrate in bits/s"
-msgstr "taxa de bits exata ou média em bits/s"
+msgstr "taxa de bits exata ou média, em bits/s"
 
 #: ../gst/gsttaglist.c:209
 msgid "nominal bitrate"
@@ -599,7 +600,7 @@ msgstr "taxa de bits nominal"
 
 #: ../gst/gsttaglist.c:209
 msgid "nominal bitrate in bits/s"
-msgstr "taxa de bits nominal em bits/s"
+msgstr "taxa de bits nominal, em bits/s"
 
 #: ../gst/gsttaglist.c:211
 msgid "minimum bitrate"
@@ -607,7 +608,7 @@ msgstr "taxa de bits mínima"
 
 #: ../gst/gsttaglist.c:211
 msgid "minimum bitrate in bits/s"
-msgstr "taxa de bits mínima em bits/s"
+msgstr "taxa de bits mínima, em bits/s"
 
 #: ../gst/gsttaglist.c:213
 msgid "maximum bitrate"
@@ -615,7 +616,7 @@ msgstr "taxa de bits máxima"
 
 #: ../gst/gsttaglist.c:213
 msgid "maximum bitrate in bits/s"
-msgstr "taxa de bits máxima em bits/s"
+msgstr "taxa de bits máxima, em bits/s"
 
 #: ../gst/gsttaglist.c:216
 msgid "encoder"
@@ -721,13 +722,13 @@ msgstr ", "
 #: ../gst/parse/grammar.y:230
 #, c-format
 msgid "specified empty bin \"%s\", not allowed"
-msgstr "o arquivo \"%s\" está vazio, não permitido"
+msgstr "o arquivo \"%s\" está vazio, operação não permitida"
 
 #. Need to clean up the string
 #: ../gst/parse/grammar.y:240
 #, c-format
 msgid "no bin \"%s\", skipping"
-msgstr "nenhum arquivo \"%s\", cancelando"
+msgstr "nenhum Bin \"%s\", cancelando"
 
 #: ../gst/parse/grammar.y:366
 #, c-format
@@ -742,7 +743,7 @@ msgstr "não foi possível definir a propriedade \"%s\" no elemento \"%s\" para 
 #: ../gst/parse/grammar.y:523
 #, c-format
 msgid "could not link %s to %s"
-msgstr "não foi possível vincular %s para %s"
+msgstr "não foi possível vincular %s em %s"
 
 #: ../gst/parse/grammar.y:571
 #, c-format
@@ -752,7 +753,7 @@ msgstr "nenhum elemento \"%s\""
 #: ../gst/parse/grammar.y:623
 #, c-format
 msgid "could not parse caps \"%s\""
-msgstr "não foi possível validar o caps \"%s\""
+msgstr "não foi possível validar o Caps \"%s\""
 
 #: ../gst/parse/grammar.y:645 ../gst/parse/grammar.y:693
 #: ../gst/parse/grammar.y:709 ../gst/parse/grammar.y:772
@@ -762,7 +763,7 @@ msgstr "vínculo sem o elemento fonte"
 #: ../gst/parse/grammar.y:651 ../gst/parse/grammar.y:690
 #: ../gst/parse/grammar.y:781
 msgid "link without sink element"
-msgstr "vínculo sem elemento de mecanismo"
+msgstr "vínculo sem o elemento consumidor"
 
 #: ../gst/parse/grammar.y:727
 #, c-format
@@ -777,12 +778,12 @@ msgstr "nenhum elemento para vincular o URI \"%s\" para"
 #: ../gst/parse/grammar.y:745
 #, c-format
 msgid "no sink element for URI \"%s\""
-msgstr "nenhum elemento de mecanismo para o URI \"%s\""
+msgstr "nenhum elemento consumidor para o URI \"%s\""
 
 #: ../gst/parse/grammar.y:752
 #, c-format
 msgid "could not link sink element for URI \"%s\""
-msgstr "não foi possível vincular o elemento de mecanismo para o URI \"%s\""
+msgstr "não foi possível vincular o elemento consumidor para o URI \"%s\""
 
 #. NOP
 #: ../gst/parse/grammar.y:766
@@ -791,24 +792,23 @@ msgstr "não é permitido que a fila de processamento seja vazia"
 
 #: ../libs/gst/base/gstbasesrc.c:1915
 msgid "Internal clock error."
-msgstr "Erro interno de relógio."
+msgstr "Erro interno no temporizador."
 
 #: ../libs/gst/base/gstbasesrc.c:2239 ../libs/gst/base/gstbasesrc.c:2250
 msgid "Internal data flow error."
-msgstr "Erro interno no fluxo de dados."
+msgstr "Erro interno na vazão de dados."
 
 #: ../libs/gst/base/gstbasesink.c:2562
 msgid "Internal data flow problem."
-msgstr "Problema interno no fluxo de dados."
+msgstr "Problema interno na vazão de dados."
 
 #: ../libs/gst/base/gstbasesink.c:2709
 msgid "Internal data stream error."
 msgstr "Erro interno no fluxo de dados."
 
 #: ../plugins/elements/gstcapsfilter.c:109
-#, fuzzy
 msgid "Filter caps"
-msgstr "Filtrar caps"
+msgstr "Caps do filtro"
 
 #: ../plugins/elements/gstcapsfilter.c:110
 msgid ""
@@ -816,7 +816,7 @@ msgid ""
 "property takes a reference to the supplied GstCaps object."
 msgstr ""
 "Restrinja as possíveis capacidades permitidas (NULO significa TODAS). "
-"Definindo essa propriedade é obtida uma referência para o objeto GstCaps "
+"Definindo essa propriedade é levada uma referência ao objeto GstCaps "
 "fornecido."
 
 #: ../plugins/elements/gstfdsink.c:297
@@ -883,7 +883,7 @@ msgstr "Falha após as interações requeridas."
 
 #: ../plugins/elements/gsttypefindelement.c:194
 msgid "caps"
-msgstr "caps"
+msgstr "Caps"
 
 #: ../plugins/elements/gsttypefindelement.c:195
 msgid "detected capabilities in stream"
@@ -899,11 +899,11 @@ msgstr "máximo"
 
 #: ../plugins/elements/gsttypefindelement.c:208
 msgid "force caps"
-msgstr "forçar caps"
+msgstr "forçar Caps"
 
 #: ../plugins/elements/gsttypefindelement.c:209
 msgid "force caps without doing a typefind"
-msgstr "forçar capss sem fazer uma busca de tipo"
+msgstr "forçar Caps sem fazer uma busca de tipo"
 
 #: ../plugins/elements/gsttypefindelement.c:512
 #: ../plugins/elements/gsttypefindelement.c:776
@@ -913,7 +913,7 @@ msgstr "O fluxo não contém dados."
 #: ../tools/gst-inspect.c:251
 #, c-format
 msgid "Implemented Interfaces:\n"
-msgstr "Interfaces Implementadas:\n"
+msgstr "Interfaces implementadas:\n"
 
 #: ../tools/gst-inspect.c:300
 #, c-format
@@ -986,12 +986,12 @@ msgstr "ERRO: a validação do arquivo xml \"%s\" falhou.\n"
 #: ../tools/gst-launch.c:95
 #, c-format
 msgid "ERROR: no toplevel pipeline element in file '%s'.\n"
-msgstr "ERRO: nenhum elemento de fila de processamento superior no arquivo \"%s\".\n"
+msgstr "ERRO: nenhum elemento de nível superior na fila de processamento do arquivo \"%s\".\n"
 
 #: ../tools/gst-launch.c:102
 #, c-format
 msgid "WARNING: only one toplevel element is supported at this time."
-msgstr "AVISO: apenas um elemento superior é suportado atualmente."
+msgstr "AVISO: apenas um elemento de nível superior é suportado atualmente."
 
 #: ../tools/gst-launch.c:113
 #, c-format
@@ -1001,17 +1001,17 @@ msgstr "ERRO: não foi possível validar o argumento %d da linha de comando: %s.
 #: ../tools/gst-launch.c:124
 #, c-format
 msgid "WARNING: element named '%s' not found.\n"
-msgstr "AVISO: o elemento chamado \"%s\" não foi encontrado.\n"
+msgstr "AVISO: o elemento com o nome \"%s\" não foi encontrado.\n"
 
 #: ../tools/gst-launch.c:394
 #, c-format
 msgid "Got Message from element \"%s\" (%s): "
-msgstr "Mensagem do elemento \"%s\" (%s): "
+msgstr "Obtida mensagem do elemento \"%s\" (%s): "
 
 #: ../tools/gst-launch.c:420
 #, c-format
 msgid "Got EOS from element \"%s\".\n"
-msgstr "EOS do elemento \"%s\".\n"
+msgstr "Ocorreu o fim do consumidor do elemento \"%s\".\n"
 
 #: ../tools/gst-launch.c:428
 #, c-format
@@ -1035,7 +1035,7 @@ msgstr "AVISO: do elemento %s: %s\n"
 #: ../tools/gst-launch.c:506
 #, c-format
 msgid "Prerolled, waiting for buffering to finish...\n"
-msgstr "pré-retrocedido, esperando o preenchimento do buffer para finalizar...\n"
+msgstr "Preparado, esperando o preenchimento do buffer para finalizar...\n"
 
 #: ../tools/gst-launch.c:521
 #, c-format
@@ -1045,32 +1045,32 @@ msgstr "preenchendo buffer... %d  \r"
 #: ../tools/gst-launch.c:533
 #, c-format
 msgid "Done buffering, setting pipeline to PLAYING ...\n"
-msgstr "Preenchimento do buffer completo, definindo fila de processamento para REPRODUZIR ...\n"
+msgstr "Preenchimento do buffer completo, definindo a fila de processamento para REPRODUZIR...\n"
 
 #. we were not buffering but PLAYING, PAUSE  the pipeline.
 #: ../tools/gst-launch.c:541
 #, c-format
 msgid "Buffering, setting pipeline to PAUSED ...\n"
-msgstr "Preenchendo buffer, definindo fila de processamento para PAUSADO ...\n"
+msgstr "Preenchendo buffer, definindo a fila de processamento para PAUSADO...\n"
 
 #. this application message is posted when we caught an interrupt and
 #. * we need to stop the pipeline.
 #: ../tools/gst-launch.c:556
 #, c-format
 msgid "Interrupt: Stopping pipeline ...\n"
-msgstr "Interrupção: Parando fila de processamento ...\n"
+msgstr "Interrupção: Parando a fila de processamento...\n"
 
 #: ../tools/gst-launch.c:591
 msgid "Output tags (also known as metadata)"
-msgstr "Etiquetas de saída (metadados)"
+msgstr "Exibir etiquetas (metadados)"
 
 #: ../tools/gst-launch.c:593
 msgid "Output status information and property notifications"
-msgstr "Informações do estado de saída e notificações de propriedade"
+msgstr "Exibir informações do estado e notificações de propriedade"
 
 #: ../tools/gst-launch.c:595
 msgid "Output messages"
-msgstr "Mensagens de saída"
+msgstr "Exibir mensagens"
 
 #: ../tools/gst-launch.c:597
 msgid "Do not output status information of TYPE"
@@ -1099,7 +1099,7 @@ msgstr "Exibir trilha de alocação (se habilitado na compilação)"
 #: ../tools/gst-launch.c:673
 #, c-format
 msgid "ERROR: pipeline could not be constructed: %s.\n"
-msgstr "ERRO: não foi possível contruir a fila de processamento: %s.\n"
+msgstr "ERRO: não foi possível construir a fila de processamento: %s.\n"
 
 #: ../tools/gst-launch.c:677
 #, c-format
@@ -1119,7 +1119,7 @@ msgstr "ERRO: o elemento da \"fila de processamento\" não foi encontrado.\n"
 #: ../tools/gst-launch.c:714 ../tools/gst-launch.c:784
 #, c-format
 msgid "Setting pipeline to PAUSED ...\n"
-msgstr "Definindo a fila de processamento para PAUSADO ...\n"
+msgstr "Definindo a fila de processamento para PAUSADO...\n"
 
 #: ../tools/gst-launch.c:719
 #, c-format
@@ -1129,27 +1129,27 @@ msgstr "ERRO: A fila do processamento não quer pausar.\n"
 #: ../tools/gst-launch.c:724
 #, c-format
 msgid "Pipeline is live and does not need PREROLL ...\n"
-msgstr "A fila de processamento está executando e não necessita PRÉ-RETROCEDER ...\n"
+msgstr "A fila de processamento está executando e não necessita de PREPARAÇÃO...\n"
 
 #: ../tools/gst-launch.c:728
 #, c-format
 msgid "Pipeline is PREROLLING ...\n"
-msgstr "A fila de processamento está PRÉ-RETROCEDENDO ...\n"
+msgstr "A fila de processamento está PREPARANDO...\n"
 
 #: ../tools/gst-launch.c:731 ../tools/gst-launch.c:744
 #, c-format
 msgid "ERROR: pipeline doesn't want to preroll.\n"
-msgstr "ERRO: a fila de processamento não quer pré-retroceder.\n"
+msgstr "ERRO: a fila de processamento não quer preparar.\n"
 
 #: ../tools/gst-launch.c:737
 #, c-format
 msgid "Pipeline is PREROLLED ...\n"
-msgstr "A fila de processamento está PRÉ-RETROCEDIDA ...\n"
+msgstr "A fila de processamento foi PREPARADA...\n"
 
 #: ../tools/gst-launch.c:749
 #, c-format
 msgid "Setting pipeline to PLAYING ...\n"
-msgstr "Definindo a fila de processamento para REPRODUZINDO ...\n"
+msgstr "Definindo a fila de processamento para REPRODUZINDO...\n"
 
 #: ../tools/gst-launch.c:755
 #, c-format
@@ -1163,14 +1163,14 @@ msgstr "Execução finalizada depois de %"
 #: ../tools/gst-launch.c:788
 #, c-format
 msgid "Setting pipeline to READY ...\n"
-msgstr "Definindo a fila de processamento para PRONTO ...\n"
+msgstr "Definindo a fila de processamento para PRONTO...\n"
 
 #: ../tools/gst-launch.c:793
 #, c-format
 msgid "Setting pipeline to NULL ...\n"
-msgstr "Definindo a fila de processamento para NULO ...\n"
+msgstr "Definindo a fila de processamento para NULO...\n"
 
 #: ../tools/gst-launch.c:798
 #, c-format
 msgid "FREEING pipeline ...\n"
-msgstr "LIBERANDO a fila de processamento ...\n"
+msgstr "LIBERANDO a fila de processamento...\n"
