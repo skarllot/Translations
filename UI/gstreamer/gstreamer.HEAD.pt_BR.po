@@ -1010,7 +1010,7 @@ msgstr "Obtida mensagem do elemento \"%s\" (%s): "
 #: ../tools/gst-launch.c:420
 #, c-format
 msgid "Got EOS from element \"%s\".\n"
-msgstr "Chegou ao final do consumidor do elemento \"%s\".\n"
+msgstr "Chegou ao final do fluxo do elemento \"%s\".\n"
 
 #: ../tools/gst-launch.c:428
 #, c-format
