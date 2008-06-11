@@ -11,13 +11,15 @@
 # preroll -> preparar
 # clock -> temporizador
 # sources + sinks = pad
+# element + element + ... = bin
+# description of media formats = caps
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: GStreamer\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2008-06-04 04:02+0000\n"
-"PO-Revision-Date: 2008-06-04 21:40-0300\n"
+"PO-Revision-Date: 2008-06-10 23:56-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-l10n-br@listas.cipsga.org.br>\n"
 "MIME-Version: 1.0\n"
@@ -169,7 +171,6 @@ msgid "Internal GStreamer error: state change failed."
 msgstr "Erro interno no GStreamer: falha ao alterar estado."
 
 #: ../gst/gsterror.c:147
-#, fuzzy
 msgid "Internal GStreamer error: pad problem."
 msgstr "Erro interno no GStreamer: problema no Pad."
 
@@ -190,7 +191,6 @@ msgid "Internal GStreamer error: seek problem."
 msgstr "Erro interno no GStreamer: problema na busca."
 
 #: ../gst/gsterror.c:157
-#, fuzzy
 msgid "Internal GStreamer error: caps problem."
 msgstr "Erro interno no GStreamer: problema no Caps."
 
@@ -377,7 +377,6 @@ msgid "artist sortname"
 msgstr "artista para ordenação"
 
 #: ../gst/gsttaglist.c:109
-#, fuzzy
 msgid "person(s) responsible for the recording for sorting purposes"
 msgstr "pessoa(s) responsável(is) pela gravação, para ordenação"
 
@@ -560,7 +559,7 @@ msgstr "duração"
 
 #: ../gst/gsttaglist.c:195
 msgid "length in GStreamer time units (nanoseconds)"
-msgstr "Comprimento em unidades de tempo do GStreamer (nanosegundos)"
+msgstr "comprimento em unidades de tempo do GStreamer (nanosegundos)"
 
 #: ../gst/gsttaglist.c:198
 msgid "codec"
@@ -976,7 +975,7 @@ msgstr "Nenhum elemento ou plugin \"%s\"\n"
 #: ../tools/gst-launch.c:80
 #, c-format
 msgid "Usage: gst-xmllaunch <file.xml> [ element.property=value ... ]\n"
-msgstr "Uso: gst-xmllaunch <arquivo.xml> [ elemento.propriedade=valor ...]\n"
+msgstr "Uso: gst-xmllaunch <arquivo.xml> [ elemento.propriedade=valor ... ]\n"
 
 #: ../tools/gst-launch.c:89
 #, c-format
@@ -1011,7 +1010,7 @@ msgstr "Obtida mensagem do elemento \"%s\" (%s): "
 #: ../tools/gst-launch.c:420
 #, c-format
 msgid "Got EOS from element \"%s\".\n"
-msgstr "Ocorreu o fim do consumidor do elemento \"%s\".\n"
+msgstr "Chegou ao final do consumidor do elemento \"%s\".\n"
 
 #: ../tools/gst-launch.c:428
 #, c-format
