@@ -902,7 +902,7 @@ msgstr "forçar Caps"
 
 #: ../plugins/elements/gsttypefindelement.c:209
 msgid "force caps without doing a typefind"
-msgstr "forçar Caps sem fazer uma busca de tipo"
+msgstr "forçar Caps sem usar o typefind"
 
 #: ../plugins/elements/gsttypefindelement.c:512
 #: ../plugins/elements/gsttypefindelement.c:776
