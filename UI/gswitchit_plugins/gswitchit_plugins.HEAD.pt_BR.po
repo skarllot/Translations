@@ -1,119 +1,119 @@
-# gswitchit: translation to Brazilian Portuguese (pt_BR)
-# Copyright (C) 2003 Free Software Foundation, Inc.
+# Brazilian Portuguese translation of gswitchit
+# Copyright (C) 2003, 2008 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gswitchit package.
 # Alexandre Folle de Menezes <afmenez@terra.com.br>, 2003.
-# based on the GNOME 2.2 translation to Portuguese (pt) by
 # Duarte Loreto <happyguy_pt@hotmail.com>, 2003.
+# Fabrício Godoy <skarllot@gmail.com>, 2008.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 2.2\n"
+"Project-Id-Version: gswitchit 2.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-06-11 03:49+0000\n"
-"PO-Revision-Date: 2003-03-27 02:30-0300\n"
-"Last-Translator: Alexandre Folle de Menezes <afmenez@terra.com.br>\n"
-"Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
+"PO-Revision-Date: 2008-07-02 22:14-0300\n"
+"Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
+"Language-Team: Brazilian Portuguese <gnome-l10n-br@listas.cipsga.org.br>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../anim/anim.c:501
 msgid "Animation"
-msgstr ""
+msgstr "Animação"
 
 #: ../anim/anim.c:503
 msgid "Animation plugin"
-msgstr ""
+msgstr "Plugin de animação"
 
 #: ../anim/anim.glade.h:1 ../flags/flags.glade.h:1
 msgid "Download"
-msgstr ""
+msgstr "Download"
 
 #: ../anim/anim.glade.h:2
 msgid "Flags plugin properties"
-msgstr ""
+msgstr "Propriedades dos sinalizadores do plugin"
 
 #: ../anim/anim.glade.h:3 ../flags/flags.glade.h:3
 msgid "_Enable flags"
-msgstr ""
+msgstr "Habilitar sinalizador_es"
 
 #: ../anim/anim.glade.h:4 ../flags/flags.glade.h:4
 msgid "_Start"
-msgstr ""
+msgstr "Iniciar"
 
 #: ../custlbls/custlbls.glade.h:1
-#, fuzzy
 msgid "Custom Labels"
-msgstr "_Costumizado"
+msgstr "Rótulos personalizados"
 
 #: ../custlbls/custlbls.glade.h:2
 msgid "_Label:"
-msgstr ""
+msgstr "Rótulo:"
 
 #: ../custlbls/custlbls.glade.h:3
 msgid "gtk-add"
-msgstr ""
+msgstr "gtk-add"
 
 #: ../custlbls/custlbls.glade.h:4
 msgid "gtk-remove"
-msgstr ""
+msgstr "gtk-remove"
 
 #: ../flags/flags.c:233
 msgid "Unpacking ..."
-msgstr ""
+msgstr "Desempacotando..."
 
 #: ../flags/flags.c:268
 #, c-format
 msgid "Error on the archive unpacking: %d"
-msgstr ""
+msgstr "Erro ao desempacotar o arquivo: %d"
 
 #: ../flags/flags.c:277
 #, c-format
 msgid "Script execution error %d: %s"
-msgstr ""
+msgstr "Erro %d ao executar o script: %s"
 
 #: ../flags/flags.c:288
 #, c-format
 msgid "Interpreter %s not found"
-msgstr ""
+msgstr "O interpretador %s não foi encontrado"
 
 #: ../flags/flags.c:299
 #, c-format
 msgid "Error %d while downloading the archive: %s"
-msgstr ""
+msgstr "Erro %d ao fazer download do arquivo: %s"
 
 #: ../flags/flags.c:307
 msgid "Done"
-msgstr ""
+msgstr "Concluído"
 
 #: ../flags/flags.c:380
 msgid "Downloading ..."
-msgstr ""
+msgstr "Fazendo download..."
 
 #: ../flags/flags.c:430 ../flags/flags.glade.h:2
 msgid "Flags"
-msgstr ""
+msgstr "Sinalizadores"
 
 #: ../flags/flags.c:433
 msgid "Downloads and enables flags in the applet"
-msgstr ""
+msgstr "Faz downloads e habilita sinalizadores no miniaplicativo"
 
 #: ../grp4app/grp4app.glade.h:1
-#, fuzzy
 msgid "Default group to use:"
-msgstr "Grupo por _padrão"
+msgstr "Grupo padrão a ser usado:"
 
 #: ../grp4app/grp4app.glade.h:2
 msgid "Layout Per Application"
-msgstr ""
+msgstr "Formato por aplicativo"
 
 #: ../grp4app/grp4app.glade.h:3
 msgid "_Window types:"
-msgstr ""
+msgstr "Tipos de janela:"
 
 #: ../gswitchit_plugins.schemas.in.h:1
+#, fuzzy
 msgid "First parts of the window class names"
-msgstr ""
+msgstr "Pedaços iniciais dos nomes de classe da janela"
 
 #: ../gswitchit_plugins.schemas.in.h:2
 msgid ""
@@ -121,10 +121,13 @@ msgid ""
 "example, for the Evolution window (WM_CLASS: \"evolution\", \"Evolution\") "
 "the entry is \"evolution\"."
 msgstr ""
+"Pedaços iniciais dos nomes de classe da janela, usado na janela para "
+"agrupamento por comparação. Por exemplo, para a janela do Evolution "
+"(WM_CLASS: \"evolution\", \"Evolution\") a entrada é \"evolution\"."
 
 #: ../gswitchit_plugins.schemas.in.h:3
 msgid "Second parts of the window class names"
-msgstr ""
+msgstr "Pedaços finais dos nomes de classe da janela"
 
 #: ../gswitchit_plugins.schemas.in.h:4
 msgid ""
@@ -132,103 +135,105 @@ msgid ""
 "For example, for the Evolution window (WM_CLASS: \"evolution\", \"Evolution"
 "\") the entry is \"Evolution\"."
 msgstr ""
+"Pedaços finais dos nomes de classe da janela, usado na janela para "
+"agrupamento por comparação. Por exemplo, para a janela do Evolution "
+"(WM_CLASS: \"evolution\", \"Evolution\") a entrada é \"Evolution\"."
 
 #: ../gswitchit_plugins.schemas.in.h:5
 msgid "The applet background color"
-msgstr ""
+msgstr "A cor de fundo do miniaplicativo"
 
 #: ../gswitchit_plugins.schemas.in.h:6
 msgid "The applet foreground color"
-msgstr ""
+msgstr "A cor de primeiro plano do miniaplicativo"
 
 #: ../gswitchit_plugins.schemas.in.h:7
 msgid "The color used by the applet label"
-msgstr ""
+msgstr "A cor usada pelo rótulo do miniaplicativo"
 
 #: ../gswitchit_plugins.schemas.in.h:8
 msgid "The color used to paint the applet background"
-msgstr ""
+msgstr "A cor usada para pintar o fundo do miniaplicativo"
 
 #: ../gswitchit_plugins.schemas.in.h:9
-#, fuzzy
 msgid "The default groups"
-msgstr "Grupo por _padrão"
+msgstr "Os grupos pré-definidos"
 
 #: ../gswitchit_plugins.schemas.in.h:10
 msgid ""
 "The default groups for the windows defined by classes1 and classes2 lists "
 "(linked by indices)"
 msgstr ""
+"Os grupos pré-definidos para as janelas definidas pelas listas classes1 e "
+"classes2 (ligadas pelos índices)"
 
 #: ../highlight/highlight.c:191
-#, fuzzy
 msgid "Choose the color"
-msgstr "Selecione a disposição."
+msgstr "Selecione a cor"
 
 #: ../highlight/highlight.c:330 ../highlight/highlight.glade.h:2
 msgid "Highlighter"
-msgstr ""
+msgstr "Destacador"
 
 #: ../highlight/highlight.c:333
 msgid "Highlights the applet on the GNOME panel"
-msgstr ""
+msgstr "Destaca o miniaplicativo no painel do GNOME"
 
 #: ../highlight/highlight.glade.h:1
 msgid "    "
-msgstr ""
+msgstr "    "
 
 #: ../highlight/highlight.glade.h:3
 msgid "_Background color"
-msgstr ""
+msgstr "Cor do plano de fundo"
 
 #: ../highlight/highlight.glade.h:4
 msgid "_Text color"
-msgstr ""
+msgstr "Cor do _texto"
 
 #: ../sound/gswitchit.soundlist.in.h:1
-#, fuzzy
 msgid "Keyboard events"
-msgstr "Disposição teclado XKB"
+msgstr "Eventos do teclado"
 
 #: ../sound/gswitchit.soundlist.in.h:2
 msgid "Switching to group 1"
-msgstr ""
+msgstr "Mudando para o grupo 1"
 
 #: ../sound/gswitchit.soundlist.in.h:3
 msgid "Switching to group 2"
-msgstr ""
+msgstr "Mudando para o grupo 2"
 
 #: ../sound/gswitchit.soundlist.in.h:4
 msgid "Switching to group 3"
-msgstr ""
+msgstr "Mudando para o grupo 3"
 
 #: ../sound/gswitchit.soundlist.in.h:5
 msgid "Switching to group 4"
-msgstr ""
+msgstr "Mudando para o grupo 4"
 
 #: ../sound/sound.c:46
 msgid "Sound"
-msgstr ""
+msgstr "Som"
 
 #: ../sound/sound.c:50
 msgid "Enables standard GNOME sound notifications for the group switching"
 msgstr ""
+"Habilita as notificações de som pré-definidas do GNOME para a "
+"mudança de grupo"
 
 #: ../test/test.c:32
 msgid "Test plugin"
-msgstr ""
+msgstr "Testar plugin"
 
 #: ../test/test.c:34
-#, fuzzy
 msgid "Test GSwitchIt plugin"
-msgstr "Propriedades GSwitchIt"
+msgstr "Testar o plugin GSwitchIt"
 
 #~ msgid "not used"
 #~ msgstr "não usado"
 
-#, fuzzy
 #~ msgid "Default group"
-#~ msgstr "Grupo por _padrão"
+#~ msgstr "Grupo padrão"
 
 #~ msgid "GNOME XKB applet"
 #~ msgstr "Applet GNOME XKB"
@@ -261,10 +266,11 @@ msgstr "Propriedades GSwitchIt"
 #~ msgstr ""
 #~ "Alexandre Folle de Menezes <afmenez@terra.com.br>\n"
 #~ "baseado na versão em Português Ibérico por\n"
-#~ "Duarte Loreto <happyguy_pt@hotmail.com>"
+#~ "Duarte Loreto <happyguy_pt@hotmail.com>\n"
+#~ "Fabrício Godoy <skarllot@gmail.com>."
 
 #~ msgid "Copyright Sergey V. Udaltsov (C) 1999-2002"
-#~ msgstr "Copyright Sergey V. Udaltsov (C) 1999-2002"
+#~ msgstr "Copyright Sergey V. Udaltsov (C) 1999-2008"
 
 #~ msgid "XKB toolkit for GNOME"
 #~ msgstr "Conjunto ferramentas XKB para o GNOME"
