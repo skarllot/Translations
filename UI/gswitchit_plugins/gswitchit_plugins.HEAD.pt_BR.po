@@ -1,0 +1,547 @@
+# gswitchit: translation to Brazilian Portuguese (pt_BR)
+# Copyright (C) 2003 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gswitchit package.
+# Alexandre Folle de Menezes <afmenez@terra.com.br>, 2003.
+# based on the GNOME 2.2 translation to Portuguese (pt) by
+# Duarte Loreto <happyguy_pt@hotmail.com>, 2003.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 2.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-06-11 03:49+0000\n"
+"PO-Revision-Date: 2003-03-27 02:30-0300\n"
+"Last-Translator: Alexandre Folle de Menezes <afmenez@terra.com.br>\n"
+"Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../anim/anim.c:501
+msgid "Animation"
+msgstr ""
+
+#: ../anim/anim.c:503
+msgid "Animation plugin"
+msgstr ""
+
+#: ../anim/anim.glade.h:1 ../flags/flags.glade.h:1
+msgid "Download"
+msgstr ""
+
+#: ../anim/anim.glade.h:2
+msgid "Flags plugin properties"
+msgstr ""
+
+#: ../anim/anim.glade.h:3 ../flags/flags.glade.h:3
+msgid "_Enable flags"
+msgstr ""
+
+#: ../anim/anim.glade.h:4 ../flags/flags.glade.h:4
+msgid "_Start"
+msgstr ""
+
+#: ../custlbls/custlbls.glade.h:1
+#, fuzzy
+msgid "Custom Labels"
+msgstr "_Costumizado"
+
+#: ../custlbls/custlbls.glade.h:2
+msgid "_Label:"
+msgstr ""
+
+#: ../custlbls/custlbls.glade.h:3
+msgid "gtk-add"
+msgstr ""
+
+#: ../custlbls/custlbls.glade.h:4
+msgid "gtk-remove"
+msgstr ""
+
+#: ../flags/flags.c:233
+msgid "Unpacking ..."
+msgstr ""
+
+#: ../flags/flags.c:268
+#, c-format
+msgid "Error on the archive unpacking: %d"
+msgstr ""
+
+#: ../flags/flags.c:277
+#, c-format
+msgid "Script execution error %d: %s"
+msgstr ""
+
+#: ../flags/flags.c:288
+#, c-format
+msgid "Interpreter %s not found"
+msgstr ""
+
+#: ../flags/flags.c:299
+#, c-format
+msgid "Error %d while downloading the archive: %s"
+msgstr ""
+
+#: ../flags/flags.c:307
+msgid "Done"
+msgstr ""
+
+#: ../flags/flags.c:380
+msgid "Downloading ..."
+msgstr ""
+
+#: ../flags/flags.c:430 ../flags/flags.glade.h:2
+msgid "Flags"
+msgstr ""
+
+#: ../flags/flags.c:433
+msgid "Downloads and enables flags in the applet"
+msgstr ""
+
+#: ../grp4app/grp4app.glade.h:1
+#, fuzzy
+msgid "Default group to use:"
+msgstr "Grupo por _padrão"
+
+#: ../grp4app/grp4app.glade.h:2
+msgid "Layout Per Application"
+msgstr ""
+
+#: ../grp4app/grp4app.glade.h:3
+msgid "_Window types:"
+msgstr ""
+
+#: ../gswitchit_plugins.schemas.in.h:1
+msgid "First parts of the window class names"
+msgstr ""
+
+#: ../gswitchit_plugins.schemas.in.h:2
+msgid ""
+"First parts of the window class names, used in window to group matching. For "
+"example, for the Evolution window (WM_CLASS: \"evolution\", \"Evolution\") "
+"the entry is \"evolution\"."
+msgstr ""
+
+#: ../gswitchit_plugins.schemas.in.h:3
+msgid "Second parts of the window class names"
+msgstr ""
+
+#: ../gswitchit_plugins.schemas.in.h:4
+msgid ""
+"Second parts of the window class names, used in window to group matching. "
+"For example, for the Evolution window (WM_CLASS: \"evolution\", \"Evolution"
+"\") the entry is \"Evolution\"."
+msgstr ""
+
+#: ../gswitchit_plugins.schemas.in.h:5
+msgid "The applet background color"
+msgstr ""
+
+#: ../gswitchit_plugins.schemas.in.h:6
+msgid "The applet foreground color"
+msgstr ""
+
+#: ../gswitchit_plugins.schemas.in.h:7
+msgid "The color used by the applet label"
+msgstr ""
+
+#: ../gswitchit_plugins.schemas.in.h:8
+msgid "The color used to paint the applet background"
+msgstr ""
+
+#: ../gswitchit_plugins.schemas.in.h:9
+#, fuzzy
+msgid "The default groups"
+msgstr "Grupo por _padrão"
+
+#: ../gswitchit_plugins.schemas.in.h:10
+msgid ""
+"The default groups for the windows defined by classes1 and classes2 lists "
+"(linked by indices)"
+msgstr ""
+
+#: ../highlight/highlight.c:191
+#, fuzzy
+msgid "Choose the color"
+msgstr "Selecione a disposição."
+
+#: ../highlight/highlight.c:330 ../highlight/highlight.glade.h:2
+msgid "Highlighter"
+msgstr ""
+
+#: ../highlight/highlight.c:333
+msgid "Highlights the applet on the GNOME panel"
+msgstr ""
+
+#: ../highlight/highlight.glade.h:1
+msgid "    "
+msgstr ""
+
+#: ../highlight/highlight.glade.h:3
+msgid "_Background color"
+msgstr ""
+
+#: ../highlight/highlight.glade.h:4
+msgid "_Text color"
+msgstr ""
+
+#: ../sound/gswitchit.soundlist.in.h:1
+#, fuzzy
+msgid "Keyboard events"
+msgstr "Disposição teclado XKB"
+
+#: ../sound/gswitchit.soundlist.in.h:2
+msgid "Switching to group 1"
+msgstr ""
+
+#: ../sound/gswitchit.soundlist.in.h:3
+msgid "Switching to group 2"
+msgstr ""
+
+#: ../sound/gswitchit.soundlist.in.h:4
+msgid "Switching to group 3"
+msgstr ""
+
+#: ../sound/gswitchit.soundlist.in.h:5
+msgid "Switching to group 4"
+msgstr ""
+
+#: ../sound/sound.c:46
+msgid "Sound"
+msgstr ""
+
+#: ../sound/sound.c:50
+msgid "Enables standard GNOME sound notifications for the group switching"
+msgstr ""
+
+#: ../test/test.c:32
+msgid "Test plugin"
+msgstr ""
+
+#: ../test/test.c:34
+#, fuzzy
+msgid "Test GSwitchIt plugin"
+msgstr "Propriedades GSwitchIt"
+
+#~ msgid "not used"
+#~ msgstr "não usado"
+
+#, fuzzy
+#~ msgid "Default group"
+#~ msgstr "Grupo por _padrão"
+
+#~ msgid "GNOME XKB applet"
+#~ msgstr "Applet GNOME XKB"
+
+#~ msgid "GNOME XKB applet factory"
+#~ msgstr "Fábrica applet GNOME XKB"
+
+#~ msgid "GSwitchIt applet"
+#~ msgstr "Applet GSwitchIt"
+
+#~ msgid "GSwitchIt applet factory"
+#~ msgstr "Fábrica applet GSwitchIt"
+
+#~ msgid "Utility"
+#~ msgstr "Utilitário"
+
+#~ msgid "_About..."
+#~ msgstr "_Sobre..."
+
+#~ msgid "_Groups"
+#~ msgstr "_Grupos"
+
+#~ msgid "_Help"
+#~ msgstr "_Ajuda"
+
+#~ msgid "_Properties..."
+#~ msgstr "_Propriedades..."
+
+#~ msgid "translator_credits"
+#~ msgstr ""
+#~ "Alexandre Folle de Menezes <afmenez@terra.com.br>\n"
+#~ "baseado na versão em Português Ibérico por\n"
+#~ "Duarte Loreto <happyguy_pt@hotmail.com>"
+
+#~ msgid "Copyright Sergey V. Udaltsov (C) 1999-2002"
+#~ msgstr "Copyright Sergey V. Udaltsov (C) 1999-2002"
+
+#~ msgid "XKB toolkit for GNOME"
+#~ msgstr "Conjunto ferramentas XKB para o GNOME"
+
+#~ msgid "XKB initialization error"
+#~ msgstr "Erro de inicialização XKB"
+
+#~ msgid "Error loading XKB configuration registry"
+#~ msgstr "Erro carregando o registro de configuração XKB"
+
+#, fuzzy
+#~ msgid ""
+#~ "Make the layout accessible from the applet popup menu ONLY.\n"
+#~ "No way to switch to this layout using the keyboard."
+#~ msgstr ""
+#~ "Tornar a disposição APENAS disponível no menu de popup da applet.\n"
+#~ "Nenhuma forma de alterar para esta disposição utilizando o teclado."
+
+#~ msgid "Failed to init GConf: %s\n"
+#~ msgstr "Falha ao iniciar GConf: %s\n"
+
+#, fuzzy
+#~ msgid "Close the dialog"
+#~ msgstr "Selecione a disposição."
+
+#, fuzzy
+#~ msgid "GSwitchIt Plugins"
+#~ msgstr "Propriedades GSwitchIt"
+
+#, fuzzy
+#~ msgid "The list of active plugins"
+#~ msgstr "O id do swicthcut ativo"
+
+#~ msgid "Choose the default group (for newly created windows)."
+#~ msgstr "Seleccione o grupo padrão (para janelas novas)."
+
+#~ msgid "GSwitchIt Properties"
+#~ msgstr "Propriedades GSwitchIt"
+
+#~ msgid "Keep separate group for each application window."
+#~ msgstr "Manter grupo distinto para cada janela de aplicação."
+
+#~ msgid "Keep the state of indicators separately for each application window."
+#~ msgstr ""
+#~ "Manter o estado dos indicadores distintamente para cada janela de "
+#~ "aplicação."
+
+#~ msgid "Save/restore _indicators with group"
+#~ msgstr "Gravar/repor _indicadores com grupo"
+
+#~ msgid "Separate _group for each window"
+#~ msgstr "_Grupo distinto para cada janela"
+
+#~ msgid "Apply XKB configuration and quit"
+#~ msgstr "Aplicar configuração XKB e sair"
+
+#, fuzzy
+#~ msgid ""
+#~ "Error activating XKB configuration.\n"
+#~ "Probably internal X server problem.\n"
+#~ "\n"
+#~ "X server version data:\n"
+#~ "%s\n"
+#~ "%d%s"
+#~ msgstr "Erro carregando o registro de configuração XKB"
+
+#~ msgid "Could not initialize Bonobo"
+#~ msgstr "Impossível inicializar Bonobo"
+
+#~ msgid "Failed to init XklConfigRegistry\n"
+#~ msgstr "Falha ao iniciar XklConfigRegistry\n"
+
+#~ msgid "..."
+#~ msgstr "..."
+
+#, fuzzy
+#~ msgid "Keyboard layout preview"
+#~ msgstr "Disposição teclado XKB"
+
+#~ msgid "Bonobo Error"
+#~ msgstr "Erro Bonobo"
+
+#, fuzzy
+#~ msgid "Configure keyboard layouts"
+#~ msgstr "Disposição teclado XKB"
+
+#, fuzzy
+#~ msgid "Keyboard layouts"
+#~ msgstr "Disposição teclado XKB"
+
+#~ msgid "Choose the layout."
+#~ msgstr "Selecione a disposição."
+
+#~ msgid "Choose the layout. Note: one layout can provide several groups."
+#~ msgstr ""
+#~ "Selecione a disposição. Nota: uma disposição pode prover vários grupos."
+
+#~ msgid "Choose the model of the keyboard (brand, number of keys, etc.)."
+#~ msgstr "Selecione o modelo do teclado (marca, número de teclas, etc.)."
+
+#~ msgid "Clear"
+#~ msgstr "Limpar"
+
+#~ msgid "Clear."
+#~ msgstr "Limpar."
+
+#~ msgid "Extra"
+#~ msgstr "Extra"
+
+#~ msgid "General"
+#~ msgstr "Geral"
+
+#~ msgid "Keyboard _model:"
+#~ msgstr "_Modelo do teclado:"
+
+#, fuzzy
+#~ msgid "Keyboard layouts' settings: "
+#~ msgstr "Disposição teclado XKB"
+
+#~ msgid "Options 1"
+#~ msgstr "Opções 1"
+
+#~ msgid "Options 2"
+#~ msgstr "Opções 2"
+
+#, fuzzy
+#~ msgid ""
+#~ "This version of XFree86 does not support multiple layouts, so only one "
+#~ "layout can be choosen."
+#~ msgstr ""
+#~ "Esta versão do XFree86 não suporta múltiplas disposições, \n"
+#~ "então apenas uma disposição pode ser selecionada."
+
+#, fuzzy
+#~ msgid "Use custom settings, ignore global configuration set in XF86Config."
+#~ msgstr ""
+#~ "Usar definições costumizadas XKB, ignorar configuração global definida no "
+#~ "XF86Config."
+
+#, fuzzy
+#~ msgid "Use global configuration set in XF86Config."
+#~ msgstr "Usar configuração global XKB definida no XF86Config."
+
+#~ msgid "_Global Preconfigured"
+#~ msgstr "Pré-configurado _Global"
+
+#~ msgid "_Layouts:"
+#~ msgstr "_Disposições:"
+
+#, fuzzy
+#~ msgid "_Preview"
+#~ msgstr "Visualizar"
+
+#~ msgid "_Switch shortcut"
+#~ msgstr "Atalho _troca"
+
+#~ msgid "Default XKB setting"
+#~ msgstr "Definição XKB padrão"
+
+#~ msgid "Right Control"
+#~ msgstr "Control Direito"
+
+#~ msgid "Left Control"
+#~ msgstr "Control Esquerdo"
+
+#~ msgid "Right Shift"
+#~ msgstr "Shift Direito"
+
+#~ msgid "Left Shift"
+#~ msgstr "Shift Esquerdo"
+
+#~ msgid "Grave"
+#~ msgstr "Grave"
+
+#~ msgid "Beep on group switch"
+#~ msgstr "Beep ao trocar grupo"
+
+#~ msgid "Debug level"
+#~ msgstr "Nível de depuração"
+
+#~ msgid "Default group, assigned on window creation"
+#~ msgstr "Grupo padrão, atribuido na criação da janela"
+
+#~ msgid "Keep and manage separate group per window"
+#~ msgstr "Manter e gerenciar grupos distintos por janela"
+
+#~ msgid "Save/restore indicators together with layout groups"
+#~ msgstr "Gravar/repor indicadores junto com grupos de disposições"
+
+#~ msgid "Secondary groups"
+#~ msgstr "Grupos secundários"
+
+#~ msgid "Show layout names instead of group names"
+#~ msgstr "Mostrar nomes de disposições em vez de nomes de grupos"
+
+#~ msgid ""
+#~ "Show layout names instead of group names (only for versions of XFree "
+#~ "supporting multiple layouts)"
+#~ msgstr ""
+#~ "Mostrar nomes de disposições em vez de nomes de grupos (apenas para "
+#~ "versões do XFree que suportem múltiplas disposições)"
+
+#~ msgid "The id of active switchcut"
+#~ msgstr "O id do swicthcut ativo"
+
+#~ msgid "XKB keyboard layout"
+#~ msgstr "Disposição teclado XKB"
+
+#~ msgid "XKB keyboard model"
+#~ msgstr "Modelo teclado XKB"
+
+#~ msgid "XKB options"
+#~ msgstr "Opções XKB"
+
+#~ msgid "XKB settings should be overridden"
+#~ msgstr "Definições XKB devem ser ignoradas"
+
+#~ msgid "[us]"
+#~ msgstr "[us]"
+
+#~ msgid "GSwitchIt Applet Properties"
+#~ msgstr "Propriedades Applet GSwitchIt"
+
+#, fuzzy
+#~ msgid "Group switching"
+#~ msgstr "Beep ao trocar grupo"
+
+#~ msgid "Enable _beep"
+#~ msgstr "Ativar _beep"
+
+#~ msgid "Use the system beep to indicate the switch."
+#~ msgstr "Usar o beep de sistema para sinalizar a troca."
+
+#~ msgid "Secondary"
+#~ msgstr "Secundário"
+
+#~ msgid "XKB Properties"
+#~ msgstr "Propriedades XKB"
+
+#~ msgid "XKB settings: "
+#~ msgstr "Definições XKB: "
+
+#~ msgid "General XKB Properties"
+#~ msgstr "Propriedades Gerais XKB"
+
+#~ msgid "To _default"
+#~ msgstr "Para _padrão"
+
+#~ msgid "To _fit"
+#~ msgstr "Para _caber"
+
+#~ msgid "Update the preview. Can take some time."
+#~ msgstr "Atualizar a visualização. Pode demorar algum tempo."
+
+#~ msgid "Zoom"
+#~ msgstr "Zoom"
+
+#~ msgid "Zoom in."
+#~ msgstr "Aum. zoom."
+
+#~ msgid "Zoom out."
+#~ msgstr "Dim. zoom."
+
+#~ msgid "Zoom to default."
+#~ msgstr "Zoom padrão."
+
+#~ msgid "Zoom to fit."
+#~ msgstr "Zoom para caber."
+
+#~ msgid "_In"
+#~ msgstr "D_entro"
+
+#~ msgid "_Out"
+#~ msgstr "_Fora"
+
+#~ msgid "_Update preview"
+#~ msgstr "_Atualizar visualização"
+
+#~ msgid "GSwitchIt web page @ Sourceforge.net"
+#~ msgstr "Página web do GSwitchIt @ Sourceforge.net"
