@@ -96,7 +96,7 @@ msgstr "Sinalizadores"
 
 #: ../flags/flags.c:433
 msgid "Downloads and enables flags in the applet"
-msgstr "Faz downloads e habilita sinalizadores no miniaplicativo"
+msgstr "Faz download e habilita sinalizadores no miniaplicativo"
 
 #: ../grp4app/grp4app.glade.h:1
 msgid "Default group to use:"
@@ -157,14 +157,14 @@ msgstr "A cor usada para pintar o fundo do miniaplicativo"
 
 #: ../gswitchit_plugins.schemas.in.h:9
 msgid "The default groups"
-msgstr "Os grupos pré-definidos"
+msgstr "Os grupos padrões"
 
 #: ../gswitchit_plugins.schemas.in.h:10
 msgid ""
 "The default groups for the windows defined by classes1 and classes2 lists "
 "(linked by indices)"
 msgstr ""
-"Os grupos pré-definidos para as janelas definidas pelas listas classes1 e "
+"Os grupos padrões para as janelas definidas pelas listas classes1 e "
 "classes2 (ligadas pelos índices)"
 
 #: ../highlight/highlight.c:191
