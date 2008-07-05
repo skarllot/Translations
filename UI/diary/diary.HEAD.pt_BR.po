@@ -25,7 +25,6 @@ msgid "Keep a personal diary"
 msgstr "Faça um diário pessoal"
 
 #: ../data/diary.ui.h:1
-#, fuzzy
 msgid "<b>Attached Links</b>"
 msgstr "<b>Links anexados</b>"
 
@@ -164,12 +163,12 @@ msgstr ""
 "<http://www.gnu.org/licenses/>."
 
 #: ../src/main-window.c:284
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "A helpful diary keeper, storing %u entries with %u links and a total of %u "
 "characters."
 msgstr ""
-"Um útil diário, guardando entradas %u com links %u e um total de %u "
+"Um útil diário, guardando %u entradas com %u links e um total de %u "
 "caracteres."
 
 #: ../src/main-window.c:291
@@ -240,32 +239,32 @@ msgstr "Erro ao criar o contexto cifrado: %s"
 #: ../src/storage-manager.c:222
 #, c-format
 msgid "Error opening encrypted database file \"%s\": %s"
-msgstr "Erro ao abrir o arquivo de banco de dados criptografado, \"%s\": %s"
+msgstr "Erro ao abrir o arquivo de banco de dados criptografado em \"%s\": %s"
 
 #: ../src/storage-manager.c:242
 #, c-format
 msgid "Error opening plain database file \"%s\": %s"
-msgstr "Erro ao abrir o arquivo de banco de dados, \"%s\": %s"
+msgstr "Erro ao abrir o arquivo de banco de dados em \"%s\": %s"
 
 #: ../src/storage-manager.c:312
 #, c-format
 msgid "Error decrypting database: %s"
-msgstr "Erro ao descriptografar banco de dados: %s"
+msgstr "Erro ao descriptografar o banco de dados: %s"
 
 #: ../src/storage-manager.c:345
 #, c-format
 msgid "Error getting encryption key: %s"
-msgstr "Erro ao obter chave de criptografia: %s"
+msgstr "Erro ao obter a chave de criptografia: %s"
 
 #: ../src/storage-manager.c:366
 #, c-format
 msgid "Error encrypting database: %s"
-msgstr "Erro ao criptografar banco de dados: %s"
+msgstr "Erro ao criptografar o banco de dados: %s"
 
 #: ../src/storage-manager.c:377
 #, c-format
 msgid "Could not delete plain database file \"%s\"."
-msgstr "Não foi possível remover o arquivo de banco de dados, \"%s\"."
+msgstr "Não foi possível remover o arquivo de banco de dados em \"%s\"."
 
 #: ../src/storage-manager.c:425
 #, c-format
@@ -289,7 +288,7 @@ msgid ""
 "Could not open database \"%s\". SQLite provided the following error message: "
 "%s"
 msgstr ""
-"Não foi possível abrir o banco de dados, em \"%s\". SQLite retornou a "
+"Não foi possível abrir o banco de dados em \"%s\". O SQLite retornou a "
 "seguinte mensagem de erro: %s"
 
 #: ../src/storage-manager.c:482
