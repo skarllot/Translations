@@ -281,28 +281,25 @@ msgstr "Testar o plugin GSwitchIt"
 #~ msgid "Error loading XKB configuration registry"
 #~ msgstr "Erro carregando o registro de configuração XKB"
 
-#, fuzzy
 #~ msgid ""
 #~ "Make the layout accessible from the applet popup menu ONLY.\n"
 #~ "No way to switch to this layout using the keyboard."
 #~ msgstr ""
-#~ "Tornar a disposição APENAS disponível no menu de popup da applet.\n"
-#~ "Nenhuma forma de alterar para esta disposição utilizando o teclado."
+#~ "Tornar a disposição acessível APENAS pelo menu de popup do "
+#~ "miniaplicativo.\n"
+#~ "Nenhuma forma de alterar esta disposição utilizando o teclado."
 
 #~ msgid "Failed to init GConf: %s\n"
 #~ msgstr "Falha ao iniciar GConf: %s\n"
 
-#, fuzzy
 #~ msgid "Close the dialog"
-#~ msgstr "Selecione a disposição."
+#~ msgstr "Fechar a janela"
 
-#, fuzzy
 #~ msgid "GSwitchIt Plugins"
-#~ msgstr "Propriedades GSwitchIt"
+#~ msgstr "Plugins do GSwitchIt"
 
-#, fuzzy
 #~ msgid "The list of active plugins"
-#~ msgstr "O id do swicthcut ativo"
+#~ msgstr "A lista de plugins ativos"
 
 #~ msgid "Choose the default group (for newly created windows)."
 #~ msgstr "Seleccione o grupo padrão (para janelas novas)."
@@ -327,7 +324,6 @@ msgstr "Testar o plugin GSwitchIt"
 #~ msgid "Apply XKB configuration and quit"
 #~ msgstr "Aplicar configuração XKB e sair"
 
-#, fuzzy
 #~ msgid ""
 #~ "Error activating XKB configuration.\n"
 #~ "Probably internal X server problem.\n"
@@ -353,20 +349,17 @@ msgstr "Testar o plugin GSwitchIt"
 #~ msgid "..."
 #~ msgstr "..."
 
-#, fuzzy
 #~ msgid "Keyboard layout preview"
-#~ msgstr "Disposição teclado XKB"
+#~ msgstr "Visualização do formato do teclado"
 
 #~ msgid "Bonobo Error"
 #~ msgstr "Erro Bonobo"
 
-#, fuzzy
 #~ msgid "Configure keyboard layouts"
-#~ msgstr "Disposição teclado XKB"
+#~ msgstr "Configurar formatos de teclado"
 
-#, fuzzy
 #~ msgid "Keyboard layouts"
-#~ msgstr "Disposição teclado XKB"
+#~ msgstr "Formatos de teclado"
 
 #~ msgid "Choose the layout."
 #~ msgstr "Selecione a disposição."
@@ -393,9 +386,8 @@ msgstr "Testar o plugin GSwitchIt"
 #~ msgid "Keyboard _model:"
 #~ msgstr "_Modelo do teclado:"
 
-#, fuzzy
 #~ msgid "Keyboard layouts' settings: "
-#~ msgstr "Disposição teclado XKB"
+#~ msgstr "Configurações dos formatos de teclado: "
 
 #~ msgid "Options 1"
 #~ msgstr "Opções 1"
@@ -403,36 +395,32 @@ msgstr "Testar o plugin GSwitchIt"
 #~ msgid "Options 2"
 #~ msgstr "Opções 2"
 
-#, fuzzy
 #~ msgid ""
 #~ "This version of XFree86 does not support multiple layouts, so only one "
 #~ "layout can be choosen."
 #~ msgstr ""
-#~ "Esta versão do XFree86 não suporta múltiplas disposições, \n"
-#~ "então apenas uma disposição pode ser selecionada."
+#~ "Esta versão do XFree86 não suporta múltiplos formatos, então apenas "
+#~ "um formato pode ser selecionado."
 
-#, fuzzy
 #~ msgid "Use custom settings, ignore global configuration set in XF86Config."
 #~ msgstr ""
-#~ "Usar definições costumizadas XKB, ignorar configuração global definida no "
-#~ "XF86Config."
+#~ "Usar configurações personalizadas, ignorar configuração global definida "
+#~ "no XF86Config."
 
-#, fuzzy
 #~ msgid "Use global configuration set in XF86Config."
-#~ msgstr "Usar configuração global XKB definida no XF86Config."
+#~ msgstr "Usar configuração global definida no XF86Config."
 
 #~ msgid "_Global Preconfigured"
 #~ msgstr "Pré-configurado _Global"
 
 #~ msgid "_Layouts:"
-#~ msgstr "_Disposições:"
+#~ msgstr "_Formatos:"
 
-#, fuzzy
 #~ msgid "_Preview"
 #~ msgstr "Visualizar"
 
 #~ msgid "_Switch shortcut"
-#~ msgstr "Atalho _troca"
+#~ msgstr "Atalho de _troca"
 
 #~ msgid "Default XKB setting"
 #~ msgstr "Definição XKB padrão"
@@ -501,9 +489,8 @@ msgstr "Testar o plugin GSwitchIt"
 #~ msgid "GSwitchIt Applet Properties"
 #~ msgstr "Propriedades Applet GSwitchIt"
 
-#, fuzzy
 #~ msgid "Group switching"
-#~ msgstr "Beep ao trocar grupo"
+#~ msgstr "Troca de grupo"
 
 #~ msgid "Enable _beep"
 #~ msgstr "Ativar _beep"
