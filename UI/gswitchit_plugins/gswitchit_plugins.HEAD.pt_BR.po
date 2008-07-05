@@ -32,23 +32,24 @@ msgstr "Download"
 
 #: ../anim/anim.glade.h:2
 msgid "Flags plugin properties"
-msgstr "Propriedades dos sinalizadores do plugin"
+msgstr "Propriedades do plugin de sinalizações"
 
 #: ../anim/anim.glade.h:3 ../flags/flags.glade.h:3
 msgid "_Enable flags"
-msgstr "Habilitar sinalizador_es"
+msgstr "_Habilitar sinalizadores"
 
 #: ../anim/anim.glade.h:4 ../flags/flags.glade.h:4
 msgid "_Start"
-msgstr "Iniciar"
+msgstr "_Iniciar"
 
 #: ../custlbls/custlbls.glade.h:1
 msgid "Custom Labels"
 msgstr "Rótulos personalizados"
 
+# Não pode ser usado "_Rótulo:" pois há o botão "_Remover"
 #: ../custlbls/custlbls.glade.h:2
 msgid "_Label:"
-msgstr "Rótulo:"
+msgstr "Rótu_lo:"
 
 #: ../custlbls/custlbls.glade.h:3
 msgid "gtk-add"
@@ -92,15 +93,15 @@ msgstr "Fazendo download..."
 
 #: ../flags/flags.c:430 ../flags/flags.glade.h:2
 msgid "Flags"
-msgstr "Sinalizadores"
+msgstr "Sinalizações"
 
 #: ../flags/flags.c:433
 msgid "Downloads and enables flags in the applet"
-msgstr "Faz download e habilita sinalizadores no miniaplicativo"
+msgstr "Faz download e habilita sinalizações no miniaplicativo"
 
 #: ../grp4app/grp4app.glade.h:1
 msgid "Default group to use:"
-msgstr "Grupo padrão a ser usado:"
+msgstr "_Usar como grupo padrão:"
 
 #: ../grp4app/grp4app.glade.h:2
 msgid "Layout Per Application"
@@ -108,12 +109,11 @@ msgstr "Formato por aplicativo"
 
 #: ../grp4app/grp4app.glade.h:3
 msgid "_Window types:"
-msgstr "Tipos de janela:"
+msgstr "_Tipos de janela:"
 
 #: ../gswitchit_plugins.schemas.in.h:1
-#, fuzzy
 msgid "First parts of the window class names"
-msgstr "Pedaços iniciais dos nomes de classe da janela"
+msgstr "Primeiros pedaços dos nomes de classe da janela"
 
 #: ../gswitchit_plugins.schemas.in.h:2
 msgid ""
@@ -121,13 +121,13 @@ msgid ""
 "example, for the Evolution window (WM_CLASS: \"evolution\", \"Evolution\") "
 "the entry is \"evolution\"."
 msgstr ""
-"Pedaços iniciais dos nomes de classe da janela, usado na janela para "
+"Primeiros pedaços dos nomes de classe da janela, usado na janela para "
 "agrupamento por comparação. Por exemplo, para a janela do Evolution "
 "(WM_CLASS: \"evolution\", \"Evolution\") a entrada é \"evolution\"."
 
 #: ../gswitchit_plugins.schemas.in.h:3
 msgid "Second parts of the window class names"
-msgstr "Pedaços finais dos nomes de classe da janela"
+msgstr "Segundos pedaços dos nomes de classe da janela"
 
 #: ../gswitchit_plugins.schemas.in.h:4
 msgid ""
@@ -135,17 +135,17 @@ msgid ""
 "For example, for the Evolution window (WM_CLASS: \"evolution\", \"Evolution"
 "\") the entry is \"Evolution\"."
 msgstr ""
-"Pedaços finais dos nomes de classe da janela, usado na janela para "
+"Segundos pedaços dos nomes de classe da janela, usado na janela para "
 "agrupamento por comparação. Por exemplo, para a janela do Evolution "
 "(WM_CLASS: \"evolution\", \"Evolution\") a entrada é \"Evolution\"."
 
 #: ../gswitchit_plugins.schemas.in.h:5
 msgid "The applet background color"
-msgstr "A cor de fundo do miniaplicativo"
+msgstr "A cor do plano de fundo do miniaplicativo"
 
 #: ../gswitchit_plugins.schemas.in.h:6
 msgid "The applet foreground color"
-msgstr "A cor de primeiro plano do miniaplicativo"
+msgstr "A cor do primeiro plano do miniaplicativo"
 
 #: ../gswitchit_plugins.schemas.in.h:7
 msgid "The color used by the applet label"
@@ -153,7 +153,7 @@ msgstr "A cor usada pelo rótulo do miniaplicativo"
 
 #: ../gswitchit_plugins.schemas.in.h:8
 msgid "The color used to paint the applet background"
-msgstr "A cor usada para pintar o fundo do miniaplicativo"
+msgstr "A cor usada para pintar o plano de fundo do miniaplicativo"
 
 #: ../gswitchit_plugins.schemas.in.h:9
 msgid "The default groups"
@@ -173,11 +173,11 @@ msgstr "Selecione a cor"
 
 #: ../highlight/highlight.c:330 ../highlight/highlight.glade.h:2
 msgid "Highlighter"
-msgstr "Destacador"
+msgstr "Realçador"
 
 #: ../highlight/highlight.c:333
 msgid "Highlights the applet on the GNOME panel"
-msgstr "Destaca o miniaplicativo no painel do GNOME"
+msgstr "Realça o miniaplicativo no painel do GNOME"
 
 #: ../highlight/highlight.glade.h:1
 msgid "    "
@@ -185,7 +185,7 @@ msgstr "    "
 
 #: ../highlight/highlight.glade.h:3
 msgid "_Background color"
-msgstr "Cor do plano de fundo"
+msgstr "Cor do _fundo"
 
 #: ../highlight/highlight.glade.h:4
 msgid "_Text color"
@@ -218,8 +218,8 @@ msgstr "Som"
 #: ../sound/sound.c:50
 msgid "Enables standard GNOME sound notifications for the group switching"
 msgstr ""
-"Habilita as notificações de som pré-definidas do GNOME para a "
-"mudança de grupo"
+"Habilita as notificações de som padrões do GNOME para a mudança "
+"de grupo"
 
 #: ../test/test.c:32
 msgid "Test plugin"
@@ -335,7 +335,14 @@ msgstr "Testar o plugin GSwitchIt"
 #~ "X server version data:\n"
 #~ "%s\n"
 #~ "%d%s"
-#~ msgstr "Erro carregando o registro de configuração XKB"
+#~ msgstr ""
+#~ "Erro ao ativar a configuração do XKB.\n"
+#~ "Provavelmente um problema interno no "
+#~ "servidor X.\n"
+#~ "\n"
+#~ "Dados de versão do servidor X:\n"
+#~ "%s\n"
+#~ "%d%s"
 
 #~ msgid "Could not initialize Bonobo"
 #~ msgstr "Impossível inicializar Bonobo"
