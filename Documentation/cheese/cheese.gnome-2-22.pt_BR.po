@@ -225,7 +225,7 @@ msgid ""
 "<ulink url=\"http://www.gnome.org/projects/cheese/\" "
 "type=\"http\"><application>Cheese</application> Contact Page</ulink>."
 msgstr ""
-"Para reportar um erro ou fazer uma sugestão relacionada ao aplicativo "
+"Para relatar um erro ou fazer uma sugestão relacionada ao aplicativo "
 "Cheese ou esse manual, veja em "
 "<ulink url=\"http://www.gnome.org/projects/cheese/\" "
 "type=\"http\">Página de contato do <application>Cheese</application></ulink>."
@@ -627,7 +627,7 @@ msgid ""
 "My webcam works with gstreamer, but does not work with "
 "<application>Cheese</application>. What's wrong?"
 msgstr ""
-"Minha webcam funciona com o gstreamer, mas não funcionar com o "
+"Minha webcam funciona com o gstreamer, mas não funciona com o "
 "<application>Cheese</application>. O que está errado?"
 
 #: C/cheese.xml:412(para) 
@@ -639,12 +639,20 @@ msgid ""
 "<ulink url=\"http://bugzilla.gnome.org/browse.cgi?product=cheese\" "
 "type=\"http\"> bug tracker</ulink>."
 msgstr ""
+"Usando o \"gstreamer-properties\" mencionado na questão anterior, tente "
+"mudar de xvimagesink para ximagesink ou vice-versa. Se mesmo assim não "
+"funcionar execute \"cheese --verbose\" na linha de comando e copie o que for "
+"registrado para um relatório de erro no nosso "
+"<ulink url=\"http://bugzilla.gnome.org/browse.cgi?product=cheese\" "
+"type=\"http\">marcador de erros</ulink>."
 
 #: C/cheese.xml:422(title) 
 msgid ""
 "My webcam works with other programs such as Ekiga, Camorama, but not with "
 "<application>Cheese</application>. What's wrong?"
 msgstr ""
+"Minha webcam funciona com outros programas como o Ekiga, Camorama, mas não "
+"com o <application>Cheese</application>. O que está errado?"
 
 #: C/cheese.xml:423(para) 
 msgid ""
@@ -654,10 +662,15 @@ msgid ""
 "<ulink url=\"http://bugzilla.gnome.org/browse.cgi?product=cheese\" "
 "type=\"http\"> bug tracker</ulink>."
 msgstr ""
+"Teste se sua webcam funciona quando testada com o \"gstreamer-properties\". "
+"Se funcionar, e não tiver funcionado com o "
+"<application>Cheese</application>, abra um relatório de erro no nosso "
+"<ulink url=\"http://bugzilla.gnome.org/browse.cgi?product=cheese\" "
+"type=\"http\">marcador de erros</ulink>."
 
 #: C/cheese.xml:432(title) 
 msgid "Where does <application>Cheese</application> store my photos?"
-msgstr ""
+msgstr "Onde o <application>Cheese</application> armazena minhas fotos?"
 
 #: C/cheese.xml:433(para) 
 msgid ""
@@ -666,11 +679,17 @@ msgid ""
 "\"Saving photos and videos to an alternate location\" for information on "
 "this."
 msgstr ""
+"Suas fotos são armazenadas em ~/.gnome2/cheese/media. Você pode também "
+"salva-las em um local alternativo usando o Cheese. Por favor, veja o tópico "
+"de ajuda com o título \"Salvando fotos e vídeos para um local alternativo\" "
+"para mais informações."
 
 #: C/cheese.xml:442(title) 
 msgid ""
 "My Quickcam Express doesn't work with <application>Cheese</application>..."
 msgstr ""
+"Minha Quickcam Express não funciona com o "
+"<application>Cheese</application>..."
 
 #: C/cheese.xml:443(para) 
 msgid ""
@@ -678,16 +697,22 @@ msgid ""
 "at least 2\" in the <application>Cheese</application> output. With driver "
 "\"qc-usb\"."
 msgstr ""
+"ou o gstreamer, e eu vejo erros como \"Buffer não suficiente. Nós fornecemos "
+"1, nós precisamos de pelo menos 2\" na saída do "
+"<application>Cheese</application>. Com o driver \"qc-usb\"."
 
 #: C/cheese.xml:448(para) 
 msgid ""
 "Try running \"qcset /dev/video0 compat=dblbuf\" to enable double buffer "
 "compatibility mode, then restart <application>Cheese</application>"
 msgstr ""
+"Tente executar \"qcset /dev/video0 compat=dblbuf\" para habilitar o modo de "
+"compatibilidade de buffer duplo, e então reinicie o "
+"<application>Cheese</application>."
 
 #: C/cheese.xml:455(title) 
 msgid "Which cameras are supported"
-msgstr ""
+msgstr "Quais câmeras são suportadas?"
 
 #: C/cheese.xml:456(para) 
 msgid ""
@@ -695,10 +720,13 @@ msgid ""
 "any camera that works with GStreamer. In principle that should be any camera "
 "which support video4linux or video4linux2."
 msgstr ""
+"O Cheese usa o GStreamer para captura de vídeo. Assim, essencialmente o "
+"Cheese suporta qualquer câmera que funciona com o GStreamer. O qual deveria "
+"ser qualquer câmera que suporta video4linux ou video4linux2."
 
 #: C/cheese.xml:465(title) 
 msgid "About"
-msgstr ""
+msgstr "Sobre"
 
 #: C/cheese.xml:466(para) 
 msgid ""
@@ -709,6 +737,13 @@ msgid ""
 "visit the <ulink url=\"http://www.gnome.org/projects/cheese\" "
 "type=\"http\"><application>Cheese</application> web page</ulink>."
 msgstr ""
+"O Cheese foi inicialmente escrito por Daniel G. Siegel "
+"<email>dgsiegel@gmail.com</email>, como um projeto do Google Summer. Mais "
+"tarde Jaap A. Haitsma <email>jaap@haitsma.org</email> e também outros se "
+"juntaram a Daniel no aperfeiçoamento do Cheese. Para encontrar mais "
+"informações sobre o Cheese, por favor, visite a "
+"<ulink url=\"http://www.gnome.org/projects/cheese\" type=\"http\">página do "
+"<application>Cheese</application></ulink>."
 
 #: C/cheese.xml:474(para) 
 msgid ""
@@ -717,6 +752,10 @@ msgid ""
 "<ulink url=\"http://bugzilla.gnome.org/browse.cgi?product=cheese\" "
 "type=\"http\"> bug tracker</ulink>."
 msgstr ""
+"Para relatar um erro ou fazer uma sugestão relacionada ao aplicativo você "
+"pode abrir um relatório de erro no nosso <ulink "
+"url=\"http://bugzilla.gnome.org/browse.cgi?product=cheese\" "
+"type=\"http\">marcador de erros</ulink>."
 
 #: C/cheese.xml:480(para) 
 msgid ""
@@ -727,9 +766,16 @@ msgid ""
 "type=\"http\">GNU site</ulink>, or in the file COPYING included with the "
 "source code of this program."
 msgstr ""
+"Este programa é distribuído dentro dos termos da Licença Pública Geral GNU "
+"(GNU General Public License) publicada pela Free Software Foundation; tanto "
+"na versão 2 da Licença, quanto (a seu critério) qualquer versão mais nova. "
+"Uma cópia desta licença pode ser encontrada na <ulink "
+"url=\"http://www.gnu.org/licenses/gpl.html\" type=\"http\">página "
+"GNU</ulink>, ou no arquivo COPYING incluído com o código fonte deste "
+"programa."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
 #: C/cheese.xml:0(None) 
 msgid "translator-credits"
-msgstr ""
+msgstr "Fabrício Godoy <skarllot@gmail.com>, 2008."
 
