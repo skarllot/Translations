@@ -38,9 +38,9 @@ msgid ""
 "<application>Cheese</application> is a video and photo shoot program that "
 "for webcams (or other cameras) and can do some cool effects"
 msgstr ""
-"O <application>Cheese</application> é um programa para vídeo e captura de "
-"fotos para webcams (ou outras cameras) e que pode fazer alguns efeitos "
-"divertidos"
+"O <application>Cheese</application> é um programa para captura de vídeos e "
+"fotos usando webcams (ou outras câmeras) e que também pode fazer alguns "
+"efeitos divertidos"
 
 #: C/cheese.xml:33(year) 
 msgid "2007"
@@ -70,8 +70,8 @@ msgstr ""
 "Permissão concedida para copiar, distribuir e/ou modificar este documento "
 "sob os termos da Licença de Documentação Livre GNU (GNU Free Documentation "
 "License), Versão 1.1 ou qualquer versão mais recente publicada pela Free "
-"Software Foundation; sem Seções Invariantes, Textos de Capa Frontal, e sem "
-"Textos de Contracapa. Você pode encontrar uma cópia da licença GFDL no "
+"Software Foundation; sem Seções Invariantes, sem Textos de Capa Frontal, e "
+"sem Textos de Contracapa. Você pode encontrar uma cópia da licença GFDL no "
 "<ulink type=\"help\" url=\"ghelp:fdl\">link</ulink> ou no arquivo "
 "COPYING-DOCS distribuído com este manual."
 
@@ -226,9 +226,9 @@ msgid ""
 "type=\"http\"><application>Cheese</application> Contact Page</ulink>."
 msgstr ""
 "Para relatar um erro ou fazer uma sugestão relacionada ao aplicativo "
-"Cheese ou esse manual, veja em "
-"<ulink url=\"http://www.gnome.org/projects/cheese/\" "
-"type=\"http\">Página de contato do <application>Cheese</application></ulink>."
+"Cheese ou a esse manual, veja em <ulink "
+"url=\"http://www.gnome.org/projects/cheese/\" type=\"http\">Página de "
+"contato do <application>Cheese</application></ulink>."
 
 #: C/cheese.xml:0(application) C/cheese.xml:0(application) 
 msgid "Cheese"
@@ -252,7 +252,7 @@ msgid ""
 "<systemitem>GNOME desktop</systemitem>"
 msgstr ""
 "O Cheese é um aplicativo para vídeo e captura de fotos com efeitos "
-"divertidos para o <systemitem>ambiente GNOME</systemitem>"
+"divertidos para o <systemitem>ambiente GNOME</systemitem>."
 
 #: C/cheese.xml:154(title) 
 msgid "Usage"
@@ -260,7 +260,7 @@ msgstr "Utilização"
 
 #: C/cheese.xml:155(para) 
 msgid "The main screen of Cheese looks like the screen shot below"
-msgstr "A tela principal do Cheese se parece com a captura de tela abaixo"
+msgstr "A tela principal do Cheese se parece com a captura de tela abaixo."
 
 #: C/cheese.xml:160(title) 
 msgid "Cheese screenshot"
@@ -280,7 +280,7 @@ msgstr "Efeitos"
 
 #: C/cheese.xml:182(title) 
 msgid "Cheese effects screenshot"
-msgstr "Captura de tela dos efeitos do Cheese"
+msgstr "Captura de tela mostrando os efeitos do Cheese"
 
 #: C/cheese.xml:177(para) 
 msgid ""
@@ -300,7 +300,7 @@ msgid ""
 "image (for example, if you apply “Hulk” and “Horizontal Flip”, the input "
 "from the webcam will be altered to have a green shade and be up side down)."
 msgstr ""
-"Você pode selecionar diversos efeitos para serem aplicados as suas fotos. "
+"Você pode selecionar diversos efeitos para serem aplicados em suas fotos. "
 "Para aplicar um efeito, apenas clique no nome ou na imagem correspondente, e "
 "o botão ficará azulado. Selecionando múltiplos efeitos os mesmos serão "
 "aplicados à sua imagem (por exemplo, se você aplicar \"Hulk\" e \"Virar "
