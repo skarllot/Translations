@@ -20,14 +20,22 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: C/cheese.xml:164(None) 
-msgid "@@image: 'figures/cheese-screenshot.jpg'; md5=e24f99c6208e8556528e347fcf730554"
-msgstr "@@image: 'figures/cheese-screenshot.jpg'; md5=e24f99c6208e8556528e347fcf730554"
+msgid ""
+"@@image: 'figures/cheese-screenshot.jpg'; "
+"md5=e24f99c6208e8556528e347fcf730554"
+msgstr ""
+"@@image: 'figures/cheese-screenshot.jpg'; "
+"md5=e24f99c6208e8556528e347fcf730554"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: C/cheese.xml:186(None) 
-msgid "@@image: 'figures/cheese-effects-screenshot.jpg'; md5=0a773e6a421f02d6dbf53259c63a34b0"
-msgstr "@@image: 'figures/cheese-effects-screenshot.jpg'; md5=0a773e6a421f02d6dbf53259c63a34b0"
+msgid ""
+"@@image: 'figures/cheese-effects-screenshot.jpg'; "
+"md5=0a773e6a421f02d6dbf53259c63a34b0"
+msgstr ""
+"@@image: 'figures/cheese-effects-screenshot.jpg'; "
+"md5=0a773e6a421f02d6dbf53259c63a34b0"
 
 #: C/cheese.xml:25(title) 
 msgid "<application>Cheese</application> Manual"
@@ -236,7 +244,7 @@ msgstr "Cheese"
 
 #: C/cheese.xml:130(primary) C/cheese.xml:143(tertiary) 
 msgid "cheese"
-msgstr "Cheese"
+msgstr "cheese"
 
 #: C/cheese.xml:136(title) 
 msgid "Introduction"
@@ -412,7 +420,7 @@ msgid ""
 "in the bottom right hand corner."
 msgstr ""
 "Para iniciar a gravação de um vídeo, pressione o botão rotulado \"Iniciar "
-"gravação\" ou pressione a tecla espaço. O tempo do vídeo que que está sendo "
+"gravação\" ou pressione a tecla espaço. O tempo do vídeo que está sendo "
 "gravado aparecerá na parte inferior direita da janela."
 
 #: C/cheese.xml:270(para) 
