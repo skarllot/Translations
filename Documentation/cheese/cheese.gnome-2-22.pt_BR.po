@@ -25,7 +25,7 @@ msgid ""
 "md5=e24f99c6208e8556528e347fcf730554"
 msgstr ""
 "@@image: 'figures/cheese-screenshot.jpg'; "
-"md5=e24f99c6208e8556528e347fcf730554"
+"md5=24dbaf1bccd84af0b7c3f81da1b9f0a4"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -35,7 +35,7 @@ msgid ""
 "md5=0a773e6a421f02d6dbf53259c63a34b0"
 msgstr ""
 "@@image: 'figures/cheese-effects-screenshot.jpg'; "
-"md5=0a773e6a421f02d6dbf53259c63a34b0"
+"md5=6889f221d831434e65e79c7d3056887f"
 
 #: C/cheese.xml:25(title) 
 msgid "<application>Cheese</application> Manual"
