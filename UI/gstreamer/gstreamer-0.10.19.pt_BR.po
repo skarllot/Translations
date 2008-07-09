@@ -5,7 +5,6 @@
 #
 # pipeline -> fila de processamento
 # sink -> consumidor
-# clock -> relógio
 # flow -> vazão
 # stream -> fluxo
 # preroll -> preparar
@@ -51,12 +50,11 @@ msgid "LEVEL"
 msgstr "NÍVEL"
 
 #: gst/gst.c:321
-#, fuzzy
 msgid ""
 "Comma-separated list of category_name:level pairs to set specific levels for "
 "the individual categories. Example: GST_AUTOPLUG:5,GST_ELEMENT_*:3"
 msgstr ""
-"Lista separada por vírgulas de category_name: pares de nível para definir "
+"Lista de \"categoria_nome:nível\" separados por vírgulas, para definir "
 "níveis específicos para as categorias individuais. Exemplo: "
 "GST_AUTOPLUG:5,GST_ELEMENT_*:3"
 
@@ -423,9 +421,8 @@ msgid "extended comment"
 msgstr "comentário prolongado"
 
 #: gst/gsttaglist.c:131
-#, fuzzy
 msgid "free text commenting the data in key=value or key[en]=comment form"
-msgstr "texto livre comentando os dados, usando o formato chave=valor ou chave[en]=comentário"
+msgstr "texto livre comentando os dados, usando o formato chave=valor ou chave[pt_BR]=comentário"
 
 #: gst/gsttaglist.c:135
 msgid "track number"
