@@ -15,14 +15,14 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: GStreamer 0.10.19\n"
+"Project-Id-Version: gstreamer-0.10.19.3\n"
 "Report-Msgid-Bugs-To: www.xchat.org\n"
 "POT-Creation-Date: 2008-06-11 21:29+0100\n"
-"PO-Revision-Date: 2008-07-09 01:28-0300\n"
+"PO-Revision-Date: 2008-07-10 20:47-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
