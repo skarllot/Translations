@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cheese\n"
 "POT-Creation-Date: 2008-07-05 03:49+0000\n"
-"PO-Revision-Date: 2008-07-09 23:25-0300\n"
+"PO-Revision-Date: 2008-07-10 20:32-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-l10n-br@listas.cipsga.org.br>\n"
 "MIME-Version: 1.0\n"
@@ -26,7 +26,7 @@ msgid ""
 "md5=e24f99c6208e8556528e347fcf730554"
 msgstr ""
 "@@image: 'figures/cheese-screenshot.jpg'; "
-"md5=02a97678593759747fff7296fdfa068d"
+"md5=cc120d02d349ec93cf5b3cc2ae68762a"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -36,7 +36,7 @@ msgid ""
 "md5=0a773e6a421f02d6dbf53259c63a34b0"
 msgstr ""
 "@@image: 'figures/cheese-effects-screenshot.jpg'; "
-"md5=b0c8a59a226f6825a008546073d27f7e"
+"md5=30382ae70b7663d3c55830ea3ca35611"
 
 #: C/cheese.xml:25(title) 
 msgid "<application>Cheese</application> Manual"
