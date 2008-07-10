@@ -22,61 +22,75 @@ msgid ""
 "@@image: 'figures/gconf_editor_anno_window.png'; "
 "md5=de0c8c06af293c34b21608810e244b23"
 msgstr ""
+"@@image: 'figures/gconf_editor_anno_window.png'; "
+"md5=9738577b4bd1b18ea87d0cbee40d60d7"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: C/gconf-editor.xml:482(None)
 msgid "@@image: 'figures/entry-bool.png'; md5=THIS FILE DOESN'T EXIST"
 msgstr ""
+"@@image: 'figures/entry-bool.png'; "
+"md5=2966eb7f1115df0eb45da84d5e1ec202"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: C/gconf-editor.xml:490(None)
 msgid "@@image: 'figures/entry-number.png'; md5=THIS FILE DOESN'T EXIST"
 msgstr ""
+"@@image: 'figures/entry-number.png'; "
+"md5=ed3c59de590c2f556fc88c11db5d3ce5"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: C/gconf-editor.xml:497(None)
 msgid "@@image: 'figures/entry-string.png'; md5=THIS FILE DOESN'T EXIST"
 msgstr ""
+"@@image: 'figures/entry-string.png'; "
+"md5=6e66a2292b70c4b4332af98b07c4cb5d"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: C/gconf-editor.xml:503(None)
 msgid "@@image: 'figures/entry-schema.png'; md5=THIS FILE DOESN'T EXIST"
 msgstr ""
+"@@image: 'figures/entry-schema.png'; "
+"md5=6eafa713ecb0e6452e00c44c9c373dea"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: C/gconf-editor.xml:512(None)
 msgid "@@image: 'figures/entry-list.png'; md5=THIS FILE DOESN'T EXIST"
 msgstr ""
+"@@image: 'figures/entry-list.png'; "
+"md5=f11b0fcf542ccd936409c2c4a85da634"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: C/gconf-editor.xml:520(None) C/gconf-editor.xml:529(None)
 msgid "@@image: 'figures/entry-blank.png'; md5=THIS FILE DOESN'T EXIST"
 msgstr ""
+"@@image: 'figures/entry-blank.png'; "
+"md5=ef9f97ca90eeffda318fe6b39bd3ed87"
 
 #: C/gconf-editor.xml:22(title)
 msgid "Configuration Editor Manual"
-msgstr ""
+msgstr "Manual do Editor de Configurações"
 
 #: C/gconf-editor.xml:24(year)
 msgid "2004"
-msgstr ""
+msgstr "2004"
 
 #: C/gconf-editor.xml:25(holder) C/gconf-editor.xml:47(orgname)
 msgid "Sun Microsystems"
-msgstr ""
+msgstr "Sun Microsystems"
 
 #: C/gconf-editor.xml:35(publishername) C/gconf-editor.xml:53(orgname)
 #: C/gconf-editor.xml:60(orgname) C/gconf-editor.xml:83(para)
 #: C/gconf-editor.xml:84(para) C/gconf-editor.xml:93(para)
 #: C/gconf-editor.xml:101(para)
 msgid "GNOME Documentation Project"
-msgstr ""
+msgstr "Projeto de documentação do GNOME"
 
 #: C/gconf-editor.xml:2(para)
 msgid ""
@@ -87,6 +101,13 @@ msgid ""
 "of the GFDL at this <ulink type=\"help\" url=\"ghelp:fdl\">link</ulink> or "
 "in the file COPYING-DOCS distributed with this manual."
 msgstr ""
+"Permissão concedida para copiar, distribuir e/ou modificar este documento "
+"sob os termos da Licença de Documentação Livre GNU (GNU Free Documentation "
+"License), Versão 1.1 ou qualquer versão mais recente publicada pela Free "
+"Software Foundation; sem Seções Invariantes, sem Textos de Capa Frontal, e "
+"sem Textos de Contracapa. Você pode encontrar uma cópia da licença GFDL no "
+"<ulink type=\"help\" url=\"ghelp:fdl\">link</ulink> ou no arquivo "
+"COPYING-DOCS distribuído com este manual."
 
 #: C/gconf-editor.xml:12(para)
 msgid ""
@@ -95,6 +116,10 @@ msgid ""
 "you can do so by adding a copy of the license to the manual, as described in "
 "section 6 of the license."
 msgstr ""
+"Este manual é parte da coleção de manuais do GNOME distribuídos sob a GFDL. "
+"Se você quiser distribuí-lo separadamente da coleção, você pode fazê-lo "
+"adicionando ao manual uma cópia da licença, como descrito na seção 6 da "
+"licença."
 
 #: C/gconf-editor.xml:19(para)
 msgid ""
@@ -104,6 +129,11 @@ msgid ""
 "aware of those trademarks, then the names are in capital letters or initial "
 "capital letters."
 msgstr ""
+"Muitos dos nomes usados por empresas para distinguir seus produtos e "
+"serviços são reivindicados como marcas registradas. Onde esses nomes "
+"aparecem em qualquer documentação do GNOME e os membros do Projeto de "
+"Documentação do GNOME estiverem cientes dessas marcas registradas, os nomes "
+"aparecerão impressos em letras maiúsculas ou com iniciais em maiúsculas."
 
 #: C/gconf-editor.xml:35(para)
 msgid ""
@@ -119,6 +149,18 @@ msgid ""
 "ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION "
 "OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
 msgstr ""
+"O DOCUMENTO É FORNECIDO NA BASE \"COMO ESTÁ\", SEM GARANTIAS DE QUALQUER "
+"TIPO, TANTO EXPRESSA OU IMPLÍCITA, INCLUINDO, MAS NÃO LIMITADO A, GARANTIAS "
+"DE QUE O DOCUMENTO OU VERSÃO MODIFICADA DO DOCUMENTO SEJA COMERCIALIZÁVEL, "
+"LIVRE DE DEFEITOS, PRÓPRIO PARA UM PROPÓSITO ESPECÍFICO OU SEM INFRAÇÕES. "
+"TODO O RISCO A RESPEITO DA QUALIDADE, EXATIDÃO, E DESEMPENHO DO DOCUMENTO OU "
+"VERSÕES MODIFICADAS DO DOCUMENTO É DE SUA RESPONSABILIDADE. SE ALGUM "
+"DOCUMENTO OU VERSÃO MODIFICADA SE PROVAR DEFEITUOSO EM QUALQUER ASPECTO, "
+"VOCÊ (NÃO O ESCRITOR INICIAL, AUTOR OU QUALQUER CONTRIBUIDOR) ASSUME O CUSTO "
+"DE QUALQUER SERVIÇO NECESSÁRIO, REPARO OU CORREÇÃO. ESSA RENÚNCIA DE "
+"GARANTIAS CONSTITUI UMA PARTE ESSENCIAL DESTA LICENÇA. NENHUM USO DESTE "
+"DOCUMENTO OU VERSÃO MODIFICADA DESTE DOCUMENTO É AUTORIZADO SE NÃO FOR SOB "
+"ESSA RENÚNCIA; E"
 
 #: C/gconf-editor.xml:55(para)
 msgid ""
@@ -133,6 +175,17 @@ msgid ""
 "VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE "
 "POSSIBILITY OF SUCH DAMAGES."
 msgstr ""
+"SOB NENHUMA CIRCUNSTÂNCIA E SOB NENHUMA TEORIA LEGAL, TANTO EM DANO "
+"(INCLUINDO NEGLIGÊNCIA), CONTRATO, OU OUTROS, DEVEM O AUTOR, ESCRITOR "
+"INICIAL, QUALQUER CONTRIBUIDOR, OU QUALQUER DISTRIBUIDOR DO DOCUMENTO OU "
+"VERSÃO MODIFICADA DO DOCUMENTO, OU QUALQUER FORNECEDOR DE ALGUMA DESSAS "
+"PARTES, SER CONSIDERADOS RESPONSÁVEIS A QUALQUER PESSOA POR QUALQUER DANO, "
+"SEJA DIRETO, INDIRETO, ESPECIAL, ACIDENTAL OU CONSEQÜENCIAL DE QUALQUER "
+"INDIVÍDUO, INCLUINDO, MAS NÃO LIMITADO A, DANOS POR PERDA DE BOA VONTADE, "
+"TRABALHO PARADO, FALHA OU MAU FUNCIONAMENTO DO COMPUTADOR, OU QUALQUER E "
+"TODOS OS OUTROS DANOS OU PERDAS RESULTANTES OU RELACIONADOS AO USO DO "
+"DOCUMENTO E VERSÕES MODIFICADAS, MESMO QUE TAL PARTE TENHA SIDO INFORMADA DA "
+"POSSIBILIDADE DE TAIS DANOS."
 
 #: C/gconf-editor.xml:28(para)
 msgid ""
@@ -140,76 +193,82 @@ msgid ""
 "OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
 "<placeholder-1/>"
 msgstr ""
+"O DOCUMENTO E VERSÕES MODIFICADAS DO DOCUMENTO SÃO FORNECIDOS SOB OS TERMOS "
+"DA GNU FREE DOCUMENTATION LICENSE COM O ENTENDIMENTO ADICIONAL DE QUE: "
+"<placeholder-1/>"
 
 #: C/gconf-editor.xml:45(firstname)
 msgid "Sun"
-msgstr ""
+msgstr "Sun"
 
 #: C/gconf-editor.xml:46(surname)
 msgid "GNOME Documentation Team"
-msgstr ""
+msgstr "Time de documentação do GNOME"
 
 #: C/gconf-editor.xml:50(firstname)
 msgid "Angela"
-msgstr ""
+msgstr "Angela"
 
 #: C/gconf-editor.xml:51(surname)
 msgid "Boyle"
-msgstr ""
+msgstr "Boyle"
 
 #: C/gconf-editor.xml:57(firstname)
 msgid "Shaun"
-msgstr ""
+msgstr "Shaun"
 
 #: C/gconf-editor.xml:58(surname)
 msgid "McCance"
-msgstr ""
+msgstr "McCance"
 
 #: C/gconf-editor.xml:76(para)
 msgid ""
 "Configuration Editor can be used to change configuration options used by "
 "applications that may not be available through Preference dialogs"
 msgstr ""
+"O Editor de Configurações pode ser usado para mudar opções de configuração "
+"usadas pelos aplicativos que podem não estar disponíveis por meio das "
+"janelas de preferências"
 
 #: C/gconf-editor.xml:80(revnumber)
 msgid "Version 2.8"
-msgstr ""
+msgstr "Versão 2.8"
 
 #: C/gconf-editor.xml:81(date)
 msgid "September 2004"
-msgstr ""
+msgstr "Setembro de 2004"
 
 #: C/gconf-editor.xml:85(para)
 msgid "unreviewed"
-msgstr ""
+msgstr "não-revisado"
 
 #: C/gconf-editor.xml:89(revnumber)
 msgid "Version 2.1"
-msgstr ""
+msgstr "Versão 2.1"
 
 #: C/gconf-editor.xml:90(date)
 msgid "August 2004"
-msgstr ""
+msgstr "Agosto de 2004"
 
 #: C/gconf-editor.xml:92(para) C/gconf-editor.xml:100(para)
 msgid "Sun GNOME Documentation Team"
-msgstr ""
+msgstr "Time de documentação da Sun para o GNOME"
 
 #: C/gconf-editor.xml:97(revnumber)
 msgid "Version 2.0.1"
-msgstr ""
+msgstr "Versão 2.0.1"
 
 #: C/gconf-editor.xml:98(date)
 msgid "January 2004"
-msgstr ""
+msgstr "Janeiro de 2004"
 
 #: C/gconf-editor.xml:105(releaseinfo)
 msgid "This manual describes version 2.8 of Configuration Editor."
-msgstr ""
+msgstr "Este manual descreve a versão 2.8 do Editor de Configurações."
 
 #: C/gconf-editor.xml:107(title)
 msgid "Feedback"
-msgstr ""
+msgstr "Feedback"
 
 #: C/gconf-editor.xml:108(para)
 msgid ""
@@ -217,14 +276,17 @@ msgid ""
 "application or this manual, follow the directions in the <ulink url=\"ghelp:"
 "gnome-feedback\" type=\"help\">GNOME Feedback Page</ulink>."
 msgstr ""
+"Para relatar um erro ou fazer uma sugestão relacionada ao aplicativo Editor "
+"de Configurações ou este manual, veja a <ulink url=\"ghelp:gnome-feedback\" "
+"type=\"help\">página de feedback do GNOME</ulink>."
 
 #: C/gconf-editor.xml:118(primary)
 msgid "GConf Editor"
-msgstr ""
+msgstr "Editor GConf"
 
 #: C/gconf-editor.xml:122(title)
 msgid "Introduction"
-msgstr ""
+msgstr "Introdução"
 
 #: C/gconf-editor.xml:123(para)
 msgid ""
@@ -236,6 +298,14 @@ msgid ""
 "<ulink url=\"ghelp:system-admin-guide#gconf-0\">GNOME System Administrator's "
 "Guide</ulink>."
 msgstr ""
+"O ambiente GNOME e muitos aplicativos usam o "
+"<application>GConf</application> para armazenar preferências de usuário e "
+"dados de configuração do sistema. O <application>GConf</application> fornece "
+"um local centralizado de armazenamento para preferências, simplificando o "
+"gerenciamento de configurações para usuários e administradores de sistema. "
+"Mais informações sobre o <application>GConf</application> podem ser "
+"encontradas no <ulink url=\"ghelp:system-admin-guide#gconf-0\">Guia de "
+"Administração do Sistema do Ambiente de Trabalho GNOME</ulink>."
 
 #: C/gconf-editor.xml:131(para)
 msgid ""
@@ -245,6 +315,12 @@ msgid ""
 "use <application>Configuration Editor</application> to set default and "
 "mandatory settings which will affect all users."
 msgstr ""
+"O <application>Editor de Configurações</application> permite que os usuários "
+"modifiquem suas preferências para todo o ambiente do GNOME e qualquer "
+"aplicativo que use o <application>GConf</application>. Além disso, "
+"administradores do sistema podem usar o <application>Editor de "
+"Configurações</application> para definir padrões e configurações "
+"obrigatórias a quais afetarão todos usuários."
 
 #: C/gconf-editor.xml:136(para)
 msgid ""
@@ -254,6 +330,11 @@ msgid ""
 "ball_theme</literal> stores which theme you use in the game "
 "<application>Five or More</application>."
 msgstr ""
+"As preferências são armazenadas no <application>GConf</application> em uma "
+"hierarquia de chaves. Cada chave tem um valor associado o qual especifica "
+"sua definição para tal preferência. Por exemplo, a chave <literal>/apps/"
+"glines/preferences/ball_theme</literal> armazena qual tema você usa no jogo "
+"<application>Cinco ou Mais</application>."
 
 #: C/gconf-editor.xml:141(para)
 msgid ""
@@ -265,68 +346,85 @@ msgid ""
 "the <ulink url=\"ghelp:user-guide\">GNOME Desktop User Guide</ulink> for "
 "your platform."
 msgstr ""
+"O <application>Editor de Configurações</application> permite que você "
+"modifique suas fontes de configurações diretamente. Se você não for um "
+"usuário experiente, não use o <application>Editor de "
+"Configurações</application> para definir preferências para o ambiente GNOME. "
+"Ao invés disso, use as ferramentas de preferências no ambiente GNOME. Para "
+"informações sobre como usar ferramentas de preferências, veja a última "
+"versão do <ulink url=\"ghelp:user-guide\">Guia do usuário para o ambiente "
+"GNOME</ulink> para sua plataforma."
 
 #: C/gconf-editor.xml:151(title)
 msgid "Getting Started"
-msgstr ""
+msgstr "Iniciando o uso"
 
 #: C/gconf-editor.xml:154(title)
 msgid "To Start Configuration Editor"
-msgstr ""
+msgstr "Iniciar o Editor de Configurações"
 
 #: C/gconf-editor.xml:155(para)
 msgid ""
 "You can start <application>Configuration Editor</application> in the "
 "following ways:"
 msgstr ""
+"Você pode iniciar o <application>Editor de Configurações</application> das "
+"seguintes maneiras:"
 
 #: C/gconf-editor.xml:159(term)
 msgid "<guimenu>Applications</guimenu> menu"
-msgstr ""
+msgstr "Menu <guimenu>Aplicações</guimenu>"
 
 #: C/gconf-editor.xml:161(para)
 msgid ""
 "Choose <menuchoice><guisubmenu>System Tools</"
 "guisubmenu><guimenuitem>Configuration Editor</guimenuitem></menuchoice>."
-msgstr ""
+msgstr "Vá até <menuchoice><guisubmenu>Ferramentas do "
+"Sistema</guisubmenu><guimenuitem>Editor de "
+"Configurações</guimenuitem></menuchoice>."
 
 #: C/gconf-editor.xml:166(term)
 msgid "Command line"
-msgstr ""
+msgstr "Linha de comando"
 
 #: C/gconf-editor.xml:168(para)
 msgid "Execute the following command: <command>gconf-editor</command>"
-msgstr ""
+msgstr "Execute o seguinte comando: <command>gconf-editor</command>"
 
 #: C/gconf-editor.xml:176(title)
 msgid "When You Start Configuration Editor"
-msgstr ""
+msgstr "Quando você inicia o Editor de Configurações"
 
 #: C/gconf-editor.xml:177(para)
 msgid ""
 "When you start <application>Configuration Editor</application>, the "
 "following window is displayed."
 msgstr ""
+"Quando você inicia o <application>Editor de Configurações</application>, a "
+"seguinte janela é exibida."
 
 #: C/gconf-editor.xml:180(title)
 msgid "<application>Configuration Editor</application> Window"
-msgstr ""
+msgstr "A janela do <application>Editor de Configurações</application>"
 
 #: C/gconf-editor.xml:188(phrase)
 msgid ""
 "Shows GConf Editor window. Callouts: Tree pane, Modification pane, "
 "Documentation pane."
-msgstr ""
+msgstr "Exibe a janela do Editor GConf com o painel hierárquico, painel de "
+"modificações e o painel de documentação."
 
 #: C/gconf-editor.xml:194(para)
 msgid ""
 "The <application>Configuration Editor</application> window contains the "
 "following panes:"
 msgstr ""
+"A janela do <application>Editor de Configurações</application> contém os "
+"seguintes painéis:"
 
 #: C/gconf-editor.xml:198(term)
 msgid "Tree pane"
-msgstr ""
+msgstr "Painel hierárquico"
 
 #: C/gconf-editor.xml:199(para)
 msgid ""
@@ -334,10 +432,14 @@ msgid ""
 "application>. Use this pane to display the keys that you want to modify in "
 "the modification pane. The tree pane is on the left side of the window."
 msgstr ""
+"Permite que você navegue a hierarquia das chaves do "
+"<application>GConf</application>. Use esse painel para exibir as chaves que "
+"você quer modificar no painel de modificações. O painel hierárquico está do "
+"lado esquerdo da janela."
 
 #: C/gconf-editor.xml:205(term)
 msgid "Modification pane"
-msgstr ""
+msgstr "Painel de modificações"
 
 #: C/gconf-editor.xml:207(para)
 msgid ""
@@ -346,6 +448,10 @@ msgid ""
 "to modify the values of keys. The modification pane is in the upper part of "
 "the right side of the window."
 msgstr ""
+"Exibe as chaves do local do <application>GConf</application> de acordo com o "
+"que foi selecionado pelo painel hierárquico. Use esse painel para selecionar "
+"chaves que você quer modificar e modificar os valores dessas chaves. O "
+"painel de modificações está na parte superior direita da janela."
 
 #: C/gconf-editor.xml:212(para)
 msgid ""
@@ -355,20 +461,29 @@ msgid ""
 "can enter a Boolean value (true or false) for the key. See <xref linkend="
 "\"icons\"/> for more information on each icon."
 msgstr ""
+"Os ícones ao lado das chaves no painel de modificações indicam qual o tipo "
+"do valor que você pode inserir para a chave. Por exemplo, o ícone de marca "
+"de seleção ao lado da chave <literal>/system/http_proxy/"
+"use_http_proxy</literal> indica que você pode inserir um valor booleano "
+"(verdadeiro ou falso) para a chave. Veja <xref linkend=\"icons\"/> para mais "
+"informações de cada ícone."
 
 #: C/gconf-editor.xml:221(term)
 msgid "Documentation pane"
-msgstr ""
+msgstr "Painel de documentação"
 
 #: C/gconf-editor.xml:222(para)
 msgid ""
 "Displays documentation for the currently selected key. Use this pane to read "
 "more information about the <application>GConf</application> preference keys."
 msgstr ""
+"Exibe a documentação para a chave atualmente selecionada. Use esse painel "
+"para ter mais informações sobre as chaves de preferências do "
+"<application>GConf</application>."
 
 #: C/gconf-editor.xml:228(term)
 msgid "Results pane (not shown)"
-msgstr ""
+msgstr "Painel de resultados (não exibido)"
 
 #: C/gconf-editor.xml:229(para)
 msgid ""
@@ -378,6 +493,11 @@ msgid ""
 "pane will appear on the bottom of the window when you list the recent keys "
 "or perform a search."
 msgstr ""
+"Permite que você veja os resultados da pesquisa ou pesquisar através da sua "
+"lista de nomes de chaves vistas recentemente. O resto da janela exibe "
+"informações de qualquer chave que você tiver selecionado nesse painel. O "
+"painel de resultados aparecerá na parte inferior da janela quando você "
+"listar chaves recentes ou fazer uma pesquisa."
 
 #: C/gconf-editor.xml:241(title)
 msgid "Working with Windows"
