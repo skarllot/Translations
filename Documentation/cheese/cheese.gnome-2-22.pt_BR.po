@@ -2,6 +2,7 @@
 # This file is distributed under the same license as the Cheese package.
 # Copyright (C) 2008 Free Software Foundation, Inc.
 # Fabrício Godoy <skarllot@gmail.com>, 2008.
+# Og Maciel <ogmaciel@gnome.org>, 2008.
 #
 # Photo stream -> painel de fotos
 #
@@ -9,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cheese\n"
 "POT-Creation-Date: 2008-07-05 03:49+0000\n"
-"PO-Revision-Date: 2008-07-08 01:10-0300\n"
+"PO-Revision-Date: 2008-07-09 23:25-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-l10n-br@listas.cipsga.org.br>\n"
 "MIME-Version: 1.0\n"
@@ -25,7 +26,7 @@ msgid ""
 "md5=e24f99c6208e8556528e347fcf730554"
 msgstr ""
 "@@image: 'figures/cheese-screenshot.jpg'; "
-"md5=24dbaf1bccd84af0b7c3f81da1b9f0a4"
+"md5=02a97678593759747fff7296fdfa068d"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -35,7 +36,7 @@ msgid ""
 "md5=0a773e6a421f02d6dbf53259c63a34b0"
 msgstr ""
 "@@image: 'figures/cheese-effects-screenshot.jpg'; "
-"md5=6889f221d831434e65e79c7d3056887f"
+"md5=b0c8a59a226f6825a008546073d27f7e"
 
 #: C/cheese.xml:25(title) 
 msgid "<application>Cheese</application> Manual"
@@ -785,5 +786,7 @@ msgstr ""
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
 #: C/cheese.xml:0(None) 
 msgid "translator-credits"
-msgstr "Fabrício Godoy <skarllot@gmail.com>, 2008."
+msgstr ""
+"Fabrício Godoy <skarllot@gmail.com>, 2008.\n"
+"Og Maciel <ogmaciel@gnome.org>, 2008."
 
