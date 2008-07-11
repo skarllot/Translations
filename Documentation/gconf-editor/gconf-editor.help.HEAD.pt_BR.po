@@ -501,11 +501,11 @@ msgstr ""
 
 #: C/gconf-editor.xml:241(title)
 msgid "Working with Windows"
-msgstr ""
+msgstr "Manipulando janelas"
 
 #: C/gconf-editor.xml:243(title)
 msgid "Opening New Windows"
-msgstr ""
+msgstr "Abrindo novas janelas"
 
 #: C/gconf-editor.xml:244(para)
 msgid ""
@@ -516,6 +516,13 @@ msgid ""
 "sets depends on what type of window you have open. You can open each type of "
 "window with the appropriate item under the <guimenu>File</guimenu> menu."
 msgstr ""
+"Há três tipos de janelas que você pode abrir no <application>Editor de "
+"Configurações</application>: <application>Configurações</application>, "
+"<application>Valores Padrões</application> e <application>Valores "
+"Mandatários</application>. Os valores que o <application>Editor de "
+"Configurações</application> define depende de qual tipo de janela você "
+"abriu. Você pode abrir cada tipo de janela com o item apropriado por meio do "
+"menu <guimenu>Arquivo</guimenu>."
 
 #: C/gconf-editor.xml:250(para)
 msgid ""
@@ -525,10 +532,15 @@ msgid ""
 "change your preferences, you should use the <application>Settings</"
 "application> window."
 msgstr ""
+"Visto que as configurações das janelas <application>Valores "
+"Padrões</application> e <application>Valores Mandatários</application> "
+"afetam todos os usuários do computador, apenas um administrador do sistema "
+"pode usar esses tipos de janelas. Para mudar suas preferências, você deveria "
+"usar a janela <application>Configurações</application>."
 
 #: C/gconf-editor.xml:257(application)
 msgid "Settings"
-msgstr ""
+msgstr "Configurações"
 
 #: C/gconf-editor.xml:258(para)
 msgid ""
@@ -537,10 +549,15 @@ msgid ""
 "application> window only affect your desktop. You cannot change the settings "
 "that the system administrator has made mandatory."
 msgstr ""
+"Você pode usar a janela <application>Configurações</application> para "
+"definir suas preferências pessoais. Mudanças feitas na janela "
+"<application>Configurações</application> apenas afetam sua área de trabalho. "
+"Você não pode mudar as configurações que o administrador do sistema definiu "
+"como obrigatórias."
 
 #: C/gconf-editor.xml:267(application)
 msgid "Defaults"
-msgstr ""
+msgstr "Valores padrões"
 
 #: C/gconf-editor.xml:268(para)
 msgid ""
@@ -549,10 +566,15 @@ msgid ""
 "does not set the value of a key explicitly, the value will be taken from the "
 "default settings. Users can always override the default settings."
 msgstr ""
+"Se você for um administrador do sistema, você pode usar a janela "
+"<application>Valores Padrões</application> para editar as configurações "
+"padrão para todos os usuários. Se um usuário não definir um valor para a "
+"chave explicitamente, o valor será pego das configurações padrão. Usuários "
+"podem sempre sobrescrever as configurações padrão."
 
 #: C/gconf-editor.xml:275(application)
 msgid "Mandatory"
-msgstr ""
+msgstr "Valores mandatários"
 
 #: C/gconf-editor.xml:276(para)
 msgid ""
@@ -561,10 +583,15 @@ msgid ""
 "mandatory value is set for a key, users are not able to change that value. "
 "This can be used to lock down certain options."
 msgstr ""
+"Se você for um administrador do sistema, você pode usar a janela "
+"<application>Valores Mandatários</application> para editar as configurações "
+"obrigatórias para todos os usuários. Quando um valor obrigatório for "
+"definido para uma chave, usuários não poderão mudar este valor. Isso pode "
+"ser usado para bloquear certas opções."
 
 #: C/gconf-editor.xml:286(title)
 msgid "Closing and Quitting"
-msgstr ""
+msgstr "Fechando e saindo"
 
 #: C/gconf-editor.xml:287(para)
 msgid ""
@@ -576,6 +603,14 @@ msgid ""
 "guimenu><guimenuitem>Quit</guimenuitem></menuchoice> in any "
 "<application>Configuration Editor</application> window."
 msgstr ""
+"Você pode fechar uma janela do <application>Editor de "
+"Configurações</application> selecionado "
+"<menuchoice><guimenu>Arquivo</guimenu><guimenuitem>Fechar "
+"Janela</guimenuitem></menuchoice> nesta janela. Para fechar as todas do "
+"<application>Editor de Configurações</application> e sair do aplicativo "
+"completamente, selecione <menuchoice><guimenu>Arquivo</guimenu>"
+"<guimenuitem>Sair</guimenuitem></menuchoice> em qualquer janela do "
+"<application>Editor de Configurações</application>."
 
 #: C/gconf-editor.xml:297(title)
 msgid "Working with Keys"
