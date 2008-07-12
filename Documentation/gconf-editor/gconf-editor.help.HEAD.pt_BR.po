@@ -614,7 +614,7 @@ msgstr ""
 
 #: C/gconf-editor.xml:297(title)
 msgid "Working with Keys"
-msgstr ""
+msgstr "Manipulando chaves"
 
 #: C/gconf-editor.xml:298(para)
 msgid ""
@@ -625,10 +625,16 @@ msgid ""
 "<guilabel>Preferences</guilabel> of an application, you are changing the "
 "value associated to a key in <application>GConf</application>."
 msgstr ""
+"Por meio das chaves você é capaz de buscar por um valor. Todas preferências "
+"armazenadas no <application>GConf</application> têm uma chave determinada. "
+"Aplicações que usam o <application>GConf</application> acessam os valores "
+"das chaves para determinar como se parecer e se comportar. Quando você muda "
+"algo nas <guilabel>preferências</guilabel> de um aplicativo, você está "
+"mudando o valor associado a uma chave do <application>GConf</application>."
 
 #: C/gconf-editor.xml:306(title)
 msgid "Copying a Key Name"
-msgstr ""
+msgstr "Copiando o nome da chave"
 
 #: C/gconf-editor.xml:307(para)
 msgid ""
@@ -637,10 +643,15 @@ msgid ""
 "guimenu><guimenuitem>Copy Key Name</guimenuitem></menuchoice>. You can paste "
 "the key name into any other application."
 msgstr ""
+"Para copiar um nome de chave para a área de transferência, selecione o nome "
+"da chave que você quer copiar no painel de modificações. Escolha "
+"<menuchoice><guimenu>Editar</guimenu><guimenuitem>Copiar nome da "
+"chave</guimenuitem></menuchoice>. Você pode colar o nome da chave em "
+"qualquer outro aplicativo."
 
 #: C/gconf-editor.xml:313(title)
 msgid "Viewing Recent Key Names"
-msgstr ""
+msgstr "Visualizando nomes de chaves recentes"
 
 #: C/gconf-editor.xml:314(para)
 msgid ""
@@ -651,6 +662,9 @@ msgid ""
 "bar or the arrow keys. The information for the selected key or folder will "
 "appear in the rest of the window."
 msgstr ""
+"Para visualizar nomes de chaves recentes, escolha "
+"<menuchoice><guimenu>Editar</guimenu><guimenuitem>Listar chaves "
+"recentes</guimenuitem></menuchoice>"
 
 #: C/gconf-editor.xml:320(para)
 msgid ""
