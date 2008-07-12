@@ -651,7 +651,7 @@ msgstr ""
 
 #: C/gconf-editor.xml:313(title)
 msgid "Viewing Recent Key Names"
-msgstr "Visualizando nomes de chaves recentes"
+msgstr "Vendo os nomes de chaves recentes"
 
 #: C/gconf-editor.xml:314(para)
 msgid ""
@@ -662,15 +662,21 @@ msgid ""
 "bar or the arrow keys. The information for the selected key or folder will "
 "appear in the rest of the window."
 msgstr ""
-"Para visualizar nomes de chaves recentes, escolha "
+"Para ver os nomes de chaves recentes, escolha "
 "<menuchoice><guimenu>Editar</guimenu><guimenuitem>Listar chaves "
-"recentes</guimenuitem></menuchoice>"
+"recentes</guimenuitem></menuchoice>. Esta ação abrirá o painel de resultados "
+"na parte inferior da janela atual. Você pode mover-se entre a lista de "
+"resultados rolando para cima ou para baixo com a barra de rolagem ou as "
+"teclas de direção. As informações da chave ou pasta selecionada aparecerão "
+"normalmente na janela."
 
 #: C/gconf-editor.xml:320(para)
 msgid ""
 "Viewing recent keys is useful if you need to get back to a key you just "
 "changed and don't remember where it is."
 msgstr ""
+"Ver chaves recentes é útil se você precisa voltar para uma chave que você "
+"acabou de mudar e não lembra-se onde ela está."
 
 #. REMARK
 #: C/gconf-editor.xml:323(remark) C/gconf-editor.xml:405(remark)
@@ -678,10 +684,12 @@ msgid ""
 "A screenshot may be in order. In particular, The close, copy, and clear "
 "buttons on the results pane should be explained."
 msgstr ""
+"Uma captura de tela pode estar em seqüência. Particularmente, os botões "
+"fechar, copiar e limpar no painel de resultados deveriam ser explicados."
 
 #: C/gconf-editor.xml:327(title)
 msgid "Modifying the Value of a Key"
-msgstr ""
+msgstr "Modificando o valor de uma chave"
 
 #: C/gconf-editor.xml:328(para)
 msgid ""
@@ -689,16 +697,21 @@ msgid ""
 "See <xref linkend=\"icons\"/> for more information on each icon. To modify "
 "the value of a key, perform the following steps:"
 msgstr ""
+"Os ícones próximos ao nome da chave exibe qual tipo de valor que a chave "
+"pode receber. Veja a <xref linkend=\"icons\"/> para mais informações sobre "
+"cada ícone. Para modificar o valor de uma chave, efetue os seguintes passos:"
 
 #: C/gconf-editor.xml:332(para)
 msgid ""
 "Use the tree pane to display the key that you want to modify in the "
 "modification pane."
 msgstr ""
+"Use o painel hierárquico para exibir a chave que você quer modificar no "
+"painel de modificações."
 
 #: C/gconf-editor.xml:334(para)
 msgid "Select the key to modify in the modification pane."
-msgstr ""
+msgstr "Selecione a chave para modificá-la no painel de modificações."
 
 #: C/gconf-editor.xml:336(para)
 msgid ""
@@ -707,6 +720,11 @@ msgid ""
 "key. Alternatively, right-click on the key and select <guimenuitem>Edit Key</"
 "guimenuitem> from the popup menu."
 msgstr ""
+"Para alterar o valor de uma chave de tipo Inteiro ou uma chave de "
+"tipo String, clique na coluna <guilabel>Valor</guilabel> da chave. Digite o "
+"novo valor para a chave. Alternativamente, clique com o botão direito na "
+"chave e selecione <guimenuitem>Editar Chave</guimenuitem> do menu de "
+"contexto."
 
 #: C/gconf-editor.xml:340(para)
 msgid ""
@@ -715,6 +733,10 @@ msgid ""
 "Alternatively, right-click on the key and select <guimenuitem>Edit Key</"
 "guimenuitem> from the popup menu."
 msgstr ""
+"Para alterar o valor de uma chave Booleana, clique na coluna "
+"<guilabel>Valor</guilabel> da chave para marcar ou desmarcar a caixa de "
+"seleção. Alternativamente, clique com o botão direito na chave e selecione "
+"<guimenuitem>Editar Chave</guimenuitem> do menu de contexto."
 
 #: C/gconf-editor.xml:345(para)
 msgid ""
@@ -725,6 +747,12 @@ msgid ""
 "value in the list, add or remove values from the list, and move each value "
 "up or down in the list."
 msgstr ""
+"Para alterar o valor de uma chave de tipo Lista, clique com o botão direito "
+"na chave e selecione <guimenuitem>Editar Chave</guimenuitem> do menu de "
+"contexto. A janela do <guimenuitem>Editar Chave</guimenuitem> fornece uma "
+"lista de valores associados àquela chave. Você pode usar esta janela para "
+"editar cada valor da lista individualmente, adicionar ou remover valores da "
+"lista, e mover cada valor para cima ou para baixo na lista."
 
 #: C/gconf-editor.xml:353(para)
 msgid ""
@@ -734,10 +762,15 @@ msgid ""
 "<guilabel>This key is not writable</guilabel> if you are not allowed to edit "
 "the value of that key."
 msgstr ""
+"Seu administrador do sistema pode ter bloqueado certas chaves estabelecendo "
+"valores mandatários. Se a chave selecionada tem um valor mandatário "
+"definido, você não será capaz de editar o valor. O painel de documentação "
+"exibirá o rótulo <guilabel>Esta chave não pode ser escrita</guilabel> se "
+"você não tiver permissão para editar o valor dessa chave."
 
 #: C/gconf-editor.xml:362(title)
 msgid "Finding Keys Quickly"
-msgstr ""
+msgstr "Localizando chaves rapidamente"
 
 #: C/gconf-editor.xml:363(para)
 msgid ""
@@ -746,10 +779,14 @@ msgid ""
 "Additionally, you can use bookmarks to find directories of keys that you "
 "need to access frequently."
 msgstr ""
+"Para localizar chaves rapidamente, o <application>Editor de "
+"Configurações</application> permite que você pesquise os nomes de chave no "
+"<application>GConf</application>. Além disso, você pode usar marcadores para "
+"localizar diretórios de chaves que você precisa acessar freqüentemente."
 
 #: C/gconf-editor.xml:369(title)
 msgid "Using Bookmarks"
-msgstr ""
+msgstr "Usando marcadores"
 
 #: C/gconf-editor.xml:370(para)
 msgid ""
@@ -757,6 +794,9 @@ msgid ""
 "the <guimenu>Bookmarks</guimenu> menu. You can add and remove directory "
 "locations to your <guimenu>Bookmarks</guimenu> menu."
 msgstr ""
+"Para acessar um local do diretório nos seus marcadores, escolha o local do "
+"menu <guimenu>Marcadores</guimenu>. Você pode adicionar e remover locais de "
+"diretórios para seu menu <guimenu>Marcadores</guimenu>."
 
 #: C/gconf-editor.xml:373(para)
 msgid ""
@@ -764,30 +804,37 @@ msgid ""
 "pane. Choose <menuchoice><guimenu>Bookmarks</guimenu><guimenuitem>Add "
 "Bookmark</guimenuitem></menuchoice>."
 msgstr ""
+"Para adicionar um marcador, selecione o local que você quer marcar no painel "
+"hierárquico. Escolha <menuchoice><guimenu>Marcadores</guimenu>"
+"<guimenuitem>Adicionar Marcador</guimenuitem></menuchoice>."
 
 #: C/gconf-editor.xml:376(para)
 msgid "To delete a bookmark, perform the following steps:"
-msgstr ""
+msgstr "Para excluir um marcador, efetue os seguintes passos:"
 
 #: C/gconf-editor.xml:378(para)
 msgid ""
 "Choose <menuchoice><guimenu>Bookmarks</guimenu><guimenuitem>Edit bookmarks</"
 "guimenuitem></menuchoice>."
 msgstr ""
+"Escolha <menuchoice><guimenu>Marcadores</guimenu><guimenuitem>Editar "
+"Marcadores</guimenuitem></menuchoice>."
 
 #: C/gconf-editor.xml:380(para)
 msgid ""
 "Select the bookmark in the <application>Edit bookmarks</application> dialog, "
 "then click <guibutton>Delete</guibutton>."
 msgstr ""
+"Selecione o marcador na janela <application>Editar Marcadores</application>, "
+"depois clique em <guibutton>Excluir</guibutton>."
 
 #: C/gconf-editor.xml:383(para)
 msgid "Click <guibutton>Close</guibutton>."
-msgstr ""
+msgstr "Clique em <guibutton>Fechar</guibutton>."
 
 #: C/gconf-editor.xml:387(title)
 msgid "Searching for Keys"
-msgstr ""
+msgstr "Localizando chaves"
 
 #: C/gconf-editor.xml:388(para)
 msgid "To search for keys, perform the following steps:"
