@@ -16,7 +16,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gstreamer-0.10.19.3\n"
-"Report-Msgid-Bugs-To: www.xchat.org\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-06-11 21:29+0100\n"
 "PO-Revision-Date: 2008-07-10 20:47-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
