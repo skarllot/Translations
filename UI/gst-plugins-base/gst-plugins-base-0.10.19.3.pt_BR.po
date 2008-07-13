@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: gst-plugins-base-0.10.19.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-06-05 00:36+0100\n"
-"PO-Revision-Date: 2008-07-12 22:51-0003\n"
+"PO-Revision-Date: 2008-07-12 23:44-0003\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
 "MIME-Version: 1.0\n"
@@ -177,7 +177,6 @@ msgid "RTSP streams cannot be played yet."
 msgstr "Os fluxos RTSP ainda não podem ser reproduzidos."
 
 #: gst/playback/gstplaybasebin.c:2001
-#, fuzzy
 msgid "Could not create \"decodebin\" element."
 msgstr "Não foi possível criar o elemento \"decodebin\"."
 
@@ -356,9 +355,8 @@ msgid "Lossless True Audio (TTA)"
 msgstr "Áudio Real Sem Perdas (TTA)"
 
 #: gst-libs/gst/pbutils/descriptions.c:133
-#, fuzzy
 msgid "Windows Media Speech"
-msgstr "Mídia de Voz do Windows"
+msgstr "Mídia de Voz do Windows (WMS)"
 
 #: gst-libs/gst/pbutils/descriptions.c:147
 msgid "CYUV Lossless"
@@ -377,9 +375,8 @@ msgid "Uncompressed Gray Image"
 msgstr "Imagem Monocromática Sem Compressão"
 
 #: gst-libs/gst/pbutils/descriptions.c:173
-#, fuzzy
 msgid "Run-length encoding"
-msgstr "Codifição Run-length"
+msgstr "Codificação Run-length"
 
 #: gst-libs/gst/pbutils/descriptions.c:207
 msgid "Sami subtitle format"
@@ -437,7 +434,7 @@ msgstr "YUV sem compressão"
 #: gst-libs/gst/pbutils/descriptions.c:312
 #, c-format
 msgid "Uncompressed palettized %d-bit %s"
-msgstr "%s de %d bits com paletas sem compressão"
+msgstr "%2$s de %1$d bits com paletas sem compressão"
 
 #: gst-libs/gst/pbutils/descriptions.c:362
 #, c-format
@@ -534,9 +531,9 @@ msgid "%s encoder"
 msgstr "Codificador %s"
 
 #: gst-libs/gst/pbutils/descriptions.c:855
-#, fuzzy, c-format
+#, c-format
 msgid "GStreamer element %s"
-msgstr "Elemento GStreamer %s"
+msgstr "Elemento \"%s\" do GStreamer"
 
 #: gst-libs/gst/pbutils/missing-plugins.c:553
 msgid "Unknown source element"
