@@ -7,14 +7,15 @@
 # Leonardo Ferreira Fontenelle <leo.fontenelle@gmail.com>, 2006.
 # Og Maciel <ogmaciel@ubuntu.com>, 2007.
 # Washington Lins <washington-lins@uol.com.br>, 2007.
+# Fabrício Godoy <skarllot@gmail.com>, 2008.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gconf-editor\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2007-08-29 19:27+0100\n"
-"PO-Revision-Date: 2007-08-29 14:41-0300\n"
-"Last-Translator: Og Maciel <ogmaciel@gnome.org>\n"
+"PO-Revision-Date: 2008-07-15 21:57-0300\n"
+"Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-l10n-br@listas.cipsga.org.br>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -57,7 +58,8 @@ msgstr ""
 "Goedson Teixeira Paixao <goedson@debian.org>\n"
 "Welther José O. Esteves <weltherjoe@yahoo.com.br>\n"
 "Leonardo Ferreira Fontenelle <leo.fontenelle@gmail.com>\n"
-"Og Maciel <ogmaciel@gnome.org>"
+"Og Maciel <ogmaciel@gnome.org>\n"
+"Fabrício Godoy <skarllot@gmail.com>"
 
 #: ../src/gconf-editor-window.c:407
 msgid "An editor for the GConf configuration system."
@@ -148,14 +150,14 @@ msgstr ""
 
 #: ../src/gconf-editor-window.c:733
 msgid "New _Mandatory Window"
-msgstr "Nova Janela com Valores _Mandatários"
+msgstr "Nova Janela com Valores _Obrigatórios"
 
 #: ../src/gconf-editor-window.c:734
 msgid ""
 "Open a new Configuration Editor window editing system mandatory settings"
 msgstr ""
 "Abrir uma nova janela do Editor de Configurações editando os valores "
-"mandatários do sistema"
+"obrigatórios do sistema"
 
 #: ../src/gconf-editor-window.c:736
 msgid "_Close Window"
@@ -263,19 +265,19 @@ msgstr "Altera o valor padrão da chave selecionada para o valor atual"
 
 #: ../src/gconf-editor-window.c:766
 msgid "Set as _Mandatory"
-msgstr "Definir como _Mandatório"
+msgstr "Definir como _Obrigatório"
 
 #: ../src/gconf-editor-window.c:766
 msgid "Set the selected key to the mandatory"
-msgstr "Altera o valor mandatório da chave selecionada para o valor atual"
+msgstr "Define o valor da chave selecionada como obrigatório"
 
 #: ../src/gconf-editor-window.c:848
 msgid "Configuration Editor (Default settings)"
-msgstr "Editor de Configurações (Configurações Padrão)"
+msgstr "Editor de Configurações (Valores Padrões)"
 
 #: ../src/gconf-editor-window.c:851 ../src/gconf-editor-window.c:1342
 msgid "Configuration Editor (Mandatory settings)"
-msgstr "Editor de Configurações (Configurações Mandatórias)"
+msgstr "Editor de Configurações (Valores Obrigatórios)"
 
 #: ../src/gconf-editor-window.c:1093 ../src/gconf-editor-window.c:1094
 #: ../src/gconf-editor-window.c:1095 ../src/gconf-editor-window.c:1096
@@ -478,7 +480,7 @@ msgstr "- Edite diretamente todo o seu banco de dados de configurações"
 #~ msgstr "Editor de Configurações (Configuração Padrão)"
 
 #~ msgid "Configuration Editor (Mandatory Settings)"
-#~ msgstr "Editor de Configurações (Configuração Mandatária)"
+#~ msgstr "Editor de Configurações (Valores Obrigatórios)"
 
 #~ msgid "GConf-Editor"
 #~ msgstr "GConf-Editor"
