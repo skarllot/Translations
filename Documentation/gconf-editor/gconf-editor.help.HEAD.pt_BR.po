@@ -838,13 +838,15 @@ msgstr "Localizando chaves"
 
 #: C/gconf-editor.xml:388(para)
 msgid "To search for keys, perform the following steps:"
-msgstr ""
+msgstr "Para localizar chaves, efetue os seguintes passos:"
 
 #: C/gconf-editor.xml:390(para)
 msgid ""
 "Choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Find</guimenuitem></"
 "menuchoice>."
 msgstr ""
+"Escolha <menuchoice><guimenu>Editar</guimenu>"
+"<guimenuitem>Localizar</guimenuitem></menuchoice>."
 
 #: C/gconf-editor.xml:392(para)
 msgid ""
@@ -855,10 +857,16 @@ msgid ""
 "will only be performed on folder names. Selecting these boxes will expand "
 "the search parameters."
 msgstr ""
+"Digite a palavra chave que você quer localizar no campo <guilabel>Pesquisar "
+"por</guilabel>. Opcionalmente, você pode selecionar as caixas de seleção "
+"<guilabel>Pesquisar em nome de chaves também</guilabel> e "
+"<guilabel>Pesquisar em valores de chaves também</guilabel>. Se essas caixas "
+"de seleção não estiverem selecionadas, a busca será feita apenas nos nomes "
+"de pasta. Selecionando essas caixas os parâmetros de busca serão expandidos."
 
 #: C/gconf-editor.xml:398(para)
 msgid "Click <guibutton>Find</guibutton>."
-msgstr ""
+msgstr "Clique em <guibutton>Localizar</guibutton>."
 
 #: C/gconf-editor.xml:400(para)
 msgid ""
@@ -867,10 +875,15 @@ msgid ""
 "results with the scroll bar or the arrow keys. The information for the "
 "selected key or folder will appear in the rest of the window."
 msgstr ""
+"Os resultados da busca aparecerão no painel de resultados. Para navegar "
+"entre a lista de resultados, primeiro selecione esse painel. Então, você "
+"pode navegar entre os resultados usando a barra de rolagem ou as teclas de "
+"direção. As informações referentes à chave selecionada aparecerão no "
+"restante da janela."
 
 #: C/gconf-editor.xml:411(title)
 msgid "Default and Mandatory Settings"
-msgstr ""
+msgstr "Configurações padrão e obrigatórias"
 
 #: C/gconf-editor.xml:412(para)
 msgid ""
@@ -879,7 +892,12 @@ msgid ""
 "Default settings are used when the user has not set a value explicitly, and "
 "users can always override them. Mandatory settings are always used for all "
 "users, and they cannot override them."
-msgstr ""
+msgstr "Se você for um administrador do sistema, você pode definir "
+"configurações padrão e obrigatórias no <application>GConf</application> as "
+"quais afetam todos usuários. Configurações padrão são usadas quando o "
+"usuário não definiu um valor explicitamente, e os usuários podem sempre "
+"sobrescrevê-las. Configurações obrigatórias são sempre usadas por todos "
+"usuários, e eles não podem sobrescrevê-las."
 
 #: C/gconf-editor.xml:417(para)
 msgid ""
@@ -892,6 +910,13 @@ msgid ""
 "set settings from the <application>Settings</application> window to be "
 "default or mandatory."
 msgstr ""
+"Você pode usar as janelas <application>Valores Padrões</application> e "
+"<application>Valores Obrigatórios</application> para editar e remover "
+"configurações padrão e obrigatórias. As janelas <application>Valores "
+"Padrões</application> e <application>Valores Obrigatórios</application> "
+"apenas exibirão as configurações as quais foram definidas como padrão ou "
+"obrigatória. Ao invés disso, você pode definir as configurações como padrão "
+"ou obrigatória pela janela <application>Configurações</application>."
 
 #: C/gconf-editor.xml:425(para)
 msgid ""
@@ -901,10 +926,16 @@ msgid ""
 "window, choose <menuchoice><guimenu>File</guimenu><guimenuitem>New Mandatory "
 "Window</guimenuitem></menuchoice>."
 msgstr ""
+"Para abrir uma janela <application>com Valores Padrões</application>, escolha "
+"<menuchoice><guimenu>Arquivo</guimenu><guimenuitem>Nova Janela com Valores "
+"Padrões</guimenuitem></menuchoice>. Para abrir uma janela <application>com "
+"Valores Obrigatórios</application>, escolha "
+"<menuchoice><guimenu>Arquivo</guimenu><guimenuitem>Nova Janela com Valores "
+"Obrigatórios</guimenuitem></menuchoice>."
 
 #: C/gconf-editor.xml:433(title)
 msgid "Creating Default Settings"
-msgstr ""
+msgstr "Criando configurações padrão"
 
 #: C/gconf-editor.xml:434(para)
 msgid "To create a default setting, perform the following steps:"
