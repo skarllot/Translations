@@ -3,6 +3,7 @@
 # Copyright (C) 2008 Free Software Foundation, Inc.
 # Fabrício Godoy <skarllot@gmail.com>, 2008.
 #
+# data flow -> transporte de dados
 # streaming -> fluxo contínuo
 # clock -> temporizador
 #
@@ -11,7 +12,7 @@ msgstr ""
 "Project-Id-Version: gst-plugins-good 0.10.7.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-04-13 19:09+0100\n"
-"PO-Revision-Date: 2008-07-15 23:23-0300\n"
+"PO-Revision-Date: 2008-07-20 16:41-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
 "MIME-Version: 1.0\n"
@@ -43,7 +44,7 @@ msgstr "Falha ao examinar os recursos do servidor de som"
 #: ext/libpng/gstpngdec.c:518 ext/wavpack/gstwavpackparse.c:1120
 #: gst/avi/gstavidemux.c:3779 gst/avi/gstavidemux.c:3787
 msgid "Internal data stream error."
-msgstr "Erro no fluxo de dados internos."
+msgstr "Erro no fluxo interno de dados."
 
 #: ext/jpeg/gstjpegdec.c:1042
 msgid "Failed to decode JPEG image"
@@ -84,7 +85,7 @@ msgstr "Este arquivo está criptografado e não pôde ser reproduzido."
 
 #: gst/wavparse/gstwavparse.c:1777
 msgid "Internal data flow error."
-msgstr "Erro no fluxo de dados internos."
+msgstr "Erro no transporte interno de dados."
 
 #: sys/oss/gstossmixertrack.c:98 sys/sunaudio/gstsunaudiomixertrack.c:65
 msgid "Volume"
@@ -222,7 +223,7 @@ msgstr "Falha ao obter configurações do sintonizador %d no dispositivo \"%s\".
 #: sys/v4l2/v4l2_calls.c:192
 #, c-format
 msgid "Failed to query norm on device '%s'."
-msgstr "Falha ao examinar normas no dispositivo \"%s\"."
+msgstr "Falha ao examinar as normas no dispositivo \"%s\"."
 
 #: sys/v4l2/v4l2_calls.c:240
 #, c-format
@@ -257,7 +258,7 @@ msgstr "O dispositivo \"%s\" não é um dispositivo de captura."
 #: sys/v4l2/v4l2_calls.c:544
 #, c-format
 msgid "Failed to set norm for device '%s'."
-msgstr "Falha ao definir normas para o dispositivo \"%s\"."
+msgstr "Falha ao definir as normas para o dispositivo \"%s\"."
 
 #: sys/v4l2/v4l2_calls.c:581
 #, c-format
@@ -317,9 +318,9 @@ msgid ""
 "buffers have been allocated yet, or the userptr or length are invalid. "
 "device %s"
 msgstr ""
-"O tipo de buffer não é suportado, ou o índice esta fora dos limites, ou "
+"O tipo de buffer não é suportado, ou o índice está fora dos limites, ou "
 "nenhum buffer foi definido ainda, ou o userptr ou tamanho são inválidos. "
-"dispositivo %s"
+"Dispositivo %s"
 
 #: sys/v4l2/v4l2src_calls.c:1075
 #, c-format
@@ -329,22 +330,22 @@ msgstr "Falha ao tentar obter os quadros de vídeo do dispositivo \"%s\". Memór
 #: sys/v4l2/v4l2src_calls.c:1075
 #, c-format
 msgid "insufficient memory to enqueue a user pointer buffer. device %s."
-msgstr "memória insuficiente para adicionar à fila um buffer de ponteiro do usuário. dispositivo %s."
+msgstr "memória insuficiente para adicionar à fila um buffer de ponteiro do usuário. Dispositivo %s."
 
 #: sys/v4l2/v4l2src_calls.c:1083
 #, c-format
 msgid "Failed after %d tries. device %s. system error: %s"
-msgstr "Falha após %d tentativas. dispositivo %s. erro do sistema: %s"
+msgstr "Falha após %d tentativas. Dispositivo %s. Erro do sistema: %s"
 
 #: sys/v4l2/v4l2src_calls.c:1092
 #, c-format
 msgid "No free buffers found in the pool at index %d."
-msgstr "Nenhum buffer livre encontrado no reservatório no índice %d."
+msgstr "Nenhum buffer livre encontrado no reservatório, no índice %d."
 
 #: sys/v4l2/v4l2src_calls.c:1171
 #, c-format
 msgid "Could not get parameters on device '%s'"
-msgstr "Não foi possível obter parâmetros no dispositivo \"%s\""
+msgstr "Não foi possível obter os parâmetros no dispositivo \"%s\""
 
 #: sys/v4l2/v4l2src_calls.c:1199
 msgid "Video input device did not accept new frame rate setting."
