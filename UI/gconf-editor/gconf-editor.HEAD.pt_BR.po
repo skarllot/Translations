@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: gconf-editor\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2007-08-29 19:27+0100\n"
-"PO-Revision-Date: 2008-07-15 21:57-0300\n"
+"PO-Revision-Date: 2008-07-20 22:02-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-l10n-br@listas.cipsga.org.br>\n"
 "MIME-Version: 1.0\n"
@@ -140,17 +140,17 @@ msgstr ""
 
 #: ../src/gconf-editor-window.c:730
 msgid "New _Defaults Window"
-msgstr "Nova Janela com Valores _Padrões"
+msgstr "Nova Janela de Valores _Pré-definidos"
 
 #: ../src/gconf-editor-window.c:731
 msgid "Open a new Configuration Editor window editing system default settings"
 msgstr ""
-"Abre uma nova janela do Editor de Configurações editando os valores padrão "
-"do sistema"
+"Abre uma nova janela do Editor de Configurações editando os valores "
+"pré-definidos do sistema"
 
 #: ../src/gconf-editor-window.c:733
 msgid "New _Mandatory Window"
-msgstr "Nova Janela com Valores _Obrigatórios"
+msgstr "Nova Janela de Valores _Obrigatórios"
 
 #: ../src/gconf-editor-window.c:734
 msgid ""
@@ -249,19 +249,19 @@ msgstr "Edita a chave selecionada"
 
 #: ../src/gconf-editor-window.c:762
 msgid "_Unset Key"
-msgstr "_Desativar Chave"
+msgstr "_Remover Chave"
 
 #: ../src/gconf-editor-window.c:762
 msgid "Unset the selected key"
-msgstr "Desconfigura a chave selecionada"
+msgstr "Remove a chave selecionada"
 
 #: ../src/gconf-editor-window.c:764
 msgid "Set as _Default"
-msgstr "Definir como _Padrão"
+msgstr "Definir como _Pré-definido"
 
 #: ../src/gconf-editor-window.c:764
 msgid "Set the selected key to be the default"
-msgstr "Altera o valor padrão da chave selecionada para o valor atual"
+msgstr "Define o valor pré-definido da chave selecionada para o valor atual"
 
 #: ../src/gconf-editor-window.c:766
 msgid "Set as _Mandatory"
@@ -273,11 +273,11 @@ msgstr "Define o valor da chave selecionada como obrigatório"
 
 #: ../src/gconf-editor-window.c:848
 msgid "Configuration Editor (Default settings)"
-msgstr "Editor de Configurações (Valores Padrões)"
+msgstr "Editor de Configurações (Configurações pré-definidas)"
 
 #: ../src/gconf-editor-window.c:851 ../src/gconf-editor-window.c:1342
 msgid "Configuration Editor (Mandatory settings)"
-msgstr "Editor de Configurações (Valores Obrigatórios)"
+msgstr "Editor de Configurações (Configurações obrigatórias)"
 
 #: ../src/gconf-editor-window.c:1093 ../src/gconf-editor-window.c:1094
 #: ../src/gconf-editor-window.c:1095 ../src/gconf-editor-window.c:1096
@@ -299,7 +299,7 @@ msgstr ""
 
 #: ../src/gconf-editor-window.c:1339
 msgid "Configuration Editor (Defaults settings)"
-msgstr "Editor de Configurações (Configurações dos Padrões)"
+msgstr "Editor de Configurações (Configurações pré-definidas)"
 
 #: ../src/gconf-editor-window.c:1407
 msgid "Type"
@@ -443,11 +443,11 @@ msgstr "_Pesquisar por: "
 
 #: ../src/gconf-search-dialog.c:169
 msgid "Search also in key _names"
-msgstr "Pesquisar em _nomes de chaves também"
+msgstr "Pesquisar também em _nomes de chaves"
 
 #: ../src/gconf-search-dialog.c:172
 msgid "Search also in key _values"
-msgstr "Pesquisar em _valores de chaves também"
+msgstr "Pesquisar também em _valores de chaves"
 
 #: ../src/gedit-output-window.c:378
 msgid "Close the output window"
@@ -455,7 +455,7 @@ msgstr "Fechar a janela de saída"
 
 #: ../src/gedit-output-window.c:416
 msgid "Copy selected lines"
-msgstr "Copiar linhas selecionadas"
+msgstr "Copiar as linhas selecionadas"
 
 #: ../src/gedit-output-window.c:436
 msgid "Clear the output window"
@@ -477,10 +477,10 @@ msgstr "- Edite diretamente todo o seu banco de dados de configurações"
 #~ msgstr "Chave inválida \"%s\": %s"
 
 #~ msgid "Configuration Editor (Default Settings)"
-#~ msgstr "Editor de Configurações (Configuração Padrão)"
+#~ msgstr "Editor de Configurações (Configurações pré-definidas)"
 
 #~ msgid "Configuration Editor (Mandatory Settings)"
-#~ msgstr "Editor de Configurações (Valores Obrigatórios)"
+#~ msgstr "Editor de Configurações (Configurações obrigatórias)"
 
 #~ msgid "GConf-Editor"
 #~ msgstr "GConf-Editor"
@@ -518,5 +518,6 @@ msgstr "- Edite diretamente todo o seu banco de dados de configurações"
 #~ "at your own risk."
 #~ msgstr ""
 #~ "Esta ferramenta permite que você edite o banco de dados de configurações "
-#~ "diretamente. Esta não é a maneira recomendade de definir as configurações "
-#~ "do ambiente. Use este programa por sua própria conta e risco."
+#~ "diretamente. Esta não é a maneira recomendada para definir as "
+#~ "configurações do ambiente. Use este programa por sua própria conta e "
+#~ "risco."
