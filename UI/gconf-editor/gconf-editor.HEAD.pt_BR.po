@@ -13,8 +13,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gconf-editor\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-08-29 19:27+0100\n"
-"PO-Revision-Date: 2008-07-21 00:07-0300\n"
+"POT-Creation-Date: 2008-07-21 03:26+0000\n"
+"PO-Revision-Date: 2008-07-21 00:24-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-l10n-br@listas.cipsga.org.br>\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../data/gconf-editor.desktop.in.in.h:1 ../src/gconf-editor-window.c:854
-#: ../src/gconf-editor-window.c:1345
+#: ../src/gconf-editor-window.c:1347
 msgid "Configuration Editor"
 msgstr "Editor de Configurações"
 
@@ -141,13 +141,13 @@ msgstr ""
 
 #: ../src/gconf-editor-window.c:730
 msgid "New _Defaults Window"
-msgstr "Nova janela de configurações _pré-definidas"
+msgstr "Nova janela de configurações _predefinidas"
 
 #: ../src/gconf-editor-window.c:731
 msgid "Open a new Configuration Editor window editing system default settings"
 msgstr ""
 "Abre uma nova janela do Editor de Configurações editando as configurações "
-"pré-definidas do sistema"
+"predefinidas do sistema"
 
 #: ../src/gconf-editor-window.c:733
 msgid "New _Mandatory Window"
@@ -198,7 +198,7 @@ msgstr "Al_istar chaves recentes"
 
 #: ../src/gconf-editor-window.c:745
 msgid "Show recently modified keys"
-msgstr "Exibe chaves modificadas recentemente"
+msgstr "Mostra chaves modificadas recentemente"
 
 #: ../src/gconf-editor-window.c:748
 msgid "_Add Bookmark"
@@ -230,7 +230,7 @@ msgstr "_Sobre"
 
 #: ../src/gconf-editor-window.c:755
 msgid "Show the about dialog for the Configuration Editor"
-msgstr "Exibe o diálogo sobre o Editor de Configurações"
+msgstr "Mostra o diálogo sobre o Editor de Configurações"
 
 #: ../src/gconf-editor-window.c:758
 msgid "_New Key..."
@@ -258,11 +258,11 @@ msgstr "Remove a chave selecionada"
 
 #: ../src/gconf-editor-window.c:764
 msgid "Set as _Default"
-msgstr "Definir como _pré-definido"
+msgstr "Definir como _predefinido"
 
 #: ../src/gconf-editor-window.c:764
 msgid "Set the selected key to be the default"
-msgstr "Define o valor pré-definido da chave selecionada para o valor atual"
+msgstr "Define o valor predefinido da chave selecionada para o valor atual"
 
 #: ../src/gconf-editor-window.c:766
 msgid "Set as _Mandatory"
@@ -274,22 +274,22 @@ msgstr "Define o valor da chave selecionada como obrigatório"
 
 #: ../src/gconf-editor-window.c:848
 msgid "Configuration Editor (Default settings)"
-msgstr "Editor de Configurações (configurações pré-definidas)"
+msgstr "Editor de Configurações (configurações predefinidas)"
 
-#: ../src/gconf-editor-window.c:851 ../src/gconf-editor-window.c:1342
+#: ../src/gconf-editor-window.c:851 ../src/gconf-editor-window.c:1344
 msgid "Configuration Editor (Mandatory settings)"
 msgstr "Editor de Configurações (configurações obrigatórias)"
 
 #: ../src/gconf-editor-window.c:1093 ../src/gconf-editor-window.c:1094
 #: ../src/gconf-editor-window.c:1095 ../src/gconf-editor-window.c:1096
 #: ../src/gconf-editor-window.c:1125 ../src/gconf-editor-window.c:1133
-#: ../src/gconf-editor-window.c:1142 ../src/gconf-editor-window.c:1664
-#: ../src/gconf-editor-window.c:1676 ../src/gconf-editor-window.c:1688
-#: ../src/gconf-editor-window.c:1703
+#: ../src/gconf-editor-window.c:1142 ../src/gconf-editor-window.c:1666
+#: ../src/gconf-editor-window.c:1678 ../src/gconf-editor-window.c:1690
+#: ../src/gconf-editor-window.c:1705
 msgid "(None)"
 msgstr "(Nenhum)"
 
-#: ../src/gconf-editor-window.c:1301 ../src/gconf-editor-window.c:1311
+#: ../src/gconf-editor-window.c:1303 ../src/gconf-editor-window.c:1313
 #, c-format
 msgid ""
 "Cannot create GConf engine. Error was:\n"
@@ -298,51 +298,51 @@ msgstr ""
 "Não foi possível criar o mecanismo GConf. O erro foi:\n"
 "%s"
 
-#: ../src/gconf-editor-window.c:1339
+#: ../src/gconf-editor-window.c:1341
 msgid "Configuration Editor (Defaults settings)"
-msgstr "Editor de Configurações (configurações pré-definidas)"
+msgstr "Editor de Configurações (configurações predefinidas)"
 
-#: ../src/gconf-editor-window.c:1407
+#: ../src/gconf-editor-window.c:1409
 msgid "Type"
 msgstr "Tipo"
 
-#: ../src/gconf-editor-window.c:1408
+#: ../src/gconf-editor-window.c:1410
 msgid "The Configuration Editor window type."
 msgstr "O tipo de janelas do Editor de Configurações."
 
-#: ../src/gconf-editor-window.c:1561
+#: ../src/gconf-editor-window.c:1563
 msgid "Name"
 msgstr "Nome"
 
-#: ../src/gconf-editor-window.c:1584
+#: ../src/gconf-editor-window.c:1586
 msgid "Value"
 msgstr "Valor"
 
-#: ../src/gconf-editor-window.c:1611
+#: ../src/gconf-editor-window.c:1613
 msgid "Key Documentation"
 msgstr "Documentação da chave"
 
-#: ../src/gconf-editor-window.c:1640 ../src/gconf-key-editor.c:619
+#: ../src/gconf-editor-window.c:1642 ../src/gconf-key-editor.c:619
 msgid "This key is not writable"
 msgstr "Esta chave não é gravável"
 
-#: ../src/gconf-editor-window.c:1653
+#: ../src/gconf-editor-window.c:1655
 msgid "This key has no schema"
 msgstr "Esta chave não tem esquema"
 
-#: ../src/gconf-editor-window.c:1658
+#: ../src/gconf-editor-window.c:1660
 msgid "Key name:"
 msgstr "Nome da chave:"
 
-#: ../src/gconf-editor-window.c:1671
+#: ../src/gconf-editor-window.c:1673
 msgid "Key owner:"
 msgstr "Dono da chave:"
 
-#: ../src/gconf-editor-window.c:1683
+#: ../src/gconf-editor-window.c:1685
 msgid "Short description:"
 msgstr "Descrição curta:"
 
-#: ../src/gconf-editor-window.c:1696
+#: ../src/gconf-editor-window.c:1698
 msgid "Long description:"
 msgstr "Descrição longa:"
 
@@ -434,19 +434,19 @@ msgstr "Editar chave"
 msgid "Pattern not found"
 msgstr "Padrão não encontrado"
 
-#: ../src/gconf-search-dialog.c:146
+#: ../src/gconf-search-dialog.c:144
 msgid "Find"
 msgstr "Localizar"
 
-#: ../src/gconf-search-dialog.c:148
+#: ../src/gconf-search-dialog.c:146
 msgid "_Search for: "
 msgstr "_Pesquisar por: "
 
-#: ../src/gconf-search-dialog.c:169
+#: ../src/gconf-search-dialog.c:167
 msgid "Search also in key _names"
 msgstr "Pesquisar também em _nomes de chaves"
 
-#: ../src/gconf-search-dialog.c:172
+#: ../src/gconf-search-dialog.c:170
 msgid "Search also in key _values"
 msgstr "Pesquisar também em _valores de chaves"
 
@@ -478,7 +478,7 @@ msgstr "- Edite diretamente todo o seu banco de dados de configurações"
 #~ msgstr "Chave inválida \"%s\": %s"
 
 #~ msgid "Configuration Editor (Default Settings)"
-#~ msgstr "Editor de Configurações (configurações pré-definidas)"
+#~ msgstr "Editor de Configurações (configurações predefinidas)"
 
 #~ msgid "Configuration Editor (Mandatory Settings)"
 #~ msgstr "Editor de Configurações (configurações obrigatórias)"
@@ -505,13 +505,13 @@ msgstr "- Edite diretamente todo o seu banco de dados de configurações"
 #~ msgstr "_Valor da chave:"
 
 #~ msgid "Skip caveat dialog"
-#~ msgstr "Ignorar diálogo de advertência"
+#~ msgstr "Pular diálogo de advertência"
 
 #~ msgid "This key defines if gconf-editor should skip the warning dialog"
-#~ msgstr "Esta chave define se o gconf-editor deve ignorar o diálogo de aviso"
+#~ msgstr "Esta chave define se o gconf-editor deve pular o diálogo de aviso"
 
 #~ msgid "_Show this dialog again"
-#~ msgstr "_Exibir este diálogo novamente"
+#~ msgstr "_Mostrar este diálogo novamente"
 
 #~ msgid ""
 #~ "This tool allows you to directly edit your configuration database. This "
