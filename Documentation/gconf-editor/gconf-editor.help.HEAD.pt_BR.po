@@ -226,9 +226,9 @@ msgid ""
 "Configuration Editor can be used to change configuration options used by "
 "applications that may not be available through Preference dialogs"
 msgstr ""
-"O Editor de Configurações pode ser usado para mudar opções de configuração "
-"usadas pelos aplicativos que podem não estar disponíveis por meio das "
-"janelas de preferências"
+"O Editor de Configurações pode ser usado para mudar as opções de "
+"configuração usadas pelos aplicativos as quais podem não estar disponíveis "
+"por meio das janelas de preferências"
 
 #: C/gconf-editor.xml:80(revnumber)
 msgid "Version 2.8"
@@ -319,7 +319,7 @@ msgstr ""
 "modifiquem suas preferências para todo o ambiente do GNOME e qualquer "
 "aplicativo que use o <application>GConf</application>. Além disso, "
 "administradores do sistema podem usar o <application>Editor de "
-"Configurações</application> para definir padrões e configurações "
+"Configurações</application> para definir configurações predefinidas e "
 "obrigatórias a quais afetarão todos usuários."
 
 #: C/gconf-editor.xml:136(para)
@@ -351,7 +351,7 @@ msgstr ""
 "usuário experiente, não use o <application>Editor de "
 "Configurações</application> para definir preferências para o ambiente GNOME. "
 "Ao invés disso, use as ferramentas de preferências no ambiente GNOME. Para "
-"informações sobre como usar ferramentas de preferências, veja a última "
+"informações sobre como usar as ferramentas de preferências, veja a última "
 "versão do <ulink url=\"ghelp:user-guide\">Guia do usuário para o ambiente "
 "GNOME</ulink> para sua plataforma."
 
@@ -373,7 +373,7 @@ msgstr ""
 
 #: C/gconf-editor.xml:159(term)
 msgid "<guimenu>Applications</guimenu> menu"
-msgstr "Menu <guimenu>Aplicações</guimenu>"
+msgstr "Menu <guimenu>Aplicativos</guimenu>"
 
 #: C/gconf-editor.xml:161(para)
 msgid ""
@@ -411,7 +411,8 @@ msgstr "A janela do <application>Editor de Configurações</application>"
 msgid ""
 "Shows GConf Editor window. Callouts: Tree pane, Modification pane, "
 "Documentation pane."
-msgstr "Exibe a janela do Editor GConf com o painel hierárquico, painel de "
+msgstr ""
+"Exibe a janela do Editor GConf com o painel hierárquico, painel de "
 "modificações e o painel de documentação."
 
 #: C/gconf-editor.xml:194(para)
@@ -432,7 +433,7 @@ msgid ""
 "application>. Use this pane to display the keys that you want to modify in "
 "the modification pane. The tree pane is on the left side of the window."
 msgstr ""
-"Permite que você navegue a hierarquia das chaves do "
+"Permite que você navegue na hierarquia de chaves do "
 "<application>GConf</application>. Use esse painel para exibir as chaves que "
 "você quer modificar no painel de modificações. O painel hierárquico está do "
 "lado esquerdo da janela."
@@ -483,7 +484,7 @@ msgstr ""
 
 #: C/gconf-editor.xml:228(term)
 msgid "Results pane (not shown)"
-msgstr "Painel de resultados (não exibido)"
+msgstr "Painel de resultados (não mostrado)"
 
 #: C/gconf-editor.xml:229(para)
 msgid ""
