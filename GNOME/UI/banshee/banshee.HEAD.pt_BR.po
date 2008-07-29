@@ -648,7 +648,7 @@ msgstr "Examinando..."
 #: ../src/Core/Banshee.Services/Banshee.Collection/ImportManager.cs:227
 #, csharp-format
 msgid "Scanning ({0} files)..."
-msgstr "Examinando ({0} farquivos)..."
+msgstr "Examinando ({0} arquivos)..."
 
 #: ../src/Core/Banshee.Services/Banshee.Collection/ImportManager.cs:262
 msgid "Importing Media"
