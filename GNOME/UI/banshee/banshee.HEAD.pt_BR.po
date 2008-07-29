@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: banshee\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-07-21 00:06+0000\n"
-"PO-Revision-Date: 2008-07-28 21:29-0300\n"
+"PO-Revision-Date: 2008-07-29 00:55-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-l10n-br@listas.cipsga.org.br>\n"
 "MIME-Version: 1.0\n"
@@ -619,7 +619,7 @@ msgstr "Música"
 
 #: ../src/Core/Banshee.Core/Banshee.Collection/TrackInfo.cs:338
 msgid "Item"
-msgstr "item"
+msgstr "Item"
 
 #: ../src/Core/Banshee.Core/Banshee.Streaming/SaveTrackMetadataJob.cs:42
 #, csharp-format
@@ -1509,12 +1509,10 @@ msgid "Set all track counts to this value"
 msgstr "Definir todas as contagens de faixa para este valor"
 
 #: ../src/Core/Banshee.ThickClient/Banshee.Gui.Dialogs/TrackEditor.cs:248
-#, fuzzy
 msgid "Set all album artists to this value"
 msgstr "Definir todos os artistas do álbum para este valor"
 
 #: ../src/Core/Banshee.ThickClient/Banshee.Gui.Dialogs/TrackEditor.cs:249
-#, fuzzy
 msgid "Set all track artists to this value"
 msgstr "Definir todos os artistas para este valor"
 
@@ -2086,19 +2084,18 @@ msgstr "{0}de{1} {2} {0}publicado{1} {3}"
 
 #. simply: "Chicago Public Radio" or whatever the artist name is
 #: ../src/Core/Banshee.ThickClient/Banshee.Gui.Widgets/TrackInfoDisplay.cs:379
-#, fuzzy
 msgid "Unknown Stream"
-msgstr "Título Desconhecido"
+msgstr "Fluxo desconhecido"
 
 #. Translators: {0} and {1} are markup, {2} is the name of the radio station
 #: ../src/Core/Banshee.ThickClient/Banshee.Gui.Widgets/TrackInfoDisplay.cs:382
-#, fuzzy, csharp-format
+#, csharp-format
 msgid "{0}on{1} {2}"
 msgstr "{0}de{1} {2}"
 
 #. Translators: {0} is the "from {album} by {artist}" type string, and {1} is the "on {radio station name}" string
 #: ../src/Core/Banshee.ThickClient/Banshee.Gui.Widgets/TrackInfoDisplay.cs:385
-#, fuzzy, csharp-format
+#, csharp-format
 msgid "{0} {1}"
 msgstr "{0} - {1}"
 
@@ -2261,9 +2258,8 @@ msgid "0:00"
 msgstr "0:00"
 
 #: ../src/Core/Banshee.ThickClient/Resources/banshee-dialogs.glade.h:4
-#, fuzzy
 msgid "<b>Al_bum Artist:</b>"
-msgstr "<b>_Artista:</b>"
+msgstr "<b>_Artista do álbum:</b>"
 
 #: ../src/Core/Banshee.ThickClient/Resources/banshee-dialogs.glade.h:5
 msgid "<b>Albu_m:</b>"
@@ -2322,9 +2318,8 @@ msgid "<b>Session Information</b>"
 msgstr "<b>Informação da Sessão</b>"
 
 #: ../src/Core/Banshee.ThickClient/Resources/banshee-dialogs.glade.h:19
-#, fuzzy
 msgid "<b>Track _Artist:</b>"
-msgstr "<b>_Artista:</b>"
+msgstr "<b>_Artista da faixa:</b>"
 
 #: ../src/Core/Banshee.ThickClient/Resources/banshee-dialogs.glade.h:20
 msgid "<b>Track _count:</b>"
@@ -2994,9 +2989,9 @@ msgid "Connecting to {0}"
 msgstr "Conectando-se a {0}"
 
 #: ../src/Extensions/Banshee.Daap/Banshee.Daap/DaapSource.cs:199
-#, fuzzy, csharp-format
+#, csharp-format
 msgid "Logging in to {0}."
-msgstr "Logando em {0}"
+msgstr "Iniciando sessão em {0}"
 
 #: ../src/Extensions/Banshee.Daap/Banshee.Daap/DaapSource.cs:234
 #, csharp-format
@@ -3831,7 +3826,7 @@ msgstr "{0} atrás"
 
 #: ../src/Libraries/Lastfm.Gui/Lastfm.Gui/AccountLoginDialog.cs:49
 msgid "Log in to Last.fm"
-msgstr "Efetuar Login no Last.fm"
+msgstr "Iniciar sessão no Last.fm"
 
 #: ../src/Libraries/Lastfm.Gui/Lastfm.Gui/AccountLoginDialog.cs:76
 msgid "Last.fm Account Login"
@@ -3843,7 +3838,7 @@ msgstr "Por favor digite suas credenciais da conta do Last.fm."
 
 #: ../src/Libraries/Lastfm.Gui/Lastfm.Gui/AccountLoginDialog.cs:105
 msgid "Save and Log In"
-msgstr "Salvar e efetuar login"
+msgstr "Salvar e iniciar sessão"
 
 #: ../src/Libraries/Lastfm.Gui/Lastfm.Gui/AccountLoginForm.cs:113
 msgid "Sign up for Last.fm"
@@ -3856,7 +3851,7 @@ msgstr "O nome de usuário ou senha do Last.fm é inválido."
 
 #: ../src/Libraries/Lastfm/Lastfm/RadioConnection.cs:301
 msgid "Failed to Login to Last.fm"
-msgstr "Falhou ao efeturar login no Last.fm"
+msgstr "Falhou ao iniciar sessão no Last.fm"
 
 #: ../src/Libraries/Lastfm/Lastfm/RadioConnection.cs:302
 msgid "Either your username or password is invalid."
@@ -5245,7 +5240,7 @@ msgstr "Podcast Desconhecido"
 #~ msgstr "Razões comuns para falhas de conexão:"
 
 #~ msgid "The login process was canceled"
-#~ msgstr "O processo de login foi cancelado"
+#~ msgstr "O processo de iniciar sessão foi cancelado"
 
 #~ msgid "Too many users are connected to this share"
 #~ msgstr "Muitos usuários estão conectados a este compartilhamento"
