@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gst-users HEAD\n"
 "POT-Creation-Date: 2008-07-31 04:12+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2008-08-02 01:39-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-l10n-br@listas.cipsga.org.br>\n"
 "MIME-Version: 1.0\n"
@@ -20,12 +20,13 @@ msgstr ""
 #: C/users-admin.xml:133(None)
 msgid "@@image: 'figures/users-tool.png'; md5=3ce11dd8a6244be2d99fd14839e943b0"
 msgstr ""
+"@@image: 'figures/users-tool.png'; md5=3ce11dd8a6244be2d99fd14839e943b0"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: C/users-admin.xml:171(None)
 msgid "@@image: 'figures/groups.png'; md5=0c3a124e6dbeea5fedfc9c3c7efe1e7e"
-msgstr ""
+msgstr "@@image: 'figures/groups.png'; md5=0c3a124e6dbeea5fedfc9c3c7efe1e7e"
 
 #: C/users-admin.xml:22(title)
 msgid "Users Administration Tool Manual"
@@ -188,7 +189,7 @@ msgid ""
 "feedback\" type=\"help\">GNOME Feedback Page</ulink>."
 msgstr ""
 "Para relatar um erro ou fazer uma sugestão relacionada a Ferramenta de "
-"Administração de Usuários ou esse manual, visite a <ulink "
+"Administração de Usuários ou este manual, visite a <ulink "
 "url=\"ghelp:gnome-feedback\" type=\"help\">página de feedback do "
 "GNOME</ulink>."
 
@@ -238,7 +239,7 @@ msgid ""
 "Choose <menuchoice><guisubmenu>Administration</guisubmenu><guimenuitem>Users "
 "and groups</guimenuitem></menuchoice>."
 msgstr ""
-"Escolha <menuchoice><guisubmenu>Administração</guisubmenu>"
+"Vá até <menuchoice><guisubmenu>Administração</guisubmenu>"
 "<guimenuitem>Usuários e grupos</guimenuitem></menuchoice>."
 
 #: C/users-admin.xml:117(term)
@@ -257,7 +258,7 @@ msgid ""
 msgstr ""
 "Quando você iniciar a <application>Ferramenta de Administração de "
 "Usuários</application>, a senha do administrador será solicitada, isso é "
-"necessário porque as alterações feitas com esta ferramenta afetarão todo o "
+"necessário porque as alterações feitas com essa ferramenta afetarão todo o "
 "sistema."
 
 #: C/users-admin.xml:126(para)
@@ -292,8 +293,8 @@ msgid ""
 "tools/users/showall\" it will show the system users too."
 msgstr ""
 "Mostra os usuários disponíveis. Dependendo do valor da chave \"/apps/gnome-"
-"system-tools/users/showall\" do gconf será mostrado os usuários do sistema "
-"também."
+"system-tools/users/showall\" do gconf serão mostrados também os usuários do "
+"sistema."
 
 #: C/users-admin.xml:153(guilabel)
 msgid "User manipulation buttons"
@@ -302,7 +303,7 @@ msgstr "Botões de manipulação de usuário"
 #: C/users-admin.xml:155(para)
 msgid "Allows to add or delete users or modify user settings."
 msgstr ""
-"Permite adicionar ou excluir usuários ou modificar configurações do usuário."
+"Permite adicionar ou excluir usuários, ou modificar configurações do usuário."
 
 #: C/users-admin.xml:159(guilabel)
 msgid "Manage groups button"
@@ -310,7 +311,7 @@ msgstr "Botão gerenciar grupos"
 
 #: C/users-admin.xml:161(para)
 msgid "Shows a similar dialog to modify group settings."
-msgstr "Mostra um diálogo similar para modificação de configurações de grupo"
+msgstr "Mostra um diálogo similar para modificação de configurações de grupo."
 
 #: C/users-admin.xml:167(title)
 msgid "Users Administration Tool groups editor"
@@ -340,7 +341,7 @@ msgstr ""
 "Pressione o botão <guilabel>Adicionar</guilabel> no diálogo principal, uma "
 "nova janela aparecerá solicitando pelos novos dados de usuário. Para "
 "adicionar um novo usuário você precisa fornecer ao menos o nome de usuário e "
-"a senha (automaticamente gerada ou manualmente). Opcionalmente você pode "
+"a senha (gerada automaticamente ou manualmente). Opcionalmente você pode "
 "especificar ou modificar o nome real, shell do usuário, diretório pessoal, "
 "ID do usuário e uma lista de grupos secundários para o usuário."
 
@@ -364,7 +365,7 @@ msgid ""
 msgstr ""
 "Selecione o usuário que você quer modificar e pressione o botão "
 "<guilabel>Propriedades</guilabel>. Uma janela similar à usada para adicionar "
-"novos usuários aparecerá com todos dados do usuário, permitindo que você "
+"novos usuários aparecerá com todos os dados do usuário, permitindo que você "
 "modifique-os."
 
 #: C/users-admin.xml:197(title)
