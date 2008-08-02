@@ -142,32 +142,34 @@ msgstr ""
 
 #: C/shares-admin.xml:46(firstname)
 msgid "Carlos"
-msgstr ""
+msgstr "Carlos"
 
 #: C/shares-admin.xml:47(surname)
 msgid "Garnacho Parro"
-msgstr ""
+msgstr "Garnacho Parro"
 
 #: C/shares-admin.xml:65(revnumber)
 msgid "Shared Folders Administration Tool Manual V2.15.2"
-msgstr ""
+msgstr "Manual da Ferramenta de Administração de Pastas Compartilhadas v2.15.2"
 
 #: C/shares-admin.xml:66(date)
 msgid "August 2006"
-msgstr ""
+msgstr "Agosto de 2006"
 
 #: C/shares-admin.xml:68(para) C/shares-admin.xml:69(para)
 msgid "carlosg@gnome.org (Carlos Garnacho Parro)"
-msgstr ""
+msgstr "carlosg@gnome.org (Carlos Garnacho Parro)"
 
 #: C/shares-admin.xml:74(releaseinfo)
 msgid ""
 "This manual describes version 2.15.2 of Shared Folders Administration Tool."
 msgstr ""
+"Este manual refere-se a versão 2.15.2 da Ferramenta de Administração de "
+"Pastas Compartilhadas."
 
 #: C/shares-admin.xml:77(title)
 msgid "Feedback"
-msgstr ""
+msgstr "Feedback"
 
 #: C/shares-admin.xml:78(para)
 msgid ""
@@ -175,50 +177,63 @@ msgid ""
 "Administration Tool or this manual, follow the directions in the <ulink url="
 "\"ghelp:gnome-feedback\" type=\"help\">GNOME Feedback Page</ulink>."
 msgstr ""
+"Para relatar um erro ou fazer uma sugestão relacionada a Ferramenta de "
+"Administração de Pastas Compartilhadas ou este manual, visite a <ulink "
+"url=\"ghelp:gnome-feedback\" type=\"help\">página de feedback do "
+"GNOME</ulink>."
 
 #: C/shares-admin.xml:81(para)
 msgid ""
 "The Shared Folders Administration Tool allows you to share folders to other "
 "computers in your network or in the internet."
 msgstr ""
+"A Ferramenta de Administração de Pastas Compartilhadas permite que você "
+"compartilhe pastas para outros computadores na sua rede ou na internet."
 
 #: C/shares-admin.xml:86(primary)
 msgid "Services Administration Tool"
-msgstr ""
+msgstr "Ferramenta de Administração de Serviços"
 
 #: C/shares-admin.xml:91(title)
 msgid "Introduction"
-msgstr ""
+msgstr "Introdução"
 
 #: C/shares-admin.xml:92(para)
 msgid ""
 "The <application>Shared Folders Administration Tool</application> allows you "
 "to share folders to other computers in your network or in the internet."
 msgstr ""
+"A <application>Ferramenta de Administração de Pastas "
+"Compartilhadas</application> permite que você compartilhe pastas para outros "
+"computadores na sua rede ou na internet."
 
 #: C/shares-admin.xml:96(title)
 msgid "Getting started"
-msgstr ""
+msgstr "Iniciando o uso"
 
 #: C/shares-admin.xml:98(para)
 msgid ""
 "You can start <application>Shared Folders Administration Tool</application> "
 "in the following ways:"
 msgstr ""
+"Você pode iniciar a <application>Ferramenta de Administração de Pastas "
+"Compartilhadas</application> das seguintes maneiras:"
 
 #: C/shares-admin.xml:102(term)
 msgid "<guimenu>System</guimenu> menu"
-msgstr ""
+msgstr "Menu <guimenu>Sistema</guimenu>"
 
 #: C/shares-admin.xml:104(para)
 msgid ""
 "Choose <menuchoice><guisubmenu>Administration</"
 "guisubmenu><guimenuitem>Shared Folders</guimenuitem></menuchoice>."
 msgstr ""
+"Vá até <menuchoice><guisubmenu>Administração</guisubmenu><guimenuitem>Pastas "
+"Compartilhadas</guimenuitem></menuchoice>."
 
 #: C/shares-admin.xml:109(term)
 msgid "Nautilus Context Menu"
-msgstr ""
+msgstr "Menu de contexto do Nautilus"
 
 #: C/shares-admin.xml:111(para)
 msgid ""
@@ -226,14 +241,17 @@ msgid ""
 "<menuchoice><guisubmenu>Share folder</guisubmenu></menuchoice> to share or "
 "stop sharing the folder."
 msgstr ""
+"Pressione o botão direito do mouse em qualquer pasta local e escolha "
+"<menuchoice><guisubmenu>Compartilhar pasta</guisubmenu></menuchoice> para "
+"compartilhar ou interromper o compartilhamento da pasta."
 
 #: C/shares-admin.xml:116(term)
 msgid "Command line"
-msgstr ""
+msgstr "Linha de comando"
 
 #: C/shares-admin.xml:118(para)
 msgid "Execute the following command: <command>shares-admin</command>."
-msgstr ""
+msgstr "Execute o seguinte comando: <command>shares-admin</command>."
 
 #: C/shares-admin.xml:123(para)
 msgid ""
@@ -242,55 +260,67 @@ msgid ""
 "necessary because the changes done with this tool will affect the whole "
 "system."
 msgstr ""
+"Quando você inicia a <application>Ferramenta de Administração de Pastas "
+"Compartilhadas</application>, a senha do administrador será solicitada, isso "
+"é necessário porque as alterações feitas com esta ferramenta afetarão todo o "
+"sistema."
 
 #: C/shares-admin.xml:125(para)
 msgid ""
 "After entering the administrator password, the following window is displayed."
 msgstr ""
+"Após digitar a senha do administrador, a seguinte janela será exibida."
 
 #: C/shares-admin.xml:128(title)
 msgid "Shared Folders Administration Tool main window"
-msgstr ""
+msgstr "Janela principal da Ferramenta de Administração de Pastas Compartilhadas"
 
 #: C/shares-admin.xml:135(phrase)
 msgid "Shows Shared Folders Administration Tool main window."
 msgstr ""
+"Mostra a janela principal da Ferramenta de Administração de Pastas "
+"Compartilhadas."
 
 #: C/shares-admin.xml:141(para)
 msgid ""
 "The <application>Shared Folders Administration Tool</application> main "
 "window contains the following elements:"
 msgstr ""
+"A janela principal da <application>Ferramenta de Administração de Pastas "
+"Compartilhadas</application> contém os seguintes elementos:"
 
 #: C/shares-admin.xml:145(term)
 msgid "Shared folders"
-msgstr ""
+msgstr "Pastas compartilhadas"
 
 #: C/shares-admin.xml:147(para)
 msgid ""
 "This allows you to specify which folders are going to be shared through the "
 "network."
 msgstr ""
+"Este permite que você especifique quais pastas estão para ser compartilhadas "
+"por meio da rede."
 
 #: C/shares-admin.xml:152(term)
 msgid "General properties"
-msgstr ""
+msgstr "Propriedades gerais"
 
 #: C/shares-admin.xml:154(para)
 msgid "Specifies global settings for a group of shared folders."
 msgstr ""
+"Especifica configurações globais para um grupo de pastas compartilhadas."
 
 #: C/shares-admin.xml:161(title)
 msgid "Usage"
-msgstr ""
+msgstr "Uso"
 
 #: C/shares-admin.xml:164(title)
 msgid "To share a folder"
-msgstr ""
+msgstr "Compartilhar uma pasta"
 
 #: C/shares-admin.xml:165(para)
 msgid "There are 3 ways of sharing a folder:"
-msgstr ""
+msgstr "Há três maneiras de compartilhar uma pasta:"
 
 #: C/shares-admin.xml:167(para)
 msgid ""
@@ -298,31 +328,41 @@ msgid ""
 "guilabel> button. In the <guilabel>Share Folders</guilabel> dialog fill in "
 "the folder you wish to share."
 msgstr ""
+"Na aba <guilabel>Pastas compartilhadas</guilabel> pressione o botão "
+"<guilabel>Adicionar</guilabel>. No diálogo <guilabel>Compartilhar "
+"pastas</guilabel> preencha com a pasta que você quer compartilhar."
 
 #: C/shares-admin.xml:168(para)
 msgid ""
 "Right click on a local folder and select the option "
 "<menuchoice><guisubmenu>Share folder</guisubmenu></menuchoice>."
 msgstr ""
+"Clique com o botão direito em uma pasta local e selecione a opção "
+"<menuchoice><guisubmenu>Compartilhar pasta</guisubmenu></menuchoice>."
 
 #: C/shares-admin.xml:169(para)
 msgid ""
 "Drag a folder and drop it in the shared folders list in the main window."
 msgstr ""
+"Arraste uma pasta e solte-a na lista de pastas compartilhadas na janela "
+"principal."
 
 #: C/shares-admin.xml:174(title)
 msgid "To stop sharing a folder"
-msgstr ""
+msgstr "Parar o compartilhamento de uma pasta"
 
 #: C/shares-admin.xml:175(para)
 msgid "There are 2 ways to stop sharing a folder:"
-msgstr ""
+msgstr "Há duas maneiras de parar o compartilhamento de uma pasta:"
 
 #: C/shares-admin.xml:177(para)
 msgid ""
 "In the <guilabel>Shared Folders</guilabel> tab select the folder you want to "
 "stop sharing and press the <guilabel>Delete</guilabel> button."
 msgstr ""
+"Na aba <guilabel>Pastas compartilhadas</guilabel> selecione a pasta que você "
+"quer parar o compartilhamento e pressione o botão "
+"<guilabel>Excluir</guilabel>."
 
 #: C/shares-admin.xml:178(para)
 msgid ""
@@ -330,27 +370,35 @@ msgid ""
 "<menuchoice><guisubmenu>Share folder</guisubmenu></menuchoice>, then select "
 "not to share in the <guilabel>Share through</guilabel> combobox."
 msgstr ""
+"Clique com o botão direito em uma pasta local e selecione a opção "
+"<menuchoice><guisubmenu>Compartilhar pasta</guisubmenu></menuchoice>, e "
+"então selecione não compartilhar na caixa de combinação "
+"<guilabel>Compartilhar através de</guilabel>."
 
 #: C/shares-admin.xml:183(title)
 msgid "To modify a folder sharing properties"
-msgstr ""
+msgstr "Modificar as propriedades de compartilhamento de pasta"
 
 #: C/shares-admin.xml:184(para)
 msgid ""
 "In the <guilabel>Shared Folders</guilabel> tab select the folder you want to "
 "modify and press the <guilabel>Properties</guilabel> button."
 msgstr ""
+"Na aba <guilabel>Pastas compartilhadas</guilabel> selecione a pasta que você "
+"quer modificar e pressione o botão <guilabel>Propriedades</guilabel>."
 
 #: C/shares-admin.xml:188(title)
 msgid "To modify global sharing properties"
-msgstr ""
+msgstr "Modificar propriedades globais de compartilhamento"
 
 #: C/shares-admin.xml:189(para)
 msgid ""
 "in the <guilabel>General Properties</guilabel> tab modify any of the values."
 msgstr ""
+"Na aba <guilabel>Propriedades gerais</guilabel> modifique quaisquer dos "
+"valores."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
 #: C/shares-admin.xml:0(None)
 msgid "translator-credits"
-msgstr ""
+msgstr "Fabrício Godoy <skarllot@gmail.com>, 2008."
