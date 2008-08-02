@@ -29,15 +29,15 @@ msgstr ""
 
 #: C/users-admin.xml:22(title)
 msgid "Users Administration Tool Manual"
-msgstr "Manual da ferramenta de administração de usuários"
+msgstr "Manual da Ferramenta de Administração de Usuários"
 
 #: C/users-admin.xml:24(year)
 msgid "2004"
-msgstr ""
+msgstr "2004"
 
 #: C/users-admin.xml:25(holder) C/users-admin.xml:36(publishername)
 msgid "Carlos Garnacho Parro"
-msgstr ""
+msgstr "Carlos Garnacho Parro"
 
 #: C/users-admin.xml:2(para)
 msgid ""
@@ -48,6 +48,13 @@ msgid ""
 "of the GFDL at this <ulink type=\"help\" url=\"ghelp:fdl\">link</ulink> or "
 "in the file COPYING-DOCS distributed with this manual."
 msgstr ""
+"Permissão concedida para copiar, distribuir e/ou modificar este documento "
+"sob os termos da Licença de Documentação Livre GNU (GNU Free Documentation "
+"License), Versão 1.1 ou qualquer versão mais recente publicada pela Free "
+"Software Foundation; sem Seções Invariantes, sem Textos de Capa Frontal, e "
+"sem Textos de Contracapa. Você pode encontrar uma cópia da licença GFDL no "
+"<ulink type=\"help\" url=\"ghelp:fdl\">link</ulink> ou no arquivo "
+"COPYING-DOCS distribuído com este manual."
 
 #: C/users-admin.xml:12(para)
 msgid ""
@@ -56,6 +63,10 @@ msgid ""
 "you can do so by adding a copy of the license to the manual, as described in "
 "section 6 of the license."
 msgstr ""
+"Este manual é parte da coleção de manuais do GNOME distribuídos sob a GFDL. "
+"Se você quiser distribuí-lo separadamente da coleção, você pode fazê-lo "
+"adicionando ao manual uma cópia da licença, como descrito na seção 6 da "
+"licença."
 
 #: C/users-admin.xml:19(para)
 msgid ""
@@ -65,6 +76,11 @@ msgid ""
 "aware of those trademarks, then the names are in capital letters or initial "
 "capital letters."
 msgstr ""
+"Muitos dos nomes usados por empresas para distinguir seus produtos e "
+"serviços são reivindicados como marcas registradas. Onde esses nomes "
+"aparecem em qualquer documentação do GNOME e os membros do Projeto de "
+"Documentação do GNOME estiverem cientes dessas marcas registradas, os nomes "
+"aparecerão impressos em letras maiúsculas ou com iniciais em maiúsculas."
 
 #: C/users-admin.xml:35(para)
 msgid ""
@@ -80,6 +96,18 @@ msgid ""
 "ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION "
 "OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
 msgstr ""
+"O DOCUMENTO É FORNECIDO NA BASE \"COMO ESTÁ\", SEM GARANTIAS DE QUALQUER "
+"TIPO, TANTO EXPRESSA OU IMPLÍCITA, INCLUINDO, MAS NÃO LIMITADO A, GARANTIAS "
+"DE QUE O DOCUMENTO OU VERSÃO MODIFICADA DO DOCUMENTO SEJA COMERCIALIZÁVEL, "
+"LIVRE DE DEFEITOS, PRÓPRIO PARA UM PROPÓSITO ESPECÍFICO OU SEM INFRAÇÕES. "
+"TODO O RISCO A RESPEITO DA QUALIDADE, EXATIDÃO, E DESEMPENHO DO DOCUMENTO OU "
+"VERSÕES MODIFICADAS DO DOCUMENTO É DE SUA RESPONSABILIDADE. SE ALGUM "
+"DOCUMENTO OU VERSÃO MODIFICADA SE PROVAR DEFEITUOSO EM QUALQUER ASPECTO, "
+"VOCÊ (NÃO O ESCRITOR INICIAL, AUTOR OU QUALQUER CONTRIBUIDOR) ASSUME O CUSTO "
+"DE QUALQUER SERVIÇO NECESSÁRIO, REPARO OU CORREÇÃO. ESSA RENÚNCIA DE "
+"GARANTIAS CONSTITUI UMA PARTE ESSENCIAL DESTA LICENÇA. NENHUM USO DESTE "
+"DOCUMENTO OU VERSÃO MODIFICADA DESTE DOCUMENTO É AUTORIZADO SE NÃO FOR SOB "
+"ESSA RENÚNCIA; E"
 
 #: C/users-admin.xml:55(para)
 msgid ""
@@ -94,6 +122,17 @@ msgid ""
 "VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE "
 "POSSIBILITY OF SUCH DAMAGES."
 msgstr ""
+"SOB NENHUMA CIRCUNSTÂNCIA E SOB NENHUMA TEORIA LEGAL, TANTO EM DANO "
+"(INCLUINDO NEGLIGÊNCIA), CONTRATO, OU OUTROS, DEVEM O AUTOR, ESCRITOR "
+"INICIAL, QUALQUER CONTRIBUIDOR, OU QUALQUER DISTRIBUIDOR DO DOCUMENTO OU "
+"VERSÃO MODIFICADA DO DOCUMENTO, OU QUALQUER FORNECEDOR DE ALGUMA DESSAS "
+"PARTES, SER CONSIDERADOS RESPONSÁVEIS A QUALQUER PESSOA POR QUALQUER DANO, "
+"SEJA DIRETO, INDIRETO, ESPECIAL, ACIDENTAL OU CONSEQÜENCIAL DE QUALQUER "
+"INDIVÍDUO, INCLUINDO, MAS NÃO LIMITADO A, DANOS POR PERDA DE BOA VONTADE, "
+"TRABALHO PARADO, FALHA OU MAU FUNCIONAMENTO DO COMPUTADOR, OU QUALQUER E "
+"TODOS OS OUTROS DANOS OU PERDAS RESULTANTES OU RELACIONADOS AO USO DO "
+"DOCUMENTO E VERSÕES MODIFICADAS, MESMO QUE TAL PARTE TENHA SIDO INFORMADA DA "
+"POSSIBILIDADE DE TAIS DANOS."
 
 #: C/users-admin.xml:28(para)
 msgid ""
@@ -101,43 +140,46 @@ msgid ""
 "OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
 "<placeholder-1/>"
 msgstr ""
+"O DOCUMENTO E VERSÕES MODIFICADAS DO DOCUMENTO SÃO FORNECIDOS SOB OS TERMOS "
+"DA GNU FREE DOCUMENTATION LICENSE COM O ENTENDIMENTO ADICIONAL DE QUE: "
+"<placeholder-1/>"
 
 #: C/users-admin.xml:46(firstname)
 msgid "Carlos"
-msgstr ""
+msgstr "Carlos"
 
 #: C/users-admin.xml:47(surname)
 msgid "Garnacho Parro"
-msgstr ""
+msgstr "Garnacho Parro"
 
 #: C/users-admin.xml:65(revnumber)
 msgid "Users Administration Tool Manual V2.15.2"
-msgstr ""
+msgstr "Manual da Ferramenta de Administração de Usuários v2.15.2"
 
 #: C/users-admin.xml:66(date)
 msgid "August 2006"
-msgstr ""
+msgstr "Agosto de 2006"
 
 #: C/users-admin.xml:68(para) C/users-admin.xml:69(para)
 #: C/users-admin.xml:76(para) C/users-admin.xml:77(para)
 msgid "carlosg@gnome.org (Carlos Garnacho Parro)"
-msgstr ""
+msgstr "carlosg@gnome.org (Carlos Garnacho Parro)"
 
 #: C/users-admin.xml:73(revnumber)
 msgid "Users Administration Tool Manual V0.35"
-msgstr ""
+msgstr "Manual da Ferramenta de Administração de Usuários v0.35"
 
 #: C/users-admin.xml:74(date)
 msgid "June 2004"
-msgstr ""
+msgstr "Junho de 2004"
 
 #: C/users-admin.xml:82(releaseinfo)
 msgid "This manual describes version 2.15.2 of Users Administration Tool."
-msgstr ""
+msgstr "Esse manual refere-se a versão 2.15.2 da Ferramenta de Administração de Usuários."
 
 #: C/users-admin.xml:85(title)
 msgid "Feedback"
-msgstr ""
+msgstr "Feedback"
 
 #: C/users-admin.xml:86(para)
 msgid ""
@@ -145,54 +187,67 @@ msgid ""
 "or this manual, follow the directions in the <ulink url=\"ghelp:gnome-"
 "feedback\" type=\"help\">GNOME Feedback Page</ulink>."
 msgstr ""
+"Para relatar um erro ou fazer uma sugestão relacionada a Ferramenta de "
+"Administração de Usuários ou esse manual, visite a <ulink "
+"url=\"ghelp:gnome-feedback\" type=\"help\">página de feedback do "
+"GNOME</ulink>."
 
 #: C/users-admin.xml:89(para)
 msgid ""
 "The Users Administration Tool allows you add, delete and modify the existing "
 "users and groups in your system."
 msgstr ""
+"A Ferramenta de Administração de Usuários permite que você adicione, exclua "
+"e modifique os usuários e grupos existentes no seu sistema."
 
 #: C/users-admin.xml:94(primary)
 msgid "Users Administration Tool"
-msgstr ""
+msgstr "Ferramenta de Administração de Usuários"
 
 #: C/users-admin.xml:99(title)
 msgid "Introduction"
-msgstr ""
+msgstr "Introdução"
 
 #: C/users-admin.xml:100(para)
 msgid ""
 "The <application>Users Administration Tool</application> allows you add, "
 "delete and modify the existing users and groups in your system."
 msgstr ""
+"A <application>Ferramenta de Administração de Usuários</application> permite "
+"que você adicione, exclua e modifique os usuários e grupos existentes no seu "
+"sistema."
 
 #: C/users-admin.xml:104(title)
 msgid "Getting started"
-msgstr ""
+msgstr "Iniciando o uso"
 
 #: C/users-admin.xml:106(para)
 msgid ""
 "You can start <application>Users Administration Tool</application> in the "
 "following ways:"
 msgstr ""
+"Você pode iniciar a <application>Ferramenta de Administração de "
+"Usuários</application> das seguintes maneiras:"
 
 #: C/users-admin.xml:110(term)
 msgid "<guimenu>System</guimenu> menu"
-msgstr ""
+msgstr "Menu <guimenu>Sistema</guimenu>"
 
 #: C/users-admin.xml:112(para)
 msgid ""
 "Choose <menuchoice><guisubmenu>Administration</guisubmenu><guimenuitem>Users "
 "and groups</guimenuitem></menuchoice>."
 msgstr ""
+"Escolha <menuchoice><guisubmenu>Administração</guisubmenu>"
+"<guimenuitem>Usuários e grupos</guimenuitem></menuchoice>."
 
 #: C/users-admin.xml:117(term)
 msgid "Command line"
-msgstr ""
+msgstr "Linha de comando"
 
 #: C/users-admin.xml:119(para)
 msgid "Execute the following command: <command>users-admin</command>"
-msgstr ""
+msgstr "Execute o seguinte comando: <command>users-admin</command>"
 
 #: C/users-admin.xml:124(para)
 msgid ""
@@ -200,67 +255,78 @@ msgid ""
 "will be prompted for the administrator password, this is necessary because "
 "the changes done with this tool will affect the whole system."
 msgstr ""
+"Quando você iniciar a <application>Ferramenta de Administração de "
+"Usuários</application>, a senha do administrador será solicitada, isso é "
+"necessário porque as alterações feitas com esta ferramenta afetarão todo o "
+"sistema."
 
 #: C/users-admin.xml:126(para)
 msgid ""
 "After entering the administrator password, the following window is displayed."
 msgstr ""
+"Depois de digitar a senha do administrador, a seguinte janela será exibida."
 
 #: C/users-admin.xml:129(title)
 msgid "Users Administration Tool main window"
-msgstr ""
+msgstr "Janela principal da Ferramenta de Administração de Usuários"
 
 #: C/users-admin.xml:136(phrase)
 msgid "Shows Users Administration Tool main window."
-msgstr ""
+msgstr "Mostra a janela principal da Ferramenta de Administração de Usuários."
 
 #: C/users-admin.xml:142(para)
 msgid ""
 "The <application>Users Administration Tool</application> main window "
 "contains the following elements:"
 msgstr ""
+"A janela principal da <application>Ferramenta de Administração de "
+"Usuários</application> contém os seguintes elementos:"
 
 #: C/users-admin.xml:146(guilabel)
 msgid "Users list"
-msgstr ""
+msgstr "Lista de usuários"
 
 #: C/users-admin.xml:148(para)
 msgid ""
 "Shows the available users. depending on the gconf key \"/apps/gnome-system-"
 "tools/users/showall\" it will show the system users too."
 msgstr ""
+"Mostra os usuários disponíveis. Dependendo do valor da chave \"/apps/gnome-"
+"system-tools/users/showall\" do gconf será mostrado os usuários do sistema "
+"também."
 
 #: C/users-admin.xml:153(guilabel)
 msgid "User manipulation buttons"
-msgstr ""
+msgstr "Botões de manipulação de usuário"
 
 #: C/users-admin.xml:155(para)
 msgid "Allows to add or delete users or modify user settings."
 msgstr ""
+"Permite adicionar ou excluir usuários ou modificar configurações do usuário."
 
 #: C/users-admin.xml:159(guilabel)
 msgid "Manage groups button"
-msgstr ""
+msgstr "Botão gerenciar grupos"
 
 #: C/users-admin.xml:161(para)
 msgid "Shows a similar dialog to modify group settings."
-msgstr ""
+msgstr "Mostra um diálogo similar para modificação de configurações de grupo"
 
 #: C/users-admin.xml:167(title)
 msgid "Users Administration Tool groups editor"
-msgstr ""
+msgstr "Editor de grupos da Ferramenta de Administração de Usuários"
 
 #: C/users-admin.xml:174(phrase)
 msgid "Groups editor."
-msgstr ""
+msgstr "Editor de grupos."
 
 #: C/users-admin.xml:182(title)
 msgid "Usage"
-msgstr ""
+msgstr "Uso"
 
 #: C/users-admin.xml:185(title)
 msgid "To add a new user"
-msgstr ""
+msgstr "Adicionar um novo usuário"
 
 #: C/users-admin.xml:186(para)
 msgid ""
@@ -271,16 +337,24 @@ msgid ""
 "phone, home phone, main group, used shell, home directory, user ID and a "
 "list of the secondary groups for the user."
 msgstr ""
+"Pressione o botão <guilabel>Adicionar</guilabel> no diálogo principal, uma "
+"nova janela aparecerá solicitando pelos novos dados de usuário. Para "
+"adicionar um novo usuário você precisa fornecer ao menos o nome de usuário e "
+"a senha (automaticamente gerada ou manualmente). Opcionalmente você pode "
+"especificar ou modificar o nome real, shell do usuário, diretório pessoal, "
+"ID do usuário e uma lista de grupos secundários para o usuário."
 
 #: C/users-admin.xml:188(para)
 msgid ""
 "Main group, used shell, home directory and user ID are automatically guessed "
 "depending on the selected profile."
 msgstr ""
+"Grupo principal, shell usado, diretório pessoal e ID de usuário são "
+"escolhidos automaticamente dependendo do perfil selecionado."
 
 #: C/users-admin.xml:192(title)
 msgid "To modify an existing user"
-msgstr ""
+msgstr "Modificar um usuário existente"
 
 #: C/users-admin.xml:193(para)
 msgid ""
@@ -288,10 +362,14 @@ msgid ""
 "guilabel> button, A window similar to the used for adding new users will "
 "appear with all the user data, allowing you to modify them."
 msgstr ""
+"Selecione o usuário que você quer modificar e pressione o botão "
+"<guilabel>Propriedades</guilabel>. Uma janela similar à usada para adicionar "
+"novos usuários aparecerá com todos dados do usuário, permitindo que você "
+"modifique-os."
 
 #: C/users-admin.xml:197(title)
 msgid "To delete an existing user"
-msgstr ""
+msgstr "Excluir um usuário existente"
 
 #: C/users-admin.xml:198(para)
 msgid ""
@@ -300,16 +378,21 @@ msgid ""
 "due to the importance of this data, you will be asked for confirmation for "
 "every user you want to delete."
 msgstr ""
+"Selecione o usuário ou usuários que você quer excluir e pressione o botão "
+"<guilabel>Excluir</guilabel> na aba <guilabel>Usuários</guilabel>, devido a "
+"importância destes dados, você deverá confirmar a exclusão de cada usuário."
 
 #: C/users-admin.xml:200(para)
 msgid ""
 "For security reasons, the home directory of the deleted users will not be "
 "deleted."
 msgstr ""
+"Por motivos de segurança o diretório pessoal dos usuários excluídos não será "
+"excluído."
 
 #: C/users-admin.xml:204(title)
 msgid "To add a new group"
-msgstr ""
+msgstr "Adicionar um novo grupo"
 
 #: C/users-admin.xml:205(para)
 msgid ""
@@ -318,10 +401,14 @@ msgid ""
 "provide at least the group name and the group ID. Optionally you can specify "
 "the users that will belong to this group."
 msgstr ""
+"Pressione o botão <guilabel>Adicionar</guilabel> no diálogo de grupos, uma "
+"nova janela aparecerá solicitando os novos dados do grupo. Para adicionar um "
+"novo grupo, você precisa fornecer ao menos o nome do grupo e o ID de grupo. "
+"Opcionalmente você pode especificar os usuários que pertencerão a este grupo."
 
 #: C/users-admin.xml:209(title)
 msgid "To modify an existing group"
-msgstr ""
+msgstr "Modificar um grupo existente"
 
 #: C/users-admin.xml:210(para)
 msgid ""
@@ -329,10 +416,13 @@ msgid ""
 "<guilabel>Properties</guilabel> button, A window will appear with the "
 "group's data allowing you to modify them."
 msgstr ""
+"Selecione o grupo que você quer modificar no diálogo de grupos e pressione o "
+"botão <guilabel>Propriedades</guilabel>. Uma janela aparecerá com os dados "
+"do grupo permitindo que você modifique-os."
 
 #: C/users-admin.xml:214(title)
 msgid "To delete an existing group"
-msgstr ""
+msgstr "Excluir um grupo existente"
 
 #: C/users-admin.xml:215(para)
 msgid ""
@@ -341,8 +431,12 @@ msgid ""
 "guilabel> tab, due to the importance of this data, you will be asked for "
 "confirmation for every group you want to delete."
 msgstr ""
+"Selecione o grupo ou grupos que você quer excluir no diálogo de grupos e "
+"pressione o botão <guilabel>Excluir</guilabel> na aba "
+"<guilabel>Grupos</guilabel>, devido a importância destes dados você deverá "
+"confirmar a exclusão de cada grupo."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
 #: C/users-admin.xml:0(None)
 msgid "translator-credits"
-msgstr ""
+msgstr "Fabrício Godoy <skarllot@gmail.com>, 2008."
