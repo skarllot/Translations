@@ -243,7 +243,7 @@ msgid ""
 msgstr ""
 "Pressione o botão direito do mouse em qualquer pasta local e escolha "
 "<menuchoice><guisubmenu>Compartilhar pasta</guisubmenu></menuchoice> para "
-"compartilhar ou interromper o compartilhamento da pasta."
+"compartilhar ou descompartilhar a pasta."
 
 #: C/shares-admin.xml:116(term)
 msgid "Command line"
@@ -268,12 +268,12 @@ msgstr ""
 #: C/shares-admin.xml:125(para)
 msgid ""
 "After entering the administrator password, the following window is displayed."
-msgstr ""
-"Após digitar a senha do administrador, a seguinte janela será exibida."
+msgstr "Após digitar a senha do administrador, a seguinte janela será exibida."
 
 #: C/shares-admin.xml:128(title)
 msgid "Shared Folders Administration Tool main window"
-msgstr "Janela principal da Ferramenta de Administração de Pastas Compartilhadas"
+msgstr ""
+"Janela principal da Ferramenta de Administração de Pastas Compartilhadas"
 
 #: C/shares-admin.xml:135(phrase)
 msgid "Shows Shared Folders Administration Tool main window."
@@ -298,8 +298,8 @@ msgid ""
 "This allows you to specify which folders are going to be shared through the "
 "network."
 msgstr ""
-"Este permite que você especifique quais pastas estão para ser compartilhadas "
-"por meio da rede."
+"Permite que você especifique quais pastas estão para ser compartilhadas por "
+"meio da rede."
 
 #: C/shares-admin.xml:152(term)
 msgid "General properties"
@@ -330,7 +330,7 @@ msgid ""
 msgstr ""
 "Na aba <guilabel>Pastas compartilhadas</guilabel> pressione o botão "
 "<guilabel>Adicionar</guilabel>. No diálogo <guilabel>Compartilhar "
-"pastas</guilabel> preencha com a pasta que você quer compartilhar."
+"pastas</guilabel> preencha o caminho da pasta que você quer compartilhar."
 
 #: C/shares-admin.xml:168(para)
 msgid ""
@@ -349,11 +349,11 @@ msgstr ""
 
 #: C/shares-admin.xml:174(title)
 msgid "To stop sharing a folder"
-msgstr "Parar o compartilhamento de uma pasta"
+msgstr "Decompartilhar uma pasta"
 
 #: C/shares-admin.xml:175(para)
 msgid "There are 2 ways to stop sharing a folder:"
-msgstr "Há duas maneiras de parar o compartilhamento de uma pasta:"
+msgstr "Há duas maneiras de descompartilhar uma pasta:"
 
 #: C/shares-admin.xml:177(para)
 msgid ""
@@ -361,8 +361,7 @@ msgid ""
 "stop sharing and press the <guilabel>Delete</guilabel> button."
 msgstr ""
 "Na aba <guilabel>Pastas compartilhadas</guilabel> selecione a pasta que você "
-"quer parar o compartilhamento e pressione o botão "
-"<guilabel>Excluir</guilabel>."
+"quer descompartilhar e pressione o botão <guilabel>Excluir</guilabel>."
 
 #: C/shares-admin.xml:178(para)
 msgid ""
