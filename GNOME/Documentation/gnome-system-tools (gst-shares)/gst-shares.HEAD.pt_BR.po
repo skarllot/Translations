@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-system-tools HEAD\n"
 "POT-Creation-Date: 2008-08-02 04:12+0000\n"
-"PO-Revision-Date: 2008-08-02 13:47-0300\n"
+"PO-Revision-Date: 2008-08-04 01:59-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-l10n-br@listas.cipsga.org.br>\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +21,7 @@ msgstr ""
 msgid ""
 "@@image: 'figures/shares-tool.png'; md5=c69384fc08f28a0328bbe497d62d00f0"
 msgstr ""
-"@@image: 'figures/shares-tool.png'; md5=c69384fc08f28a0328bbe497d62d00f0"
+"@@image: 'figures/shares-tool.png'; md5=40cd26b9ca1180250439479b91bcf86d"
 
 #: C/shares-admin.xml:22(title)
 msgid "Shared Folders Administration Tool Manual"
@@ -243,7 +243,7 @@ msgid ""
 msgstr ""
 "Pressione o botão direito do mouse em qualquer pasta local e escolha "
 "<menuchoice><guisubmenu>Compartilhar pasta</guisubmenu></menuchoice> para "
-"compartilhar ou descompartilhar a pasta."
+"compartilhar ou interromper o compartilhamento da pasta."
 
 #: C/shares-admin.xml:116(term)
 msgid "Command line"
@@ -349,11 +349,11 @@ msgstr ""
 
 #: C/shares-admin.xml:174(title)
 msgid "To stop sharing a folder"
-msgstr "Decompartilhar uma pasta"
+msgstr "Interromper o compartilhamento de uma pasta"
 
 #: C/shares-admin.xml:175(para)
 msgid "There are 2 ways to stop sharing a folder:"
-msgstr "Há duas maneiras de descompartilhar uma pasta:"
+msgstr "Há duas maneiras de interromper o compartilhamento de uma pasta:"
 
 #: C/shares-admin.xml:177(para)
 msgid ""
@@ -361,7 +361,8 @@ msgid ""
 "stop sharing and press the <guilabel>Delete</guilabel> button."
 msgstr ""
 "Na aba <guilabel>Pastas compartilhadas</guilabel> selecione a pasta que você "
-"quer descompartilhar e pressione o botão <guilabel>Excluir</guilabel>."
+"quer interromper o compartilhamento e pressione o botão "
+"<guilabel>Excluir</guilabel>."
 
 #: C/shares-admin.xml:178(para)
 msgid ""
