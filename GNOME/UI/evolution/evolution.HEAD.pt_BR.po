@@ -1,5 +1,5 @@
 # Brazilian Portuguese translation of evolution.
-# Copyright (C) 2000-2007 Free Software Foundation, Inc.
+# Copyright (C) 2000-2008 Free Software Foundation, Inc.
 # Gustavo Maciel Dias Vieira <gustavo@sagui.org>, 2000-2004.
 # Afonso Celso Medina <afmedina@uol.com.br>, 2004, 2005.
 # Washington Lins <washington-lins@uol.com.br>, 2007, 2008.
@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: evolution\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-08-01 20:27+0000\n"
-"PO-Revision-Date: 2008-07-22 02:46-0300\n"
+"PO-Revision-Date: 2008-08-12 01:01-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-l10n-br@listas.cipsga.org.br>\n"
 "MIME-Version: 1.0\n"
@@ -35,12 +35,12 @@ msgstr "catálogo de endereços do Evolution"
 #: ../a11y/addressbook/ea-minicard-view.c:32
 #: ../addressbook/gui/component/addressbook-component.c:228
 msgid "New Contact"
-msgstr "Novo Contato"
+msgstr "Novo contato"
 
 #: ../a11y/addressbook/ea-minicard-view.c:33
 #: ../addressbook/gui/component/addressbook-component.c:236
 msgid "New Contact List"
-msgstr "Nova Lista de Contatos"
+msgstr "Nova lista de contatos"
 
 #: ../a11y/addressbook/ea-minicard-view.c:161
 #, c-format
@@ -55,7 +55,7 @@ msgstr "Abrir"
 
 #: ../a11y/addressbook/ea-minicard.c:141
 msgid "Contact List: "
-msgstr "Lista de Contatos: "
+msgstr "Lista de contatos: "
 
 #: ../a11y/addressbook/ea-minicard.c:142
 msgid "Contact: "
@@ -80,15 +80,15 @@ msgstr "É uma reunião."
 #: ../a11y/calendar/ea-cal-view-event.c:278
 #, c-format
 msgid "Calendar Event: Summary is %s."
-msgstr "Evento de Agenda: O Resumo é %s."
+msgstr "Evento de agenda: o resumo é %s."
 
 #: ../a11y/calendar/ea-cal-view-event.c:280
 msgid "Calendar Event: It has no summary."
-msgstr "Evento de Agenda: Não tem resumo."
+msgstr "Evento de agenda: não tem resumo."
 
 #: ../a11y/calendar/ea-cal-view-event.c:300
 msgid "calendar view event"
-msgstr "visão de evento da agenda"
+msgstr "exibição de evento da agenda"
 
 #: ../a11y/calendar/ea-cal-view-event.c:528
 msgid "Grab Focus"
@@ -96,28 +96,28 @@ msgstr "Capturar foco"
 
 #: ../a11y/calendar/ea-cal-view.c:302
 msgid "New Appointment"
-msgstr "Novo Compromisso"
+msgstr "Novo compromisso"
 
 #: ../a11y/calendar/ea-cal-view.c:303
 msgid "New All Day Event"
-msgstr "Novo Evento de Dia Inteiro"
+msgstr "Novo evento de dia inteiro"
 
 #: ../a11y/calendar/ea-cal-view.c:304
 msgid "New Meeting"
-msgstr "Nova Reunião"
+msgstr "Nova reunião"
 
 #: ../a11y/calendar/ea-cal-view.c:305
 msgid "Go to Today"
-msgstr "Ir para Hoje"
+msgstr "Ir para hoje"
 
 #: ../a11y/calendar/ea-cal-view.c:306
 msgid "Go to Date"
-msgstr "Ir para Data"
+msgstr "Ir para data"
 
 #: ../a11y/calendar/ea-day-view-main-item.c:303
 #: ../a11y/calendar/ea-week-view-main-item.c:301
 msgid "a table to view and select the current time range"
-msgstr "uma tabela para ver e selecionar o intervalo de tempo corrente"
+msgstr "uma tabela para ver e selecionar o intervalo de tempo vigente"
 
 #. To translators: Here, "It" is either like "Work Week View: July
 #. 10th - July 14th, 2006." or "Day View: Thursday July 13th, 2006."
@@ -140,7 +140,7 @@ msgstr "Não tem eventos."
 #: ../a11y/calendar/ea-day-view.c:162
 #, c-format
 msgid "Work Week View: %s. %s"
-msgstr "Visão de Semana Útil: %s. %s"
+msgstr "Exibição de semana útil: %s. %s"
 
 #. To translators: First %s is the day, for example "Thursday July
 #. 13th, 2006". Second %s is the number of events on this day, for
@@ -148,15 +148,15 @@ msgstr "Visão de Semana Útil: %s. %s"
 #: ../a11y/calendar/ea-day-view.c:168
 #, c-format
 msgid "Day View: %s. %s"
-msgstr "Visão de Dia: %s. %s"
+msgstr "Exibição de dia: %s. %s"
 
 #: ../a11y/calendar/ea-day-view.c:199
 msgid "calendar view for a work week"
-msgstr "visão de agenda para uma semana útil"
+msgstr "exibição de agenda para uma semana útil"
 
 #: ../a11y/calendar/ea-day-view.c:201
 msgid "calendar view for one or more days"
-msgstr "visão de agenda para um ou mais dias"
+msgstr "exibição de agenda para um ou mais dias"
 
 #: ../a11y/calendar/ea-gnome-calendar.c:188
 #: ../calendar/gui/calendar-component.c:758
@@ -233,20 +233,20 @@ msgstr "Clique aqui, você pode encontrar mais eventos."
 #: ../a11y/calendar/ea-week-view.c:157
 #, c-format
 msgid "Month View: %s. %s"
-msgstr "Visão de Mês: %s. %s"
+msgstr "Exibição de Mês: %s. %s"
 
 #: ../a11y/calendar/ea-week-view.c:161
 #, c-format
 msgid "Week View: %s. %s"
-msgstr "Visão de Semana: %s. %s"
+msgstr "Exibição de Semana: %s. %s"
 
 #: ../a11y/calendar/ea-week-view.c:192
 msgid "calendar view for a month"
-msgstr "visão de agenda para um mês"
+msgstr "exibição de agenda para um mês"
 
 #: ../a11y/calendar/ea-week-view.c:194
 msgid "calendar view for one or more weeks"
-msgstr "visão de agenda para uma ou mais semanas"
+msgstr "exibição de agenda para uma ou mais semanas"
 
 #: ../a11y/e-table/gal-a11y-e-cell-popup.c:124
 msgid "popup"
@@ -284,15 +284,15 @@ msgstr "expandir a linha na ETree contendo esta célula"
 
 #: ../a11y/e-table/gal-a11y-e-cell-tree.c:200
 msgid "collapse"
-msgstr "agrupar"
+msgstr "recolher"
 
 #: ../a11y/e-table/gal-a11y-e-cell-tree.c:201
 msgid "collapses the row in the ETree containing this cell"
-msgstr "agrupar a linha na ETree contendo esta célula"
+msgstr "recolhe a linha na ETree contendo esta célula"
 
 #: ../a11y/e-table/gal-a11y-e-cell.c:107
 msgid "Table Cell"
-msgstr "Célula de Tabela"
+msgstr "Célula de tabela"
 
 #: ../a11y/e-table/gal-a11y-e-table-click-to-add.c:44
 #: ../a11y/e-table/gal-a11y-e-table-click-to-add.c:119
@@ -324,19 +324,19 @@ msgstr "item de agenda do Evolution"
 
 #: ../a11y/widgets/ea-combo-button.c:39
 msgid "Combo Button"
-msgstr "Botão de Combinação"
+msgstr "Botão de combinação"
 
 #: ../a11y/widgets/ea-combo-button.c:49
 msgid "Activate Default"
-msgstr "Ativar Padrão"
+msgstr "Ativar padrão"
 
 #: ../a11y/widgets/ea-combo-button.c:51
 msgid "Popup Menu"
-msgstr "Menu de Contexto"
+msgstr "Menu de contexto"
 
 #: ../a11y/widgets/ea-expander.c:39
 msgid "Toggle Attachment Bar"
-msgstr "Alternar Barra de Anexos"
+msgstr "Alternar barra de anexos"
 
 #: ../a11y/widgets/ea-expander.c:49
 msgid "activate"
@@ -344,21 +344,21 @@ msgstr "ativado"
 
 #. For Translators: {0} is the name of the address book source
 #: ../addressbook/addressbook.error.xml.h:2
-#, fuzzy
 msgid ""
 "'{0}' is a read-only address book and cannot be modified. Please select a "
 "different address book from the side bar in the Contacts view."
 msgstr ""
-"\"{0}\" é um catálogo de endereços somente de leitura. Alterne para a Visão "
-"de Contatos e selecione um livro de endereços que aceite contatos."
+"\"{0}\" é um catálogo de endereços somente de leitura e não pode ser "
+"modificado. Por favor, selecione outro catálogo de endereços da barra "
+"lateral na exibição de contatos."
 
 #: ../addressbook/addressbook.error.xml.h:3
 msgid ""
 "A contact already exists with this address. Would you like to add a new card "
 "with the same address anyway?"
 msgstr ""
-"Já existe um contato com este endereço. Você deseja adicionar um novo "
-"contato como o mesmo endereço de qualquer modo?"
+"Já existe um contato com este endereço. Ainda assim você deseja adicionar um "
+"novo contato com o mesmo endereço?"
 
 #: ../addressbook/addressbook.error.xml.h:4
 msgid "Address '{0}' already exists."
@@ -366,7 +366,7 @@ msgstr "O endereço \"{0}\" já existe."
 
 #: ../addressbook/addressbook.error.xml.h:5
 msgid "Cannot add new contact"
-msgstr "Não foi possivel inserir um novo contato"
+msgstr "Não foi possivel adicionar um novo contato"
 
 #: ../addressbook/addressbook.error.xml.h:6
 msgid "Cannot move contact."
@@ -383,28 +383,27 @@ msgid ""
 "your caps lock might be on."
 msgstr ""
 "Verifique se a sua senha está correta e se você está usando um método de "
-"login com suporte. Lembre-se de que várias senhas diferenciam maiúsculas de "
-"minúsculas; sua tecla caps lock pode estar ligada."
+"sessão com suporte. Lembre-se de que várias senhas diferenciam maiúsculas de "
+"minúsculas; sua tecla CapsLock pode estar ligada."
 
 #: ../addressbook/addressbook.error.xml.h:9
 msgid "Could not get schema information for LDAP server."
-msgstr "Não foi possível obter informação de schema do servidor LDAP."
+msgstr "Não foi possível obter informação de esquema do servidor LDAP."
 
 #: ../addressbook/addressbook.error.xml.h:10
 msgid "Could not remove addressbook."
 msgstr "Não foi possível remover o catálogo de endereços."
 
 #: ../addressbook/addressbook.error.xml.h:11
-#, fuzzy
 msgid ""
 "Currently you can access only GroupWise System Address Book from Evolution. "
 "Please use some other GroupWise mail client once, to get your GroupWise "
 "Frequent Contacts and GroupWise Personal Contacts folders."
 msgstr ""
-"Atualmente você pode acessar apenas o Catálogo de Endereços do Sistema "
+"Atualmente você pode acessar apenas o catálogo de endereços do Sistema "
 "GroupWise a partir do Evolution. Por favor, use um outro cliente de e-mail "
-"GroupWise para pegar os seus Contatos Freqüentes do GroupWise e a pasta de "
-"Contatos Pessoais do GroupWise."
+"GroupWise para obter os seus contatos freqüentes do GroupWise e as pastas de "
+"contatos pessoais do GroupWise."
 
 #: ../addressbook/addressbook.error.xml.h:12
 msgid "Delete address book '{0}'?"
@@ -416,7 +415,7 @@ msgstr "Erro ao carregar o catálogo de endereços."
 
 #: ../addressbook/addressbook.error.xml.h:14
 msgid "Error saving {0} to {1}: {2}"
-msgstr "Erro ao salvando {0} para {1}: {2}"
+msgstr "Erro ao salvar {0} para {1}: {2}"
 
 #: ../addressbook/addressbook.error.xml.h:15
 msgid "Failed to authenticate with LDAP server."
@@ -430,21 +429,20 @@ msgstr "Falha ao excluir contatos"
 
 #: ../addressbook/addressbook.error.xml.h:17
 msgid "GroupWise Address book creation:"
-msgstr "Criação do Catálogo de Endereços do GroupWise:"
+msgstr "Criação do catálogo de endereços do GroupWise:"
 
 #: ../addressbook/addressbook.error.xml.h:18
 msgid "LDAP server did not respond with valid schema information."
-msgstr "O servidor LDAP não respondeu com informação de schema válida."
+msgstr "O servidor LDAP não respondeu com informação de esquema válido."
 
 #: ../addressbook/addressbook.error.xml.h:19
 msgid "Server Version"
-msgstr "Versão do Servidor"
+msgstr "Versão do servidor"
 
 #: ../addressbook/addressbook.error.xml.h:20
 msgid "Some features may not work properly with your current server"
 msgstr ""
-"Alguns recursos podem não funcionar corretamente com sua versão de servidor "
-"atual"
+"Alguns recursos podem não funcionar corretamente com o seu servidor atual"
 
 #: ../addressbook/addressbook.error.xml.h:21
 msgid "The Evolution addressbook has quit unexpectedly."
@@ -491,15 +489,15 @@ msgstr ""
 
 #: ../addressbook/addressbook.error.xml.h:28
 msgid "This server does not support LDAPv3 schema information."
-msgstr "Este servidor não suporta informação de schema LDAPv3."
+msgstr "Este servidor não suporta informação de esquema LDAPv3."
 
 #: ../addressbook/addressbook.error.xml.h:29
 msgid "Unable to open addressbook"
-msgstr "Não é possível abrir o catálogo de endereços"
+msgstr "Não foi possível abrir o catálogo de endereços"
 
 #: ../addressbook/addressbook.error.xml.h:30
 msgid "Unable to perform search."
-msgstr "Não é possível realizar pesquisa."
+msgstr "Não foi possível realizar pesquisa."
 
 #: ../addressbook/addressbook.error.xml.h:31
 msgid "Unable to save {0}."
@@ -515,7 +513,8 @@ msgid ""
 "cannot be removed from the source. Do you want to save a copy instead?"
 msgstr ""
 "Você está tentando mover um contato de um catálogo de endereços para outro, "
-"mas ele não pode ser removido da fonte. Você deseja salvar uma cópia?"
+"mas ele não pode ser removido da fonte. Ao invés disso você deseja salvar "
+"uma cópia?"
 
 #: ../addressbook/addressbook.error.xml.h:34
 msgid ""
@@ -523,20 +522,21 @@ msgid ""
 "problems using Evolution. For best results the server should be upgraded to "
 "a supported version"
 msgstr ""
-"Você está conectado a um servidor GroupWise sem suporte pode encontrar "
-"problemas utilizando o Evolution. Para os melhores resultados o servidor "
-"deve ser atualizado para uma versão suporte"
+"Você está conectado a um servidor GroupWise sem suporte e pode encontrar "
+"problemas utilizando o Evolution. Para melhores resultados o servidor "
+"deveria ser atualizado para uma versão com suporte"
 
 #: ../addressbook/addressbook.error.xml.h:35
-#, fuzzy
 msgid "You do not have permission to delete contacts in this address book."
-msgstr "Você não possui permissão para excluir esse e-mail."
+msgstr ""
+"Você não possui permissão para excluir os contatos neste catálogo de "
+"endereços."
 
 #: ../addressbook/addressbook.error.xml.h:36
 msgid ""
 "You have made modifications to this contact. Do you want to save these "
 "changes?"
-msgstr "Você modificou este contato. Deseja salvar estas alterações?"
+msgstr "Você fez modificações neste contato. Deseja salvar estas alterações?"
 
 #: ../addressbook/addressbook.error.xml.h:37
 msgid ""
@@ -581,7 +581,7 @@ msgstr "{1}"
 
 #: ../addressbook/conduit/address-conduit.c:299
 msgid "Default Sync Address:"
-msgstr "Endereço Padrão de Sincronização:"
+msgstr "Endereço padrão de sincronização:"
 
 #: ../addressbook/conduit/address-conduit.c:1320
 #: ../addressbook/conduit/address-conduit.c:1321
@@ -620,28 +620,27 @@ msgstr "Contatos"
 
 #: ../addressbook/gui/component/GNOME_Evolution_Addressbook.server.in.in.h:6
 msgid "Evolution Address Book"
-msgstr "Catálogo de Endereços do Evolution"
+msgstr "Catálogo de endereços do Evolution"
 
 #: ../addressbook/gui/component/GNOME_Evolution_Addressbook.server.in.in.h:7
-#, fuzzy
 msgid "Evolution Address Book address popup"
-msgstr "Janela de endereços do Catálogo de Endereços do Evolution"
+msgstr "Janela de endereços do catálogo de endereços do Evolution"
 
 #: ../addressbook/gui/component/GNOME_Evolution_Addressbook.server.in.in.h:8
 msgid "Evolution Address Book address viewer"
-msgstr "Visualizador de endereços do Catálogo de Endereços do Evolution"
+msgstr "Visualizador de endereços do catálogo de endereços do Evolution"
 
 #: ../addressbook/gui/component/GNOME_Evolution_Addressbook.server.in.in.h:9
 msgid "Evolution Address Book card viewer"
-msgstr "Visualizador de cartões do Catálogo de Endereços do Evolution"
+msgstr "Visualizador de cartões do catálogo de endereços do Evolution"
 
 #: ../addressbook/gui/component/GNOME_Evolution_Addressbook.server.in.in.h:10
 msgid "Evolution Address Book component"
-msgstr "Componente do Catálogo de Endereços do Evolution"
+msgstr "Componente do catálogo de endereços do Evolution"
 
 #: ../addressbook/gui/component/GNOME_Evolution_Addressbook.server.in.in.h:11
 msgid "Evolution S/Mime Certificate Management Control"
-msgstr "Controle de Gerência de Certificados S/MIME do Evolution"
+msgstr "Controle de gerência de certificados S/MIME do Evolution"
 
 #: ../addressbook/gui/component/GNOME_Evolution_Addressbook.server.in.in.h:12
 msgid "Evolution folder settings configuration control"
@@ -663,7 +662,7 @@ msgstr "Gerencie aqui os seus certificados S/MIME"
 #: ../mail/mail-component.c:312 ../mail/mail-vfolder.c:216
 #: ../mail/message-list.c:1456
 msgid "On This Computer"
-msgstr "Neste Computador"
+msgstr "Neste computador"
 
 #. Create the default Person addressbook
 #. Create the default Person calendar
@@ -698,7 +697,7 @@ msgstr "Criar um novo contato"
 
 #: ../addressbook/gui/component/addressbook-component.c:237
 msgid "Contact _List"
-msgstr "_Lista de Contatos"
+msgstr "_Lista de contatos"
 
 #: ../addressbook/gui/component/addressbook-component.c:238
 msgid "Create a new contact list"
@@ -707,11 +706,11 @@ msgstr "Criar uma nova lista de contatos"
 #: ../addressbook/gui/component/addressbook-component.c:244
 #: ../addressbook/gui/component/addressbook-config.c:1192
 msgid "New Address Book"
-msgstr "Novo Catálogo de Endereços"
+msgstr "Novo catálogo de endereços"
 
 #: ../addressbook/gui/component/addressbook-component.c:245
 msgid "Address _Book"
-msgstr "Catálogo de _Endereços"
+msgstr "Catálogo de _endereços"
 
 #: ../addressbook/gui/component/addressbook-component.c:246
 msgid "Create a new address book"
@@ -720,7 +719,7 @@ msgstr "Criar um novo catálogo de endereços"
 #: ../addressbook/gui/component/addressbook-component.c:409
 msgid "Failed upgrading Address Book settings or folders."
 msgstr ""
-"Falha ao atualizar as pastas ou configurações do Catálogo de Endereços."
+"Falha ao atualizar as pastas ou configurações do catálogo de endereços."
 
 #: ../addressbook/gui/component/addressbook-config.c:315
 msgid "Base"
@@ -752,11 +751,11 @@ msgstr "Geral"
 #: ../addressbook/gui/widgets/e-addressbook-view.c:556
 #: ../mail/importers/pine-importer.c:385
 msgid "Address Book"
-msgstr "Catálogo de Endereços"
+msgstr "Catálogo de endereços"
 
 #: ../addressbook/gui/component/addressbook-config.c:972
 msgid "Server Information"
-msgstr "Informação do Servidor"
+msgstr "Informação do servidor"
 
 #: ../addressbook/gui/component/addressbook-config.c:974
 msgid "Authentication"
@@ -780,7 +779,7 @@ msgstr "Baixando"
 #: ../addressbook/gui/component/addressbook-config.c:1190
 #: ../addressbook/gui/component/ldap-config.glade.h:11
 msgid "Address Book Properties"
-msgstr "Propriedades do Catálogo de Endereços"
+msgstr "Propriedades do catálogo de endereços"
 
 #: ../addressbook/gui/component/addressbook-migrate.c:73
 #: ../calendar/gui/migration.c:148 ../mail/em-migrate.c:1207
@@ -799,7 +798,7 @@ msgstr "Servidores LDAP"
 
 #: ../addressbook/gui/component/addressbook-migrate.c:760
 msgid "Autocompletion Settings"
-msgstr "Configurações de Completamento Automático"
+msgstr "Configurações de completamento automático"
 
 #: ../addressbook/gui/component/addressbook-migrate.c:1136
 msgid ""
@@ -811,7 +810,7 @@ msgstr ""
 "O local e a hierarquia das pastas de contatos do Evolution foram alterados "
 "desde o Evolution 1.x.\n"
 "\n"
-"Por favor, aguarde enquanto o Evolution migra as sua pastas..."
+"Por favor, aguarde enquanto o Evolution migra as suas pastas..."
 
 #: ../addressbook/gui/component/addressbook-migrate.c:1150
 msgid ""
@@ -821,7 +820,7 @@ msgid ""
 msgstr ""
 "O formato da lista de contatos de correio foi alterado.\n"
 "\n"
-"Por favor, aguarde enquanto o Evolution migra as sua pastas..."
+"Por favor, aguarde enquanto o Evolution migra as suas pastas..."
 
 #: ../addressbook/gui/component/addressbook-migrate.c:1159
 msgid ""
@@ -831,7 +830,7 @@ msgid ""
 msgstr ""
 "A forma como o Evolution armazena alguns números de telefone foi alterada.\n"
 "\n"
-"Por favor, aguarde enquanto o Evolution migra as sua pastas..."
+"Por favor, aguarde enquanto o Evolution migra as suas pastas..."
 
 #: ../addressbook/gui/component/addressbook-migrate.c:1169
 msgid ""
@@ -839,11 +838,11 @@ msgid ""
 "\n"
 "Please be patient while Evolution migrates your Pilot Sync data..."
 msgstr ""
-"Os arquivos de alterações e de mapeamentos da sincronização com palm do "
+"Os arquivos de alterações e de mapeamentos da sincronização com o PDA do "
 "Evolution foram alterados.\n"
 "\n"
 "Por favor, aguarde enquanto o Evolution migra os dados de sincronização com "
-"palm..."
+"o PDA..."
 
 #: ../addressbook/gui/component/addressbook-view.c:430
 #: ../mail/em-folder-utils.c:503
@@ -854,7 +853,7 @@ msgstr "Renomear a pasta \"%s\" para:"
 #: ../addressbook/gui/component/addressbook-view.c:433
 #: ../mail/em-folder-utils.c:505
 msgid "Rename Folder"
-msgstr "Renomear Pasta"
+msgstr "Renomear pasta"
 
 #: ../addressbook/gui/component/addressbook-view.c:438
 #: ../mail/em-folder-utils.c:511
@@ -863,11 +862,11 @@ msgstr "O nome da pasta não pode conter o caractere \"/\""
 
 #: ../addressbook/gui/component/addressbook-view.c:950
 msgid "_New Address Book"
-msgstr "_Novo Catálogo de Endereços"
+msgstr "_Novo catálogo de endereços"
 
 #: ../addressbook/gui/component/addressbook-view.c:951
 msgid "Save As vCard..."
-msgstr "Salvar como Vcard..."
+msgstr "Salvar como vCard..."
 
 #: ../addressbook/gui/component/addressbook-view.c:954
 #: ../addressbook/gui/widgets/e-addressbook-view.c:956
@@ -888,11 +887,11 @@ msgstr "_Propriedades..."
 
 #: ../addressbook/gui/component/addressbook-view.c:1345
 msgid "Contact Source Selector"
-msgstr "Seletor de Fonte de Contatos"
+msgstr "Seletor de origem de contatos"
 
 #: ../addressbook/gui/component/addressbook.c:99
 msgid "Accessing LDAP Server anonymously"
-msgstr "Acessando o Servidor LDAP anonimamente"
+msgstr "Acessando o servidor LDAP anonimamente"
 
 #: ../addressbook/gui/component/addressbook.c:200
 #: ../plugins/groupwise-account-setup/camel-gw-listener.c:536
@@ -929,8 +928,8 @@ msgid ""
 "Position of the vertical pane, between the card and list views and the "
 "preview pane, in pixels."
 msgstr ""
-"Posição da divisão vertical, entre as visões de cartão e lista e o painel de "
-"visualização, em pixels."
+"Posição do painel vertical, entre as exibições de cartão e lista e o painel "
+"de visualização, em pixels."
 
 #: ../addressbook/gui/component/apps_evolution_addressbook.schemas.in.h:5
 msgid "Show preview pane"
@@ -999,7 +998,7 @@ msgstr "<b>Tipo:</b>"
 
 #: ../addressbook/gui/component/ldap-config.glade.h:10
 msgid "Add Address Book"
-msgstr "Adicionar Catálogo de Endereços"
+msgstr "Adicionar catálogo de endereços"
 
 #: ../addressbook/gui/component/ldap-config.glade.h:12
 #: ../mail/em-account-editor.c:761
@@ -1016,7 +1015,7 @@ msgstr "Básico"
 
 #: ../addressbook/gui/component/ldap-config.glade.h:16
 msgid "Distinguished name"
-msgstr "Distinguished name (DN)"
+msgstr "Nome distinto (DN)"
 
 #: ../addressbook/gui/component/ldap-config.glade.h:17
 msgid "Email address"
@@ -1030,7 +1029,7 @@ msgstr ""
 
 #: ../addressbook/gui/component/ldap-config.glade.h:19
 msgid "Find Possible Search Bases"
-msgstr "Localizar Bases de Pesquisa Possíveis"
+msgstr "Localizar bases de pesquisa possíveis"
 
 #: ../addressbook/gui/component/ldap-config.glade.h:21
 msgid "Lo_gin:"
@@ -1062,7 +1061,7 @@ msgstr "Criptografia SSL"
 
 #: ../addressbook/gui/component/ldap-config.glade.h:26
 msgid "Search Filter"
-msgstr "Filtro de Pesquisa"
+msgstr "Filtro de pesquisa"
 
 #: ../addressbook/gui/component/ldap-config.glade.h:27
 msgid "Search _base:"
@@ -1083,7 +1082,7 @@ msgid ""
 "objectclass of the type \"person\"."
 msgstr ""
 "Filtro de pesquisa é o tipo dos objetos que se deseja procurar enquanto a "
-"pesquisa é feita. Se não for modificado, o padrão é procurar no objectclass "
+"pesquisa é feita. Se não for modificado, o padrão é procurar no ObjectClass "
 "do tipo \"pessoa\"."
 
 #: ../addressbook/gui/component/ldap-config.glade.h:31
