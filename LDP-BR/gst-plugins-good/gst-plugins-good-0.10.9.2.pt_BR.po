@@ -9,10 +9,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gst-plugins-good 0.10.8.2\n"
+"Project-Id-Version: gst-plugins-good 0.10.9.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-08-11 23:36+0100\n"
-"PO-Revision-Date: 2008-07-20 17:12-0300\n"
+"PO-Revision-Date: 2008-08-12 21:34-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
 "MIME-Version: 1.0\n"
