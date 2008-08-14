@@ -1033,7 +1033,7 @@ msgstr "Localizar bases de pesquisa possíveis"
 
 #: ../addressbook/gui/component/ldap-config.glade.h:21
 msgid "Lo_gin:"
-msgstr "Lo_gin:"
+msgstr "Usuár_io:"
 
 #: ../addressbook/gui/component/ldap-config.glade.h:22
 #: ../mail/em-account-editor.c:760
@@ -1117,7 +1117,7 @@ msgstr "Sub"
 
 #: ../addressbook/gui/component/ldap-config.glade.h:35
 msgid "Supported Search Bases"
-msgstr "Bases de Pesquisa com Suporte"
+msgstr "Bases de pesquisa com suporte"
 
 #. Translators: This string is a "Use secure connection" option for
 #. the Mailer. TLS (Transport Layer Security) is commonly known by
@@ -1125,7 +1125,7 @@ msgstr "Bases de Pesquisa com Suporte"
 #: ../addressbook/gui/component/ldap-config.glade.h:36
 #: ../mail/em-account-editor.c:292
 msgid "TLS encryption"
-msgstr "Encriptação TLS"
+msgstr "Criptografia TLS"
 
 #: ../addressbook/gui/component/ldap-config.glade.h:37
 msgid ""
@@ -1133,7 +1133,7 @@ msgid ""
 "searches will begin. If you leave this blank, the search will begin at the "
 "root of the directory tree."
 msgstr ""
-"A base de pesquisa é o distinguished name (DN) do ponto a partir do qual as "
+"A base de pesquisa é o nome distinto (DN) do ponto a partir do qual as "
 "suas pesquisas começarão. Se você deixar este campo vazio as pesquisas "
 "começarão na raiz da árvore do diretório."
 
@@ -1195,7 +1195,7 @@ msgstr ""
 
 #: ../addressbook/gui/component/ldap-config.glade.h:44
 msgid "Using distinguished name (DN)"
-msgstr "Usando distinguished name (DN)"
+msgstr "Usando nome distinto (DN)"
 
 #: ../addressbook/gui/component/ldap-config.glade.h:45
 msgid "Using email address"
@@ -1203,11 +1203,11 @@ msgstr "Usando endereço de e-mail"
 
 #: ../addressbook/gui/component/ldap-config.glade.h:46
 msgid "Whenever Possible"
-msgstr "Quando Possível"
+msgstr "Quando possível"
 
 #: ../addressbook/gui/component/ldap-config.glade.h:47
 msgid "_Add Address Book"
-msgstr "_Adicionar Catálogo de Endereços"
+msgstr "_Adicionar catálogo de endereços"
 
 #: ../addressbook/gui/component/ldap-config.glade.h:48
 msgid "_Download limit:"
@@ -1215,11 +1215,11 @@ msgstr "_Limite de transferência:"
 
 #: ../addressbook/gui/component/ldap-config.glade.h:49
 msgid "_Find Possible Search Bases"
-msgstr "Localizar Bases de Pesquisa _Possíveis"
+msgstr "Localizar bases de pesquisa _possíveis"
 
 #: ../addressbook/gui/component/ldap-config.glade.h:50
 msgid "_Login method:"
-msgstr "Método de _login:"
+msgstr "Modo de au_tenticação:"
 
 #: ../addressbook/gui/component/ldap-config.glade.h:51
 #: ../calendar/gui/dialogs/calendar-setup.c:226
@@ -1275,7 +1275,7 @@ msgstr "<b>Casa</b>"
 
 #: ../addressbook/gui/contact-editor/contact-editor.glade.h:3
 msgid "<b>Instant Messaging</b>"
-msgstr "<b>Mensagens Instantâneas</b>"
+msgstr "<b>Mensagens instantâneas</b>"
 
 #: ../addressbook/gui/contact-editor/contact-editor.glade.h:4
 msgid "<b>Job</b>"
@@ -1325,11 +1325,11 @@ msgstr "Contato"
 #: ../addressbook/gui/contact-editor/e-contact-editor.c:557
 #: ../addressbook/gui/contact-editor/e-contact-editor.c:2422
 msgid "Contact Editor"
-msgstr "Editor de Contatos"
+msgstr "Editor de contatos"
 
 #: ../addressbook/gui/contact-editor/contact-editor.glade.h:14
 msgid "Full _Name..."
-msgstr "_Nome Completo..."
+msgstr "_Nome completo..."
 
 #: ../addressbook/gui/contact-editor/contact-editor.glade.h:15
 msgid "Image"
@@ -1342,7 +1342,7 @@ msgstr "MSN Messenger"
 
 #: ../addressbook/gui/contact-editor/contact-editor.glade.h:17
 msgid "Mailing Address"
-msgstr "Endereço de Correio"
+msgstr "Endereço de correio"
 
 #: ../addressbook/gui/contact-editor/contact-editor.glade.h:18
 msgid "Nic_kname:"
@@ -1355,7 +1355,7 @@ msgstr "Novell Groupwise"
 
 #: ../addressbook/gui/contact-editor/contact-editor.glade.h:21
 msgid "Personal Information"
-msgstr "Informação Pessoal"
+msgstr "Informação pessoal"
 
 #: ../addressbook/gui/contact-editor/contact-editor.glade.h:22
 msgid "Telephone"
@@ -1438,7 +1438,7 @@ msgstr "Escritóri_o:"
 #: ../addressbook/gui/contact-editor/contact-editor.glade.h:39
 #: ../addressbook/gui/contact-editor/fulladdr.glade.h:6
 msgid "_PO Box:"
-msgstr "Caixa _Postal:"
+msgstr "Caixa _postal:"
 
 #: ../addressbook/gui/contact-editor/contact-editor.glade.h:40
 msgid "_Profession:"
@@ -1460,7 +1460,7 @@ msgstr "_Tratamento:"
 
 #: ../addressbook/gui/contact-editor/contact-editor.glade.h:44
 msgid "_Video Chat:"
-msgstr "Bate-papo com _Vídeo:"
+msgstr "Bate-papo com _vídeo:"
 
 #: ../addressbook/gui/contact-editor/contact-editor.glade.h:45
 msgid "_Wants to receive HTML mail"
@@ -1468,7 +1468,7 @@ msgstr "Dese_ja receber correio HTML"
 
 #: ../addressbook/gui/contact-editor/contact-editor.glade.h:46
 msgid "_Web Log:"
-msgstr "_Web Log:"
+msgstr "_Web log:"
 
 #: ../addressbook/gui/contact-editor/contact-editor.glade.h:47
 #: ../addressbook/gui/contact-list-editor/contact-list-editor.glade.h:7
@@ -1477,7 +1477,7 @@ msgstr "On_de:"
 
 #: ../addressbook/gui/contact-editor/contact-editor.glade.h:48
 msgid "_Zip/Postal Code:"
-msgstr "CEP/Códi_go Postal:"
+msgstr "CEP/Códi_go postal:"
 
 #: ../addressbook/gui/contact-editor/e-contact-editor-address.c:92
 #: ../addressbook/gui/widgets/eab-contact-display.c:640
@@ -1867,7 +1867,6 @@ msgid "Guinea"
 msgstr "Guiné"
 
 #: ../addressbook/gui/contact-editor/e-contact-editor-address.c:223
-#, fuzzy
 msgid "Guinea-Bissau"
 msgstr "Guiné-Bissau"
 
@@ -2461,7 +2460,7 @@ msgstr "Sahara Ocidental"
 
 #: ../addressbook/gui/contact-editor/e-contact-editor-address.c:371
 msgid "Yemen"
-msgstr "Yemen"
+msgstr "Iêmen"
 
 #: ../addressbook/gui/contact-editor/e-contact-editor-address.c:372
 msgid "Zambia"
@@ -2521,7 +2520,7 @@ msgstr "Local"
 
 #: ../addressbook/gui/contact-editor/e-contact-editor-im.c:128
 msgid "Username"
-msgstr "Nome do Usuário"
+msgstr "Nome do usuário"
 
 #: ../addressbook/gui/contact-editor/e-contact-editor-im.c:225
 #: ../addressbook/gui/contact-editor/e-contact-editor.c:195
@@ -2558,23 +2557,23 @@ msgstr "GroupWise"
 
 #: ../addressbook/gui/contact-editor/e-contact-editor.c:251
 msgid "Source Book"
-msgstr "Catálogo Fonte"
+msgstr "Catálogo fonte"
 
 #: ../addressbook/gui/contact-editor/e-contact-editor.c:258
 msgid "Target Book"
-msgstr "Catálogo Alvo"
+msgstr "Catálogo alvo"
 
 #: ../addressbook/gui/contact-editor/e-contact-editor.c:272
 msgid "Is New Contact"
-msgstr "É um Novo Contato"
+msgstr "É um novo contato"
 
 #: ../addressbook/gui/contact-editor/e-contact-editor.c:279
 msgid "Writable Fields"
-msgstr "Campos Editáveis"
+msgstr "Campos graváveis"
 
 #: ../addressbook/gui/contact-editor/e-contact-editor.c:286
 msgid "Required Fields"
-msgstr "Campos Necessários"
+msgstr "Campos necessários"
 
 #: ../addressbook/gui/contact-editor/e-contact-editor.c:300
 msgid "Changed"
@@ -2584,7 +2583,7 @@ msgstr "Alterado"
 #: ../addressbook/gui/contact-editor/e-contact-editor.c:2417
 #, c-format
 msgid "Contact Editor - %s"
-msgstr "Editor de Contatos - %s"
+msgstr "Editor de contatos - %s"
 
 #: ../addressbook/gui/contact-editor/e-contact-editor.c:2813
 msgid "Please select an image for this contact"
@@ -2616,7 +2615,7 @@ msgstr "%s\"%s\" possui um formato inválido"
 #: ../addressbook/gui/contact-editor/e-contact-editor.c:3124
 #, c-format
 msgid "%s'%s' is empty"
-msgstr "%s\"%s\" esta vazio"
+msgstr "%s\"%s\" está vazio"
 
 #: ../addressbook/gui/contact-editor/e-contact-editor.c:3139
 msgid "Invalid contact."
@@ -2624,11 +2623,11 @@ msgstr "Contato inválido."
 
 #: ../addressbook/gui/contact-editor/e-contact-quick-add.c:329
 msgid "Contact Quick-Add"
-msgstr "Adição Rápida de Contato"
+msgstr "Adição rápida de contato"
 
 #: ../addressbook/gui/contact-editor/e-contact-quick-add.c:332
 msgid "_Edit Full"
-msgstr "_Editar Completo"
+msgstr "_Editar completo"
 
 #: ../addressbook/gui/contact-editor/e-contact-quick-add.c:406
 msgid "_Full name"
@@ -2640,7 +2639,7 @@ msgstr "E-_mail"
 
 #: ../addressbook/gui/contact-editor/e-contact-quick-add.c:428
 msgid "_Select Address Book"
-msgstr "_Selecionar Catálogo de Endereços"
+msgstr "_Selecionar catálogo de endereços"
 
 #: ../addressbook/gui/contact-editor/eab-editor.c:321
 #, c-format
@@ -2690,11 +2689,11 @@ msgstr "_País:"
 
 #: ../addressbook/gui/contact-editor/fulladdr.glade.h:4
 msgid "Full Address"
-msgstr "Endereço Completo"
+msgstr "Endereço completo"
 
 #: ../addressbook/gui/contact-editor/fulladdr.glade.h:8
 msgid "_ZIP Code:"
-msgstr "CEP/Códi_go Postal:"
+msgstr "CEP/Códi_go postal:"
 
 #: ../addressbook/gui/contact-editor/fullname.glade.h:1
 msgid "Dr."
@@ -2707,7 +2706,7 @@ msgstr "Esq."
 #: ../addressbook/gui/contact-editor/fullname.glade.h:3
 #: ../addressbook/gui/widgets/e-addressbook-view.etspec.h:16
 msgid "Full Name"
-msgstr "Nome Completo"
+msgstr "Nome completo"
 
 #: ../addressbook/gui/contact-editor/fullname.glade.h:4
 msgid "I"
@@ -2755,7 +2754,7 @@ msgstr "_Sobrenome:"
 
 #: ../addressbook/gui/contact-editor/fullname.glade.h:15
 msgid "_Middle:"
-msgstr "Nome do _Meio:"
+msgstr "Nome do _meio:"
 
 #: ../addressbook/gui/contact-editor/fullname.glade.h:16
 msgid "_Suffix:"
@@ -2763,7 +2762,7 @@ msgstr "S_ufixo:"
 
 #: ../addressbook/gui/contact-editor/im.glade.h:1
 msgid "Add IM Account"
-msgstr "Adicionar Conta de MI"
+msgstr "Adicionar conta de MI"
 
 #: ../addressbook/gui/contact-editor/im.glade.h:2
 msgid "_Account name:"
@@ -2788,7 +2787,7 @@ msgstr "<b>Membros:</b>"
 #: ../addressbook/gui/contact-list-editor/contact-list-editor.glade.h:2
 #: ../addressbook/gui/contact-list-editor/e-contact-list-editor.c:666
 msgid "Contact List Editor"
-msgstr "Editor de Lista de Contatos"
+msgstr "Editor de lista de contatos"
 
 #: ../addressbook/gui/contact-list-editor/contact-list-editor.glade.h:3
 msgid "Select..."
@@ -2809,7 +2808,7 @@ msgstr ""
 
 #: ../addressbook/gui/contact-list-editor/e-contact-list-editor.c:759
 msgid "Contact List Members"
-msgstr "Membros da Lista de Contatos"
+msgstr "Membros da lista de contatos"
 
 #: ../addressbook/gui/contact-list-editor/e-contact-list-editor.c:898
 #: ../addressbook/gui/contact-list-editor/e-contact-list-editor.c:1237
@@ -2827,20 +2826,20 @@ msgstr "Catálogo"
 
 #: ../addressbook/gui/contact-list-editor/e-contact-list-editor.c:1166
 msgid "Is New List"
-msgstr "É uma Nova Lista"
+msgstr "É uma nova lista"
 
 #: ../addressbook/gui/merging/eab-contact-commit-duplicate-detected.glade.h:1
 msgid "Changed Contact:"
-msgstr "Contato Alterado:"
+msgstr "Contato alterado:"
 
 #: ../addressbook/gui/merging/eab-contact-commit-duplicate-detected.glade.h:2
 msgid "Conflicting Contact:"
-msgstr "Contato Conflitante:"
+msgstr "Contato conflitante:"
 
 #: ../addressbook/gui/merging/eab-contact-commit-duplicate-detected.glade.h:3
 #: ../addressbook/gui/merging/eab-contact-duplicate-detected.glade.h:1
 msgid "Duplicate Contact Detected"
-msgstr "Detectado um Contato Duplicado"
+msgstr "Detectado um contato duplicado"
 
 #: ../addressbook/gui/merging/eab-contact-commit-duplicate-detected.glade.h:4
 msgid ""
@@ -2852,11 +2851,11 @@ msgstr ""
 
 #: ../addressbook/gui/merging/eab-contact-duplicate-detected.glade.h:2
 msgid "New Contact:"
-msgstr "Novo Contato:"
+msgstr "Novo contato:"
 
 #: ../addressbook/gui/merging/eab-contact-duplicate-detected.glade.h:3
 msgid "Original Contact:"
-msgstr "Contato Original:"
+msgstr "Contato original:"
 
 #: ../addressbook/gui/merging/eab-contact-duplicate-detected.glade.h:4
 msgid ""
@@ -2873,7 +2872,7 @@ msgstr "_Juntar"
 
 #: ../addressbook/gui/merging/eab-contact-merging.c:185
 msgid "Merge Contact"
-msgstr "Juntar Contatos"
+msgstr "Juntar contatos"
 
 #: ../addressbook/gui/merging/eab-contact-merging.c:253
 #: ../addressbook/gui/widgets/e-addressbook-view.etspec.h:11
@@ -2898,9 +2897,8 @@ msgid "Email begins with"
 msgstr "E-mail começa com"
 
 #: ../addressbook/gui/widgets/addresstypes.xml.h:3
-#, fuzzy
 msgid "Name contains"
-msgstr "contém"
+msgstr "Nome contém"
 
 #: ../addressbook/gui/widgets/e-addressbook-model.c:150
 msgid "No contacts"
@@ -2923,7 +2921,7 @@ msgstr "Consulta"
 
 #: ../addressbook/gui/widgets/e-addressbook-model.c:448
 msgid "Error getting book view"
-msgstr "Erro ao obter visão do catálogo"
+msgstr "Erro ao obter exibição do catálogo"
 
 #: ../addressbook/gui/widgets/e-addressbook-reflow-adapter.c:411
 #: ../widgets/table/e-table-click-to-add.c:510
@@ -2957,7 +2955,7 @@ msgstr "Tipo"
 #: ../addressbook/gui/widgets/e-addressbook-view.c:813
 #: ../addressbook/gui/widgets/e-addressbook-view.c:1946
 msgid "Save as vCard..."
-msgstr "Salvar como VCard..."
+msgstr "Salvar como vCard..."
 
 #: ../addressbook/gui/widgets/e-addressbook-view.c:934
 #: ../calendar/gui/dialogs/comp-editor.c:2032
@@ -2969,35 +2967,35 @@ msgstr "A_brir"
 
 #: ../addressbook/gui/widgets/e-addressbook-view.c:936
 msgid "_New Contact..."
-msgstr "_Novo Contato..."
+msgstr "_Novo contato..."
 
 #: ../addressbook/gui/widgets/e-addressbook-view.c:937
 msgid "New Contact _List..."
-msgstr "Nova _Lista de Contatos..."
+msgstr "Nova _lista de contatos..."
 
 #: ../addressbook/gui/widgets/e-addressbook-view.c:940
 msgid "_Save as vCard..."
-msgstr "_Salvar como VCard..."
+msgstr "_Salvar como vCard..."
 
 #: ../addressbook/gui/widgets/e-addressbook-view.c:941
 msgid "_Forward Contact"
-msgstr "_Encaminhar Contato"
+msgstr "_Encaminhar contato"
 
 #: ../addressbook/gui/widgets/e-addressbook-view.c:942
 msgid "_Forward Contacts"
-msgstr "_Encaminhar Contatos"
+msgstr "_Encaminhar contatos"
 
 #: ../addressbook/gui/widgets/e-addressbook-view.c:943
 msgid "Send _Message to Contact"
-msgstr "Enviar _Mensagem ao Contato"
+msgstr "Enviar _mensagem ao contato"
 
 #: ../addressbook/gui/widgets/e-addressbook-view.c:944
 msgid "Send _Message to List"
-msgstr "Enviar _Mensagem à Lista"
+msgstr "Enviar _mensagem à lista"
 
 #: ../addressbook/gui/widgets/e-addressbook-view.c:945
 msgid "Send _Message to Contacts"
-msgstr "Enviar _Mensagem aos Contatos"
+msgstr "Enviar _mensagem aos contatos"
 
 #: ../addressbook/gui/widgets/e-addressbook-view.c:946
 msgid "_Print"
@@ -3005,7 +3003,7 @@ msgstr "_Imprimir"
 
 #: ../addressbook/gui/widgets/e-addressbook-view.c:949
 msgid "Cop_y to Address Book..."
-msgstr "_Copiar para o Catálogo de Endereços..."
+msgstr "_Copiar para o catálogo de endereços..."
 
 #: ../addressbook/gui/widgets/e-addressbook-view.c:950
 msgid "Mo_ve to Address Book..."
