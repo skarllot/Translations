@@ -4,23 +4,25 @@
 # based on the translation to Portuguese (pt) by
 # Luis Oliveira <luismbo@netcabo.pt>, 2003.
 #
+# Fabr√≠cio Godoy <skarllot@gmail.com>, 2008.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: gpe-todo 0.32\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-08-13 19:30+0100\n"
-"PO-Revision-Date: 2004-09-02 17:29-0300\n"
-"Last-Translator: Marcus Moreira de Souza <marcus@frb.br>\n"
+"PO-Revision-Date: 2008-08-13 23:09-0300\n"
+"Last-Translator: Fabr√≠cio Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-15\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../gpe-todo.desktop.in.in.h:1 ../hildon/gpe-todo.desktop.in.in.h:1
 #: ../gpe-todo.desktop.in.h:1 ../hildon/gpe-todo.desktop.in.h:1
-#, fuzzy
 msgid "GPE To-do List"
-msgstr "Lista de tarefas"
+msgstr "Lista de tarefas GPE"
 
 #: ../gpe-todo.desktop.in.in.h:2 ../hildon/gpe-todo.desktop.in.in.h:2
 #: ../gpe-todo.desktop.in.h:2 ../hildon/gpe-todo.desktop.in.h:2 ../main.c:101
@@ -29,16 +31,15 @@ msgstr "Lista de tarefas"
 
 #: ../list-ui.c:158
 msgid "All items"
-msgstr "Todas as tarefas"
+msgstr "Todos itens"
 
 #: ../list-ui.c:185
-#, fuzzy
 msgid "Show completed"
-msgstr "ConcluÌda"
+msgstr "Mostrar conclu√≠dos"
 
 #: ../list-ui.c:223 ../todo-ui.c:328
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: ../list-ui.c:224 ../todo-ui.c:329
 msgid "Cancel"
@@ -46,7 +47,7 @@ msgstr "Cancelar"
 
 #: ../list-ui.c:581
 msgid "Item"
-msgstr ""
+msgstr "Item"
 
 #: ../list-ui.c:582 ../list-ui.c:718
 msgid "Categories"
@@ -54,48 +55,43 @@ msgstr "Categorias"
 
 #: ../list-ui.c:583
 msgid "View"
-msgstr ""
+msgstr "Exibi√ß√£o"
 
 #: ../list-ui.c:584
-#, fuzzy
 msgid "Tools"
-msgstr "Lista de tarefas"
+msgstr "Ferramentas"
 
 #: ../list-ui.c:585
 msgid "Close"
-msgstr ""
+msgstr "Fechar"
 
 #: ../list-ui.c:586
 msgid "Open..."
-msgstr ""
+msgstr "Abrir..."
 
 #: ../list-ui.c:587
-#, fuzzy
 msgid "Add new"
-msgstr "Adicionar nova tarefa"
+msgstr "Adicionar novo"
 
 #: ../list-ui.c:588
-#, fuzzy
 msgid "Edit categories"
-msgstr "Selecionar categorias"
+msgstr "Editar categorias"
 
 #: ../list-ui.c:589
 msgid "Show toolbar"
-msgstr ""
+msgstr "Mostrar barra de ferramentas"
 
 #: ../list-ui.c:590
 msgid "Fullscreen"
-msgstr ""
+msgstr "Tela inteira"
 
 #: ../list-ui.c:591
-#, fuzzy
 msgid "Delete completed items"
-msgstr "Eliminar tarefas concluÌdas"
+msgstr "Excluir itens conclu√≠dos"
 
 #: ../list-ui.c:592
-#, fuzzy
 msgid "Move completed items to the end"
-msgstr "Mover tarefas concluÌdas para o final da lista"
+msgstr "Mover itens conclu√≠dos ao final"
 
 #: ../list-ui.c:688
 msgid "New"
@@ -103,50 +99,48 @@ msgstr "Nova"
 
 #: ../list-ui.c:698 ../todo-ui.c:331
 msgid "Delete"
-msgstr "Apagar"
+msgstr "Excluir"
 
 #: ../list-ui.c:710
 msgid "Refresh"
-msgstr ""
+msgstr "Atualizar"
 
 #: ../list-ui.c:744
 msgid "Show:"
-msgstr ""
+msgstr "Mostrar:"
 
 #: ../list-ui.c:804
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #: ../list-ui.c:810
-#, fuzzy
 msgid "Summary"
-msgstr "Assunto:"
+msgstr "Resumo"
 
 #: ../list-ui.c:822
 msgid "Due Date"
-msgstr ""
+msgstr "Data de conclus√£o"
 
 #. TRANSLATORS: "C" stands for Color.
 #: ../list-ui.c:830
 msgid "C"
-msgstr ""
+msgstr "C"
 
 #: ../list-ui.c:837
-#, fuzzy
 msgid "Category"
-msgstr "Categorias"
+msgstr "Categoria"
 
 #: ../main.c:88
 msgid "ToDo"
-msgstr ""
+msgstr "Tarefa"
 
 #: ../main.c:90
 msgid "List"
-msgstr ""
+msgstr "Lista"
 
 #: ../todo-ui.c:154
 msgid "Not started"
-msgstr "N„o iniciada"
+msgstr "N√£o iniciada"
 
 #: ../todo-ui.c:155
 msgid "In progress"
@@ -154,69 +148,66 @@ msgstr "Em progresso"
 
 #: ../todo-ui.c:156
 msgid "Completed"
-msgstr "ConcluÌda"
+msgstr "Conclu√≠da"
 
 #: ../todo-ui.c:157
 msgid "Abandoned"
-msgstr ""
+msgstr "Abandonada"
 
 #: ../todo-ui.c:163
 msgid "High"
-msgstr ""
+msgstr "Alta"
 
 #: ../todo-ui.c:164
 msgid "Standard"
-msgstr ""
+msgstr "Padr√£o"
 
 #: ../todo-ui.c:165
 msgid "Low"
-msgstr ""
+msgstr "Baixa"
 
 #: ../todo-ui.c:268
 msgid "Priority:"
-msgstr ""
+msgstr "Prioridade:"
 
 #: ../todo-ui.c:270
 msgid "Status:"
-msgstr ""
+msgstr "Status:"
 
 #: ../todo-ui.c:273
 msgid "Summary:"
-msgstr "Assunto:"
+msgstr "Resumo:"
 
 #: ../todo-ui.c:274
-#, fuzzy
 msgid "Details:"
-msgstr "Detalhes"
+msgstr "Detalhes:"
 
 #: ../todo-ui.c:303 ../todo-ui.c:306
 msgid "Categories:"
 msgstr "Categorias:"
 
 #: ../todo-ui.c:330
-#, fuzzy
 msgid "Categories..."
-msgstr "Categorias"
+msgstr "Categorias..."
 
 #: ../todo-ui.c:359
 msgid "Due:"
-msgstr "Conclus„o:"
+msgstr "Conclus√£o:"
 
 #: ../todo-ui.c:374
 msgid "(no category selected)"
-msgstr ""
+msgstr "(nenhuma categoria selecionada)"
 
 #: ../todo-ui.c:528
-#, fuzzy
 msgid "Edit Item"
-msgstr "Editar tarefa"
+msgstr "Editar item"
 
 #: ../todo-ui.c:539
 msgid "New item"
-msgstr "Nova tarefa"
+msgstr "Novo item"
 
 #~ msgid "Permanently delete all completed items?"
-#~ msgstr "Deseja apagar permanentemente todas as tarefas concluÌdas?"
+#~ msgstr "Excluir permanentemente todos os itens conclu√≠dos?"
 
 #~ msgid "Confirm"
 #~ msgstr "Confirmar"
@@ -240,10 +231,10 @@ msgstr "Nova tarefa"
 #~ msgstr "Sair do programa"
 
 #~ msgid "Category name must not be blank"
-#~ msgstr "O nome da categoria n„o pode estar em branco"
+#~ msgstr "O nome da categoria n√£o pode estar em branco"
 
 #~ msgid "A category by that name already exists"
-#~ msgstr "J· existe uma categoria com esse nome"
+#~ msgstr "J√° existe uma categoria com esse nome"
 
 #~ msgid "To-do list: Categories"
 #~ msgstr "Lista de tarefas: Categorias"
@@ -255,4 +246,4 @@ msgstr "Nova tarefa"
 #~ msgstr "Criar nova categoria"
 
 #~ msgid "Delete the selected category"
-#~ msgstr "Apagar a categoria selecionada"
+#~ msgstr "Excluir a categoria selecionada"
