@@ -1,5 +1,6 @@
-# Translation to Brazilian Portuguese (pt_BR)
-# Copyright (C) 2004 Free Software Foundation, Inc.
+# Brazilian Portuguese translation of gpe-todo.
+# This file is distributed under the same license as the gpe-todo package.
+# Copyright (C) 2004-2008 Free Software Foundation, Inc.
 # Marcus Moreira de Souza <marcus@frb.br>, 2004.
 # based on the translation to Portuguese (pt) by
 # Luis Oliveira <luismbo@netcabo.pt>, 2003.
