@@ -1,5 +1,6 @@
-# Translation to Brazilian Portuguese (pt_BR)
-# Copyright (C) 2004 Free Software Foundation, Inc.
+# Brazilian Portuguese translation of gpe-login.
+# This file is distributed under the same license as the gpe-login package.
+# Copyright (C) 2004-2008 Free Software Foundation, Inc.
 # Marcus Moreira de Souza <marcus@frb.br>, 2004.
 # based on the translation to Portuguese (pt) by
 # Luis Oliveira <luismbo@netcabo.pt>, 2003.
@@ -11,7 +12,7 @@ msgstr ""
 "Project-Id-Version: gpe-login 0.95\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-08-13 19:10+0100\n"
-"PO-Revision-Date: 2008-08-13 22:29-0300\n"
+"PO-Revision-Date: 2008-08-13 23:38-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
 "MIME-Version: 1.0\n"
@@ -72,8 +73,8 @@ msgid ""
 "Holding down the stylus for longer than <i>5 seconds</i>, or holding "
 "<i>record</i>, recalibrates the touchscreen."
 msgstr ""
-"Mantendo pressionado o \"estilo\" por mais de <i>5 segundos</i> ou "
-"pressionando <i>gravar</i>, a tela sensível ao toque é recalibrada."
+"Mantendo pressionado a caneta \"Stylus\" por mais de <i>5 segundos</i> ou "
+"pressionando <i>record (gravar)</i>, a tela sensível ao toque é recalibrada."
 
 #: ../gpe-login.c:1361
 msgid "System setup"
