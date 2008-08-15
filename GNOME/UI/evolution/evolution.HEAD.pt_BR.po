@@ -1295,7 +1295,7 @@ msgstr "<b>Telefone</b>"
 
 #: ../addressbook/gui/contact-editor/contact-editor.glade.h:8
 msgid "<b>Web Addresses</b>"
-msgstr "<b>Endereços Web</b>"
+msgstr "<b>Endereços web</b>"
 
 #: ../addressbook/gui/contact-editor/contact-editor.glade.h:9
 msgid "<b>Work</b>"
@@ -1421,7 +1421,7 @@ msgstr "Disponibi_lidade:"
 
 #: ../addressbook/gui/contact-editor/contact-editor.glade.h:35
 msgid "_Home Page:"
-msgstr "_Página Web:"
+msgstr "_Página web:"
 
 #: ../addressbook/gui/contact-editor/contact-editor.glade.h:36
 msgid "_Manager:"
@@ -3007,7 +3007,7 @@ msgstr "_Copiar para o catálogo de endereços..."
 
 #: ../addressbook/gui/widgets/e-addressbook-view.c:950
 msgid "Mo_ve to Address Book..."
-msgstr "Mo_ver para o Catálogo de Endereços..."
+msgstr "Mo_ver para o catálogo de endereços..."
 
 #: ../addressbook/gui/widgets/e-addressbook-view.c:953
 msgid "Cu_t"
@@ -3034,7 +3034,7 @@ msgstr "C_olar"
 #: ../calendar/gui/cal-search-bar.c:618 ../calendar/gui/cal-search-bar.c:661
 #: ../calendar/gui/cal-search-bar.c:680
 msgid "Any Category"
-msgstr "Qualquer Categoria"
+msgstr "Qualquer categoria"
 
 #. E_BOOK_ERROR_OTHER_ERROR
 #: ../addressbook/gui/widgets/e-addressbook-view.c:1727
@@ -3049,27 +3049,27 @@ msgstr "Assistente"
 
 #: ../addressbook/gui/widgets/e-addressbook-view.etspec.h:2
 msgid "Assistant Phone"
-msgstr "Telefone do Assistente"
+msgstr "Telefone do assistente"
 
 #: ../addressbook/gui/widgets/e-addressbook-view.etspec.h:3
 msgid "Business Fax"
-msgstr "Fax Comercial"
+msgstr "Fax comercial"
 
 #: ../addressbook/gui/widgets/e-addressbook-view.etspec.h:4
 msgid "Business Phone"
-msgstr "Telefone Comercial"
+msgstr "Telefone comercial"
 
 #: ../addressbook/gui/widgets/e-addressbook-view.etspec.h:5
 msgid "Business Phone 2"
-msgstr "Telefone Comercial 2"
+msgstr "Telefone comercial 2"
 
 #: ../addressbook/gui/widgets/e-addressbook-view.etspec.h:6
 msgid "Callback Phone"
-msgstr "Telefone de Retorno"
+msgstr "Telefone de retorno"
 
 #: ../addressbook/gui/widgets/e-addressbook-view.etspec.h:7
 msgid "Car Phone"
-msgstr "Telefone do Carro"
+msgstr "Telefone do carro"
 
 #: ../addressbook/gui/widgets/e-addressbook-view.etspec.h:8
 #: ../calendar/gui/dialogs/event-page.glade.h:7
@@ -3087,7 +3087,7 @@ msgstr "Empresa"
 
 #: ../addressbook/gui/widgets/e-addressbook-view.etspec.h:10
 msgid "Company Phone"
-msgstr "Telefone da Empresa"
+msgstr "Telefone da empresa"
 
 #: ../addressbook/gui/widgets/e-addressbook-view.etspec.h:12
 msgid "Email 2"
@@ -3103,23 +3103,23 @@ msgstr "Sobrenome"
 
 #: ../addressbook/gui/widgets/e-addressbook-view.etspec.h:15
 msgid "File As"
-msgstr "Arquivar Como"
+msgstr "Arquivar como"
 
 #: ../addressbook/gui/widgets/e-addressbook-view.etspec.h:17
 msgid "Given Name"
-msgstr "Primeiro Nome"
+msgstr "Primeiro nome"
 
 #: ../addressbook/gui/widgets/e-addressbook-view.etspec.h:18
 msgid "Home Fax"
-msgstr "Fax Residencial"
+msgstr "Fax residencial"
 
 #: ../addressbook/gui/widgets/e-addressbook-view.etspec.h:19
 msgid "Home Phone"
-msgstr "Telefone Residencial"
+msgstr "Telefone residencial"
 
 #: ../addressbook/gui/widgets/e-addressbook-view.etspec.h:20
 msgid "Home Phone 2"
-msgstr "Telefone Residencial 2"
+msgstr "Telefone residencial 2"
 
 #: ../addressbook/gui/widgets/e-addressbook-view.etspec.h:21
 msgid "ISDN Phone"
@@ -3137,7 +3137,7 @@ msgstr "Gerente"
 #: ../addressbook/gui/widgets/e-addressbook-view.etspec.h:24
 #: ../addressbook/gui/widgets/eab-contact-display.c:654
 msgid "Mobile Phone"
-msgstr "Telefone Celular"
+msgstr "Telefone celular"
 
 #: ../addressbook/gui/widgets/e-addressbook-view.etspec.h:25
 #: ../addressbook/gui/widgets/eab-contact-display.c:608
@@ -3155,11 +3155,11 @@ msgstr "Escritório"
 
 #: ../addressbook/gui/widgets/e-addressbook-view.etspec.h:28
 msgid "Other Fax"
-msgstr "Outro Fax"
+msgstr "Outro fax"
 
 #: ../addressbook/gui/widgets/e-addressbook-view.etspec.h:29
 msgid "Other Phone"
-msgstr "Outro Telefone"
+msgstr "Outro telefone"
 
 #: ../addressbook/gui/widgets/e-addressbook-view.etspec.h:30
 msgid "Pager"
@@ -3167,7 +3167,7 @@ msgstr "Pager"
 
 #: ../addressbook/gui/widgets/e-addressbook-view.etspec.h:31
 msgid "Primary Phone"
-msgstr "Telefone Principal"
+msgstr "Telefone principal"
 
 #: ../addressbook/gui/widgets/e-addressbook-view.etspec.h:32
 msgid "Radio"
@@ -3209,7 +3209,7 @@ msgstr "Unidade"
 
 #: ../addressbook/gui/widgets/e-addressbook-view.etspec.h:45
 msgid "Web Site"
-msgstr "Sítio da Web"
+msgstr "Site da web"
 
 #: ../addressbook/gui/widgets/e-minicard-label.c:115
 #: ../addressbook/gui/widgets/e-minicard.c:154
@@ -3245,7 +3245,7 @@ msgstr "Altura"
 #: ../addressbook/gui/widgets/e-minicard-label.c:129
 #: ../addressbook/gui/widgets/e-minicard.c:169
 msgid "Has Focus"
-msgstr "Possui Foco"
+msgstr "Possui foco"
 
 #: ../addressbook/gui/widgets/e-minicard-label.c:136
 msgid "Field"
@@ -3253,11 +3253,11 @@ msgstr "Campo"
 
 #: ../addressbook/gui/widgets/e-minicard-label.c:143
 msgid "Field Name"
-msgstr "Nome do Campo"
+msgstr "Nome do campo"
 
 #: ../addressbook/gui/widgets/e-minicard-label.c:150
 msgid "Text Model"
-msgstr "Modelo de Texto"
+msgstr "Modelo de texto"
 
 #: ../addressbook/gui/widgets/e-minicard-label.c:157
 msgid "Max field name length"
@@ -3265,10 +3265,9 @@ msgstr "Comprimento máximo do campo de nome"
 
 #: ../addressbook/gui/widgets/e-minicard-view-widget.c:137
 msgid "Column Width"
-msgstr "Largura da Coluna"
+msgstr "Largura da coluna"
 
 #: ../addressbook/gui/widgets/e-minicard-view.c:177
-#, fuzzy
 msgid ""
 "\n"
 "\n"
@@ -3276,7 +3275,7 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"Pesquisa pelo Contato."
+"Pesquisando por contatos..."
 
 #: ../addressbook/gui/widgets/e-minicard-view.c:180
 msgid ""
@@ -3288,9 +3287,9 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"Pesquisa pelo Contato\n"
+"Pesquisa pelo contato\n"
 "\n"
-"ou clique duas vezes aqui para criar um novo Contato."
+"ou clique duas vezes aqui para criar um novo contato."
 
 #: ../addressbook/gui/widgets/e-minicard-view.c:183
 msgid ""
@@ -3304,7 +3303,7 @@ msgstr ""
 "\n"
 "Não há itens neste modo de exibição.\n"
 "\n"
-"Clique duas vezes aqui para criar um novo Contato."
+"Clique duas vezes aqui para criar um novo contato."
 
 #: ../addressbook/gui/widgets/e-minicard-view.c:187
 msgid ""
@@ -3314,7 +3313,7 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"Pesquisa pelo Contato."
+"Pesquisa pelo contato."
 
 #: ../addressbook/gui/widgets/e-minicard-view.c:189
 msgid ""
@@ -3332,16 +3331,16 @@ msgstr "Adaptador"
 
 #: ../addressbook/gui/widgets/e-minicard.c:99
 msgid "Work Email"
-msgstr "E-mail Profissional"
+msgstr "E-mail profissional"
 
 #: ../addressbook/gui/widgets/e-minicard.c:100
 msgid "Home Email"
-msgstr "E-mail Particular"
+msgstr "E-mail particular"
 
 #: ../addressbook/gui/widgets/e-minicard.c:101
 #: ../addressbook/gui/widgets/e-minicard.c:830
 msgid "Other Email"
-msgstr "Outro E-mail"
+msgstr "Outro e-mail"
 
 #: ../addressbook/gui/widgets/e-minicard.c:177
 msgid "Selected"
@@ -3349,25 +3348,25 @@ msgstr "Selecionado"
 
 #: ../addressbook/gui/widgets/e-minicard.c:184
 msgid "Has Cursor"
-msgstr "Possui Cursor"
+msgstr "Possui cursor"
 
 #: ../addressbook/gui/widgets/eab-contact-display.c:172 ../mail/em-popup.c:628
 msgid "_Open Link in Browser"
-msgstr "Abrir Link no _Navegador"
+msgstr "Abrir link no _navegador"
 
 #: ../addressbook/gui/widgets/eab-contact-display.c:173
 #: ../mail/em-folder-view.c:2810
 msgid "_Copy Link Location"
-msgstr "Copiar Local do _Link"
+msgstr "Copiar local do _link"
 
 #: ../addressbook/gui/widgets/eab-contact-display.c:174 ../mail/em-popup.c:629
 msgid "_Send New Message To..."
-msgstr "En_viar Nova Mensagem Para..."
+msgstr "En_viar nova mensagem para..."
 
 #: ../addressbook/gui/widgets/eab-contact-display.c:175
 #: ../plugins/copy-tool/org-gnome-copy-tool.eplug.xml.h:2
 msgid "Copy _Email Address"
-msgstr "Copiar _Endereço de E-mail"
+msgstr "Copiar _endereço de e-mail"
 
 #: ../addressbook/gui/widgets/eab-contact-display.c:296
 #: ../addressbook/gui/widgets/eab-contact-display.c:370
@@ -3384,7 +3383,7 @@ msgstr "mapa"
 #: ../addressbook/gui/widgets/eab-contact-display.c:487
 #: ../addressbook/gui/widgets/eab-contact-display.c:846
 msgid "List Members"
-msgstr "Listar Membros"
+msgstr "Listar membros"
 
 #: ../addressbook/gui/widgets/eab-contact-display.c:630
 msgid "Department"
@@ -3400,7 +3399,7 @@ msgstr "Cargo"
 
 #: ../addressbook/gui/widgets/eab-contact-display.c:635
 msgid "Video Chat"
-msgstr "Bate-papo com Vídeo"
+msgstr "Bate-papo com vídeo"
 
 #: ../addressbook/gui/widgets/eab-contact-display.c:636
 #: ../calendar/gui/calendar-commands.c:92
@@ -3435,11 +3434,11 @@ msgstr "Fax"
 
 #: ../addressbook/gui/widgets/eab-contact-display.c:650
 msgid "Home Page"
-msgstr "Página Web"
+msgstr "Página web"
 
 #: ../addressbook/gui/widgets/eab-contact-display.c:651
 msgid "Web Log"
-msgstr "Web Log"
+msgstr "Web log"
 
 #: ../addressbook/gui/widgets/eab-contact-display.c:656
 #: ../calendar/gui/caltypes.xml.h:6 ../calendar/gui/e-calendar-view.c:2352
@@ -3484,12 +3483,12 @@ msgstr "Repositório desconectado"
 #. E_BOOK_ERROR_NO_SUCH_BOOK
 #: ../addressbook/gui/widgets/eab-gui-util.c:61
 msgid "Address Book does not exist"
-msgstr "O Catálogo de Endereços não existe"
+msgstr "O catálogo de endereços não existe"
 
 #. E_BOOK_ERROR_NO_SELF_CONTACT
 #: ../addressbook/gui/widgets/eab-gui-util.c:62
 msgid "No Self Contact defined"
-msgstr "Não Existe Contato próprio definido"
+msgstr "Não existe contato próprio definido"
 
 #. E_BOOK_ERROR_URI_NOT_LOADED
 #. E_BOOK_ERROR_URI_ALREADY_LOADED
@@ -3539,12 +3538,12 @@ msgstr "A autenticação falhou"
 #. E_BOOK_ERROR_AUTHENTICATION_REQUIRED
 #: ../addressbook/gui/widgets/eab-gui-util.c:72
 msgid "Authentication Required"
-msgstr "Necessita Autenticação"
+msgstr "Necessita autenticação"
 
 #. E_BOOK_ERROR_TLS_NOT_AVAILABLE
 #: ../addressbook/gui/widgets/eab-gui-util.c:73
 msgid "TLS not Available"
-msgstr "TLS não Disponível"
+msgstr "TLS não disponível"
 
 #. E_BOOK_ERROR_CORBA_EXCEPTION
 #. E_BOOK_ERROR_NO_SUCH_SOURCE
@@ -3692,11 +3691,11 @@ msgstr[1] ""
 
 #: ../addressbook/gui/widgets/eab-gui-util.c:307
 msgid "_Don't Display"
-msgstr "Não _Mostrar"
+msgstr "Não _mostrar"
 
 #: ../addressbook/gui/widgets/eab-gui-util.c:308
 msgid "Display _All Contacts"
-msgstr "Mostr_ar Todos os Contatos"
+msgstr "Mostr_ar todos os contatos"
 
 #. For Translators only: "it" refers to the filename %s.
 #: ../addressbook/gui/widgets/eab-gui-util.c:334
@@ -3729,7 +3728,7 @@ msgstr "card.vcf"
 
 #: ../addressbook/gui/widgets/eab-gui-util.c:465
 msgid "Select Address Book"
-msgstr "Selecionar Catálogo de Endereços"
+msgstr "Selecionar catálogo de endereços"
 
 #: ../addressbook/gui/widgets/eab-gui-util.c:579
 msgid "list"
@@ -3753,12 +3752,12 @@ msgstr "Copiar contatos para"
 
 #: ../addressbook/gui/widgets/eab-gui-util.c:883
 msgid "Multiple vCards"
-msgstr "Vários VCards"
+msgstr "Vários vCards"
 
 #: ../addressbook/gui/widgets/eab-gui-util.c:890
 #, c-format
 msgid "vCard for %s"
-msgstr "VCard para %s"
+msgstr "vCard para %s"
 
 #: ../addressbook/gui/widgets/eab-gui-util.c:902
 #: ../addressbook/gui/widgets/eab-gui-util.c:928
@@ -3773,7 +3772,7 @@ msgstr "Informações de contato para %s"
 
 #: ../addressbook/gui/widgets/eab-popup-control.c:301
 msgid "Querying Address Book..."
-msgstr "Consultando o Catálogo de Endereços..."
+msgstr "Consultando o catálogo de endereços..."
 
 #: ../addressbook/gui/widgets/eab-vcard-control.c:143
 #, c-format
@@ -3785,11 +3784,11 @@ msgstr[1] "Existem %d outros contatos."
 #: ../addressbook/gui/widgets/eab-vcard-control.c:228
 #: ../addressbook/gui/widgets/eab-vcard-control.c:279
 msgid "Show Full vCard"
-msgstr "Mostrar VCard Completo"
+msgstr "Mostrar vCard Completo"
 
 #: ../addressbook/gui/widgets/eab-vcard-control.c:232
 msgid "Show Compact vCard"
-msgstr "Mostrar VCard Compacto"
+msgstr "Mostrar vCard Compacto"
 
 #: ../addressbook/gui/widgets/eab-vcard-control.c:284
 msgid "Save in addressbook"
@@ -3797,7 +3796,7 @@ msgstr "Salvar no catálogo de endereços"
 
 #: ../addressbook/gui/widgets/gal-view-factory-minicard.c:25
 msgid "Card View"
-msgstr "Visão de Cartão"
+msgstr "Exibição de cartão"
 
 #: ../addressbook/importers/evolution-csv-importer.c:658
 #: ../addressbook/importers/evolution-ldif-importer.c:498
@@ -3833,7 +3832,7 @@ msgstr "Importador CSV e Tab do Evolution"
 
 #: ../addressbook/importers/evolution-ldif-importer.c:665
 msgid "LDAP Data Interchange Format (.ldif)"
-msgstr "Formato de Troca de Dados LDAP (.ldif)"
+msgstr "Formato de troca de dados LDAP (.ldif)"
 
 #: ../addressbook/importers/evolution-ldif-importer.c:666
 msgid "Evolution LDIF importer"
@@ -3841,11 +3840,11 @@ msgstr "Importador LDIF do Evolution"
 
 #: ../addressbook/importers/evolution-vcard-importer.c:547
 msgid "vCard (.vcf, .gcrd)"
-msgstr "VCard (.vcf, .gcrd)"
+msgstr "vCard (.vcf, .gcrd)"
 
 #: ../addressbook/importers/evolution-vcard-importer.c:548
 msgid "Evolution vCard Importer"
-msgstr "Importador VCard do Evolution"
+msgstr "Importador vCard do Evolution"
 
 #: ../addressbook/printing/e-contact-print.glade.h:1
 msgid "10 pt. Tahoma"
@@ -3955,7 +3954,7 @@ msgstr "Página"
 
 #: ../addressbook/printing/e-contact-print.glade.h:26
 msgid "Page Setup:"
-msgstr "Configuração de Página:"
+msgstr "Configuração de página:"
 
 #: ../addressbook/printing/e-contact-print.glade.h:27
 msgid "Paper"
@@ -4028,7 +4027,7 @@ msgstr "_Fonte..."
 
 #: ../addressbook/printing/test-contact-print-style-editor.c:53
 msgid "Contact Print Style Editor Test"
-msgstr "Teste de Editor de Estilo de Impressão de Contato"
+msgstr "Teste de editor de estilo de impressão de contato"
 
 #: ../addressbook/printing/test-contact-print-style-editor.c:54
 #: ../addressbook/printing/test-print.c:44
@@ -4042,7 +4041,7 @@ msgstr ""
 
 #: ../addressbook/printing/test-print.c:43
 msgid "Contact Print Test"
-msgstr "Teste de Impressão de Contato"
+msgstr "Teste de impressão de contato"
 
 #: ../addressbook/printing/test-print.c:46
 msgid "This should test the contact print code"
@@ -4068,7 +4067,7 @@ msgstr "Especifique um arquivo de saída no lugar da saída padrão"
 
 #: ../addressbook/tools/evolution-addressbook-export.c:50
 msgid "OUTPUTFILE"
-msgstr "ARQUIVOSAÍDA"
+msgstr "ARQUIVO_DE_SAÍDA"
 
 #: ../addressbook/tools/evolution-addressbook-export.c:53
 msgid "List local addressbook folders"
@@ -4076,7 +4075,7 @@ msgstr "Listar as pastas locais do catálogo de endereços"
 
 #: ../addressbook/tools/evolution-addressbook-export.c:56
 msgid "Show cards as vcard or csv file"
-msgstr "Mostrar cartões como VCard ou um arquivo csv"
+msgstr "Mostrar cartões como vCard ou um arquivo csv"
 
 #: ../addressbook/tools/evolution-addressbook-export.c:57
 msgid "[vcard|csv]"
@@ -4107,7 +4106,7 @@ msgstr ""
 
 #: ../addressbook/tools/evolution-addressbook-export.c:116
 msgid "Only support csv or vcard format."
-msgstr "Apenas os formatos csv ou vcard com suporte."
+msgstr "Apenas os formatos csv ou vCard com suporte."
 
 #: ../addressbook/tools/evolution-addressbook-export.c:125
 msgid "In async mode, output must be file."
@@ -4127,6 +4126,8 @@ msgid ""
 "'{0}' is a read-only calendar and cannot be modified. Please select a "
 "different calendar from the side bar in the Calendar view."
 msgstr ""
+"\"{0}\" é uma agenda somente de leitura e não pode ser modificada. Por "
+"favor, selecione outra agenda na barra lateral na exibição de agenda."
 
 #. For Translators: {0} is the name of the calendar source
 #: ../calendar/calendar.error.xml.h:4
@@ -4135,8 +4136,8 @@ msgid ""
 "'{0}' is a read-only calendar and cannot be modified. Please select a "
 "different calendar that can accept appointments."
 msgstr ""
-"\"{0}\" é uma agenda somente de leitura. Alterne para para a Visão de "
-"Agendas e selecione uma que aceite a marcação de compromissos"
+"\"{0}\" é uma agenda somente de leitura e não pode ser modificada. Por "
+"favor, selecione outra agenda que aceite marcação de compromissos"
 
 #: ../calendar/calendar.error.xml.h:5
 msgid ""
@@ -4213,11 +4214,11 @@ msgstr "Você tem certeza de que deseja excluir a tarefa \"{0}\"?"
 #: ../calendar/calendar.error.xml.h:16
 msgid "Are you sure you want to delete the appointment titled '{0}'?"
 msgstr ""
-"Você tem certeza de que deseja excluir o compromisso intitulado \"{0}\"?"
+"Você tem certeza de que deseja excluir o compromisso com o título \"{0}\"?"
 
 #: ../calendar/calendar.error.xml.h:17
 msgid "Are you sure you want to delete the memo '{0}'?"
-msgstr "Você tem certeza de que deseja excluir o memorando  \"{0}\"?"
+msgstr "Você tem certeza de que deseja excluir o memorando \"{0}\"?"
 
 #: ../calendar/calendar.error.xml.h:18
 msgid "Are you sure you want to delete these {0} appointments?"
@@ -4270,13 +4271,12 @@ msgid "Cannot create a new event"
 msgstr "Não foi possível criar um novo evento"
 
 #: ../calendar/calendar.error.xml.h:29
-#, fuzzy
 msgid "Cannot save event"
-msgstr "Não foi possível criar um novo evento"
+msgstr "Não foi possível salvar o evento"
 
 #: ../calendar/calendar.error.xml.h:30
 msgid "Delete calendar '{0}'?"
-msgstr "Excluir agenda \"{0}\"?"
+msgstr "Excluir a agenda \"{0}\"?"
 
 #: ../calendar/calendar.error.xml.h:31
 msgid "Delete memo list '{0}'?"
@@ -4288,7 +4288,7 @@ msgstr "Excluir a lista de tarefas \"{0}\"?"
 
 #: ../calendar/calendar.error.xml.h:33
 msgid "Do _not Send"
-msgstr "_Não Enviar"
+msgstr "_Não enviar"
 
 #: ../calendar/calendar.error.xml.h:34
 msgid "Download in progress. Do you want to save the appointment?"
@@ -4300,7 +4300,7 @@ msgstr "Transferência em progresso. Você deseja salvar a tarefa?"
 
 #: ../calendar/calendar.error.xml.h:36
 msgid "Editor could not be loaded."
-msgstr "O editor não pode ser carregado."
+msgstr "O editor não pôde ser carregado."
 
 #: ../calendar/calendar.error.xml.h:37
 msgid ""
@@ -4319,15 +4319,15 @@ msgstr ""
 
 #: ../calendar/calendar.error.xml.h:39
 msgid "Error loading calendar"
-msgstr "Erro ao abrir a agenda"
+msgstr "Erro ao carregar a agenda"
 
 #: ../calendar/calendar.error.xml.h:40
 msgid "Error loading memo list"
-msgstr "Erro ao abrir a lista de memorandos"
+msgstr "Erro ao carregar a lista de memorandos"
 
 #: ../calendar/calendar.error.xml.h:41
 msgid "Error loading task list"
-msgstr "Erro ao abrir a lista de tarefas"
+msgstr "Erro ao carregar a lista de tarefas"
 
 #: ../calendar/calendar.error.xml.h:42
 msgid ""
