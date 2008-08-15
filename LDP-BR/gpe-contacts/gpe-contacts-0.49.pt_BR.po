@@ -1,0 +1,520 @@
+# Translation to Brazilian Portuguese (pt_BR)
+# Copyright (C) 2004 Free Software Foundation, Inc.
+# Marcus Moreira de Souza <marcus@frb.br>, 2004.
+# based on the translation to Portuguese (pt) by
+# Luis Oliveira <luismbo@netcabo.pt>, 2003.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gpe-contacts 0.12\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-08-13 22:29+0100\n"
+"PO-Revision-Date: 2004-09-02 19:04-0300\n"
+"Last-Translator: Marcus Moreira de Souza <marcus@frb.br>\n"
+"Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-15\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. TRANSLATORS: kB = kilo bytes
+#: ../configure.c:130 ../configure.c:340
+msgid "Current size:"
+msgstr ""
+
+#: ../configure.c:131
+msgid "kB (optimised)"
+msgstr ""
+
+#: ../configure.c:177
+#, fuzzy
+msgid "Detail panel:"
+msgstr "Painel de Detalhes"
+
+#: ../configure.c:206
+msgid "NAME"
+msgstr "NOME"
+
+#: ../configure.c:216
+msgid "Add"
+msgstr "Adicionar"
+
+#: ../configure.c:223
+msgid "Remove"
+msgstr "Remover"
+
+#: ../configure.c:245
+msgid "Label"
+msgstr "Mensagem"
+
+#: ../configure.c:250
+#, fuzzy
+msgid "Data item"
+msgstr "Campo de data"
+
+#: ../configure.c:294
+msgid "Screen Layout"
+msgstr ""
+
+#: ../configure.c:300
+msgid "List position"
+msgstr ""
+
+#: ../configure.c:303
+#, fuzzy
+msgid "left"
+msgstr "Apagar"
+
+#: ../configure.c:305
+msgid "right"
+msgstr ""
+
+#: ../configure.c:333
+#, fuzzy
+msgid "Database Size"
+msgstr "Campo de data"
+
+#: ../configure.c:340
+msgid "kB"
+msgstr ""
+
+#: ../configure.c:345
+msgid "Actions"
+msgstr ""
+
+#: ../configure.c:352
+msgid "Optimise database"
+msgstr ""
+
+#: ../configure.c:355
+msgid "Run"
+msgstr ""
+
+#: ../configure.c:461
+msgid "Editing Layout"
+msgstr "Editando Layout"
+
+#: ../configure.c:463
+msgid "Setup"
+msgstr "Configuração"
+
+#: ../configure.c:464
+msgid "Database"
+msgstr ""
+
+#: ../configure.c:496
+msgid "Contacts: Configuration"
+msgstr "Contatos: Configuração"
+
+#: ../edit-vcard.desktop.in.in.h:1 ../edit-vcard.desktop.in.h:1
+msgid "Edit personal vcard"
+msgstr ""
+
+#: ../edit-vcard.desktop.in.in.h:2 ../edit-vcard.desktop.in.h:2
+msgid "My VCard"
+msgstr ""
+
+#: ../editing.c:156 ../main.c:1494
+#, fuzzy
+msgid "Details"
+msgstr "Painel de Detalhes"
+
+#: ../editing.c:389
+msgid "no year"
+msgstr ""
+
+#: ../editing.c:448
+msgid "Image"
+msgstr "Imagem"
+
+#: ../editing.c:561 ../finddlg.c:44 ../namedetail.c:66 ../structure.c:177
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: ../editing.c:562 ../finddlg.c:42 ../namedetail.c:64
+msgid "OK"
+msgstr ""
+
+#: ../editing.c:672 ../main.c:562 ../main.c:689
+msgid "Categories"
+msgstr "Categorias"
+
+#: ../editing.c:1460
+#, fuzzy
+msgid "Select image"
+msgstr "Apagar item"
+
+#: ../export.c:194
+msgid "Save as..."
+msgstr ""
+
+#: ../finddlg.c:38 ../finddlg.c:47
+#, fuzzy
+msgid "Find Contacts"
+msgstr "Contatos"
+
+#. supply action area
+#: ../finddlg.c:61
+msgid "Search for:"
+msgstr ""
+
+#: ../gpe-contacts.desktop.in.in.h:1 ../main.c:1430
+#: ../hildon/gpe-contacts.desktop.in.in.h:1 ../gpe-contacts.desktop.in.h:1
+#: ../hildon/gpe-contacts.desktop.in.h:1
+msgid "Contacts"
+msgstr "Contatos"
+
+#: ../gpe-contacts.desktop.in.in.h:2 ../gpe-contacts.desktop.in.h:2
+msgid "GPE Contacts"
+msgstr "Contatos GPE"
+
+#: ../main.c:77 ../main.c:179
+msgid "Edit Contact"
+msgstr "Editar Contato"
+
+#: ../main.c:83 ../main.c:195
+msgid "Really delete this contact?"
+msgstr "Deseja realmente apagar este contato?"
+
+#: ../main.c:83 ../main.c:195 ../structure.c:176
+msgid "Confirm"
+msgstr "Confirmar"
+
+#: ../main.c:135
+msgid "All categories"
+msgstr "Todas"
+
+#: ../main.c:157
+#, fuzzy
+msgid "New Contact"
+msgstr "Novo contato"
+
+#: ../main.c:573
+#, fuzzy
+msgid "No contact selected."
+msgstr "Nenhum recipiente selecionado"
+
+#. create and set up dialog
+#: ../main.c:645 ../main.c:1575 ../main.c:1648
+msgid "Contact"
+msgstr "Contato"
+
+#: ../main.c:1305
+#, fuzzy
+msgid "Choose file"
+msgstr "clique para escolher o arquivo"
+
+#: ../main.c:1335
+#, c-format
+msgid ""
+"Import of %i files failed:\n"
+"%s"
+msgstr ""
+
+#: ../main.c:1339
+msgid "Import successful"
+msgstr ""
+
+#: ../main.c:1355
+msgid "Export to file..."
+msgstr ""
+
+#: ../main.c:1379
+#, c-format
+msgid "Export of %i files OK.  Failed: %i"
+msgstr ""
+
+#: ../main.c:1383
+msgid "Export successful"
+msgstr ""
+
+#: ../main.c:1447
+#, fuzzy
+msgid "Tap this button to add a new contact."
+msgstr "Clique aqui para adicionar um novo contato."
+
+#: ../main.c:1456
+msgid "Tap here to edit the selected contact."
+msgstr "clique aqui para editar o contato selecionado."
+
+#: ../main.c:1466
+msgid "Tap here to delete the selected contact."
+msgstr "Clique aqui para apagar o contato selecionado."
+
+#: ../main.c:1486
+msgid "Find a contact by searching for any data."
+msgstr ""
+
+#: ../main.c:1496
+#, fuzzy
+msgid "Tap here to show contacts details."
+msgstr "Clique aqui para adicionar um novo contato."
+
+#: ../main.c:1506
+#, fuzzy
+msgid "Tap here to configure this program."
+msgstr "Clique aqui para configurar o programa."
+
+#: ../main.c:1514
+msgid "Import"
+msgstr ""
+
+#: ../main.c:1516
+msgid "Open file to import a contact from it."
+msgstr ""
+
+#: ../main.c:1523
+msgid "Export"
+msgstr ""
+
+#: ../main.c:1525
+msgid "Export currently listed contacts to a file."
+msgstr ""
+
+#: ../main.c:1538
+#, fuzzy
+msgid "Tap here to exit gpe-contacts."
+msgstr "clique aqui para editar o contato selecionado."
+
+#. * find and categories section *
+#: ../main.c:1604
+msgid "Find:"
+msgstr "Procurar:"
+
+#: ../main.c:1611
+msgid "in"
+msgstr "em"
+
+#: ../main.c:1756
+#, fuzzy, c-format
+msgid "Could not import file %s: %s.\n"
+msgstr "Impossível encontrar o arquivo pixmap: %s"
+
+#: ../main.c:1762
+#, c-format
+msgid "File %s imported sucessfully.\n"
+msgstr ""
+
+#: ../main.c:1785
+msgid "My Card"
+msgstr ""
+
+#: ../main.c:1788
+msgid "Saving vcard failed"
+msgstr ""
+
+#. TRANSLATORS: These abbreviations are a list of common titles used in a name
+#: ../namedetail.c:30
+msgid "Dr."
+msgstr ""
+
+#: ../namedetail.c:30
+msgid "Miss"
+msgstr ""
+
+#: ../namedetail.c:30
+msgid "Mr."
+msgstr ""
+
+#: ../namedetail.c:30
+msgid "Mrs."
+msgstr ""
+
+#: ../namedetail.c:30
+msgid "Ms."
+msgstr ""
+
+#: ../namedetail.c:30
+msgid "Prof."
+msgstr ""
+
+#: ../namedetail.c:30
+msgid "Sir"
+msgstr ""
+
+#. TRANSLATORS: This is a list of common name suffixes
+#: ../namedetail.c:32
+msgid "Jr."
+msgstr ""
+
+#: ../namedetail.c:32
+msgid "Esq."
+msgstr ""
+
+#: ../namedetail.c:32
+msgid "Sr."
+msgstr ""
+
+#: ../namedetail.c:32
+msgid "I"
+msgstr ""
+
+#: ../namedetail.c:32
+msgid "II"
+msgstr ""
+
+#: ../namedetail.c:32
+msgid "III"
+msgstr ""
+
+#: ../namedetail.c:62 ../namedetail.c:69
+msgid "Edit Name Details"
+msgstr ""
+
+#: ../namedetail.c:97
+msgid "First name:"
+msgstr ""
+
+#: ../namedetail.c:98
+msgid "Middle name:"
+msgstr ""
+
+#: ../namedetail.c:99
+msgid "Last name:"
+msgstr ""
+
+#: ../namedetail.c:100
+msgid "Suffix:"
+msgstr ""
+
+#: ../namedetail.c:101
+#, fuzzy
+msgid "Title:"
+msgstr "Título"
+
+#: ../structure.c:105 ../structure.c:235
+msgid "New page"
+msgstr "Nova página"
+
+#: ../structure.c:105 ../structure.c:124 ../structure.c:149
+msgid "Title"
+msgstr "Título"
+
+#: ../structure.c:124
+msgid "New group"
+msgstr "Novo grupo"
+
+#: ../structure.c:136 ../structure.c:166
+msgid "No container selected"
+msgstr "Nenhum recipiente selecionado"
+
+#: ../structure.c:150
+msgid "Tag"
+msgstr "Etiqueta"
+
+#: ../structure.c:152
+msgid "New field"
+msgstr "Novo campo"
+
+#: ../structure.c:176
+msgid "Really delete this field?"
+msgstr "Deseja realmente apagar este campo?"
+
+#: ../structure.c:177
+msgid "Delete"
+msgstr "Apagar"
+
+#: ../structure.c:234
+msgid "Page"
+msgstr "Página"
+
+#: ../structure.c:235
+msgid "Tap here to add a page."
+msgstr "Clique aqui para adicionar uma página."
+
+#: ../structure.c:251
+msgid "Delete item"
+msgstr "Apagar item"
+
+#: ../structure.c:251
+msgid "Tap here to delete the selected item."
+msgstr "Clique aqui para apagar o item selecionado."
+
+#: ../hildon/gpe-contacts.desktop.in.in.h:2
+#: ../hildon/gpe-contacts.desktop.in.h:2
+#, fuzzy
+msgid "GPE Contacts Application"
+msgstr "Contatos GPE"
+
+#~ msgid "Name"
+#~ msgstr "Nome"
+
+#~ msgid "Phone"
+#~ msgstr "Telefone"
+
+#~ msgid "EMail"
+#~ msgstr "E-mail"
+
+#~ msgid "more detailed name options"
+#~ msgstr "mais opções detalhadas de nome"
+
+#~ msgid "Summary"
+#~ msgstr "Sumário"
+
+#~ msgid "Birthday"
+#~ msgstr "Aniversário"
+
+#~ msgid "Schedule"
+#~ msgstr "Horário"
+
+#~ msgid "automatic appointment"
+#~ msgstr "evento automático"
+
+#~ msgid "Personal"
+#~ msgstr "Pessoal"
+
+#~ msgid "Pages"
+#~ msgstr "Páginas"
+
+#~ msgid "New Category"
+#~ msgstr "Nova Categoria"
+
+#~ msgid "Really delete this category?"
+#~ msgstr "Deseja realmente apagar esta categoria?"
+
+#~ msgid "New category"
+#~ msgstr "Nova categoria"
+
+#~ msgid "Tap here to create a category."
+#~ msgstr "Clique aqui para criar uma categoria."
+
+#~ msgid "Delete category"
+#~ msgstr "Apagar caregoria"
+
+#~ msgid "Tap here to delete the selected category."
+#~ msgstr "Clique aqui para apagar a categoria selecionada."
+
+#~ msgid "Edit"
+#~ msgstr "Editar"
+
+#~ msgid "Edit contact"
+#~ msgstr "Editar contato"
+
+#~ msgid "Delete contact"
+#~ msgstr "Apagar contato"
+
+#~ msgid "Properties"
+#~ msgstr "Propriedades"
+
+#~ msgid "ABC"
+#~ msgstr "ABC"
+
+#~ msgid "DEF"
+#~ msgstr "DEF"
+
+#~ msgid "GHIJ"
+#~ msgstr "GHIJ"
+
+#~ msgid "KLMN"
+#~ msgstr "KLMN"
+
+#~ msgid "OPQR"
+#~ msgstr "OPQR"
+
+#~ msgid "STUV"
+#~ msgstr "STUV"
+
+#~ msgid "WXYZ"
+#~ msgstr "WXYZ"
+
+#~ msgid "Error loading pixmap file: %s"
+#~ msgstr "Erro ao carregar o arquivo pixmap: %s"
