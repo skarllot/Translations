@@ -4375,7 +4375,7 @@ msgid ""
 "in the loss of these attachments."
 msgstr ""
 "Existem alguns anexos sendo baixados. Salvar o compromisso agora causará a "
-"perda destes anexos."
+"perda desses anexos."
 
 #: ../calendar/calendar.error.xml.h:48
 msgid ""
@@ -4383,7 +4383,7 @@ msgid ""
 "loss of these attachments."
 msgstr ""
 "Existem alguns anexos sendo baixados. Salvar a tarefa agora causará a perda "
-"destes anexos."
+"desses anexos."
 
 #: ../calendar/calendar.error.xml.h:49
 msgid "Some features may not work properly with your current server."
@@ -4401,7 +4401,7 @@ msgstr "O memorando do Evolution saiu inesperadamente."
 
 #: ../calendar/calendar.error.xml.h:52
 msgid "The Evolution tasks have quit unexpectedly."
-msgstr "As tarefas do Evolution sairam inesperadamente."
+msgstr "As tarefas do Evolution saíram inesperadamente."
 
 #: ../calendar/calendar.error.xml.h:53
 msgid "The calendar is not marked for offline usage."
@@ -4471,7 +4471,7 @@ msgid ""
 "a supported version."
 msgstr ""
 "Você pode encontrar problemas usando o Evolution porque está conectando-se a "
-"um servidor GroupWise ao qual não há suporte. Para os melhores resultados o "
+"um servidor GroupWise ao qual não há suporte. Para melhores resultados o "
 "servidor deve ser atualizado para uma versão com suporte."
 
 #: ../calendar/calendar.error.xml.h:69
@@ -4504,7 +4504,7 @@ msgstr ""
 #: ../calendar/calendar.error.xml.h:75
 #: ../composer/mail-composer.error.xml.h:30
 msgid "_Discard Changes"
-msgstr "_Descartar Alterações"
+msgstr "_Descartar alterações"
 
 #: ../calendar/calendar.error.xml.h:76 ../composer/e-composer-actions.c:500
 msgid "_Save"
@@ -4512,7 +4512,7 @@ msgstr "_Salvar"
 
 #: ../calendar/calendar.error.xml.h:77
 msgid "_Save Changes"
-msgstr "_Salvar Alterações"
+msgstr "_Salvar alterações"
 
 #: ../calendar/calendar.error.xml.h:78
 #: ../composer/mail-composer.error.xml.h:34 ../mail/mail.error.xml.h:142
@@ -4522,7 +4522,7 @@ msgstr "_Enviar"
 
 #: ../calendar/calendar.error.xml.h:79
 msgid "_Send Notice"
-msgstr "_Enviar Notificação"
+msgstr "_Enviar notificação"
 
 #: ../calendar/calendar.error.xml.h:80
 msgid "{0}."
@@ -4530,7 +4530,7 @@ msgstr "{0}."
 
 #: ../calendar/conduits/calendar/calendar-conduit.c:256
 msgid "Split Multi-Day Events:"
-msgstr "Dividir Eventos de Vários Dias:"
+msgstr "Dividir eventos de vários dias:"
 
 #: ../calendar/conduits/calendar/calendar-conduit.c:1521
 #: ../calendar/conduits/calendar/calendar-conduit.c:1522
@@ -4544,7 +4544,7 @@ msgstr "Não foi possível iniciar o evolution-data-server"
 #: ../calendar/conduits/calendar/calendar-conduit.c:1629
 #: ../calendar/conduits/calendar/calendar-conduit.c:1632
 msgid "Could not read pilot's Calendar application block"
-msgstr "Não foi possível ler os dados do aplicativo de Agenda do PDA"
+msgstr "Não foi possível ler os dados do aplicativo de agenda do PDA"
 
 #: ../calendar/conduits/memo/memo-conduit.c:914
 #: ../calendar/conduits/memo/memo-conduit.c:917
@@ -4558,7 +4558,7 @@ msgstr "Não foi possível gravar os dados do aplicativo de memorandos do PDA"
 
 #: ../calendar/conduits/todo/todo-conduit.c:240
 msgid "Default Priority:"
-msgstr "Prioridade Padrão:"
+msgstr "Prioridade padrão:"
 
 #: ../calendar/conduits/todo/todo-conduit.c:1102
 #: ../calendar/conduits/todo/todo-conduit.c:1105
@@ -4573,7 +4573,7 @@ msgstr "Não foi possível gravar os dados do aplicativo de tarefas do PDA"
 #: ../calendar/gui/GNOME_Evolution_Calendar.server.in.in.h:1
 #: ../plugins/itip-formatter/itip-formatter.c:2359
 msgid "Calendar and Tasks"
-msgstr "Agenda e Tarefas"
+msgstr "Agenda e tarefas"
 
 #: ../calendar/gui/GNOME_Evolution_Calendar.server.in.in.h:2
 #: ../calendar/gui/calendar-component.c:1403
@@ -4583,35 +4583,35 @@ msgstr "Agendas"
 #: ../calendar/gui/GNOME_Evolution_Calendar.server.in.in.h:3
 msgid "Configure your timezone, Calendar and Task List here "
 msgstr ""
-"Configure o seu fuso horário, a sua Agenda e a sua Lista de Tarefas aqui "
+"Configure o seu fuso horário, a sua agenda e a sua lista de tarefas aqui "
 
 #: ../calendar/gui/GNOME_Evolution_Calendar.server.in.in.h:4
 msgid "Evolution Calendar and Tasks"
-msgstr "Agenda e Tarefas do Evolution"
+msgstr "Agenda e tarefas do Evolution"
 
 #: ../calendar/gui/GNOME_Evolution_Calendar.server.in.in.h:5
 msgid "Evolution Calendar configuration control"
-msgstr "Controle de configuração da Agenda do Evolution"
+msgstr "Controle de configuração da agenda do Evolution"
 
 #: ../calendar/gui/GNOME_Evolution_Calendar.server.in.in.h:6
 msgid "Evolution Calendar scheduling message viewer"
-msgstr "Visualizador de mensagens de programação da Agenda do Evolution"
+msgstr "Visualizador de mensagens programadas da agenda do Evolution"
 
 #: ../calendar/gui/GNOME_Evolution_Calendar.server.in.in.h:7
 msgid "Evolution Calendar/Task editor"
-msgstr "Editor de Agenda/Tarefas do Evolution"
+msgstr "Editor de agenda e tarefas do Evolution"
 
 #: ../calendar/gui/GNOME_Evolution_Calendar.server.in.in.h:8
 msgid "Evolution's Calendar component"
-msgstr "Componente de Agenda do Evolution"
+msgstr "Componente de agenda do Evolution"
 
 #: ../calendar/gui/GNOME_Evolution_Calendar.server.in.in.h:9
 msgid "Evolution's Memos component"
-msgstr "Componente de Memorandos do Evolution"
+msgstr "Componente de memorandos do Evolution"
 
 #: ../calendar/gui/GNOME_Evolution_Calendar.server.in.in.h:10
 msgid "Evolution's Tasks component"
-msgstr "Componente de Tarefas do Evolution"
+msgstr "Componente de tarefas do Evolution"
 
 #: ../calendar/gui/GNOME_Evolution_Calendar.server.in.in.h:11
 msgid "Memo_s"
@@ -4652,7 +4652,7 @@ msgstr "_Tarefas"
 
 #: ../calendar/gui/alarm-notify/GNOME_Evolution_Calendar_AlarmNotify.server.in.in.h:1
 msgid "Evolution Calendar alarm notification service"
-msgstr "Serviço de notificação de alarme da Agenda do Evolution"
+msgstr "Serviço de notificação de alarme da agenda do Evolution"
 
 #: ../calendar/gui/alarm-notify/alarm-notify-dialog.c:102
 msgid "minute"
@@ -4842,16 +4842,16 @@ msgstr "Agendas que devem ter alarmes"
 msgid ""
 "Color to draw the Marcus Bains Line in the Time bar (empty for default)."
 msgstr ""
-"Cor utilizada para desenhar a Linha Marcus Bains na barra de Tempo (vazia "
+"Cor utilizada para desenhar a linha Marcus Bains na barra de Tempo (vazia "
 "por padrão)."
 
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:7
 msgid "Color to draw the Marcus Bains line in the Day View."
-msgstr "Cor utilizada para desenhar a Linha Marcus Bains da Visão de Dia."
+msgstr "Cor utilizada para desenhar a linha Marcus Bains na exibição de dia."
 
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:8
 msgid "Compress weekends in month view"
-msgstr "Comprimir finais de semana na visão de mês"
+msgstr "Comprimir finais de semana na exibição de mês"
 
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:9
 msgid "Confirm expunge"
