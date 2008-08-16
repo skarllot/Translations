@@ -4876,7 +4876,7 @@ msgstr "Valor de lembrete padrão"
 
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:14
 msgid "Directory for saving alarm audio files"
-msgstr "Diretório para salvar o arquivo de áudio do alarme"
+msgstr "Diretório para salvar os arquivos de áudio do alarme"
 
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:15
 msgid "Event Gradient"
@@ -4884,11 +4884,11 @@ msgstr "Gradiente do evento"
 
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:16
 msgid "Event Transparency"
-msgstr "Transparência do Evento"
+msgstr "Transparência do evento"
 
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:17
 msgid "Free/busy server URLs"
-msgstr "URLs de servidor de disponibilidade"
+msgstr "URLs do servidor de disponibilidade"
 
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:18
 msgid "Free/busy template URL"
@@ -4896,7 +4896,7 @@ msgstr "Modelo de URL de disponibilidade"
 
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:19
 msgid "Gradient of the events in calendar views."
-msgstr "Gradiente dos eventos na visão de calendário."
+msgstr "Gradiente dos eventos na exibição de calendário."
 
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:20
 msgid "Hide completed tasks"
@@ -4924,7 +4924,7 @@ msgstr "Hora em que o dia de trabalho começa, em formato de 24 horas, 0 a 23."
 
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:26
 msgid "Intervals shown in Day and Work Week views, in minutes."
-msgstr "Intervalos mostrados nas visões de Dia e Semana Útil, em minutos."
+msgstr "Intervalos mostrados nas exibições de dia e semana útil, em minutos."
 
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:27
 msgid "Last alarm time"
@@ -4940,11 +4940,11 @@ msgstr "Linha Marcus Bains"
 
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:30
 msgid "Marcus Bains Line Color - Day View"
-msgstr "Cor da Linha Marcus Bains - Visão do Dia"
+msgstr "Cor da linha Marcus Bains - exibição de dia"
 
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:31
 msgid "Marcus Bains Line Color - Time bar"
-msgstr "Cor da Linha Marcus Bains - Barra de tempo"
+msgstr "Cor da linha Marcus Bains - barra de tempo"
 
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:32
 msgid "Minute the workday ends on, 0 to 59."
@@ -4956,11 +4956,11 @@ msgstr "Minuto em que começa o dia de trabalho, 0 a 59."
 
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:34
 msgid "Month view horizontal pane position"
-msgstr "Posição do painel horizontal na visão de mês"
+msgstr "Posição do painel horizontal na exibição de mês"
 
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:35
 msgid "Month view vertical pane position"
-msgstr "Posição do painel vertical na visão de mês"
+msgstr "Posição do painel vertical na exibição de mês"
 
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:36
 msgid "Number of units for determining a default reminder."
@@ -4980,15 +4980,15 @@ msgid ""
 "task list when not in the month view, in pixels."
 msgstr ""
 "Posição do painel horizontal, entre a agenda de navegação de datas e a lista "
-"de tarefas quando não estiver em modo de visão por mês, em pixels."
+"de tarefas quando não estiver em modo de exibição por mês, em pixels."
 
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:40
 msgid ""
 "Position of the horizontal pane, between the view and the date navigator "
 "calendar and task list in the month view, in pixels."
 msgstr ""
-"Posição do painel horizontal, entre a visão e a agenda de navegação de datas "
-"e a lista de tarefas em modo de visão de mês, em pixels."
+"Posição do painel horizontal, entre a exibição e a agenda de navegação de datas "
+"e a lista de tarefas em modo de exibição de mês, em pixels."
 
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:41
 msgid ""
