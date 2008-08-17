@@ -430,7 +430,7 @@ msgstr ""
 
 #: ../jhbuild/commands/tinderbox.py:46
 msgid "directory to store build logs in"
-msgstr "diretório para armazenar os registros de construção"
+msgstr "diretório para armazenar os registros de compilação"
 
 #: ../jhbuild/commands/tinderbox.py:85
 msgid "output directory for tinderbox build not specified"
@@ -483,7 +483,7 @@ msgstr ""
 
 #: ../jhbuild/cut_n_paste/optparse.py:1237
 msgid "show this help message and exit"
-msgstr "exibir essa mensagem de ajuda e terminar"
+msgstr "exibir essa mensagem de ajuda e sair"
 
 #: ../jhbuild/cut_n_paste/optparse.py:1242
 msgid "show program's version number and exit"
@@ -882,7 +882,7 @@ msgstr ""
 #: ../jhbuild/utils/unpack.py:105
 #, python-format
 msgid "Failed to unpack %s (unknown archive type)"
-msgstr "Falhou ao descomprimir %s (tipo desconhecido de arquivo)"
+msgstr "Falhou ao descomprimir %s (tipo de arquivo desconhecido)"
 
 #: ../jhbuild/utils/unpack.py:107
 #, python-format
@@ -1001,7 +1001,7 @@ msgstr ""
 #: ../jhbuild/versioncontrol/mtn.py:131
 #, python-format
 msgid "Updating working copy %s"
-msgstr "Atualizando cópia de trabalho %s"
+msgstr "Atualizando a cópia de trabalho %s"
 
 #: ../jhbuild/versioncontrol/svn.py:69
 msgid "Getting SVN subdirs: this operation might be long..."
@@ -1059,15 +1059,15 @@ msgstr ""
 #: ../jhbuild/versioncontrol/tarball.py:201
 #, python-format
 msgid "could not download patch (error: %s)"
-msgstr "não foi possível obter a correção (erro: %s)"
+msgstr "não foi possível baixar o arquivo de correção (erro: %s)"
 
 #: ../jhbuild/versioncontrol/tarball.py:203
 msgid "could not download patch"
-msgstr "não foi possível obter a correção"
+msgstr "não foi possível baixar o arquivo de correção"
 
 #: ../jhbuild/versioncontrol/tarball.py:224
 msgid "Applying patch"
-msgstr "Aplicando correção"
+msgstr "Aplicando arquivo de correção"
 
 #: ../jhbuild/versioncontrol/tarball.py:231
 msgid "unable to find quilt"
@@ -1079,7 +1079,7 @@ msgstr ""
 
 #: ../jhbuild/config.py:100
 msgid "could not load config defaults"
-msgstr "não foi possível carregar as configurações padrões"
+msgstr "não foi possível carregar as configurações padrão"
 
 #: ../jhbuild/config.py:107
 msgid "could not load config file"
@@ -1101,7 +1101,7 @@ msgstr "Não foi possível criar o diretório %s"
 
 #: ../jhbuild/main.py:83
 msgid "JHBuild commands are:"
-msgstr "Comandos para o JHBuild são:"
+msgstr "Os comandos para o JHBuild são:"
 
 #: ../jhbuild/main.py:89
 msgid "For more information run \"jhbuild <command> --help\""
@@ -1116,8 +1116,8 @@ msgid ""
 "Build a set of modules from diverse repositories in correct dependency order "
 "(such as GNOME)."
 msgstr ""
-"Constrói um conjunto de módulos de vários repositórios na ordem correta de "
-"dependência (como GNOME)."
+"Compila um conjunto de módulos de vários repositórios na ordem correta de "
+"dependências (como GNOME)."
 
 #: ../jhbuild/main.py:99
 msgid "Information about available jhbuild commands"
@@ -1156,7 +1156,7 @@ msgstr "módulo \"%s\" não encontrado"
 #: ../jhbuild/moduleset.py:81
 #, python-format
 msgid "dependent module \"%s\" not found"
-msgstr "módulo dependente '%s' não encontrado"
+msgstr "módulo dependente \"%s\" não encontrado"
 
 #: ../jhbuild/moduleset.py:185
 msgid "W: Unknown module:"
