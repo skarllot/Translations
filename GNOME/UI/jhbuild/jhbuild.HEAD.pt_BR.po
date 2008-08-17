@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: jhbuild HEAD\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-08-15 21:12+0000\n"
-"PO-Revision-Date: 2008-08-17 15:58-0300\n"
+"PO-Revision-Date: 2008-08-17 18:55-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-l10n-br@listas.cipsga.org.br>\n"
 "MIME-Version: 1.0\n"
@@ -483,7 +483,7 @@ msgstr ""
 
 #: ../jhbuild/cut_n_paste/optparse.py:1237
 msgid "show this help message and exit"
-msgstr "exibir essa mensagem de ajuda e sair"
+msgstr "mostrar essa mensagem de ajuda e sair"
 
 #: ../jhbuild/cut_n_paste/optparse.py:1242
 msgid "show program's version number and exit"
