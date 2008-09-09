@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: evolution\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-08-01 20:27+0000\n"
-"PO-Revision-Date: 2008-09-08 23:52-0300\n"
+"PO-Revision-Date: 2008-09-08 23:59-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-l10n-br@listas.cipsga.org.br>\n"
 "MIME-Version: 1.0\n"
@@ -5163,8 +5163,8 @@ msgid ""
 "Whether to compress weekends in the month view, which puts Saturday and "
 "Sunday in the space of one weekday."
 msgstr ""
-"Comprimir os finais de semana na visão de mês, colocando Sábado e Domingo no "
-"espaço de um dia."
+"Comprimir os finais de semana na exibição de mês, colocando Sábado e Domingo "
+"no espaço de um dia."
 
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:77
 msgid "Whether to display the end time of events in the week and month views."
@@ -5438,7 +5438,7 @@ msgstr "Exibição de dia"
 
 #: ../calendar/gui/calendar-view-factory.c:112
 msgid "Work Week View"
-msgstr "Visão de semana útil"
+msgstr "Exibição de semana útil"
 
 #: ../calendar/gui/calendar-view-factory.c:115
 msgid "Week View"
