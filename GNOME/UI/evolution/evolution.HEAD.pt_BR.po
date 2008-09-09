@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: evolution\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-08-01 20:27+0000\n"
-"PO-Revision-Date: 2008-08-12 01:01-0300\n"
+"PO-Revision-Date: 2008-09-08 23:52-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-l10n-br@listas.cipsga.org.br>\n"
 "MIME-Version: 1.0\n"
@@ -1133,9 +1133,9 @@ msgid ""
 "searches will begin. If you leave this blank, the search will begin at the "
 "root of the directory tree."
 msgstr ""
-"A base de pesquisa é o nome distinto (DN) do ponto a partir do qual as "
-"suas pesquisas começarão. Se você deixar este campo vazio as pesquisas "
-"começarão na raiz da árvore do diretório."
+"A base de pesquisa é o nome distinto (DN) do ponto a partir do qual as suas "
+"pesquisas começarão. Se você deixar este campo vazio as pesquisas começarão "
+"na raiz da árvore do diretório."
 
 #: ../addressbook/gui/component/ldap-config.glade.h:38
 msgid ""
@@ -4131,13 +4131,12 @@ msgstr ""
 
 #. For Translators: {0} is the name of the calendar source
 #: ../calendar/calendar.error.xml.h:4
-#, fuzzy
 msgid ""
 "'{0}' is a read-only calendar and cannot be modified. Please select a "
 "different calendar that can accept appointments."
 msgstr ""
 "\"{0}\" é uma agenda somente de leitura e não pode ser modificada. Por "
-"favor, selecione outra agenda que aceite marcação de compromissos"
+"favor, selecione outra agenda que aceite marcação de compromissos."
 
 #: ../calendar/calendar.error.xml.h:5
 msgid ""
@@ -4408,9 +4407,8 @@ msgid "The calendar is not marked for offline usage."
 msgstr "A agenda não está configurada para uso desconectado."
 
 #: ../calendar/calendar.error.xml.h:54
-#, fuzzy
 msgid "The memo list is not marked for offline usage."
-msgstr "A lista de memorandos não está configurada para uso desconectado"
+msgstr "A lista de memorandos não está configurada para uso desconectado."
 
 #: ../calendar/calendar.error.xml.h:55
 msgid "The task list is not marked for offline usage."
@@ -4987,8 +4985,8 @@ msgid ""
 "Position of the horizontal pane, between the view and the date navigator "
 "calendar and task list in the month view, in pixels."
 msgstr ""
-"Posição do painel horizontal, entre a exibição e a agenda de navegação de datas "
-"e a lista de tarefas em modo de exibição de mês, em pixels."
+"Posição do painel horizontal, entre a exibição e a agenda de navegação de "
+"datas e a lista de tarefas em modo de exibição de mês, em pixels."
 
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:41
 msgid ""
@@ -5011,16 +5009,17 @@ msgid ""
 "Position of the vertical pane, between the view and the date navigator "
 "calendar and task list in the month view, in pixels."
 msgstr ""
-"Posição do painel vertical, entre a exibição e a agenda de navegação de datas e "
-"a lista de tarefas no modo de exibição de mês, em pixels."
+"Posição do painel vertical, entre a exibição e a agenda de navegação de "
+"datas e a lista de tarefas no modo de exibição de mês, em pixels."
 
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:44
 msgid ""
 "Position of the vertical pane, between the view and the date navigator "
 "calendar and task list when not in the month view, in pixels."
 msgstr ""
-"Posição do painel vertical, entre a exibição e a agenda de navegação de datas e a "
-"lista de tarefas quando não estiver em modo de exibição de mês, em pixels."
+"Posição do painel vertical, entre a exibição e a agenda de navegação de "
+"datas e a lista de tarefas quando não estiver em modo de exibição de mês, em "
+"pixels."
 
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:45
 msgid "Programs that are allowed to be run by alarms."
@@ -5169,7 +5168,8 @@ msgstr ""
 
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:77
 msgid "Whether to display the end time of events in the week and month views."
-msgstr "Exibir a hora de término de compromissos nas exibições de semana e mês."
+msgstr ""
+"Exibir a hora de término de compromissos nas exibições de semana e mês."
 
 #: ../calendar/gui/apps_evolution_calendar.schemas.in.h:78
 msgid ""
@@ -5312,8 +5312,8 @@ msgid ""
 "events."
 msgstr ""
 "Esta operação apagará permanentemente todos os eventos com tempo superior a "
-"quantidade selecionada. Se você continuar, você não será capaz de "
-"recuperar estes eventos."
+"quantidade selecionada. Se você continuar, você não será capaz de recuperar "
+"estes eventos."
 
 #: ../calendar/gui/calendar-commands.c:323
 msgid "Purge events older than"
@@ -5536,7 +5536,7 @@ msgstr "Feriado"
 #: ../calendar/gui/caltypes.xml.h:20 ../calendar/gui/memotypes.xml.h:19
 #: ../calendar/gui/tasktypes.xml.h:23
 msgid "Holiday Cards"
-msgstr ""
+msgstr "Cartões comemorativos"
 
 #: ../calendar/gui/caltypes.xml.h:21 ../calendar/gui/memotypes.xml.h:20
 #: ../calendar/gui/tasktypes.xml.h:24
@@ -5545,9 +5545,8 @@ msgstr "Contatos preferidos"
 
 #: ../calendar/gui/caltypes.xml.h:22 ../calendar/gui/memotypes.xml.h:21
 #: ../calendar/gui/tasktypes.xml.h:25
-#, fuzzy
 msgid "Ideas"
-msgstr "dias"
+msgstr "Pensamentos"
 
 #: ../calendar/gui/caltypes.xml.h:23 ../calendar/gui/memotypes.xml.h:22
 #: ../calendar/gui/tasktypes.xml.h:27
@@ -5556,20 +5555,17 @@ msgstr "Internacional"
 
 #: ../calendar/gui/caltypes.xml.h:24 ../calendar/gui/memotypes.xml.h:23
 #: ../calendar/gui/tasktypes.xml.h:28
-#, fuzzy
 msgid "Key Customer"
-msgstr "Personalizar"
+msgstr "Personalizador de teclas"
 
 #: ../calendar/gui/caltypes.xml.h:26 ../calendar/gui/memotypes.xml.h:24
 #: ../calendar/gui/tasktypes.xml.h:30
-#, fuzzy
 msgid "Miscellaneous"
 msgstr "Diversos"
 
 #: ../calendar/gui/caltypes.xml.h:27 ../calendar/gui/tasktypes.xml.h:31
-#, fuzzy
 msgid "Next 7 days"
-msgstr "Tarefas para os próximos 7 dias"
+msgstr "Próximos 7 dias"
 
 #: ../calendar/gui/caltypes.xml.h:28
 #: ../calendar/gui/dialogs/meeting-page.glade.h:6
@@ -5579,9 +5575,8 @@ msgstr "Organizador"
 
 #: ../calendar/gui/caltypes.xml.h:30 ../calendar/gui/memotypes.xml.h:28
 #: ../calendar/gui/tasktypes.xml.h:36
-#, fuzzy
 msgid "Phone Calls"
-msgstr "Telefone"
+msgstr "Ligações para telefone"
 
 #: ../calendar/gui/caltypes.xml.h:31 ../calendar/gui/e-cal-list-view.c:254
 #: ../calendar/gui/e-cal-model.c:327 ../calendar/gui/e-calendar-table.c:546
@@ -5611,9 +5606,8 @@ msgstr "Estado"
 
 #: ../calendar/gui/caltypes.xml.h:35 ../calendar/gui/memotypes.xml.h:32
 #: ../calendar/gui/tasktypes.xml.h:39
-#, fuzzy
 msgid "Strategies"
-msgstr "Categorias"
+msgstr "Estratégias"
 
 #: ../calendar/gui/caltypes.xml.h:36
 #: ../calendar/gui/e-cal-list-view.etspec.h:5
@@ -5627,29 +5621,27 @@ msgstr "Resumo"
 #: ../calendar/gui/caltypes.xml.h:37 ../calendar/gui/memotypes.xml.h:34
 #: ../calendar/gui/tasktypes.xml.h:41
 msgid "Summary Contains"
-msgstr "O Resumo Contém"
+msgstr "O resumo contém"
 
 #: ../calendar/gui/caltypes.xml.h:38 ../calendar/gui/memotypes.xml.h:35
 #: ../calendar/gui/tasktypes.xml.h:42
-#, fuzzy
 msgid "Suppliers"
-msgstr "Respostas"
+msgstr "Fornecedores"
 
 #: ../calendar/gui/caltypes.xml.h:39 ../calendar/gui/memotypes.xml.h:36
 #: ../calendar/gui/tasktypes.xml.h:43
 msgid "Time &amp; Expenses"
-msgstr ""
+msgstr "Tempo e gastos"
 
 #: ../calendar/gui/caltypes.xml.h:40 ../calendar/gui/memotypes.xml.h:37
 #: ../calendar/gui/tasktypes.xml.h:45
 msgid "VIP"
-msgstr ""
+msgstr "VIP"
 
 #: ../calendar/gui/caltypes.xml.h:41 ../calendar/gui/memotypes.xml.h:38
 #: ../calendar/gui/tasktypes.xml.h:46
-#, fuzzy
 msgid "Waiting"
-msgstr "Esperando..."
+msgstr "Esperando"
 
 #: ../calendar/gui/caltypes.xml.h:42 ../calendar/gui/memotypes.xml.h:39
 #: ../calendar/gui/tasktypes.xml.h:47 ../mail/em-filter-i18n.h:10
@@ -5689,7 +5681,7 @@ msgstr "Erro desconhecido"
 
 #: ../calendar/gui/dialogs/alarm-dialog.c:602
 msgid "Edit Alarm"
-msgstr "Editar Alarme"
+msgstr "Editar alarme"
 
 #: ../calendar/gui/dialogs/alarm-dialog.glade.h:1
 msgid "<b>Alarm</b>"
@@ -5705,7 +5697,7 @@ msgstr "<b>Repetir</b>"
 
 #: ../calendar/gui/dialogs/alarm-dialog.glade.h:4
 msgid "Add Alarm"
-msgstr "Adicionar Alarme"
+msgstr "Adicionar alarme"
 
 #: ../calendar/gui/dialogs/alarm-dialog.glade.h:5
 msgid "Custom _message"
@@ -5736,11 +5728,11 @@ msgstr "Executar um programa"
 
 #: ../calendar/gui/dialogs/alarm-dialog.glade.h:11
 msgid "Select A File"
-msgstr "Selecionar um Arquivo"
+msgstr "Selecionar um arquivo"
 
 #: ../calendar/gui/dialogs/alarm-dialog.glade.h:12
 msgid "Send To:"
-msgstr "Enviar Para:"
+msgstr "Enviar para:"
 
 #: ../calendar/gui/dialogs/alarm-dialog.glade.h:13
 #: ../calendar/gui/e-alarm-list.c:450
@@ -5803,7 +5795,7 @@ msgstr "início do compromisso"
 
 #: ../calendar/gui/dialogs/alarm-list-dialog.c:243
 msgid "Action/Trigger"
-msgstr "Ação/Gatilho"
+msgstr "Ação ou gatilho"
 
 #: ../calendar/gui/dialogs/alarm-list-dialog.glade.h:1
 msgid "A_dd"
@@ -5856,7 +5848,7 @@ msgstr "<span weight=\"bold\">Alertas</span>"
 
 #: ../calendar/gui/dialogs/cal-prefs-dialog.glade.h:9
 msgid "<span weight=\"bold\">Default Free/Busy Server</span>"
-msgstr "<span weight=\"bold\">Servidor Padrão de Disponibilidade</span>"
+msgstr "<span weight=\"bold\">Servidor padrão de disponibilidade</span>"
 
 #: ../calendar/gui/dialogs/cal-prefs-dialog.glade.h:10
 #: ../mail/mail-config.glade.h:17
@@ -5866,7 +5858,7 @@ msgstr "<span weight=\"bold\">Geral</span>"
 
 #: ../calendar/gui/dialogs/cal-prefs-dialog.glade.h:11
 msgid "<span weight=\"bold\">Task List</span>"
-msgstr "<span weight=\"bold\">Lista de Tarefas</span>"
+msgstr "<span weight=\"bold\">Lista de tarefas</span>"
 
 #: ../calendar/gui/dialogs/cal-prefs-dialog.glade.h:12
 msgid "<span weight=\"bold\">Time</span>"
@@ -5874,7 +5866,7 @@ msgstr "<span weight=\"bold\">Tempo</span>"
 
 #: ../calendar/gui/dialogs/cal-prefs-dialog.glade.h:13
 msgid "<span weight=\"bold\">Work Week</span>"
-msgstr "<span weight=\"bold\">Semana de Trabalho</span>"
+msgstr "<span weight=\"bold\">Semana de trabalho</span>"
 
 #: ../calendar/gui/dialogs/cal-prefs-dialog.glade.h:14
 msgid "Adjust for daylight sa_ving time"
@@ -6025,7 +6017,7 @@ msgstr "Pedir confirm_ação ao excluir itens"
 
 #: ../calendar/gui/dialogs/cal-prefs-dialog.glade.h:55
 msgid "_Compress weekends in month view"
-msgstr "_Comprimir finais de semana na visão de mês"
+msgstr "_Comprimir finais de semana na exibição de mês"
 
 #: ../calendar/gui/dialogs/cal-prefs-dialog.glade.h:56
 msgid "_Day begins:"
@@ -6056,7 +6048,7 @@ msgstr "Sá_b"
 
 #: ../calendar/gui/dialogs/cal-prefs-dialog.glade.h:65
 msgid "_Show appointment end times in week and month view"
-msgstr "Mostrar _hora de término de compromissos nas visões de semana e mês"
+msgstr "Mostrar _hora de término de compromissos nas exibições de semana e mês"
 
 #: ../calendar/gui/dialogs/cal-prefs-dialog.glade.h:66
 msgid "_Time divisions:"
@@ -6089,46 +6081,44 @@ msgstr ""
 #: ../calendar/gui/dialogs/calendar-setup.c:273
 msgid "Cop_y memo list contents locally for offline operation"
 msgstr ""
-"Cop_iar conteúdo da lista de memorandos localmente para operação desconectada"
+"Cop_iar conteúdo da lista de memorandos localmente para operações "
+"desconectadas"
 
 #: ../calendar/gui/dialogs/calendar-setup.c:343
-#, fuzzy
 msgid "Colo_r:"
 msgstr "C_or:"
 
 #: ../calendar/gui/dialogs/calendar-setup.c:378
 msgid "Task List"
-msgstr "Lista de Tarefas"
+msgstr "Lista de tarefas"
 
 #: ../calendar/gui/dialogs/calendar-setup.c:389
 msgid "Memo List"
-msgstr "Lista de Memorandos"
+msgstr "Lista de memorandos"
 
 #: ../calendar/gui/dialogs/calendar-setup.c:474
 msgid "Calendar Properties"
-msgstr "Propriedades da Agenda"
+msgstr "Propriedades da agenda"
 
 #: ../calendar/gui/dialogs/calendar-setup.c:474
 msgid "New Calendar"
-msgstr "Nova Agenda"
+msgstr "Nova agenda"
 
 #: ../calendar/gui/dialogs/calendar-setup.c:530
 msgid "Task List Properties"
-msgstr "Propriedades da Lista de Tarefas"
+msgstr "Propriedades da lista de tarefas"
 
 #: ../calendar/gui/dialogs/calendar-setup.c:530
-#, fuzzy
 msgid "New Task List"
-msgstr "_Nova Lista de Tarefas"
+msgstr "Nova lista de tarefas"
 
 #: ../calendar/gui/dialogs/calendar-setup.c:586
-#, fuzzy
 msgid "Memo List Properties"
-msgstr "Propriedades da Lista de Tarefas"
+msgstr "Propriedades da lista de memorandos"
 
 #: ../calendar/gui/dialogs/calendar-setup.c:586
 msgid "New Memo List"
-msgstr "Nova Lista de Memorandos"
+msgstr "Nova Lista de memorandos"
 
 #: ../calendar/gui/dialogs/changed-comp.c:58
 msgid "This event has been deleted."
@@ -6224,7 +6214,7 @@ msgstr "_Mover"
 #: ../calendar/gui/dialogs/comp-editor.c:482 ../composer/e-msg-composer.c:2061
 #: ../mail/em-folder-tree.c:1008 ../mail/message-list.c:2049
 msgid "Cancel _Drag"
-msgstr "Cancelar _Arraste"
+msgstr "Cancelar _arraste"
 
 #: ../calendar/gui/dialogs/comp-editor.c:615
 #: ../calendar/gui/dialogs/comp-editor.c:3253 ../mail/em-utils.c:371
@@ -6239,7 +6229,7 @@ msgstr "Não foi possível atualizar objeto"
 
 #: ../calendar/gui/dialogs/comp-editor.c:929
 msgid "Edit Appointment"
-msgstr "Editar Compromisso"
+msgstr "Editar compromisso"
 
 #: ../calendar/gui/dialogs/comp-editor.c:936
 #, c-format
@@ -6254,7 +6244,7 @@ msgstr "Compromisso - %s"
 #: ../calendar/gui/dialogs/comp-editor.c:944
 #, c-format
 msgid "Assigned Task - %s"
-msgstr "Tarefa Atribuída - %s"
+msgstr "Tarefa atribuída - %s"
 
 #: ../calendar/gui/dialogs/comp-editor.c:946
 #, c-format
@@ -6267,7 +6257,6 @@ msgid "Memo - %s"
 msgstr "Memorandos - %s"
 
 #: ../calendar/gui/dialogs/comp-editor.c:967
-#, fuzzy
 msgid "No Summary"
 msgstr "Sem resumo"
 
@@ -6285,7 +6274,7 @@ msgstr "Cortar texto selecionado para a área de transferência"
 
 #: ../calendar/gui/dialogs/comp-editor.c:1282
 msgid "Click here to view help available"
-msgstr "Clicar aqui para ver ajuda disponível"
+msgstr "Clicar aqui para ver a ajuda disponível"
 
 #: ../calendar/gui/dialogs/comp-editor.c:1289
 msgid "Paste text from the clipboard"
@@ -6315,7 +6304,6 @@ msgid "_Help"
 msgstr "Aj_uda"
 
 #: ../calendar/gui/dialogs/comp-editor.c:1352
-#, fuzzy
 msgid "_Insert"
 msgstr "_Inserir"
 
@@ -6361,33 +6349,31 @@ msgstr "Pú_blico"
 
 #: ../calendar/gui/dialogs/comp-editor.c:1407
 msgid "Classify as public"
-msgstr "Classificar como Público"
+msgstr "Classificar como público"
 
 #: ../calendar/gui/dialogs/comp-editor.c:1412
 msgid "_Private"
 msgstr "_Particular"
 
 #: ../calendar/gui/dialogs/comp-editor.c:1414
-#, fuzzy
 msgid "Classify as private"
-msgstr "Classificar como Privado"
+msgstr "Classificar como privado"
 
 #: ../calendar/gui/dialogs/comp-editor.c:1419
 msgid "_Confidential"
 msgstr "_Confidencial"
 
 #: ../calendar/gui/dialogs/comp-editor.c:1421
-#, fuzzy
 msgid "Classify as confidential"
-msgstr "Classificar como Confidencial"
+msgstr "Classificar como confidencial"
 
 #: ../calendar/gui/dialogs/comp-editor.c:1429
 msgid "R_ole Field"
-msgstr "Campo _Papel"
+msgstr "Campo _papel"
 
 #: ../calendar/gui/dialogs/comp-editor.c:1431
 msgid "Toggles whether the Role field is displayed"
-msgstr "Alterna a exibição do campo Papel"
+msgstr "Alterna a exibição do campo papel"
 
 #: ../calendar/gui/dialogs/comp-editor.c:1437
 msgid "_RSVP"
@@ -6399,7 +6385,7 @@ msgstr "Alterna a exibição do campo RSVP"
 
 #: ../calendar/gui/dialogs/comp-editor.c:1445
 msgid "_Status Field"
-msgstr "_Campo Estado"
+msgstr "_Campo estado"
 
 #: ../calendar/gui/dialogs/comp-editor.c:1447
 msgid "Toggles whether the Status field is displayed"
@@ -6407,18 +6393,16 @@ msgstr "Alterna a exibição do campo de estado"
 
 #: ../calendar/gui/dialogs/comp-editor.c:1453
 msgid "_Type Field"
-msgstr "Campo _Tipo"
+msgstr "Campo _tipo"
 
 #: ../calendar/gui/dialogs/comp-editor.c:1455
-#, fuzzy
 msgid "Toggles whether the Attendee Type is displayed"
 msgstr "Alterna a exibição do campo de tipo de participante"
 
 #: ../calendar/gui/dialogs/comp-editor.c:1765
 #: ../widgets/misc/e-attachment-bar.c:1381
-#, fuzzy
 msgid "Recent Docu_ments"
-msgstr "porcentagem Concluída"
+msgstr "Docu_mentos recentes"
 
 #: ../calendar/gui/dialogs/comp-editor.c:1784
 #: ../composer/e-composer-actions.c:700
@@ -6434,12 +6418,12 @@ msgstr[1] "<b>%d</b> Anexos"
 
 #: ../calendar/gui/dialogs/comp-editor.c:1911
 msgid "Hide Attachment _Bar"
-msgstr "Ocultar _Barra de Anexos"
+msgstr "Ocultar _barra de anexos"
 
 #: ../calendar/gui/dialogs/comp-editor.c:1914
 #: ../calendar/gui/dialogs/comp-editor.c:2222
 msgid "Show Attachment _Bar"
-msgstr "Mostrar _Barra de Anexos"
+msgstr "Mostrar _barra de anexos"
 
 #: ../calendar/gui/dialogs/comp-editor.c:2033
 #: ../calendar/gui/dialogs/event-page.c:1872
@@ -6459,7 +6443,7 @@ msgstr "_Adicionar anexo..."
 #: ../calendar/gui/dialogs/comp-editor.c:2244
 #: ../mail/em-format-html-display.c:2196
 msgid "Show Attachments"
-msgstr "Mostrar Anexos"
+msgstr "Mostrar anexos"
 
 #: ../calendar/gui/dialogs/comp-editor.c:2245
 msgid "Press space key to toggle attachment bar"
@@ -6496,19 +6480,19 @@ msgstr ""
 
 #: ../calendar/gui/dialogs/delete-error.c:53
 msgid "The event could not be deleted due to a corba error"
-msgstr "O evento não pôde ser excluído devido a um erro do corba"
+msgstr "O evento não pôde ser excluído devido a um erro do CORBA"
 
 #: ../calendar/gui/dialogs/delete-error.c:56
 msgid "The task could not be deleted due to a corba error"
-msgstr "A tarefa não pôde ser excluída devido a um erro do corba"
+msgstr "A tarefa não pôde ser excluída devido a um erro do CORBA"
 
 #: ../calendar/gui/dialogs/delete-error.c:59
 msgid "The memo could not be deleted due to a corba error"
-msgstr "O memorando não pode ser excluído devido a um erro do corba"
+msgstr "O memorando não pôde ser excluído devido a um erro do CORBA"
 
 #: ../calendar/gui/dialogs/delete-error.c:62
 msgid "The item could not be deleted due to a corba error"
-msgstr "O item não pôde ser excluído devido a um erro do corba"
+msgstr "O item não pôde ser excluído devido a um erro do CORBA"
 
 #: ../calendar/gui/dialogs/delete-error.c:69
 msgid "The event could not be deleted because permission was denied"
@@ -6520,7 +6504,7 @@ msgstr "A tarefa não pôde ser excluída porque a permissão foi negada"
 
 #: ../calendar/gui/dialogs/delete-error.c:75
 msgid "The memo could not be deleted because permission was denied"
-msgstr "O memorando não pode ser excluído porque a permissão foi negada"
+msgstr "O memorando não pôde ser excluído porque a permissão foi negada"
 
 #: ../calendar/gui/dialogs/delete-error.c:78
 msgid "The item could not be deleted because permission was denied"
@@ -6536,7 +6520,7 @@ msgstr "A tarefa não pôde ser excluída devido a um erro"
 
 #: ../calendar/gui/dialogs/delete-error.c:91
 msgid "The memo could not be deleted due to an error"
-msgstr "O memorando não pode ser excluído devido a um erro"
+msgstr "O memorando não pôde ser excluído devido a um erro"
 
 #: ../calendar/gui/dialogs/delete-error.c:94
 msgid "The item could not be deleted due to an error"
@@ -6549,11 +6533,11 @@ msgstr "Contatos..."
 #: ../calendar/gui/dialogs/e-delegate-dialog.glade.h:2
 #: ../plugins/exchange-operations/exchange-delegates.c:415
 msgid "Delegate To:"
-msgstr "Delegar Para:"
+msgstr "Delegar para:"
 
 #: ../calendar/gui/dialogs/e-delegate-dialog.glade.h:3
 msgid "Enter Delegate"
-msgstr "Informar Representante"
+msgstr "Informar representante"
 
 #: ../calendar/gui/dialogs/event-editor.c:195
 msgid "_Alarms"
@@ -6575,7 +6559,7 @@ msgstr "Tornar este evento recorrente"
 #: ../plugins/groupwise-features/org-gnome-compose-send-options.xml.h:2
 #: ../widgets/misc/e-send-options.glade.h:19
 msgid "Send Options"
-msgstr "Opções de Envio"
+msgstr "Opções de envio"
 
 #: ../calendar/gui/dialogs/event-editor.c:211
 #: ../calendar/gui/dialogs/task-editor.c:124
@@ -6591,7 +6575,6 @@ msgid "Toggles whether to have All Day Event"
 msgstr "Alterna a exibição do campo evento de dia inteiro"
 
 #: ../calendar/gui/dialogs/event-editor.c:227
-#, fuzzy
 msgid "Show Time as _Busy"
 msgstr "Exi_bir hora como ocupado"
 
@@ -6605,7 +6588,7 @@ msgstr "Disponibilidade"
 
 #: ../calendar/gui/dialogs/event-editor.c:240
 msgid "Query free / busy information for the attendees"
-msgstr "Pedir informação de Livre/Ocupado para os representantes"
+msgstr "Pedir informação de disponibilidade para os representantes"
 
 #: ../calendar/gui/dialogs/event-editor.c:295
 msgid "Appoint_ment"
