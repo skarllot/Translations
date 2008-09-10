@@ -1,5 +1,5 @@
 # Brazilian Portuguese translation of rhythmbox.
-# Copyright (C) 2003-2007 Free Software Foundation, Inc.
+# Copyright (C) 2003-2008 Free Software Foundation, Inc.
 # This file is distributed under the same license as the rhythmbox package.
 # Alexandre Folle de Menezes <afmenez@terra.com.br>, 2003.
 # Evandro Fernandes Giovanini <evandrofg@ig.com.br>, 2003.
@@ -13,14 +13,15 @@
 # Vladimir Melo <vladimirmelo@foresightlinux.org>, 2007
 # Og Maciel <ogmaciel@gnome.org>, 2006-2008.
 # Fábio Nogueira <deb-user-ba@ubuntu.com>, 2008.
+# Fabrício Godoy <skarllot@gmail.com>, 2008.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: rhythmbox\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-09-09 21:54+0000\n"
-"PO-Revision-Date: 2008-07-31 20:47-0500\n"
-"Last-Translator: Og Maciel <ogmaciel@gnome.org>\n"
+"PO-Revision-Date: 2008-09-09 23:51-0300\n"
+"Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-l10n-br@listas.cipsga.org.br>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,9 +34,9 @@ msgid "Do you want to overwrite the file \"%s\"?"
 msgstr "Você quer sobrescrever o arquivo \"%s\"?"
 
 #: ../backends/gstreamer/rb-encoder-gst.c:645
-#, fuzzy, c-format
+#, c-format
 msgid "Could not create a GStreamer sink element to write to %s"
-msgstr "Falha ao criar linha de processamento do GStreamer para reproduzir %s"
+msgstr "Falha ao criar o elemento consumidor do GStreamer para escrever em %s"
 
 #: ../backends/gstreamer/rb-player-gst.c:693 ../metadata/rb-metadata-gst.c:801
 #: ../metadata/rb-metadata-gst.c:1368
@@ -54,12 +55,12 @@ msgstr "Erro de reprodução desconhecido"
 #, c-format
 msgid "Failed to link new stream into GStreamer pipeline"
 msgstr ""
-"Falha ao conectar novo fluxo dentro da linha de processamento do GStreamer"
+"Falha ao conectar o novo fluxo dentro da linha de processamento do GStreamer"
 
 #: ../backends/gstreamer/rb-player-gst-xfade.c:1149
 #, c-format
 msgid "Failed to start new stream"
-msgstr "Falha ao iniciar novo fluxo"
+msgstr "Falha ao iniciar o novo fluxo"
 
 #. ?
 #: ../backends/gstreamer/rb-player-gst-xfade.c:2583
@@ -92,18 +93,18 @@ msgstr "Falha ao criar elemento de saída de áudio; verifique a sua instalaçã
 #, c-format
 msgid "Failed to link GStreamer pipeline; check your installation"
 msgstr ""
-"Falha ao conectar linha de processamento do GStreamer; verifique a sua "
+"Falha ao conectar à fila de processamento do GStreamer; verifique a sua "
 "instalação"
 
 #: ../backends/gstreamer/rb-player-gst-xfade.c:3101
 #, c-format
 msgid "Failed to create GStreamer pipeline to play %s"
-msgstr "Falha ao criar linha de processamento do GStreamer para reproduzir %s"
+msgstr "Falha ao criar a fila de processamento do GStreamer para reproduzir %s"
 
 #: ../backends/gstreamer/rb-player-gst-xfade.c:3117
 #, c-format
 msgid "Failed to start playback of %s"
-msgstr "Falha ao iniciar reprodução de %s"
+msgstr "Falha ao iniciar a reprodução de %s"
 
 #: ../data/glade/create-playlist.glade.h:1
 msgid "A_dd if any criteria are matched"
@@ -143,11 +144,11 @@ msgstr "Ál_bum"
 
 #: ../data/glade/general-prefs.glade.h:2
 msgid "Browser Views"
-msgstr "Visões no navegador"
+msgstr "Exibições no navegador"
 
 #: ../data/glade/general-prefs.glade.h:3
 msgid "Da_te added"
-msgstr "Da_ta de inclusão"
+msgstr "Data de _inclusão"
 
 #: ../data/glade/general-prefs.glade.h:4
 msgid ""
@@ -170,9 +171,8 @@ msgid "G_enres, artists and albums"
 msgstr "Gên_eros, artistas e álbuns"
 
 #: ../data/glade/general-prefs.glade.h:11
-#, fuzzy
 msgid "Lo_cation"
-msgstr "Localização"
+msgstr "_Localização"
 
 #: ../data/glade/general-prefs.glade.h:12
 msgid "Ti_me"
@@ -192,7 +192,7 @@ msgstr "Colunas visíveis"
 
 #: ../data/glade/general-prefs.glade.h:16
 msgid "_Artist"
-msgstr "_Artista"
+msgstr "Ar_tista"
 
 #: ../data/glade/general-prefs.glade.h:17
 msgid "_Artists and albums"
@@ -204,7 +204,7 @@ msgstr "_Gênero"
 
 #: ../data/glade/general-prefs.glade.h:19
 msgid "_Genres and artists"
-msgstr "_Gêneros e artistas"
+msgstr "Gênero_s e artistas"
 
 #: ../data/glade/general-prefs.glade.h:20
 msgid "_Last played"
@@ -224,7 +224,7 @@ msgstr "A_valiação"
 
 #: ../data/glade/general-prefs.glade.h:24
 msgid "_Year"
-msgstr "_Ano"
+msgstr "An_o"
 
 #: ../data/glade/library-prefs.glade.h:1
 #: ../data/glade/playback-prefs.glade.h:1
@@ -257,7 +257,7 @@ msgstr "_Editar..."
 
 #: ../data/glade/library-prefs.glade.h:8
 msgid "_File name:"
-msgstr "_Nome do arquivo:"
+msgstr "Nome do ar_quivo:"
 
 #: ../data/glade/library-prefs.glade.h:9
 msgid "_Music files are placed in:"
@@ -277,7 +277,7 @@ msgstr "T_ransição suave entre músicas do mesmo álbum"
 
 #: ../data/glade/playback-prefs.glade.h:3
 msgid "Crossfade Duration (Seconds)"
-msgstr "Duração da transição suave (Segundos)"
+msgstr "Duração da transição suave (segundos)"
 
 #: ../data/glade/playback-prefs.glade.h:4
 msgid "Crossfade Type"
@@ -293,7 +293,7 @@ msgstr "Backend do reprodutor"
 
 #: ../data/glade/playback-prefs.glade.h:7
 msgid "_Use crossfading backend (requires restart)"
-msgstr "_Usar backend de transição suave (requer reiniciar)"
+msgstr "_Usar backend de transição suave (requer reinicialização)"
 
 #: ../data/glade/playlist-save.glade.h:1
 msgid "<b>Playlist format</b>"
@@ -413,7 +413,7 @@ msgstr "Local para _download:"
 #: ../data/glade/song-info.glade.h:2
 #: ../plugins/iradio/station-properties.glade.h:2
 msgid "Bitrate:"
-msgstr "Taxa de bit:"
+msgstr "Taxa de bits:"
 
 #: ../data/glade/podcast-properties.glade.h:4
 msgid "Date:"
@@ -464,7 +464,7 @@ msgstr "_Artista:"
 #: ../data/glade/song-info-multiple.glade.h:3
 #: ../data/glade/song-info.glade.h:14
 msgid "_Disc number:"
-msgstr "_Número do disco:"
+msgstr "Número do _disco:"
 
 #: ../data/glade/song-info-multiple.glade.h:4
 #: ../data/glade/song-info.glade.h:15
@@ -506,7 +506,7 @@ msgstr "_Título:"
 
 #: ../data/glade/song-info.glade.h:18
 msgid "_Track number:"
-msgstr "_Número da faixa:"
+msgstr "Número da _faixa:"
 
 #: ../data/glade/uri.glade.h:1
 msgid "*"
@@ -526,11 +526,11 @@ msgstr "Minhas preferidas"
 
 #: ../data/playlists.xml.in.h:2
 msgid "Recently Added"
-msgstr "Adicionado recentemente"
+msgstr "Adic. recentemente"
 
 #: ../data/playlists.xml.in.h:3
 msgid "Recently Played"
-msgstr "Reproduzido recentemente"
+msgstr "Rep. recentemente"
 
 #: ../data/rhythmbox.desktop.in.in.h:1
 #: ../plugins/power-manager/rb-power-manager-plugin.c:207
@@ -541,7 +541,7 @@ msgstr "Reprodutor de músicas"
 
 #: ../data/rhythmbox.desktop.in.in.h:2
 msgid "Play and organize your music collection"
-msgstr "Reproduzir e organizar a sua coleção de músicas"
+msgstr "Reproduz e organiza a sua coleção de músicas"
 
 #: ../data/rhythmbox.desktop.in.in.h:3
 msgid "Rhythmbox Music Player"
@@ -735,13 +735,13 @@ msgstr "Tipo de arquivo sem suporte: %s"
 #: ../metadata/rb-metadata-gst.c:1305
 #, c-format
 msgid "Unable to create tag-writing elements"
-msgstr "Não foi possível criar elementos de escrita para marcas"
+msgstr "Não foi possível criar elementos de escrita de marcas"
 
 #: ../metadata/rb-metadata-gst.c:1320
 #, c-format
 msgid "Timeout while setting pipeline to NULL"
 msgstr ""
-"O tempo esgotou durante a definição da linha de processamento para NULL"
+"O tempo esgotou durante a definição da fila de processamento para NULL"
 
 #: ../metadata/rb-metadata-gst.c:1344
 #, c-format
@@ -758,11 +758,11 @@ msgstr "Buscar capas dos álbuns na internet"
 
 #: ../plugins/artdisplay/artdisplay/__init__.py:291
 msgid "Searching... drop artwork here"
-msgstr "Pesquisando... adicione trabalho de arte aqui"
+msgstr "Pesquisando... adicione a arte de capa aqui"
 
 #: ../plugins/artdisplay/artdisplay/__init__.py:293
 msgid "Drop artwork here"
-msgstr "Adicione trabalho de arte aqui"
+msgstr "Adicione a arte de capa aqui"
 
 #: ../plugins/audiocd/audiocd.rb-plugin.in.h:1
 msgid "Audio CD Player"
@@ -781,7 +781,7 @@ msgid ""
 "This CD could be more than one album. Please select which album it is below "
 "and press <i>Continue</i>."
 msgstr ""
-"Esse CD pode ser mais de um álbum. Por favor, selecione o álbum apropriado "
+"Esse CD pode ter mais de um álbum. Por favor, selecione o álbum apropriado "
 "abaixo e pressione <i>Continuar</i>."
 
 #: ../plugins/audiocd/multiple-album.glade.h:3
@@ -790,7 +790,7 @@ msgstr "_Continuar"
 
 #: ../plugins/audiocd/rb-audiocd-source.c:222
 msgid "<Invalid unicode>"
-msgstr "<Unicódigo inválido>"
+msgstr "<Unicode inválido>"
 
 #: ../plugins/audiocd/rb-audiocd-source.c:268
 #, c-format
@@ -851,11 +851,11 @@ msgstr "Título desconhecido"
 
 #: ../plugins/audiocd/sj-metadata-musicbrainz.c:372
 msgid "Incomplete metadata for this CD"
-msgstr "Metadados incompletos para esse CD"
+msgstr "Metadados incompletos para este CD"
 
 #: ../plugins/audiocd/sj-metadata-musicbrainz.c:402
 msgid "[Untitled]"
-msgstr ""
+msgstr "[Sem título]"
 
 #: ../plugins/audiocd/sj-metadata.c:186
 #, c-format
@@ -883,8 +883,8 @@ msgstr "Last.fm"
 #: ../plugins/audioscrobbler/audioscrobbler.rb-plugin.in.h:2
 msgid "Submits song information to last.fm and plays last.fm radio streams"
 msgstr ""
-"Envia informações da música para o last.fm e reproduz canais de rádio do "
-"last.fm"
+"Envia informações da música para o Last.fm e reproduz canais de rádio do "
+"Last.fm"
 
 #: ../plugins/audioscrobbler/audioscrobbler-prefs.glade.h:1
 msgid "0"
@@ -941,7 +941,7 @@ msgstr "_Senha:"
 
 #: ../plugins/audioscrobbler/audioscrobbler-prefs.glade.h:13
 msgid "_Username:"
-msgstr "Nome do _usuário:"
+msgstr "Nome de _usuário:"
 
 #: ../plugins/audioscrobbler/audioscrobbler-prefs.glade.h:14
 msgid "http://last.fm"
@@ -966,7 +966,7 @@ msgstr "OK"
 #: ../plugins/audioscrobbler/rb-audioscrobbler.c:1110
 #: ../plugins/audioscrobbler/rb-lastfm-source.c:1611
 msgid "Logging in"
-msgstr "Efetuando login"
+msgstr "Iniciando sessão"
 
 #: ../plugins/audioscrobbler/rb-audioscrobbler.c:1113
 msgid "Request failed"
@@ -1207,17 +1207,17 @@ msgstr "Gravar"
 #: ../plugins/cd-recorder/rb-recorder-gst.c:420
 #, c-format
 msgid "Failed to create pipeline"
-msgstr "Falha ao criar linha de processamento"
+msgstr "Falha ao criar a fila de processamento"
 
 #: ../plugins/cd-recorder/rb-recorder-gst.c:525
 #: ../plugins/cd-recorder/rb-recorder-gst.c:531
 #, c-format
 msgid "Unable to unlink '%s'"
-msgstr "Falha ao desligar \"%s\""
+msgstr "Falha ao desconectar \"%s\""
 
 #: ../plugins/cd-recorder/rb-recorder-gst.c:586
 msgid "Could not retrieve state from processing pipeline"
-msgstr "Não foi possível recuperar o estado a partir da linha de processamento"
+msgstr "Não foi possível recuperar o estado a partir da fila de processamento"
 
 #: ../plugins/cd-recorder/rb-recorder-gst.c:601
 msgid "Could not get current track position"
@@ -1226,7 +1226,7 @@ msgstr "Não foi possível obter a posição atual da faixa"
 #: ../plugins/cd-recorder/rb-recorder-gst.c:649
 #, c-format
 msgid "Could not start pipeline playing"
-msgstr "Não foi possível iniciar reprodução por linha de processamento"
+msgstr "Não foi possível iniciar reprodução da fila de processamento"
 
 #: ../plugins/cd-recorder/rb-recorder-gst.c:660
 #, c-format
@@ -1311,13 +1311,13 @@ msgstr[1] "%d segundos"
 #: ../plugins/cd-recorder/rb-playlist-source-recorder.c:482
 #, c-format
 msgid "%s %s %s"
-msgstr "%s %s %s"
+msgstr "%s:%s:%s"
 
 #. minutes:seconds
 #: ../plugins/cd-recorder/rb-playlist-source-recorder.c:485
 #, c-format
 msgid "%s %s"
-msgstr "%s %s"
+msgstr "%s:%s"
 
 #. seconds
 #: ../plugins/cd-recorder/rb-playlist-source-recorder.c:488
@@ -1349,7 +1349,7 @@ msgid ""
 "Create another copy?"
 msgstr ""
 "Criação do CD de áudio concluída.\n"
-"Você deseja criar uma outra cópia?"
+"Você deseja criar outra cópia?"
 
 #: ../plugins/cd-recorder/rb-playlist-source-recorder.c:574
 msgid "Writing failed.  Try again?"
@@ -1393,7 +1393,7 @@ msgstr "Não foi possível criar o CD de áudio"
 
 #: ../plugins/cd-recorder/rb-playlist-source-recorder.c:878
 msgid "Please make sure another application is not using the drive."
-msgstr "Por favor, certifique-se de que não há outra aplicação usando o drive."
+msgstr "Por favor, certifique-se de que não há outro aplicativo usando o drive."
 
 #: ../plugins/cd-recorder/rb-playlist-source-recorder.c:879
 msgid "Drive is busy"
@@ -1679,7 +1679,7 @@ msgstr "Máquina:porta do compartilhamento DAAP:"
 
 #: ../plugins/daap/rb-daap-plugin.c:893
 msgid "DAAP Music Sharing Preferences"
-msgstr "Preferências do Compartilhamento de Músicas DAAP"
+msgstr "Preferências do compartilhamento de músicas DAAP"
 
 #: ../plugins/daap/rb-daap-sharing.c:62
 #, c-format
@@ -1693,7 +1693,7 @@ msgstr "O compartilhamento de músicas \"%s\" requer uma senha para conectar"
 
 #: ../plugins/daap/rb-daap-source.c:360
 msgid "Password Required"
-msgstr "Senha Requerida"
+msgstr "Senha requerida"
 
 #: ../plugins/daap/rb-daap-source.c:432
 msgid "Connecting to music share"
@@ -3747,7 +3747,8 @@ msgstr ""
 "Lucas Mazzardo Veloso <lmveloso@gmail.com>\n"
 "Raul Pereira <contato@raulpereira.com>\n"
 "Vladimir Melo <vladimirmelo@foresightlinux.org>\n"
-"Fábio Nogueira <deb-user-ba@ubuntu.com>"
+"Fábio Nogueira <deb-user-ba@ubuntu.com>\n"
+"Fabrício Godoy <skarllot@gmail.com>"
 
 #: ../shell/rb-shell.c:2267
 msgid ""
