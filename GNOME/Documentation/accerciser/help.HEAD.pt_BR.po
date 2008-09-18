@@ -2,13 +2,14 @@
 # This file is distributed under the same license as the accerciser documentation package.
 # Copyright © 2007-2008 Free Software Foundation, Inc.
 # Enrico Nicoletto <liverig@gmail.com>, 2008.
+# Fabrício Godoy <skarllot@gmail.com>, 2008.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Accerciser Manual v0.2.0\n"
 "POT-Creation-Date: 2008-09-10 20:26+0000\n"
-"PO-Revision-Date: 2008-09-13 16:24-0300\n"
-"Last-Translator: Enrico Nicoletto <liverig@gmail.com>\n"
+"PO-Revision-Date: 2008-09-17 23:43-0300\n"
+"Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-l10n-br@listas.cipsga.org.br>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -272,12 +273,12 @@ msgid ""
 "system."
 msgstr ""
 "A barra de menu contém comandos para gerenciar plug-ins, gerenciar e usar "
-"marcadores, atualizar a exibição da hierarquia de acessibilidade e acessar "
-"este sistema de ajuda."
+"marcadores, atualizar a visão em árvore de acessibilidade e acessar este "
+"sistema de ajuda."
 
 #: C/accerciser.xml:224(term)
 msgid "Accessible tree view"
-msgstr "Visualização da hierarquia de acessibilidade"
+msgstr "Visão em árvore de acessíveis"
 
 #: C/accerciser.xml:226(para)
 msgid ""
@@ -285,14 +286,14 @@ msgid ""
 "the desktop level. Selecting an accessible makes it available for further "
 "inspection using the loaded plugins."
 msgstr ""
-"A exibição da hierarquia de acessibilidade permite visualizar todos os "
-"objetos acessíveis iniciando no nível da área de trabalho. Selecionando um "
-"objeto acessível o faz disponível para futuras inspeções usando os plug-ins "
+"A visão em árvore de acessíveis permite visualizar todos os objetos "
+"acessíveis iniciando no nível da área de trabalho. Selecionando um objeto "
+"acessível o faz disponível para futuras inspeções usando os plug-ins "
 "carregados."
 
 #: C/accerciser.xml:234(term)
 msgid "Right plugin view"
-msgstr "Exibição direita de plug-in"
+msgstr "Visão direita de plug-in"
 
 #: C/accerciser.xml:236(para)
 msgid ""
@@ -301,15 +302,15 @@ msgid ""
 "plugin tabs to the bottom plugin view or to the desktop to show two or more "
 "plugins simultaneously."
 msgstr ""
-"Esta é uma das duas exibições padrão de plug-in. Quando o "
+"Esta é uma das duas visões padrão de plug-in. Quando o "
 "<application>Accerciser</application> é executado pela primeira vez, a "
 "maioria dos plug-ins estarão localizados aqui. Você pode arrastar as abas de "
-"plug-ins para a exibição inferior ou para a área de trabalho para mostrar "
-"dois ou mais plug-ins simultaneamente."
+"plug-ins para a visão inferior ou para a área de trabalho para mostrar dois "
+"ou mais plug-ins simultaneamente."
 
 #: C/accerciser.xml:245(term)
 msgid "Bottom plugin view"
-msgstr "Exibição inferior de plug-in"
+msgstr "Visão inferior de plug-in"
 
 #: C/accerciser.xml:247(para)
 msgid ""
@@ -320,7 +321,7 @@ msgstr ""
 
 #: C/accerciser.xml:253(title)
 msgid "Plugin View Management"
-msgstr "Gerenciando a exibição de plug-in"
+msgstr "Gerenciando a visão de plug-in"
 
 #: C/accerciser.xml:254(para)
 msgid ""
@@ -337,20 +338,20 @@ msgid ""
 "of plugins could also be manipulated with the plugin context menu that could "
 "be brought up either from the plugin tab, or the plugin preferences dialog."
 msgstr ""
-"O <application>Accerciser</application> tem dois modos de exibição de plug-"
-"ins.O modo exibição atual poderia ser alternado em <menuchoice><guimenu>Ver</"
+"O <application>Accerciser</application> tem dois modos de visão de plug-ins. "
+"O modo exibição atual poderia ser alternado em <menuchoice><guimenu>Ver</"
 "guimenu><guimenuitem>Visão unificada de plug-ins</guimenuitem></menuchoice> "
 "ou pressionando <keycombo><keycap>Control</keycap><keycap>t</keycap></"
 "keycombo>. Quando o modo unificado é habilitado, todos os plug-ins serão "
-"postos na exibição direita de plug-in e ordenado alfabeticamente, isso "
-"poderia ser útil para usuários de leitor de tela os quais não usam o "
-"flexível esquema de layout de plug-ins espaciais do <application>Accerciser</"
+"postos na visão direita de plug-in e ordenado alfabeticamente, isso poderia "
+"ser útil para usuários de leitor de tela os quais não usam o flexível "
+"esquema de layout de plug-ins espaciais do <application>Accerciser</"
 "application>. Quando o modo unificado está desabilitado as abas de plug-in "
-"poderia ser arrastado e soltado em diferentes exibições de plug-in ou "
-"poderia ser arrastados para a área de trabalho para colocar o devido plug-in "
-"em uma nova exibição. O arranjo de plug-ins poderia também ser manipulado "
-"com o menu de contexto do plug-in que poderia ser criado tanto da aba de "
-"plug-in ou do diálogo de preferências de plug-in."
+"poderia ser arrastado e soltado em diferentes visões de plug-in ou poderia "
+"ser arrastados para a área de trabalho para colocar o devido plug-in em uma "
+"nova visão. O arranjo de plug-ins poderia também ser manipulado com o menu "
+"de contexto do plug-in que poderia ser criado tanto da aba de plug-in ou do "
+"diálogo de preferências de plug-in."
 
 #: C/accerciser.xml:278(title)
 msgid "Usage"
@@ -364,13 +365,13 @@ msgid ""
 "<placeholder-1/>"
 msgstr ""
 "Você pode usar o <application>Accerciser</application> para inspecionar "
-"qualquer widget acessível mostrado na exibição hierárquica utilizando os "
-"plug-ins disponíveis. O primeiro passo é selecionar um objeto acessível para "
+"qualquer widget acessível mostrado na visão em árvore utilizando os plug-ins "
+"disponíveis. O primeiro passo é selecionar um objeto acessível para "
 "inspecionar usando um dos seguintes métodos: <placeholder-1/>"
 
 #: C/accerciser.xml:292(title)
 msgid "Select an accessible through the tree view."
-msgstr "Selecione um objeto acessível através da exibição hierárquica."
+msgstr "Selecione um objeto acessível através da visão em árvore."
 
 #: C/accerciser.xml:293(para)
 msgid ""
@@ -380,12 +381,12 @@ msgid ""
 "widget role and its accessible name, if available. The second column lists "
 "how many nodes will be shown if the item is unfolded."
 msgstr ""
-"Use a exibição hierárquica para navegar pela hierarquia de objetos "
-"acessíveis, oriundos da área de trabalho. Expandindo-se um nó da árvore é "
-"revelado imediatamente os seus filhos, e ao recolher os esconde. Cada nó "
-"mostra um ícone correspondente ao aplicativo associado ou a lista de widget "
-"e o seu nome acessível, se disponível. A segunda coluna lista quantos nós "
-"serão mostrados se o item for expandido."
+"Use a visão em árvore para navegar pela hierarquia de objetos acessíveis, "
+"oriundos da área de trabalho. Expandindo-se um nó da árvore é revelado "
+"imediatamente os seus filhos, e ao recolher os esconde. Cada nó mostra um "
+"ícone correspondente ao aplicativo associado ou a lista de widget e o seu "
+"nome acessível, se disponível. A segunda coluna lista quantos nós serão "
+"mostrados se o item for expandido."
 
 #: C/accerciser.xml:304(title)
 msgid "Using bookmarks"
@@ -443,10 +444,10 @@ msgid ""
 "available in 0.1.5 are the following:"
 msgstr ""
 "O <application>Accerciser</application> vem com diversos plug-ins "
-"predefinidos. Estes plug-ins permitem que você exiba uma variedade de "
-"informações sobre o objeto acessível selecionado atualmente na exibição "
-"hierárquica e seus vizinhos. Os plug-ins predefinidos disponíveis na versão "
-"0.1.5 são os seguintes:"
+"predefinidos. Estes plug-ins permitem que você veja uma variedade de "
+"informações sobre o objeto acessível selecionado atualmente na visão em "
+"árvore e seus vizinhos. Os plug-ins predefinidos disponíveis na versão 0.1.5 "
+"são os seguintes:"
 
 #: C/accerciser.xml:363(title) C/accerciser.xml:367(title)
 msgid "Interface Viewer"
@@ -460,9 +461,9 @@ msgid ""
 "under each expander."
 msgstr ""
 "Este plug-in exibe informações sobre as interfaces disponíveis para o objeto "
-"acessível selecionado na exibição hierárquica. Interfaces sem suporte "
-"estarão acinzentadas. Vários instrumentos para visualizar e controlar uma "
-"interface estão disponíveis abaixo de cada extensor."
+"acessível selecionado na visão em árvore. Interfaces sem suporte estarão "
+"acinzentadas. Vários instrumentos para visualizar e controlar uma interface "
+"estão disponíveis abaixo de cada extensor."
 
 #: C/accerciser.xml:375(phrase)
 msgid ""
@@ -482,17 +483,17 @@ msgid ""
 "view accessible, from the selected tree view application, or the entire "
 "desktop."
 msgstr ""
-"Este plug-in monitora os tipos de eventos selecionados desde a visualização "
-"na árvore acessível, a visualização de árvore do aplicativo selecionado, ou "
-"de toda a área de trabalho."
+"Este plug-in monitora os tipos de eventos selecionados da visão em árvore de "
+"acessíveis, da visão em árvore do aplicativo selecionado, ou de toda a área "
+"de trabalho."
 
 #: C/accerciser.xml:392(phrase)
 msgid ""
 "The bottom part of the event monitor window allows you to pick the type and "
 "source of events."
 msgstr ""
-"A parte inferior da janela do monitor de eventos permite a você selecionar o "
-"tipo e o código dos eventos."
+"A parte inferior da janela do monitor de eventos permite que você selecione "
+"o tipo e a fonte de eventos."
 
 #: C/accerciser.xml:399(para)
 msgid ""
@@ -504,7 +505,7 @@ msgstr ""
 "Pressionando <keycombo><keycap>Control</keycap><keycap>Alt</"
 "keycap><keycap>l</keycap></keycombo> em qualquer parte da área de trabalho, "
 "o último evento registrado será destacado para futura referência. Veja <xref "
-"linkend=\"accerciser-hotkey-config\"/> como alterar a combinação de teclas."
+"linkend=\"accerciser-hotkey-config\"/> para alterar a combinação de teclas."
 
 #: C/accerciser.xml:412(title)
 msgid "IPython Console"
@@ -534,8 +535,8 @@ msgid ""
 "This plugin shows the interfaces, methods, and attributes supported by the "
 "accessible selected in the tree view."
 msgstr ""
-"Este plug-in mostra as interfaces, métodos e atributos suportados pelo "
-"acessível selecionado na visualização de árvore."
+"Este plug-in mostra as interfaces, métodos e atributos com suporte do objeto "
+"acessível selecionado na visão em árvore."
 
 #: C/accerciser.xml:439(phrase)
 msgid "The API browser."
@@ -543,7 +544,7 @@ msgstr "O navegador API."
 
 #: C/accerciser.xml:446(title)
 msgid "Script recorder"
-msgstr "gravador de Script"
+msgstr "Gravador de script"
 
 #: C/accerciser.xml:447(para)
 msgid ""
@@ -557,7 +558,7 @@ msgstr ""
 
 #: C/accerciser.xml:457(title)
 msgid "Script Recorder"
-msgstr "Gravador de Script"
+msgstr "Gravador de script"
 
 #: C/accerciser.xml:464(phrase)
 msgid "The script recorder."
@@ -621,7 +622,7 @@ msgstr ""
 
 #: C/accerciser.xml:531(title)
 msgid "Plugin Layout"
-msgstr "Disposição de Plug-ins"
+msgstr "Layout de plug-ins"
 
 #: C/accerciser.xml:532(para)
 msgid ""
@@ -645,7 +646,7 @@ msgstr ""
 
 #: C/accerciser.xml:552(title)
 msgid "Global Hotkey Configuration"
-msgstr "Configuração das teclas de atalho globais"
+msgstr "Configuração globais das teclas de atalho"
 
 #: C/accerciser.xml:553(para)
 msgid ""
@@ -659,14 +660,14 @@ msgid ""
 "available hotkey features. Change the key bindings to you liking."
 msgstr ""
 "Alguns elementos do <application>Accerciser</application> podem ativar certa "
-"funcionalidade através das teclas rápidas. A combinação de teclas rápidas "
-"pode ser alterada através da janela <guilabel>Preferências</guilabel>, para "
-"fazê-lo deve-se selecionar <menuchoice><guimenu>Editar</"
+"funcionalidade através das teclas de atalho. A combinação das teclas de "
+"atalho pode ser alterada através da janela <guilabel>Preferências</"
+"guilabel>, para fazê-lo deve-se selecionar <menuchoice><guimenu>Editar</"
 "guimenu><guimenuitem>Preferências</guimenuitem></menuchoice> para ativar o "
 "menu <guilabel>Preferências</guilabel>. Esta janela contém abas para cada "
 "seção, selecione a aba <guilabel>Teclas de atalho globais</guilabel>. "
-"Embaixo dessa seção você encontrará uma lista de todas as teclas rápidas "
-"disponíveis. Mude as combinações de teclas ao seu gosto."
+"Embaixo dessa seção você encontrará uma lista de todas as teclas de atalho "
+"disponíveis. Mude as combinações das teclas ao seu gosto."
 
 #: C/accerciser.xml:586(title)
 msgid "About <application>Accerciser</application>"
@@ -682,9 +683,9 @@ msgid ""
 msgstr ""
 "O <application>Accerciser</application> foi escrito por Eitan Isaacson "
 "(<email>eitan@ascender.com</email>). Para procurar mais informações sobre o "
-"<application>Accerciser</application>, por gentileza visite a Página do "
-"<ulink url=\"http://live.gnome.org/Accerciser\" type=\"http"
-"\"><application>Accerciser</application> GNOME Live!</ulink>."
+"<application>Accerciser</application>, por gentileza visite a <ulink url="
+"\"http://live.gnome.org/Accerciser\" type=\"http\"><application>Accerciser</"
+"application>página do GNOME Live!</ulink>."
 
 #: C/accerciser.xml:589(para)
 msgid ""
@@ -692,19 +693,21 @@ msgid ""
 "manual, follow the directions in this <ulink url=\"ghelp:gnome-feedback\" "
 "type=\"help\">document</ulink>."
 msgstr ""
-"Para relatar algum erro, ou fazer uma sugestão sobre esta aplicação ou este "
-"manual, siga as indicações neste <ulink url=\"ghelp:gnome-feedback\" type="
-"\"help\">documento</ulink>."
+"Para relatar algum erro, ou fazer uma sugestão relacionada a este aplicativo "
+"ou este manual, siga as instruções deste <ulink url=\"ghelp:gnome-feedback\" "
+"type=\"help\">documento</ulink>."
 
 #: C/accerciser.xml:592(para)
 msgid ""
 "Redistribution and use in source and binary forms, with or without "
 "modification, are permitted under the terms of the BSD License."
 msgstr ""
-"A redistribuição e seu uso nas formas binárias e em código, com ou sem "
+"A redistribuição e o uso nas formas binárias e em código, com ou sem "
 "modificação, são permitidas sobre os termos da licença BSD."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
 #: C/accerciser.xml:0(None)
 msgid "translator-credits"
-msgstr "Enrico Nicoletto <liverig@gmail.com>, 2008."
+msgstr ""
+"Enrico Nicoletto <liverig@gmail.com>, 2008.\n"
+"Fabrício Godoy <skarllot@gmail.com>, 2008."
