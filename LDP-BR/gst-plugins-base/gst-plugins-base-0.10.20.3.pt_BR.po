@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: gst-plugins-base-0.10.19.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-09-17 14:28+0100\n"
-"PO-Revision-Date: 2008-07-12 23:44-0003\n"
+"PO-Revision-Date: 2008-09-18 00:16-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
 "MIME-Version: 1.0\n"
@@ -142,7 +142,7 @@ msgstr "Não foi possível fechar o arquivo VFS \"%s\"."
 #: ext/gnomevfs/gstgnomevfssink.c:566
 #, c-format
 msgid "Error while writing to file \"%s\"."
-msgstr "Erro ao escrever no arquivo \"%s\"."
+msgstr "Erro ao gravar no arquivo \"%s\"."
 
 #: ext/ogg/gstoggdemux.c:3126
 msgid "Internal data stream error."
@@ -234,7 +234,7 @@ msgstr "Os elementos autoaudiosink e alsasink estão faltando."
 
 #: gst/playback/gstplaysink.c:989
 msgid "No volume control found"
-msgstr ""
+msgstr "Nenhum controle de volume encontrado"
 
 #: gst/playback/gstqueue2.c:991
 msgid "No file name specified."
@@ -297,7 +297,7 @@ msgstr "Não é possível gravar o áudio rápido suficiente"
 
 #: gst-libs/gst/tag/gsttagdemux.c:1038
 msgid "Failed to read tag: not enough data"
-msgstr ""
+msgstr "Falha ao ler etiqueta: dados insuficientes"
 
 #: gst-libs/gst/tag/tags.c:59
 msgid "track ID"
@@ -402,9 +402,8 @@ msgid "TMPlayer subtitle format"
 msgstr "Formato de legendas TMPlayer"
 
 #: gst-libs/gst/pbutils/descriptions.c:210
-#, fuzzy
 msgid "Kate subtitle format"
-msgstr "Formato de legendas Sami"
+msgstr "Formato de legendas Kate"
 
 #: gst-libs/gst/pbutils/descriptions.c:269
 msgid "Uncompressed planar YUV 4:2:0"
