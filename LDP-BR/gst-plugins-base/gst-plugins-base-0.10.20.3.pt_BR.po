@@ -7,7 +7,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gst-plugins-base-0.10.19.3\n"
+"Project-Id-Version: gst-plugins-base-0.10.20.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-09-17 14:28+0100\n"
 "PO-Revision-Date: 2008-09-18 00:16-0300\n"
