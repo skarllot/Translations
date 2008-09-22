@@ -44,12 +44,12 @@ msgstr "Faltando caracteres para a codificação de caracteres"
 #: ../plugins/applix/applix-read.c:333
 #, c-format
 msgid "Invalid characters for encoding '%c%c'"
-msgstr "Caracteres inválidos para a codificação '%c%c'"
+msgstr "Caracteres inválidos para a codificação \"%c%c\""
 
 #: ../plugins/applix/applix-read.c:1196
 #, c-format
 msgid "Expression did not start with '=' ? '%s'"
-msgstr "A expressão não começa com '=' ? '%s'"
+msgstr "A expressão não começa com \"=\" ? \"%s\""
 
 #: ../plugins/applix/applix-read.c:1207
 #, c-format
@@ -57,7 +57,7 @@ msgid ""
 "%s!%s : unable to parse '%s'\n"
 "     %s"
 msgstr ""
-"%s!%s : impossível processar '%s'\n"
+"%s!%s : impossível processar \"%s\"\n"
 "     %s"
 
 #: ../plugins/applix/plugin.xml.in.h:1
@@ -333,7 +333,7 @@ msgstr "Salvando arquivo..."
 #: ../plugins/excel/excel-xml-read.c:132 ../src/xml-sax-read.c:393
 #, c-format
 msgid "Unexpected attribute %s::%s == '%s'."
-msgstr "Atributo inesperado %s::%s == '%s'."
+msgstr "Atributo inesperado %s::%s == \"%s\"."
 
 #: ../plugins/excel/excel-xml-read.c:1002
 #: ../plugins/openoffice/openoffice-read.c:2984 ../src/xml-sax-read.c:2677
@@ -447,7 +447,7 @@ msgstr ""
 
 #: ../plugins/excel/ms-excel-write.c:5719
 msgid "Couldn't open stream 'Book' for writing\n"
-msgstr "Impossível abrir o 'Livro' atual para escrita\n"
+msgstr "Impossível abrir o \"Livro\" atual para escrita\n"
 
 #: ../plugins/excel/ms-excel-write.c:5739
 msgid "Couldn't open stream 'Workbook' for writing\n"
@@ -462,7 +462,7 @@ msgstr "Função inoperante"
 msgid ""
 "Too many arguments for function '%s', MS Excel can only handle %d not %d"
 msgstr ""
-"Muitos argumentos para a função '%s', o MS EXCEL espera exatamente %d "
+"Muitos argumentos para a função \"%s\", o MS EXCEL espera exatamente %d "
 "argumentos, não %d"
 
 #: ../plugins/excel/plugin.xml.in.h:1
@@ -1814,8 +1814,8 @@ msgid ""
 "because '%s'"
 msgstr ""
 "Impossível interpretar\n"
-"\t'%s'\n"
-"devido '%s'"
+"\t\"%s\"\n"
+"devido \"%s\""
 
 #: ../plugins/openoffice/openoffice-read.c:705
 #, c-format
@@ -1835,7 +1835,7 @@ msgstr "Faltando expressão namespace"
 #: ../plugins/openoffice/openoffice-read.c:896
 #, c-format
 msgid "Expression '%s' does not start with a recognized character"
-msgstr "Expressão '%s' não inicia com um caractere reconhecido"
+msgstr "Expressão \"%s\" não inicia com um caractere reconhecido"
 
 #: ../plugins/openoffice/openoffice-read.c:981
 msgid "Invalid array expression does not specify number of columns."
@@ -3026,14 +3026,14 @@ msgid ""
 "time. If `lag' is negative, then recalculation happens only after a quiet "
 "period of |lag| milleseconds."
 msgstr ""
-"Se `intervalo' é 0, o gnumeric recalcula todas as auto expressões "
+"Se \"intervalo\" é 0, o gnumeric recalcula todas as expressões automáticas "
 "imediatamente após cada mudança. Valores diferentes de zero para o "
-"`intervalo' permitem ao gnumeric acumular mais alterações antes de cada "
-"recálculo. Se `intervalo' é positivo, então quando surge uma alteração o "
-"gnumeric aguarda `intervalo' milisegundos e então realiza o recálculo, se "
+"\"intervalo\" permitem ao gnumeric acumular mais alterações antes de cada "
+"recálculo. Se \"intervalo\" é positivo, então quando surge uma alteração o "
+"gnumeric aguarda \"intervalo\" milisegundos e então realiza o recálculo, se "
 "mais alterações surgem durante este intervalo, elas são também processadas "
-"naquele momento. Se `intervalo' é negativo, então o recálculo apenas ocorre "
-"após um período inativo de |intervalo| milisegundos."
+"naquele momento. Se \"intervalo\" é negativo, então o recálculo apenas "
+"ocorre após um período inativo de |intervalo| milisegundos."
 
 #: ../schemas/gnumeric-general.schemas.in.h:15
 msgid "Length of the Undo Descriptors"
@@ -5339,7 +5339,7 @@ msgstr "Michael Meeks"
 
 #: ../src/dialogs/dialog-about.c:125
 msgid "Started the MS Excel import/export engine, and 'GnmStyle'"
-msgstr "Inciou o importador/exportador do MS Excel e o 'GnmStyle'"
+msgstr "Iniciou o importador e exportador do MS Excel e o \"GnmStyle\""
 
 #: ../src/dialogs/dialog-about.c:126
 msgid "Lutz Muller"
@@ -5982,7 +5982,7 @@ msgstr "Ajustar o padrão de largura da coluna"
 msgid ""
 "Set column width of selection on <span style='italic' weight='bold'>%s</span>"
 msgstr ""
-"Ajuste da largura da coluna da seleção em <span style='italic' weight='bold'>"
+"Definir a largura de coluna da seleção em <span style='italic' weight='bold'>"
 "%s</span>"
 
 #: ../src/dialogs/dialog-consolidate.c:197
@@ -6096,26 +6096,29 @@ msgstr ""
 
 #: ../src/dialogs/dialog-goal-seek.c:331
 msgid "You should introduce a valid cell name in 'Set Cell:'!"
-msgstr "Você deve digitar um nome válido de célula em 'Célula com a Fórmula:'!"
+msgstr ""
+"Você deve digitar um nome válido de célula em \"Célula com a Fórmula:\"!"
 
 #: ../src/dialogs/dialog-goal-seek.c:343
 msgid "The cell named in 'Set Cell:' must contain a formula!"
 msgstr ""
-"A célula nomeada em 'Célula com a Fórmula:' precisa conter uma fórmula!"
+"A célula nomeada em \"Célula com a Fórmula:\" precisa conter uma fórmula!"
 
 #: ../src/dialogs/dialog-goal-seek.c:356
 msgid "You should introduce a valid cell name in 'By Changing Cell:'!"
 msgstr ""
-"Você deve digitar um nome válido de célula em 'Através da Célula Variável:'!"
+"Você deve digitar um nome válido de célula em \"Através da Célula Variável:"
+"\"!"
 
 #: ../src/dialogs/dialog-goal-seek.c:369
 msgid "The cell named in 'By changing cell' must not contain a formula."
 msgstr ""
-"A célula nomeada em 'Através da Célula Variável' não deve conter uma fórmula."
+"A célula nomeada em \"Através da Célula Variável\" não deve conter uma "
+"fórmula."
 
 #: ../src/dialogs/dialog-goal-seek.c:382
 msgid "The value given in 'To Value:' is not valid."
-msgstr "O valor fornecido em 'Atingir o Valor:' não é válido."
+msgstr "O valor fornecido em \"Atingir o Valor:\" não é válido."
 
 #: ../src/dialogs/dialog-goal-seek.c:426
 #, c-format
@@ -7154,7 +7157,7 @@ msgstr "A Função Objetivo deve conter uma fórmula."
 #: ../src/dialogs/dialog-solver.c:939
 #, c-format
 msgid "Constraint `%s' is for a cell that is not an input cell."
-msgstr "A restrição '%s' é para uma célula que não é uma célula de entrada."
+msgstr "A restrição \"%s\" é para uma célula que não é uma célula de entrada."
 
 #: ../src/dialogs/dialog-solver.c:958
 msgid "No constraints defined for the problem."
@@ -7539,8 +7542,8 @@ msgid ""
 "Each column in the text is separated by a 'separation' character, e.g. a "
 "semicolon."
 msgstr ""
-"Cada coluna no texto é separada por um 'caracter separador', p. ex. um ponto-"
-"e-vírgula."
+"Cada coluna no texto é separada por um \"caracter separador\", p. ex. um "
+"ponto-e-vírgula."
 
 #: ../src/dialogs/dialog-stf.glade.h:20
 msgid "Encoding:"
@@ -9990,7 +9993,7 @@ msgstr "Múltiplos erros\n"
 #: ../src/gui-util.c:507
 #, c-format
 msgid "Unable to open file '%s'"
-msgstr "Impossível abrir o arquivo '%s'"
+msgstr "Impossível abrir o arquivo \"%s\""
 
 #: ../src/hlink.c:161 ../src/hlink.c:177
 msgid "Link target"
@@ -10004,12 +10007,12 @@ msgstr "Nenhum"
 #: ../src/hlink.c:225
 #, c-format
 msgid "Unable to activate the url '%s'"
-msgstr "Impossível ativar a url '%s'"
+msgstr "Impossível ativar a url \"%s\""
 
 #: ../src/hlink.c:275
 #, c-format
 msgid "Unable to open '%s'"
-msgstr "Impossível abrir '%s'"
+msgstr "Impossível abrir \"%s\""
 
 #: ../src/item-bar.c:777
 #, c-format
@@ -10115,7 +10118,7 @@ msgid ""
 "datadir := '%s'\n"
 "libdir := '%s'\n"
 msgstr ""
-"gnumeric versão '%s'\n"
+"gnumeric versão \"%s\"\n"
 "datadir := %s\n"
 "libdir := %s\n"
 
@@ -10195,7 +10198,7 @@ msgid ""
 "Run '%s --help' to see a full list of available command line options.\n"
 msgstr ""
 "%s\n"
-"Execute '%s --help' para obter uma lista completa de opção de linha de "
+"Execute \"%s --help\" para obter uma lista completa de opção de linha de "
 "comando.\n"
 
 #: ../src/main-application.c:317
@@ -10257,12 +10260,12 @@ msgstr "Todas as entradas no conjunto devem ser referências"
 #: ../src/parser.y:469
 #, fuzzy, c-format
 msgid "Name '%s' does not exist"
-msgstr "Nome '%s' não existe na pasta '%s'"
+msgstr "Nome \"%s\" não existe na pasta \"%s\""
 
 #: ../src/parser.y:514
 #, c-format
 msgid "Unknown sheet '%s'"
-msgstr "Pasta desconhecida '%s'"
+msgstr "Pasta desconhecida \"%s\""
 
 #: ../src/parser.y:616
 #, c-format
@@ -10272,7 +10275,7 @@ msgstr "() é uma expressão inválida"
 #: ../src/parser.y:648 ../src/parser.y:670
 #, c-format
 msgid "Name '%s' does not exist in sheet '%s'"
-msgstr "Nome '%s' não existe na pasta '%s'"
+msgstr "Nome \"%s\" não existe na pasta \"%s\""
 
 #: ../src/parser.y:721
 #, c-format
@@ -11169,7 +11172,7 @@ msgid ""
 "Unknown exporter '%s'.\n"
 "Try --list-exporters to see a list of possibilities.\n"
 msgstr ""
-"Exportador desconhecido '%s'.\n"
+"Exportador desconhecido \"%s\".\n"
 "Tente --list-exporters para ver uma lista de possibilidades.\n"
 
 #: ../src/ssconvert.c:259
@@ -11178,7 +11181,7 @@ msgid ""
 "Unable to guess exporter to use for '%s'.\n"
 "Try --list-exporters to see a list of possibilities.\n"
 msgstr ""
-"Impossível identificar o exportador a ser utilizado para '%s'.\n"
+"Impossível identificar o exportador a ser utilizado para \"%s\".\n"
 "Tente --list-exporters para ver uma lista de possibilidades.\n"
 
 #: ../src/ssconvert.c:270
@@ -11197,7 +11200,7 @@ msgid ""
 "Unknown importer '%s'.\n"
 "Try --list-importers to see a list of possibilities.\n"
 msgstr ""
-"Importador desconhecido '%s'.\n"
+"Importador desconhecido \"%s\".\n"
 "Tente --list-importers para ver uma lista de possibilidades.\n"
 
 #: ../src/ssconvert.c:331
@@ -11221,7 +11224,7 @@ msgid ""
 "datadir := '%s'\n"
 "libdir := '%s'\n"
 msgstr ""
-"ssconvert versão '%s'\n"
+"ssconvert versão \"%s\"\n"
 "datadir := %s\n"
 "libdir := %s\n"
 
@@ -11322,9 +11325,9 @@ msgid ""
 "datadir := '%s'\n"
 "libdir := '%s'\n"
 msgstr ""
-"ssconvert versão '%s'\n"
-"datadir := '%s'\n"
-"libdir := '%s'\n"
+"ssconvert versão \"%s\"\n"
+"datadir := \"%s\"\n"
+"libdir := \"%s\"\n"
 
 #: ../src/ssgrep.c:467
 #, fuzzy, c-format
@@ -11355,9 +11358,9 @@ msgid ""
 "datadir := '%s'\n"
 "libdir := '%s'\n"
 msgstr ""
-"ssconvert versão '%s'\n"
-"datadir := '%s'\n"
-"libdir := '%s'\n"
+"ssconvert versão \"%s\"\n"
+"datadir := \"%s\"\n"
+"libdir := \"%s\"\n"
 
 #: ../src/stf-export.c:517
 msgid "Character set"
@@ -12432,7 +12435,7 @@ msgstr ""
 #: ../src/tools/solver/solver.c:574
 msgid "EqualTo models are not supported yet.  Please use Min or Max"
 msgstr ""
-"Modelos 'Igual a' ainda não são suportados.  Por favor, utilize Min ou Max"
+"Modelos \"Igual a\" ainda não são suportados.  Por favor, utilize Min ou Max"
 
 #: ../src/tools/solver/solver.c:587
 msgid ""
@@ -12536,12 +12539,12 @@ msgstr "A célula %s não pode estar vazia"
 #: ../src/validation.c:395
 #, c-format
 msgid "'%s' is not an integer"
-msgstr "'%s' não é um inteiro"
+msgstr "\"%s\" não é um inteiro"
 
 #: ../src/validation.c:405
 #, c-format
 msgid "'%s' is not a valid date"
-msgstr "'%s' não é uma data válida"
+msgstr "\"%s\" não é uma data válida"
 
 #: ../src/validation.c:427
 #, c-format
@@ -14379,11 +14382,11 @@ msgstr "Adiciona um filtro"
 #: ../src/wbc-gtk.c:1235
 #, c-format
 msgid "Save changes to workbook '%s' before closing?"
-msgstr "Salvar as alterações para o Workbook '%s' antes de sair da sessão?"
+msgstr "Salvar as alterações para a pasta de trabalho \"%s\" antes de fechar?"
 
 #: ../src/wbc-gtk.c:1240
 msgid "Save changes to workbook before closing?"
-msgstr "Salvar as alterações para o Workbook antes de fechar a sessão?"
+msgstr "Salvar as alterações para a pasta de trabalho antes de fechar?"
 
 #: ../src/wbc-gtk.c:1247
 msgid "If you close without saving, changes will be discarded."
@@ -14509,7 +14512,9 @@ msgstr "Tamanho da Fonte"
 #: ../src/wbc-gtk.c:2860
 #, c-format
 msgid "In the `%s' menu, the key `%s' is used for both `%s' and `%s'."
-msgstr "No menu '%s', a tecla '%s' é tanto utilizada por '%s' quanto por '%s'."
+msgstr ""
+"No menu \"%s\", a tecla \"%s\" é tanto utilizada por \"%s\" quanto por \"%s"
+"\"."
 
 #: ../src/wbc-gtk.c:3135
 msgid "Display above sheets"
@@ -14675,12 +14680,12 @@ msgstr "Um erro inesperado ocorreu quando salvava %s"
 #: ../src/workbook-view.c:871
 #, c-format
 msgid "Can't open '%s' for writing: %s"
-msgstr "Impossível abrir o '%s'  para escrita: %s"
+msgstr "Impossível abrir o \"%s\"  para escrita: %s"
 
 #: ../src/workbook-view.c:875
 #, fuzzy, c-format
 msgid "Can't open '%s' for writing"
-msgstr "Impossível abrir o '%s'  para escrita: %s"
+msgstr "Impossível abrir o \"%s\"  para escrita: %s"
 
 #: ../src/workbook-view.c:970 ../src/workbook-view.c:1150
 msgid "Default file saver is not available."
@@ -14765,7 +14770,7 @@ msgstr "Reorganizando Pastas"
 #: ../src/xml-io.c:1687 ../src/xml-sax-read.c:2067
 #, c-format
 msgid "Unsupported object type '%s'"
-msgstr "Tipo de objeto não suportado '%s'"
+msgstr "Tipo de objeto não suportado \"%s\""
 
 #: ../src/xml-io.c:2154
 msgid "Unparsable xml in clipboard"
@@ -14861,7 +14866,7 @@ msgstr "Cool"
 
 #: ../templates/autoformat/autoformat.Classical.cool.xml.in.h:3
 msgid "Template with a 'cool' look"
-msgstr "Um modelo com um look 'cool'"
+msgstr "Um modelo com um look \"cool\""
 
 #: ../templates/autoformat/autoformat.Classical.simple.xml.in.h:1
 msgid "A simple template with classical look and feel"
@@ -15015,7 +15020,7 @@ msgstr "Um modelo de lista simples"
 #~ msgstr "ref,x"
 
 #~ msgid "Invalid '%s' record of length %hd instead of %d"
-#~ msgstr "'%s' inválido. Gravação do comprimento %hd ao invés de %d"
+#~ msgstr "\"%s\" inválido. Gravação do comprimento %hd ao invés de %d"
 
 #~ msgid ""
 #~ "This build of Gnumeric can only hold %d rows.  Ignoring the rest of this "
@@ -15196,29 +15201,31 @@ msgstr "Um modelo de lista simples"
 #~ "Ele suporta apenas %d colunas e esse Workbook tem %d"
 
 #~ msgid "Unable to parse position for expression '%s' @ '%s' because '%s'"
-#~ msgstr "Impossível corrigir posição para expressão '%s' @ '%s' porque '%s'"
+#~ msgstr ""
+#~ "Impossível corrigir posição para expressão \"%s\" @ \"%s\" porque \"%s\""
 
 #~ msgid ""
 #~ "Unable to parse position for expression '%s' with value '%s' because '%s'"
 #~ msgstr ""
-#~ "Impossível corrigir posição para expressão '%s' com valor '%s' porque '%s'"
+#~ "Impossível corrigir posição para expressão \"%s\" com valor \"%s\" porque "
+#~ "\"%s\""
 
 #~ msgid "Unable to parse '%s' because '%s'"
-#~ msgstr "Impossível corrigir '%s' porque '%s'"
+#~ msgstr "Impossível corrigir \"%s\" porque \"%s\""
 
 #~ msgid ""
 #~ "Some content will be lost when saving as OpenOffice .sxc. It only "
 #~ "supports %d rows, and sheet '%s' has %d"
 #~ msgstr ""
 #~ "Algum conteúdo será perdido quando salvar no formato OpenOffice .sxc. Ele "
-#~ "suporta apenas %d colunas e a pasta '%s' tem %d"
+#~ "suporta apenas %d colunas e a pasta \"%s\" tem %d"
 
 #~ msgid ""
 #~ "Some content will be lost when saving as OpenOffice .sxc. It only "
 #~ "supports %d columns, and sheet '%s' has %d"
 #~ msgstr ""
 #~ "Algum conteúdo será perdido quando salvar no formato OpenOffice .sxc. Ele "
-#~ "suporta apenas %d colunas e a pasta '%s' tem %d"
+#~ "suporta apenas %d colunas e a pasta \"%s\" tem %d"
 
 #~ msgid "Not SYLK file"
 #~ msgstr "Não é um arquivo SYLK"
@@ -15242,7 +15249,7 @@ msgstr "Um modelo de lista simples"
 #~ "é a lista."
 
 #~ msgid "The number of files kept in the `recent' section of the file menu."
-#~ msgstr "O número de arquivos dentro da seção `recente' do menu Arquivo."
+#~ msgstr "O número de arquivos dentro da seção \"recente\" do menu Arquivo."
 
 #~ msgid "This variable determines whether transition keys are set on."
 #~ msgstr "Esta variável determina se as teclas de transição estão ligadas."
@@ -15404,19 +15411,19 @@ msgstr "Um modelo de lista simples"
 #~ msgstr "_Pastas"
 
 #~ msgid "can't create object for '%s'"
-#~ msgstr "não pode criar objeto para '%s'"
+#~ msgstr "não pode criar objeto para \"%s\""
 
 #~ msgid "Could not load file: %s"
 #~ msgstr "Impossível carregar arquivo: %s"
 
 #~ msgid "'%s' is an error"
-#~ msgstr "'%s' é um erro"
+#~ msgstr "\"%s\" é um erro"
 
 #~ msgid "'%s' is not a valid time"
-#~ msgstr "'%s' não é uma hora válida"
+#~ msgstr "\"%s\" não é uma hora válida"
 
 #~ msgid "'%s' is not a number"
-#~ msgstr "'%s' não é um número"
+#~ msgstr "\"%s\" não é um número"
 
 #~ msgid ""
 #~ "That value is invalid.\n"
