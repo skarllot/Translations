@@ -318,8 +318,9 @@ msgstr ""
 "Lê e grava a informação armazenada no Formato de Intercâmbio de Dados (*.dif)"
 
 #: ../plugins/excel/boot.c:187
+#, fuzzy
 msgid "No Workbook or Book streams found."
-msgstr "Nenhum Workbook ou Livro encontrado."
+msgstr "Nenhuma pasta de trabalho ou livro encontrado."
 
 #: ../plugins/excel/boot.c:256
 msgid "Preparing to save..."
@@ -351,27 +352,27 @@ msgstr "#DESCONHECIDO!"
 #: ../src/dialogs/dialog-sheet-order.c:522
 #, c-format
 msgid "Sheet%d"
-msgstr "Pasta%d"
+msgstr "Planilha %d"
 
 #: ../plugins/excel/ms-excel-read.c:1359
 #, c-format
 msgid "Macro%d"
-msgstr "Macro%d"
+msgstr "Macro %d"
 
 #: ../plugins/excel/ms-excel-read.c:1363
 #, c-format
 msgid "Chart%d"
-msgstr "Gráfico%d"
+msgstr "Gráfico %d"
 
 #: ../plugins/excel/ms-excel-read.c:1366
 #, c-format
 msgid "Module%d"
-msgstr "Módulo%d"
+msgstr "Módulo %d"
 
 #: ../plugins/excel/ms-excel-read.c:3229
 #, c-format
 msgid "Failure parsing name '%s'"
-msgstr "Falha processando o arquivo '%s'"
+msgstr "Falha ao analisar o arquivo \"%s\""
 
 #: ../plugins/excel/ms-excel-read.c:3332
 #, c-format
@@ -414,10 +415,10 @@ msgid_plural ""
 "columns, and this workbook has %d"
 msgstr[0] ""
 "Algum conteúdo será perdido ao salvar. Este formato suporta apenas %u coluna "
-"e esta planilha tem %d"
+"e esta pasta de trabalho tem %d"
 msgstr[1] ""
 "Algum conteúdo será perdido ao salvar. Este formato suporta apenas %u colunas "
-"e esta planilha tem %d"
+"e esta pasta de trabalho tem %d"
 
 #: ../plugins/excel/ms-excel-write.c:231
 #, fuzzy, c-format
@@ -428,11 +429,11 @@ msgid_plural ""
 "Some content will be lost when saving.  This format only supports %u rows, "
 "and this workbook has %d"
 msgstr[0] ""
-"Algum conteúdo será perdido quando salvar no formato MS-EXCEL (tm). Ele "
-"suporta apenas %d colunas e esse Workbook tem %d"
+"Algum conteúdo será perdido ao salvar. Este formato suporta apenas %u linha "
+"e esta pasta de trabalho tem %d"
 msgstr[1] ""
-"Algum conteúdo será perdido quando salvar no formato MS-EXCEL (tm). Ele "
-"suporta apenas %d colunas e esse Workbook tem %d"
+"Algum conteúdo será perdido ao salvar. Este formato suporta apenas %u linhas "
+"e esta pasta de trabalho tem %d"
 
 #: ../plugins/excel/ms-excel-write.c:354
 msgid ""
@@ -450,7 +451,7 @@ msgstr "Impossível abrir o 'Livro' atual para escrita\n"
 
 #: ../plugins/excel/ms-excel-write.c:5739
 msgid "Couldn't open stream 'Workbook' for writing\n"
-msgstr "Impossível abrir o 'Workbook' para escrita\n"
+msgstr "Não foi possível abrir a \"pasta de trabalho\" para gravação\n"
 
 #: ../plugins/excel/ms-formula-read.c:656
 msgid "Broken function"
@@ -629,7 +630,7 @@ msgstr ""
 #: ../plugins/excel/xlsx-read.c:4779
 #, fuzzy
 msgid "No workbook stream found."
-msgstr "Nenhum Workbook ou Livro encontrado."
+msgstr "Nenhuma pasta de trabalho encontrada."
 
 #: ../plugins/fn-complex/functions.c:1607
 msgid "real,im,suffix"
@@ -1655,7 +1656,7 @@ msgstr "Intervalo XHTML - para exportar para o clipboard"
 
 #: ../plugins/lotus-123/boot.c:85
 msgid "Error while reading lotus workbook."
-msgstr "Erro ao ler Workbook do Lotus."
+msgstr "Erro ao ler a pasta de trabalho do Lotus."
 
 #: ../plugins/lotus-123/plugin.xml.in.h:1
 msgid "Imports Lotus 123 files"
@@ -2610,8 +2611,8 @@ msgid ""
 "entry even if the entry does not have keyboard focus."
 msgstr ""
 "Alguns diálogos contêm somente um campo de entrada simples que permite "
-"seleções longas no Workbook. Configurando essa variável para VERDADEIRO "
-"direciona seleções para essa entrada mesmo que este campo de entrada não "
+"seleções longas na pasta de trabalho. Configurando essa variável para VERDADEIRO "
+"direciona as seleções para essa entrada mesmo que este campo de entrada não "
 "tenha o foco do teclado."
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:50
@@ -3117,9 +3118,9 @@ msgid ""
 "whether the user will be warned if only a single sheet of a multi-sheet "
 "workbook is being saved."
 msgstr ""
-"Alguns formatos de arquivos podem conter somente uma pasta simples. Esta "
-"variável determina se o usuário será avisado se somente uma pasta simples de "
-"um Workbook multi-pasta foi salvo."
+"Alguns formatos de arquivos podem conter somente uma planilha simples. Esta "
+"variável determina se o usuário será avisado se somente uma planilha simples de "
+"uma pasta de trabalho multi-planilha está sendo salva."
 
 #: ../schemas/gnumeric-general.schemas.in.h:30
 msgid "Sort Area Has Header"
@@ -3157,19 +3158,19 @@ msgstr "A fonte padrão é itálico."
 
 #: ../schemas/gnumeric-general.schemas.in.h:38
 msgid "The default font name for new workbooks."
-msgstr "O nome da fonte padrão para novos Workbooks."
+msgstr "O nome da fonte padrão para novas pastas de trabalho."
 
 #: ../schemas/gnumeric-general.schemas.in.h:39
 msgid "The default font size for new workbooks."
-msgstr "O tamanho da fonte padrão para novos Workbooks."
+msgstr "O tamanho da fonte padrão para novas pastas de trabalho."
 
 #: ../schemas/gnumeric-general.schemas.in.h:40
 msgid "The initial zoom factor for new workbooks."
-msgstr "O fator de zoom inicial para novos Workbooks."
+msgstr "O fator de zoom inicial para novas pastas de trabalho."
 
 #: ../schemas/gnumeric-general.schemas.in.h:41
 msgid "The number of sheets initially created in a new workbook."
-msgstr "O número de pastas inicialmente criadas em um novo Workbook."
+msgstr "O número de planilhas inicialmente criadas em uma nova pasta de trabalho."
 
 #: ../schemas/gnumeric-general.schemas.in.h:42
 msgid ""
@@ -3228,13 +3229,13 @@ msgstr ""
 msgid ""
 "This value determines whether the default font for a new workbook is bold."
 msgstr ""
-"Este valor determina se a fonte padrão para um novo Workbook é negrito."
+"Este valor determina se a fonte padrão para um nova pasta de trabalho é negrito."
 
 #: ../schemas/gnumeric-general.schemas.in.h:49
 msgid ""
 "This value determines whether the default font for a new workbook is italic."
 msgstr ""
-"Este valor determina se a fonte padrão para um novo Workbook é itálico."
+"Este valor determina se a fonte padrão para um nova pasta de trabalho é itálico."
 
 #: ../schemas/gnumeric-general.schemas.in.h:50
 msgid ""
@@ -3493,7 +3494,7 @@ msgstr "Dividiria um vetor"
 #: ../src/commands.c:253
 #, c-format
 msgid "%s is locked. Unprotect the workbook to enable editing."
-msgstr "%s está bloqueado. Desbloqueie o Workbook para habilitar a edição."
+msgstr "%s está bloqueado. Desbloqueie a pasta de trabalho para habilitar a edição."
 
 #: ../src/commands.c:254
 #, c-format
@@ -3843,7 +3844,7 @@ msgstr ""
 #: ../src/commands.c:4803
 #, c-format
 msgid "A workbook cannot have two sheets with the same name."
-msgstr ""
+msgstr "Uma pasta de trabalho não pode ter duas planilhas com o mesmo nome."
 
 #: ../src/commands.c:4914
 #, c-format
@@ -3861,9 +3862,9 @@ msgid "Merging data into %s"
 msgstr "Mesclando dados em %s"
 
 #: ../src/commands.c:5381
-#, fuzzy, c-format
+#, c-format
 msgid "Changing workbook properties"
-msgstr "Alterando as propriedades da pasta"
+msgstr "Alterando as propriedades da pasta de trabalho"
 
 #: ../src/commands.c:5455
 msgid "Pull Object to the Front"
@@ -4958,11 +4959,11 @@ msgstr "Covariância"
 
 #: ../src/dialogs/dao.glade.h:1
 msgid "<b>Output Formatting</b>"
-msgstr "<b>Formatação de Saída</b>"
+msgstr "<b>Formatação de saída</b>"
 
 #: ../src/dialogs/dao.glade.h:2
 msgid "<b>Output Placement</b>"
-msgstr "<b>Localização da Saída</b>"
+msgstr "<b>Posicionamento de saída</b>"
 
 #: ../src/dialogs/dao.glade.h:3
 msgid "A_utofit columns"
@@ -4970,7 +4971,7 @@ msgstr "A_uto-ajustar colunas"
 
 #: ../src/dialogs/dao.glade.h:4
 msgid "C_lear output range"
-msgstr "Esvaziar região de saída"
+msgstr "Esva_ziar região de saída"
 
 #: ../src/dialogs/dao.glade.h:5 ../src/dialogs/dialog-advanced-filter.c:197
 msgid "Filter _in-place"
@@ -4978,15 +4979,15 @@ msgstr "F_iltrar no local"
 
 #: ../src/dialogs/dao.glade.h:6
 msgid "New _sheet"
-msgstr "Nova _pasta"
+msgstr "Nova _planilha"
 
 #: ../src/dialogs/dao.glade.h:7
 msgid "New _workbook"
-msgstr "Novo _Workbook"
+msgstr "Nova pasta de _trabalho"
 
 #: ../src/dialogs/dao.glade.h:8
 msgid "Output _range:"
-msgstr "_Região da saída:"
+msgstr "_Região de saída:"
 
 #: ../src/dialogs/dao.glade.h:9
 msgid "Retain output range _formatting"
@@ -5005,9 +5006,8 @@ msgid "Co_lumn Input :"
 msgstr ""
 
 #: ../src/dialogs/data-table.glade.h:2 ../src/dialogs/dialog-data-table.c:160
-#, fuzzy
 msgid "Data Table"
-msgstr "Banco de dados"
+msgstr "Tabela de dados"
 
 #: ../src/dialogs/data-table.glade.h:3
 #, fuzzy
@@ -5033,7 +5033,7 @@ msgstr "_Escopo:"
 
 #: ../src/dialogs/define-name.glade.h:6
 msgid "Workbook"
-msgstr "Workbook"
+msgstr "Pasta de trabalho"
 
 #: ../src/dialogs/define-name.glade.h:7
 msgid "_Expression: "
@@ -5847,11 +5847,11 @@ msgstr "Ocorreu um erro durante a leitura da lista de categorias"
 #: ../src/dialogs/dialog-autosave.c:78
 #, c-format
 msgid "Do you want to save the workbook %s ?"
-msgstr "Deseja salvar o Workbook %s ?"
+msgstr "Deseja salvar a pasta de trabalho %s?"
 
 #: ../src/dialogs/dialog-autosave.c:162
 msgid "Could not create the autosave dialog."
-msgstr "Impossível criar o diálogo de autosalvamento."
+msgstr "Impossível criar o diálogo de salvamento automático."
 
 #: ../src/dialogs/dialog-cell-format.c:74
 msgid "Single"
@@ -6129,7 +6129,7 @@ msgstr "Impossível criar o diálogo da Procura por Objetivo."
 
 #: ../src/dialogs/dialog-goto-cell.c:157
 msgid "Workbook Level"
-msgstr "Nível do Workbook"
+msgstr "Nível da pasta de trabalho"
 
 #.
 #. * Fill in the labels of `Target Cell' section.
@@ -6166,7 +6166,7 @@ msgstr "Link Interno"
 
 #: ../src/dialogs/dialog-hyperlink.c:260
 msgid "Jump to specific cells or named range in the current workbook"
-msgstr "Vai para as células específicas ou região nomeada no Workbook atual"
+msgstr "Vai para as células específicas ou uma região nomeada na pasta de trabalho atual"
 
 #: ../src/dialogs/dialog-hyperlink.c:264
 msgid "External Link"
@@ -7168,7 +7168,7 @@ msgstr "Exporta"
 
 #: ../src/dialogs/dialog-stf-export.c:698
 msgid "This workbook does not contain any exportable content."
-msgstr "Este Workbook não contém um conteúdo exportável."
+msgstr "Esta pasta de trabalho não contém nenhum conteúdo exportável."
 
 #: ../src/dialogs/dialog-stf-export.glade.h:1
 msgid ""
@@ -8533,26 +8533,23 @@ msgstr "% do tamanho _normal"
 
 #: ../src/dialogs/print.glade.h:3
 msgid "8.5 in wide by 11.0 in high"
-msgstr ""
+msgstr "8,5 de largura por 11,0 de altura"
 
 #: ../src/dialogs/print.glade.h:4
-#, fuzzy
 msgid "<b>Center on page:</b>"
-msgstr "<b>Centralizar na Página</b>"
+msgstr "<b>Centralizar na página:</b>"
 
 #: ../src/dialogs/print.glade.h:5
-#, fuzzy
 msgid "<b>O_rientation:</b>"
-msgstr "<b>Orientação</b>"
+msgstr "<b>O_rientação</b>"
 
 #: ../src/dialogs/print.glade.h:6
 msgid "<b>Page Order</b>"
-msgstr "<b>Ordem da Página</b>"
+msgstr "<b>Ordem da página</b>"
 
 #: ../src/dialogs/print.glade.h:7
-#, fuzzy
 msgid "<b>Paper:</b>"
-msgstr "<b>Padrão</b>"
+msgstr "<b>Papel:</b>"
 
 #: ../src/dialogs/print.glade.h:8
 msgid "<b>Print</b>"
@@ -8564,77 +8561,67 @@ msgstr "<b>Escala</b>"
 
 #: ../src/dialogs/print.glade.h:10
 msgid "<b>Titles To Print</b>"
-msgstr "<b>Títulos a Imprimir</b>"
+msgstr "<b>Títulos a imprimir</b>"
 
 #: ../src/dialogs/print.glade.h:11
 msgid "Apply _to:"
 msgstr "Aplicar _em:"
 
 #: ../src/dialogs/print.glade.h:12
-#, fuzzy
 msgid "Apply to all sheets of this _workbook."
-msgstr "Aplicar a todas as pastas deste _Workbook."
+msgstr "Aplicar a todas planilhas desta pasta de _trabalho."
 
 #: ../src/dialogs/print.glade.h:13
-#, fuzzy
 msgid "Bottom margin:"
-msgstr "Margem Padrão Inferior"
+msgstr "Margem inferior:"
 
 #: ../src/dialogs/print.glade.h:14
-#, fuzzy
 msgid "Change Paper Type"
-msgstr "Região como Texto"
+msgstr "Alterar tipo do papel"
 
 #: ../src/dialogs/print.glade.h:15
 msgid "Co_mments:"
 msgstr "Co_mentários:"
 
 #: ../src/dialogs/print.glade.h:16
-#, fuzzy
 msgid "Configure"
-msgstr "Core"
+msgstr "Configurar"
 
 #: ../src/dialogs/print.glade.h:17
-#, fuzzy
 msgid "Do not print with all sheets"
-msgstr "Aplicar a configuração de impressão para todas as pastas"
+msgstr "Não imprimir com todas as planilhas"
 
 #: ../src/dialogs/print.glade.h:18
 msgid "Fi_rst page number:"
 msgstr "Núme_ro da primeira página:"
 
 #: ../src/dialogs/print.glade.h:19
-#, fuzzy
 msgid "Footer:"
-msgstr "_Rodapé:"
+msgstr "Rodapé:"
 
 #: ../src/dialogs/print.glade.h:20
-#, fuzzy
 msgid "Header:"
-msgstr "C_abeçalho:"
+msgstr "Cabeçalho:"
 
 #: ../src/dialogs/print.glade.h:21
 msgid "Headers and Footers"
 msgstr "Cabeçalhos e Rodapés"
 
 #: ../src/dialogs/print.glade.h:22
-#, fuzzy
 msgid "Landscape"
-msgstr "Landau"
+msgstr "Paisagem"
 
 #: ../src/dialogs/print.glade.h:23
-#, fuzzy
 msgid "Left margin:"
-msgstr "Seção _esquerda:"
+msgstr "Margem esquerda:"
 
 #: ../src/dialogs/print.glade.h:25
 msgid "Page Setup"
 msgstr "Configura a Página"
 
 #: ../src/dialogs/print.glade.h:26
-#, fuzzy
 msgid "Portrait"
-msgstr "Lado Direito"
+msgstr "Retrato"
 
 #: ../src/dialogs/print.glade.h:27
 msgid "Print _area:"
@@ -8645,19 +8632,16 @@ msgid "R_ight, then down"
 msgstr "À d_ireita, então para baixo"
 
 #: ../src/dialogs/print.glade.h:29
-#, fuzzy
 msgid "Reverse landscape"
-msgstr "Diagonais Opostas"
+msgstr "Paisagem invertida"
 
 #: ../src/dialogs/print.glade.h:30
-#, fuzzy
 msgid "Reverse portrait"
-msgstr "Diagonais Opostas"
+msgstr "Retrato invertido"
 
 #: ../src/dialogs/print.glade.h:31
-#, fuzzy
 msgid "Right margin:"
-msgstr "Seção da _direita:"
+msgstr "Margem direita:"
 
 #: ../src/dialogs/print.glade.h:32
 msgid "Row and co_lumn headings"
@@ -8668,37 +8652,32 @@ msgid "Save as default settings"
 msgstr "Salvar como propriedades padrão"
 
 #: ../src/dialogs/print.glade.h:34
-#, fuzzy
 msgid "Scale"
-msgstr "Amostra"
+msgstr "Redimensionamento"
 
 #: ../src/dialogs/print.glade.h:35
-#, fuzzy
 msgid "Scale to fit _horizontally on"
-msgstr "Centraliza horizontalmente"
+msgstr "Redimensiona para caber _horizontalmente em"
 
 #: ../src/dialogs/print.glade.h:36
 msgid "Scale to fit _vertically on"
-msgstr ""
+msgstr "Redimensiona para caber _verticalmente em"
 
 #: ../src/dialogs/print.glade.h:38
 msgid "Styles with no content"
 msgstr "Estilos sem conteúdo"
 
 #: ../src/dialogs/print.glade.h:39
-#, fuzzy
 msgid "Top margin:"
-msgstr "Margem Superio Padrão"
+msgstr "Margem superior"
 
 #: ../src/dialogs/print.glade.h:40
-#, fuzzy
 msgid "Unit:"
-msgstr "_Unidades:"
+msgstr "Unidade:"
 
 #: ../src/dialogs/print.glade.h:41
-#, fuzzy
 msgid "_Automatic scaling:"
-msgstr "_Utilizar Escala Automática"
+msgstr "Redimensionamento _automático"
 
 #: ../src/dialogs/print.glade.h:42
 msgid "_Black and white"
@@ -8714,7 +8693,7 @@ msgstr "Abaixo, então à _direita"
 
 #: ../src/dialogs/print.glade.h:45
 msgid "_Fixed scaling:"
-msgstr ""
+msgstr "Redimensionamento _fixo:"
 
 #: ../src/dialogs/print.glade.h:46
 msgid "_Footer:"
@@ -8733,9 +8712,8 @@ msgid "_Horizontally"
 msgstr "_Horizontalmente"
 
 #: ../src/dialogs/print.glade.h:50
-#, fuzzy
 msgid "_No scaling"
-msgstr "Escala Automática:"
+msgstr "_Nenhum redimensionamento"
 
 #: ../src/dialogs/print.glade.h:51
 msgid "_Rows to repeat on the upper region:"
@@ -8746,18 +8724,16 @@ msgid "_Vertically"
 msgstr "_Verticalmente"
 
 #: ../src/dialogs/print.glade.h:53
-#, fuzzy
 msgid "letter"
-msgstr "Excluir"
+msgstr "carta"
 
 #: ../src/dialogs/print.glade.h:54
-#, fuzzy
 msgid "page(s)"
-msgstr "páginas"
+msgstr "página(s)"
 
 #: ../src/dialogs/random-generation.glade.h:5
 msgid "Random Number Generation"
-msgstr "Geração de Números Aleatórios"
+msgstr "Geração de números aleatórios"
 
 #: ../src/dialogs/random-generation.glade.h:7
 msgid "_Distribution:"
@@ -9031,31 +9007,31 @@ msgstr "Procura"
 
 #: ../src/dialogs/search-replace.glade.h:31
 msgid "Search and Replace Query"
-msgstr "Consulta de Busca e Substituição"
+msgstr "Consulta de pesquisa e substituição"
 
 #: ../src/dialogs/search-replace.glade.h:32
 msgid "Search and replace in all cells in the workbook"
-msgstr "Busca e substitui em todo o Workbook"
+msgstr "Pesquisa e substitui em todas as células da pasta de trabalho"
 
 #: ../src/dialogs/search-replace.glade.h:33
 msgid "Search and replace in current sheet only"
-msgstr "Busca e substitui apenas nesta pasta"
+msgstr "Pesquisa e substitui apenas nesta planilha"
 
 #: ../src/dialogs/search-replace.glade.h:34
 msgid "Search and replace in specified range only"
-msgstr "Busca e substitui apenas na região especificada"
+msgstr "Pesquisa e substitui apenas na região especificada"
 
 #: ../src/dialogs/search-replace.glade.h:35 ../src/dialogs/search.glade.h:17
 msgid "Search column by column"
-msgstr "Procurar coluna por coluna"
+msgstr "Pesquisa coluna por coluna"
 
 #: ../src/dialogs/search-replace.glade.h:36 ../src/dialogs/search.glade.h:21
 msgid "Search line by line"
-msgstr "Procurar linha por linha"
+msgstr "Pesquisa linha por linha"
 
 #: ../src/dialogs/search-replace.glade.h:37
 msgid "Skip cells that that would result in errors"
-msgstr "Pular células que causariam erros"
+msgstr "Pular células que poderiam resultar em erros"
 
 #: ../src/dialogs/search-replace.glade.h:38 ../src/dialogs/search.glade.h:26
 msgid "The search text is a regular expression"
@@ -9063,11 +9039,11 @@ msgstr "O texto de procura é uma expressão regular"
 
 #: ../src/dialogs/search-replace.glade.h:39 ../src/dialogs/search.glade.h:27
 msgid "The search text is taken literally."
-msgstr "O texto de procura é considerado na forma exata"
+msgstr "O texto de pesquisa é considerado na forma exata"
 
 #: ../src/dialogs/search-replace.glade.h:40
 msgid "Turn unparsable entries into string values"
-msgstr "Transformar entradas não interpretáveis em textos"
+msgstr "Transformar entradas não analisáveis em textos"
 
 #: ../src/dialogs/search-replace.glade.h:41 ../src/dialogs/search.glade.h:28
 msgid "When set, do not distinguish between upper and lower case letters"
@@ -9078,6 +9054,8 @@ msgid ""
 "When set, string values will remain as such after replacement, even if they "
 "look like numbers or expressions"
 msgstr ""
+"Quando definido, valores de texto permanecerão o mesmo depois de uma substituição, mesmo "
+"se eles parecem números ou expressões"
 
 #: ../src/dialogs/search-replace.glade.h:43
 msgid "_Column major"
@@ -9097,7 +9075,7 @@ msgstr "_Não alterar"
 
 #: ../src/dialogs/search-replace.glade.h:47 ../src/dialogs/search.glade.h:31
 msgid "_Entire workbook"
-msgstr "_Todo o Workbook"
+msgstr "_Toda a pasta de trabalho"
 
 #: ../src/dialogs/search-replace.glade.h:48 ../src/dialogs/search.glade.h:32
 msgid "_Expressions"
@@ -9109,11 +9087,11 @@ msgstr "_Falhar"
 
 #: ../src/dialogs/search-replace.glade.h:50 ../src/dialogs/search.glade.h:33
 msgid "_Ignore case"
-msgstr "I_gnorar maiúsculas/minúsculas"
+msgstr "I_gnorar maiúsculização"
 
 #: ../src/dialogs/search-replace.glade.h:51
 msgid "_Keep strings as strings"
-msgstr ""
+msgstr "Manter o texto como texto"
 
 #: ../src/dialogs/search-replace.glade.h:52 ../src/dialogs/search.glade.h:34
 msgid "_Other values"
