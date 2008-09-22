@@ -417,8 +417,8 @@ msgstr[0] ""
 "Algum conteúdo será perdido ao salvar. Este formato suporta apenas %u coluna "
 "e esta pasta de trabalho tem %d"
 msgstr[1] ""
-"Algum conteúdo será perdido ao salvar. Este formato suporta apenas %u colunas "
-"e esta pasta de trabalho tem %d"
+"Algum conteúdo será perdido ao salvar. Este formato suporta apenas %u "
+"colunas e esta pasta de trabalho tem %d"
 
 #: ../plugins/excel/ms-excel-write.c:231
 #, fuzzy, c-format
@@ -2611,9 +2611,9 @@ msgid ""
 "entry even if the entry does not have keyboard focus."
 msgstr ""
 "Alguns diálogos contêm somente um campo de entrada simples que permite "
-"seleções longas na pasta de trabalho. Configurando essa variável para VERDADEIRO "
-"direciona as seleções para essa entrada mesmo que este campo de entrada não "
-"tenha o foco do teclado."
+"seleções longas na pasta de trabalho. Configurando essa variável para "
+"VERDADEIRO direciona as seleções para essa entrada mesmo que este campo de "
+"entrada não tenha o foco do teclado."
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:50
 msgid "System Directory for Autoformats"
@@ -3119,8 +3119,8 @@ msgid ""
 "workbook is being saved."
 msgstr ""
 "Alguns formatos de arquivos podem conter somente uma planilha simples. Esta "
-"variável determina se o usuário será avisado se somente uma planilha simples de "
-"uma pasta de trabalho multi-planilha está sendo salva."
+"variável determina se o usuário será avisado se somente uma planilha simples "
+"de uma pasta de trabalho multi-planilha está sendo salva."
 
 #: ../schemas/gnumeric-general.schemas.in.h:30
 msgid "Sort Area Has Header"
@@ -3170,7 +3170,8 @@ msgstr "O fator de zoom inicial para novas pastas de trabalho."
 
 #: ../schemas/gnumeric-general.schemas.in.h:41
 msgid "The number of sheets initially created in a new workbook."
-msgstr "O número de planilhas inicialmente criadas em uma nova pasta de trabalho."
+msgstr ""
+"O número de planilhas inicialmente criadas em uma nova pasta de trabalho."
 
 #: ../schemas/gnumeric-general.schemas.in.h:42
 msgid ""
@@ -3229,13 +3230,15 @@ msgstr ""
 msgid ""
 "This value determines whether the default font for a new workbook is bold."
 msgstr ""
-"Este valor determina se a fonte padrão para um nova pasta de trabalho é negrito."
+"Este valor determina se a fonte padrão para um nova pasta de trabalho é "
+"negrito."
 
 #: ../schemas/gnumeric-general.schemas.in.h:49
 msgid ""
 "This value determines whether the default font for a new workbook is italic."
 msgstr ""
-"Este valor determina se a fonte padrão para um nova pasta de trabalho é itálico."
+"Este valor determina se a fonte padrão para um nova pasta de trabalho é "
+"itálico."
 
 #: ../schemas/gnumeric-general.schemas.in.h:50
 msgid ""
@@ -3494,7 +3497,8 @@ msgstr "Dividiria um vetor"
 #: ../src/commands.c:253
 #, c-format
 msgid "%s is locked. Unprotect the workbook to enable editing."
-msgstr "%s está bloqueado. Desbloqueie a pasta de trabalho para habilitar a edição."
+msgstr ""
+"%s está bloqueado. Desbloqueie a pasta de trabalho para habilitar a edição."
 
 #: ../src/commands.c:254
 #, c-format
@@ -6166,7 +6170,9 @@ msgstr "Link Interno"
 
 #: ../src/dialogs/dialog-hyperlink.c:260
 msgid "Jump to specific cells or named range in the current workbook"
-msgstr "Vai para as células específicas ou uma região nomeada na pasta de trabalho atual"
+msgstr ""
+"Vai para as células específicas ou uma região nomeada na pasta de trabalho "
+"atual"
 
 #: ../src/dialogs/dialog-hyperlink.c:264
 msgid "External Link"
@@ -9054,8 +9060,8 @@ msgid ""
 "When set, string values will remain as such after replacement, even if they "
 "look like numbers or expressions"
 msgstr ""
-"Quando definido, valores de texto permanecerão o mesmo depois de uma substituição, mesmo "
-"se eles parecem números ou expressões"
+"Quando definido, valores de texto permanecerão o mesmo depois de uma "
+"substituição, mesmo se eles parecem números ou expressões"
 
 #: ../src/dialogs/search-replace.glade.h:43
 msgid "_Column major"
@@ -9175,7 +9181,7 @@ msgstr "Procurar células contendo"
 
 #: ../src/dialogs/search.glade.h:18
 msgid "Search in all cells in the workbook"
-msgstr "Procurar em todas células do Workbook"
+msgstr "Procurar em todas células na pasta de trabalho"
 
 #: ../src/dialogs/search.glade.h:19
 msgid "Search in current sheet only"
@@ -9584,15 +9590,15 @@ msgstr "Cálculos"
 
 #: ../src/dialogs/workbook-attr.glade.h:5
 msgid "Format Workbook"
-msgstr "Formatar Workbook"
+msgstr "Formatar pasta de trabalho"
 
 #: ../src/dialogs/workbook-attr.glade.h:6
 msgid "Maximum c_hange:"
-msgstr "_Alteração Máxima:"
+msgstr "_Alteração máxima:"
 
 #: ../src/dialogs/workbook-attr.glade.h:7
 msgid "Maximum it_erations:"
-msgstr "Máximo de It_erações:"
+msgstr "Máximo de it_erações:"
 
 #: ../src/dialogs/workbook-attr.glade.h:8
 msgid "Notebook _Tabs for Sheets"
@@ -9624,26 +9630,26 @@ msgstr "_Manual"
 
 #: ../src/dialogs/workbook-attr.glade.h:17
 msgid "_Protect Workbook"
-msgstr "_Proteger Workbook"
+msgstr "_Proteger pasta de trabalho"
 
 #: ../src/dialogs/workbook-attr.glade.h:18
 msgid "_Vertical Scrollbar"
-msgstr "Barra de Rolagem _Vertical"
+msgstr "Barra de rolagem _vertical"
 
 #: ../src/expr-name.c:497
 #, c-format
 msgid "'%s' has a circular reference"
-msgstr "'%s' tem uma referência circular"
+msgstr "\"%s\" tem uma referência circular"
 
 #: ../src/expr-name.c:525 ../src/expr-name.c:715
 #, c-format
 msgid "'%s' is already defined in sheet"
-msgstr "'%s' já definido na pasta"
+msgstr "\"%s\" já está definido na planilha"
 
 #: ../src/expr-name.c:526 ../src/expr-name.c:716
 #, c-format
 msgid "'%s' is already defined in workbook"
-msgstr "'%s' já definido no Workbook"
+msgstr "\"%s\" já está definido na pasta de trabalho"
 
 #: ../src/expr.c:780
 msgid "Internal type error"
@@ -10271,7 +10277,7 @@ msgstr "Nome '%s' não existe na pasta '%s'"
 #: ../src/parser.y:721
 #, c-format
 msgid "Unknown workbook '%s'"
-msgstr "Workbook desconhecido '%s'"
+msgstr "Pasta de trabalho desconhecida \"%s\""
 
 #: ../src/parser.y:1016 ../src/parser.y:1280
 #, c-format
@@ -10391,46 +10397,39 @@ msgstr "Encai_xar Seleção %"
 
 #: ../src/print.c:1289
 msgid "_All workbook sheets"
-msgstr ""
+msgstr "Tod_as planilhas da pasta de trabalho"
 
 #: ../src/print.c:1294
-#, fuzzy
 msgid "Also print _hidden sheets"
-msgstr "Aplicar a configuração de impressão para todas as pastas"
+msgstr "Imprimir também planil_has ocultas"
 
 #: ../src/print.c:1299
-#, fuzzy
 msgid "A_ctive workbook sheet"
-msgstr "Pasta at_iva"
+msgstr "Planilha ativa da pasta de trabalho"
 
 #: ../src/print.c:1304
-#, fuzzy
 msgid "_Workbook sheets:"
-msgstr "Pasta:"
+msgstr "Planilhas da pasta de trabalho:"
 
 #: ../src/print.c:1309
-#, fuzzy
 msgid "Current _selection only"
-msgstr "Seleção de colunas"
+msgstr "Apenas a _seleção atual"
 
 #: ../src/print.c:1314
 msgid "_Ignore defined print area"
-msgstr ""
+msgstr "_Ignorar a área de impressão definida"
 
 #: ../src/print.c:1318
-#, fuzzy
 msgid "from:"
-msgstr "Aparar:"
+msgstr "de:"
 
 #: ../src/print.c:1326
-#, fuzzy
 msgid "to:"
-msgstr "Autor:"
+msgstr "até:"
 
 #: ../src/print.c:1536
-#, fuzzy
 msgid "Gnumeric Print Range"
-msgstr "Console Phyton do Gnumeric"
+msgstr "Intervalo de impressão do Gnumeric"
 
 #. Actually we can get slightly more than max_width here.
 #. * But max_width was computed as an estimate, anyway, so we don't care.
@@ -10441,79 +10440,75 @@ msgstr "..."
 
 #: ../src/search.c:67
 msgid "You must specify a range to search."
-msgstr "Você deve definir uma região de busca."
+msgstr "Você deve definir uma região de pesquisa."
 
 #: ../src/search.c:71
 msgid "The search range is invalid."
-msgstr "A região de busca é inválida."
+msgstr "A região de pesquisa não é válida."
 
 #: ../src/search.c:565
 msgid "Search Strings"
-msgstr "Procurar Textos"
+msgstr "Pesquisar textos"
 
 #: ../src/search.c:566
 msgid "Should strings be searched?"
-msgstr "Os textos devem ser procurados?"
+msgstr "Os textos devem ser pesquisados?"
 
 #: ../src/search.c:574
 msgid "Search Other Values"
-msgstr "Procurar Outros Valores"
+msgstr "Pesquisar outros valores"
 
 #: ../src/search.c:575
 msgid "Should non-strings be searched?"
-msgstr "Expressões não-texto devem ser procuradas?"
+msgstr "Expressões não-texto devem ser pesquisadas?"
 
 #: ../src/search.c:583
 msgid "Search Expressions"
-msgstr "Procurar Expressões"
+msgstr "Pesquisar expressões"
 
 #: ../src/search.c:584
 msgid "Should expressions be searched?"
-msgstr "As expressões devem ser procuradas?"
+msgstr "As expressões devem ser pesquisadas?"
 
 #: ../src/search.c:592
 msgid "Search Expression Results"
-msgstr "Procurar Resultados de Expressões"
+msgstr "Pesquisar resultados de expressões"
 
 #: ../src/search.c:593
 msgid "Should the results of expressions be searched?"
-msgstr "Os resultados das expressões devem ser procurados?"
+msgstr "Os resultados das expressões devem ser pesquisados?"
 
 #: ../src/search.c:601
 msgid "Search Comments"
-msgstr "Procurar Comentários"
+msgstr "Pesquisar comentários"
 
 #: ../src/search.c:602
 msgid "Should cell comments be searched?"
-msgstr "Os comentários das células devem ser procurados?"
+msgstr "Os comentários das células devem ser pesquisados?"
 
 #: ../src/search.c:610
-#, fuzzy
 msgid "Search Scripts"
-msgstr "Procurar Textos"
+msgstr "Pesquisar scripts"
 
 #: ../src/search.c:611
-#, fuzzy
 msgid "Should scrips (workbook, and worksheet) be searched?"
-msgstr "Os textos devem ser procurados?"
+msgstr "Os scripts (pasta de trabalho e planilhas) devem ser pesquisados?"
 
 #: ../src/search.c:619
-#, fuzzy
 msgid "Invert"
-msgstr "Inserir"
+msgstr "Inverter"
 
 #: ../src/search.c:620
-#, fuzzy
 msgid "Collect non-matching items"
-msgstr "Impossível encontrar o fecha-aspas correspondente"
+msgstr "Coletar itens não correspondentes"
 
 #: ../src/search.c:628
 msgid "By Row"
-msgstr "Por Linha"
+msgstr "Por linha"
 
 #: ../src/search.c:629
 msgid "Is the search order by row?"
-msgstr "A ordem de procura é por linha?"
+msgstr "A ordem de pesquisa é por linha?"
 
 #: ../src/search.c:637
 msgid "Query"
@@ -10521,33 +10516,31 @@ msgstr "Consulta"
 
 #: ../src/search.c:638
 msgid "Should we query for each replacement?"
-msgstr "Nós devemos realizar uma consulta para cada alteração?"
+msgstr "Nós devemos realizar uma consulta para cada substituição?"
 
 #: ../src/search.c:646
-#, fuzzy
 msgid "Keep Strings"
-msgstr "_Textos"
+msgstr "Manter textos"
 
 #: ../src/search.c:647
 msgid "Should replacement keep strings as strings?"
-msgstr ""
+msgstr "Deveria as substituições manter os textos como textos?"
 
 #: ../src/search.c:656
-#, fuzzy
 msgid "The sheet in which to search."
-msgstr "A região na qual procurar."
+msgstr "A planilha na qual pesquisar."
 
 #: ../src/search.c:665
 msgid "Where to search."
-msgstr "Onde procurar."
+msgstr "Onde pesquisar."
 
 #: ../src/search.c:674
 msgid "Range as Text"
-msgstr "Região como Texto"
+msgstr "Região como texto"
 
 #: ../src/search.c:675
 msgid "The range in which to search."
-msgstr "A região na qual procurar."
+msgstr "A região na qual pesquisar."
 
 #: ../src/selection.c:349
 #, c-format
@@ -10557,15 +10550,18 @@ msgstr "%s não suporta múltiplas regiões"
 #: ../src/session.c:114
 #, c-format
 msgid "Save changes to workbook '%s' before logging out?"
-msgstr "Salvar as alterações para o Workbook '%s' antes de de sair da sessão?"
+msgstr ""
+"Salvar as alterações para a pasta de trabalho \"%s\" antes de encerrar a "
+"sessão?"
 
 #: ../src/session.c:118
 msgid "Save changes to workbook before logging out?"
-msgstr "Salvar as alterações para o Workbook antes de fechar a sessão?"
+msgstr ""
+"Salvar as alterações para a pasta de trabalho antes de encerrar a sessão?"
 
 #: ../src/session.c:124
 msgid "If you do not save, changes may be discarded."
-msgstr "Se você não salvar, as alterações serão descartadas."
+msgstr "Se você não salvar as alterações serão descartadas."
 
 #: ../src/session.c:126
 msgid "Do not save any"
@@ -10577,21 +10573,21 @@ msgstr "Não salvar"
 
 #: ../src/session.c:133
 msgid "Do not log out"
-msgstr "Não fechar a sessão (log out)"
+msgstr "Não encerrar a sessão"
 
+# Entrada não traduzida de acordo com a sugestão abaixo.
 #. xgettext: This is a C format string where %d will be replaced
 #. by 1, 2, 3, or 4.  A year will then be appended and we'll get
 #. something like 3Q2005.  If that makes no sense in your language,
 #. translate to the empty string.
 #: ../src/sheet-autofill.c:63
-#, fuzzy, c-format
+#, c-format
 msgid "%dQ"
-msgstr "%dC"
+msgstr ""
 
 #: ../src/sheet-autofill.c:914
-#, fuzzy
 msgid "(empty)"
-msgstr "Vazio"
+msgstr "(vazio)"
 
 #: ../src/sheet-control-gui.c:1788
 msgid "Cu_t"
@@ -10603,7 +10599,7 @@ msgstr "C_olar"
 
 #: ../src/sheet-control-gui.c:1794
 msgid "Paste _Special"
-msgstr "Colar E_special"
+msgstr "Colar e_special"
 
 #. TODO : One day make the labels smarter.  Generate them to include
 #. * quantities.
@@ -10614,44 +10610,44 @@ msgstr "Colar E_special"
 #.
 #: ../src/sheet-control-gui.c:1806
 msgid "_Insert Cells..."
-msgstr "_Inserir Células..."
+msgstr "_Inserir células..."
 
 #: ../src/sheet-control-gui.c:1808
 msgid "_Delete Cells..."
-msgstr "E_xcluir Células..."
+msgstr "E_xcluir células..."
 
 #: ../src/sheet-control-gui.c:1810
 msgid "_Insert Column(s)"
-msgstr "_Inserir Coluna(s)"
+msgstr "_Inserir coluna(s)"
 
 #: ../src/sheet-control-gui.c:1812
 msgid "_Delete Column(s)"
-msgstr "E_xcluir Coluna(s)"
+msgstr "E_xcluir coluna(s)"
 
 #: ../src/sheet-control-gui.c:1814
 msgid "_Insert Row(s)"
-msgstr "_Inserir Linha(s)"
+msgstr "_Inserir linha(s)"
 
 #: ../src/sheet-control-gui.c:1816
 msgid "_Delete Row(s)"
-msgstr "E_xcluir Linha(s)"
+msgstr "E_xcluir linha(s)"
 
 #: ../src/sheet-control-gui.c:1819
 msgid "Clear Co_ntents"
-msgstr "Limpar Co_nteúdo"
+msgstr "Limpar co_nteúdo"
 
 #: ../src/sheet-control-gui.c:1821
 msgid "Edit Co_mment..."
-msgstr "Editar Co_mentários..."
+msgstr "Editar co_mentários..."
 
 #: ../src/sheet-control-gui.c:1827
 msgid "_Format Cells..."
-msgstr "_Formatar Células..."
+msgstr "_Formatar células..."
 
 #. Column specific (Note some labels duplicate row labels)
 #: ../src/sheet-control-gui.c:1831
 msgid "Column _Width..."
-msgstr "Lar_gura da Coluna..."
+msgstr "Lar_gura da coluna..."
 
 #: ../src/sheet-control-gui.c:1833 ../src/sheet-control-gui.c:1841
 #: ../src/wbc-gtk-actions.c:1879 ../src/wbc-gtk-actions.c:1896
@@ -10666,7 +10662,7 @@ msgstr "_Reexibir"
 #. Row specific (Note some labels duplicate col labels)
 #: ../src/sheet-control-gui.c:1839
 msgid "_Row Height..."
-msgstr "Altu_ra da Linha..."
+msgstr "Altu_ra da linha..."
 
 #: ../src/sheet-control-gui.c:1846
 msgid "_Hyperlink"
@@ -10674,28 +10670,28 @@ msgstr "_Hyperlink"
 
 #: ../src/sheet-control-gui.c:1849
 msgid "Edit _Hyperlink"
-msgstr "Editar _Hiperlink"
+msgstr "Editar _hyperlink"
 
 #: ../src/sheet-control-gui.c:1852
 msgid "_Remove Hyperlink"
-msgstr "_Remover Hiperlink"
+msgstr "_Remover hyperlink"
 
 #. This is somewhat cheesy and should use ngettext
 #: ../src/sheet-control-gui.c:2311
 msgid "Duplicate Object"
-msgstr "Duplica o Objeto"
+msgstr "Duplica o objeto"
 
 #: ../src/sheet-control-gui.c:2311
 msgid "Insert Object"
-msgstr "Insere o Objeto"
+msgstr "Insere o objeto"
 
 #: ../src/sheet-control-gui.c:2312
 msgid "Move Object"
-msgstr "Move o Objeto"
+msgstr "Move o objeto"
 
 #: ../src/sheet-control-gui.c:2312
 msgid "Resize Object"
-msgstr "Redimensiona o Objeto"
+msgstr "Redimensiona o objeto"
 
 #. Format toolbar
 #: ../src/sheet-merge.c:74 ../src/wbc-gtk-actions.c:2111
@@ -10717,17 +10713,16 @@ msgid "Unknown failure while saving image"
 msgstr "Falha desconhecida ao salvar imagem"
 
 #: ../src/sheet-object-graph.c:332
-#, fuzzy
 msgid "_Save as Image"
-msgstr "_Salvar como Imagem"
+msgstr "_Salvar como imagem"
 
 #: ../src/sheet-object-graph.c:333
 msgid "Open in _New Window"
-msgstr ""
+msgstr "Abrir em uma _nova janela"
 
 #: ../src/sheet-object-image.c:463
 msgid "_Save as image"
-msgstr "_Salvar como Imagem"
+msgstr "_Salvar como imagem"
 
 #: ../src/sheet-object-widget.c:280 ../src/wbc-gtk-actions.c:2070
 msgid "Frame"
@@ -10740,38 +10735,34 @@ msgstr "Botão"
 
 #. FIXME: This text sucks:
 #: ../src/sheet-object-widget.c:786
-#, fuzzy
 msgid "Change widget"
-msgstr "Al_terar"
+msgstr "Alterar widget"
 
 #: ../src/sheet-object-widget.c:1392
 #, c-format
 msgid "CheckBox %d"
-msgstr "Caixa de verificação %d"
+msgstr "Caixa de seleção %d"
 
 #. FIXME: This text sucks:
 #: ../src/sheet-object-widget.c:1459
-#, fuzzy
 msgid "Clicking checkbox"
-msgstr "Caixa de verificação"
+msgstr "Clicando na caixa de seleção"
 
 #: ../src/sheet-object-widget.c:1858 ../src/wbc-gtk-actions.c:2106
 msgid "RadioButton"
-msgstr "Botão de rádio"
+msgstr "Botão de opção"
 
 #: ../src/sheet-object-widget.c:2094
-#, fuzzy
 msgid "Clicking in list"
-msgstr "Limpando %s em %s"
+msgstr "Clicando na lista"
 
 #: ../src/sheet-object.c:68
-#, fuzzy
 msgid "Snap object to grid"
-msgstr "Sujeito a:"
+msgstr "Encaixar objeto à grade:"
 
 #: ../src/sheet-object.c:124
 msgid "_Snap to Grid"
-msgstr ""
+msgstr "Encaixar à grade"
 
 #: ../src/sheet-object.c:125
 msgid "_Order"
@@ -10779,19 +10770,19 @@ msgstr "_Ordenar"
 
 #: ../src/sheet-object.c:126
 msgid "Pul_l to Front"
-msgstr "Pu_xa para Frente"
+msgstr "Pu_xa para frente"
 
 #: ../src/sheet-object.c:127
 msgid "Pull _Forward"
-msgstr "Puxa para _Frente"
+msgstr "Puxa para _frente"
 
 #: ../src/sheet-object.c:128
 msgid "Push _Backward"
-msgstr "Empurra para _Trás"
+msgstr "Empurra para _trás"
 
 #: ../src/sheet-object.c:129
 msgid "Pus_h to Back"
-msgstr "Em_purra para Trás"
+msgstr "Em_purra para trás"
 
 #. Oh, yeah?
 #: ../src/sheet-style.c:499
@@ -10801,10 +10792,10 @@ msgid ""
 "column named TRUE may conflict with the constant of the same\n"
 "name.  Expect weirdness."
 msgstr ""
-"Esta é uma versão especial do Gnumeric.  Ela foi compilada\n"
-"com suporte para um número muito grande de colunas.  Acessar\n"
+"Esta é uma versão especial do Gnumeric. Ela foi compilada\n"
+"com suporte para um número muito grande de colunas. Acessar\n"
 "a coluna nomeada VERDADEIRO pode conflitar com a constante do\n"
-"mesmo nome.  Espere coisas estranhas."
+"mesmo nome. Espere coisas estranhas."
 
 #: ../src/sheet-view.c:383
 msgid "Copy"
@@ -10816,7 +10807,7 @@ msgstr "Recortar"
 
 #: ../src/sheet.c:695
 msgid "The name of the sheet."
-msgstr "O nome da pasta."
+msgstr "O nome da planilha."
 
 #: ../src/sheet.c:700
 msgid "text-is-rtl"
@@ -10832,27 +10823,27 @@ msgstr "Visibilidade"
 
 #: ../src/sheet.c:707
 msgid "How visible the sheet is."
-msgstr "Como é a visibilidade da pasta."
+msgstr "Como é a visibilidade da planilha."
 
 #: ../src/sheet.c:713
 msgid "Display Formulas"
-msgstr "Mostrar Fórmulas"
+msgstr "Exibir fórmulas"
 
 #: ../src/sheet.c:714
 msgid "Control whether formulas are shown instead of values."
-msgstr "Controla se as fórmulas são exibidas no lugar dos valores."
+msgstr "Controla se as fórmulas são mostradas no lugar dos valores."
 
 #: ../src/sheet.c:719
 msgid "Display Zeros"
-msgstr "Mostrar Zeros"
+msgstr "Exibir zeros"
 
 #: ../src/sheet.c:720
 msgid "Control whether zeros are shown are blanked out."
-msgstr "Controla se os zeros são exibidos ou não."
+msgstr "Controla se os zeros são mostrados ou não."
 
 #: ../src/sheet.c:725
 msgid "Display Grid"
-msgstr "Mostrar Grade"
+msgstr "Mostrar grade"
 
 #: ../src/sheet.c:726
 msgid "Control whether the grid is shown."
@@ -10860,43 +10851,43 @@ msgstr "Controla se a grade é mostrada."
 
 #: ../src/sheet.c:731
 msgid "Display Column Headers"
-msgstr "Exibir Cabeçalhos de Colunas"
+msgstr "Exibir cabeçalhos de colunas"
 
 #: ../src/sheet.c:732
 msgid "Control whether column headers are shown."
-msgstr "Controla se os cabeçalhos de colunas são exibidos."
+msgstr "Controla se os cabeçalhos de colunas são mostrados."
 
 #: ../src/sheet.c:737
 msgid "Display Row Headers"
-msgstr "Exibir Cabeçalhos de Linhas"
+msgstr "Exibir cabeçalhos de linhas"
 
 #: ../src/sheet.c:738
 msgid "Control whether row headers are shown."
-msgstr "Controla se os cabeçalhos de linhas são exibidos."
+msgstr "Controla se os cabeçalhos de linhas são mostrados."
 
 #: ../src/sheet.c:743
 msgid "Display Outlines"
-msgstr "Exibir Contornos"
+msgstr "Exibir contornos"
 
 #: ../src/sheet.c:744
 msgid "Control whether outlines are shown."
-msgstr "Controla se os contornos são exibidos."
+msgstr "Controla se os contornos são mostrados."
 
 #: ../src/sheet.c:749
 msgid "Display Outlines Below"
-msgstr "Exibir Contornos Abaixo"
+msgstr "Exibir contornos abaixo"
 
 #: ../src/sheet.c:750
 msgid "Control whether outline symbols are shown below."
-msgstr "Controla se os contornos são exibidos abaixo."
+msgstr "Controla se os contornos são mostrados abaixo."
 
 #: ../src/sheet.c:755
 msgid "Display Outlines Right"
-msgstr "Exibir Contornos à Direita"
+msgstr "Exibir contornos à direita"
 
 #: ../src/sheet.c:756
 msgid "Control whether outline symbols are shown to the right."
-msgstr "Controla se os contornos são exibidos à direita."
+msgstr "Controla se os contornos são mostrados à direita."
 
 #: ../src/sheet.c:762
 msgid "Protected"
@@ -10904,115 +10895,122 @@ msgstr "Protegida"
 
 #: ../src/sheet.c:763
 msgid "Sheet is protected."
-msgstr "A pasta está protegida."
+msgstr "A planilha está protegida."
 
 #: ../src/sheet.c:766
 msgid "Protected Allow Edit objects"
-msgstr ""
+msgstr "Proteger permitindo editar objetos"
 
 #: ../src/sheet.c:767
 msgid "Allow objects to be edited while a sheet is protected"
-msgstr ""
+msgstr "Permite que objetos sejam editados enquanto a planilha está protegida"
 
 #: ../src/sheet.c:770
 msgid "Protected allow edit scenarios"
-msgstr ""
+msgstr "Proteger permitindo editar cenários"
 
 #: ../src/sheet.c:771
 msgid "Allow scenarios to be edited while a sheet is protected"
-msgstr ""
+msgstr "Permite que cenários sejam editados enquanto a planilha está protegida"
 
 #: ../src/sheet.c:774
-#, fuzzy
 msgid "Protected allow cell formatting"
-msgstr "Formatação por coluna"
+msgstr "Proteger permitindo formatação de célula"
 
 #: ../src/sheet.c:775
 msgid "Allow cell format changes while a sheet is protected"
 msgstr ""
+"Permite alterações de formatação de célula enquanto uma planilha está "
+"protegida"
 
 #: ../src/sheet.c:778
-#, fuzzy
 msgid "Protected allow column formatting"
-msgstr "Formatação por coluna"
+msgstr "Proteger permitindo formatação de coluna"
 
 #: ../src/sheet.c:779
 msgid "Allow column formatting while a sheet is protected"
-msgstr ""
+msgstr "Permite formatação de coluna enquanto uma planilha está protegida"
 
 #: ../src/sheet.c:782
-#, fuzzy
 msgid "Protected allow row formatting"
-msgstr "Formatação geral"
+msgstr "Proteger permitindo formatação de linha"
 
 #: ../src/sheet.c:783
 msgid "Allow row formatting while a sheet is protected"
-msgstr ""
+msgstr "Permite formatação de linha enquanto uma planilha está protegida"
 
 #: ../src/sheet.c:786
 msgid "Protected allow insert columns"
-msgstr ""
+msgstr "Proteger permitindo inserir colunas"
 
 #: ../src/sheet.c:787
 msgid "Allow columns to be inserted while a sheet is protected"
 msgstr ""
+"Permite que colunas sejam inseridas enquanto uma planilha está protegida"
 
 #: ../src/sheet.c:790
 msgid "Protected allow insert rows"
-msgstr ""
+msgstr "Proteger permitindo inserir linhas"
 
 #: ../src/sheet.c:791
 msgid "Allow rows to be inserted while a sheet is protected"
 msgstr ""
+"Permite que linhas sejam inseridas enquanto uma planilha está protegida"
 
 #: ../src/sheet.c:794
 msgid "Protected allow insert hyperlinks"
-msgstr ""
+msgstr "Proteger permitindo inserir hyperlinks"
 
 #: ../src/sheet.c:795
 msgid "Allow hyperlinks to be inserted while a sheet is protected"
 msgstr ""
+"Permite que hyperlinks sejam inseridos enquanto uma planilha está protegida"
 
 #: ../src/sheet.c:798
-#, fuzzy
 msgid "Protected allow delete columns"
-msgstr "Oculta as colunas selecionadas"
+msgstr "Proteger permitindo excluir colunas"
 
 #: ../src/sheet.c:799
 msgid "Allow columns to be deleted while a sheet is protected"
 msgstr ""
+"Permite que colunas sejam excluídas enquanto uma planilha está protegida"
 
 #: ../src/sheet.c:802
 msgid "Protected allow delete rows"
-msgstr ""
+msgstr "Proteger permitindo excluir linhas"
 
 #: ../src/sheet.c:803
 msgid "Allow rows to be deleted while a sheet is protected"
 msgstr ""
+"Permite que linhas sejam excluídas enquanto uma planilha está protegida"
 
 #: ../src/sheet.c:806
 msgid "Protected allow select locked cells"
-msgstr ""
+msgstr "Proteger permitindo selecionar células bloqueadas"
 
 #: ../src/sheet.c:807
 msgid "Allow the user to select locked cells while a sheet is protected"
 msgstr ""
+"Permite que o usuário selecione células bloqueadas enquanto uma planilha "
+"está protegida"
 
 #: ../src/sheet.c:810
 msgid "Protected allow sort ranges"
-msgstr ""
+msgstr "Proteger permitindo ordenar áreas"
 
 #: ../src/sheet.c:811
 msgid "Allow ranges to be sorted while a sheet is protected"
-msgstr ""
+msgstr "Permite que áreas sejam ordenadas enquanto uma planilha está protegida"
 
 #: ../src/sheet.c:814
 msgid "Protected allow edit auto filters"
-msgstr ""
+msgstr "Proteger permitindo editar filtros automáticos"
 
 #: ../src/sheet.c:815
 msgid "Allow auto filters to be edited while a sheet is protected"
 msgstr ""
+"Permite que filtros automáticos sejam editados enquanto uma planilha está "
+"protegida"
 
 #: ../src/sheet.c:818
 #, fuzzy
