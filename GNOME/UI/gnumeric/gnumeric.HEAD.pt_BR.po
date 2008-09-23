@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: gnumeric\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-09-13 21:11+0000\n"
-"PO-Revision-Date: 2008-09-13 19:26-0300\n"
+"PO-Revision-Date: 2008-09-22 22:04-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Portuguese/Brazil <gnome-l10n-br@listas.cipsga.org.br>\n"
 "MIME-Version: 1.0\n"
@@ -11018,48 +11018,54 @@ msgstr ""
 #: ../src/sheet.c:818
 #, fuzzy
 msgid "Protected allow edit pivottable"
-msgstr "Cria uma tabela dinâmica"
+msgstr "Proteger permitindo editar tabelas pivô"
 
 #: ../src/sheet.c:819
 msgid "Allow pivottable to be edited  while a sheet is protected"
 msgstr ""
+"Permite que tabelas pivô sejam editadas enquanto uma planilha está protegida"
 
 #: ../src/sheet.c:822
 msgid "Protected allow select unlocked cells"
-msgstr ""
+msgstr "Proteger permitindo selecionar células não bloqueadas"
 
 #: ../src/sheet.c:823
 msgid "Allow the user to select unlocked cells while a sheet is protected"
 msgstr ""
+"Permite que o usuário selecione células não bloqueadas enquanto uma planilha "
+"está protegida"
 
 #: ../src/sheet.c:827
+#, fuzzy
 msgid "Display convention for expressions (default Gnumeric A1)"
-msgstr ""
+msgstr "Exibir regra para expressões (padrão Gnumeric A1)"
 
 #: ../src/sheet.c:828
 msgid "How to format displayed expressions, (A1 vs R1C1, function names, ...)"
 msgstr ""
+"Como formatar expressões exibidas, (A1 vs R1C1, nomes de função e etc.)"
 
 #. convenience wrapper to CONVENTIONS
 #: ../src/sheet.c:832
 msgid "Display convention for expressions as XLS_R1C1 vs default"
-msgstr ""
+msgstr "Exibir regra para expressões como XLS_R1C1 vs padrão"
 
 #: ../src/sheet.c:833
+#, fuzzy
 msgid "How to format displayed expressions, (a convenience api)"
-msgstr ""
+msgstr "Como formatar expressões exibidas, (uma API de utilidade)"
 
 #: ../src/sheet.c:839
 msgid "Tab Foreground"
-msgstr "Segundo Plano da Aba"
+msgstr "Primeiro plano da aba"
 
 #: ../src/sheet.c:840
 msgid "The foreground color of the tab."
-msgstr "A cor de segundo plano da aba."
+msgstr "A cor de primeiro plano da aba."
 
 #: ../src/sheet.c:845
 msgid "Tab Background"
-msgstr "Segundo Plano da Aba"
+msgstr "Segundo plano da aba"
 
 #: ../src/sheet.c:846
 msgid "The background color of the tab."
@@ -11067,11 +11073,11 @@ msgstr "A cor de segundo plano da aba."
 
 #: ../src/sheet.c:853
 msgid "Zoom Factor"
-msgstr "Fator de Zoom"
+msgstr "Fator de zoom"
 
 #: ../src/sheet.c:854
 msgid "The level of zoom used for this sheet."
-msgstr "O nível de zoom utilizado para esta pasta."
+msgstr "O nível de zoom utilizado para esta planilha."
 
 #: ../src/sheet.c:2755
 msgid "Target region contains merged cells"
@@ -11087,7 +11093,7 @@ msgstr "não pode operar em fórmulas de vetor"
 
 #: ../src/sheet.c:4022
 msgid "Insert Columns"
-msgstr "Inserir Colunas"
+msgstr "Inserir colunas"
 
 #: ../src/sheet.c:4098
 msgid "Delete Columns"
@@ -11095,7 +11101,7 @@ msgstr "Excluir colunas"
 
 #: ../src/sheet.c:4171
 msgid "Insert Rows"
-msgstr "Inserir Linhas"
+msgstr "Inserir linhas"
 
 #: ../src/sheet.c:4247
 msgid "Delete Rows"
@@ -11107,11 +11113,11 @@ msgstr "Mostra a versão do programa"
 
 #: ../src/ssconvert.c:62 ../src/ssindex.c:69
 msgid "Optionally specify an encoding for imported content"
-msgstr "Opcionalmente especifica uma condificação para o conteúdo importado"
+msgstr "Opcionalmente especifica uma codificação para o conteúdo importado"
 
 #: ../src/ssconvert.c:63 ../src/ssindex.c:70
 msgid "ENCODING"
-msgstr "ENCODING"
+msgstr "CODIFICANDO"
 
 #: ../src/ssconvert.c:69
 msgid "Optionally specify which importer to use"
@@ -11127,7 +11133,7 @@ msgstr "Opcionalmente especifica qual exportador utilizar"
 
 #: ../src/ssconvert.c:92
 msgid "Detailed instructions for the chosen exporter"
-msgstr ""
+msgstr "Instruções detalhadas do exportador escolhido"
 
 #: ../src/ssconvert.c:99
 msgid "List the available exporters"
@@ -11138,18 +11144,16 @@ msgid ""
 "Export a file for each sheet if the exporter only supports one sheet at a "
 "time."
 msgstr ""
-"Exporta um arquivo para cada pasta se o exportador suporta apenas uma pasta "
-"por vez."
+"Exporta um arquivo para cada planilha se o exportador suporta apenas uma "
+"planilha por vez."
 
 #: ../src/ssconvert.c:113
-#, fuzzy
 msgid "Recalculate all cells before writing the result."
-msgstr "Seleciona todas as células da pasta"
+msgstr "Recalcula todas as células antes de escrever o resultado."
 
 #: ../src/ssconvert.c:124
-#, fuzzy
 msgid "The range to export"
-msgstr "A região na qual procurar."
+msgstr "A região para exportar"
 
 #: ../src/ssconvert.c:131
 #, fuzzy
@@ -11893,7 +11897,7 @@ msgstr "Nova Pasta"
 
 #: ../src/tools/dao.c:151
 msgid "New Workbook"
-msgstr "Novo Workbook"
+msgstr "Nova pasta de trabalho"
 
 #: ../src/tools/dao.c:1010
 msgid "Gnumeric "
@@ -12859,11 +12863,11 @@ msgstr "Aj_uda"
 
 #: ../src/wbc-gtk-actions.c:1564
 msgid "Save the current workbook"
-msgstr "Salva o Workbook atual"
+msgstr "Salva a pasta de trabalho atual"
 
 #: ../src/wbc-gtk-actions.c:1567
 msgid "Save the current workbook with a different name"
-msgstr "Salva o Workbook atual com um nome diferente"
+msgstr "Salva a pasta de trabalho atual com um nome diferente"
 
 #: ../src/wbc-gtk-actions.c:1570
 msgid "Close the current file"
@@ -12883,7 +12887,7 @@ msgstr "Copia a seleção"
 
 #: ../src/wbc-gtk-actions.c:1583
 msgid "Paste the clipboard"
-msgstr "Cola conteúdo da Área de Transferência"
+msgstr "Cola conteúdo da área de transferência"
 
 #: ../src/wbc-gtk-actions.c:1585 ../src/wbc-gtk.c:1206
 msgid "_Undo"
@@ -12940,11 +12944,11 @@ msgstr "_Sobre"
 
 #: ../src/wbc-gtk-actions.c:1605
 msgid "About this application"
-msgstr "Sobre esta aplicação"
+msgstr "Sobre este aplicativo"
 
 #: ../src/wbc-gtk-actions.c:1622
 msgid "Create a new workbook"
-msgstr "Cria um novo Workbook"
+msgstr "Cria um nova pasta de trabalho"
 
 #: ../src/wbc-gtk-actions.c:1625
 msgid "Open a file"
@@ -12956,15 +12960,15 @@ msgstr "_Enviar Para..."
 
 #: ../src/wbc-gtk-actions.c:1628
 msgid "Send the current file via email"
-msgstr "Envia o arquivo atual por email"
+msgstr "Envia o arquivo atual por e-mail"
 
 #: ../src/wbc-gtk-actions.c:1630
 msgid "Page Set_up..."
-msgstr "Config_urar Página..."
+msgstr "Config_urar página..."
 
 #: ../src/wbc-gtk-actions.c:1631
 msgid "Setup the page settings for your current printer"
-msgstr "Configura as atribuições da página para a sua impressora atual"
+msgstr "Configura a página para a sua impressora atual"
 
 #: ../src/wbc-gtk-actions.c:1634
 msgid "Print preview"
@@ -12980,7 +12984,7 @@ msgstr "Proprie_dades..."
 
 #: ../src/wbc-gtk-actions.c:1640
 msgid "Edit descriptive information"
-msgstr "Edita informações descritivas da planilha"
+msgstr "Edita as informações descritivas da planilha"
 
 #: ../src/wbc-gtk-actions.c:1642
 msgid "Pre_ferences..."
@@ -12991,31 +12995,28 @@ msgid "Change Gnumeric Preferences"
 msgstr "Altera as preferências do Gnumeric"
 
 #: ../src/wbc-gtk-actions.c:1645
-#, fuzzy
 msgid "Full _History..."
-msgstr "_Histograma..."
+msgstr "Todo _histórico..."
 
 #: ../src/wbc-gtk-actions.c:1646
 msgid "Access previously used file"
-msgstr ""
+msgstr "Acessa o último arquivo usado"
 
 #: ../src/wbc-gtk-actions.c:1651
-#, fuzzy
 msgid "Use the current selection as print area"
-msgstr "Usar a seleção atual para criar nomes"
+msgstr "Usar a seleção atual como área de impressão"
 
 #: ../src/wbc-gtk-actions.c:1654
 msgid "Undefine the print area"
-msgstr ""
+msgstr "Remover definição de área de impressão"
 
 #: ../src/wbc-gtk-actions.c:1656
-#, fuzzy
 msgid "Show Print Area"
-msgstr "Áre_a de impressão:"
+msgstr "Mostrar área de impressão"
 
 #: ../src/wbc-gtk-actions.c:1657
 msgid "Select the print area"
-msgstr ""
+msgstr "Selecinar a área de impressão"
 
 #: ../src/wbc-gtk-actions.c:1662
 msgid "Clear the selected cells' formats, comments, and contents"
@@ -13147,11 +13148,11 @@ msgstr "Gera números aleatórios a partir de distribuições selecionadas"
 #. Edit -> Sheet
 #: ../src/wbc-gtk-actions.c:1738
 msgid "_Manage Sheets..."
-msgstr "Gerenciar _Pastas..."
+msgstr "Gerenciar _planilhas..."
 
 #: ../src/wbc-gtk-actions.c:1739
 msgid "Manage the sheets in this workbook"
-msgstr "Gerencia as pastas deste Workbook"
+msgstr "Gerencia as planilhas desta pasta de trabalho"
 
 #: ../src/wbc-gtk-actions.c:1742 ../src/wbc-gtk-actions.c:1746
 msgid "Insert a new sheet"
@@ -13249,11 +13250,11 @@ msgstr "_Nova Visualização..."
 
 #: ../src/wbc-gtk-actions.c:1789
 msgid "Create a new view of the workbook"
-msgstr "Cria uma nova vista do Workbook"
+msgstr "Cria uma nova visão da pasta de trabalho"
 
 #: ../src/wbc-gtk-actions.c:1791 ../src/wbc-gtk.c:1180
 msgid "_Freeze Panes"
-msgstr "Con_gelar Painéis"
+msgstr "Con_gelar painéis"
 
 #: ../src/wbc-gtk-actions.c:1792 ../src/wbc-gtk.c:1183
 msgid "Freeze the top left of the sheet"
@@ -13351,7 +13352,7 @@ msgstr "_Definir..."
 
 #: ../src/wbc-gtk-actions.c:1844
 msgid "Edit sheet and workbook names"
-msgstr "Edita nomes de regiões de células nas pastas e Workbooks"
+msgstr "Edita os nomes das planilhas e da pasta de trabalho"
 
 #: ../src/wbc-gtk-actions.c:1847
 msgid "Paste the definition of a name or names"
@@ -13359,7 +13360,7 @@ msgstr "Colar a definição de um nome ou de nomes"
 
 #: ../src/wbc-gtk-actions.c:1850
 msgid "_Auto generate names..."
-msgstr "_Auto gerar nomes..."
+msgstr "Gerar nomes _automaticamente..."
 
 #: ../src/wbc-gtk-actions.c:1851
 msgid "Use the current selection to create names"
@@ -13375,12 +13376,13 @@ msgid "Modify the formatting of the selected cells"
 msgstr "Modifica a formatação das células selecionadas"
 
 #: ../src/wbc-gtk-actions.c:1859
+#, fuzzy
 msgid "_Workbook..."
-msgstr "_Workbook..."
+msgstr "Pasta de trabalho..."
 
 #: ../src/wbc-gtk-actions.c:1860
 msgid "Modify the workbook attributes"
-msgstr "Modifica os atributos do Workbook"
+msgstr "Modifica os atributos da pasta de trabalho"
 
 #: ../src/wbc-gtk-actions.c:1862
 msgid "_Gnumeric..."
@@ -13388,11 +13390,11 @@ msgstr "_Gnumeric..."
 
 #: ../src/wbc-gtk-actions.c:1863
 msgid "Edit the Gnumeric Preferences"
-msgstr "Edita as Preferências do Gnumeric"
+msgstr "Edita as preferências do Gnumeric"
 
 #: ../src/wbc-gtk-actions.c:1865
 msgid "_Autoformat..."
-msgstr "_Autoformatar..."
+msgstr "Formatar _automaticamente..."
 
 #: ../src/wbc-gtk-actions.c:1866
 msgid "Format a region of cells according to a pre-defined template"
@@ -13403,10 +13405,10 @@ msgid "Direction"
 msgstr "Direção"
 
 #: ../src/wbc-gtk-actions.c:1869
-#, fuzzy
 msgid "Toggle sheet direction, left-to-right vs right-to-left"
 msgstr ""
-"Altera a direção da pasta, esquerda para direita vs. direita para esquerda"
+"Alterna a direção da planilha, esquerda para direita vs. direita para "
+"esquerda"
 
 #. Format -> Col
 #: ../src/wbc-gtk-actions.c:1873
@@ -14310,11 +14312,11 @@ msgstr "%s!%s está travado"
 
 #: ../src/wbc-gtk-edit.c:739
 msgid "Unprotect the workbook to enable editing."
-msgstr "Desbloqueie o Workbook para habilitar a edição."
+msgstr "Desproteger a pasta de trabalho para habilitar a edição."
 
 #: ../src/wbc-gtk-edit.c:740
 msgid "Unprotect the sheet to enable editing."
-msgstr " Desbloqueie a pasta para habilitar a edição."
+msgstr "Desproteger a planilha para habilitar a edição."
 
 #: ../src/wbc-gtk-edit.c:759
 msgid "You are about to edit a cell with \"text\" format."
@@ -14616,9 +14618,8 @@ msgid "Address"
 msgstr "Endereço"
 
 #: ../src/workbook-control.c:383
-#, fuzzy
 msgid "The workbook view being controlled."
-msgstr "Se a planilha foi alterada."
+msgstr "A visão da pasta de trabalho sendo controlada."
 
 #: ../src/workbook-view.c:355
 #, c-format
@@ -14628,64 +14629,58 @@ msgstr "%dC"
 #: ../src/workbook-view.c:357
 #, c-format
 msgid "%dR"
-msgstr "%dR"
+msgstr "%dL"
 
 #: ../src/workbook-view.c:359
 #, c-format
 msgid "%dR x %dC"
-msgstr "%dR x %dC"
+msgstr "%dL x %dC"
 
 #: ../src/workbook-view.c:749
-#, fuzzy
 msgid "Auto-expression function"
-msgstr "Atraso no Recálculo da Auto Expressão"
+msgstr "Função de expressão automática"
 
 #: ../src/workbook-view.c:750
-#, fuzzy
 msgid "The automatically computed sheet function."
-msgstr "Preenche automaticamente a seleção atual"
+msgstr "A função de planilha automaticamente calculada."
 
 #: ../src/workbook-view.c:757
-#, fuzzy
 msgid "Auto-expression description"
-msgstr "Atraso no Recálculo da Auto Expressão"
+msgstr "Descrição da expressão automática"
 
 #: ../src/workbook-view.c:758
 msgid "Description of the automatically computed sheet function."
-msgstr ""
+msgstr "Descrição da função de planilha automaticamente calculada."
 
 #: ../src/workbook-view.c:766
-#, fuzzy
 msgid "Auto-expression maximum precision"
-msgstr "Utilizar a precisão máxima"
+msgstr "Precisão máxima da expressão automática"
 
 #: ../src/workbook-view.c:767
 msgid "Use maximum available precision for auto-expressions"
-msgstr ""
+msgstr "Usar a máxima precisão disponível para expressões automáticas"
 
 #: ../src/workbook-view.c:775
-#, fuzzy
 msgid "Auto-expression text"
-msgstr "_Expressão: "
+msgstr "Texto de expressão automática"
 
 #: ../src/workbook-view.c:776
 msgid "Displayed text for the automatically computed sheet function."
-msgstr ""
+msgstr "Texto exibido para funções de planilha automaticamente calculada."
 
 #: ../src/workbook-view.c:855
-#, fuzzy
 msgid "An unexplained error happened while saving."
-msgstr "Um erro inesperado ocorreu quando salvava %s"
+msgstr "Um erro inexplicado ocorreu ao salvar."
 
 #: ../src/workbook-view.c:871
 #, c-format
 msgid "Can't open '%s' for writing: %s"
-msgstr "Impossível abrir o \"%s\"  para escrita: %s"
+msgstr "Não foi possível abrir o \"%s\" para escrita: %s"
 
 #: ../src/workbook-view.c:875
-#, fuzzy, c-format
+#, c-format
 msgid "Can't open '%s' for writing"
-msgstr "Impossível abrir o \"%s\"  para escrita: %s"
+msgstr "Não foi possível abrir o \"%s\" para escrita"
 
 #: ../src/workbook-view.c:970 ../src/workbook-view.c:1150
 msgid "Default file saver is not available."
@@ -14722,50 +14717,50 @@ msgstr "Renomeando as pastas"
 #: ../src/workbook.c:1346
 #, c-format
 msgid "Renaming %d sheets"
-msgstr "Renomeando %d pastas"
+msgstr "Renomeando %d planilhas"
 
 #: ../src/workbook.c:1349
 msgid "Adding sheet"
-msgstr "Adicionando a pasta"
+msgstr "Adicionando planilha"
 
 #: ../src/workbook.c:1350
 #, c-format
 msgid "Adding %d sheets"
-msgstr "Adicionando %d pastas"
+msgstr "Adicionando %d planilhas"
 
 #: ../src/workbook.c:1357
 msgid "Inserting sheet"
-msgstr "Inserindo a pasta"
+msgstr "Inserindo planilha"
 
 #: ../src/workbook.c:1358
 #, c-format
 msgid "Inserting %d sheets"
-msgstr "Inserindo %d pastas"
+msgstr "Inserindo %d planilhas"
 
 #: ../src/workbook.c:1360
 msgid "Changing sheet tab colors"
-msgstr "Alterando as cores das abas das pastas"
+msgstr "Alterando as cores das abas das planilhas"
 
 #: ../src/workbook.c:1362
 msgid "Changing sheet properties"
-msgstr "Alterando as propriedades da pasta"
+msgstr "Alterando as propriedades da planilha"
 
 #: ../src/workbook.c:1370
 msgid "Deleting sheet"
-msgstr "Excluindo a pasta"
+msgstr "Excluindo planilha"
 
 #: ../src/workbook.c:1371
 #, c-format
 msgid "Deleting %d sheets"
-msgstr "Excluindo %d pastas"
+msgstr "Excluindo %d planilhas"
 
 #: ../src/workbook.c:1373
 msgid "Changing sheet order"
-msgstr "Alterando a ordem da pasta"
+msgstr "Alterando a ordem da planilha"
 
 #: ../src/workbook.c:1375
 msgid "Reorganizing Sheets"
-msgstr "Reorganizando Pastas"
+msgstr "Reorganizando planilhas"
 
 #: ../src/xml-io.c:1687 ../src/xml-sax-read.c:2067
 #, c-format
@@ -14774,7 +14769,7 @@ msgstr "Tipo de objeto não suportado \"%s\""
 
 #: ../src/xml-io.c:2154
 msgid "Unparsable xml in clipboard"
-msgstr "XML não interpretado na Área de Transferência"
+msgstr "XML não analisável na área de transferência"
 
 #: ../src/xml-io.c:2161
 msgid "Clipboard is in unknown format"
@@ -14786,12 +14781,11 @@ msgstr "Processando o arquivo..."
 
 #: ../src/xml-io.c:2752
 msgid "The file is not a Gnumeric Workbook file"
-msgstr "Este arquivo não é um Workbook do Gnumeric"
+msgstr "Este arquivo não é uma pasta de trabalho do Gnumeric"
 
 #: ../src/xml-io.c:2781
-#, fuzzy
 msgid "Gnumeric XML (*.gnumeric) Old slow importer"
-msgstr "Exportador original lento do Gnumeric XML (*.gnumeric)"
+msgstr "Gnumeric XML (*.gnumeric) antigo importador lento"
 
 #: ../src/xml-io.c:2787 ../src/xml-io.c:2793
 msgid "Gnumeric XML (*.gnumeric)"
@@ -14804,27 +14798,26 @@ msgstr "Especificações de múltplas versões. Assumindo %d"
 
 #: ../src/xml-sax-read.c:674
 msgid "File has inconsistent SheetNameIndex element."
-msgstr "O arquivo contém elemento PastaNomeÍndice inconsistente."
+msgstr "O arquivo contém o elemento SheetNameIndex inconsistente."
 
 #: ../src/xml-sax-read.c:1931
-#, fuzzy, c-format
+#, c-format
 msgid "Unknown filter operator \"%s\""
-msgstr "Operador desconhecido"
+msgstr "Operador de filtro desconhecido \"%s\""
 
 #: ../src/xml-sax-read.c:1971
-#, fuzzy
 msgid "Missing filter type"
-msgstr "Faltando nome do arquivo."
+msgstr "Tipo de filtro faltando"
 
 #: ../src/xml-sax-read.c:1993
-#, fuzzy, c-format
+#, c-format
 msgid "Unknown filter type \"%s\""
-msgstr "info_tipo desconhecido"
+msgstr "Tipo de filtro desconhecido \"%s\""
 
 #: ../src/xml-sax-read.c:2012
 #, fuzzy
 msgid "Invalid filter, missing Area"
-msgstr "Expressão inválida"
+msgstr "Filtro inválido, faltando área"
 
 #: ../templates/autoformat/autoformat.3D.button.xml.in.h:1
 msgid "A button like template"
@@ -15098,7 +15091,8 @@ msgstr "Um modelo de lista simples"
 #~ "ferramentas."
 
 #~ msgid "The items on this page customize the new default workbook."
-#~ msgstr "Os itens desta página personalizam os padrões para novos Workbooks."
+#~ msgstr ""
+#~ "Os itens desta página personalizam uma nova pasta de trabalho padrão."
 
 #~ msgid ""
 #~ "The items on this page are related to the saving and opening of files."
@@ -15164,16 +15158,14 @@ msgstr "Um modelo de lista simples"
 #~ msgid "Text export (configurable)"
 #~ msgstr "Exportar arquivo de texto (personalizável)"
 
-#, fuzzy
 #~ msgid "Save the embedded workbook"
-#~ msgstr "Salva o Workbook atual"
+#~ msgstr "Salva a pasta de trabalho incorporada"
 
-#, fuzzy
 #~ msgid "Component : Gnumeric"
-#~ msgstr " : Gnumeric"
+#~ msgstr "Componente : Gnumeric"
 
 #~ msgid "Use R1C1 notation rather than A1"
-#~ msgstr "Utiliza a notação R1C1 ao invés da A1"
+#~ msgstr "Utiliza a notação L1C1 ao invés da A1"
 
 #~ msgid ""
 #~ "Display cell addresses using R1C1 notion rather than the more common A1."
@@ -15182,50 +15174,51 @@ msgstr "Um modelo de lista simples"
 #~ "notação A1, mais comum."
 
 #~ msgid "Gnumeric Workbook"
-#~ msgstr "Workbook do Gnumeric"
+#~ msgstr "Pasta de trabalho do Gnumeric"
 
 #~ msgid "Gnumeric Workbook Viewer"
-#~ msgstr "Visualizador de Workbook do Gnumeric"
+#~ msgstr "Visualizador de pasta de trabalho do Gnumeric"
 
 #~ msgid "Gnumeric Workbook viewer factory"
-#~ msgstr "Fábrica de visualização de Workbook do Gnumeric"
+#~ msgstr "Fábrica de visualização de pasta de trabalho do Gnumeric"
 
 #~ msgid "The GNOME Spreadsheet"
-#~ msgstr "A Planilha Eletrônica do GNOME"
+#~ msgstr "A planilha eletrônica do GNOME"
 
 #~ msgid ""
 #~ "Some content will be lost when saving as MS Excel (tm) 95. It only "
 #~ "supports %d rows, and this workbook has %d"
 #~ msgstr ""
-#~ "Algum conteúdo será perdido quando salvar no formato MS-EXCEL (tm) 95. "
-#~ "Ele suporta apenas %d colunas e esse Workbook tem %d"
+#~ "Algum conteúdo será perdido ao salvar no formato MS EXCEL (tm) 95. Ele "
+#~ "suporta apenas %d linhas e essa pasta de trabalho tem %d"
 
 #~ msgid "Unable to parse position for expression '%s' @ '%s' because '%s'"
 #~ msgstr ""
-#~ "Impossível corrigir posição para expressão \"%s\" @ \"%s\" porque \"%s\""
+#~ "Não foi possível analisar posição para expressão \"%s\" @ \"%s\" porque "
+#~ "\"%s\""
 
 #~ msgid ""
 #~ "Unable to parse position for expression '%s' with value '%s' because '%s'"
 #~ msgstr ""
-#~ "Impossível corrigir posição para expressão \"%s\" com valor \"%s\" porque "
-#~ "\"%s\""
+#~ "Não foi possível analisar posição para expressão \"%s\" com valor \"%s\" "
+#~ "porque \"%s\""
 
 #~ msgid "Unable to parse '%s' because '%s'"
-#~ msgstr "Impossível corrigir \"%s\" porque \"%s\""
+#~ msgstr "Não foi possível analisar \"%s\" porque \"%s\""
 
 #~ msgid ""
 #~ "Some content will be lost when saving as OpenOffice .sxc. It only "
 #~ "supports %d rows, and sheet '%s' has %d"
 #~ msgstr ""
-#~ "Algum conteúdo será perdido quando salvar no formato OpenOffice .sxc. Ele "
-#~ "suporta apenas %d colunas e a pasta \"%s\" tem %d"
+#~ "Algum conteúdo será perdido ao salvar no formato OpenOffice .sxc. Ele "
+#~ "suporta apenas %d linhas e a planilha \"%s\" tem %d"
 
 #~ msgid ""
 #~ "Some content will be lost when saving as OpenOffice .sxc. It only "
 #~ "supports %d columns, and sheet '%s' has %d"
 #~ msgstr ""
-#~ "Algum conteúdo será perdido quando salvar no formato OpenOffice .sxc. Ele "
-#~ "suporta apenas %d colunas e a pasta \"%s\" tem %d"
+#~ "Algum conteúdo será perdido ao salvar no formato OpenOffice .sxc. Ele "
+#~ "suporta apenas %d colunas e a planilha \"%s\" tem %d"
 
 #~ msgid "Not SYLK file"
 #~ msgstr "Não é um arquivo SYLK"
@@ -15234,10 +15227,10 @@ msgstr "Um modelo de lista simples"
 #~ msgstr "erro analisando linha\n"
 
 #~ msgid "Error while reading sheet."
-#~ msgstr "Erro ao ler pasta."
+#~ msgstr "Erro ao ler planilha."
 
 #~ msgid "Print Config"
-#~ msgstr "Configuração da Impressão"
+#~ msgstr "Configuração de impressão"
 
 #~ msgid "List of recently used files"
 #~ msgstr "Lista dos arquivos recentemente utilizados"
@@ -15457,7 +15450,7 @@ msgstr "Um modelo de lista simples"
 #~ msgstr "URI"
 
 #~ msgid "The URI associated with this workbook."
-#~ msgstr "A URI associada a esta planilha."
+#~ msgstr "O URI associado a esta pasta de trabalho."
 
 #~ msgid "Dirty"
 #~ msgstr "Sujo"
@@ -15590,7 +15583,7 @@ msgstr "Um modelo de lista simples"
 #~ msgstr "Título do Documento: "
 
 #~ msgid "Editing Workbook Metadata..."
-#~ msgstr "Editando Metadados do Workbook..."
+#~ msgstr "Editando metadados da pasta de trabalho..."
 
 #~ msgid "File Information"
 #~ msgstr "Informação do Arquivo"
