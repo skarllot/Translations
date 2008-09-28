@@ -5,7 +5,7 @@
 #
 # pipeline -> fila de processamento
 # sink -> consumidor
-# flow -> vazão
+# flow -> fluxo
 # stream -> fluxo
 # preroll -> preparar
 # clock -> temporizador
@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: gstreamer-0.10.20.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-09-10 17:50+0100\n"
-"PO-Revision-Date: 2008-09-18 00:59-0300\n"
+"PO-Revision-Date: 2008-09-28 20:37-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
 "MIME-Version: 1.0\n"
@@ -869,11 +869,11 @@ msgstr "Erro interno no temporizador."
 
 #: libs/gst/base/gstbasesrc.c:2233 libs/gst/base/gstbasesrc.c:2244
 msgid "Internal data flow error."
-msgstr "Erro interno na vazão de dados."
+msgstr "Erro interno no fluxo de dados."
 
 #: libs/gst/base/gstbasesink.c:2688
 msgid "Internal data flow problem."
-msgstr "Problema interno na vazão de dados."
+msgstr "Problema interno no fluxo de dados."
 
 #: libs/gst/base/gstbasesink.c:2837
 msgid "Internal data stream error."
