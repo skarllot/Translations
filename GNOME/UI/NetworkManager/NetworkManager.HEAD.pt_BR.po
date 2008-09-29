@@ -1,18 +1,19 @@
 # Brazilian Portuguese translation of NetworkManager.
-# Copyright (C) 2004-2007 Free Software Foundation, Inc.
+# Copyright (C) 2004-2008 Free Software Foundation, Inc.
 # This file is distributed under the same license as the NetworkManager package.
 # Raphael Higino <phhigino@gmail.com>, 2004-2007
 # Luiz Armesto <luiz.armesto@gmail.com>, 2007.
 # Henrique P. Machado <zehrique@gmail.com>, 2008.
 # Og Maciel <ogmaciel@gnome.org>, 2008.
+# Fabrício Godoy <skarllot@gmail.com>, 2008.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: NetworkManager\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-09-21 19:19+0000\n"
-"PO-Revision-Date: 2008-09-14 12:38-0300\n"
-"Last-Translator: Henrique P. Machado <zehrique@gmail.com>\n"
+"PO-Revision-Date: 2008-09-28 23:43-0300\n"
+"Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-l10n-br@listas.cipsga.org.br>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -83,7 +84,8 @@ msgstr ""
 
 #: ../src/named-manager/nm-named-manager.c:256
 msgid "NOTE: the libc resolver may not support more than 3 nameservers."
-msgstr "NOTA: o resolvedor da libc não suporta mais que 3 servidores de nomes."
+msgstr ""
+"NOTA: o resolvedor da libc não suporta mais do que 3 servidores de nomes."
 
 #: ../src/named-manager/nm-named-manager.c:258
 msgid "The nameservers listed below may not be recognized."
@@ -183,17 +185,17 @@ msgstr "Cifra da chave privada \"%s\" não foi reconhecida."
 #: ../libnm-util/crypto.c:395
 #, c-format
 msgid "Not enough memory to create private key decryption key."
-msgstr ""
-"Memória insuficiente para criar chave privada de descriptografia privada."
+msgstr "Memória insuficiente para criar chave privada de descriptografia."
 
 #: ../libnm-util/crypto.c:513
 #, c-format
 msgid "Not enough memory to store decrypted private key."
-msgstr "Memória insuficiente para armazenar chave de descriptografia privada."
+msgstr ""
+"Memória insuficiente para armazenar a chave privada de descriptografia."
 
 #: ../libnm-util/crypto_gnutls.c:45
 msgid "Failed to initialize the crypto engine."
-msgstr "Falha ao iniciar o motor de descriptografia."
+msgstr "Falha ao iniciar o motor de criptografia."
 
 #: ../libnm-util/crypto_gnutls.c:89
 #, c-format
@@ -203,7 +205,7 @@ msgstr "Falha ao iniciar o motor MD5: %s / %s."
 #: ../libnm-util/crypto_gnutls.c:152 ../libnm-util/crypto_nss.c:166
 #, c-format
 msgid "Not enough memory for decrypted key buffer."
-msgstr "Memória insuficiente para o buffer de descriptografia."
+msgstr "Memória insuficiente para o buffer da chave descriptografada."
 
 #: ../libnm-util/crypto_gnutls.c:160
 #, c-format
@@ -213,12 +215,12 @@ msgstr "Falha ao iniciar o contexto da cifra de descriptografia: %s / %s."
 #: ../libnm-util/crypto_gnutls.c:169
 #, c-format
 msgid "Failed to set symmetric key for decryption: %s / %s."
-msgstr "Falha ao atribuir chave simétrica para descriptografia: %s / %s."
+msgstr "Falha ao definir chave simétrica para descriptografia: %s / %s."
 
 #: ../libnm-util/crypto_gnutls.c:178
 #, c-format
 msgid "Failed to set IV for decryption: %s / %s."
-msgstr "Falha ao atribuir IV para descriptografia: %s / %s."
+msgstr "Falha ao definir IV para descriptografia: %s / %s."
 
 #: ../libnm-util/crypto_gnutls.c:187
 #, c-format
@@ -248,17 +250,17 @@ msgstr "Falha ao iniciar o contexto MD5: %d."
 #: ../libnm-util/crypto_nss.c:174
 #, c-format
 msgid "Failed to initialize the decryption cipher slot."
-msgstr "Falha ao iniciar o slot de cifra de descriptografia."
+msgstr "Falha ao iniciar o espaço de cifra de descriptografia."
 
 #: ../libnm-util/crypto_nss.c:184
 #, c-format
 msgid "Failed to set symmetric key for decryption."
-msgstr "Falha ao atribuir chave simétrica para descriptografia."
+msgstr "Falha ao definir chave simétrica para descriptografia."
 
 #: ../libnm-util/crypto_nss.c:194
 #, c-format
 msgid "Failed to set IV for decryption."
-msgstr "Falha ao atribuir IV para descriptografia."
+msgstr "Falha ao definir IV para descriptografia."
 
 #: ../libnm-util/crypto_nss.c:202
 #, c-format
