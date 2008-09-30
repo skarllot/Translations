@@ -902,6 +902,11 @@ msgid ""
 "Prefer 3G (UMTS/HSPA)\n"
 "Prefer 2G (GPRS/EDGE)"
 msgstr ""
+"Qualquer\n"
+"3G (UMTS/HSPA)\n"
+"2G (GPRS/EDGE)\n"
+"Preferir 3G (UMTS/HSPA)\n"
+"Preferir 2G (GPRS/EDGE)"
 
 #: ../src/connection-editor/ce-page-mobile.glade.h:9
 msgid "Band:"
@@ -1425,7 +1430,7 @@ msgstr "Não foi possível atualizar conexão do sistema: permissão negada."
 #: ../src/connection-editor/nm-connection-list.c:675
 #, c-format
 msgid "Updating connection failed: %s."
-msgstr "Não foi possível atualizar conexão: %s."
+msgstr "Falha ao atualizar conexão: %s."
 
 #: ../src/connection-editor/nm-connection-list.c:790
 #, c-format
@@ -1466,7 +1471,7 @@ msgstr "Você tem certeza que deseja excluir a conexão %s?"
 #: ../src/connection-editor/nm-connection-list.c:1156
 #: ../src/connection-editor/vpn-helpers.c:226
 msgid "Cannot import VPN connection"
-msgstr "Não foi possível importar conexão VPN"
+msgstr "Não foi possível importar a conexão VPN"
 
 #: ../src/connection-editor/nm-connection-list.c:1158
 msgid ""
@@ -1493,7 +1498,7 @@ msgstr ""
 
 #: ../src/connection-editor/vpn-helpers.c:259
 msgid "Select file to import"
-msgstr "Seleciona o arquivo a ser importado"
+msgstr "Seleciona um arquivo para importação"
 
 #: ../src/connection-editor/vpn-helpers.c:305
 #, c-format
@@ -1511,7 +1516,7 @@ msgstr "Você deseja substituir %s com a conexão de VPN que você está salvand
 
 #: ../src/connection-editor/vpn-helpers.c:343
 msgid "Cannot export VPN connection"
-msgstr "Não foi possível importar conexão VPN"
+msgstr "Não foi possível exportar conexão VPN"
 
 #: ../src/connection-editor/vpn-helpers.c:345
 #, c-format
@@ -1555,9 +1560,10 @@ msgstr ""
 msgid "Wired 802.1X authentication"
 msgstr "Autenticação com fios 802.1x"
 
+# Nova rede sem fio
 #: ../src/wireless-dialog.c:408
 msgid "New..."
-msgstr "Novo..."
+msgstr "Nova..."
 
 #: ../src/wireless-dialog.c:920
 #, c-format
@@ -1578,7 +1584,7 @@ msgstr "Segredos requeridos pela rede sem fio"
 
 #: ../src/wireless-dialog.c:929
 msgid "Create New Wireless Network"
-msgstr "Criar nova rede sem fio"
+msgstr "Criar uma nova rede sem fio"
 
 #: ../src/wireless-dialog.c:931
 msgid "New wireless network"
@@ -1663,311 +1669,3 @@ msgstr "TLS encapsulado"
 #: ../src/wireless-security/wireless-security.c:357
 msgid "Protected EAP (PEAP)"
 msgstr "EAP Protegido (PEAP)"
-
-#~ msgid ""
-#~ "Any\n"
-#~ "GPRS\n"
-#~ "GSM\n"
-#~ "Prefer GPRS\n"
-#~ "Prefer GSM"
-#~ msgstr ""
-#~ "Qualquer um\n"
-#~ "GPRS\n"
-#~ "GSM\n"
-#~ "Preferir GPRS\n"
-#~ "Preferir GSM"
-
-#~ msgid "<span style=\"italic\">Example: 00:11:22:33:44:55</span>"
-#~ msgstr "<span style=\"italic\">Exemplo: 00:11:22:33:44:55</span>"
-
-#~ msgid "WEP 40/128-bit Hexadecimal"
-#~ msgstr "WEP de 40/128 bits hexadecimal"
-
-#~ msgid "Automatic with manual DNS settings"
-#~ msgstr "Automático com configurações DNS manuais"
-
-#~ msgid "<span style=\"italic\">Example: 10.10.10.1, 10.10.10.2</span>"
-#~ msgstr "<span style=\"italic\">Exemplo: 10.10.10.1, 10.10.10.2</span>"
-
-#~ msgid "<span style=\"italic\">Example: lab.gnome.org, gnome.org</span>"
-#~ msgstr "<span style=\"italic\">Exemplo: lab.gnome.org, gnome.org</span>"
-
-# iniciar ou inicializar?
-# Resp.: assunto controverso... O dic. Houaiss recomenda "iniciar", mas registra
-# também "inicializar", que é adotado pelo Vocabulário Padrão. Já tivemos uma
-# discussão muito pouco produtiva sobre essa controvérsia.
-#~ msgid "Error initializing certificate data: %s"
-#~ msgstr "Erro ao iniciar dados do certificado: %s"
-
-#~ msgid "_CDMA Card"
-#~ msgstr "Placa _CDMA"
-
-#~ msgid "_GSM Modem"
-#~ msgstr "Modem _GSM"
-
-#~ msgid "Destination Address:"
-#~ msgstr "Endereço de Destino:"
-
-#~ msgid "Foo"
-#~ msgstr "Fulano"
-
-#~ msgid "Disconnect..."
-#~ msgstr "Desconectar..."
-
-#~ msgid "Could not find some required resources (the glade file)!"
-#~ msgstr ""
-#~ "Não foi possível encontrar alguns recursos necessários (o arquivo glade)!"
-
-#~ msgid "Passphrase:"
-#~ msgstr "Frase Secreta:"
-
-#~ msgid "Show passphrase"
-#~ msgstr "Mostrar frase secreta"
-
-#~ msgid "_Manual configuration"
-#~ msgstr "Configuração _manual"
-
-#, fuzzy
-#~ msgid "PEM key file had no end tag '%s'."
-#~ msgstr "O arquivo de chave PEM não possui a marca de fim \"%s\"."
-
-#~ msgid "Doesn't look like a PEM private key file."
-#~ msgstr "Não se parece com um arquivo de chave privada PEM."
-
-#~ msgid "Not enough memory to store PEM file data."
-#~ msgstr "Não há memória suficiente para armazenar dados do arquivo PEM."
-
-#~ msgid "Malformed PEM file: Proc-Type was not first tag."
-#~ msgstr "Arquivo PEM mal-formado: Proc-Type não era a primeira marca."
-
-#, fuzzy
-#~ msgid "Malformed PEM file: unknown Proc-Type tag '%s'."
-#~ msgstr "Arquivo PEM mal-formado: marca Proc-Type \"%s\" desconhecida."
-
-#~ msgid "Malformed PEM file: DEK-Info was not the second tag."
-#~ msgstr "Arquivo PEM mal-formado: DEK-Info não era a segunda marca."
-
-#~ msgid "Malformed PEM file: no IV found in DEK-Info tag."
-#~ msgstr "Arquivo PEM mal-formado: nenhum IV encontrado na marca DEK-Info."
-
-#~ msgid "Malformed PEM file: invalid format of IV in DEK-Info tag."
-#~ msgstr "Arquivo PEM mal-formado: formato inválido do IV na marca DEK-Info."
-
-#, fuzzy
-#~ msgid "Malformed PEM file: unknown private key cipher '%s'."
-#~ msgstr ""
-#~ "Arquivo PEM mal-formado: cifra da chave privada \"%s\" desconhecida."
-
-#~ msgid "Could not decode private key."
-#~ msgstr "Não foi possível decodificar a chave privada."
-
-#, fuzzy
-#~ msgid "PEM certificate '%s' had no end tag '%s'."
-#~ msgstr "O certificado PEM \"%s\" não possui marca de fim \"%s\"."
-
-#~ msgid "Failed to decode certificate."
-#~ msgstr "Falha ao decodificar o certificado."
-
-#~ msgid "Not enough memory to store certificate data."
-#~ msgstr "Não há memória suficiente para armazenar dados do certificado."
-
-#~ msgid "IV must be an even number of bytes in length."
-#~ msgstr "IV deve ter um número par de bytes no comprimento."
-
-#~ msgid "Not enough memory to store the IV."
-#~ msgstr "Não há memória suficiente para armazenar o IV."
-
-#~ msgid "IV contains non-hexadecimal digits."
-#~ msgstr "IV contém dígitos não hexadecimais."
-
-#, fuzzy
-#~ msgid "Private key cipher '%s' was unknown."
-#~ msgstr "Cifra da chave privada \"%s\" não conhecida."
-
-#~ msgid "Not enough memory to create private key decryption key."
-#~ msgstr ""
-#~ "Não há memória suficiente para criar chave de descriptografia da chave "
-#~ "privada."
-
-#~ msgid "Not enough memory to store decrypted private key."
-#~ msgstr ""
-#~ "Não há memória suficiente para armazenar a chave privada descriptografada."
-
-#~ msgid "Failed to initialize the MD5 engine: %s / %s."
-#~ msgstr "Falha ao iniciar o mecanismo MD5: %s / %s."
-
-#~ msgid "Not enough memory for decrypted key buffer."
-#~ msgstr "Não há memória suficiente para o buffer da chave descriptografada."
-
-#~ msgid "Failed to initialize the decryption cipher context: %s / %s."
-#~ msgstr "Falha ao iniciar o contexto da cifra de descriptografia: %s / %s."
-
-#~ msgid "Failed to set symmetric key for decryption: %s / %s."
-#~ msgstr "Falha ao definir chave simétrica para descriptografia: %s / %s."
-
-#~ msgid "Failed to set IV for decryption: %s / %s."
-#~ msgstr "Falha ao definir IV para descriptografia: %s / %s."
-
-#~ msgid "Failed to decrypt the private key: %s / %s."
-#~ msgstr "Falha ao descriptografar chave privada: %s / %s."
-
-#, fuzzy
-#~ msgid "Couldn't decode certificate: %s"
-#~ msgstr "Falha ao decodificar o certificado."
-
-#, fuzzy
-#~ msgid "Failed to initialize the MD5 context: %d."
-#~ msgstr "Falha ao iniciar o mecanismo MD5: %s / %s."
-
-#, fuzzy
-#~ msgid "Failed to initialize the decryption cipher slot."
-#~ msgstr "Falha ao iniciar o contexto da cifra de descriptografia: %s / %s."
-
-#, fuzzy
-#~ msgid "Failed to set symmetric key for decryption."
-#~ msgstr "Falha ao definir chave simétrica para descriptografia: %s / %s."
-
-#, fuzzy
-#~ msgid "Failed to set IV for decryption."
-#~ msgstr "Falha ao definir IV para descriptografia: %s / %s."
-
-#, fuzzy
-#~ msgid "Failed to initialize the decryption context."
-#~ msgstr "Falha ao iniciar o contexto da cifra de descriptografia: %s / %s."
-
-#, fuzzy
-#~ msgid "Failed to decrypt the private key: %d."
-#~ msgstr "Falha ao descriptografar chave privada: %s / %s."
-
-#, fuzzy
-#~ msgid "Failed to finalize decryption of the private key: %d."
-#~ msgstr "Falha ao descriptografar chave privada: %s / %s."
-
-#, fuzzy
-#~ msgid "Couldn't decode certificate: %d"
-#~ msgstr "Falha ao decodificar o certificado."
-
-#, fuzzy
-#~ msgid ""
-#~ "Cannot find suitable software for VPN connection type '%s' to import the "
-#~ "file '%s'. Contact your system administrator."
-#~ msgstr ""
-#~ "Não foi possível encontrar o software adequado para o tipo de conexão VPN "
-#~ "\"%s\" importar o arquivo \"%s\". Entre em contato com o seu "
-#~ "administrador de sistema."
-
-#~ msgid ""
-#~ "All information about the VPN connection \"%s\" will be lost and you may "
-#~ "need your system administrator to provide information to create a new "
-#~ "connection."
-#~ msgstr ""
-#~ "Todas as informações sobre a conexão VPN \"%s\" serão perdidas e você "
-#~ "pode precisar que o seu administrador de sistema forneça informações para "
-#~ "criar uma nova conexão."
-
-#~ msgid "Unable to load"
-#~ msgstr "Não foi possível carregar"
-
-#~ msgid "Cannot find some needed resources (the glade file)!"
-#~ msgstr ""
-#~ "Não foi possível encontrar alguns recursos necessários (o arquivo glade)!"
-
-#~ msgid "Cannot add VPN connection"
-#~ msgstr "Não foi possível adicionar conexão VPN"
-
-#~ msgid ""
-#~ "No suitable VPN software was found on your system. Contact your system "
-#~ "administrator."
-#~ msgstr ""
-#~ "Nenhum software de VPN apropriado foi encontrado no seu sistema. Entre em "
-#~ "contato com o seu administrador de sistema."
-
-#~ msgid ""
-#~ "This assistant will guide you through the creation of a connection to a "
-#~ "Virtual Private Network (VPN)."
-#~ msgstr ""
-#~ "Este assistente o guiará através da criação de uma conexão com uma Rede "
-#~ "Privada Virtual (VPN)."
-
-#~ msgid ""
-#~ "It will require some information, such as IP addresses and secrets.  "
-#~ "Please see your system administrator to obtain this information."
-#~ msgstr ""
-#~ "Serão necessárias algumas informações, tais como endereços IP e segredos. "
-#~ "Por favor, entre em contato com o seu administrador de sistema para obter "
-#~ "essas informações."
-
-#~ msgid "Create VPN Connection"
-#~ msgstr "Criar conexão VPN"
-
-#~ msgid "1 of 2"
-#~ msgstr "1 de 2"
-
-#~ msgid "Choose which type of _VPN connection you wish to create:"
-#~ msgstr "Escolha qual tipo de conexão _VPN você deseja criar:"
-
-#~ msgid "Choose which type of VPN connection you wish to create:"
-#~ msgstr "Escolha qual tipo de conexão VPN você deseja criar:"
-
-#~ msgid "2 of 2"
-#~ msgstr "2 de 2"
-
-#~ msgid "Finished Create VPN Connection"
-#~ msgstr "Criar conexão VPN terminada"
-
-#~ msgid "Edit VPN Connection"
-#~ msgstr "Editar conexão VPN"
-
-#~ msgid "VPN Service for importing"
-#~ msgstr "Serviço VPN a importar"
-
-#~ msgid "- NetworkManager VPN properties"
-#~ msgstr "- Propriedades VPN do Gerenciador de rede"
-
-#~ msgid "Add a new VPN connection"
-#~ msgstr "Adicionar uma nova conexão VPN"
-
-#~ msgid "Delete the selected VPN connection"
-#~ msgstr "Excluir a conexão VPN selecionada"
-
-#~ msgid "Edit the selected VPN connection"
-#~ msgstr "Editar a conexão VPN selecionada"
-
-#~ msgid "Export the VPN settings to a file"
-#~ msgstr "Exportar as configurações VPN para um arquivo"
-
-#~ msgid "Export the selected VPN connection to a file"
-#~ msgstr "Exportar a conexão VPN selecionada para um arquivo"
-
-#~ msgid "Manage Virtual Private Network Connections"
-#~ msgstr "Gerenciar Conexões de Rede Privada Virtual (VPN)"
-
-#, fuzzy
-#~ msgid "Auto CDMA dialup connection"
-#~ msgstr "Conexão de rede CDMA automática"
-
-#, fuzzy
-#~ msgid "CDMA Card (%s)"
-#~ msgstr "CDMA (%s)"
-
-#, fuzzy
-#~ msgid "Auto GSM dialup connection"
-#~ msgstr "Conexão de rede GSM automática"
-
-#, fuzzy
-#~ msgid "GSM Modem (%s)"
-#~ msgstr "GSM (%s)"
-
-#, fuzzy
-#~ msgid "_Wired Network"
-#~ msgstr "Rede com fios"
-
-#, fuzzy
-#~ msgid "Wireless Ethernet (%s)"
-#~ msgstr "Ethernet sem fio (%s)"
-
-#~ msgid "Delete VPN connection \"%s\"?"
-#~ msgstr "Excluir a conexão VPN \"%s\"?"
-
-#~ msgid "VPN Connections"
-#~ msgstr "Conexões VPN"
