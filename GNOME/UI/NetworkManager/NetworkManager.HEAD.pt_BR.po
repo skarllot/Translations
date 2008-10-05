@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: NetworkManager\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-09-21 19:19+0000\n"
-"PO-Revision-Date: 2008-09-28 23:43-0300\n"
+"PO-Revision-Date: 2008-10-04 23:43-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-l10n-br@listas.cipsga.org.br>\n"
 "MIME-Version: 1.0\n"
@@ -29,28 +29,28 @@ msgstr "erro ao processar mensagem do netlink: %s"
 #, c-format
 msgid "unable to allocate netlink handle for monitoring link status: %s"
 msgstr ""
-"não foi possível alocar identificador do netlink para monitorar o status do "
+"não foi possível alocar manipulador de netlink para monitoração do status do "
 "link: %s"
 
 #: ../src/nm-netlink-monitor.c:260
 #, c-format
 msgid "unable to connect to netlink for monitoring link status: %s"
 msgstr ""
-"não foi possível conectar ao netlink para monitorar o status do link: %s"
+"não foi possível conectar ao netlink para monitoração do status do link: %s"
 
 #: ../src/nm-netlink-monitor.c:268
 #, c-format
 msgid "unable to join netlink group for monitoring link status: %s"
 msgstr ""
-"não foi possível associar-se ao grupo do netlink para monitorar o status do "
-"link: %s"
+"não foi possível associar-se ao grupo do netlink para monitoração do status "
+"do link: %s"
 
 #: ../src/nm-netlink-monitor.c:276
 #, c-format
 msgid "unable to allocate netlink link cache for monitoring link status: %s"
 msgstr ""
-"não foi possível alocar o cache de link do netlink para monitorar o status "
-"do link: %s"
+"não foi possível alocar o cache de link do netlink para monitoração do "
+"status do link: %s"
 
 #: ../src/nm-netlink-monitor.c:439
 #, c-format
@@ -60,14 +60,13 @@ msgstr "erro ao atualizar o cache de link: %s"
 #: ../src/nm-netlink-monitor.c:497
 #, c-format
 msgid "error occurred while waiting for data on socket"
-msgstr "ocorreu um erro ao esperar por dados na conexão"
+msgstr "ocorreu um erro ao esperar por dados da conexão"
 
 #: ../src/NetworkManager.c:250
 #, c-format
 msgid "Invalid option.  Please use --help to see a list of valid options.\n"
 msgstr ""
-"Opção inválida.  Por favor, use --help para ver uma lista de opções "
-"válidas.\n"
+"Opção inválida. Por favor, use --help para ver uma lista de opções válidas.\n"
 
 #: ../src/dhcp-manager/nm-dhcp-dhclient.c:89
 msgid "# Created by NetworkManager\n"
@@ -164,7 +163,7 @@ msgstr "Memória insuficiente para armazenar os dados do certificado."
 #: ../libnm-util/crypto.c:328
 #, c-format
 msgid "IV must be an even number of bytes in length."
-msgstr "Tamanho do IV deve ser um número par de bytes."
+msgstr "O tamanho do IV deve ser um número par de bytes."
 
 #: ../libnm-util/crypto.c:337
 #, c-format
@@ -185,7 +184,7 @@ msgstr "Cifra da chave privada \"%s\" não foi reconhecida."
 #: ../libnm-util/crypto.c:395
 #, c-format
 msgid "Not enough memory to create private key decryption key."
-msgstr "Memória insuficiente para criar chave privada de descriptografia."
+msgstr "Memória insuficiente para descriptografar a chave privada."
 
 #: ../libnm-util/crypto.c:513
 #, c-format
