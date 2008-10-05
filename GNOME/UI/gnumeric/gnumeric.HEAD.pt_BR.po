@@ -35,7 +35,7 @@ msgstr "Planilha"
 
 #: ../plugins/applix/applix-read.c:126
 msgid "Parse error while reading Applix file."
-msgstr "Formato inválido no arquivo Applix."
+msgstr "Erro de análise ao ler o arquivo Applix."
 
 #: ../plugins/applix/applix-read.c:329
 msgid "Missing characters for character encoding"
@@ -57,7 +57,7 @@ msgid ""
 "%s!%s : unable to parse '%s'\n"
 "     %s"
 msgstr ""
-"%s!%s : impossível processar \"%s\"\n"
+"%s!%s : impossível analisar \"%s\"\n"
 "     %s"
 
 #: ../plugins/applix/plugin.xml.in.h:1
@@ -78,7 +78,7 @@ msgstr "Interface CORBA"
 
 #: ../plugins/corba/plugin.xml.in.h:2
 msgid "Provides a CORBA scripting interface"
-msgstr "Fornece uma interface script CORBA"
+msgstr "Fornece uma interface de script CORBA"
 
 #: ../plugins/derivatives/options.c:2278 ../plugins/derivatives/options.c:2283
 #: ../plugins/derivatives/options.c:2288 ../plugins/derivatives/options.c:2293
@@ -137,9 +137,8 @@ msgstr ""
 "rho_ef, kappa_e, kappa_f)"
 
 #: ../plugins/derivatives/options.c:2353
-#, fuzzy
 msgid "spot, strike, t1, t2, rate, d, volatility"
-msgstr "tipo_compra_venda, à_vista, exercício, t1, t2, taxa, d, volatilidade"
+msgstr "à_vista, exercício, t1, t2, taxa, d, volatilidade"
 
 #: ../plugins/derivatives/options.c:2358
 msgid ""
@@ -231,7 +230,7 @@ msgstr "Financeiras"
 
 #: ../plugins/derivatives/plugin.xml.in.h:2
 msgid "Financial Derivatives"
-msgstr "Derivativos Financeiros"
+msgstr "Derivativos financeiros"
 
 #: ../plugins/derivatives/plugin.xml.in.h:3
 msgid "Functions related to financial derivatives"
@@ -245,22 +244,22 @@ msgstr "Lendo arquivo..."
 #: ../plugins/dif/dif.c:175
 #, c-format
 msgid "Syntax error at line %d. Ignoring."
-msgstr "Erro de sintaxe na linha %d, Ignorando."
+msgstr "Erro de sintaxe na linha %d. Ignorando."
 
 #: ../plugins/dif/dif.c:197
 #, c-format
 msgid "Unknown value type '%s' at line %d. Ignoring."
-msgstr "Tipo de valor \"%s\" na linha %d é desconhecido. Ignorando."
+msgstr "O tipo de valor \"%s\" na linha %d é desconhecido. Ignorando."
 
 #: ../plugins/dif/dif.c:236
 #, c-format
 msgid "Unknown data value \"%s\" at line %d. Ignoring."
-msgstr "Valor desconhecido \"%s\" na linha %d. Ignorando."
+msgstr "O valor de dado \"%s\" na linha %d é desconhecido. Ignorando."
 
 #: ../plugins/dif/dif.c:243
 #, c-format
 msgid "Unknown value type %d at line %d. Ignoring."
-msgstr "Tipo de valor desconhecido %d na linha %d. Ignorando."
+msgstr "O tipo de valor %d na linha %d é desconhecido. Ignorando."
 
 #: ../plugins/dif/dif.c:252
 #, c-format
@@ -292,16 +291,16 @@ msgstr "Fim de arquivo inesperado na linha %d ao ler dados."
 
 #: ../plugins/dif/dif.c:294
 msgid "Error while reading DIF file."
-msgstr "Erro ao ler arquivo DIF."
+msgstr "Erro ao ler o arquivo DIF."
 
 #: ../plugins/dif/dif.c:315 ../plugins/paradox/paradox.c:315
 #: ../plugins/sylk/sylk-write.c:235
 msgid "Cannot get default sheet."
-msgstr "Impossível obter a pasta padrão."
+msgstr "Não foi possível obter a planilha padrão."
 
 #: ../plugins/dif/dif.c:367
 msgid "Error while saving DIF file."
-msgstr "Erro ao gravar arquivo DIF."
+msgstr "Erro ao salvar o arquivo DIF."
 
 #: ../plugins/dif/plugin.xml.in.h:1
 msgid "Data Interchange Format (*.dif)"
@@ -320,7 +319,7 @@ msgstr ""
 #: ../plugins/excel/boot.c:187
 #, fuzzy
 msgid "No Workbook or Book streams found."
-msgstr "Nenhuma pasta de trabalho ou livro encontrado."
+msgstr "Nenhuma pasta de trabalho ou pasta encontrada."
 
 #: ../plugins/excel/boot.c:256
 msgid "Preparing to save..."
@@ -338,7 +337,7 @@ msgstr "Atributo inesperado %s::%s == \"%s\"."
 #: ../plugins/excel/excel-xml-read.c:1002
 #: ../plugins/openoffice/openoffice-read.c:2984 ../src/xml-sax-read.c:2677
 msgid "XML document not well formed!"
-msgstr "Documento XML mal-formado!"
+msgstr "Documento XML não está bem definido!"
 
 #: ../plugins/excel/ms-excel-read.c:1261 ../src/value.c:77
 msgid "#UNKNOWN!"
@@ -406,7 +405,7 @@ msgid "No password supplied"
 msgstr "Nenhuma senha fornecida"
 
 #: ../plugins/excel/ms-excel-write.c:219
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Some content will be lost when saving.  This format only supports %u column, "
 "and this workbook has %d"
@@ -421,7 +420,7 @@ msgstr[1] ""
 "colunas e esta pasta de trabalho tem %d"
 
 #: ../plugins/excel/ms-excel-write.c:231
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Some content will be lost when saving.  This format only supports %u row, "
 "and this workbook has %d"
@@ -442,16 +441,16 @@ msgid ""
 "encoding problems."
 msgstr ""
 "Há algo corrompido.\n"
-"Nós já escrevemos um trecho para um texto que foi truncado devido a "
+"Já foi escrito um tamanho para um texto que está sendo truncado devido a "
 "problemas de codificação."
 
 #: ../plugins/excel/ms-excel-write.c:5719
 msgid "Couldn't open stream 'Book' for writing\n"
-msgstr "Impossível abrir o \"Livro\" atual para escrita\n"
+msgstr "Não foi possível abrir a \"pasta\" atual para gravação\n"
 
 #: ../plugins/excel/ms-excel-write.c:5739
 msgid "Couldn't open stream 'Workbook' for writing\n"
-msgstr "Não foi possível abrir a \"pasta de trabalho\" para gravação\n"
+msgstr "Não foi possível abrir a \"pasta de trabalho\" atual para gravação\n"
 
 #: ../plugins/excel/ms-formula-read.c:656
 msgid "Broken function"
@@ -467,7 +466,7 @@ msgstr ""
 
 #: ../plugins/excel/plugin.xml.in.h:1
 msgid "Imports/Exports MS Excel (tm) files"
-msgstr "Importa/Exporta arquivos MS Excel (tm)"
+msgstr "Importa ou exporta arquivos MS Excel (tm)"
 
 #: ../plugins/excel/plugin.xml.in.h:2
 msgid "MS Excel (tm)"
@@ -478,14 +477,12 @@ msgid "MS Excel (tm) (*.xls)"
 msgstr "MS Excel (tm) (*.xls)"
 
 #: ../plugins/excel/plugin.xml.in.h:4
-#, fuzzy
 msgid "MS Excel (tm) 2003 SpreadsheetML"
-msgstr "MS Excel (tm) SpreadsheetML"
+msgstr "MS Excel (tm) 2003 SpreadsheetML"
 
 #: ../plugins/excel/plugin.xml.in.h:5
-#, fuzzy
 msgid "MS Excel (tm) 2007"
-msgstr "MS Excel (tm)"
+msgstr "MS Excel (tm) 2007"
 
 #: ../plugins/excel/plugin.xml.in.h:6
 msgid "MS Excel (tm) 5.0/95"
@@ -507,47 +504,47 @@ msgstr "\"%s\" está corrompido!"
 #: ../plugins/excel/xlsx-read.c:326
 #, c-format
 msgid "Unknown enum value '%s' for attribute %s"
-msgstr "O valor \"%s\" é desconhecido para o enumerador do atributo %s"
+msgstr "O valor de enumerador \"%s\" é desconhecido para o atributo %s"
 
 #: ../plugins/excel/xlsx-read.c:369 ../plugins/excel/xlsx-read.c:398
 #, c-format
 msgid "Integer '%s' is out of range, for attribute %s"
-msgstr "O inteiro \"%s\" está fora dos limites no atributo %s"
+msgstr "O inteiro \"%s\" está fora dos limites para o atributo %s"
 
 #: ../plugins/excel/xlsx-read.c:373 ../plugins/excel/xlsx-read.c:402
 #, c-format
 msgid "Invalid integer '%s' for attribute %s"
-msgstr "O inteiro \"%s\" é inválido no atributo %s"
+msgstr "O inteiro \"%s\" é inválido para o atributo %s"
 
 # plugins/guile/plugin.c:241 src/expr.c:489 src/fn-math.c:1177
 #: ../plugins/excel/xlsx-read.c:428
 #, c-format
 msgid "Invalid RRGGBB color '%s' for attribute %s"
-msgstr "A cor RRGGBB \"%s\" é inválida no atributo %s"
+msgstr "A cor RRGGBB \"%s\" é inválida para o atributo %s"
 
 # plugins/guile/plugin.c:241 src/expr.c:489 src/fn-math.c:1177
 #: ../plugins/excel/xlsx-read.c:459
-#, fuzzy, c-format
+#, c-format
 msgid "Invalid number '%s' for attribute %s"
-msgstr "Número inválido de argumentos"
+msgstr "O número \"%s\" é inválido para o atributo %s"
 
 #: ../plugins/excel/xlsx-read.c:483
 #, c-format
 msgid "Invalid cell position '%s' for attribute %s"
-msgstr "A posição \"%s\" da célula é inválida no atributo %s"
+msgstr "A posição \"%s\" da célula é inválida para o atributo %s"
 
 #: ../plugins/excel/xlsx-read.c:502
 #, c-format
 msgid "Invalid range '%s' for attribute %s"
-msgstr "O alcance \"%s\" é inválido no atributo %s"
+msgstr "O alcance \"%s\" é inválido para o atributo %s"
 
 #: ../plugins/excel/xlsx-read.c:765
 #, c-format
 msgid "Undefined number format id '%s'"
-msgstr ""
+msgstr "O ID de formato de número \"%s\" não definido"
 
 #: ../plugins/excel/xlsx-read.c:1412
-#, fuzzy, c-format
+#, c-format
 msgid "Unknown color '%s'"
 msgstr "A cor \"%s\" é desconhecida"
 
@@ -557,80 +554,78 @@ msgstr "Tema faltando"
 
 #: ../plugins/excel/xlsx-read.c:2062
 msgid "Dropping missing object"
-msgstr ""
+msgstr "Descartando objeto faltando"
 
 #: ../plugins/excel/xlsx-read.c:2080
 #, c-format
 msgid "Dropping object with incomplete anchor %2x"
-msgstr ""
+msgstr "Descartando objeto com âncora incompleta %2x"
 
 #: ../plugins/excel/xlsx-read.c:2191
 #, c-format
 msgid "Invalid color '%s' for attribute rgb"
-msgstr "A cor \"%s\" é inválida no atributo rgb"
+msgstr "A cor \"%s\" é inválida para o atributo rgb"
 
 #: ../plugins/excel/xlsx-read.c:2214
 #, c-format
 msgid "Undefined style record '%d'"
-msgstr ""
+msgstr "Registro de estilo \"%d\" não definido"
 
 #: ../plugins/excel/xlsx-read.c:2223
 #, c-format
 msgid "Undefined partial style record '%d'"
-msgstr ""
+msgstr "Registro de estilo parcial \"%d\" não definido"
 
 #: ../plugins/excel/xlsx-read.c:2252
-#, fuzzy, c-format
+#, c-format
 msgid "Invalid sst ref '%s'"
-msgstr "Arquivo de modelo inválido: %s"
+msgstr "Referência SST \"%s\" inválida"
 
 #: ../plugins/excel/xlsx-read.c:2373
-#, fuzzy, c-format
+#, c-format
 msgid "Invalid cell %s"
-msgstr "Células variáveis inválidas"
+msgstr "Célula %s inválida"
 
 #: ../plugins/excel/xlsx-read.c:2474
 msgid "Ignoring column information that does not specify first or last."
-msgstr ""
+msgstr "Ignorando informações de coluna que não especifica primeiro ou último."
 
 #: ../plugins/excel/xlsx-read.c:2766
 #, c-format
 msgid "Ignoring invalid data validation because : %s"
-msgstr ""
+msgstr "Ignorando validação dados inválidos porque: %s"
 
 #: ../plugins/excel/xlsx-read.c:3191
-#, fuzzy
 msgid "Undefined"
-msgstr "Sublinhado"
+msgstr "Não definido"
 
 #: ../plugins/excel/xlsx-read.c:3234
 #, c-format
 msgid "Ignoring unhandled conditional format of type '%s'"
-msgstr ""
+msgstr "Ignorando o formato ou tipo \"%s\" condicional não manipulado"
 
 #: ../plugins/excel/xlsx-read.c:3615
-#, fuzzy
 msgid "Unknown type of hyperlink"
-msgstr "Plugin desconhecido"
+msgstr "Tipo de hyperlink desconhecido"
 
 #: ../plugins/excel/xlsx-read.c:3826
 msgid "Ignoring a sheet without a name"
-msgstr ""
+msgstr "Ignorando uma planilha sem um nome"
 
 #: ../plugins/excel/xlsx-read.c:3854
 #, c-format
 msgid "Missing part-id for sheet '%s'"
-msgstr ""
+msgstr "Faltando o part-id para a planilha \"%s\""
 
 #: ../plugins/excel/xlsx-read.c:4327
 #, c-format
 msgid "Missing record '%d'"
-msgstr ""
+msgstr "Faltando o registro \"%d\""
 
 #: ../plugins/excel/xlsx-read.c:4779
 #, fuzzy
 msgid "No workbook stream found."
-msgstr "Nenhuma pasta de trabalho encontrada."
+msgstr "Nenhuma pasta de trabalho localizada."
 
 #: ../plugins/fn-complex/functions.c:1607
 msgid "real,im,suffix"
@@ -685,11 +680,11 @@ msgstr "inúmero,inúmero"
 
 #: ../plugins/fn-complex/plugin.xml.in.h:1
 msgid "Complex"
-msgstr "Números Complexos"
+msgstr "Números complexos"
 
 #: ../plugins/fn-complex/plugin.xml.in.h:2
 msgid "Complex Functions"
-msgstr "Funções de Números Complexos"
+msgstr "Funções de números complexos"
 
 #: ../plugins/fn-complex/plugin.xml.in.h:3
 msgid "Functions for complex numbers"
@@ -722,11 +717,11 @@ msgstr "Banco de dados"
 # plugins/python/python.c:115
 #: ../plugins/fn-database/plugin.xml.in.h:2
 msgid "Database Functions"
-msgstr "Funções de Banco de Dados"
+msgstr "Funções de banco de dados"
 
 #: ../plugins/fn-database/plugin.xml.in.h:3
 msgid "Functions looking up values in databases"
-msgstr "Funções procurando valores no Banco de Dados"
+msgstr "Funções procurando valores no banco de dados"
 
 #: ../plugins/fn-date/functions.c:1432
 msgid "year,month,day"
@@ -734,7 +729,7 @@ msgstr "ano,mês,dia"
 
 #: ../plugins/fn-date/functions.c:1436
 msgid "date_str"
-msgstr "data_texto"
+msgstr "data_txt"
 
 #: ../plugins/fn-date/functions.c:1440
 msgid "date1,date2,interval"
@@ -754,11 +749,11 @@ msgstr "data1,data2,método"
 
 #: ../plugins/fn-date/functions.c:1452
 msgid "date,months"
-msgstr "data,mêses"
+msgstr "data,meses"
 
 #: ../plugins/fn-date/functions.c:1456
 msgid "start_date,months"
-msgstr "data_início,mêses"
+msgstr "data_início,meses"
 
 #: ../plugins/fn-date/functions.c:1460 ../plugins/fn-date/functions.c:1464
 #: ../plugins/fn-date/functions.c:1480 ../src/print-info.c:577
@@ -775,7 +770,7 @@ msgstr "horas,minutos,segundos"
 
 #: ../plugins/fn-date/functions.c:1488
 msgid "timetext"
-msgstr "tempotext"
+msgstr "tempotexto"
 
 #: ../plugins/fn-date/functions.c:1504
 msgid "date,days,holidays"
@@ -791,7 +786,7 @@ msgstr "serial"
 
 #: ../plugins/fn-date/plugin.xml.in.h:1
 msgid "Date and Time Functions"
-msgstr "Funções de Data e Hora"
+msgstr "Funções de data e hora"
 
 #: ../plugins/fn-date/plugin.xml.in.h:2
 msgid "Date/Time"
@@ -799,7 +794,7 @@ msgstr "Data/Hora"
 
 #: ../plugins/fn-date/plugin.xml.in.h:3
 msgid "Functions manipulating dates and time"
-msgstr "Funções manipulando datas e hora"
+msgstr "Funções que manipulam datas e horas"
 
 #: ../plugins/fn-eng/plugin.xml.in.h:1
 msgid "Engineering"
@@ -807,7 +802,7 @@ msgstr "Engenharia"
 
 #: ../plugins/fn-eng/plugin.xml.in.h:2
 msgid "Engineering Functions"
-msgstr "Funções de Engenharia"
+msgstr "Funções de engenharia"
 
 #: ../plugins/fn-eng/plugin.xml.in.h:3
 msgid "Functions for complex numbers, base conversions, and more"
