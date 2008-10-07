@@ -831,16 +831,15 @@ msgstr "Funções Erlang"
 
 #: ../plugins/fn-erlang/plugin.xml.in.h:3
 msgid "Functions to help Erlang Analysis"
-msgstr "Funções para auxiliar a Análise de Erlang"
+msgstr "Funções para auxiliar a análise de Erlang"
 
 #: ../plugins/fn-financial/functions.c:4114
-#, fuzzy
 msgid "rate,values"
-msgstr "_Outros valores"
+msgstr "taxa,valores"
 
 #: ../plugins/fn-financial/plugin.xml.in.h:2
 msgid "Financial Functions"
-msgstr "Funções Financeiras"
+msgstr "Funções financeiras"
 
 #: ../plugins/fn-financial/plugin.xml.in.h:3
 msgid "Interest rate calculations"
@@ -943,11 +942,11 @@ msgstr "Informação"
 
 #: ../plugins/fn-info/plugin.xml.in.h:3
 msgid "Information Functions"
-msgstr "Funções de Informação"
+msgstr "Funções de informação"
 
 #: ../plugins/fn-logical/functions.c:135
 msgid "Type Mismatch"
-msgstr "Tipo Incorreto"
+msgstr "Tipo incorreto"
 
 #: ../plugins/fn-logical/functions.c:376 ../plugins/fn-logical/functions.c:380
 #: ../plugins/fn-logical/functions.c:403 ../plugins/fn-math/functions.c:3469
@@ -994,12 +993,11 @@ msgstr "número"
 
 #: ../plugins/fn-logical/functions.c:388
 msgid "condition,if true,if false"
-msgstr "condição, se verdadeira, se falsa"
+msgstr "condição,se verdadeira,se falsa"
 
 #: ../plugins/fn-logical/functions.c:392
-#, fuzzy
 msgid "value,value"
-msgstr "valor"
+msgstr "valor,valor"
 
 #: ../plugins/fn-logical/plugin.xml.in.h:1
 msgid "Functions for manipulating truth values"
@@ -1011,7 +1009,7 @@ msgstr "Lógica"
 
 #: ../plugins/fn-logical/plugin.xml.in.h:3
 msgid "Logic Functions"
-msgstr "Funções Lógicas"
+msgstr "Funções lógicas"
 
 #: ../plugins/fn-lookup/functions.c:1445
 msgid "row_num,col_num,abs_num,a1,text"
@@ -1040,7 +1038,7 @@ msgstr "val,região,índice_col,aprox,como_índice"
 
 #: ../plugins/fn-lookup/functions.c:1466
 msgid "link_location, label"
-msgstr "localização_link,rótulo"
+msgstr "localização_link, rótulo"
 
 #: ../plugins/fn-lookup/functions.c:1469
 msgid "ref_string,format"
@@ -1076,7 +1074,7 @@ msgstr "Busca e Referência"
 
 #: ../plugins/fn-lookup/plugin.xml.in.h:3
 msgid "Lookup Functions"
-msgstr "Funções de Busca e Referência"
+msgstr "Funções de busca e referência"
 
 #: ../plugins/fn-math/functions.c:2559 ../plugins/fn-math/functions.c:2579
 #: ../plugins/fn-math/functions.c:2675 ../plugins/fn-math/functions.c:2695
