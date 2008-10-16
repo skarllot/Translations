@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gst-plugins-bad-0.10.8.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-10-11 11:28+0100\n"
-"PO-Revision-Date: 2008-10-11 21:58-0300\n"
+"PO-Revision-Date: 2008-10-16 01:16-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
 "MIME-Version: 1.0\n"
@@ -66,7 +66,7 @@ msgid ""
 "bitrate was changed to %d kbit/s."
 msgstr ""
 "A taxa de bits solicitada de %d kbit/s para a propriedade \"%s\" não é "
-"permitida. A taxa de bits foi alterada para %d kbits/s."
+"permitida. A taxa de bits foi alterada para %d kbit/s."
 
 #: sys/dvb/gstdvbsrc.c:697 sys/dvb/gstdvbsrc.c:790
 #, c-format
@@ -140,13 +140,12 @@ msgid "Stereo"
 msgstr "Estéreo"
 
 #: sys/oss4/oss4-mixer.c:729
-#, fuzzy
 msgid "Surround sound"
-msgstr "Som envolvente"
+msgstr "Som surround"
 
 #: sys/oss4/oss4-mixer.c:730 sys/oss4/oss4-mixer.c:805
 msgid "Input mix"
-msgstr ""
+msgstr "Mistura de entrada"
 
 #: sys/oss4/oss4-mixer.c:731 sys/oss4/oss4-mixer.c:800
 msgid "Front"
@@ -178,7 +177,7 @@ msgstr "Entrada"
 
 #: sys/oss4/oss4-mixer.c:738 sys/oss4/oss4-mixer.c:796
 msgid "Line-in"
-msgstr "Entrada de linha"
+msgstr "Linha de entrada"
 
 #: sys/oss4/oss4-mixer.c:739
 msgid "PCM 1"
