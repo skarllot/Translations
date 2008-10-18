@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gst-plugins-bad-0.10.8.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-10-11 11:28+0100\n"
-"PO-Revision-Date: 2008-10-18 01:28-0300\n"
+"POT-Creation-Date: 2008-10-16 16:51+0100\n"
+"PO-Revision-Date: 2008-10-16 01:16-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
 "MIME-Version: 1.0\n"
@@ -31,7 +31,7 @@ msgid "Internal clock error."
 msgstr "Erro interno do temporizador."
 
 #: ext/resindvd/rsnbasesrc.c:1904 ext/resindvd/rsnbasesrc.c:1915
-#: gst/aiffparse/aiffparse.c:1238
+#: gst/aiffparse/aiffparse.c:1234
 msgid "Internal data flow error."
 msgstr "Erro interno de fluxo de dados."
 
@@ -96,8 +96,9 @@ msgstr ""
 "mixer."
 
 #: sys/oss4/oss4-mixer.c:316
+#, fuzzy
 msgid ""
-"Could not open audio device for mixer control handling.This version of the "
+"Could not open audio device for mixer control handling. This version of the "
 "Open Sound System is not supported by this element."
 msgstr ""
 "Não foi possível abrir o dispositivo de áudio para manuseio do controle de "
@@ -177,7 +178,7 @@ msgstr "Entrada"
 
 #: sys/oss4/oss4-mixer.c:738 sys/oss4/oss4-mixer.c:796
 msgid "Line-in"
-msgstr "Entrada de linha"
+msgstr "Linha de entrada"
 
 #: sys/oss4/oss4-mixer.c:739
 msgid "PCM 1"
@@ -376,8 +377,9 @@ msgstr ""
 "está sendo usado por outro aplicativo."
 
 #: sys/oss4/oss4-sink.c:386 sys/oss4/oss4-source.c:377
+#, fuzzy
 msgid ""
-"Could not open audio device for playback.You don't have permission to open "
+"Could not open audio device for playback. You don't have permission to open "
 "the device."
 msgstr ""
 "Não foi possível abrir o dispositivo de áudio para reprodução. Você não tem "
@@ -388,8 +390,9 @@ msgid "Could not open audio device for playback."
 msgstr "Não foi possível abrir o dispositivo de áudio para reprodução."
 
 #: sys/oss4/oss4-sink.c:406 sys/oss4/oss4-source.c:398
+#, fuzzy
 msgid ""
-"Could not open audio device for playback.This version of the Open Sound "
+"Could not open audio device for playback. This version of the Open Sound "
 "System is not supported by this element."
 msgstr ""
 "Não foi possível abrir o dispositivo de áudio para reprodução. Esta versão "
