@@ -3,16 +3,16 @@
 # Copyright (C) 2008 Free Software Foundation, Inc.
 # Fabrício Godoy <skarllot@gmail.com>, 2008.
 #
-# data flow -> fluxo de dados
+# data flow -> transporte de dados
 # streaming -> fluxo contínuo
 # clock -> temporizador
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gst-plugins-good 0.10.10.2\n"
+"Project-Id-Version: gst-plugins-good 0.10.9.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-10-11 11:12+0100\n"
-"PO-Revision-Date: 2008-10-18 01:33-0300\n"
+"POT-Creation-Date: 2008-10-16 17:05+0100\n"
+"PO-Revision-Date: 2008-08-12 21:34-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: ext/esd/esdsink.c:262 ext/esd/esdsink.c:367
 msgid "Could not establish connection to sound server"
-msgstr "Não foi possível estabelecer uma conexão com servidor de som"
+msgstr "Não foi possível estabelecer uma conexão ao servidor de som"
 
 #: ext/esd/esdsink.c:269
 msgid "Failed to query sound server capabilities"
@@ -30,9 +30,9 @@ msgstr "Falha ao examinar os recursos do servidor de som"
 
 #: ext/flac/gstflacdec.c:1266 ext/libpng/gstpngdec.c:329
 #: ext/libpng/gstpngdec.c:517 ext/wavpack/gstwavpackparse.c:1167
-#: gst/avi/gstavidemux.c:4146 gst/avi/gstavidemux.c:4154
+#: gst/avi/gstavidemux.c:4152 gst/avi/gstavidemux.c:4160
 msgid "Internal data stream error."
-msgstr "Erro no fluxo de dados interno."
+msgstr "Erro no fluxo interno de dados."
 
 #: ext/jpeg/gstjpegdec.c:1041
 msgid "Failed to decode JPEG image"
@@ -48,8 +48,9 @@ msgstr ""
 "Entrada de áudio nula ou inválida, o fluxo do AVI pode estar corrompido."
 
 #: gst/qtdemux/qtdemux.c:1094 gst/qtdemux/qtdemux.c:2106
+#, fuzzy
 msgid "This file is invalid and cannot be played."
-msgstr "Este arquivo é inválido e não pôde ser reproduzido."
+msgstr "Este arquivo está incompleto e não pôde ser reproduzido."
 
 #: gst/qtdemux/qtdemux.c:1124
 msgid "This file is incomplete and cannot be played."
@@ -74,7 +75,7 @@ msgstr "Este arquivo está corrompido e não pôde ser reproduzido."
 
 #: gst/wavparse/gstwavparse.c:1893
 msgid "Internal data flow error."
-msgstr "Erro no fluxo de dados interno."
+msgstr "Erro no transporte interno de dados."
 
 #: sys/oss/gstossmixertrack.c:98 sys/sunaudio/gstsunaudiomixertrack.c:65
 msgid "Volume"
@@ -114,7 +115,7 @@ msgstr "CD"
 
 #: sys/oss/gstossmixertrack.c:107
 msgid "Mixer"
-msgstr "Mixer"
+msgstr "Mixador"
 
 #: sys/oss/gstossmixertrack.c:108
 msgid "PCM-2"
@@ -181,32 +182,28 @@ msgid ""
 "Could not open audio device for playback. Device is being used by another "
 "application."
 msgstr ""
-"Não foi possível abrir o dispositivo de áudio para reprodução. O dispositivo "
-"está sendo usado por outro aplicativo."
 
 #: sys/oss/gstosssink.c:421
 msgid ""
 "Could not open audio device for playback.You don't have permission to open "
 "the device."
 msgstr ""
-"Não foi possível abrir o dispositivo de áudio para reprodução. Você não tem "
-"permissão para abrir o dispositivo."
 
 #: sys/oss/gstosssink.c:429
+#, fuzzy
 msgid "Could not open audio device for playback."
-msgstr "Não foi possível abrir o dispositivo de áudio para reprodução."
+msgstr "Não foi possível abrir o dispositivo de CD para leitura."
 
 #: sys/oss/gstosssrc.c:381
 msgid ""
 "Could not open audio device for recording.You don't have permission to open "
 "the device."
 msgstr ""
-"Não foi possível abrir o dispositivo de áudio para gravação. Você não tem "
-"permissão para abrir o dispositivo."
 
 #: sys/oss/gstosssrc.c:389
+#, fuzzy
 msgid "Could not open audio device for recording."
-msgstr "Não foi possível abrir o dispositivo de áudio para gravação."
+msgstr "Não foi possível abrir o dispositivo de CD para leitura."
 
 #: sys/sunaudio/gstsunaudiomixertrack.c:65
 msgid "Gain"
@@ -345,7 +342,7 @@ msgid ""
 "buffers have been allocated yet, or the userptr or length are invalid. "
 "device %s"
 msgstr ""
-"Não há suporte ao tipo de buffer, ou o índice está fora dos limites, ou "
+"O tipo de buffer não é suportado, ou o índice está fora dos limites, ou "
 "nenhum buffer foi definido ainda, ou o userptr ou tamanho são inválidos. "
 "Dispositivo %s"
 
@@ -433,7 +430,7 @@ msgstr "Erro ao parar um fluxo contínuo de captura do dispositivo \"%s\"."
 
 #: sys/ximage/gstximagesrc.c:727
 msgid "Changing resolution at runtime is not yet supported."
-msgstr "Ainda não há suporte a mudança de resolução enquanto está executando."
+msgstr "Mudar a resolução enquanto está executando ainda não é suportado."
 
 #: sys/ximage/gstximagesrc.c:741
 msgid "Cannot operate without a clock"
