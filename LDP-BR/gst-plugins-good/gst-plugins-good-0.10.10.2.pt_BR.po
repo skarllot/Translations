@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: gst-plugins-good 0.10.10.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-10-11 11:12+0100\n"
-"PO-Revision-Date: 2008-10-16 01:42-0300\n"
+"PO-Revision-Date: 2008-10-18 01:33-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
 "MIME-Version: 1.0\n"
@@ -102,7 +102,7 @@ msgstr "Alto-falante do PC"
 
 #: sys/oss/gstossmixertrack.c:104
 msgid "Line-in"
-msgstr "Linha de entrada"
+msgstr "Entrada de linha"
 
 #: sys/oss/gstossmixertrack.c:105
 msgid "Microphone"
