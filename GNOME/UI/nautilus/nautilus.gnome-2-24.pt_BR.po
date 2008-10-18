@@ -10,14 +10,15 @@
 # Og Maciel <ogmaciel@gnome.org>, 2007-2008.
 # Rodrigo Flores <rodrigomarquesflores@gmail.com>, 2007.
 # Vladimir Melo <vladimirmelo.psi@gmail.com>, 2008.
+# Fabrício Godoy <skarllot@gmail.com>, 2008.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: nautilus\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-10-12 16:59+0000\n"
-"PO-Revision-Date: 2008-09-02 16:43-0400\n"
-"Last-Translator: Og Maciel <ogmaciel@gnome.org>\n"
+"PO-Revision-Date: 2008-10-18 01:15-0300\n"
+"Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-l10n-br@listas.cipsga.org.br>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3524,7 +3525,7 @@ msgstr "Não foi possível determinar a localização original de \"%s\" "
 
 #: ../src/file-manager/fm-directory-view.c:6481
 msgid "The item cannot be restored from trash"
-msgstr "O item não pode ser restaurado da lixeira."
+msgstr "O item não pode ser restaurado da lixeira"
 
 #. name, stock id, label
 #: ../src/file-manager/fm-directory-view.c:6569
@@ -4207,7 +4208,7 @@ msgstr "Desculpe, não foi possível exibir todo o conteúdo de \"%s\": %s"
 
 #: ../src/file-manager/fm-error-reporting.c:74
 msgid "The folder contents could not be displayed."
-msgstr "Não foi possí­vel exibir o conteúdo da pasta."
+msgstr "Não foi possível exibir o conteúdo da pasta."
 
 #: ../src/file-manager/fm-error-reporting.c:103
 #, c-format
@@ -5128,7 +5129,7 @@ msgstr ""
 
 #: ../src/nautilus-connect-server-dialog.c:195
 msgid "Please enter a name and try again."
-msgstr "Por favor digite um nome e tente novamente"
+msgstr "Por favor digite um nome e tente novamente."
 
 #: ../src/nautilus-connect-server-dialog.c:426
 msgid "_Location (URI):"
@@ -5351,7 +5352,7 @@ msgstr "<b>Outras mídias</b>"
 
 #: ../src/nautilus-file-management-properties.glade.h:29
 msgid "<b>Other Previewable Files</b>"
-msgstr "<b>Outros arquívos visualizáveis</b>"
+msgstr "<b>Outros arquivos visualizáveis</b>"
 
 #: ../src/nautilus-file-management-properties.glade.h:30
 msgid "<b>Sound Files</b>"
@@ -5740,7 +5741,7 @@ msgstr "_Localização:"
 
 #: ../src/nautilus-main.c:390
 msgid "Perform a quick set of self-check tests."
-msgstr "Realizar um conjunto rápido de autotestes."
+msgstr "Realizar um conjunto rápido de testes automáticos."
 
 #: ../src/nautilus-main.c:393
 msgid "Create the initial window with the given geometry."
@@ -6540,7 +6541,7 @@ msgid ""
 "details."
 msgstr ""
 "O Nautilus é distribuído na esperança de que será útil, mas SEM NENHUMA "
-"GARANTIA; até mesmo sem a garantia implícita de COMERCIALIZÁÇÃO ou ADEQUAÇÃO "
+"GARANTIA; até mesmo sem a garantia implícita de COMERCIALIZAÇÃO ou ADEQUAÇÃO "
 "A UM PROPÓSITO EM PARTICULAR. Veja a Licença Pública Geral GNU (GNU GPL) "
 "para mais detalhes."
 
@@ -6580,7 +6581,8 @@ msgstr ""
 "Guilherme de S. Pastore <gpastore@gnome.org>\n"
 "Leonardo Fereira Fontenelle <leo.fontenelle@gmail.com>\n"
 "Og Maciel <ogmaciel@gnome.org>\n"
-"Vladimir Melo <vladimirmelo.psi@gmail.com"
+"Vladimir Melo <vladimirmelo.psi@gmail.com\n"
+"Fabrício Godoy <skarllot@gmail.com>"
 
 #: ../src/nautilus-window-menus.c:579
 msgid "Nautilus Web Site"
