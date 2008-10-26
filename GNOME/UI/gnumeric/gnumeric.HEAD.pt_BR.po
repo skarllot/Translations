@@ -12,9 +12,9 @@ msgstr ""
 "Project-Id-Version: gnumeric\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-09-13 21:11+0000\n"
-"PO-Revision-Date: 2008-09-22 22:04-0300\n"
+"PO-Revision-Date: 2008-10-25 22:51-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
-"Language-Team: Portuguese/Brazil <gnome-l10n-br@listas.cipsga.org.br>\n"
+"Language-Team: Brazilian Portuguese <gnome-l10n-br@listas.cipsga.org.br>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -49,7 +49,7 @@ msgstr "Caracteres inválidos para a codificação \"%c%c\""
 #: ../plugins/applix/applix-read.c:1196
 #, c-format
 msgid "Expression did not start with '=' ? '%s'"
-msgstr "A expressão não começa com \"=\" ? \"%s\""
+msgstr "A expressão não começa com \"=\"? \"%s\""
 
 #: ../plugins/applix/applix-read.c:1207
 #, c-format
@@ -57,7 +57,7 @@ msgid ""
 "%s!%s : unable to parse '%s'\n"
 "     %s"
 msgstr ""
-"%s!%s : impossível analisar \"%s\"\n"
+"%s!%s : não foi possível analisar \"%s\"\n"
 "     %s"
 
 #: ../plugins/applix/plugin.xml.in.h:1
@@ -317,9 +317,8 @@ msgstr ""
 "Lê e grava a informação armazenada no Formato de Intercâmbio de Dados (*.dif)"
 
 #: ../plugins/excel/boot.c:187
-#, fuzzy
 msgid "No Workbook or Book streams found."
-msgstr "Nenhuma pasta de trabalho ou pasta encontrada."
+msgstr "Nenhuma entrada de pasta de trabalho ou pasta encontrada."
 
 #: ../plugins/excel/boot.c:256
 msgid "Preparing to save..."
@@ -337,7 +336,7 @@ msgstr "Atributo inesperado %s::%s == \"%s\"."
 #: ../plugins/excel/excel-xml-read.c:1002
 #: ../plugins/openoffice/openoffice-read.c:2984 ../src/xml-sax-read.c:2677
 msgid "XML document not well formed!"
-msgstr "Documento XML não está bem definido!"
+msgstr "Documento XML não está bem construido!"
 
 #: ../plugins/excel/ms-excel-read.c:1261 ../src/value.c:77
 msgid "#UNKNOWN!"
@@ -371,7 +370,7 @@ msgstr "Módulo %d"
 #: ../plugins/excel/ms-excel-read.c:3229
 #, c-format
 msgid "Failure parsing name '%s'"
-msgstr "Falha ao analisar o arquivo \"%s\""
+msgstr "Falha ao analisar o nome \"%s\""
 
 #: ../plugins/excel/ms-excel-read.c:3332
 #, c-format
@@ -384,7 +383,7 @@ msgid ""
 "DDE links are not supported yet.\n"
 "Name '%s' will be lost.\n"
 msgstr ""
-"Links DDE ainda não são suportados.\n"
+"Ainda não há suporte aos links DDE.\n"
 "O nome \"%s\" será perdido.\n"
 
 #: ../plugins/excel/ms-excel-read.c:3341
@@ -393,7 +392,7 @@ msgid ""
 "OLE links are not supported yet.\n"
 "Name '%s' will be lost.\n"
 msgstr ""
-"Links OLE ainda não são suportados.\n"
+"Ainda não há suporte aos links OLE.\n"
 "O nome \"%s\" será perdido.\n"
 
 #: ../plugins/excel/ms-excel-read.c:5727
@@ -446,11 +445,12 @@ msgstr ""
 
 #: ../plugins/excel/ms-excel-write.c:5719
 msgid "Couldn't open stream 'Book' for writing\n"
-msgstr "Não foi possível abrir a \"pasta\" atual para gravação\n"
+msgstr "Não foi possível abrir a entrada da \"pasta\" para gravação\n"
 
 #: ../plugins/excel/ms-excel-write.c:5739
 msgid "Couldn't open stream 'Workbook' for writing\n"
-msgstr "Não foi possível abrir a \"pasta de trabalho\" atual para gravação\n"
+msgstr ""
+"Não foi possível abrir a entrada da \"pasta de trabalho\" para gravação\n"
 
 #: ../plugins/excel/ms-formula-read.c:656
 msgid "Broken function"
@@ -466,35 +466,35 @@ msgstr ""
 
 #: ../plugins/excel/plugin.xml.in.h:1
 msgid "Imports/Exports MS Excel (tm) files"
-msgstr "Importa ou exporta arquivos MS Excel (tm)"
+msgstr "Importa e exporta arquivos do MS Excel™"
 
 #: ../plugins/excel/plugin.xml.in.h:2
 msgid "MS Excel (tm)"
-msgstr "MS Excel (tm)"
+msgstr "MS Excel™"
 
 #: ../plugins/excel/plugin.xml.in.h:3
 msgid "MS Excel (tm) (*.xls)"
-msgstr "MS Excel (tm) (*.xls)"
+msgstr "MS Excel™ (*.xls)"
 
 #: ../plugins/excel/plugin.xml.in.h:4
 msgid "MS Excel (tm) 2003 SpreadsheetML"
-msgstr "MS Excel (tm) 2003 SpreadsheetML"
+msgstr "MS Excel™ 2003 SpreadsheetML"
 
 #: ../plugins/excel/plugin.xml.in.h:5
 msgid "MS Excel (tm) 2007"
-msgstr "MS Excel (tm) 2007"
+msgstr "MS Excel™ 2007"
 
 #: ../plugins/excel/plugin.xml.in.h:6
 msgid "MS Excel (tm) 5.0/95"
-msgstr "MS Excel (tm) 5.0/95"
+msgstr "MS Excel™ 5.0/95"
 
 #: ../plugins/excel/plugin.xml.in.h:7
 msgid "MS Excel (tm) 97/2000/XP"
-msgstr "MS Excel (tm) 97/2000/XP"
+msgstr "MS Excel™ 97/2000/XP"
 
 #: ../plugins/excel/plugin.xml.in.h:8
 msgid "MS Excel (tm) 97/2000/XP &amp; 5.0/95"
-msgstr "MS Excel (tm) 97/2000/XP &amp; 5.0/95"
+msgstr "MS Excel™ 97/2000/XP &amp; 5.0/95"
 
 #: ../plugins/excel/xlsx-read.c:233
 #, c-format
@@ -531,7 +531,7 @@ msgstr "O número \"%s\" é inválido para o atributo %s"
 #: ../plugins/excel/xlsx-read.c:483
 #, c-format
 msgid "Invalid cell position '%s' for attribute %s"
-msgstr "A posição \"%s\" da célula é inválida para o atributo %s"
+msgstr "A posição da célula \"%s\" é inválida para o atributo %s"
 
 #: ../plugins/excel/xlsx-read.c:502
 #, c-format
@@ -602,7 +602,7 @@ msgstr "Não definido"
 #: ../plugins/excel/xlsx-read.c:3234
 #, c-format
 msgid "Ignoring unhandled conditional format of type '%s'"
-msgstr "Ignorando o formato ou tipo \"%s\" condicional não manipulado"
+msgstr "Ignorando tipo de formato condicional não manipulado \"%s\""
 
 #: ../plugins/excel/xlsx-read.c:3615
 msgid "Unknown type of hyperlink"
@@ -623,9 +623,8 @@ msgid "Missing record '%d'"
 msgstr "Faltando o registro \"%d\""
 
 #: ../plugins/excel/xlsx-read.c:4779
-#, fuzzy
 msgid "No workbook stream found."
-msgstr "Nenhuma pasta de trabalho localizada."
+msgstr "Nenhuma entrada de pasta de trabalho localizada."
 
 #: ../plugins/fn-complex/functions.c:1607
 msgid "real,im,suffix"
@@ -721,7 +720,7 @@ msgstr "Funções de banco de dados"
 
 #: ../plugins/fn-database/plugin.xml.in.h:3
 msgid "Functions looking up values in databases"
-msgstr "Funções procurando valores no banco de dados"
+msgstr "Funções que procuram valores no banco de dados"
 
 #: ../plugins/fn-date/functions.c:1432
 msgid "year,month,day"
@@ -934,7 +933,7 @@ msgstr "texto"
 
 #: ../plugins/fn-info/plugin.xml.in.h:1
 msgid "Functions for inspecting values, cells, and more"
-msgstr "Funções para inspeção de valores, células entre outras"
+msgstr "Funções que inspecionam valores, células e etc"
 
 #: ../plugins/fn-info/plugin.xml.in.h:2
 msgid "Information"
@@ -1070,7 +1069,7 @@ msgstr "Funções para procurar por valores em regiões"
 
 #: ../plugins/fn-lookup/plugin.xml.in.h:2
 msgid "Lookup"
-msgstr "Busca e Referência"
+msgstr "Busca e referência"
 
 #: ../plugins/fn-lookup/plugin.xml.in.h:3
 msgid "Lookup Functions"
@@ -1162,7 +1161,7 @@ msgstr "vetor,matriz_tipo,tam_banda"
 # plugins/python/python.c:115
 #: ../plugins/fn-math/plugin.xml.in.h:1
 msgid "Math Functions"
-msgstr "Funções Matemáticas"
+msgstr "Funções matemáticas"
 
 #: ../plugins/fn-math/plugin.xml.in.h:2
 msgid "Mathematical Functions"
@@ -1174,14 +1173,14 @@ msgstr "Matemáticas"
 
 #: ../plugins/fn-r/plugin.xml.in.h:1 ../plugins/fn-stat/plugin.xml.in.h:1
 msgid "Statistical Functions"
-msgstr "Funções Estatísticas"
+msgstr "Funções estatísticas"
 
 #: ../plugins/fn-r/plugin.xml.in.h:2
 #, fuzzy
 msgid ""
 "Statistical Functions with naming and calling conventions from The R Project"
 msgstr ""
-"Funções Estatísticas com as convenções de nomes e chamadas do Projeto R"
+"Funções estatísticas com as convenções de nomes e chamadas do Projeto R"
 
 # plugins/stat/stat.c:69
 #: ../plugins/fn-r/plugin.xml.in.h:3 ../plugins/fn-stat/plugin.xml.in.h:2
@@ -1270,13 +1269,13 @@ msgstr "Funções para a geração de números aleatórios"
 
 #: ../plugins/fn-random/plugin.xml.in.h:2
 msgid "Random Number Functions"
-msgstr "Funções de Números Aleatórios"
+msgstr "Funções de números aleatórios"
 
 #: ../plugins/fn-random/plugin.xml.in.h:3
 #: ../src/dialogs/random-generation.glade.h:6
 #: ../src/tools/random-generator.c:674 ../src/tools/random-generator.c:677
 msgid "Random Numbers"
-msgstr "Números Aleatórios"
+msgstr "Números aleatórios"
 
 #: ../plugins/fn-stat/functions.c:5717 ../plugins/fn-stat/functions.c:5979
 msgid "k,p"
@@ -1359,9 +1358,8 @@ msgid "x,n,M,N,cumulative"
 msgstr "x,n,M,N,cumulativo"
 
 #: ../plugins/fn-stat/functions.c:5818 ../plugins/fn-stat/functions.c:5906
-#, fuzzy
 msgid "values,k,"
-msgstr "valor"
+msgstr "valores,k"
 
 #: ../plugins/fn-stat/functions.c:5822 ../plugins/fn-stat/functions.c:5825
 #: ../plugins/fn-stat/functions.c:5837
@@ -1431,7 +1429,7 @@ msgstr "x,alfa,beta,cumulativo"
 
 #: ../plugins/fn-stat/functions.c:5972
 msgid "ref,x[,stddev]"
-msgstr ""
+msgstr "ref,x[,desvpad]"
 
 #: ../plugins/fn-stat/functions.c:5976 ../plugins/fn-stat/functions.c:5994
 msgid "x,a,b"
@@ -1522,25 +1520,24 @@ msgstr "Texto"
 # plugins/python/python.c:115
 #: ../plugins/fn-string/plugin.xml.in.h:3
 msgid "String Functions"
-msgstr "Funções de Texto"
+msgstr "Funções de texto"
 
 #: ../plugins/fn-tsa/functions.c:883
 msgid "Abscissas,Ordinates,Targets,Interpolation"
-msgstr ""
+msgstr "Abscissas,Ordenadas,Alvos,Interpolação"
 
 #: ../plugins/fn-tsa/functions.c:887
 msgid "Ordinates,Filter,Abscissas,Interpolation,Number"
-msgstr ""
+msgstr "Ordenadas,Filtro,Abscissas,Interpolação,Número"
 
 #: ../plugins/fn-tsa/plugin.xml.in.h:1
-#, fuzzy
 msgid "Time Series Analysis"
-msgstr "Análise de Fourier"
+msgstr "Análises de séries temporais"
 
 #: ../plugins/fn-tsa/plugin.xml.in.h:2
 #, fuzzy
 msgid "Time Series Analysis Functions"
-msgstr "Funções de Engenharia"
+msgstr "Funções para análises de séries temporais"
 
 #: ../plugins/gda/plugin-gda.c:161
 msgid "Too much data returned"
@@ -1549,7 +1546,7 @@ msgstr "Muitos dados retornados"
 # plugins/python/python.c:115
 #: ../plugins/gda/plugin-gda.c:267
 msgid "Database Connection"
-msgstr "Conecção ao Banco de Dados"
+msgstr "Conexão ao banco de dados"
 
 #: ../plugins/gda/plugin-gda.c:356
 msgid "Format: execSQL(dsn,user,password,sql)"
@@ -1558,29 +1555,30 @@ msgstr "Formato: execSQL(dsn,usuário,senha,sql)"
 #: ../plugins/gda/plugin-gda.c:360 ../plugins/gda/plugin-gda.c:435
 #, c-format
 msgid "Error: could not open connection to %s"
-msgstr "Erro: impossível conectar com %s"
+msgstr "Erro: não foi possível conectar com %s"
 
 #: ../plugins/gda/plugin-gda.c:370 ../plugins/gda/plugin-gda.c:445
 msgid "Error: no recordsets were returned"
-msgstr "Erro: Nenhum recordset foi retornado"
+msgstr "Erro: nenhum recordset foi retornado"
 
 #: ../plugins/gda/plugin-gda.c:431
 msgid "Format: readDBTable(dsn,user,password,table)"
-msgstr "Formato: execSQL(dsn,usuário,senha,tabela)"
+msgstr "Formato: readDBTable(dsn,usuário,senha,tabela)"
 
 #: ../plugins/gda/plugin.xml.in.h:2
 msgid "Database functions for retrieval of data from a database."
 msgstr "Funções para a recuperação de informações de um banco de dados."
 
 #: ../plugins/gnome-db/plugin-gnomedb.c:20
-#, fuzzy, c-format
+#, c-format
 msgid "Could not run GNOME database configuration tool ('%s')"
 msgstr ""
-"Impossível executar a ferramenta de configuração de Banco de Dados do GNOME"
+"Não foi possível executar a ferramenta de configuração de banco de dados do "
+"GNOME (\"%s\")"
 
 #: ../plugins/gnome-db/plugin.xml.in.h:1
 msgid "Database UI services plugin"
-msgstr "Plugin UI de serviços de Banco de Dados"
+msgstr "Plugin UI de serviços de banco de dados"
 
 #: ../plugins/gnome-db/plugin.xml.in.h:2
 msgid "GNOME-DB"
@@ -1588,19 +1586,19 @@ msgstr "GNOME-DB"
 
 #: ../plugins/gnome-glossary/plugin.xml.in.h:1
 msgid "Gnome Glossary"
-msgstr "Glossário Gnome"
+msgstr "Glossário GNOME"
 
 #: ../plugins/gnome-glossary/plugin.xml.in.h:2
 msgid "Gnome Glossary PO file format"
-msgstr "Formato de arquivo PO do Glossário Gnome"
+msgstr "Formato de arquivo PO do Glossário GNOME"
 
 #: ../plugins/gnome-glossary/plugin.xml.in.h:3
 msgid "It provides support for saving Gnome Glossary in .po files."
-msgstr "Fornece suporte para salvar o Glossário Gnome em arquivos .po."
+msgstr "Fornece suporte para salvar o Glossário GNOME em arquivos .po."
 
 #: ../plugins/html/html_read.c:549
 msgid "Unable to parse the html."
-msgstr "Impossível processar o html."
+msgstr "Não foi possível analisar o HTML."
 
 #: ../plugins/html/plugin.xml.in.h:1
 msgid "HTML &amp; TeX"
@@ -1624,16 +1622,15 @@ msgstr "HTML 4.0 (*.html)"
 
 #: ../plugins/html/plugin.xml.in.h:6
 msgid "Import/Export of HTML, TeX, DVI, roff"
-msgstr "Importação/Exportação de HTML, TeX, DVI, roff"
+msgstr "Importação e exportação de HTML, TeX, DVI, roff"
 
 #: ../plugins/html/plugin.xml.in.h:7
 msgid "LaTeX 2e (*.tex)"
 msgstr "LaTeX 2e (*.tex)"
 
 #: ../plugins/html/plugin.xml.in.h:8
-#, fuzzy
 msgid "LaTeX 2e (*.tex) table fragment"
-msgstr "LaTeX 2e (*.tex)"
+msgstr "Fragmento de tabela LaTeX 2e (*.tex)"
 
 #: ../plugins/html/plugin.xml.in.h:9
 msgid "TROFF (*.me)"
@@ -1645,7 +1642,7 @@ msgstr "XHTML (*.html)"
 
 #: ../plugins/html/plugin.xml.in.h:11
 msgid "XHTML range - for export to clipboard"
-msgstr "Intervalo XHTML - para exportar para o clipboard"
+msgstr "Intervalo XHTML, para exportar para a área de tranferência"
 
 #: ../plugins/lotus-123/boot.c:85
 msgid "Error while reading lotus workbook."
@@ -1661,11 +1658,11 @@ msgstr "Lotus 1-2-3"
 
 #: ../plugins/lotus-123/plugin.xml.in.h:3
 msgid "Lotus 123 (*.wk1, *.wks, *.123)"
-msgstr "Lotus 123 (*.wk1, *.wks, *.123)"
+msgstr "Lotus 1-2-3 (*.wk1, *.wks, *.123)"
 
 #: ../plugins/mps/mps.c:179
 msgid "Program Name"
-msgstr "Nome do Programa"
+msgstr "Nome do programa"
 
 #. Print 'Status'.
 #: ../plugins/mps/mps.c:185
@@ -1674,7 +1671,7 @@ msgstr "Viável"
 
 #: ../plugins/mps/mps.c:219
 msgid "Objective Value"
-msgstr "Valor da Função Objetivo"
+msgstr "Valor da função objetivo"
 
 #: ../plugins/mps/mps.c:225
 msgid "Objective function:"
@@ -1712,7 +1709,7 @@ msgstr "Nome"
 #: ../src/tools/solver/reports-write.c:394
 #: ../src/tools/solver/reports-write.c:401
 msgid "Value"
-msgstr "Final"
+msgstr "Valor"
 
 #.
 #. * Fill in the labels of `General Info' section.
@@ -1732,7 +1729,7 @@ msgstr "Folga"
 
 #: ../plugins/mps/mps.c:637
 msgid "Error while reading MPS file."
-msgstr "Erro ao ler arquivo MPS."
+msgstr "Erro ao ler o arquivo MPS."
 
 #: ../plugins/mps/parser.c:552
 msgid "Problem name was not defined in the file."
@@ -1740,11 +1737,11 @@ msgstr "O nome do problema não foi definido no arquivo."
 
 #: ../plugins/mps/parser.c:557
 msgid "Invalid ROWS section in the file."
-msgstr "Seção ROWS (linhas) inválida no arquivo."
+msgstr "Seção ROWS inválida no arquivo."
 
 #: ../plugins/mps/parser.c:562
 msgid "Invalid COLUMNS section in the file."
-msgstr "Seção COLUMNS (colunas) inválida no arquivo."
+msgstr "Seção COLUMNS inválida no arquivo."
 
 #: ../plugins/mps/parser.c:567
 msgid "Invalid RHS section in the file."
@@ -1760,24 +1757,23 @@ msgstr "Seção BOUNDS inválida no arquivo."
 
 #: ../plugins/mps/plugin.xml.in.h:1
 msgid "Linear and integer program (*.mps) file format"
-msgstr ""
-"Formato de arquivo de problemas de programação linear e inteira (*.mps)"
+msgstr "Formato de arquivo de programação linear e inteira (*.mps)"
 
 #: ../plugins/mps/plugin.xml.in.h:2
 msgid "Linear and integer program expression format (MPS) module"
-msgstr "Módulo para formato de problemas de programação linear e inteira (MPS)"
+msgstr "Módulo para formato de expressão de programação linear e inteira (MPS)"
 
 #: ../plugins/mps/plugin.xml.in.h:3
 msgid "Reads LP programs stored in the MPS format (*.mps)"
-msgstr "Lê problemas de Programação Linear armazenados no formato MPS (*.mps)"
+msgstr "Lê problemas de programação linear armazenados no formato MPS (*.mps)"
 
 #: ../plugins/numtheory/plugin.xml.in.h:1
 msgid "Bitwise Operations"
-msgstr "Operações Bit-a-bit"
+msgstr "Operações bit-a-bit"
 
 #: ../plugins/numtheory/plugin.xml.in.h:2
 msgid "Number Theory"
-msgstr "Teoria dos Números"
+msgstr "Teoria dos números"
 
 #: ../plugins/numtheory/plugin.xml.in.h:3
 msgid ""
@@ -1806,7 +1802,7 @@ msgid ""
 "\t'%s'\n"
 "because '%s'"
 msgstr ""
-"Impossível interpretar\n"
+"Não foi possível analisar\n"
 "\t\"%s\"\n"
 "devido \"%s\""
 
@@ -1816,6 +1812,8 @@ msgid ""
 "Content past the maxium number of rows supported in this build (%u).  Please "
 "recompile with larger limits."
 msgstr ""
+"O conteúdo passa o número máximo de linhas suportadas nesta compilação (%u). "
+"Por favor, recompile com limites maiores."
 
 #: ../plugins/openoffice/openoffice-read.c:881
 msgid "Missing expression"
