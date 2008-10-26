@@ -1,46 +1,50 @@
-# Brazilan Portuguese translations for gphoto2.
+# Brazilian Portuguese translation of gphoto2.
+# This file is distributed under the same license as the gphoto2 package.
+# Copyright (C) 2002-2008 Free Software Foundation, Inc.
 # Evandro Gardenali <evandro@fasternet.com.br>, 2002.
+# Fabrício Godoy <skarllot@gmail.com>, 2008.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gphoto2\n"
+"Project-Id-Version: gphoto2 2.4.3\n"
 "Report-Msgid-Bugs-To: gphoto-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2008-06-22 18:31+0200\n"
-"PO-Revision-Date: 2002-12-04\n"
-"Last-Translator: Evandro Gardenali <evandro@fasternet.com.br>\n"
+"PO-Revision-Date: 2008-10-26 13:35-0300\n"
+"Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: gphoto2/actions.c:167
 #, c-format
 msgid "Number of files in folder '%s': %i\n"
-msgstr "Número de arquivos na pasta '%s': %i\n"
+msgstr "Número de arquivos na pasta \"%s\": %i\n"
 
 #: gphoto2/actions.c:187
-#, fuzzy, c-format
+#, c-format
 msgid "There is %d folder in folder '%s'.\n"
 msgid_plural "There are %d folders in folder '%s'.\n"
-msgstr[0] "Há uma pasta na pasta '%s':"
-msgstr[1] "Há uma pasta na pasta '%s':"
+msgstr[0] "Há %d pasta na pasta \"%s\".\n"
+msgstr[1] "Há %d pastas na pasta \"%s\".\n"
 
 #: gphoto2/actions.c:227
-#, fuzzy, c-format
+#, c-format
 msgid "There is no file in folder '%s'.\n"
-msgstr "Há um arquivo na pasta %s'"
+msgstr "Não há nenhum arquivo na pasta \"%s\".\n"
 
 #: gphoto2/actions.c:230
-#, fuzzy, c-format
+#, c-format
 msgid "There is %d file in folder '%s'.\n"
 msgid_plural "There are %d files in folder '%s'.\n"
-msgstr[0] "Há um arquivo na pasta %s'"
-msgstr[1] "Há um arquivo na pasta %s'"
+msgstr[0] "Há %d arquivo na pasta \"%s\".\n"
+msgstr[1] "Há %d arquivos na pasta \"%s\".\n"
 
 #: gphoto2/actions.c:251
 #, c-format
 msgid "Information on file '%s' (folder '%s'):\n"
-msgstr "Informaçõa no arquivo '%s'(pasta '%s'):\n"
+msgstr "Informaçõa no arquivo \"%s\" (pasta \"%s\"):\n"
 
 #: gphoto2/actions.c:253
 #, c-format
@@ -55,12 +59,12 @@ msgstr "  Não disponível.\n"
 #: gphoto2/actions.c:258
 #, c-format
 msgid "  Name:        '%s'\n"
-msgstr "  Nome:        '%s'\n"
+msgstr "  Nome:        \"%s\"\n"
 
 #: gphoto2/actions.c:260 gphoto2/actions.c:292
 #, c-format
 msgid "  Mime type:   '%s'\n"
-msgstr " Tipo de Mime:   '%s'\n"
+msgstr "  Tipo MIME:   \"%s\"\n"
 
 #: gphoto2/actions.c:262 gphoto2/actions.c:294
 #, c-format
@@ -80,7 +84,7 @@ msgstr "  Altura:      %i pixel(s)\n"
 #: gphoto2/actions.c:268 gphoto2/actions.c:300
 #, c-format
 msgid "  Downloaded:  %s\n"
-msgstr "  Obtidos:  %s\n"
+msgstr "  Baixados:  %s\n"
 
 #: gphoto2/actions.c:269 gphoto2/actions.c:301 gphoto2/actions.c:313
 #: gphoto2/actions.c:663 gphoto2/actions.c:665 gphoto2/actions.c:693
@@ -99,12 +103,12 @@ msgstr "não"
 #: gphoto2/actions.c:271
 #, c-format
 msgid "  Permissions: "
-msgstr "Permissões: "
+msgstr "  Permissões: "
 
 #: gphoto2/actions.c:274
 #, c-format
 msgid "read/delete"
-msgstr "ler/apagar"
+msgstr "ler/excluir"
 
 #: gphoto2/actions.c:276
 #, c-format
@@ -114,7 +118,7 @@ msgstr "ler"
 #: gphoto2/actions.c:278
 #, c-format
 msgid "delete"
-msgstr "apagar"
+msgstr "excluir"
 
 #: gphoto2/actions.c:280
 #, c-format
@@ -129,40 +133,40 @@ msgstr "  Hora:        %s"
 #: gphoto2/actions.c:287
 #, c-format
 msgid "Thumbnail:\n"
-msgstr "Thumbnail:\n"
+msgstr "Miniatura:\n"
 
 #: gphoto2/actions.c:303
 #, c-format
 msgid "Audio data:\n"
-msgstr "Dados de audio:\n"
+msgstr "Dados de áudio:\n"
 
 #: gphoto2/actions.c:308
 #, c-format
 msgid "  Mime type:  '%s'\n"
-msgstr " tipo de mime:  '%s'\n"
+msgstr "  Tipo MIME:  \"%s\"\n"
 
 #: gphoto2/actions.c:310
 #, c-format
 msgid "  Size:       %li byte(s)\n"
-msgstr "  Tamanho       %li byte(s)\n"
+msgstr "  Tamanho:       %li byte(s)\n"
 
 #: gphoto2/actions.c:312
 #, c-format
 msgid "  Downloaded: %s\n"
-msgstr "Obtidos: %s\n"
+msgstr "  Baixados: %s\n"
 
 #: gphoto2/actions.c:488
 msgid "Could not parse EXIF data."
-msgstr "Não foi possível analisar os dados EXIF"
+msgstr "Não foi possível analisar os dados EXIF."
 
 #: gphoto2/actions.c:492
 #, c-format
 msgid "EXIF tags:"
-msgstr "Etiquetas EXIF"
+msgstr "Etiquetas EXIF:"
 
 #: gphoto2/actions.c:495
 msgid "Tag"
-msgstr "Etiquetas"
+msgstr "Etiqueta"
 
 #: gphoto2/actions.c:497
 msgid "Value"
@@ -171,26 +175,26 @@ msgstr "Valor"
 #: gphoto2/actions.c:518
 #, c-format
 msgid "EXIF data contains a thumbnail (%i bytes)."
-msgstr "Dados EXIF contêm um thumbnail (%i bytes)"
+msgstr "Dados EXIF contém uma miniatura (%i bytes)."
 
 #: gphoto2/actions.c:527
 msgid "gphoto2 has been compiled without EXIF support."
-msgstr "gphoto2 foi compilado sem suporte à EXIF"
+msgstr "gphoto2 foi compilado sem suporte a EXIF"
 
 #: gphoto2/actions.c:545
 #, c-format
 msgid "Number of supported cameras: %i\n"
-msgstr "Número de Câmeras suportadas: %i\n"
+msgstr "Número de câmeras suportadas: %i\n"
 
 #: gphoto2/actions.c:546
 #, c-format
 msgid "Supported cameras:\n"
-msgstr "CÂmeras suportadas:\n"
+msgstr "Câmeras suportadas:\n"
 
 #: gphoto2/actions.c:559
 #, c-format
 msgid "\t\"%s\" (TESTING)\n"
-msgstr "\t\"%s\" (TESTE)\n"
+msgstr "\t\"%s\" (TESTANDO)\n"
 
 #: gphoto2/actions.c:562
 #, c-format
@@ -237,22 +241,22 @@ msgstr "----------------------------------------------------------\n"
 #: gphoto2/actions.c:661
 #, c-format
 msgid "Abilities for camera             : %s\n"
-msgstr "Habilidades para a câmera             :%s\n"
+msgstr "Habilidades para a câmera        : %s\n"
 
 #: gphoto2/actions.c:662
 #, c-format
 msgid "Serial port support              : %s\n"
-msgstr "Suporte à porta serial              : %s\n"
+msgstr "Suporte a porta serial           : %s\n"
 
 #: gphoto2/actions.c:664
 #, c-format
 msgid "USB support                      : %s\n"
-msgstr "Suporte a USB                      : %s\n"
+msgstr "Suporte a USB                    : %s\n"
 
 #: gphoto2/actions.c:667
 #, c-format
 msgid "Transfer speeds supported        :\n"
-msgstr "Velocidades de transferências suportadas        :\n"
+msgstr "Vel. de transf. suportadas       :\n"
 
 #: gphoto2/actions.c:669
 #, c-format
@@ -262,7 +266,7 @@ msgstr "                                 : %i\n"
 #: gphoto2/actions.c:672
 #, c-format
 msgid "Capture choices                  :\n"
-msgstr "Escolhas de captura                  :\n"
+msgstr "Escolhas de captura              :\n"
 
 #: gphoto2/actions.c:674
 #, c-format
@@ -282,38 +286,38 @@ msgstr "                                 : Áudio\n"
 #: gphoto2/actions.c:686
 #, c-format
 msgid "                                 : Preview\n"
-msgstr "                                 : Pré-visualização\n"
+msgstr "                                 : Visualização\n"
 
 #: gphoto2/actions.c:690
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "                                 : Capture not supported by the driver\n"
-msgstr "                                 : Pré-visualização\n"
+msgstr "                                 : Captura não suportada pelo driver\n"
 
 #: gphoto2/actions.c:692
 #, c-format
 msgid "Configuration support            : %s\n"
-msgstr "Supote a configuração            : %s\n"
+msgstr "Suporte a configuração           : %s\n"
 
 #: gphoto2/actions.c:694
-#, fuzzy, c-format
+#, c-format
 msgid "Delete selected files on camera  : %s\n"
-msgstr "Suporte a deleção de arquivos na câmera   : %s\n"
+msgstr "Excluir arquivos sel. na câmera  : %s\n"
 
 #: gphoto2/actions.c:697
-#, fuzzy, c-format
+#, c-format
 msgid "Delete all files on camera       : %s\n"
-msgstr "Suporte a deleção de arquivos na câmera   : %s\n"
+msgstr "Excluir todos arquivos na câmera : %s\n"
 
 #: gphoto2/actions.c:700
 #, c-format
 msgid "File preview (thumbnail) support : %s\n"
-msgstr "Suporte a pré-visualização do arquivo (thumbnail) : %s\n"
+msgstr "Suporte a miniaturas             : %s\n"
 
 #: gphoto2/actions.c:703
 #, c-format
 msgid "File upload support              : %s\n"
-msgstr "Suporte de upload de arquivos              : %s\n"
+msgstr "Suporte a envio de arquivos      : %s\n"
 
 #: gphoto2/actions.c:719
 #, c-format
@@ -321,8 +325,8 @@ msgid ""
 "Ports must look like 'serial:/dev/ttyS0' or 'usb:', but '%s' is missing a "
 "colon so I am going to guess what you mean."
 msgstr ""
-"Portas deve parecer-se com 'serial:/dev/ttyS0' ou 'usb:', mas %s etá "
-"perdendo uma coluna então eu advinharei o quê você quer dizer"
+"Portas deve parecer-se com \"serial:/dev/ttyS0\" ou \"usb:\", mas \"%s\" "
+"está com um dois-pontos faltando, então eu advinharei o quê você quer dizer."
 
 #: gphoto2/actions.c:753
 #, c-format
@@ -331,29 +335,29 @@ msgid ""
 "ports found by 'gphoto2 --list-ports' and make sure the spelling is correct "
 "(i.e. with prefix 'serial:' or 'usb:')."
 msgstr ""
-"a porta especificada ('%s') não foi encotrada. Por favor especifique uma das "
-"portas encontradas pelo gphoto2 --list-ports' e tenha certeza que está "
-"escrevendo corretamente (i.e. com prefixo 'serial:' or 'usb:')."
+"A porta especificada (\"%s\") não foi localizada. Por favor, especifique uma "
+"das portas localizadas pelo \"gphoto2 --list-ports\" e tenha certeza que "
+"está escrevendo corretamente (com prefixo \"serial:\" ou \"usb:\")."
 
 #: gphoto2/actions.c:785
 #, c-format
 msgid "About the camera driver:"
-msgstr "Sobre o driver da câmera"
+msgstr "Sobre o driver da câmera:"
 
 #: gphoto2/actions.c:798
 #, c-format
 msgid "Camera summary:"
-msgstr "Sumário da câmera"
+msgstr "Resumo da câmera:"
 
 #: gphoto2/actions.c:811
 #, c-format
 msgid "Camera manual:"
-msgstr "Manual da Câmera"
+msgstr "Manual da câmera:"
 
 #: gphoto2/actions.c:826
 #, c-format
 msgid "You can only specify speeds for serial ports."
-msgstr "Você só pode especificar velocidades para portas seriais"
+msgstr "Você só pode especificar velocidades para portas seriais."
 
 #: gphoto2/actions.c:879
 msgid "OS/2 port by Bart van Leeuwen\n"
@@ -374,6 +378,17 @@ msgid ""
 "This version of gphoto2 is using the following software versions and "
 "options:\n"
 msgstr ""
+"gphoto2 %s\n"
+"\n"
+"Copyright (c) 2000-%d Lutz Mueller e outros\n"
+"%s\n"
+"gphoto2 vem sem NENHUMA GARANTIA, to the extent permitted by law. Você pode\n"
+"redistribute copies of gphoto2 under the terms of the GNU General Public\n"
+"License. For more information about these matters, see the files named "
+"COPYING.\n"
+"\n"
+"This version of gphoto2 is using the following software versions and "
+"options:\n"
 
 #: gphoto2/actions.c:1004
 #, c-format
