@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gphoto2 2.4.3\n"
 "Report-Msgid-Bugs-To: gphoto-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2008-06-22 18:31+0200\n"
-"PO-Revision-Date: 2008-10-26 13:35-0300\n"
+"PO-Revision-Date: 2008-10-26 22:04-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
 "MIME-Version: 1.0\n"
@@ -394,71 +394,72 @@ msgstr ""
 #, c-format
 msgid "Getting storage information not supported for this camera.\n"
 msgstr ""
+"Não há suporte a obtenção de informações de armazenamento para esta câmera.\n"
 
 #: gphoto2/actions.c:1019
 #, c-format
 msgid "Read-Write"
-msgstr ""
+msgstr "Leitura e escrita"
 
 #: gphoto2/actions.c:1022
 #, c-format
 msgid "Read-Only"
-msgstr ""
+msgstr "Somente leitura"
 
 #: gphoto2/actions.c:1025
 #, c-format
 msgid "Read-only with delete"
-msgstr ""
+msgstr "Somente leitura com exclusão"
 
 #: gphoto2/actions.c:1028 gphoto2/actions.c:1038
 #, c-format
 msgid "Unknown"
-msgstr ""
+msgstr "Desconhecido"
 
 #: gphoto2/actions.c:1041
 #, c-format
 msgid "Fixed ROM"
-msgstr ""
+msgstr "ROM fixa"
 
 #: gphoto2/actions.c:1044
 #, c-format
 msgid "Removable ROM"
-msgstr ""
+msgstr "ROM removível"
 
 #: gphoto2/actions.c:1047
 #, c-format
 msgid "Fixed RAM"
-msgstr ""
+msgstr "RAM fixa"
 
 #: gphoto2/actions.c:1050
 #, c-format
 msgid "Removable RAM"
-msgstr ""
+msgstr "RAM removível"
 
 #: gphoto2/actions.c:1060
 #, c-format
 msgid "Undefined"
-msgstr ""
+msgstr "Não definido"
 
 #: gphoto2/actions.c:1063
 #, c-format
 msgid "Generic Flat"
-msgstr ""
+msgstr "Flat genérico"
 
 #: gphoto2/actions.c:1066
 #, c-format
 msgid "Generic Hierarchical"
-msgstr ""
+msgstr "Hierárquico genérico"
 
 #: gphoto2/actions.c:1069
 #, c-format
 msgid "Camera layout (DCIM)"
-msgstr ""
+msgstr "Layout da câmera (DCIM)"
 
 #: gphoto2/actions.c:1107
 #, c-format
 msgid "Overriding USB vendor/product id 0x%x/0x%x with 0x%x/0x%x"
-msgstr ""
+msgstr "Sobrescrevendo o ID do fornecedor/produto USB 0x%x/0x%x por 0x%x/0x%x"
 
 #: gphoto2/actions.c:1171
 msgid ""
@@ -466,80 +467,78 @@ msgid ""
 "MAILING LIST:"
 msgstr ""
 "SEMPRE INCLUA AS SEGUINTES LINHAS QUANDO MANDAR UM MENSAGEM DE DEBUG PARA A "
-"MAILING LIST "
+"MAILING LIST:"
 
 #: gphoto2/actions.c:1186
 #, c-format
 msgid "%s has been compiled with the following options:"
-msgstr ""
+msgstr "%s foi compilado com as seguintes opções:"
 
 #: gphoto2/actions.c:1304
-#, fuzzy, c-format
+#, c-format
 msgid "%s not found in configuration tree."
-msgstr "Não foi possível ajustar configuração"
+msgstr "%s não localizado na árvore de configurações."
 
 #: gphoto2/actions.c:1364
 #, c-format
 msgid "Failed to retrieve value of text widget %s."
-msgstr ""
+msgstr "Falha ao obter o valor do widget de texto %s."
 
 #: gphoto2/actions.c:1381
 #, c-format
 msgid "Failed to retrieve values of range widget %s."
-msgstr ""
+msgstr "Falha ao obter os valores do widget de alcance %s."
 
 #: gphoto2/actions.c:1393
 #, c-format
 msgid "Failed to retrieve values of toggle widget %s."
-msgstr ""
+msgstr "Falha ao obter os valores do widget de alternância %s."
 
 #: gphoto2/actions.c:1405
 #, c-format
 msgid "Failed to retrieve values of date/time widget %s."
-msgstr ""
+msgstr "Falha ao obter os valores do widget de data e hora %s."
 
 #: gphoto2/actions.c:1435
 #, c-format
 msgid "Failed to retrieve values of radio widget %s."
-msgstr ""
+msgstr "Falha ao obter os valores do widget de opção %s."
 
 #: gphoto2/actions.c:1476
 #, c-format
 msgid "Failed to set the value of text widget %s to %s."
-msgstr ""
+msgstr "Falha ao definir o valor do widget de texto %s para %s."
 
 #: gphoto2/actions.c:1486
 #, c-format
 msgid "The passed value %s is not a floating point value."
-msgstr ""
+msgstr "O valor passado %s não é um valor de ponto flutuante."
 
 #: gphoto2/actions.c:1491
 #, c-format
 msgid "The passed value %f is not within the expected range %f - %f."
-msgstr ""
+msgstr "O valor passado %f não está dentro do limite esperado, de %f até %f."
 
 #: gphoto2/actions.c:1497
 #, c-format
 msgid "Failed to set the value of range widget %s to %f."
-msgstr ""
+msgstr "Falha ao definir o valor do widget de alcance %s para %f."
 
 #: gphoto2/actions.c:1506
 msgid "off"
-msgstr ""
+msgstr "desligado"
 
 #: gphoto2/actions.c:1507
-#, fuzzy
 msgid "false"
-msgstr "Valor"
+msgstr "falso"
 
 #: gphoto2/actions.c:1512
-#, fuzzy
 msgid "on"
-msgstr "seg"
+msgstr "ligado"
 
 #: gphoto2/actions.c:1513
 msgid "true"
-msgstr ""
+msgstr "verdadeiro"
 
 #: gphoto2/actions.c:1518
 #, c-format
