@@ -543,37 +543,39 @@ msgstr "verdadeiro"
 #: gphoto2/actions.c:1518
 #, c-format
 msgid "The passed value %s is not a valid toggle value."
-msgstr ""
+msgstr "O valor passado %s não é um valor de alternância válido."
 
 #: gphoto2/actions.c:1524
 #, c-format
 msgid "Failed to set values %s of toggle widget %s."
-msgstr ""
+msgstr "Falha ao definir os valores %s do widget de alternância %s."
 
 #: gphoto2/actions.c:1537
 #, c-format
 msgid "The passed value %s is neither a valid time nor an integer."
-msgstr ""
+msgstr "O valor passado %s não uma hora e nem um inteiro válido."
 
 #: gphoto2/actions.c:1544
 #, c-format
 msgid "Failed to set new time of date/time widget %s to %s."
-msgstr ""
+msgstr "Falha ao definir nova hora do widget de data e hora de %s para %s."
 
 #: gphoto2/actions.c:1581
 #, c-format
 msgid "Choice %s not found within list of choices."
-msgstr ""
+msgstr "A escolha %s não foi localizada na lista de escolhas."
 
 #: gphoto2/actions.c:1589
 #, c-format
 msgid "The %s widget is not configurable."
-msgstr ""
+msgstr "O widget %s não é configurável."
 
 #: gphoto2/actions.c:1596
 #, c-format
 msgid "Failed to set new configuration value %s for configuration entry %s."
 msgstr ""
+"Falha ao definir novo valor de configuração %s para a entrada de "
+"configuração %s."
 
 #: gphoto2/foreach.c:254
 #, c-format
@@ -583,13 +585,13 @@ msgid ""
 "listing first."
 msgstr ""
 "Numero de arquivo errado. Você especificou %i, mas há somente %i arquivos "
-"disponíveis'%s' ou suas subpastas. Por favor obtenha um número de arquivo "
-"válido do arquivoliste antes"
+"disponíveis em \"%s\" ou suas subpastas. Por favor, obtenha um número de "
+"arquivo válido de algum arquivo "
 
 #: gphoto2/foreach.c:279
 #, c-format
 msgid "There are no files in folder '%s'."
-msgstr "Não há arquivos na pasta '%s'."
+msgstr "Não há arquivos na pasta \"%s\"."
 
 #: gphoto2/foreach.c:285
 #, c-format
@@ -598,7 +600,7 @@ msgid ""
 "s'."
 msgstr ""
 "Número de arquivo errado. Você especificou %i, mas há somente 1 arquivo "
-"disponível em '%s'."
+"disponível em \"%s\"."
 
 #: gphoto2/foreach.c:293
 #, fuzzy, c-format
@@ -606,14 +608,14 @@ msgid ""
 "Bad file number. You specified %i, but there are only %i files available in "
 "'%s'. Please obtain a valid file number from a file listing first."
 msgstr ""
-"Número de arquivo errado Você especificou %i, mas há somente %i arquivos "
-"disponíveis em '%s'.Por favor, primeiro obtenha um número de arquivo válido "
-"dalista."
+"Número de arquivo errado. Você especificou %i, mas há somente %i arquivos "
+"disponíveis em \"%s\". Por favor, primeiro obtenha um número de arquivo "
+"válido da lista."
 
 #: gphoto2/gp-params.c:70
 #, c-format
 msgid "*** Error ***              \n"
-msgstr "*** Erro ***              \n"
+msgstr "*** Erro ***               \n"
 
 #: gphoto2/gp-params.c:244
 #, c-format
@@ -623,27 +625,27 @@ msgstr "Pressione qualquer tecla para continuar.\n"
 #: gphoto2/gp-params.c:266
 #, c-format
 msgid "Not enough memory."
-msgstr "Memória insuficiente"
+msgstr "Memória insuficiente."
 
 #: gphoto2/gphoto2-cmd-capture.c:211
 msgid "Operation cancelled"
-msgstr "Operação Cancelada"
+msgstr "Operação cancelada"
 
 #: gphoto2/gphoto2-cmd-config.c:55
 msgid "</B/24>Continue"
-msgstr "Continuar </B/24>"
+msgstr "</B/24>Continuar"
 
 #: gphoto2/gphoto2-cmd-config.c:55
 msgid "</B16>Cancel"
-msgstr "Cancelar"
+msgstr "</B16>Cancelar"
 
 #: gphoto2/gphoto2-cmd-config.c:61
 msgid "<C></5>Error"
-msgstr "Erro <C></5> "
+msgstr "<C></5>Erro"
 
 #: gphoto2/gphoto2-cmd-config.c:63
 msgid "Could not set configuration:"
-msgstr "Não foi possível ajustar configuração"
+msgstr "Não foi possível definir configuração:"
 
 #: gphoto2/gphoto2-cmd-config.c:107
 msgid "Exit"
@@ -651,7 +653,7 @@ msgstr "Sair"
 
 #: gphoto2/gphoto2-cmd-config.c:109
 msgid "Back"
-msgstr "Retornar"
+msgstr "Voltar"
 
 #: gphoto2/gphoto2-cmd-config.c:254
 msgid "Time: "
@@ -674,41 +676,45 @@ msgstr "Não"
 #, c-format
 msgid "Zero padding numbers in file names is only possible with %%n."
 msgstr ""
+"Preenchimento de números zero nos nomes dos arquivos é possível apenas com %%"
+"n."
 
 #: gphoto2/main.c:239
-#, fuzzy, c-format
+#, c-format
 msgid "You cannot use %%n zero padding without a precision value!"
-msgstr "Você não pode usar '%n' em combinação com arquivos não persistentes"
+msgstr ""
+"Você não pode usar o preenchimento de zeros %%n sem um valor de precisão!"
 
 #: gphoto2/main.c:255
-#, fuzzy, c-format
+#, c-format
 msgid "You cannot use '%%n' in combination with non-persistent files!"
-msgstr "Você não pode usar '%n' em combinação com arquivos não persistentes"
+msgstr ""
+"Você não pode usar \"%%n\" em combinação com arquivos não persistentes!"
 
 #: gphoto2/main.c:286
 #, c-format
 msgid "The filename provided by the camera ('%s') does not contain a suffix!"
-msgstr "O nome do arquivo dado pela câmera ('%s') não contem sufixo!"
+msgstr "O nome do arquivo fornecido pela câmera (\"%s\") não contem um sufixo!"
 
 #: gphoto2/main.c:341
 #, c-format
 msgid "Invalid format '%s' (error at position %i)."
-msgstr "Formato inválido '%s' (erro na posição %i)."
+msgstr "Formato inválido \"%s\" (erro na posição %i)."
 
 #: gphoto2/main.c:394
 #, c-format
 msgid "File %s exists. Overwrite? [y|n] "
-msgstr "Arquivo %s existe. Sobrescrever ? [y|n] "
+msgstr "O arquivo %s existe. Sobrescrever? [s|n] "
 
 #: gphoto2/main.c:406
 #, c-format
 msgid "Specify new filename? [y|n] "
-msgstr "Especificar novo nome de arquivo? [y|n] "
+msgstr "Especificar novo nome de arquivo? [s|n] "
 
 #: gphoto2/main.c:416
 #, c-format
 msgid "Enter new filename: "
-msgstr "Digite um novo nome:"
+msgstr "Digite um novo nome de arquivo: "
 
 #: gphoto2/main.c:422
 #, c-format
