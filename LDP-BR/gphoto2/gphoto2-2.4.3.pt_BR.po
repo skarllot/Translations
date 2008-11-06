@@ -724,7 +724,7 @@ msgstr "Salvando arquivo como %s\n"
 #: gphoto2/main.c:607
 #, c-format
 msgid "Time-lapse mode enabled (interval: %ds).\n"
-msgstr ""
+msgstr "Modo de captura por intervalos de tempo (intervalo: %d).\n"
 
 #: gphoto2/main.c:610
 #, c-format
@@ -734,22 +734,21 @@ msgstr ""
 #: gphoto2/main.c:619
 #, c-format
 msgid "Capturing frame #%d...\n"
-msgstr ""
+msgstr "Capturando quadro #%d...\n"
 
 #: gphoto2/main.c:621
 #, c-format
 msgid "Capturing frame #%d/%d...\n"
-msgstr ""
+msgstr "Capturando quadro #%d/%d...\n"
 
 #: gphoto2/main.c:628
-#, fuzzy
 msgid "Could not capture."
-msgstr "Não foi possível analisar os dados EXIF"
+msgstr "Não foi possível capturar."
 
 #: gphoto2/main.c:637
 #, c-format
 msgid "Capture failed (auto-focus problem?)...\n"
-msgstr ""
+msgstr "Falha ao capturar (problema de foco automático?)...\n"
 
 #: gphoto2/main.c:651
 #, c-format
@@ -757,14 +756,12 @@ msgid "New file is in location %s%s%s on the camera\n"
 msgstr "Novo arquivo está em %s%s%s na câmera\n"
 
 #: gphoto2/main.c:660 gphoto2/main.c:797
-#, fuzzy
 msgid "Could not set folder."
-msgstr "Não foi possível ajustar configuração"
+msgstr "Não foi possível definir pasta."
 
 #: gphoto2/main.c:667 gphoto2/main.c:803
-#, fuzzy
 msgid "Could not get image."
-msgstr "Não foi possível ajustar configuração"
+msgstr "Não foi possível obter imagem."
 
 #: gphoto2/main.c:674 gphoto2/main.c:810
 msgid "Buggy libcanon.so?"
