@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gphoto2 2.4.3\n"
 "Report-Msgid-Bugs-To: gphoto-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2008-06-22 18:31+0200\n"
-"PO-Revision-Date: 2008-11-09 21:57-0200\n"
+"PO-Revision-Date: 2008-11-09 22:44-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
 "MIME-Version: 1.0\n"
@@ -44,7 +44,7 @@ msgstr[1] "Há %d arquivos na pasta \"%s\".\n"
 #: gphoto2/actions.c:251
 #, c-format
 msgid "Information on file '%s' (folder '%s'):\n"
-msgstr "Informaçõa no arquivo \"%s\" (pasta \"%s\"):\n"
+msgstr "Informações sobre o arquivo \"%s\" (pasta \"%s\"):\n"
 
 #: gphoto2/actions.c:253
 #, c-format
@@ -179,7 +179,7 @@ msgstr "Dados EXIF contém uma miniatura (%i bytes)."
 
 #: gphoto2/actions.c:527
 msgid "gphoto2 has been compiled without EXIF support."
-msgstr "gphoto2 foi compilado sem suporte a EXIF"
+msgstr "gphoto2 foi compilado sem suporte a EXIF."
 
 #: gphoto2/actions.c:545
 #, c-format
@@ -326,7 +326,7 @@ msgid ""
 "colon so I am going to guess what you mean."
 msgstr ""
 "Portas deve parecer-se com \"serial:/dev/ttyS0\" ou \"usb:\", mas \"%s\" "
-"está com um dois-pontos faltando, então eu advinharei o quê você quer dizer."
+"está com um dois-pontos faltando, então eu adivinharei o quê você quer dizer."
 
 #: gphoto2/actions.c:753
 #, c-format
@@ -380,9 +380,9 @@ msgid ""
 msgstr ""
 "gphoto2 %s\n"
 "\n"
-"Copyright (c) 2000-%d Lutz Mueller e outros\n"
+"Copyright (c) 2000-%d Lutz Mueller and others\n"
 "%s\n"
-"gphoto2 vem sem NENHUMA GARANTIA, to the extent permitted by law. Você pode\n"
+"gphoto2 comes with NO WARRANTY, to the extent permitted by law. You may\n"
 "redistribute copies of gphoto2 under the terms of the GNU General Public\n"
 "License. For more information about these matters, see the files named "
 "COPYING.\n"
@@ -466,8 +466,8 @@ msgid ""
 "ALWAYS INCLUDE THE FOLLOWING LINES WHEN SENDING DEBUG MESSAGES TO THE "
 "MAILING LIST:"
 msgstr ""
-"SEMPRE INCLUA AS SEGUINTES LINHAS QUANDO MANDAR UM MENSAGEM DE DEBUG PARA A "
-"MAILING LIST:"
+"SEMPRE INCLUA AS SEGUINTES LINHAS QUANDO MANDAR UMA MENSAGEM DE DEPURAÇÃO "
+"PARA A LISTA DE DISCUSSÃO:"
 
 #: gphoto2/actions.c:1186
 #, c-format
@@ -585,8 +585,8 @@ msgid ""
 "listing first."
 msgstr ""
 "Numero de arquivo errado. Você especificou %i, mas há somente %i arquivos "
-"disponíveis em \"%s\" ou suas subpastas. Por favor, obtenha um número de "
-"arquivo válido de algum arquivo "
+"disponíveis em \"%s\" ou em suas subpastas. Por favor, primeiro obtenha um "
+"número de arquivo válido da listagem de arquivos."
 
 #: gphoto2/foreach.c:279
 #, c-format
@@ -724,7 +724,7 @@ msgstr "Salvando arquivo como %s\n"
 #: gphoto2/main.c:607
 #, c-format
 msgid "Time-lapse mode enabled (interval: %ds).\n"
-msgstr "Modo de captura por intervalos de tempo (intervalo: %d).\n"
+msgstr "Modo de captura por intervalos de tempo (intervalo: %ds).\n"
 
 #: gphoto2/main.c:610
 #, c-format
@@ -875,8 +875,8 @@ msgstr ""
 "problema.\n"
 "Se você pretende enviar qualquer erro ou mensagem de depuração para a "
 "lista \n"
-"de discussão de desenvolvedores do gphoto <gphoto-devel@lists.sourceforge."
-"net>,\n"
+"de discussão de desenvolvedores do gphoto gphoto-devel@lists.sourceforge."
+"net,\n"
 "por favor execute o gphoto como segue:\n"
 "\n"
 
@@ -1187,7 +1187,7 @@ msgstr "Opções diversas (não ordenadas)"
 
 #: gphoto2/main.c:1700
 msgid "Get information on software and host system (not from the camera)"
-msgstr "Obter informações no software o no sistema hospedeiro, não da câmera"
+msgstr "Obter informações no software e no sistema hospedeiro, não da câmera"
 
 #: gphoto2/main.c:1702
 msgid "Specify the camera to use"
@@ -1376,7 +1376,7 @@ msgstr "Caminho inválido."
 
 #: gphoto2/shell.c:577
 msgid "Could not find home directory."
-msgstr "Não foi possível encontrar o diretório pessoal"
+msgstr "Não foi possível encontrar o diretório home."
 
 #: gphoto2/shell.c:586
 #, c-format
