@@ -1,17 +1,18 @@
 # Brazilian Portuguese translation of meld.
-# Copyright (C) 2004 Free Software Foundation, Inc.
+# Copyright (C) 2004-2008 Free Software Foundation, Inc.
 # This file is distributed under the same license as the meld package.
 # Raphael Higino <In memoriam>, 2004.
 # Djavan Fagundes <dnoway@gmail.com>, 2008.
 # César Veiga <tombs@linuxmail.org>, 2008.
+# Fabrício Godoy <skarllot@gmail.com>, 2008
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: meld\n"
 "Report-Msgid-Bugs-To: Stephen Kennedy <stevek@gnome.org>\n"
 "POT-Creation-Date: 2008-11-07 14:49+0100\n"
-"PO-Revision-Date: 2008-09-10 11:39-0300\n"
-"Last-Translator: César Veiga <tombs@linuxmail.org>\n"
+"PO-Revision-Date: 2008-11-15 15:12-0200\n"
+"Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-l10n-br@listas.cipsga.org.br>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -46,7 +47,7 @@ msgstr "Copiar para a direita"
 
 #: ../dirdiff.py:194
 msgid "Delete selected"
-msgstr "Exclui os selecionados"
+msgstr "Excluir selecionados"
 
 #: ../dirdiff.py:195
 msgid "Hide..."
@@ -54,19 +55,19 @@ msgstr "Ocultar..."
 
 #: ../dirdiff.py:195
 msgid "Hide selected"
-msgstr "Oculta os selecionados"
+msgstr "Ocultar selecionados"
 
 #: ../dirdiff.py:197 ../filediff.py:135 ../vcview.py:119
 msgid "Open selected"
-msgstr "Abrir os selecionados"
+msgstr "Abrir selecionados"
 
 #: ../dirdiff.py:201
 msgid "Case"
-msgstr "Capitalização"
+msgstr "Maiusculização"
 
 #: ../dirdiff.py:201
 msgid "Ignore case of entries"
-msgstr "Ignora maiúsc./minúsc. nas entradas"
+msgstr "Ignorar maiusculização das entradas"
 
 #: ../dirdiff.py:202
 msgid "Same"
@@ -74,7 +75,7 @@ msgstr "Idênticos"
 
 #: ../dirdiff.py:202
 msgid "Show identical"
-msgstr "Mostra os idênticos"
+msgstr "Mostrar idênticos"
 
 #: ../dirdiff.py:203
 msgid "New"
@@ -82,7 +83,7 @@ msgstr "Novos"
 
 #: ../dirdiff.py:203
 msgid "Show new"
-msgstr "Mostra os novos"
+msgstr "Mostrar novos"
 
 #: ../dirdiff.py:204
 msgid "Modified"
@@ -95,7 +96,7 @@ msgstr "Mostrar modificados"
 #: ../dirdiff.py:265 ../dirdiff.py:280
 #, python-format
 msgid "Error converting pattern '%s' to regular expression"
-msgstr "Erro ao converter o padrão '%s' para expressão regular"
+msgstr "Erro ao converter o padrão \"%s\" para expressão regular"
 
 #: ../dirdiff.py:288
 #, python-format
@@ -110,7 +111,7 @@ msgstr "[%s] Analisando %s"
 #: ../dirdiff.py:416
 #, python-format
 msgid "'%s' hidden by '%s'"
-msgstr "'%s' ocultado por '%s'"
+msgstr "\"%s\" ocultado por \"%s\""
 
 #: ../dirdiff.py:422
 #, python-format
@@ -119,15 +120,15 @@ msgid ""
 "filesystem. Some files are not visible:\n"
 "%s"
 msgstr ""
-"Você está executando uma comparação que não diferencia maiúsculas de "
-"minúsculas em um sistema de arquivos que diferencia. Alguns arquivos não "
+"Você está executando uma comparação que ignora a maiusculização "
+"em um sistema de arquivos que não ignora. Alguns arquivos não "
 "estão visíveis:\n"
 "%s"
 
 #: ../dirdiff.py:496
 #, python-format
 msgid "[%s] Done"
-msgstr "[%s] Pronto"
+msgstr "[%s] Concluído"
 
 #: ../dirdiff.py:542
 #, python-format
@@ -135,7 +136,7 @@ msgid ""
 "'%s' exists.\n"
 "Overwrite?"
 msgstr ""
-"'%s' existe.\n"
+"\"%s\" já existe.\n"
 "Sobrescrevê-lo?"
 
 #: ../dirdiff.py:549
@@ -145,7 +146,7 @@ msgid ""
 "\n"
 "%s."
 msgstr ""
-"Erro ao copiar '%s' para '%s'\n"
+"Erro ao copiar \"%s\" para \"%s\"\n"
 "\n"
 "%s."
 
@@ -155,7 +156,7 @@ msgid ""
 "'%s' is a directory.\n"
 "Remove recusively?"
 msgstr ""
-"'%s' é um diretório.\n"
+"\"%s\" é um diretório.\n"
 "Remover recursivamente?"
 
 #: ../dirdiff.py:574 ../vcview.py:420
@@ -228,7 +229,7 @@ msgstr "Salvar o arquivo atual com um nome diferente"
 
 #: ../filediff.py:132 ../meldapp.py:566
 msgid "Cut the selection"
-msgstr "Cortar a seleção"
+msgstr "Recortar a seleção"
 
 #: ../filediff.py:133 ../meldapp.py:567
 msgid "Copy the selection"
@@ -236,7 +237,7 @@ msgstr "Copiar a seleção"
 
 #: ../filediff.py:134 ../meldapp.py:568
 msgid "Paste the clipboard"
-msgstr "Colar a área de transferência"
+msgstr "Colar da área de transferência"
 
 #: ../filediff.py:136 ../glade2/filediff.glade.h:4
 msgid "Create Patch"
@@ -263,7 +264,7 @@ msgstr "INS,SBR"
 #: ../filediff.py:189
 #, python-format
 msgid "Ln %i, Col %i"
-msgstr "Lin %i, col %i"
+msgstr "Lin %i, Col %i"
 
 #: ../filediff.py:247
 #, python-format
@@ -271,7 +272,7 @@ msgid ""
 "Regular expression '%s' changed the number of lines in the file. Comparison "
 "will be incorrect. See the user manual for more details."
 msgstr ""
-"A expressão regular '%s' alterou o número de linhas no arquivo. A comparação "
+"A expressão regular \"%s\" alterou o número de linhas no arquivo. A comparação "
 "irá ficar incorreta. Veja o manual do usuário para maiores detalhes."
 
 #: ../filediff.py:508
@@ -281,22 +282,22 @@ msgid ""
 "'%s'"
 msgstr ""
 "Erro na expressão regular\n"
-"'%s'"
+"\"%s\""
 
 #: ../filediff.py:520
 #, python-format
 msgid "The regular expression '%s' was not found."
-msgstr "A expressão regular '%s' não foi encontrada."
+msgstr "A expressão regular \"%s\" não foi localizada."
 
 #: ../filediff.py:522
 #, python-format
 msgid "The text '%s' was not found."
-msgstr "O texto '%s' não foi encontrado."
+msgstr "O texto \"%s\" não foi localizado."
 
 #: ../filediff.py:575
 #, python-format
 msgid "[%s] Set num panes"
-msgstr "[%s] Configurar num. painéis"
+msgstr "[%s] Configurar quantidade de painéis"
 
 #: ../filediff.py:582
 #, python-format
@@ -306,7 +307,7 @@ msgstr "[%s] Abrindo arquivos"
 #: ../filediff.py:599 ../filediff.py:613 ../filediff.py:629 ../filediff.py:636
 #, python-format
 msgid "Could not read from '%s'"
-msgstr "Não foi possível ler a partir de '%s'"
+msgstr "Não foi possível ler a partir de \"%s\""
 
 #: ../filediff.py:600 ../filediff.py:637
 msgid "The error was:"
@@ -322,7 +323,7 @@ msgid ""
 "It contains ascii nulls.\n"
 "Perhaps it is a binary file."
 msgstr ""
-"Isto contém ascii nulos.\n"
+"Ele contém ASCII nulos.\n"
 "Talvez seja um arquivo binário."
 
 #: ../filediff.py:630
@@ -333,7 +334,7 @@ msgstr "Tentei as codificações %s."
 #: ../filediff.py:659
 #, python-format
 msgid "[%s] Computing differences"
-msgstr "[%s] Computando diferenças"
+msgstr "[%s] Calculando diferenças"
 
 #: ../filediff.py:765
 #, python-format
@@ -341,7 +342,7 @@ msgid ""
 "\"%s\" exists!\n"
 "Overwrite?"
 msgstr ""
-"\"%s\" existe!\n"
+"\"%s\" já existe!\n"
 "Sobrescrevê-lo?"
 
 #: ../filediff.py:778
@@ -351,7 +352,7 @@ msgid ""
 "\n"
 "%s."
 msgstr ""
-"Erro ao escrever em %s\n"
+"Erro ao gravar em %s\n"
 "\n"
 "%s."
 
@@ -367,7 +368,7 @@ msgid ""
 "\n"
 "Which format would you like to use?"
 msgstr ""
-"O arquivo '%s' contém uma mistura de fins de linha diferentes.\n"
+"O arquivo \"%s\" contém uma mistura de fins de linha diferentes.\n"
 "\n"
 "Que formato você gostaria de usar?"
 
@@ -377,7 +378,7 @@ msgid ""
 "'%s' contains characters not encodable with '%s'\n"
 "Would you like to save as UTF-8?"
 msgstr ""
-"'%s' contém caracteres não codificados com '%s'\n"
+"\"%s\" contém caracteres não codificáveis com \"%s\"\n"
 "Você gostaria de salvar como UTF-8?"
 
 #. save as
@@ -393,7 +394,7 @@ msgid ""
 "\n"
 "You cannot undo this operation."
 msgstr ""
-"Atualizar irá descartar as alterações em:\n"
+"Ao recarregar as alterações serão descartadas em:\n"
 "%s\n"
 "\n"
 "Você não pode desfazer essa operação."
@@ -416,7 +417,7 @@ msgstr "Localizar"
 
 #: ../glade2/filediff.glade.h:6
 msgid "Match _entire word only"
-msgstr "Localizar ap_enas a palavra inteira"
+msgstr "Equiparar ap_enas a palavra inteira"
 
 #: ../glade2/filediff.glade.h:7
 msgid "Regular e_xpression"
@@ -436,7 +437,7 @@ msgstr "_Descartar alterações"
 
 #: ../glade2/filediff.glade.h:11
 msgid "_Match case"
-msgstr "Diferenciar _maiúsculas de minúsculas"
+msgstr "Equiparar _maiúsculas e minúsculas"
 
 #: ../glade2/filediff.glade.h:12
 msgid "_Save Selected"
@@ -444,7 +445,7 @@ msgstr "S_alvar selecionados"
 
 #: ../glade2/filediff.glade.h:13
 msgid "_Wrap around"
-msgstr "_Incluir arredores"
+msgstr "Voltar ao _início"
 
 #: ../glade2/meldapp.glade.h:1
 msgid "(gnome-default-editor)"
@@ -524,7 +525,7 @@ msgstr ""
 
 #: ../glade2/meldapp.glade.h:19
 msgid "Copyright (C) 2002-2006 Stephen Kennedy"
-msgstr "Copyright (C) 2002-2006 Stephen Kennedy"
+msgstr "Copyright © 2002-2006 Stephen Kennedy"
 
 #: ../glade2/meldapp.glade.h:20
 msgid "Curved: Filled Curves"
