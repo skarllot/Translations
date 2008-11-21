@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: meld\n"
 "Report-Msgid-Bugs-To: Stephen Kennedy <stevek@gnome.org>\n"
 "POT-Creation-Date: 2008-11-07 14:49+0100\n"
-"PO-Revision-Date: 2008-11-20 23:50-0200\n"
+"PO-Revision-Date: 2008-11-20 00:03-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-l10n-br@listas.cipsga.org.br>\n"
 "MIME-Version: 1.0\n"
@@ -272,7 +272,7 @@ msgid ""
 "will be incorrect. See the user manual for more details."
 msgstr ""
 "A expressão regular \"%s\" alterou o número de linhas no arquivo. A "
-"comparação irá ficar incorreta. Veja o manual do usuário para maiores "
+"comparação irá ficar incorreta. Consulte o manual do usuário para maiores "
 "detalhes."
 
 #: ../filediff.py:508
@@ -1045,7 +1045,7 @@ msgstr "Criar uma aba diff para até 3 arquivos fornecidos."
 
 #: ../meldapp.py:947
 msgid "Invalid number of arguments supplied for --diff."
-msgstr "Número inválido de argumentos fornecidos para --diff"
+msgstr "Número inválido de argumentos fornecidos para --diff."
 
 #: ../meldapp.py:970
 #, python-format
