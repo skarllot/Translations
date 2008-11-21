@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: meld\n"
 "Report-Msgid-Bugs-To: Stephen Kennedy <stevek@gnome.org>\n"
 "POT-Creation-Date: 2008-11-07 14:49+0100\n"
-"PO-Revision-Date: 2008-11-15 15:12-0200\n"
+"PO-Revision-Date: 2008-11-20 23:50-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-l10n-br@listas.cipsga.org.br>\n"
 "MIME-Version: 1.0\n"
@@ -120,9 +120,8 @@ msgid ""
 "filesystem. Some files are not visible:\n"
 "%s"
 msgstr ""
-"Você está executando uma comparação que ignora a maiusculização "
-"em um sistema de arquivos que não ignora. Alguns arquivos não "
-"estão visíveis:\n"
+"Você está executando uma comparação que ignora a maiusculização em um "
+"sistema de arquivos que não ignora. Alguns arquivos não estão visíveis:\n"
 "%s"
 
 #: ../dirdiff.py:496
@@ -272,8 +271,9 @@ msgid ""
 "Regular expression '%s' changed the number of lines in the file. Comparison "
 "will be incorrect. See the user manual for more details."
 msgstr ""
-"A expressão regular \"%s\" alterou o número de linhas no arquivo. A comparação "
-"irá ficar incorreta. Veja o manual do usuário para maiores detalhes."
+"A expressão regular \"%s\" alterou o número de linhas no arquivo. A "
+"comparação irá ficar incorreta. Veja o manual do usuário para maiores "
+"detalhes."
 
 #: ../filediff.py:508
 #, python-format
@@ -561,7 +561,7 @@ msgstr "Filtros de arquivos"
 
 #: ../glade2/meldapp.glade.h:28
 msgid "Gnome Default"
-msgstr "Padrão GNOME"
+msgstr "Padrão do GNOME"
 
 #: ../glade2/meldapp.glade.h:29
 msgid "Gnome default editor"
@@ -573,30 +573,30 @@ msgstr "Apenas ícones"
 
 #: ../glade2/meldapp.glade.h:31
 msgid "Ignore changes in amount of white space"
-msgstr "Ignora alterações na quantidade de espaço em branco"
+msgstr "Ignora alterações de espaços em branco"
 
 #: ../glade2/meldapp.glade.h:32
 msgid ""
 "Ignore changes in case; consider upper and lower-case letters equivalent"
 msgstr ""
-"Ignora alterações na capitalização; considera maiúsculas e minúsculas "
+"Ignora alterações de maiusculização; considera maiúsculas e minúsculas como "
 "equivalentes"
 
 #: ../glade2/meldapp.glade.h:33
 msgid "Ignore changes that just insert or delete blank lines"
-msgstr "Ignora alterações que apenas inserem ou excluem linhas brancas"
+msgstr "Ignora alterações que apenas inserem ou excluem linhas vazias"
 
 #: ../glade2/meldapp.glade.h:34
 msgid "Ignore changes which insert or delete blank lines"
-msgstr "Ignora alterações que inserem ou excluem linhas em branco"
+msgstr "Ignora alterações que inserem ou excluem linhas vazias"
 
 #: ../glade2/meldapp.glade.h:35
 msgid "Ignore symbolic links"
-msgstr "Ignorar atalhos simbólicos"
+msgstr "Ignorar links simbólicos"
 
 #: ../glade2/meldapp.glade.h:36
 msgid "Insert spaces instead of tabs"
-msgstr "Inserir espaços ao invés de separadores"
+msgstr "Inserir espaços ao invés de tabulações"
 
 #: ../glade2/meldapp.glade.h:37
 msgid "Internal editor"
@@ -628,11 +628,11 @@ msgstr "Preferências : Meld"
 
 #: ../glade2/meldapp.glade.h:44
 msgid "Save in UTF-8 encoding"
-msgstr "Salvar na codificação UTF-8"
+msgstr "Salvar usando a codificação UTF-8"
 
 #: ../glade2/meldapp.glade.h:45
 msgid "Save in the files original encoding"
-msgstr "Salvar na codificação original do arquivo"
+msgstr "Salvar usando a codificação original do arquivo"
 
 #: ../glade2/meldapp.glade.h:46
 msgid "Show line numbers"
@@ -684,7 +684,7 @@ msgstr "Arquivo de duas vias"
 
 #: ../glade2/meldapp.glade.h:58
 msgid "Use GNOME monospace font"
-msgstr "Usar fonte monospace do GNOME"
+msgstr "Usar a fonte monospace do GNOME"
 
 #: ../glade2/meldapp.glade.h:59
 msgid "Use custom font"
@@ -696,11 +696,11 @@ msgstr "Usar destaque de sintaxe"
 
 #: ../glade2/meldapp.glade.h:61
 msgid "Version control view"
-msgstr "Visualizar o controle de versões"
+msgstr "Visualizar controle de versões"
 
 #: ../glade2/meldapp.glade.h:62
 msgid "When loading, try these codecs in order. (e.g. utf8, iso8859)"
-msgstr "Ao carregar, tenta esses codecs, na ordem. (p.ex. utf8, iso8859)"
+msgstr "Ao carregar, tentar estes codecs, na ordem. (ex: utf8, iso8859)"
 
 #: ../glade2/meldapp.glade.h:63
 msgid ""
@@ -708,9 +708,9 @@ msgid ""
 "directories by name. Each pattern is a list of shell style wildcards "
 "separated by spaces."
 msgstr ""
-"Ao fazer comparações de diretórios, você pode filtrar arquivos e diretórios "
-"por nome. Cada padrão é um lista com caracteres coringas (* ou ?) separada "
-"por espaços."
+"Ao fazer comparações de diretórios, você pode filtrar retirando arquivos e "
+"diretórios por nome. Cada padrão é uma lista com caracteres curingas (* "
+"ou ?) separados por espaços."
 
 #: ../glade2/meldapp.glade.h:64
 msgid ""
@@ -722,9 +722,9 @@ msgid ""
 msgstr ""
 "Ao fazer comparações de arquivos, você pode ignorar certos tipos de "
 "alterações. Cada padrão aqui é uma expressão regular em python que "
-"substituirá o texto correspondente com uma expressão vazia após a realização "
-"da comparação. Se a expressão contém grupos, somente os grupos são "
-"substituídos. Veja o manual do usuário para maiores detalhes."
+"substituirá o texto correspondente com um texto vazio antes que se realize a "
+"comparação. Se a expressão contém grupos, somente os grupos serão "
+"substituídos. Consulte o manual do usuário para maiores detalhes."
 
 #: ../glade2/meldapp.glade.h:65
 msgid "Whitespace is significant"
@@ -835,30 +835,30 @@ msgstr "Padrão"
 
 #: ../meldapp.py:263
 msgid "Regex"
-msgstr "ER"
+msgstr "Exp. regular"
 
 #: ../meldapp.py:293
 msgid ""
 "Spaces instead of_tab is only available if you have gnome-python-desktop "
 "installed."
 msgstr ""
-"Espaços ao invés de of_tab estão disponíveis apenas se você tiver gnome-python-desktop "
-"instalado."
+"\"Espaços ao invés de tabulações\" estará disponível apenas se o gnome-"
+"python-desktop estiver instalado."
 
 #: ../meldapp.py:301
 msgid ""
 "Line numbers are only available if you have gnome-python-desktop installed."
 msgstr ""
-"Números de linha estão disponíveis apenas se você tiver gnome-python-desktop "
-"instalado."
+"\"Números de linha\" estará disponível apenas se o gnome-python-desktop "
+"estiver instalado."
 
 #: ../meldapp.py:305
 msgid ""
 "Syntax highlighting is only available if you have gnome-python-desktop "
 "installed."
 msgstr ""
-"Destaque de sintaxe está disponível apenas se você tiver gnome-python-desktop "
-"instalado."
+"\"Destaque de sintaxe\" estará disponível apenas se o gnome-python-desktop "
+"estiver instalado."
 
 #: ../meldapp.py:394
 msgid "Close tab"
@@ -879,7 +879,7 @@ msgstr ""
 #. TRANSLATORS: translate this string ONLY to the first "\t", leave it and the following parts intact
 #: ../meldapp.py:473
 msgid "Binaries\t1\t*.{pyc,a,obj,o,so,la,lib,dll}\n"
-msgstr "Binários\t1\t*.{pyc,a,obj,o,so,la,lib,dll}\n"
+msgstr "Executáveis\t1\t*.{pyc,a,obj,o,so,la,lib,dll}\n"
 
 #. TRANSLATORS: translate this string ONLY to the first "\t", leave it and the following parts intact
 #: ../meldapp.py:475
@@ -942,7 +942,7 @@ msgstr "Refaz a última ação desfeita"
 
 #: ../meldapp.py:569
 msgid "Search for text"
-msgstr "Procurar por texto"
+msgstr "Pesquisar por texto"
 
 #: ../meldapp.py:570
 msgid "Find Ne_xt"
@@ -950,7 +950,7 @@ msgstr "Encontrar pró_ximo"
 
 #: ../meldapp.py:570
 msgid "Search forwards for the same text"
-msgstr "Procurar pelo mesmo texto em frente"
+msgstr "Pesquisar em frente pelo mesmo texto"
 
 #: ../meldapp.py:571
 msgid "Go to the next difference"
@@ -958,7 +958,7 @@ msgstr "Ir para a próxima diferença"
 
 #: ../meldapp.py:572
 msgid "Go to the previous difference"
-msgstr "Vá para a próxima diferença"
+msgstr "Ir para a próxima diferença"
 
 #: ../meldapp.py:573
 msgid "Configure the application"
@@ -990,11 +990,11 @@ msgstr "Abrir o manual do Meld"
 
 #: ../meldapp.py:582
 msgid "Report _Bug"
-msgstr "Reportar _erro"
+msgstr "Relatar _erro"
 
 #: ../meldapp.py:582
 msgid "Report a bug in Meld"
-msgstr "Relatar um bug no Meld"
+msgstr "Relatar um erro no Meld"
 
 #: ../meldapp.py:583
 msgid "Mailing _List"
@@ -1002,7 +1002,7 @@ msgstr "_Lista de discussão"
 
 #: ../meldapp.py:583
 msgid "Go to the Meld mailing list"
-msgstr "Vai para a lista de discussão do Meld"
+msgstr "Ir para a lista de discussão do Meld"
 
 #: ../meldapp.py:584
 msgid "About this program"
@@ -1032,7 +1032,8 @@ msgstr "Definir rótulo para usar no lugar do nome do arquivo"
 
 #: ../meldapp.py:930
 msgid "Automatically compare all differing files on startup"
-msgstr "Comparar automaticamente todos os arquivos diferentes na inicialização"
+msgstr ""
+"Comparar automaticamente todas as diferenças dos arquivos na inicialização"
 
 #: ../meldapp.py:931 ../meldapp.py:932 ../meldapp.py:933 ../meldapp.py:934
 msgid "Ignored for compatibility"
@@ -1044,12 +1045,12 @@ msgstr "Criar uma aba diff para até 3 arquivos fornecidos."
 
 #: ../meldapp.py:947
 msgid "Invalid number of arguments supplied for --diff."
-msgstr "Número inválido de argumentos fornecidos para - diff"
+msgstr "Número inválido de argumentos fornecidos para --diff"
 
 #: ../meldapp.py:970
 #, python-format
 msgid "Wrong number of arguments (Got %i)"
-msgstr "Número errado de argumentos (Recebi %i )"
+msgstr "Número errado de argumentos (Recebi %i)"
 
 #: ../melddoc.py:46
 msgid "untitled"
@@ -1084,7 +1085,7 @@ msgstr "_Adicionar"
 
 #: ../vcview.py:122
 msgid "Add to VC"
-msgstr "Adicionar ao CV"
+msgstr "Adicionar para controle de versão"
 
 #. FIXME: popup used to use gtk.STOCK_ADD
 #: ../vcview.py:123
@@ -1093,7 +1094,7 @@ msgstr "Adicionar _binário"
 
 #: ../vcview.py:123
 msgid "Add binary to VC"
-msgstr "Adicionar binário ao CV"
+msgstr "Adicionar binário para controle de versão"
 
 #. FIXME: stock is inconsistent with other VC actions
 #: ../vcview.py:124
@@ -1102,7 +1103,7 @@ msgstr "_Remover"
 
 #: ../vcview.py:124
 msgid "Remove from VC"
-msgstr "Remover do CV"
+msgstr "Remover do controle de versão"
 
 #. FIXME: popup used to use gtk.STOCK_REMOVE
 #: ../vcview.py:125
@@ -1135,7 +1136,7 @@ msgstr "Mostrar normal"
 
 #: ../vcview.py:133
 msgid "Non _VC"
-msgstr "Não _CV"
+msgstr "Sem _controle de versão"
 
 #: ../vcview.py:133
 msgid "Show unversioned files"
@@ -1185,7 +1186,7 @@ msgstr "Nenhuma diferença encontrada."
 
 #: ../vcview.py:392
 msgid "Select some files first."
-msgstr "Primeiro, selecione alguns arquivos."
+msgstr "Primeiro selecione alguns arquivos."
 
 #: ../vcview.py:459
 msgid "Invoking patch failed, you need GNU patch."
@@ -1208,8 +1209,8 @@ msgid ""
 "The error was '%s'"
 msgstr ""
 "Erro ao converter para uma expressão regular\n"
-"O padrão foi '%s'\n"
-"O erro foi '%s'"
+"O padrão foi \"%s\"\n"
+"O erro foi \"%s\""
 
 #~ msgid "Edit"
 #~ msgstr "Editar"
@@ -1242,7 +1243,7 @@ msgstr ""
 #~ "The error was:\n"
 #~ "%s"
 #~ msgstr ""
-#~ "Não foi possível abrir '%s' para leitura.\n"
+#~ "Não foi possível abrir \"%s\" para leitura.\n"
 #~ "\n"
 #~ "O erro foi:\n"
 #~ "%s"
@@ -1289,23 +1290,23 @@ msgstr ""
 #~ "Meld é uma ferramenta de comparação de arquivos e diretórios. Uso:\n"
 #~ "\n"
 #~ "    meld                       Inicia sem janelas abertas\n"
-#~ "    meld <dir>                 Inicia com o navegador de CVS em 'dir'\n"
-#~ "    meld <arq>                 Inicia com um diff de CVS de 'arq'\n"
+#~ "    meld <dir>                 Inicia com o navegador de CVS em \"dir\"\n"
+#~ "    meld <arq>                 Inicia com um diff de CVS de \"arq\"\n"
 #~ "    meld <arq> <arq> [arq]     Inicia comparando 2 ou 3 arquivos\n"
 #~ "    meld <dir> <dir> [dir]     Inicia comparando 2 ou 3 diretórios\n"
 #~ "\n"
-#~ "Para mais informações escolha Ajuda -> Conteúdo.\n"
+#~ "Para mais informações vá até Ajuda -> Conteúdo.\n"
 #~ "Relate erros em http://bugzilla.gnome.org/buglist.cgi?product=meld\n"
-#~ "http://mail.gnome.org/mailman/listinfo/meld-list\n"
+#~ "stevek@gnome.org\n"
 
 #~ msgid "*"
 #~ msgstr "*"
 
 #~ msgid "Diff Options"
-#~ msgstr "Opções do Diff"
+#~ msgstr "Opções de diff"
 
 #~ msgid "Remove _Locally"
-#~ msgstr "Remover _Localmente"
+#~ msgstr "Remover _localmente"
 
 #~ msgid "Show non-CVS"
 #~ msgstr "Mostrar não-CVS"
@@ -1335,7 +1336,7 @@ msgstr ""
 #~ msgstr "<b>Opções globais</b>"
 
 #~ msgid "<b>Update Options</b>"
-#~ msgstr "<b>Opções de Atualização</b>"
+#~ msgstr "<b>Opções de atualização</b>"
 
 #~ msgid "<span weight=\"bold\" size=\"x-large\">Diff</span>"
 #~ msgstr "<span weight=\"bold\" size=\"x-large\">Diff</span>"
@@ -1398,7 +1399,7 @@ msgstr ""
 #~ msgstr "Visualização de SVN"
 
 #~ msgid "Tabs equivalent to "
-#~ msgstr "Tab equivalente a "
+#~ msgstr "Tabulações equivalentes a "
 
 #~ msgid "Use Compression (-z)"
 #~ msgstr "Usar compressão (-z)"
@@ -1434,13 +1435,15 @@ msgstr ""
 #~ msgstr "_Novo"
 
 #~ msgid "`%s' is not a directory or file, cannot open cvs view"
-#~ msgstr "'%s' não é um diretório ou arquivo, impossível abrir a visão de CVS"
+#~ msgstr ""
+#~ "\"%s\" não é um diretório ou arquivo, impossível abrir a visualização de "
+#~ "CVS"
 
 #~ msgid "Cannot open "
-#~ msgstr "Impossível abrir "
+#~ msgstr "Não foi possível abrir "
 
 #~ msgid "<span weight=\"bold\" size=\"x-large\">Binary Files</span>"
-#~ msgstr "<span weight=\"bold\" size=\"x-large\">Arquivos Binários</span>"
+#~ msgstr "<span weight=\"bold\" size=\"x-large\">Arquivos binários</span>"
 
 #~ msgid ""
 #~ "Binary files do not have text filters applied to them when comparing."
