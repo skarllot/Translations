@@ -1,0 +1,409 @@
+# Brazilian Portuguese translation of library-web help.
+# This file is distributed under the same license as the library-web package.
+# Leonardo Ferreira Fontenelle <leonardof@gnome.org>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: libgo-trunk\n"
+"POT-Creation-Date: 2008-12-20 01:32+0000\n"
+"PO-Revision-Date: 2008-12-19 21:12-0200\n"
+"Last-Translator: Leonardo Ferreira Fontenelle <leonardof@gnome.org>\n"
+"Language-Team: Brazilian Portuguese <gnome-l10n-br@listas.cipsga.org.br>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Virtaal 0.2\n"
+
+#: C/libgo.xml:8(title)
+msgid "GNOME Library Help"
+msgstr "Ajuda da Biblioteca do GNOME"
+
+#: C/libgo.xml:11(publishername)
+msgid "GNOME Documentation Project"
+msgstr "GNOME Documentation Project"
+
+#: C/libgo.xml:15(firstname)
+msgid "Goran"
+msgstr "Goran"
+
+#: C/libgo.xml:16(surname)
+msgid "Rakic"
+msgstr "Rakic"
+
+#: C/libgo.xml:19(firstname)
+msgid "Frederic"
+msgstr "Frederic"
+
+#: C/libgo.xml:20(surname)
+msgid "Peters"
+msgstr "Peters"
+
+#: C/libgo.xml:26(revnumber)
+msgid "GNOME Library Help v1"
+msgstr "Ajuda da Biblioteca do GNOME v1"
+
+#: C/libgo.xml:27(date)
+msgid "May 2008"
+msgstr "Maio de 2008"
+
+#: C/libgo.xml:30(revnumber)
+msgid "GNOME Library Help v0"
+msgstr "Ajuda da Bibloteca do GNOME v0"
+
+#: C/libgo.xml:31(date)
+msgid "July 2007"
+msgstr "Julho de 2007"
+
+#: C/libgo.xml:36(para)
+msgid "Information pages on library.gnome.org"
+msgstr "Páginas de informação sobre o library.gnome.org"
+
+#: C/libgo.xml:41(title)
+msgid "About library.gnome.org"
+msgstr "Sobre o library.gnome.org"
+
+#: C/libgo.xml:42(para)
+msgid ""
+"library.gnome.org aims to be the central place for documentation related to "
+"the GNOME project, be it for users, system administrators or developers."
+msgstr ""
+"O library.gnome.org se propõe a centralizar a documentação relacionada ao "
+"projeto GNOME, seja para usuários, administradores de sistema ou "
+"desenvolvedores."
+
+#: C/libgo.xml:48(para)
+msgid ""
+"Its development tree is hosted on GNOME subversion, in the library-web "
+"module."
+msgstr ""
+"Sua árvore de desenvolvimento é hospedada no Subversion do GNOME, no módulo "
+"library-web."
+
+#: C/libgo.xml:55(title)
+msgid "This web site in different languages"
+msgstr "Esse website em diferentes idiomas"
+
+#: C/libgo.xml:56(para)
+msgid ""
+"When you request a document from a server, your language preference is "
+"passed via HTTP Accept-Language header. This is a standard way to deliver "
+"the preferred version of a page available in more than one language. It is "
+"very important to setup your browser language preference correctly."
+msgstr ""
+"Quando você solicita um documento de um servidor, suas preferências de "
+"idioma são passadas pelo cabeçalho de HTTP Accept-Language. Esse é um modo "
+"padrão de se entregar a versão preferida de uma página que esteja disponível "
+"em mais de um idioma. É muito importante que você configure corretamente as "
+"preferências de idioma em seu navegador."
+
+#: C/libgo.xml:64(title)
+msgid "What to do if page is in wrong language"
+msgstr "O que fazer se a página estiver no idioma errado"
+
+#: C/libgo.xml:66(para)
+msgid ""
+"The usual reason is that your web browser is improperly configured. Skip to "
+"<ulink url=\"#setup-language-settings\">How to set up the language settings "
+"section</ulink> for more informations. You may use this <ulink url=\"http://"
+"www.cs.tut.fi/cgi-bin/run/~jkorpela/lang.cgi\">online tool</ulink> to see "
+"what languages your browser requests."
+msgstr ""
+"Provavelmente seu navegador da web está mal configurado. Confira a seção "
+"<ulink url=\"#setup-language-settings\">Como configurar o idioma</ulink>. "
+"Você pode usar <ulink url=\"http://www.cs.tut.fi/cgi-bin/run/~jkorpela/lang."
+"cgi\">essa ferramenta online</ulink> para ver os idiomas solicitados pelo "
+"seu navegador."
+
+#: C/libgo.xml:74(para)
+msgid ""
+"If your browser is configured, the problem may be that your ISP or your "
+"internal network is using misconfigured cache or proxy server. They are "
+"servers without any content that sits in the middle between users and real "
+"web servers. They grab your requests for web pages and fetch the page. After "
+"that, they forward the page to you but also make a local, cached copy, for "
+"later requests. This can really cut down on network traffic when many users "
+"request the same page."
+msgstr ""
+"Se o seu navegador estiver configurado corretamente, o problema pode ser um "
+"servidor de cache ou de proxy mal configurado em seu provedor de internet ou "
+"em sua rede interna. São servidores sem qualquer conteúdo que ficam entre os "
+"usuários e os servidores da web propriamente ditos, capturando suas "
+"solicitações de páginas da web. Eles baixam a página solicitada e lhe "
+"repassam, mas também fazem uma cópia local em cache, para solicitações "
+"posteriores. Isso pode diminuir em muito o tráfego de rede se muitos "
+"usuários solicitarem a mesma página."
+
+#: C/libgo.xml:84(para)
+msgid ""
+"Problem is when they do not understand content negotiation and keep cached "
+"copy of a page in only one language. The only way you can fix this is to "
+"complain to your ISP in order for them to upgrade or replace their software."
+msgstr ""
+"O problema é quando esses servidores não entendem a negociação do conteúdo e "
+"mantêm em cache uma cópia das páginas em apenas um idioma. O único jeito de "
+"você corrigir isso é reclamar com seu provedor de internet para que eles "
+"atualizem ou substituam o software."
+
+#: C/libgo.xml:91(para)
+msgid ""
+"Third problem may be that you are unable or do not want to change browser "
+"settings. If you have JavaScript and cookies enabled, our server will store "
+"your language preference in a cookie every time you change language manualy "
+"by clicking on a link. The next time you click on link to another page, your "
+"language selection will be preserved."
+msgstr ""
+"A terceira possibilidade é que você não seja capaz de ou não queira alterar "
+"as configurações de seu navegador. Se você tiver habilitado JavaScript e "
+"cookies, nosso servidor armazenará em um cookie suas preferências de idioma "
+"cada vez que você alterar o idioma manualmente clicando em um link. Na "
+"próxima vez em que você clicar em alguma página, sua seleção de idioma será "
+"lembrada."
+
+#: C/libgo.xml:101(title)
+msgid "How to set up the language settings"
+msgstr "Como configurar o idioma"
+
+#: C/libgo.xml:103(para)
+msgid ""
+"Generaly, you should include all languages you can read in preferred "
+"language, ordered by preference. It is good idea to include English ('en') "
+"as last item in your list, to use it as a fallback language. You need to be "
+"careful with sub-categories of languages, en-GB will not include en, so you "
+"need to include both en and en-GB in your list."
+msgstr ""
+"Na maioria dos casos, você deve incluir todos os idiomas que puder ler, "
+"ordenados pela sua preferência. É uma boa idéia incluir o inglês (\"en\") "
+"como último item de sua lista, para ter uma última alternativa. Você precisa "
+"tomar cuidado com variações de um idioma, pois pt-BR não inclui pt, de forma "
+"que você precisa incluir tanto pt quanto pt-BR em sua lista."
+
+#: C/libgo.xml:113(term)
+msgid "Epiphany"
+msgstr "Epiphany"
+
+#: C/libgo.xml:116(guimenu) C/libgo.xml:139(guimenu) C/libgo.xml:150(guimenu)
+#: C/libgo.xml:173(guimenu)
+msgid "Edit"
+msgstr "Editar"
+
+#: C/libgo.xml:117(guimenuitem) C/libgo.xml:140(guimenuitem)
+#: C/libgo.xml:151(guimenuitem) C/libgo.xml:174(guimenuitem)
+#: C/libgo.xml:198(guimenuitem)
+msgid "Preferences"
+msgstr "Preferências"
+
+#: C/libgo.xml:118(guimenuitem) C/libgo.xml:130(guimenuitem)
+#: C/libgo.xml:141(guimenuitem) C/libgo.xml:153(guimenuitem)
+#: C/libgo.xml:188(guimenuitem) C/libgo.xml:199(guimenuitem)
+msgid "Languages"
+msgstr "Idioma"
+
+#: C/libgo.xml:124(term)
+msgid "Firefox / Iceweasel"
+msgstr "Firefox / Iceweasel"
+
+#: C/libgo.xml:127(guimenu) C/libgo.xml:185(guimenu)
+msgid "Tools"
+msgstr "Ferramentas"
+
+#: C/libgo.xml:128(guimenuitem)
+msgid "Options"
+msgstr "Opções"
+
+#: C/libgo.xml:129(guimenuitem) C/libgo.xml:187(guimenuitem)
+msgid "General"
+msgstr "Geral"
+
+#: C/libgo.xml:136(term)
+msgid "Galeon"
+msgstr "Galeon"
+
+#: C/libgo.xml:147(term)
+msgid "Mozilla / Netscape Navigator"
+msgstr "Mozilla / Netscape Navigator"
+
+#: C/libgo.xml:152(guimenuitem)
+msgid "Navigator"
+msgstr "Navigator"
+
+#: C/libgo.xml:159(term)
+msgid "Lynx"
+msgstr "Lynx"
+
+#: C/libgo.xml:162(guimenu)
+msgid "O (Options)"
+msgstr "O (Opções)"
+
+# Essa é uma tradução do Lynx
+#: C/libgo.xml:163(guimenuitem)
+msgid "Headers Transferred to Remote Servers"
+msgstr "Cabeçalhos transferidos ao servidor remoto"
+
+# Essa é uma tradução do Lynx
+#: C/libgo.xml:164(guimenuitem)
+msgid "Preferred document language"
+msgstr "Preferência de linguagem do documento"
+
+#: C/libgo.xml:170(term)
+msgid "Amaya"
+msgstr "Amaya"
+
+# O navegador não está traduzido
+#: C/libgo.xml:175(guimenuitem)
+msgid "Browsing"
+msgstr "Browsing"
+
+# O navegador não está traduzido
+#: C/libgo.xml:176(guimenuitem)
+msgid "List of preferred languages"
+msgstr "List of preferred languages"
+
+#: C/libgo.xml:182(term)
+msgid "Internet Explorer"
+msgstr "Internet Explorer"
+
+#: C/libgo.xml:186(guimenuitem)
+msgid "Internet Options"
+msgstr "Opções de Internet"
+
+#: C/libgo.xml:194(term)
+msgid "Opera"
+msgstr "Opera"
+
+#: C/libgo.xml:197(guimenu)
+msgid "File"
+msgstr "Arquivo"
+
+#: C/libgo.xml:205(term)
+msgid "Safari"
+msgstr "Safari"
+
+#: C/libgo.xml:208(guimenu)
+msgid "Mac OS X System preferences"
+msgstr ""
+
+#: C/libgo.xml:209(guimenuitem)
+msgid "International"
+msgstr ""
+
+#: C/libgo.xml:210(guimenuitem)
+msgid "Language"
+msgstr ""
+
+#: C/libgo.xml:222(title)
+msgid "About translations"
+msgstr "Sobre as traduções"
+
+#: C/libgo.xml:224(para)
+msgid ""
+"All translations are available as an effort of <ulink url=\"http://developer."
+"gnome.org/projects/gtp/\">Gnome Translation Project (GTP)</ulink>."
+msgstr ""
+"Todas as traduções estão disponíveis graças ao esforço do <ulink url="
+"\"http://developer.gnome.org/projects/gtp/\">Gnome Translation Project (GTP)"
+"</ulink>."
+
+#: C/libgo.xml:235(title)
+msgid "Feedback"
+msgstr "Feedback"
+
+#: C/libgo.xml:237(para)
+msgid ""
+"This section contains information on reporting bugs about this website and "
+"requesting for new documents to be added."
+msgstr ""
+"Esta seção contém informações sobre como relatar erros neste website ou "
+"solicitar o acréscimo de novos documentos."
+
+#: C/libgo.xml:240(para)
+msgid ""
+"If you have found a bug on this website, please report it! Developers do "
+"read all the bug reports and try to fix these bugs. Please try to be as "
+"specific as possible when describing the circumstances under which the bug "
+"shows (what was the URL?, which browser are you using?, do you have cookies "
+"enabled?). If there were any error messages, be sure to include them, too."
+msgstr ""
+"Se você encontrado algum erro neste website, por favor nos avise! Os "
+"desenvolvedores realmente lêem todos os relatórios de erros e tentam "
+"consertá-los. Por favor, escreva em inglês para que os desenvolvedores "
+"possam entender orelatório. Seja tão específico quanto possível ao descrever "
+"as circunstâncias sob as quais aparece o erro: qual era o URL? que navegador "
+"você estava usando? você habilitou os cookies? Se houver alguma mensagem de "
+"erro, lembre-se de incluí-la, também."
+
+#: C/libgo.xml:247(para)
+msgid ""
+"You can submit bugs and browse the list of known bugs by connecting to the "
+"<ulink type=\"http\" url=\"http://bugzilla.gnome.org/\">GNOME bug tracking "
+"database</ulink>. You will need to register before you can submit any bugs "
+"this way — and do not forget to read <ulink type=\"http\" url=\"http://"
+"bugzilla.gnome.org/bugwritinghelp.html\">Bug Writing Guidelines</ulink>."
+msgstr ""
+"Você pode enviar relatórios de erro e navegar a lista dos erros conhecidos "
+"acessando o <ulink type=\"http\" url=\"http://bugzilla.gnome.org/\">bando de "
+"dados de acompanhamento de erros do GNOME</ulink>. Você vai precisar "
+"registrar-se antes de poder enviar relatórios — e não se esqueça de ler as "
+"<ulink type=\"http\" url=\"http://bugzilla.gnome.org/bugwritinghelp.html"
+"\">Bug Writing Guidelines</ulink>."
+
+#: C/libgo.xml:254(para)
+msgid ""
+"GNOME Library bugs are filed under the <guilabel>website</guilabel> product, "
+"in the <guilabel>library.gnome.org</guilabel> component. The following link "
+"will get you straight a form prefilled with appropriate values: <ulink type="
+"\"http\" url=\"http://bugzilla.gnome.org/enter_bug.cgi?product=website&amp;"
+"component=library.gnome.org\">Enter a new bug report</ulink>."
+msgstr ""
+"Erros da Biblioteca do GNOME são informados no produto <guilabel>website</"
+"guilabel>, no componente <guilabel>library.gnome.org</guilabel>. O seguinte "
+"link o levará diretamente a um formulário preenchido com os valores "
+"adequados: <ulink type=\"http\" url=\"http://bugzilla.gnome.org/enter_bug."
+"cgi?product=website&amp;component=library.gnome.org\">Enter a new bug "
+"report</ulink>."
+
+#: C/libgo.xml:262(title)
+msgid "Requesting for a documentation to be added"
+msgstr "Solicitando o acréscimo de documentação"
+
+#: C/libgo.xml:264(para)
+msgid ""
+"Library.gnome.org has support for both gnome-doc-utils (manuals) and gtk-doc "
+"(references) as well as some minimalistic support for straight passing of "
+"HTML files through XSL stylesheets. It can also display links to ressources "
+"available on other websites."
+msgstr ""
+"O library.gnome.org tem suporte tanto a manuais (gnome-doc-utils) quanto a "
+"referências (gtk-doc), e um suporte mínimo a arquivos HTML através de folhas "
+"de estilo XSL. A biblioteca também pode exibir links para recursos "
+"disponíveis em outros sites."
+
+#: C/libgo.xml:269(para)
+msgid ""
+"Modules that are part of the GNOME JHBuild modulesets, as published by the "
+"release team, are automatically added to the library. For other modules you "
+"have to file a bug."
+msgstr ""
+"Módulos de um  \"moduleset\" do JHBuild do GNOME (publicado pela Release "
+"Team) são adicionados automaticamente à biblioteca. Para outros módulos você "
+"terá que abrir um relatório de erro."
+
+#: C/libgo.xml:273(para)
+msgid ""
+"Please note Library.gnome.org only operates on tarballs, there is no support "
+"for documents that are only available through a revision control system, so "
+"the first thing is to make sure when requesting for a new document to be "
+"added is that a tarball is available. It also has some special support for "
+"tarballs hosted on download.gnome.org and will automatically pick up new "
+"versions."
+msgstr ""
+"Repare que o library.gnome.org só trabalha com pacotes, não havendo suporte "
+"a documentos disponíveis apenas através de sistemas de controle de versão. "
+"Dessa forma, quando você for solicitar o acréscimo de um novo documento, a "
+"primeira coisa a fazer é certificar-se de que um pacote esteja disponível. A "
+"biblioteca também tem um suporte especial a pacotes hospedados em download."
+"gnome.org, e aproveitará automaticamente novas versões quando forem lançadas."
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
+#: C/libgo.xml:0(None)
+msgid "translator-credits"
+msgstr "Leonardo Ferreira Fontenelle <leonardof@gnome.org>, 2008"
