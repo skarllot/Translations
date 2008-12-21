@@ -1821,12 +1821,12 @@ msgstr "Faltando expressão"
 
 #: ../plugins/openoffice/openoffice-read.c:888
 msgid "Missing expression namespace"
-msgstr "Faltando expressão namespace"
+msgstr "Faltando namespace de expressão"
 
 #: ../plugins/openoffice/openoffice-read.c:896
 #, c-format
 msgid "Expression '%s' does not start with a recognized character"
-msgstr "Expressão \"%s\" não inicia com um caractere reconhecido"
+msgstr "A expressão \"%s\" não inicia com um caractere reconhecido"
 
 #: ../plugins/openoffice/openoffice-read.c:981
 msgid "Invalid array expression does not specify number of columns."
@@ -1839,34 +1839,34 @@ msgstr "Vetor inválido, a expressão não especifica o número de linhas."
 #: ../plugins/openoffice/openoffice-read.c:1562
 #, c-format
 msgid "Unknown break type '%s' defaulting to Manual"
-msgstr ""
+msgstr "O tipo de quebra \"%s\" é desconhecido, omitindo para Manual"
 
 #: ../plugins/openoffice/openoffice-read.c:1785
 #, c-format
 msgid "expression '%s' @ '%s' is not a cellref"
-msgstr ""
+msgstr "a expressão \"%s\" @ \"%s\" não é uma referência para célula"
 
 #: ../plugins/openoffice/openoffice-read.c:1822
-#, fuzzy, c-format
+#, c-format
 msgid "Invalid DB range '%s'"
-msgstr "Células variáveis inválidas"
+msgstr "O intervalo de banco de dados \"%s\" é inválido"
 
 #: ../plugins/openoffice/openoffice-read.c:2874
 msgid "Unknown mimetype for openoffice file."
-msgstr "mimetype desconhecido para o arquivo do openoffice."
+msgstr "O tipo MIME é desconhecido para o arquivo do OpenOffice."
 
 #: ../plugins/openoffice/openoffice-read.c:2888
 msgid "No stream named content.xml found."
-msgstr "Nenhum arquivo nomeado contendo .xml foi encontrado."
+msgstr "Nenhuma entrada com o nome content.xml localizada."
 
 #: ../plugins/openoffice/openoffice-read.c:2896
 msgid "No stream named styles.xml found."
-msgstr "Nenhum arquivo nomeado styles.xml foi encontrado."
+msgstr "Nenhuma entrada com o nome styles.xml localizada."
 
 #: ../plugins/openoffice/openoffice-read.c:2945
 #, fuzzy, c-format
 msgid "Invalid metadata '%s'"
-msgstr "Arquivo de modelo inválido: %s"
+msgstr "Os meta dados \"%s\" são inválidos"
 
 #: ../plugins/openoffice/plugin.xml.in.h:1
 msgid "Open/Star Calc (*.sxc, *.ods)"
@@ -1881,9 +1881,8 @@ msgid "OpenCalc/StarCalc"
 msgstr "OpenCalc/StarCalc"
 
 #: ../plugins/openoffice/plugin.xml.in.h:4
-#, fuzzy
 msgid "OpenDocument/OpenOffice _UNFINISHED_ (*.ods)"
-msgstr "OpenOffice OASIS _UNFINISHED_"
+msgstr "OpenDocument/OpenOffice _UNFINISHED_ (*.ods)"
 
 #: ../plugins/paradox/paradox.c:71 ../plugins/paradox/paradox.c:121
 msgid "Error while opening Paradox file."
@@ -1892,104 +1891,100 @@ msgstr "Erro ao abrir arquivo Paradox."
 # plugins/guile/plugin.c:278
 #: ../plugins/paradox/paradox.c:119
 msgid "Could not allocate memory for record."
-msgstr "Impossível alocar memória para o registro."
+msgstr "Não foi possível reservar memória para o registro."
 
 #: ../plugins/paradox/paradox.c:225
 #, c-format
 msgid "Field type %d is not supported."
-msgstr "O tipo de campo %d não é suportado."
+msgstr "Não há suporte ao tipo de campo %d."
 
 #. Read the field specification and build the field array for
 #. * PX_create_fp(). The memory is freed by PX_delete() including
 #. * the memory for the field name.
 #: ../plugins/paradox/paradox.c:330
 msgid "Allocate memory for field definitions."
-msgstr ""
+msgstr "Reservar memória para definições de campo."
 
 # plugins/guile/plugin.c:278
 #: ../plugins/paradox/paradox.c:331
-#, fuzzy
 msgid "Cannot allocate memory for field definitions."
-msgstr "Impossível alocar memória para o registro."
+msgstr "Não foi possível reservar memória para as definições de campo."
 
 #: ../plugins/paradox/paradox.c:339
 msgid "First line of sheet must contain database specification."
-msgstr ""
+msgstr "A primeira linha da planilha precisa conter especificações de banco de dados."
 
 #: ../plugins/paradox/paradox.c:354
 msgid ""
 "Field specification must be a comma separated value (Name,Type,Size,Prec)."
 msgstr ""
+"Especificações de campo precisam ser um valor separado por vírgulas (Nome,Tipo,Tamanho,Prec)."
 
 # plugins/guile/plugin.c:278
 #: ../plugins/paradox/paradox.c:359
-#, fuzzy
 msgid "Allocate memory for column name."
-msgstr "Impossível alocar memória para o registro."
+msgstr "Não foi possível reservar memória para o nome da coluna."
 
 # plugins/guile/plugin.c:278
 #: ../plugins/paradox/paradox.c:360
-#, fuzzy, c-format
+#, c-format
 msgid "Could not allocate memory for %d. field name."
-msgstr "Impossível alocar memória para o registro."
+msgstr "Não foi possível reservar memória para %d. Nome do campo."
 
 #: ../plugins/paradox/paradox.c:370
 #, c-format
 msgid "%d. field specification ended unexpectetly."
-msgstr ""
+msgstr "%d. especificações de campo finalizados de maneira inesperada."
 
 #: ../plugins/paradox/paradox.c:375
 #, c-format
 msgid "%d. field specification misses type."
-msgstr ""
+msgstr "%d. especificações de campo com o tipo faltando."
 
 #: ../plugins/paradox/paradox.c:443
 #, c-format
 msgid "%d. field type '%c' is unknown."
-msgstr ""
+msgstr "%d. o tipo de campo \"%c\" é desconhecido."
 
 #: ../plugins/paradox/paradox.c:454 ../plugins/paradox/paradox.c:464
 msgid "Field specification misses the column size."
-msgstr ""
+msgstr "As especificações de campo está com o tamanho de coluna faltando."
 
 #: ../plugins/paradox/paradox.c:471
 #, c-format
 msgid ""
 "The remainder '%s' of the specification for field %d is being disregarded."
-msgstr ""
+msgstr "O excesso \"%s\" das especificações do campo %d está sendo desconsiderado."
 
 #: ../plugins/paradox/paradox.c:480
-#, fuzzy
 msgid "Could not create output file."
-msgstr "Impossível criar o diálogo do ir para."
+msgstr "Não foi possível criar o arquivo de saída."
 
 # plugins/guile/plugin.c:278
 #: ../plugins/paradox/paradox.c:489
-#, fuzzy
 msgid "Allocate memory for record data."
-msgstr "Impossível alocar memória para o registro."
+msgstr "Reservar memória para os dados do registro."
 
 # plugins/guile/plugin.c:278
 #: ../plugins/paradox/paradox.c:490
-#, fuzzy
 msgid "Could not allocate memory for record data."
-msgstr "Impossível alocar memória para o registro."
+msgstr "Não foi possível reservar memória para os dados do registro."
 
 #: ../plugins/paradox/paradox.c:536
 #, c-format
 msgid "Field %d in line %d has possibly been cut off. Data has %d chars."
-msgstr ""
+msgstr "O campo %d na linha %d poderá estar sendo cortado. Os dados contém %d caracteres."
 
 #: ../plugins/paradox/paradox.c:545
 #, c-format
 msgid "Field %d in row %d could not be written."
-msgstr ""
+msgstr "O campo %d na linha %d não pôde ser gravado."
 
 # plugins/guile/plugin.c:278
 #: ../plugins/paradox/paradox.c:582
-#, fuzzy, c-format
+#, c-format
 msgid "Could not write record number %d."
-msgstr "Impossível criar o Guru de Fórmulas."
+msgstr "Não foi possível gravar o registro número %d."
 
 #: ../plugins/paradox/plugin.xml.in.h:1
 msgid "Imports Paradox files"
@@ -2001,12 +1996,12 @@ msgstr "Paradox"
 
 #: ../plugins/paradox/plugin.xml.in.h:3
 msgid "Paradox database (*.db)"
-msgstr ""
+msgstr "Banco de dados Paradox (*.db)"
 
 #: ../plugins/paradox/plugin.xml.in.h:4
 #, fuzzy
 msgid "Paradox database or primary index file (*.db, *.px)"
-msgstr "Banco de dados Paradox ou arquivo primário de índice"
+msgstr "Banco de dados Paradox ou arquivo de índice primário (*.db, *.px)"
 
 #: ../plugins/perl-func/plugin.xml.in.h:1
 msgid "Perl"
@@ -2018,11 +2013,11 @@ msgstr "Funções Perl"
 
 #: ../plugins/perl-func/plugin.xml.in.h:3
 msgid "Sample Perl plugin providing some (useless) functions."
-msgstr "Um exemplo de plugin Perl, fornecendo algumas funções (inúteis)."
+msgstr "Um exemplo de plugin Perl fornecendo algumas funções (inúteis)."
 
 #: ../plugins/perl-loader/perl-loader.c:81
 msgid "Perl error: "
-msgstr "Erri Perl: "
+msgstr "Erro Perl: "
 
 #: ../plugins/perl-loader/perl-loader.c:121
 #: ../plugins/perl-loader/perl-loader.c:140
@@ -2048,17 +2043,17 @@ msgstr "Este plugin dá suporte aos plugins Perl"
 
 #: ../plugins/plan-perfect/pln.c:506
 msgid "PLN : Spreadsheet is password encrypted"
-msgstr "PLN : Planilha protegida por senha"
+msgstr "PLN: A planilha está protegida por senha"
 
 #: ../plugins/plan-perfect/pln.c:575
 #, c-format
 msgid "Ignoring data that claims to be in row %u which is > max row %u"
-msgstr "Ignorando dados que requerem estar na linha %u que é > linha max %u"
+msgstr "Ignorando dados que requerem estar na linha %u a qual é maior que a linha máxima %u"
 
 #: ../plugins/plan-perfect/pln.c:579
 #, c-format
 msgid "Ignoring data that claims to be in column %u which is > max column %u"
-msgstr "Ignorando dados que requerem estar na linha %u que é > coluna max %u"
+msgstr "Ignorando dados que requerem estar na coluna %u a qual é maior que a coluna máxima %u"
 
 #: ../plugins/plan-perfect/plugin.xml.in.h:1
 msgid "Imports Plan Perfect Formatted Documents"
@@ -2074,7 +2069,7 @@ msgstr "Importação do formato Plan Perfect (PLN)"
 
 #: ../plugins/psiconv/plugin.xml.in.h:1
 msgid "Imports Psion 5 series Sheet files"
-msgstr "Importa arquivos de Pastas da série Psion 5"
+msgstr "Importa arquivos de panilha da série Psion 5"
 
 #: ../plugins/psiconv/plugin.xml.in.h:2
 msgid "Psiconv"
@@ -2090,11 +2085,11 @@ msgstr "Erro ao ler arquivo psiconv."
 
 #: ../plugins/psiconv/psiconv-read.c:664
 msgid "Error while parsing Psion file."
-msgstr "Erro ao interpretar arquivo Psion."
+msgstr "Erro ao analisar o arquivo Psion."
 
 #: ../plugins/psiconv/psiconv-read.c:672
 msgid "This Psion file is not a Sheet file."
-msgstr "Este arquivo Psion não é um arquivo de Planilha."
+msgstr "Este arquivo Psion não é um arquivo de planilha."
 
 #: ../plugins/py-func/plugin.xml.in.h:1
 msgid "Python"
@@ -2107,7 +2102,7 @@ msgstr "Funções Python"
 
 #: ../plugins/py-func/plugin.xml.in.h:3
 msgid "Sample Python plugin providing some (useless) functions."
-msgstr "Um simples plugin Python, fornecendo algumas (inúteis) funções."
+msgstr "Um exemplo de plugin Python fornecendo algumas funções (inúteis)."
 
 #: ../plugins/python-loader/gnm-py-interpreter.c:255
 msgid "Default interpreter"
@@ -2117,26 +2112,26 @@ msgstr "Interpretador padrão"
 #: ../plugins/python-loader/gnm-python.c:152
 #, c-format
 msgid "Could not import %s."
-msgstr "Impossível importar %s."
+msgstr "Não foi possível importar %s."
 
 #: ../plugins/python-loader/gnm-python.c:137
 #, c-format
 msgid "Could not find %s."
-msgstr "Impossível encontrar %s."
+msgstr "Não foi possível localizar %s."
 
 #: ../plugins/python-loader/gnm-python.c:145
 #, c-format
 msgid "Could not initialize Python bindings for Gtk+, etc: %s"
-msgstr "Impossível inicializar os vínculos do Python para o Gtk+, etc: %s"
+msgstr "Não foi possível inicializar os vínculos do Python para o Gtk+ e etc: %s"
 
 #: ../plugins/python-loader/gnm-python.c:159
 #, c-format
 msgid "Could not find %s"
-msgstr "Impossível encontrar %s"
+msgstr "Não foi possível localizar %s"
 
 #: ../plugins/python-loader/plugin.xml.in.h:1
 msgid "Python plugin loader"
-msgstr "Carregador do plugin Python"
+msgstr "Carregador de plugins Python"
 
 #: ../plugins/python-loader/plugin.xml.in.h:2
 msgid "This plugin provides support for Python plugins"
@@ -2166,7 +2161,7 @@ msgstr "A lista Python não é um vetor"
 #: ../plugins/python-loader/py-gnumeric.c:260
 #, c-format
 msgid "Unsupported Python type: %s"
-msgstr "Tipo Python não suportado: %s"
+msgstr "Não há suporte ao tipo Python: %s"
 
 #: ../plugins/python-loader/py-gnumeric.c:287
 msgid "Unknown error"
@@ -2186,21 +2181,21 @@ msgstr "Exceção Python (%s)"
 
 #: ../plugins/python-loader/python-loader.c:73
 msgid "Python module name not given."
-msgstr "Nome de módulo Python não fornecido."
+msgstr "Não foi fornecido o nome do módulo Python."
 
 #: ../plugins/python-loader/python-loader.c:91
 #, c-format
 msgid "Error while opening file \"%s\" for writing."
-msgstr "Erro ao abrir arquivo \"%s\" para escrita."
+msgstr "Erro ao abrir o arquivo \"%s\" para escrita."
 
 #: ../plugins/python-loader/python-loader.c:95
 #, c-format
 msgid "Error while opening file \"%s\" for reading."
-msgstr "Erro ao abrir arquivo \"%s\" para leitura."
+msgstr "Erro ao abrir o arquivo \"%s\" para leitura."
 
 #: ../plugins/python-loader/python-loader.c:126
 msgid "Cannot create new Python interpreter."
-msgstr "Não pôde criar novo interpretador Phyton."
+msgstr "Não pôde criar um novo interpretador Phyton."
 
 #: ../plugins/python-loader/python-loader.c:147
 #, c-format
@@ -2222,7 +2217,7 @@ msgstr "Algum nome"
 #: ../plugins/python-loader/python-loader.c:765
 #, c-format
 msgid "Python file \"%s\" has invalid format."
-msgstr "Arquivo Python \"%s\" tem formato inválido."
+msgstr "O arquivo Python \"%s\" tem um formato inválido."
 
 #: ../plugins/python-loader/python-loader.c:340
 #: ../plugins/python-loader/python-loader.c:434
@@ -2240,7 +2235,7 @@ msgstr "O arquivo não contém o dicionário \"%s\"."
 #: ../plugins/python-loader/python-loader.c:775
 #, c-format
 msgid "Object \"%s\" is not a dictionary."
-msgstr "Objeto \"%s\" não é um dicionário."
+msgstr "O objeto \"%s\" não é um dicionário."
 
 #: ../plugins/python-loader/python-loader.c:713 ../src/gnm-plugin.c:559
 #, c-format
@@ -2254,7 +2249,7 @@ msgstr "Não é uma função válida para a ação: %s"
 
 #: ../plugins/qpro/plugin.xml.in.h:1
 msgid "Imports Quattro Pro (tm) files"
-msgstr "Importa arquivos Quattro Pro (tm)"
+msgstr "Importa arquivos Quattro Pro™"
 
 #: ../plugins/qpro/plugin.xml.in.h:2
 msgid "Quattro Pro (*.wb1, *.wb2, *.wb3)"
@@ -2262,12 +2257,12 @@ msgstr "Quattro Pro (*.wb1, *.wb2, *.wb3)"
 
 #: ../plugins/qpro/plugin.xml.in.h:3
 msgid "Quattro Pro(tm)"
-msgstr "Quattro Pro(tm)"
+msgstr "Quattro Pro™"
 
 #: ../plugins/qpro/qpro-read.c:119
 #, c-format
 msgid "File is most likely corrupted.\n"
-msgstr ""
+msgstr "Este arquivo parece estar corrompido.\n"
 
 #: ../plugins/qpro/qpro-read.c:869
 #, c-format
@@ -2277,15 +2272,15 @@ msgstr "Zoom inválido %hd %%"
 #: ../plugins/qpro/qpro-read.c:910
 #, c-format
 msgid "Invalid record %d of length %hd"
-msgstr "Gravação inválida %d de comprimento %hd"
+msgstr "Registro %d inválido, de comprimento %hd"
 
 #: ../plugins/qpro/qpro-read.c:943
 msgid ""
 "Unable to find the PerfectOffice_MAIN stream.  Is this really a Quattro Pro "
 "file?"
 msgstr ""
-"Impossível encontrar o PerfectOffice_MAIN stream. Esse é realmente um "
-"arquivo Quattro Pro?"
+"Não foi possível localizar a entrada PerfectOffice_MAIN. Esse arquivo é realmente um "
+"do Quattro Pro?"
 
 #: ../plugins/sample_datasource/plugin.xml.in.h:1
 msgid "A proof of concept external data source"
@@ -2293,7 +2288,7 @@ msgstr "Uma prova do conceito de fonte de dados externa"
 
 #: ../plugins/sample_datasource/plugin.xml.in.h:3
 msgid "Sample DataSource"
-msgstr "Fonte de Dados da Amostra"
+msgstr "Fonte de Dados de amostra"
 
 #: ../plugins/sc/plugin.xml.in.h:1
 msgid "Imports SC/XSpread files"
@@ -2323,7 +2318,7 @@ msgstr "Erro ao analisar linha"
 #: ../plugins/sylk/plugin.xml.in.h:1
 #, fuzzy
 msgid "Import/Export for MultiPlan (SYLK) files"
-msgstr "Importa arquivos MultiPlan (SYLK)"
+msgstr "Importa ou exporta para arquivos MultiPlan (SYLK)"
 
 #: ../plugins/sylk/plugin.xml.in.h:2
 msgid "MultiPlan (SYLK)"
@@ -2331,20 +2326,19 @@ msgstr "MultiPlan (SYLK)"
 
 #: ../plugins/sylk/sylk.c:247
 msgid "Multiple values in the same cell"
-msgstr ""
+msgstr "Múltiplos valores na mesma célula"
 
 #: ../plugins/sylk/sylk.c:256 ../plugins/sylk/sylk.c:265
-#, fuzzy
 msgid "Multiple expressions in the same cell"
-msgstr "Expressões múltiplas não são suportadas neste contexto"
+msgstr "Múltiplas expressões na mesma célula"
 
 #: ../plugins/sylk/sylk.c:792
 msgid "Missing closing 'E'"
-msgstr ""
+msgstr "O \"E\" de fechamento está faltando"
 
 #: ../plugins/uihello/plugin.xml.in.h:1
 msgid "Hello World plugin using ui service"
-msgstr "Plugin \"Alô Mundo\" usando serviço ui"
+msgstr "Plugin \"Alô Mundo\" usando serviço UI"
 
 #: ../plugins/uihello/plugin.xml.in.h:2
 msgid "UI Hello"
@@ -2365,7 +2359,7 @@ msgstr "Erro ao abrir arquivo xbase."
 #: ../src/print-info.c:493 ../src/search.c:655 ../src/workbook.c:874
 #: ../src/xml-io.c:2283
 msgid "Sheet"
-msgstr "Pasta"
+msgstr "Planilha"
 
 #: ../plugins/xbase/plugin.xml.in.h:1
 msgid "Imports XBase files"
@@ -2388,7 +2382,7 @@ msgid ""
 ">This value determines the default setting in the Print Setup dialog whether "
 "print grid lines. Please use the Print Setup dialog to edit this value."
 msgstr ""
-">Este valor determina o padrão no diálogo de Configurar Impressão ao "
+">Este valor determina a configuração padrão no diálogo de Configurar Impressão ao "
 "imprimir linhas de grade. Por favor, utilize o diálogo de Configurar "
 "Impressão para editar este valor."
 
@@ -2398,166 +2392,163 @@ msgid ""
 "whether to center pages vertically. Please use the Print Setup dialog to "
 "edit this value."
 msgstr ""
-">Este valor determina a definição padrão no diálogo Configurar Impressão: se "
-"a página deve ou não ser centralizada verticalmente. Por favor, utilize o "
+">Este valor determina a configuração padrão no diálogo Configurar Impressão: "
+"centralizar página verticalmente. Por favor, utilize o "
 "diálogo Configurar Impressão para editar este valor."
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:3
 msgid "Activate New Plugins"
-msgstr "Ativar Novos Plugins"
+msgstr "Ativar novos plugins"
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:4
 #: ../src/dialogs/dialog-preferences.c:710
 msgid "Allow Unfocused Range Selections"
-msgstr "Permitir a Seleção de Regiões não Focadas"
+msgstr "Permitir a seleção de regiões sem foco"
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:5
 msgid "Apply print-setup to all sheets"
-msgstr "Aplicar a configuração de impressão para todas as pastas"
+msgstr "Aplicar a configuração de impressão para todas as planilhas"
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:6
 msgid "Autocorrect first letter"
-msgstr "Autocorrigir primeira letra"
+msgstr "Corrigir automaticamente a primeira letra"
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:7
 msgid "Autocorrect initial caps"
-msgstr "Autocorrigir maiúsculas iniciais"
+msgstr "Corrigir automaticamente a maiusculização inicial"
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:8
 msgid "Autocorrect names of days"
-msgstr "Autocorrigir nomes dos dias"
+msgstr "Corrigir automaticamente os nomes dos dias"
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:9
 msgid "Autocorrect replace"
-msgstr "Autocorrigir substituir"
+msgstr "Corrigir automaticamente a substituição"
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:10
 msgid "Default Black and White Printing"
-msgstr "Impressão Padrão em Branco e Preto"
+msgstr "Impressão padrão em preto e branco"
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:11
 msgid "Default Bottom Margin"
-msgstr "Margem Padrão Inferior"
+msgstr "Margem inferior padrão"
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:12
-#, fuzzy
 msgid "Default Bottom Outside Margin"
-msgstr "Margem Padrão Inferior"
+msgstr "Margem exterior inferior padrão"
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:13
 msgid "Default Grid Line Printing"
-msgstr "Linha de Grade de Impressão Padrão"
+msgstr "Linha de grade de impressão padrão"
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:14
 msgid "Default Header/Footer Font Size"
-msgstr "Tamanho da Fonte Padrão do Cabeçalho/Rodapé"
+msgstr "Tamanho de fonte padrão do cabeçalho e rodapé"
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:15
 msgid "Default Horizontal Centering"
-msgstr "Centralização Horizontal Padrão"
+msgstr "Centralização horizontal padrão"
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:16
-#, fuzzy
 msgid "Default Left Margin"
-msgstr "Margem Superio Padrão"
+msgstr "Margem esquerda padrão"
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:17
 msgid "Default Print Cells with Only Styles"
-msgstr "Células de Impressão Padrão Somente com Estilos"
+msgstr "Células de impressão padrão somente com estilos"
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:18
 msgid "Default Print Direction"
-msgstr "Direção de Impressão Padrão"
+msgstr "Direção de impressão padrão"
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:19
 msgid "Default Repeated Left Region"
-msgstr "Região de Repetição Esquerda Padrão"
+msgstr "Região de repetição esquerda padrão"
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:20
 msgid "Default Repeated Top Region"
-msgstr "Região de Repetição Superior Padrão"
+msgstr "Região de repetição superior padrão"
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:21
 msgid "Default Scale Percentage"
-msgstr "Escala de Porcentagem Padrão"
+msgstr "Escala de porcentagem padrão"
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:22
 msgid "Default Scale Type"
-msgstr "Tipo Padrão de Escala"
+msgstr "Tipo padrão de escala"
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:23
 msgid "Default Scaling Height"
-msgstr "Altura Padrão da Escala"
+msgstr "Altura padrão da escala"
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:24
 msgid "Default Scaling Width"
-msgstr "Largura Padrão da Escala"
+msgstr "Largura padrão da escala"
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:25
 msgid "Default Title Printing"
-msgstr "Título de Impressão Padrão"
+msgstr "Título de impressão padrão"
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:26
 msgid "Default Top Margin"
-msgstr "Margem Superio Padrão"
+msgstr "Margem superior padrão"
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:27
-#, fuzzy
 msgid "Default Top Outside Margin"
-msgstr "Margem Superio Padrão"
+msgstr "Margem externa superior padrão"
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:28
 msgid "Default Vertical Centering"
-msgstr "Centralização Vertical Padrão"
+msgstr "Centralização vertical padrão"
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:29
 msgid "Default header/footer font name"
-msgstr "Nome da Fonte Padrão do Cabeçalho/Rodapé"
+msgstr "Nome de fonte padrão do cabeçalho e rodapé"
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:30
 msgid "GTKPrintSetting"
-msgstr ""
+msgstr "GTKPrintSetting"
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:31
 msgid "Header/Footer Format (Left Portion)"
-msgstr "Formato de Cabeçalho/Rodapé (Trecho à Esquerda)"
+msgstr "Formato de Cabeçalho e rodapé (trecho à esquerda)"
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:32
 msgid "Header/Footer Format (Middle Portion)"
-msgstr "Formato de Cabeçalho/Rodapé (Trecho do Meio)"
+msgstr "Formato de cabeçalho e rodapé (trecho do meio)"
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:33
 msgid "Header/Footer Format (Right Portion)"
-msgstr "Formato do Cabeçalho/Rodapé (Trecho à Direita)"
+msgstr "Formato do cabeçalho e rodapé (trecho à direita)"
 
 # plugins/guile/plugin.c:454
 #: ../schemas/gnumeric-dialogs.schemas.in.h:34
 msgid "List of Active Plugins."
-msgstr "Lista de Plugins Ativos."
+msgstr "Lista de plugins ativos."
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:35
 msgid "List of Extra Autoformat Directories."
-msgstr "Lista de diretórios de Autoformatação Extra."
+msgstr "Lista de diretórios de formatação automática extra."
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:36
 msgid "List of Extra Plugin Directories."
-msgstr "Lista de diretórios de Plugin Extra."
+msgstr "Lista de diretórios de plugin extra."
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:37
 msgid "List of First Letter Exceptions"
-msgstr "Lista das Exceções da Primeira Letra"
+msgstr "Lista das exceções de primeira letra"
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:38
 msgid "List of Init Caps Exceptions"
-msgstr "Lista das Excessões das Maiúsculas Iniciais"
+msgstr "Lista das excessões de maiusculização inicial"
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:39
 msgid "List of Known Plugins."
-msgstr "Lista dos Plugins Conhecidos."
+msgstr "Lista de plugins conhecidos."
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:40
 msgid "List of Plugin File States."
-msgstr "Lista dos Estados dos Arquivos do Plugin."
+msgstr "Lista dos estados dos arquivos de plugin."
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:41
 msgid "List of recently used functions."
@@ -2570,16 +2561,15 @@ msgstr "O comprimento máximo da lista das funções recentemente utilizadas"
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:43
 msgid "Page Footer"
-msgstr "Rodapé"
+msgstr "Rodapé da página"
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:44
 msgid "Page Header"
-msgstr "Cabeçalho"
+msgstr "Cabeçalho da página"
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:45
-#, fuzzy
 msgid "Paper"
-msgstr "Perl"
+msgstr "Papel"
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:46
 msgid "Please use the Print Setup dialog to edit this value."
@@ -2588,7 +2578,7 @@ msgstr ""
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:47
 msgid "Preferred Display Unit"
-msgstr ""
+msgstr "Unidade de exibição preferida"
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:48
 #: ../schemas/gnumeric-general.schemas.in.h:22
@@ -2602,20 +2592,20 @@ msgid ""
 "entry even if the entry does not have keyboard focus."
 msgstr ""
 "Alguns diálogos contêm somente um campo de entrada simples que permite "
-"seleções longas na pasta de trabalho. Configurando essa variável para "
+"seleções longas na pasta de trabalho. Definindo esta variável para "
 "VERDADEIRO direciona as seleções para essa entrada mesmo que este campo de "
 "entrada não tenha o foco do teclado."
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:50
 msgid "System Directory for Autoformats"
-msgstr "Diretório de Sistema para Autoformatos"
+msgstr "Diretório de sistema para formatos automáticos"
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:51
 msgid ""
 "The autocorrect engine does not correct the first letter for words in this "
 "list."
 msgstr ""
-"A ferramenta de autocorreção não corrige a primeira letra para palavras "
+"A ferramenta de correção automática não corrige a primeira letra para palavras "
 "nessa lista."
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:52
@@ -2623,13 +2613,12 @@ msgid ""
 "The autocorrect engine does not correct the initial caps for words in this "
 "list."
 msgstr ""
-"A ferramenta de autocorreção não corrige as iniciais maiúsculas para "
-"palavras nessa lista."
+"A ferramenta de correção automática não corrige a maiusculização inicial para "
+"palavras nesta lista."
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:53
-#, fuzzy
 msgid "The configuration of GTKPrintSetting. Do not edit this variable."
-msgstr "Configuração da impressão-gnome. Não edite essa variável."
+msgstr "A configuração de GTKPrintSetting. Não edite essa variável."
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:54
 msgid "The default font name for headers and footers."
@@ -2641,18 +2630,18 @@ msgstr "Tamanho da fonte padrão para cabeçalhos e rodapés."
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:56
 msgid "The default header/footer font is bold."
-msgstr "A fonte padrão do cabeçalho/rodapé é negrito."
+msgstr "A fonte padrão do cabeçalho e rodapé é negrito."
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:57
 msgid "The default header/footer font is italic."
-msgstr "A fonte padrão do cabeçalho/rodapé é itálico."
+msgstr "A fonte padrão do cabeçalho e rodapé é itálico."
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:58
 msgid ""
 "The default page footer for new documents that can be modified using the "
 "page setup dialog."
 msgstr ""
-"O rodapé padrão para novos documentos que não podem ser modificados usando o "
+"O rodapé de página padrão para novos documentos que não podem ser modificados usando o "
 "diálogo da configuração de página."
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:59
@@ -2660,7 +2649,7 @@ msgid ""
 "The default page header for new documents that can be modified using the "
 "page setup dialog."
 msgstr ""
-"O cabeçalho padrão para novos documentos que não podem ser modificados "
+"O cabeçalho de página padrão para novos documentos que não podem ser modificados "
 "usando o diálogo da configuração de página."
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:60
@@ -2668,7 +2657,7 @@ msgid ""
 "The function selector keeps a list of recently used functions. This is that "
 "list."
 msgstr ""
-"A função de seleção pega uma lista das funções recentemente utilizadas. Essa "
+"A função de seleção guarda uma lista das funções recentemente utilizadas. Essa "
 "é a lista."
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:61
@@ -2676,64 +2665,60 @@ msgid ""
 "The function selector keeps a list of recently used functions. This is the "
 "maximum length of that list."
 msgstr ""
-"A função seletora pega uma lista das funções recentemente utilizadas. Esse é "
+"A função de seleção guarda uma lista das funções recentemente utilizadas. Esse é "
 "o tamanho máximo dessa lista."
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:62
 msgid "The main directory for user specific autoformat templates."
 msgstr ""
-"O diretório principal para modelos de autoformatação especificados pelo "
+"O diretório principal para modelos de formatação automática especificados pelo "
 "usuário."
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:63
 msgid "This directory contains the pre-installed autoformat templates."
-msgstr "Esse diretório contém modelos de autoformatação pré-instalados."
+msgstr "Esse diretório contém modelos de formatação automática pré-instalados."
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:64
-#, fuzzy
 msgid ""
 "This is the default paper orientation. Please use the Print Setup dialog to "
 "edit this value."
 msgstr ""
-"Este valor fornece a porcentagem de fator de escala que deve ser aplicada a "
-"cada página impressa. Por favor, utilize o diálogo Configurar Impressão para "
+"Esta é a orientação de papel padrão. Por favor, utilize o diálogo Configurar Impressão para "
 "editar este valor."
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:65
-#, fuzzy
 msgid ""
 "This is the default paper specification. Please use the Print Setup dialog "
 "to edit this value."
 msgstr ""
-"Este valor fornece a porcentagem de fator de escala que deve ser aplicada a "
-"cada página impressa. Por favor, utilize o diálogo Configurar Impressão para "
+"Esta é a especificação de papel padrão. Por favor, utilize o diálogo Configurar Impressão para "
 "editar este valor."
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:66
 msgid ""
 "This list contains all extra directories containing autoformat templates."
 msgstr ""
-"Essa lista contém todos os diretórios extras contendo modelos de "
-"autoformatação."
+"Esta lista contém todos os diretórios extras contendo modelos de "
+"formatação automática."
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:67
 msgid "This list contains all extra directories containing plugins."
-msgstr "Essa lista contém todos os diretórios extras contendo plugins."
+msgstr "Esta lista contém todos os diretórios extras contendo plugins."
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:68
 msgid "This list contains all known plugins."
-msgstr "Essa lista contém todos os plugins conhecidos."
+msgstr "Esta lista contém todos os plugins conhecidos."
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:69
 msgid "This list contains all plugin file states."
-msgstr "Essa lista contém todos os estados de arquivos plugin."
+msgstr "Esta lista contém todos os estados de arquivos de plugin."
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:70
 msgid ""
 "This list contains all plugins that are supposed to be automatically "
 "activated."
 msgstr ""
-"Essa lista contém todos os plugins que estão supostamente ativados "
+"Essa lista contém todos os plugins que deveriam ser ativados "
 "automaticamente."
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:71
