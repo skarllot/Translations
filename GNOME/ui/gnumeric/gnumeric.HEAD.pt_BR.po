@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: gnumeric\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-09-13 21:11+0000\n"
-"PO-Revision-Date: 2008-10-25 22:51-0300\n"
+"PO-Revision-Date: 2008-12-23 17:26-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-l10n-br@listas.cipsga.org.br>\n"
 "MIME-Version: 1.0\n"
@@ -1912,13 +1912,15 @@ msgstr "Não foi possível reservar memória para as definições de campo."
 
 #: ../plugins/paradox/paradox.c:339
 msgid "First line of sheet must contain database specification."
-msgstr "A primeira linha da planilha precisa conter especificações de banco de dados."
+msgstr ""
+"A primeira linha da planilha precisa conter especificações de banco de dados."
 
 #: ../plugins/paradox/paradox.c:354
 msgid ""
 "Field specification must be a comma separated value (Name,Type,Size,Prec)."
 msgstr ""
-"Especificações de campo precisam ser um valor separado por vírgulas (Nome,Tipo,Tamanho,Prec)."
+"Especificações de campo precisam ser um valor separado por vírgulas (Nome,"
+"Tipo,Tamanho,Prec)."
 
 # plugins/guile/plugin.c:278
 #: ../plugins/paradox/paradox.c:359
@@ -1954,7 +1956,8 @@ msgstr "As especificações de campo está com o tamanho de coluna faltando."
 #, c-format
 msgid ""
 "The remainder '%s' of the specification for field %d is being disregarded."
-msgstr "O excesso \"%s\" das especificações do campo %d está sendo desconsiderado."
+msgstr ""
+"O excesso \"%s\" das especificações do campo %d está sendo desconsiderado."
 
 #: ../plugins/paradox/paradox.c:480
 msgid "Could not create output file."
@@ -1973,7 +1976,9 @@ msgstr "Não foi possível reservar memória para os dados do registro."
 #: ../plugins/paradox/paradox.c:536
 #, c-format
 msgid "Field %d in line %d has possibly been cut off. Data has %d chars."
-msgstr "O campo %d na linha %d poderá estar sendo cortado. Os dados contém %d caracteres."
+msgstr ""
+"O campo %d na linha %d poderá estar sendo cortado. Os dados contém %d "
+"caracteres."
 
 #: ../plugins/paradox/paradox.c:545
 #, c-format
@@ -2048,12 +2053,16 @@ msgstr "PLN: A planilha está protegida por senha"
 #: ../plugins/plan-perfect/pln.c:575
 #, c-format
 msgid "Ignoring data that claims to be in row %u which is > max row %u"
-msgstr "Ignorando dados que requerem estar na linha %u a qual é maior que a linha máxima %u"
+msgstr ""
+"Ignorando dados que requerem estar na linha %u a qual é maior que a linha "
+"máxima %u"
 
 #: ../plugins/plan-perfect/pln.c:579
 #, c-format
 msgid "Ignoring data that claims to be in column %u which is > max column %u"
-msgstr "Ignorando dados que requerem estar na coluna %u a qual é maior que a coluna máxima %u"
+msgstr ""
+"Ignorando dados que requerem estar na coluna %u a qual é maior que a coluna "
+"máxima %u"
 
 #: ../plugins/plan-perfect/plugin.xml.in.h:1
 msgid "Imports Plan Perfect Formatted Documents"
@@ -2122,7 +2131,8 @@ msgstr "Não foi possível localizar %s."
 #: ../plugins/python-loader/gnm-python.c:145
 #, c-format
 msgid "Could not initialize Python bindings for Gtk+, etc: %s"
-msgstr "Não foi possível inicializar os vínculos do Python para o Gtk+ e etc: %s"
+msgstr ""
+"Não foi possível inicializar os vínculos do Python para o Gtk+ e etc: %s"
 
 #: ../plugins/python-loader/gnm-python.c:159
 #, c-format
@@ -2279,8 +2289,8 @@ msgid ""
 "Unable to find the PerfectOffice_MAIN stream.  Is this really a Quattro Pro "
 "file?"
 msgstr ""
-"Não foi possível localizar a entrada PerfectOffice_MAIN. Esse arquivo é realmente um "
-"do Quattro Pro?"
+"Não foi possível localizar a entrada PerfectOffice_MAIN. Esse arquivo é "
+"realmente um do Quattro Pro?"
 
 #: ../plugins/sample_datasource/plugin.xml.in.h:1
 msgid "A proof of concept external data source"
@@ -2382,9 +2392,9 @@ msgid ""
 ">This value determines the default setting in the Print Setup dialog whether "
 "print grid lines. Please use the Print Setup dialog to edit this value."
 msgstr ""
-">Este valor determina a configuração padrão no diálogo de Configurar Impressão ao "
-"imprimir linhas de grade. Por favor, utilize o diálogo de Configurar "
-"Impressão para editar este valor."
+">Este valor determina a configuração padrão no diálogo de Configurar "
+"Impressão ao imprimir linhas de grade. Por favor, utilize o diálogo de "
+"Configurar Impressão para editar este valor."
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:2
 msgid ""
@@ -2393,8 +2403,8 @@ msgid ""
 "edit this value."
 msgstr ""
 ">Este valor determina a configuração padrão no diálogo Configurar Impressão: "
-"centralizar página verticalmente. Por favor, utilize o "
-"diálogo Configurar Impressão para editar este valor."
+"centralizar página verticalmente. Por favor, utilize o diálogo Configurar "
+"Impressão para editar este valor."
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:3
 msgid "Activate New Plugins"
@@ -2479,11 +2489,11 @@ msgstr "Tipo padrão de escala"
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:23
 msgid "Default Scaling Height"
-msgstr "Altura padrão da escala"
+msgstr "Altura padrão de redimensionamento"
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:24
 msgid "Default Scaling Width"
-msgstr "Largura padrão da escala"
+msgstr "Largura padrão de redimensionamento"
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:25
 msgid "Default Title Printing"
@@ -2605,16 +2615,16 @@ msgid ""
 "The autocorrect engine does not correct the first letter for words in this "
 "list."
 msgstr ""
-"A ferramenta de correção automática não corrige a primeira letra para palavras "
-"nessa lista."
+"A ferramenta de correção automática não corrige a primeira letra para "
+"palavras nessa lista."
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:52
 msgid ""
 "The autocorrect engine does not correct the initial caps for words in this "
 "list."
 msgstr ""
-"A ferramenta de correção automática não corrige a maiusculização inicial para "
-"palavras nesta lista."
+"A ferramenta de correção automática não corrige a maiusculização inicial "
+"para palavras nesta lista."
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:53
 msgid "The configuration of GTKPrintSetting. Do not edit this variable."
@@ -2641,38 +2651,38 @@ msgid ""
 "The default page footer for new documents that can be modified using the "
 "page setup dialog."
 msgstr ""
-"O rodapé de página padrão para novos documentos que não podem ser modificados usando o "
-"diálogo da configuração de página."
+"O rodapé de página padrão para novos documentos que não podem ser "
+"modificados usando o diálogo da configuração de página."
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:59
 msgid ""
 "The default page header for new documents that can be modified using the "
 "page setup dialog."
 msgstr ""
-"O cabeçalho de página padrão para novos documentos que não podem ser modificados "
-"usando o diálogo da configuração de página."
+"O cabeçalho de página padrão para novos documentos que não podem ser "
+"modificados usando o diálogo da configuração de página."
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:60
 msgid ""
 "The function selector keeps a list of recently used functions. This is that "
 "list."
 msgstr ""
-"A função de seleção guarda uma lista das funções recentemente utilizadas. Essa "
-"é a lista."
+"A função de seleção guarda uma lista das funções recentemente utilizadas. "
+"Essa é a lista."
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:61
 msgid ""
 "The function selector keeps a list of recently used functions. This is the "
 "maximum length of that list."
 msgstr ""
-"A função de seleção guarda uma lista das funções recentemente utilizadas. Esse é "
-"o tamanho máximo dessa lista."
+"A função de seleção guarda uma lista das funções recentemente utilizadas. "
+"Esse é o tamanho máximo dessa lista."
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:62
 msgid "The main directory for user specific autoformat templates."
 msgstr ""
-"O diretório principal para modelos de formatação automática especificados pelo "
-"usuário."
+"O diretório principal para modelos de formatação automática especificados "
+"pelo usuário."
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:63
 msgid "This directory contains the pre-installed autoformat templates."
@@ -2683,23 +2693,23 @@ msgid ""
 "This is the default paper orientation. Please use the Print Setup dialog to "
 "edit this value."
 msgstr ""
-"Esta é a orientação de papel padrão. Por favor, utilize o diálogo Configurar Impressão para "
-"editar este valor."
+"Esta é a orientação de papel padrão. Por favor, utilize o diálogo Configurar "
+"Impressão para editar este valor."
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:65
 msgid ""
 "This is the default paper specification. Please use the Print Setup dialog "
 "to edit this value."
 msgstr ""
-"Esta é a especificação de papel padrão. Por favor, utilize o diálogo Configurar Impressão para "
-"editar este valor."
+"Esta é a especificação de papel padrão. Por favor, utilize o diálogo "
+"Configurar Impressão para editar este valor."
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:66
 msgid ""
 "This list contains all extra directories containing autoformat templates."
 msgstr ""
-"Esta lista contém todos os diretórios extras contendo modelos de "
-"formatação automática."
+"Esta lista contém todos os diretórios extras contendo modelos de formatação "
+"automática."
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:67
 msgid "This list contains all extra directories containing plugins."
@@ -2718,8 +2728,7 @@ msgid ""
 "This list contains all plugins that are supposed to be automatically "
 "activated."
 msgstr ""
-"Essa lista contém todos os plugins que deveriam ser ativados "
-"automaticamente."
+"Essa lista contém todos os plugins que deveriam ser ativados automaticamente."
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:71
 msgid ""
@@ -2735,38 +2744,34 @@ msgid ""
 "This string gives the default region to be repeated at the top of each "
 "printed sheet. Please use the Print Setup dialog to edit this value."
 msgstr ""
-"Este texto fornece a região padrão a ser repetida no início de cada pasta "
+"Este texto fornece a região padrão a ser repetida no início de cada planilha "
 "impressa. Por favor, utilize o diálogo Configurar Impressão para editar este "
 "valor."
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:73
-#, fuzzy
 msgid "This string gives the default unit to be used in the page setup dialog."
 msgstr ""
-"O cabeçalho padrão para novos documentos que não podem ser modificados "
-"usando o diálogo da configuração de página."
+"Este texto fornece a unidade padrão a ser usada no diálogo configurar página."
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:74
-#, fuzzy
 msgid ""
 "This value determines the default number of pages a printout of the current "
 "sheet is supposed to be high. 0 disables scaling. Please use the Print Setup "
 "dialog to edit this value."
 msgstr ""
-"Este valor determina o número padrão de páginas que a impressão da pasta "
-"atual deve ser maior. 0 desabilita a escala. Por favor, utilize o diálogo "
-"Configurar Impressão para editar este valor."
+"Este valor determina o número padrão de páginas que a impressão da planilha "
+"atual deve ser maior. 0 desabilita o redimensionamento. Por favor, utilize o "
+"diálogo Configurar Impressão para editar este valor."
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:75
-#, fuzzy
 msgid ""
 "This value determines the default number of pages a printout of the current "
 "sheet is supposed to be wide. 0 disables scaling. Please use the Print Setup "
 "dialog to edit this value."
 msgstr ""
 "Este valor determina o número padrão de páginas de uma saída de impressão da "
-"planilha atual deve ser adimitida larga. 0 desabilita a escala. Por favor, "
-"utilize o diálogo Configurar Impressão para editar este valor."
+"planilha atual deve ser admitida larga. 0 desabilita o redimensionamento. "
+"Por favor, utilize o diálogo Configurar Impressão para editar este valor."
 
 #: ../schemas/gnumeric-dialogs.schemas.in.h:76
 msgid ""
