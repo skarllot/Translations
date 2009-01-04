@@ -12,6 +12,7 @@
 # Vladimir Melo <vladimirmelo.psi@gmail.com>, 2008.
 # Michel Recondo <mrecondo@gmail.com>, 2008.
 # Djavan Fagundes <dnoway@gmail.com>, 2008.
+# Fabrício Godoy <skarllot@gmail.com>, 2008.
 #
 msgid ""
 msgstr ""
@@ -19,12 +20,13 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=bug-"
 "buddy&amp;component=general\n"
 "POT-Creation-Date: 2008-11-30 17:19+0000\n"
-"PO-Revision-Date: 2008-09-25 14:21-0300\n"
-"Last-Translator: Vladimir Melo <vladimirmelo.psi@gmail.com>\n"
+"PO-Revision-Date: 2009-01-04 19:36-0200\n"
+"Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-l10n-br@listas.cipsga.org.br>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../data/bug-buddy.gtkbuilder.h:1
 msgid "<b>What _were you doing when the application crashed?</b>"
@@ -40,7 +42,7 @@ msgid ""
 "details.  Please review the crash details if you are concerned about "
 "transmitting passwords or other sensitive information.</i></small>"
 msgstr ""
-"<small><i><b>Nota:</b>  Informações sensíveis podem estar presente nos "
+"<small><i><b>Nota:</b> Informações sensíveis podem estar presentes nos "
 "detalhes do travamento. Por favor revise os mesmos caso você se preocupe "
 "sobre transmissão de senhas ou outras informações delicadas.</i></small>"
 
@@ -58,7 +60,7 @@ msgstr "C_opiar"
 
 #: ../data/bug-buddy.gtkbuilder.h:7
 msgid "Review Crash Details"
-msgstr "Revisar Detalhes do Travamento"
+msgstr "Revisar detalhes do travamento"
 
 #: ../data/bug-buddy.gtkbuilder.h:8
 msgid "Send _other pending crash reports"
@@ -66,7 +68,7 @@ msgstr "Enviar _outros relatórios de travamento pendentes"
 
 #: ../data/bug-buddy.gtkbuilder.h:9
 msgid "_Review Crash Details"
-msgstr "_Revisar Detalhes do Travamento"
+msgstr "_Revisar detalhes do travamento"
 
 #: ../data/bug-buddy.gtkbuilder.h:10
 msgid "_Send"
@@ -113,7 +115,7 @@ msgstr ""
 
 #: ../data/bug-buddy.schemas.in.h:6
 msgid "GTK+ module for crash collecting support."
-msgstr ""
+msgstr "Módulo GTK+ ao qual dá suporte a coletagem de travamentos."
 
 #: ../data/bug-buddy.schemas.in.h:7
 msgid "Real name of user reporting the bug."
@@ -123,10 +125,12 @@ msgstr "Nome verdadeiro do usuário que relata o erro."
 msgid ""
 "This key determines the GTK+ module to load for crash collecting support."
 msgstr ""
+"Esta chave determina qual módulo GTK+ carregar o qual será usado para "
+"suporte a coletagem de travamentos."
 
 #: ../src/bug-buddy.c:82
 msgid "GNOME bug-buddy"
-msgstr ""
+msgstr "Ferramenta de Relatório de Erros do GNOME"
 
 #: ../src/bug-buddy.c:90
 msgid "Package containing the program"
@@ -146,7 +150,7 @@ msgstr "ARQUIVO"
 
 #: ../src/bug-buddy.c:92
 msgid "PID of crashed program"
-msgstr "PID do programa abortado"
+msgstr "PID do programa travado"
 
 #: ../src/bug-buddy.c:92
 msgid "PID"
@@ -157,9 +161,8 @@ msgid "Text file to include in the report"
 msgstr "Arquivo de texto a incluir no relatório"
 
 #: ../src/bug-buddy.c:94
-#, fuzzy
 msgid "Delete the included file after reporting"
-msgstr "Arquivo de texto a incluir no relatório"
+msgstr "Excluir o arquivo incluído após enviar"
 
 #: ../src/bug-buddy.c:95
 msgid "MiniDump file with info about the crash"
