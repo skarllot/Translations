@@ -18,7 +18,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=file-"
 "roller&component=general\n"
 "POT-Creation-Date: 2009-01-05 19:37+0000\n"
-"PO-Revision-Date: 2009-01-09 00:46-0200\n"
+"PO-Revision-Date: 2009-01-10 17:44-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -302,7 +302,7 @@ msgid ""
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version."
 msgstr ""
-"O Compactador de arquivos (File Roller) é um software livre; você pode "
+"O Compactador de Arquivos (File Roller) é um software livre; você pode "
 "redistribuí-lo e/ou modificá-lo sob os termos da Licença Pública Geral GNU "
 "(GNU General Public License), conforme publicada pela Free Software "
 "Foundation; tanto a versão 2 da Licença, quanto (a seu critério) qualquer "
@@ -336,7 +336,7 @@ msgstr "Copyright © 2001-2007 Free Software Foundation, Inc."
 
 #: ../src/actions.c:857
 msgid "An archive manager for GNOME."
-msgstr "Um gerenciador de pacotes (arquivos compactados) para o GNOME."
+msgstr "Um gerenciador de pacotes para o GNOME."
 
 #: ../src/actions.c:860
 msgid "translator-credits"
@@ -359,7 +359,7 @@ msgstr "Não foi possível adicionar os arquivos ao pacote"
 #, c-format
 msgid "You don't have the right permissions to read files from folder \"%s\""
 msgstr ""
-"Você não possui as permissões corretas para ler arquivos na pasta \"%s\""
+"Você não possui as permissões corretas para ler arquivos da pasta \"%s\""
 
 #: ../src/dlg-add-files.c:145 ../src/ui.h:49
 msgid "Add Files"
@@ -1040,7 +1040,7 @@ msgstr "- Cria e modifica um pacote"
 
 #: ../src/main.c:300
 msgid "File Roller"
-msgstr "Compactador de arquivos"
+msgstr "Compactador de Arquivos"
 
 #: ../src/ui.h:33
 msgid "_Archive"
@@ -1100,7 +1100,7 @@ msgstr "Sumário"
 
 #: ../src/ui.h:66
 msgid "Display the File Roller Manual"
-msgstr "Exibe o manual do compactador de arquivos"
+msgstr "Exibe o manual do Compactador de Arquivos"
 
 #: ../src/ui.h:71 ../src/ui.h:92
 msgid "Copy the selection"
