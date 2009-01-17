@@ -1,7 +1,7 @@
 # Brazilian Portuguese translation of GStreamer.
-# Copyright (C) 2008 Free Software Foundation, Inc.
+# Copyright (C) 2008-2009 Free Software Foundation, Inc.
 # This file is distributed under the same license as the GStreamer package.
-# Fabrício Godoy <skarllot@gmail.com>, 2008.
+# Fabrício Godoy <skarllot@gmail.com>, 2008-2009.
 #
 # pipeline -> fila de processamento
 # sink -> consumidor
@@ -15,10 +15,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gstreamer-0.10.20.3\n"
+"Project-Id-Version: gstreamer-0.10.21.3\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2009-01-09 22:38+0000\n"
-"PO-Revision-Date: 2008-09-28 20:37-0300\n"
+"PO-Revision-Date: 2009-01-17 11:59-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
 "MIME-Version: 1.0\n"
@@ -1035,11 +1035,11 @@ msgstr ""
 
 #: tools/gst-inspect.c:1407
 msgid "List the plugin contents"
-msgstr ""
+msgstr "Listar o conteúdo do plugin"
 
 #: tools/gst-inspect.c:1410
 msgid "Print supported URI schemes, with the elements that implement them"
-msgstr ""
+msgstr "Exibir esquemas URI com suporte, com os elementos que os implementam"
 
 #: tools/gst-inspect.c:1500
 #, c-format
@@ -1085,7 +1085,7 @@ msgstr "AVISO: o elemento com o nome \"%s\" não foi encontrado.\n"
 
 #: tools/gst-launch.c:397
 msgid "Got Message #%"
-msgstr ""
+msgstr "Obtida mensagem #%"
 
 #: tools/gst-launch.c:424
 #, c-format
@@ -1117,9 +1117,8 @@ msgid "Prerolled, waiting for buffering to finish...\n"
 msgstr "Preparado, esperando o preenchimento do buffer para finalizar...\n"
 
 #: tools/gst-launch.c:525
-#, fuzzy
 msgid "buffering..."
-msgstr "preenchendo buffer... %d  \n"
+msgstr "preenchendo buffer..."
 
 #: tools/gst-launch.c:537
 #, c-format
@@ -1137,7 +1136,7 @@ msgstr ""
 #: tools/gst-launch.c:554
 #, c-format
 msgid "Redistribute latency...\n"
-msgstr ""
+msgstr "Redistribuição de latência...\n"
 
 #: tools/gst-launch.c:566
 #, c-format
