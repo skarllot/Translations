@@ -21,7 +21,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=nautilus&amp;component=general\n"
 "POT-Creation-Date: 2008-12-16 15:52+0000\n"
-"PO-Revision-Date: 2009-01-20 23:28-0200\n"
+"PO-Revision-Date: 2009-01-21 00:36-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -3503,7 +3503,7 @@ msgstr "Houve um erro ao exibir a ajuda."
 
 #: ../src/file-manager/fm-directory-view.c:1151
 msgid "Select Items Matching"
-msgstr "Selecionar ocorrências de padrão..."
+msgstr "Selecionar ocorrências de padrão"
 
 #: ../src/file-manager/fm-directory-view.c:1169
 msgid "_Pattern:"
@@ -4323,15 +4323,15 @@ msgstr "_Abrir com \"%s\""
 #, c-format
 msgid "Open in %'d New _Window"
 msgid_plural "Open in %'d New _Windows"
-msgstr[0] "Abrir em %'d nova janela"
-msgstr[1] "Abrir em %'d novas janelas"
+msgstr[0] "Abrir em %'d nova _janela"
+msgstr[1] "Abrir em %'d novas _janelas"
 
 #: ../src/file-manager/fm-directory-view.c:7817
 #, c-format
 msgid "Browse in %'d New _Window"
 msgid_plural "Browse in %'d New _Windows"
-msgstr[0] "Navegar em %'d nova janela"
-msgstr[1] "Navegar em %'d novas janelas"
+msgstr[0] "Navegar em %'d nova _janela"
+msgstr[1] "Navegar em %'d novas _janelas"
 
 #: ../src/file-manager/fm-directory-view.c:7848
 #, c-format
@@ -6585,13 +6585,17 @@ msgstr "Copyright © 1999-2008 Os autores do Nautilus"
 #: ../src/nautilus-window-menus.c:530
 msgid "translator-credits"
 msgstr ""
-"Gustavo Maciel Dias Vieira <gustavo@sagui.org>\n"
+"Gustavo Maciel Dias Vieira <gdvieira@zaz.com.br>\n"
 "Evandro Fernandes Giovanini <evandrofg@ig.com.br>\n"
 "Gustavo Noronha Silva <kov@debian.org>\n"
+"Alexandre Folle de Menezes <afmenez@terra.com.br>\n"
+"Goedson Teixeira Paixao <goedson@debian.org>\n"
 "Raphael Higino <In memoriam>\n"
+"Afonso Celso Medina <medina@maua.br>\n"
 "Guilherme de S. Pastore <gpastore@gnome.org>\n"
 "Leonardo Fereira Fontenelle <leonardof@gnome.org>\n"
 "Og Maciel <ogmaciel@gnome.org>\n"
+"Rodrigo Flores <rodrigomarquesflores@gmail.com>\n"
 "Vladimir Melo <vladimirmelo.psi@gmail.com>\n"
 "Fabrício Godoy <skarllot@gmail.com>"
 
