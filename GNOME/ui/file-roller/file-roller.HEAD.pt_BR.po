@@ -18,7 +18,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=file-"
 "roller&component=general\n"
 "POT-Creation-Date: 2009-01-20 00:36+0000\n"
-"PO-Revision-Date: 2009-01-10 17:44-0200\n"
+"PO-Revision-Date: 2009-01-21 01:29-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -49,7 +49,7 @@ msgstr "O aplicativo não aceita documentos na linha de comando"
 #: ../copy-n-paste/eggdesktopfile.c:1168
 #, c-format
 msgid "Unrecognized launch option: %d"
-msgstr "Opção de inicialização desconhecida: %d"
+msgstr "Opção de lançamento desconhecida: %d"
 
 #: ../copy-n-paste/eggdesktopfile.c:1373
 #, c-format
@@ -61,7 +61,7 @@ msgstr ""
 #: ../copy-n-paste/eggdesktopfile.c:1392
 #, c-format
 msgid "Not a launchable item"
-msgstr "O item não é inicializável"
+msgstr "O item não é lançável"
 
 #: ../copy-n-paste/eggsmclient.c:224
 msgid "Disable connection to session manager"
