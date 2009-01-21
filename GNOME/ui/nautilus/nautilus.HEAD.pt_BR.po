@@ -21,7 +21,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=nautilus&component=general\n"
 "POT-Creation-Date: 2009-01-21 02:12+0000\n"
-"PO-Revision-Date: 2009-01-21 00:36-0200\n"
+"PO-Revision-Date: 2009-01-21 00:54-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -3073,10 +3073,8 @@ msgstr[0] "Isso abrirá %d janela separada."
 msgstr[1] "Isso abrirá %d janelas separadas."
 
 #: ../libnautilus-private/nautilus-mime-actions.c:1068
-#, fuzzy
-#| msgid "There was an internal error trying to search for applications"
 msgid "There was an internal error trying to search for applications:"
-msgstr "Houve um erro interno ao tentar pesquisar por aplicativos"
+msgstr "Houve um erro interno ao tentar pesquisar por aplicativos:"
 
 #: ../libnautilus-private/nautilus-mime-actions.c:1070
 msgid "Unable to search for application"
@@ -5789,8 +5787,6 @@ msgid "Perform a quick set of self-check tests."
 msgstr "Realizar um conjunto rápido de testes automáticos."
 
 #: ../src/nautilus-main.c:329
-#, fuzzy
-#| msgid "Show the version of the progam."
 msgid "Show the version of the program."
 msgstr "Mostrar a versão do programa."
 
