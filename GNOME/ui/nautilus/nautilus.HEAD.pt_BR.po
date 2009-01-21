@@ -21,7 +21,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=nautilus&amp;component=general\n"
 "POT-Creation-Date: 2008-12-16 15:52+0000\n"
-"PO-Revision-Date: 2009-01-20 22:32-0200\n"
+"PO-Revision-Date: 2009-01-20 23:28-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -54,7 +54,7 @@ msgstr "O aplicativo não aceita documentos na linha de comando"
 #: ../cut-n-paste-code/libegg/eggdesktopfile.c:1168
 #, c-format
 msgid "Unrecognized launch option: %d"
-msgstr "Opção de inicialização desconhecida: %d"
+msgstr "Opção de lançamento desconhecida: %d"
 
 #: ../cut-n-paste-code/libegg/eggdesktopfile.c:1373
 #, c-format
@@ -66,7 +66,7 @@ msgstr ""
 #: ../cut-n-paste-code/libegg/eggdesktopfile.c:1392
 #, c-format
 msgid "Not a launchable item"
-msgstr "O item não é inicializável"
+msgstr "O item não é lançável"
 
 #: ../cut-n-paste-code/libegg/eggsmclient.c:185
 msgid "Disable connection to session manager"
@@ -82,19 +82,19 @@ msgstr "ARQUIVO"
 
 #: ../cut-n-paste-code/libegg/eggsmclient.c:191
 msgid "Specify session management ID"
-msgstr ""
+msgstr "Especifica um ID de gerenciamento de sessão"
 
 #: ../cut-n-paste-code/libegg/eggsmclient.c:191
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: ../cut-n-paste-code/libegg/eggsmclient.c:245
 msgid "Session Management Options"
-msgstr ""
+msgstr "Opções de gerenciamento de sessão"
 
 #: ../cut-n-paste-code/libegg/eggsmclient.c:246
 msgid "Show Session Management options"
-msgstr ""
+msgstr "Mostrar opções de gerenciamento de sessão"
 
 #: ../data/browser.xml.h:1
 msgid "Apparition"
@@ -941,7 +941,7 @@ msgstr ""
 
 #: ../libnautilus-private/apps_nautilus_preferences.schemas.in.h:70
 msgid "If to show the package installer for unknown mime types"
-msgstr ""
+msgstr "Mostrar o instalador de pacotes para tipos MIME desconhecidos"
 
 #: ../libnautilus-private/apps_nautilus_preferences.schemas.in.h:71
 msgid ""
@@ -1361,6 +1361,8 @@ msgid ""
 "Whether to present the user a dialog to search using the package installer "
 "for an application that can open an unknown mime type."
 msgstr ""
+"Apresentar ao usuário um diálogo de pesquisa usando o instalador de pacotes "
+"para um aplicativo que pode abrir um tipo MIME desconhecido."
 
 #: ../libnautilus-private/apps_nautilus_preferences.schemas.in.h:143
 msgid "Whether to preview sounds when mousing over an icon"
@@ -2842,14 +2844,12 @@ msgid "1 GB"
 msgstr "1 GB"
 
 #: ../libnautilus-private/nautilus-global-preferences.c:99
-#, fuzzy
 msgid "2 GB"
-msgstr "1 GB"
+msgstr "2 GB"
 
 #: ../libnautilus-private/nautilus-global-preferences.c:100
-#, fuzzy
 msgid "4 GB"
-msgstr "1 GB"
+msgstr "4 GB"
 
 #: ../libnautilus-private/nautilus-global-preferences.c:105
 msgid "Activate items with a _single click"
@@ -3073,18 +3073,16 @@ msgstr[0] "Isso abrirá %d janela separada."
 msgstr[1] "Isso abrirá %d janelas separadas."
 
 #: ../libnautilus-private/nautilus-mime-actions.c:1066
-#, fuzzy
 msgid "Unable to search for application"
-msgstr "Não foi possível montar a localização"
+msgstr "Não foi possível pesquisar pelo aplicativo"
 
 #: ../libnautilus-private/nautilus-mime-actions.c:1067
-#, fuzzy
 msgid "There was an internal error trying to search for applications"
-msgstr "Houve um erro ao lançar o aplicativo."
+msgstr "Houve um erro interno ao tentar pesquisar por aplicativos"
 
 #: ../libnautilus-private/nautilus-mime-actions.c:1139
 msgid "Could not use system package installer"
-msgstr ""
+msgstr "Não foi possível usar o instalador de pacotes do sistema"
 
 #: ../libnautilus-private/nautilus-mime-actions.c:1197
 #: ../src/nautilus-window-manage-views.c:1880
@@ -3098,21 +3096,22 @@ msgid "Could not display \"%s\"."
 msgstr "Não foi possível exibir \"%s\"."
 
 #: ../libnautilus-private/nautilus-mime-actions.c:1218
-#, fuzzy
 msgid "The file is of an unknown type"
-msgstr "O arquivo não é uma imagem."
+msgstr "O tipo do arquivo é desconhecido"
 
 #: ../libnautilus-private/nautilus-mime-actions.c:1221
-#, fuzzy, c-format
+#, c-format
 msgid "There is no application installed for %s files"
-msgstr "Não existe aplicativo instalado para esse tipo de arquivo"
+msgstr "Não existe aplicativo instalado para os arquivos %s"
 
 #: ../libnautilus-private/nautilus-mime-actions.c:1236
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "There is no application installed for %s files.\n"
 "Do you want to search for an application to open this file?"
-msgstr "Não existe aplicativo instalado para esse tipo de arquivo"
+msgstr ""
+"Não existe aplicativo instalado para os arquivos %s.\n"
+"Você deseja pesquisar por um aplicativo capaz de abrir estes arquivos?"
 
 #: ../libnautilus-private/nautilus-mime-actions.c:1514
 #: ../libnautilus-private/nautilus-mime-actions.c:1772
@@ -3160,13 +3159,9 @@ msgstr "Nenhum aplicativo selecionado"
 
 #: ../libnautilus-private/nautilus-mime-application-chooser.c:568
 #: ../libnautilus-private/nautilus-open-with-dialog.c:944
-#, fuzzy, c-format
+#, c-format
 msgid "%s document"
-msgstr ""
-"#-#-#-#-#  pt_BR.po (nautilus)  #-#-#-#-#\n"
-"documento %s\n"
-"#-#-#-#-#  pt_BR.po (eel.HEAD.pt_BR)  #-#-#-#-#\n"
-"documento do %s"
+msgstr "documento %s"
 
 #: ../libnautilus-private/nautilus-mime-application-chooser.c:575
 #: ../libnautilus-private/nautilus-open-with-dialog.c:950
@@ -3174,13 +3169,10 @@ msgid "Unknown"
 msgstr "Desconhecido"
 
 #: ../libnautilus-private/nautilus-mime-application-chooser.c:608
-#, fuzzy, c-format
+#, c-format
 msgid "Select an application to open %s and other files of type \"%s\""
 msgstr ""
-"#-#-#-#-#  pt_BR.po (nautilus)  #-#-#-#-#\n"
-"Selecionar um aplicativo para abrir %s e outros arquivos do tipo \"%s\"\n"
-"#-#-#-#-#  pt_BR.po (eel.HEAD.pt_BR)  #-#-#-#-#\n"
-"Selecione um aplicativo para abrir %s e outros arquivos do tipo \"%s\""
+"Selecionar um aplicativo para abrir %s e outros arquivos do tipo \"%s\""
 
 #: ../libnautilus-private/nautilus-mime-application-chooser.c:676
 #: ../libnautilus-private/nautilus-open-with-dialog.c:962
@@ -3193,22 +3185,13 @@ msgid "Could not run application"
 msgstr "Não foi possível executar o aplicativo"
 
 #: ../libnautilus-private/nautilus-open-with-dialog.c:158
-#, fuzzy, c-format
+#, c-format
 msgid "Could not find '%s'"
-msgstr ""
-"#-#-#-#-#  pt_BR.po (nautilus)  #-#-#-#-#\n"
-"Não foi possível localizar \"%s\"\n"
-"#-#-#-#-#  pt_BR.po (eel.HEAD.pt_BR)  #-#-#-#-#\n"
-"Não foi possível encontrar '%s'"
+msgstr "Não foi possível localizar \"%s\""
 
 #: ../libnautilus-private/nautilus-open-with-dialog.c:161
-#, fuzzy
 msgid "Could not find application"
-msgstr ""
-"#-#-#-#-#  pt_BR.po (nautilus)  #-#-#-#-#\n"
-"Não foi possível localizar o aplicativo\n"
-"#-#-#-#-#  pt_BR.po (eel.HEAD.pt_BR)  #-#-#-#-#\n"
-"Não foi possível encontrar o aplicativo"
+msgstr "Não foi possível localizar o aplicativo"
 
 #: ../libnautilus-private/nautilus-open-with-dialog.c:235
 #, c-format
@@ -3221,41 +3204,21 @@ msgid "Could not add application"
 msgstr "Não foi possível adicionar o aplicativo"
 
 #: ../libnautilus-private/nautilus-open-with-dialog.c:403
-#, fuzzy
 msgid "Select an Application"
-msgstr ""
-"#-#-#-#-#  pt_BR.po (nautilus)  #-#-#-#-#\n"
-"Selecionar um aplicativo\n"
-"#-#-#-#-#  pt_BR.po (eel.HEAD.pt_BR)  #-#-#-#-#\n"
-"Selecione um aplicativo"
+msgstr "Selecionar um aplicativo"
 
 #: ../libnautilus-private/nautilus-open-with-dialog.c:761
 #: ../src/file-manager/fm-properties-window.c:5104
-#, fuzzy
 msgid "Open With"
-msgstr ""
-"#-#-#-#-#  pt_BR.po (nautilus)  #-#-#-#-#\n"
-"Abrir com\n"
-"#-#-#-#-#  pt_BR.po (eel.HEAD.pt_BR)  #-#-#-#-#\n"
-"Abrir Com"
+msgstr "Abrir com"
 
 #: ../libnautilus-private/nautilus-open-with-dialog.c:798
-#, fuzzy
 msgid "Select an application to view its description."
-msgstr ""
-"#-#-#-#-#  pt_BR.po (nautilus)  #-#-#-#-#\n"
-"Selecionar um aplicativo para ver sua descrição.\n"
-"#-#-#-#-#  pt_BR.po (eel.HEAD.pt_BR)  #-#-#-#-#\n"
-"Selecione um aplicativo para exibir sua descrição."
+msgstr "Selecionar um aplicativo para ver sua descrição."
 
 #: ../libnautilus-private/nautilus-open-with-dialog.c:823
-#, fuzzy
 msgid "_Use a custom command"
-msgstr ""
-"#-#-#-#-#  pt_BR.po (nautilus)  #-#-#-#-#\n"
-"_Usar um comando personalizado\n"
-"#-#-#-#-#  pt_BR.po (eel.HEAD.pt_BR)  #-#-#-#-#\n"
-"_Utilizar um comando personalizado"
+msgstr "_Usar um comando personalizado"
 
 #: ../libnautilus-private/nautilus-open-with-dialog.c:840
 msgid "_Browse..."
@@ -5824,9 +5787,8 @@ msgid "Perform a quick set of self-check tests."
 msgstr "Realizar um conjunto rápido de testes automáticos."
 
 #: ../src/nautilus-main.c:329
-#, fuzzy
 msgid "Show the version of the progam."
-msgstr "As permissões do arquivo."
+msgstr "Mostrar a versão do programa."
 
 #: ../src/nautilus-main.c:331
 msgid "Create the initial window with the given geometry."
@@ -6609,6 +6571,8 @@ msgid ""
 "Nautilus lets you organize files and folders, both on your computer and "
 "online."
 msgstr ""
+"O Nautilus deixa que você organize arquivos e pastas tanto os do seu "
+"computador quanto os on-line."
 
 #: ../src/nautilus-window-menus.c:520
 msgid "Copyright © 1999-2008 The Nautilus authors"
