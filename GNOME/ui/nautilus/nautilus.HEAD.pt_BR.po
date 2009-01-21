@@ -19,8 +19,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: eel.HEAD.pt_BR\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=nautilus&amp;component=general\n"
-"POT-Creation-Date: 2008-12-16 15:52+0000\n"
+"product=nautilus&component=general\n"
+"POT-Creation-Date: 2009-01-21 02:12+0000\n"
 "PO-Revision-Date: 2009-01-21 00:36-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
@@ -202,7 +202,7 @@ msgstr "Inveja"
 
 #. translators: this is the name of an emblem
 #: ../data/browser.xml.h:28 ../src/nautilus-emblem-sidebar.c:928
-#: ../src/nautilus-property-browser.c:1826
+#: ../src/nautilus-property-browser.c:1819
 msgid "Erase"
 msgstr "Apagar"
 
@@ -1642,7 +1642,7 @@ msgstr "O contexto de segurança SELinux do arquivo."
 
 #: ../libnautilus-private/nautilus-customization-data.c:405
 #: ../libnautilus-private/nautilus-mime-application-chooser.c:430
-#: ../src/nautilus-property-browser.c:1870
+#: ../src/nautilus-property-browser.c:1863
 msgid "Reset"
 msgstr "Restaurar"
 
@@ -1811,8 +1811,8 @@ msgstr[1] "aproximadamente %'d horas"
 #. * to that kind of file (e.g. "link to folder").
 #.
 #: ../libnautilus-private/nautilus-file-operations.c:314
-#: ../libnautilus-private/nautilus-file.c:5611
-#: ../src/file-manager/fm-directory-view.c:9345
+#: ../libnautilus-private/nautilus-file.c:5615
+#: ../src/file-manager/fm-directory-view.c:9351
 #, c-format
 msgid "Link to %s"
 msgstr "Link para %s"
@@ -2545,65 +2545,65 @@ msgstr "Não foi possível renomear o arquivo da área de trabalho"
 #. * off zero padding, and putting a "_" there will use
 #. * space padding instead of zero padding.
 #.
-#: ../libnautilus-private/nautilus-file.c:3697
+#: ../libnautilus-private/nautilus-file.c:3701
 msgid "today at 00:00:00 PM"
 msgstr "hoje às 00:00:00 PM"
 
-#: ../libnautilus-private/nautilus-file.c:3698
+#: ../libnautilus-private/nautilus-file.c:3702
 #: ../src/nautilus-file-management-properties.c:471
 msgid "today at %-I:%M:%S %p"
 msgstr "hoje às %-H:%M:%S"
 
-#: ../libnautilus-private/nautilus-file.c:3700
+#: ../libnautilus-private/nautilus-file.c:3704
 msgid "today at 00:00 PM"
 msgstr "hoje às 00:00 PM"
 
-#: ../libnautilus-private/nautilus-file.c:3701
+#: ../libnautilus-private/nautilus-file.c:3705
 msgid "today at %-I:%M %p"
 msgstr "hoje às %-H:%M"
 
-#: ../libnautilus-private/nautilus-file.c:3703
+#: ../libnautilus-private/nautilus-file.c:3707
 msgid "today, 00:00 PM"
 msgstr "hoje, 00:00 PM"
 
-#: ../libnautilus-private/nautilus-file.c:3704
+#: ../libnautilus-private/nautilus-file.c:3708
 msgid "today, %-I:%M %p"
 msgstr "hoje, %-H:%M"
 
-#: ../libnautilus-private/nautilus-file.c:3706
-#: ../libnautilus-private/nautilus-file.c:3707
+#: ../libnautilus-private/nautilus-file.c:3710
+#: ../libnautilus-private/nautilus-file.c:3711
 msgid "today"
 msgstr "hoje"
 
 #. Yesterday, use special word.
 #. * Note to localizers: Same issues as "today" string.
 #.
-#: ../libnautilus-private/nautilus-file.c:3716
+#: ../libnautilus-private/nautilus-file.c:3720
 msgid "yesterday at 00:00:00 PM"
 msgstr "ontem às 00:00:00 PM"
 
-#: ../libnautilus-private/nautilus-file.c:3717
+#: ../libnautilus-private/nautilus-file.c:3721
 msgid "yesterday at %-I:%M:%S %p"
 msgstr "ontem às %-H:%M:%S"
 
-#: ../libnautilus-private/nautilus-file.c:3719
+#: ../libnautilus-private/nautilus-file.c:3723
 msgid "yesterday at 00:00 PM"
 msgstr "ontem às 00:00 PM"
 
-#: ../libnautilus-private/nautilus-file.c:3720
+#: ../libnautilus-private/nautilus-file.c:3724
 msgid "yesterday at %-I:%M %p"
 msgstr "ontem às %-H:%M"
 
-#: ../libnautilus-private/nautilus-file.c:3722
+#: ../libnautilus-private/nautilus-file.c:3726
 msgid "yesterday, 00:00 PM"
 msgstr "ontem, 00:00 PM"
 
-#: ../libnautilus-private/nautilus-file.c:3723
+#: ../libnautilus-private/nautilus-file.c:3727
 msgid "yesterday, %-I:%M %p"
 msgstr "ontem, %-H:%M"
 
-#: ../libnautilus-private/nautilus-file.c:3725
-#: ../libnautilus-private/nautilus-file.c:3726
+#: ../libnautilus-private/nautilus-file.c:3729
+#: ../libnautilus-private/nautilus-file.c:3730
 msgid "yesterday"
 msgstr "ontem"
 
@@ -2612,88 +2612,88 @@ msgstr "ontem"
 #. * The width measurement templates correspond to
 #. * the day/month name with the most letters.
 #.
-#: ../libnautilus-private/nautilus-file.c:3737
+#: ../libnautilus-private/nautilus-file.c:3741
 msgid "Wednesday, September 00 0000 at 00:00:00 PM"
 msgstr "Segunda-feira, 00 de fevereiro de 0000 às 00:00:00 PM"
 
-#: ../libnautilus-private/nautilus-file.c:3738
+#: ../libnautilus-private/nautilus-file.c:3742
 msgid "%A, %B %-d %Y at %-I:%M:%S %p"
 msgstr "%A, %-d de %B de %Y às %-H:%M:%S"
 
-#: ../libnautilus-private/nautilus-file.c:3740
+#: ../libnautilus-private/nautilus-file.c:3744
 msgid "Mon, Oct 00 0000 at 00:00:00 PM"
 msgstr "Seg, 00 de Out de 0000 às 00:00:00 PM"
 
-#: ../libnautilus-private/nautilus-file.c:3741
+#: ../libnautilus-private/nautilus-file.c:3745
 msgid "%a, %b %-d %Y at %-I:%M:%S %p"
 msgstr "%a, %-d de %b de %Y às %-H:%M:%S"
 
-#: ../libnautilus-private/nautilus-file.c:3743
+#: ../libnautilus-private/nautilus-file.c:3747
 msgid "Mon, Oct 00 0000 at 00:00 PM"
 msgstr "Seg, 00 de Out de 0000 às 00:00 PM"
 
-#: ../libnautilus-private/nautilus-file.c:3744
+#: ../libnautilus-private/nautilus-file.c:3748
 msgid "%a, %b %-d %Y at %-I:%M %p"
 msgstr "%a, %-d de %b de %Y às %-H:%M"
 
-#: ../libnautilus-private/nautilus-file.c:3746
+#: ../libnautilus-private/nautilus-file.c:3750
 msgid "Oct 00 0000 at 00:00 PM"
 msgstr "00 de Out de 0000 às 00:00 PM"
 
-#: ../libnautilus-private/nautilus-file.c:3747
+#: ../libnautilus-private/nautilus-file.c:3751
 msgid "%b %-d %Y at %-I:%M %p"
 msgstr "%-d de %b de %Y às %-H:%M"
 
-#: ../libnautilus-private/nautilus-file.c:3749
+#: ../libnautilus-private/nautilus-file.c:3753
 msgid "Oct 00 0000, 00:00 PM"
 msgstr "00 de Out de 0000, 00:00 PM"
 
-#: ../libnautilus-private/nautilus-file.c:3750
+#: ../libnautilus-private/nautilus-file.c:3754
 msgid "%b %-d %Y, %-I:%M %p"
 msgstr "%-d de %b de %Y, %-H:%M"
 
-#: ../libnautilus-private/nautilus-file.c:3752
+#: ../libnautilus-private/nautilus-file.c:3756
 msgid "00/00/00, 00:00 PM"
 msgstr "00/00/00, 00:00 PM"
 
-#: ../libnautilus-private/nautilus-file.c:3753
+#: ../libnautilus-private/nautilus-file.c:3757
 msgid "%m/%-d/%y, %-I:%M %p"
 msgstr "%-d/%m/%y, %-H:%M"
 
-#: ../libnautilus-private/nautilus-file.c:3755
+#: ../libnautilus-private/nautilus-file.c:3759
 msgid "00/00/00"
 msgstr "00/00/00"
 
-#: ../libnautilus-private/nautilus-file.c:3756
+#: ../libnautilus-private/nautilus-file.c:3760
 msgid "%m/%d/%y"
 msgstr "%d/%m/%y"
 
-#: ../libnautilus-private/nautilus-file.c:4369
+#: ../libnautilus-private/nautilus-file.c:4373
 #, c-format
 msgid "Not allowed to set permissions"
 msgstr "Não autorizado a definir permissões"
 
-#: ../libnautilus-private/nautilus-file.c:4677
+#: ../libnautilus-private/nautilus-file.c:4681
 #, c-format
 msgid "Not allowed to set owner"
 msgstr "Não autorizado a definir o proprietário"
 
-#: ../libnautilus-private/nautilus-file.c:4695
+#: ../libnautilus-private/nautilus-file.c:4699
 #, c-format
 msgid "Specified owner '%s' doesn't exist"
 msgstr "Proprietário especificado \"%s\" não existe"
 
-#: ../libnautilus-private/nautilus-file.c:4959
+#: ../libnautilus-private/nautilus-file.c:4963
 #, c-format
 msgid "Not allowed to set group"
 msgstr "Não autorizado a definir o grupo"
 
-#: ../libnautilus-private/nautilus-file.c:4977
+#: ../libnautilus-private/nautilus-file.c:4981
 #, c-format
 msgid "Specified group '%s' doesn't exist"
 msgstr "Grupo especificado \"%s\" não existe"
 
-#: ../libnautilus-private/nautilus-file.c:5120
+#: ../libnautilus-private/nautilus-file.c:5124
 #: ../src/file-manager/fm-directory-view.c:2198
 #, c-format
 msgid "%'u item"
@@ -2701,14 +2701,14 @@ msgid_plural "%'u items"
 msgstr[0] "%'u item"
 msgstr[1] "%'u itens"
 
-#: ../libnautilus-private/nautilus-file.c:5121
+#: ../libnautilus-private/nautilus-file.c:5125
 #, c-format
 msgid "%'u folder"
 msgid_plural "%'u folders"
 msgstr[0] "%'u pasta"
 msgstr[1] "%'u pastas"
 
-#: ../libnautilus-private/nautilus-file.c:5122
+#: ../libnautilus-private/nautilus-file.c:5126
 #, c-format
 msgid "%'u file"
 msgid_plural "%'u files"
@@ -2716,51 +2716,51 @@ msgstr[0] "%'u arquivo"
 msgstr[1] "%'u arquivos"
 
 #. Do this in a separate stage so that we don't have to put G_GUINT64_FORMAT in the translated string
-#: ../libnautilus-private/nautilus-file.c:5201
+#: ../libnautilus-private/nautilus-file.c:5205
 msgid "%"
 msgstr "%"
 
-#: ../libnautilus-private/nautilus-file.c:5202
+#: ../libnautilus-private/nautilus-file.c:5206
 #, c-format
 msgid "%s (%s bytes)"
 msgstr "%s (%s bytes)"
 
 #. This means no contents at all were readable
-#: ../libnautilus-private/nautilus-file.c:5506
-#: ../libnautilus-private/nautilus-file.c:5522
+#: ../libnautilus-private/nautilus-file.c:5510
+#: ../libnautilus-private/nautilus-file.c:5526
 msgid "? items"
 msgstr "? itens"
 
 #. This means no contents at all were readable
-#: ../libnautilus-private/nautilus-file.c:5512
+#: ../libnautilus-private/nautilus-file.c:5516
 msgid "? bytes"
 msgstr "? bytes"
 
-#: ../libnautilus-private/nautilus-file.c:5527
+#: ../libnautilus-private/nautilus-file.c:5531
 msgid "unknown type"
 msgstr "tipo desconhecido"
 
-#: ../libnautilus-private/nautilus-file.c:5530
+#: ../libnautilus-private/nautilus-file.c:5534
 msgid "unknown MIME type"
 msgstr "tipo MIME desconhecido"
 
 #. Fallback, use for both unknown attributes and attributes
 #. * for which we have no more appropriate default.
 #.
-#: ../libnautilus-private/nautilus-file.c:5536
+#: ../libnautilus-private/nautilus-file.c:5540
 #: ../src/file-manager/fm-properties-window.c:1322
 msgid "unknown"
 msgstr "desconhecido"
 
-#: ../libnautilus-private/nautilus-file.c:5585
+#: ../libnautilus-private/nautilus-file.c:5589
 msgid "program"
 msgstr "programa"
 
-#: ../libnautilus-private/nautilus-file.c:5605
+#: ../libnautilus-private/nautilus-file.c:5609
 msgid "link"
 msgstr "link"
 
-#: ../libnautilus-private/nautilus-file.c:5627
+#: ../libnautilus-private/nautilus-file.c:5631
 msgid "link (broken)"
 msgstr "link (quebrado)"
 
@@ -3072,19 +3072,21 @@ msgid_plural "This will open %d separate windows."
 msgstr[0] "Isso abrirá %d janela separada."
 msgstr[1] "Isso abrirá %d janelas separadas."
 
-#: ../libnautilus-private/nautilus-mime-actions.c:1066
+#: ../libnautilus-private/nautilus-mime-actions.c:1068
+#, fuzzy
+#| msgid "There was an internal error trying to search for applications"
+msgid "There was an internal error trying to search for applications:"
+msgstr "Houve um erro interno ao tentar pesquisar por aplicativos"
+
+#: ../libnautilus-private/nautilus-mime-actions.c:1070
 msgid "Unable to search for application"
 msgstr "Não foi possível pesquisar pelo aplicativo"
 
-#: ../libnautilus-private/nautilus-mime-actions.c:1067
-msgid "There was an internal error trying to search for applications"
-msgstr "Houve um erro interno ao tentar pesquisar por aplicativos"
-
-#: ../libnautilus-private/nautilus-mime-actions.c:1139
+#: ../libnautilus-private/nautilus-mime-actions.c:1146
 msgid "Could not use system package installer"
 msgstr "Não foi possível usar o instalador de pacotes do sistema"
 
-#: ../libnautilus-private/nautilus-mime-actions.c:1197
+#: ../libnautilus-private/nautilus-mime-actions.c:1204
 #: ../src/nautilus-window-manage-views.c:1880
 #: ../src/nautilus-window-manage-views.c:1886
 #: ../src/nautilus-window-manage-views.c:1903
@@ -3095,16 +3097,16 @@ msgstr "Não foi possível usar o instalador de pacotes do sistema"
 msgid "Could not display \"%s\"."
 msgstr "Não foi possível exibir \"%s\"."
 
-#: ../libnautilus-private/nautilus-mime-actions.c:1218
+#: ../libnautilus-private/nautilus-mime-actions.c:1225
 msgid "The file is of an unknown type"
 msgstr "O tipo do arquivo é desconhecido"
 
-#: ../libnautilus-private/nautilus-mime-actions.c:1221
+#: ../libnautilus-private/nautilus-mime-actions.c:1228
 #, c-format
 msgid "There is no application installed for %s files"
 msgstr "Não existe aplicativo instalado para os arquivos %s"
 
-#: ../libnautilus-private/nautilus-mime-actions.c:1236
+#: ../libnautilus-private/nautilus-mime-actions.c:1243
 #, c-format
 msgid ""
 "There is no application installed for %s files.\n"
@@ -3113,17 +3115,17 @@ msgstr ""
 "Não existe aplicativo instalado para os arquivos %s.\n"
 "Você deseja pesquisar por um aplicativo capaz de abrir estes arquivos?"
 
-#: ../libnautilus-private/nautilus-mime-actions.c:1514
-#: ../libnautilus-private/nautilus-mime-actions.c:1772
+#: ../libnautilus-private/nautilus-mime-actions.c:1521
+#: ../libnautilus-private/nautilus-mime-actions.c:1779
 msgid "Unable to mount location"
 msgstr "Não foi possível montar a localização"
 
-#: ../libnautilus-private/nautilus-mime-actions.c:1860
+#: ../libnautilus-private/nautilus-mime-actions.c:1867
 #, c-format
 msgid "Opening \"%s\"."
 msgstr "Abrindo \"%s\"."
 
-#: ../libnautilus-private/nautilus-mime-actions.c:1863
+#: ../libnautilus-private/nautilus-mime-actions.c:1870
 #, c-format
 msgid "Opening %d item."
 msgid_plural "Opening %d items."
@@ -4351,39 +4353,39 @@ msgstr[1] "Navegar em %'d novas a_bas"
 msgid "Delete all selected items permanently"
 msgstr "Exclui permanentemente todos os itens selecionados"
 
-#: ../src/file-manager/fm-directory-view.c:9189
+#: ../src/file-manager/fm-directory-view.c:9195
 msgid "Download location?"
 msgstr "Baixar desta localização?"
 
-#: ../src/file-manager/fm-directory-view.c:9192
+#: ../src/file-manager/fm-directory-view.c:9198
 msgid "You can download it or make a link to it."
 msgstr "Você pode baixá-la ou criar um link para ela."
 
-#: ../src/file-manager/fm-directory-view.c:9195
+#: ../src/file-manager/fm-directory-view.c:9201
 msgid "Make a _Link"
 msgstr "Criar _link"
 
-#: ../src/file-manager/fm-directory-view.c:9199
+#: ../src/file-manager/fm-directory-view.c:9205
 msgid "_Download"
 msgstr "_Baixar"
 
-#: ../src/file-manager/fm-directory-view.c:9261
-#: ../src/file-manager/fm-directory-view.c:9326
-#: ../src/file-manager/fm-directory-view.c:9431
+#: ../src/file-manager/fm-directory-view.c:9267
+#: ../src/file-manager/fm-directory-view.c:9332
+#: ../src/file-manager/fm-directory-view.c:9437
 msgid "Drag and drop is not supported."
 msgstr "Arrastar e soltar sem suporte."
 
-#: ../src/file-manager/fm-directory-view.c:9262
+#: ../src/file-manager/fm-directory-view.c:9268
 msgid "Drag and drop is only supported on local file systems."
 msgstr "Arrastar e soltar só tem suporte em sistemas de arquivos locais."
 
-#: ../src/file-manager/fm-directory-view.c:9327
-#: ../src/file-manager/fm-directory-view.c:9432
+#: ../src/file-manager/fm-directory-view.c:9333
+#: ../src/file-manager/fm-directory-view.c:9438
 msgid "An invalid drag type was used."
 msgstr "Um tipo de arraste inválido foi usado."
 
 #. Translator: This is the filename used for when you dnd text to a directory
-#: ../src/file-manager/fm-directory-view.c:9499
+#: ../src/file-manager/fm-directory-view.c:9505
 msgid "dropped text.txt"
 msgstr "text.txt solto"
 
@@ -5159,7 +5161,7 @@ msgstr ""
 
 #: ../src/nautilus-bookmarks-window.c:158
 #: ../src/nautilus-file-management-properties.c:209
-#: ../src/nautilus-property-browser.c:1583 ../src/nautilus-window-menus.c:573
+#: ../src/nautilus-property-browser.c:1569 ../src/nautilus-window-menus.c:573
 #, c-format
 msgid ""
 "There was an error displaying help: \n"
@@ -5787,7 +5789,9 @@ msgid "Perform a quick set of self-check tests."
 msgstr "Realizar um conjunto rápido de testes automáticos."
 
 #: ../src/nautilus-main.c:329
-msgid "Show the version of the progam."
+#, fuzzy
+#| msgid "Show the version of the progam."
+msgid "Show the version of the program."
 msgstr "Mostrar a versão do programa."
 
 #: ../src/nautilus-main.c:331
@@ -6156,145 +6160,145 @@ msgstr "Desculpe, mas não foi possível excluir o padrão %s."
 msgid "Check that you have permission to delete the pattern."
 msgstr "Verifique se você tem permissões para excluir o padrão."
 
-#: ../src/nautilus-property-browser.c:960
+#: ../src/nautilus-property-browser.c:947
 #, c-format
 msgid "Sorry, but emblem %s could not be deleted."
 msgstr "Desculpe, mas não foi possível excluir o emblema %s."
 
-#: ../src/nautilus-property-browser.c:961
+#: ../src/nautilus-property-browser.c:948
 msgid "Check that you have permission to delete the emblem."
 msgstr "Verifique se você tem permissões para excluir o emblema."
 
-#: ../src/nautilus-property-browser.c:1029
+#: ../src/nautilus-property-browser.c:1015
 msgid "Select an Image File for the New Emblem"
 msgstr "Selecione um arquivo de imagem para o novo emblema:"
 
-#: ../src/nautilus-property-browser.c:1069
+#: ../src/nautilus-property-browser.c:1055
 msgid "Create a New Emblem"
 msgstr "Criar novo emblema"
 
 #. make the keyword label and field
-#: ../src/nautilus-property-browser.c:1091
+#: ../src/nautilus-property-browser.c:1077
 msgid "_Keyword:"
 msgstr "_Palavra-chave:"
 
 #. set up a file chooser to pick the image file
-#: ../src/nautilus-property-browser.c:1110
+#: ../src/nautilus-property-browser.c:1096
 msgid "_Image:"
 msgstr "_Imagem:"
 
-#: ../src/nautilus-property-browser.c:1141
+#: ../src/nautilus-property-browser.c:1127
 msgid "Create a New Color:"
 msgstr "Criar uma nova cor:"
 
 #. make the name label and field
-#: ../src/nautilus-property-browser.c:1155
+#: ../src/nautilus-property-browser.c:1141
 msgid "Color _name:"
 msgstr "_Nome da cor:"
 
-#: ../src/nautilus-property-browser.c:1171
+#: ../src/nautilus-property-browser.c:1157
 msgid "Color _value:"
 msgstr "_Valor da cor:"
 
-#: ../src/nautilus-property-browser.c:1205
+#: ../src/nautilus-property-browser.c:1191
 msgid "Sorry, but you cannot replace the reset image."
 msgstr "Desculpe, mas você não pode substituir a imagem de restauração."
 
-#: ../src/nautilus-property-browser.c:1206
+#: ../src/nautilus-property-browser.c:1192
 msgid "Reset is a special image that cannot be deleted."
 msgstr ""
 "A imagem de restauração é uma imagem especial que não pode ser excluída."
 
-#: ../src/nautilus-property-browser.c:1234
+#: ../src/nautilus-property-browser.c:1220
 #, c-format
 msgid "Sorry, but the pattern %s could not be installed."
 msgstr "Desculpe, mas não foi possível instalar o padrão %s."
 
-#: ../src/nautilus-property-browser.c:1262
+#: ../src/nautilus-property-browser.c:1248
 msgid "Select an Image File to Add as a Pattern"
 msgstr "Selecione um arquivo de imagem para adicionar como padrão"
 
-#: ../src/nautilus-property-browser.c:1334
-#: ../src/nautilus-property-browser.c:1362
+#: ../src/nautilus-property-browser.c:1320
+#: ../src/nautilus-property-browser.c:1348
 msgid "The color cannot be installed."
 msgstr "Não é possível instalar a cor."
 
-#: ../src/nautilus-property-browser.c:1335
+#: ../src/nautilus-property-browser.c:1321
 msgid "Sorry, but you must specify an unused color name for the new color."
 msgstr "Desculpe, mas você deve especificar um nome não usado para a nova cor."
 
-#: ../src/nautilus-property-browser.c:1363
+#: ../src/nautilus-property-browser.c:1349
 msgid "Sorry, but you must specify a non-blank name for the new color."
 msgstr "Desculpe, mas você deve especificar um nome não-vazio para a nova cor."
 
-#: ../src/nautilus-property-browser.c:1415
+#: ../src/nautilus-property-browser.c:1401
 msgid "Select a Color to Add"
 msgstr "Selecione uma cor a adicionar"
 
-#: ../src/nautilus-property-browser.c:1452
-#: ../src/nautilus-property-browser.c:1469
+#: ../src/nautilus-property-browser.c:1438
+#: ../src/nautilus-property-browser.c:1455
 #, c-format
 msgid "Sorry, but \"%s\" is not a usable image file."
 msgstr "Desculpe, mas \"%s\" não é um arquivo de imagem usável."
 
-#: ../src/nautilus-property-browser.c:1453
-#: ../src/nautilus-property-browser.c:1470
+#: ../src/nautilus-property-browser.c:1439
+#: ../src/nautilus-property-browser.c:1456
 msgid "The file is not an image."
 msgstr "O arquivo não é uma imagem."
 
-#: ../src/nautilus-property-browser.c:2156
+#: ../src/nautilus-property-browser.c:2149
 msgid "Select a Category:"
 msgstr "Selecione uma categoria:"
 
-#: ../src/nautilus-property-browser.c:2165
+#: ../src/nautilus-property-browser.c:2158
 msgid "C_ancel Remove"
 msgstr "C_ancelar remoção"
 
-#: ../src/nautilus-property-browser.c:2171
+#: ../src/nautilus-property-browser.c:2164
 msgid "_Add a New Pattern..."
 msgstr "_Adicionar um novo padrão..."
 
-#: ../src/nautilus-property-browser.c:2174
+#: ../src/nautilus-property-browser.c:2167
 msgid "_Add a New Color..."
 msgstr "_Adicionar uma nova cor..."
 
-#: ../src/nautilus-property-browser.c:2177
+#: ../src/nautilus-property-browser.c:2170
 msgid "_Add a New Emblem..."
 msgstr "_Adicionar um novo emblema..."
 
-#: ../src/nautilus-property-browser.c:2200
+#: ../src/nautilus-property-browser.c:2193
 msgid "Click on a pattern to remove it"
 msgstr "Clique sobre um padrão para removê-lo"
 
-#: ../src/nautilus-property-browser.c:2203
+#: ../src/nautilus-property-browser.c:2196
 msgid "Click on a color to remove it"
 msgstr "Clique sobre uma cor para removê-la"
 
-#: ../src/nautilus-property-browser.c:2206
+#: ../src/nautilus-property-browser.c:2199
 msgid "Click on an emblem to remove it"
 msgstr "Clique sobre um emblema para removê-lo"
 
-#: ../src/nautilus-property-browser.c:2215
+#: ../src/nautilus-property-browser.c:2208
 msgid "Patterns:"
 msgstr "Padrões:"
 
-#: ../src/nautilus-property-browser.c:2218
+#: ../src/nautilus-property-browser.c:2211
 msgid "Colors:"
 msgstr "Cores:"
 
-#: ../src/nautilus-property-browser.c:2221
+#: ../src/nautilus-property-browser.c:2214
 msgid "Emblems:"
 msgstr "Emblemas:"
 
-#: ../src/nautilus-property-browser.c:2241
+#: ../src/nautilus-property-browser.c:2234
 msgid "_Remove a Pattern..."
 msgstr "_Remover um padrão..."
 
-#: ../src/nautilus-property-browser.c:2244
+#: ../src/nautilus-property-browser.c:2237
 msgid "_Remove a Color..."
 msgstr "_Remover uma cor..."
 
-#: ../src/nautilus-property-browser.c:2247
+#: ../src/nautilus-property-browser.c:2240
 msgid "_Remove an Emblem..."
 msgstr "_Remover um emblema..."
 
