@@ -1,15 +1,16 @@
 # Brazilian Portuguese translation of gparted.
 # This file is distributed under the same license as the gparted package.
-# Copyright (C) 2008 Free Software Foundation, Inc.
-# Fabrício Godoy <skarllot@gmail.com>, 2008.
-# Leonardo Ferreira Fontenelle <leonardof@gnome.org>, 2008
+# Copyright (C) 2008-2009 Free Software Foundation, Inc.
+# Fabrício Godoy <skarllot@gmail.com>, 2008-2009.
+# Leonardo Ferreira Fontenelle <leonardof@gnome.org>, 2008.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: gparted HEAD\n"
 "POT-Creation-Date: 2009-01-20 17:05+0000\n"
-"PO-Revision-Date: 2008-12-19 18:08-0200\n"
-"Last-Translator: Leonardo Ferreira Fontenelle <leonardof@gnome.org>\n"
-"Language-Team: Brazilian Portuguese <gnome-l10n-br@listas.cipsga.org.br>\n"
+"PO-Revision-Date: 2009-01-21 22:31-0200\n"
+"Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
+"Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -33,39 +34,24 @@ msgid "GParted Project"
 msgstr "Projeto do GParted"
 
 #: C/gparted.xml:35(para)
-#, fuzzy
-#| msgid ""
-#| "GParted is the Gnome Partition Editor for creating, reorganising, and "
-#| "deleting disk partitions"
 msgid ""
 "GParted is the Gnome Partition Editor for creating, reorganizing, and "
 "deleting disk partitions. GParted enables you to change the partition "
 "organization while preserving the partition contents."
 msgstr ""
 "GParted é um editor de partições do GNOME para criação, reorganização e "
-"exclusão de partições de disco"
+"exclusão de partições de disco. O GParted permite que você altere a "
+"organização das partições preservando todo o conteúdo de cada partição."
 
 #: C/gparted.xml:44(year)
-#, fuzzy
-#| msgid "2007"
 msgid "2009"
-msgstr "2007"
+msgstr "2009"
 
 #: C/gparted.xml:45(holder) C/gparted.xml:103(para)
 msgid "Curtis Gedak"
-msgstr ""
+msgstr "Curtis Gedak"
 
 #: C/gparted.xml:56(para)
-#, fuzzy
-#| msgid ""
-#| "Permission is granted to copy, distribute and/or modify this document "
-#| "under the terms of the GNU Free Documentation License, Version 1.2 or any "
-#| "later version published by the Free Software Foundation; with no "
-#| "Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. You "
-#| "can find a copy of the GFDL at this <ulink type=\"help\" url=\"ghelp:fdl"
-#| "\">link</ulink> or at <ulink url=\"http://www.fsf.org/licensing/licenses/"
-#| "fdl.html\">http://www.fsf.org/licensing/licenses/fdl.html</ulink> or in "
-#| "the file COPYING-DOCS distributed with this manual."
 msgid ""
 "Permission is granted to copy, distribute and/or modify this document under "
 "the terms of the GNU Free Documentation License, Version 1.2 or any later "
@@ -80,42 +66,37 @@ msgstr ""
 "License), Versão 1.2 ou qualquer versão mais recente publicada pela Free "
 "Software Foundation; sem Seções Invariantes, sem Textos de Capa Frontal, e "
 "sem Textos de Contracapa. Você pode encontrar uma cópia da licença GFDL no "
-"<ulink type=\"help\" url=\"ghelp:fdl\">link</ulink> ou em <ulink url="
-"\"http://www.fsf.org/licensing/licenses/fdl.html\">http://www.fsf.org/"
-"licensing/licenses/fdl.html</ulink> ou no arquivo COPYING-DOCS distribuído "
-"com este manual."
+"<ulink type=\"help\" url=\"ghelp:fdl\">link</ulink> ou em <ulink type=\"http"
+"\" url=\"http://www.fsf.org/licensing/licenses/fdl.html\"/> ou no arquivo "
+"COPYING-DOCS distribuído com este manual."
 
 #: C/gparted.xml:70(firstname)
 msgid "Curtis"
-msgstr ""
+msgstr "Curtis"
 
 #: C/gparted.xml:71(surname)
 msgid "Gedak"
-msgstr ""
+msgstr "Gedak"
 
 #: C/gparted.xml:75(email)
 msgid "gedakc@users.sf.net"
-msgstr ""
+msgstr "gedakc@users.sf.net"
 
 #: C/gparted.xml:100(revnumber)
-#, fuzzy
-#| msgid "GParted Manual"
 msgid "GParted Manual V1.0"
-msgstr "Manual do GParted"
+msgstr "Manual do GParted v1.0"
 
 #: C/gparted.xml:101(date)
 msgid "January 2009"
-msgstr ""
+msgstr "Janeiro de 2009"
 
 #: C/gparted.xml:119(releaseinfo)
-#, fuzzy
-#| msgid "This manual describes version 0.3.9 of GParted"
 msgid "This manual describes version 0.4.2 of GParted"
-msgstr "Este manual descreve a versão 0.3.9 do GParted"
+msgstr "Este manual descreve a versão 0.4.2 do GParted"
 
 #: C/gparted.xml:124(title)
 msgid "Feedback"
-msgstr ""
+msgstr "Feedback"
 
 #: C/gparted.xml:125(para)
 msgid ""
@@ -123,22 +104,21 @@ msgid ""
 "application> application or this manual, follow the directions at <ulink "
 "type=\"http\" url=\"http://gparted.sourceforge.net/bugs.php\"/>."
 msgstr ""
+"Para relatar um erro ou fazer uma sugestão relacionada ao aplicativo "
+"<application>gparted</application> ou este manual, visite <ulink type=\"http"
+"\" url=\"http://gparted.sourceforge.net/bugs.php\"/>."
 
 #: C/gparted.xml:139(title)
 msgid "Introduction"
 msgstr "Introdução"
 
 #: C/gparted.xml:140(para)
-#, fuzzy
-#| msgid ""
-#| "GParted is the Gnome Partition Editor for creating, reorganising, and "
-#| "deleting disk partitions"
 msgid ""
 "The <application>gparted</application> application is the GNOME partition "
 "editor for creating, reorganizing, and deleting disk partitions."
 msgstr ""
-"GParted é um editor de partições do GNOME para criação, reorganização e "
-"exclusão de partições de disco"
+"O aplicativo <application>gparted</application> é um editor de partições do "
+"GNOME para criação, reorganização e exclusão de partições de disco"
 
 #: C/gparted.xml:144(para)
 msgid ""
@@ -147,30 +127,40 @@ msgid ""
 "partition organization on a disk device while preserving the contents of the "
 "partition."
 msgstr ""
+"Um dispositivo de disco pode ser subdividido em uma ou mais partições. O "
+"aplicativo <application>gparted</application> permite que você altere a "
+"organização das partições em um dispositivo de disco preservando todo o "
+"conteúdo de cada partição."
 
 #: C/gparted.xml:155(para)
 msgid "Create a partition table on a disk device."
-msgstr ""
+msgstr "Criar uma tabela de partições no dispositivo de disco."
 
 #: C/gparted.xml:160(para)
 msgid "Enable and disable partition flags such as boot and hidden."
 msgstr ""
+"Habilitar e desabilitar sinalizadores de partição tais como \"boot\" e "
+"\"hidden\"."
 
 #: C/gparted.xml:165(para)
 msgid ""
 "Perform actions with partitions such as create, delete, resize, move, check, "
 "label, copy, and paste."
 msgstr ""
+"Realizar ações com as partições tais como criar, excluir, redimensionar, "
+"mover, verificar, etiquetar, copiar e colar."
 
 #: C/gparted.xml:150(para)
 msgid ""
 "With <application>gparted</application> you can accomplish the following "
 "tasks: <placeholder-1/>"
 msgstr ""
+"Com o <application>gparted</application> você pode efetuar as seguintes "
+"tarefas: <placeholder-1/>"
 
 #: C/gparted.xml:173(para)
 msgid "Editing partitions has the potential to cause LOSS of DATA."
-msgstr ""
+msgstr "Editar partições pode potencialmente causar PERDA de DADOS."
 
 #: C/gparted.xml:176(para)
 msgid ""
@@ -179,6 +169,11 @@ msgid ""
 "carefully tested and is used by the GParted project team. However, loss of "
 "data might occur due to software bugs, hardware problems, or power failure."
 msgstr ""
+"O aplicativo <application>gparted</application> é projetado para "
+"possibilitar que você edite partições cuidando para que o risco de perda de "
+"dados seja reduzido. O aplicativo foi cuidadosamente testado e é usado pela "
+"equipe do projeto GParted. Porém, perda de dados pode ocorrer devido a erros "
+"de software, problemas de hardware ou falha de energia."
 
 #: C/gparted.xml:185(para)
 msgid ""
@@ -186,131 +181,159 @@ msgid ""
 "partitions outside of the <application>gparted</application> application "
 "while <application>gparted</application> is running."
 msgstr ""
+"Você pode ajudar a reduzir o risco de perda de dados não montando e "
+"desmontando as partições fora do aplicativo <application>gparted</"
+"application> enquanto o <application>gparted</application> está sendo "
+"executado."
 
 #: C/gparted.xml:191(para)
 msgid ""
 "You are advised to BACKUP your DATA before using the <application>gparted</"
 "application> application."
 msgstr ""
+"Você é avisado para fazer BACKUP dos seus DADOS antes de usar o aplicativo "
+"<application>gparted</application>."
 
 #: C/gparted.xml:200(title)
 msgid "Getting Started"
-msgstr ""
+msgstr "Primeiros passos"
 
 #: C/gparted.xml:206(title)
 msgid "Starting gparted"
-msgstr ""
+msgstr "Iniciando o gparted"
 
 #: C/gparted.xml:207(para)
 msgid "You can start <application>gparted</application> in the following ways:"
 msgstr ""
+"Você pode iniciar o <application>gparted</application> das seguintes "
+"maneiras:"
 
 #: C/gparted.xml:212(term)
 msgid "<guimenu>Applications</guimenu> menu"
-msgstr ""
+msgstr "menu <guimenu>Aplicativos</guimenu>"
 
 #: C/gparted.xml:214(para)
 msgid ""
 "Choose <menuchoice><guisubmenu>System Tools</guisubmenu><guimenuitem>GParted "
 "Partition Editor</guimenuitem></menuchoice>."
 msgstr ""
+"Vá até <menuchoice><guisubmenu>Sistema</guisubmenu><guimenuitem>Editor de "
+"Partições GParted</guimenuitem></menuchoice>."
 
 #: C/gparted.xml:220(term)
 msgid "Command line"
-msgstr ""
+msgstr "Linha de comando"
 
 #: C/gparted.xml:222(para)
 msgid "Execute the following command: <command>gparted</command>"
-msgstr ""
+msgstr "Execute o seguinte comando: <command>gparted</command>"
 
 #: C/gparted.xml:228(para)
 msgid ""
 "On startup, <application>gparted</application> will scan your computer for "
 "disk devices."
 msgstr ""
+"Ao iniciar o <application>gparted</application> buscará dispositivos de "
+"disco no seu computador."
 
 #: C/gparted.xml:237(title)
 msgid "The gparted Window"
-msgstr ""
+msgstr "A janela do GParted"
 
 #: C/gparted.xml:238(para)
 msgid ""
 "When you start <application>gparted</application>, the following window is "
 "displayed:"
 msgstr ""
+"Quando você iniciar o <application>gparted</application> a seguinte janela "
+"será exibida:"
 
 #: C/gparted.xml:245(title)
 msgid "gparted Window"
-msgstr ""
+msgstr "Janela do GParted"
 
 #: C/gparted.xml:252(phrase)
 msgid "Shows gparted main window."
-msgstr ""
+msgstr "Mostra a janela principal do GParted."
 
 #: C/gparted.xml:258(para)
 msgid ""
 "The <application>gparted</application> window contains the following "
 "elements:"
 msgstr ""
+"A janela do <application>gparted</application> contém os seguintes elementos:"
 
 #: C/gparted.xml:264(term)
 msgid "Menubar"
-msgstr ""
+msgstr "Barra de menus"
 
 #: C/gparted.xml:266(para)
 msgid ""
 "The menus on the menubar contain all of the commands you need to work with "
 "disk devices and partitions in <application>gparted</application>."
 msgstr ""
+"Os menus da barra de menus contém todos os comandos que você precisa para "
+"trabalhar com os dispositivos de disco e partições no <application>gparted</"
+"application>."
 
 #: C/gparted.xml:274(term)
 msgid "Toolbar"
-msgstr ""
+msgstr "Barra de ferramentas"
 
 #: C/gparted.xml:276(para)
 msgid ""
 "The toolbar contains a subset of the commands that you can access from the "
 "menubar."
 msgstr ""
+"A barra de ferramentas contém um subconjunto dos comandos que você pode "
+"acessar da barra de menus."
 
 #: C/gparted.xml:283(term)
 msgid "Graphic Display Area"
-msgstr ""
+msgstr "Área de exibição de gráfico"
 
 #: C/gparted.xml:285(para)
 msgid ""
 "The graphic display area contains the visual representation of the "
 "partitions on the selected disk device."
 msgstr ""
+"A área de exibição de gráfico contém a representação visual das partições do "
+"dispositivo de disco selecionado."
 
 #: C/gparted.xml:292(term)
 msgid "Text Display Area"
-msgstr ""
+msgstr "Área de exibição de texto"
 
 #: C/gparted.xml:294(para)
 msgid ""
 "The text display area contains the text list of the partitions on the "
 "selected disk device."
 msgstr ""
+"A área de exibição de texto contém uma lista de texto das partições do "
+"dispositivo de disco selecionado."
 
 #: C/gparted.xml:301(term)
 msgid "Statusbar"
-msgstr ""
+msgstr "Barra de status"
 
 #: C/gparted.xml:303(para)
 msgid ""
 "The statusbar displays information about current <application>gparted</"
 "application> activity or the number of operations pending."
 msgstr ""
+"A barra de status exibe informações sobre a atividade atual do "
+"<application>gparted</application> ou o número de operações pendentes."
 
 #: C/gparted.xml:311(term)
 msgid "Device Information Pane"
-msgstr ""
+msgstr "Painel de informações de dispositivo"
 
 #: C/gparted.xml:313(para)
 msgid ""
 "The device information pane displays details about the selected disk device."
 msgstr ""
+"O painel de informações de dispositivo exibe detalhes sobre o dispositivo de "
+"disco selecionado."
 
 #: C/gparted.xml:317(para)
 msgid ""
@@ -318,16 +341,21 @@ msgid ""
 "information pane, choose <menuchoice><guimenu>View</"
 "guimenu><guimenuitem>Device Information</guimenuitem></menuchoice>."
 msgstr ""
+"Por padrão o painel de informações de dispositivo não é mostrado. Para "
+"mostrá-lo vá até <menuchoice><guimenu>Ver</guimenu><guimenuitem>Informações "
+"do dispositivo</guimenuitem></menuchoice>."
 
 #: C/gparted.xml:325(term)
 msgid "Pending Operations Pane"
-msgstr ""
+msgstr "Painel de operações pendentes"
 
 #: C/gparted.xml:327(para)
 msgid ""
 "The pending operations pane displays the current list of partition "
 "operations in the queue."
 msgstr ""
+"O painel de operações pendentes exibe a lista atual de operações de partição "
+"na fila."
 
 #: C/gparted.xml:331(para)
 msgid ""
@@ -336,12 +364,17 @@ msgid ""
 "<menuchoice><guimenu>View</guimenu><guimenuitem>Pending Operations</"
 "guimenuitem></menuchoice>."
 msgstr ""
+"Por padrão o painel de operações pendentes não é mostrado quando não há "
+"operações pendentes. Para mostrá-lo vá até <menuchoice><guimenu>Ver</"
+"guimenu><guimenuitem>Operações pendentes</guimenuitem></menuchoice>."
 
 #: C/gparted.xml:340(para)
 msgid ""
 "When you left-click in either display area, you select a partition to use "
 "for partition editing actions."
 msgstr ""
+"Quando você clica com o botão esquerdo em qualquer área de exibição você "
+"seleciona uma partição para executar ações de edição de partição."
 
 #: C/gparted.xml:344(para)
 msgid ""
@@ -349,6 +382,9 @@ msgid ""
 "popup menu. The popup menu contains the most common partition editing "
 "actions."
 msgstr ""
+"Quando você clica com o botão direito em qualquer área de exibição o "
+"aplicativo exibe um menu de contexto. O menu de contexto contém as ações de "
+"edição de partição "
 
 #: C/gparted.xml:350(para)
 msgid ""
