@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gparted HEAD\n"
 "POT-Creation-Date: 2009-01-20 17:05+0000\n"
-"PO-Revision-Date: 2009-01-21 22:31-0200\n"
+"PO-Revision-Date: 2009-01-24 18:33-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -23,6 +23,7 @@ msgstr ""
 msgid ""
 "@@image: 'figures/gparted_window.png'; md5=0c6eb27cd7d5d614b4ea752846ccb50b"
 msgstr ""
+"@@image: 'figures/gparted_window.png'; md5=5dd712f783266c13eacba9abedda06ab"
 
 #: C/gparted.xml:29(title)
 msgid "GParted Manual"
@@ -392,38 +393,45 @@ msgid ""
 "can be performed in several ways: with the menu, with the toolbar, or with "
 "shortcut keys."
 msgstr ""
+"Como outros aplicativos do GNOME, as ações no <application>gparted</"
+"application> pode ser realizadas de diversas maneiras: com o menu, com a "
+"barra de ferramentas ou as teclas de atalho."
 
 #: C/gparted.xml:358(title)
 msgid "Running gparted from a Command Line"
-msgstr ""
+msgstr "Executando o GParted da linha de comando"
 
 #: C/gparted.xml:359(para)
 msgid ""
 "You can run <application>gparted</application> from a command line and "
 "specify one or more disk devices."
 msgstr ""
+"Você pode executar o <application>gparted</application> da linha de comando "
+"e especificar um ou mais dispositivos de disco."
 
 #: C/gparted.xml:363(para)
 msgid ""
 "To work with multiple disk devices from a command line, type the following "
 "command, then press <keycap>Enter</keycap>:"
 msgstr ""
+"Para trabalhar com multiplos dispositivos de disco da linha de comando "
+"digite o seguinte comando e então pressione <keycap>Enter</keycap>:"
 
 #: C/gparted.xml:368(prompt)
 msgid "$"
-msgstr ""
+msgstr "$"
 
 #: C/gparted.xml:368(replaceable)
 msgid "/path-to-your-device1 /path-to-your-device2"
-msgstr ""
+msgstr "/caminho-do-dispositivo1 /caminho-do-dispositivo2"
 
 #: C/gparted.xml:368(command)
 msgid "gparted <placeholder-1/>"
-msgstr ""
+msgstr "gparted <placeholder-1/>"
 
 #: C/gparted.xml:376(title)
 msgid "Viewing File System Support"
-msgstr ""
+msgstr "Visualizando sistemas de arquivos com suporte"
 
 #: C/gparted.xml:377(para)
 msgid ""
@@ -432,12 +440,18 @@ msgid ""
 "guimenuitem></menuchoice>. The application displays the <guilabel>File "
 "System Support</guilabel> dialog."
 msgstr ""
+"Para ver quais ações há suporte nos sistemas de arquivos, vá até: "
+"<menuchoice><guimenu>Ver</guimenu><guimenuitem>Suporte ao sistema de "
+"arquivos</guimenuitem></menuchoice>. O aplicativo exibe o diálogo "
+"<guilabel>Suporte ao sistema de arquivos</guilabel>."
 
 #: C/gparted.xml:385(para)
 msgid ""
 "To view details about the chart, click <guibutton>Legend</guibutton>. The "
 "application displays more information about the chart."
 msgstr ""
+"Para ver detalhes sobre o gráfico, clique em <guibutton>Legenda</guibutton>. "
+"O aplicativo exibirá mais informações sobre o gráfico."
 
 #: C/gparted.xml:391(para)
 msgid ""
@@ -445,20 +459,26 @@ msgid ""
 "running, click <guibutton>Rescan For Supported Actions</guibutton> to "
 "refresh the chart. The application refreshes the display of the chart."
 msgstr ""
+"Se você instalou algum software enquanto o <application>gparted</"
+"application> estava executando, clique em <guibutton>Varrer novamente por "
+"ações suportadas</guibutton> para atualizar o gráfico. O aplicativo atualiza "
+"a exibição do gráfico."
 
 #: C/gparted.xml:400(para)
 msgid ""
 "To close the <guilabel>File System Support</guilabel> dialog, click "
 "<guibutton>Close</guibutton>."
 msgstr ""
+"Para fechar o diálogo <guilabel>Suporte ao sistema de arquivos</guilabel> "
+"clique em <guibutton>Fechar</guibutton>."
 
 #: C/gparted.xml:408(title)
 msgid "Working with Devices"
-msgstr ""
+msgstr "Trabalhando com dispositivos"
 
 #: C/gparted.xml:412(title)
 msgid "Selecting a Device"
-msgstr ""
+msgstr "Selecionando um dispositivo"
 
 #: C/gparted.xml:413(para)
 msgid ""
@@ -467,14 +487,21 @@ msgid ""
 "from the list. The application displays the device partition layout in the "
 "<application>gparted</application> window."
 msgstr ""
+"Para selecionar um dispositivo de disco, vá até: "
+"<menuchoice><guimenu>GParted</guimenu><guimenuitem>Dispositivos</"
+"guimenuitem></menuchoice> e selecione um dispositivo da lista. O aplicativo "
+"exibirá o layout de partição do dispositivo na janela do "
+"<application>gparted</application>."
 
 #: C/gparted.xml:424(title)
 msgid "Viewing Device Information"
-msgstr ""
+msgstr "Visualizando as informações de dispositivo"
 
 #: C/gparted.xml:429(para) C/gparted.xml:470(para)
 msgid "Select a disk device. See <xref linkend=\"gparted-select-device\"/>."
 msgstr ""
+"Selecione um dispositivo de disco. Consulte <xref linkend=\"gparted-select-"
+"device\"/>."
 
 #: C/gparted.xml:435(para)
 msgid ""
@@ -483,10 +510,14 @@ msgid ""
 "<application>gparted</application> window and displays information about the "
 "device."
 msgstr ""
+"Selecione: <menuchoice><guimenu>Ver</guimenu><guimenuitem>Informações do "
+"dispositivo</guimenuitem></menuchoice>. O aplicativo abrirá um painel "
+"lateral na janela do <application>gparted</application> e exibirá "
+"informações sobre o dispositivo."
 
 #: C/gparted.xml:425(para)
 msgid "To view information about a disk device: <placeholder-1/>"
-msgstr ""
+msgstr "Para ver informações sobre um dispositivo de disco: <placeholder-1/>"
 
 #: C/gparted.xml:445(para)
 msgid ""
@@ -494,10 +525,13 @@ msgid ""
 "<menuchoice><guimenu>View</guimenu><guimenuitem>Device Information</"
 "guimenuitem></menuchoice>."
 msgstr ""
+"Para fechar o painel lateral <guilabel>Informações do dispositivo</"
+"guilabel>, desmarque: <menuchoice><guimenu>Ver</"
+"guimenu><guimenuitem>Informações do dispositivo</guimenuitem></menuchoice>."
 
 #: C/gparted.xml:454(title)
 msgid "Refreshing All Devices"
-msgstr ""
+msgstr "Atualizando todos os dispositivos"
 
 #: C/gparted.xml:455(para)
 msgid ""
@@ -506,10 +540,15 @@ msgid ""
 "application rescans all the disk devices and refreshes the device partition "
 "layout in the <application>gparted</application> window."
 msgstr ""
+"Para atualizar todos os dispositivos de disco, vá até: "
+"<menuchoice><guimenu>GParted</guimenu><guimenuitem>Atualizar dispositivos</"
+"guimenuitem></menuchoice>. O aplicativo varrerá novamente todos os "
+"dispositivos de disco e atualizará o layout de partição do dispositivo na "
+"janela do <application>gparted</application>."
 
 #: C/gparted.xml:465(title)
 msgid "Creating a New Partition Table"
-msgstr ""
+msgstr "Criando uma nova tabela de partição"
 
 #: C/gparted.xml:476(para)
 msgid ""
