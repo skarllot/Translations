@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gparted HEAD\n"
 "POT-Creation-Date: 2009-01-20 17:05+0000\n"
-"PO-Revision-Date: 2009-01-24 18:33-0200\n"
+"PO-Revision-Date: 2009-01-31 17:14-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -557,12 +557,19 @@ msgid ""
 "<guilabel>Create partition table on <replaceable>/path-to-device</"
 "replaceable></guilabel> dialog."
 msgstr ""
+"Vá até <menuchoice><guimenu>Dispositivo</guimenu><guimenuitem>Criar tabela "
+"de partição</guimenuitem></menuchoice>. O aplicativo exibirá um diálogo "
+"<guilabel>Criar tabela de partições em <replaceable>/caminho-ao-dispositivo</"
+"replaceable></guilabel>."
 
 #: C/gparted.xml:485(para)
 msgid ""
 "If you want a partition table other than msdos, click <guibutton>Advanced</"
 "guibutton> and select a partition table type from the list."
 msgstr ""
+"Se você desejar uma tabela de partições que não seja msdos, clique em "
+"<guibutton>Avançado</guibutton> e selecione um tipo de tabela de partições "
+"da lista."
 
 #: C/gparted.xml:492(para)
 msgid ""
@@ -571,54 +578,64 @@ msgid ""
 "application refreshes the device partition layout in the "
 "<application>gparted</application> window."
 msgstr ""
+"Clique em <guibutton>Criar</guibutton> para criar uma nova tabela de "
+"partições. O aplicativo gravará a nova tabela de partições no dispositivo de "
+"disco. O aplicativo atualizará o layout de partições do dispositivo na "
+"janela do <application>gparted</application>."
 
 #: C/gparted.xml:466(para)
 msgid "To create a new partition table on a disk device: <placeholder-1/>"
 msgstr ""
+"Criar uma nova tabela de partições no dispositivo de disco: <placeholder-1/>"
 
 #: C/gparted.xml:502(para)
 msgid "WARNING: This will ERASE ALL DATA on the ENTIRE DISK DEVICE."
-msgstr ""
+msgstr "AVISO: Isto APAGARÁ TODOS OS DADOS de TODO DISPOSITIVO DE DISCO."
 
 #: C/gparted.xml:505(para)
 msgid ""
 "If you accidentally overwrite your partition table, see <xref linkend="
 "\"gparted-recover-partition-table\"/>."
 msgstr ""
+"Se você acidentalmente sobrescrever sua tabela de partições, consulte <xref "
+"linkend=\"gparted-recover-partition-table\"/>."
 
 #: C/gparted.xml:516(title)
 msgid "Working with Partitions"
-msgstr ""
+msgstr "Trabalhando com partições"
 
 #: C/gparted.xml:520(title)
 msgid "Basic Partition Actions"
-msgstr ""
+msgstr "Ações básicas com partições"
 
 #: C/gparted.xml:521(para)
 msgid "These actions will not alter partitions on your disk device."
-msgstr ""
+msgstr "Estas ações não alterarão as partições do seu dispositivo de disco."
 
 #: C/gparted.xml:527(title)
 msgid "Selecting a Partition"
-msgstr ""
+msgstr "Selecionando uma partição"
 
 #: C/gparted.xml:532(para)
 msgid "Click on a partition in the graphic display area."
-msgstr ""
+msgstr "Clique em uma partição na área de exibição gráfica."
 
 #: C/gparted.xml:537(para)
 msgid "Click on a partition in the text display area."
-msgstr ""
+msgstr "Clique em uma partição na área de exibição de texto."
 
 #: C/gparted.xml:528(para)
 msgid "To select a partition, use one of the following: <placeholder-1/>"
 msgstr ""
+"Para selecionar uma partição use um dos seguintes métodos: <placeholder-1/>"
 
 #: C/gparted.xml:543(para)
 msgid ""
 "The application highlights the partition in both the graphic display area "
 "and the text display area in the <application>gparted</application> window."
 msgstr ""
+"O aplicativo destaca a partição tanto na área de exibição gráfica quanto na "
+"área de exibição de texto na janela do <application>gparted</application>."
 
 #: C/gparted.xml:549(para)
 msgid ""
@@ -626,22 +643,29 @@ msgid ""
 "label require the partition to be unmounted. See <xref linkend=\"gparted-"
 "unmount-partition\"/>."
 msgstr ""
+"Operações de partição como excluir, redimensionar, mover, copiar, formatar, "
+"verificar e rotular requerem que a partição seja desmontada. Consulte <xref "
+"linkend=\"gparted-unmount-partition\"/>."
 
 #: C/gparted.xml:560(title)
 msgid "Selecting Unallocated Space"
-msgstr ""
+msgstr "Selecionando espaço não alocado"
 
 #: C/gparted.xml:565(para)
 msgid "Click on <guilabel>unallocated</guilabel> in the graphic display area."
 msgstr ""
+"Clique em <guilabel>não alocada</guilabel> da área de exibição gráfica."
 
 #: C/gparted.xml:570(para)
 msgid "Click on <guilabel>unallocated</guilabel> in the text display area."
 msgstr ""
+"Clique em <guilabel>não alocada</guilabel> da área de exibição de texto."
 
 #: C/gparted.xml:561(para)
 msgid "To select unallocated space, use one of the following: <placeholder-1/>"
 msgstr ""
+"Para selecionar um espaço não alocado use um dos seguintes métodos: "
+"<placeholder-1/>"
 
 #: C/gparted.xml:576(para)
 msgid ""
@@ -649,6 +673,9 @@ msgid ""
 "area and the text display area in the <application>gparted</application> "
 "window."
 msgstr ""
+"O aplicativo destaca o espaço não alocado tanto na área de exibição gráfica "
+"quanto na área de exibição de texto na janela do <application>gparted</"
+"application>."
 
 #: C/gparted.xml:582(para)
 msgid ""
