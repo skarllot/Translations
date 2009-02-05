@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gparted HEAD\n"
 "POT-Creation-Date: 2009-01-20 17:05+0000\n"
-"PO-Revision-Date: 2009-01-31 17:14-0200\n"
+"PO-Revision-Date: 2009-02-05 02:25-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -1190,7 +1190,7 @@ msgid ""
 "arrow button, and select from the list."
 msgstr ""
 "Para especificar o tipo de partição clique em <guilabel>Criar como</"
-"guilabel> e selecione um da lista."
+"guilabel> e selecione um item da lista."
 
 #: C/gparted.xml:1053(para)
 msgid "Maximum of 4 primary partitions."
@@ -1244,59 +1244,78 @@ msgid ""
 "To specify the type of file system for the partition, click the "
 "<guilabel>File System</guilabel> arrow button, and select from the list."
 msgstr ""
+"Para especificar o tipo de sistema de arquivos para a partição clique em "
+"<guilabel>Sistema de arquivos</guilabel> e selecione um item da lista."
 
 #: C/gparted.xml:1099(para)
 msgid ""
 "Ext2, and ext3 file systems can be used for installing GNU/Linux, and for "
 "data."
 msgstr ""
+"Os sistemas de arquivos ext2 e ext3 podem ser usados para instalar o GNU/"
+"Linux e para dados."
 
 #: C/gparted.xml:1105(para)
 msgid ""
 "Linux-swap can be used with GNU/Linux to increase the virtual memory of your "
 "computer."
 msgstr ""
+"Linux-swap pode ser usado com o GNU/Linux para aumentar a memória virtual do "
+"seu computador."
 
 #: C/gparted.xml:1111(para)
 msgid ""
 "Fat16 and fat32 file systems can be used to share data between free and "
 "commercial operating systems."
 msgstr ""
+"Os sistemas de arquivos fat16 e fat32 podem ser usados para compartilhar "
+"dados entre sistemas operacionais livres e comerciais."
 
 #: C/gparted.xml:1117(para)
 msgid ""
 "Unformatted can be used if you want to create a partition with no file "
 "system."
 msgstr ""
+"Não formatado pode ser usado se você desejar criar uma partição sem sistema "
+"de arquivos."
 
 #: C/gparted.xml:1095(para)
 msgid "Examples of uses for some file systems are as follows: <placeholder-1/>"
 msgstr ""
+"Exemplos de usos para alguns sistemas de arquivos como segue: <placeholder-1/"
+">"
 
 #: C/gparted.xml:1129(title)
 msgid "Specifying Partition Label"
-msgstr ""
+msgstr "Especificando um rótulo de partição"
 
 #: C/gparted.xml:1130(para)
 msgid ""
 "To specify the partition label, also known as a volume label, type a label "
 "name in the <guilabel>Label</guilabel> text box."
 msgstr ""
+"Para especificar um rótulo de partição, também conhecido como rótulo de "
+"volume, digite um nome como rótulo na caixa de texto <guilabel>Rótulo</"
+"guilabel>."
 
 #: C/gparted.xml:1135(para)
 msgid ""
 "Labels can be used to help you remember what is stored in the partition."
 msgstr ""
+"Rótulos podem ser usados para ajudá-lo a lembrar o que está armazenado na "
+"partição."
 
 #: C/gparted.xml:1139(para)
 msgid ""
 "Unique labels can be used to mount file systems with the GNU/Linux operating "
 "system."
 msgstr ""
+"Rótulos únicos podem ser usados para montar sistemas de arquivos com o "
+"sistema operacional GNU/Linux."
 
 #: C/gparted.xml:1154(title)
 msgid "Advanced Partition Actions"
-msgstr ""
+msgstr "Ações avançadas de partição"
 
 #: C/gparted.xml:1155(para)
 msgid ""
@@ -1304,16 +1323,21 @@ msgid ""
 "modify the start or end boundaries of your existing partitions. These "
 "actions might cause operating systems to fail to boot."
 msgstr ""
+"Estas ações alterarão as partições do seu dispositivo de disco. Estas ações "
+"podem modificar os limites iniciais ou finaiss de suas partições existentes. "
+"Estas ações podem motivar os sistemas operacionais a falharem ao inicializar."
 
 #: C/gparted.xml:1164(title)
 msgid "Resizing a Partition"
-msgstr ""
+msgstr "Redimensionando uma partição"
 
 #: C/gparted.xml:1165(para)
 msgid ""
 "Resizing and moving a partition can be performed by a single "
 "<application>gparted</application> operation."
 msgstr ""
+"As operações de redimensionamento e movimentação uma partição podem ser "
+"realizadas por uma única operação no <application>gparted</application>."
 
 #: C/gparted.xml:1179(para) C/gparted.xml:1340(para)
 msgid ""
@@ -1321,18 +1345,26 @@ msgid ""
 "guimenuitem></menuchoice>. The application displays the <guilabel>Resize/"
 "Move <replaceable>/path-to-partition</replaceable></guilabel> dialog."
 msgstr ""
+"Vá até <menuchoice><guimenu>Partição</guimenu><guimenuitem>Redimensionar/"
+"Mover</guimenuitem></menuchoice>. O aplicativo exibirá o diálogo "
+"<guilabel>Redimensionar/Mover <replaceable>/caminho-à-partição</"
+"replaceable></guilabel>."
 
 #: C/gparted.xml:1188(para)
 msgid ""
 "Adjust the size of the partition. See <xref linkend=\"gparted-specify-"
 "partition-size-and-location\"/>."
 msgstr ""
+"Ajustar o tamanho da partição. Consulte <xref linkend=\"gparted-specify-"
+"partition-size-and-location\"/>."
 
 #: C/gparted.xml:1194(para) C/gparted.xml:1355(para)
 msgid ""
 "Specify the alignment of the partition. See <xref linkend=\"gparted-specify-"
 "partition-alignment\"/>."
 msgstr ""
+"Especificar o alinhamento da partição. Consulte <xref linkend=\"gparted-"
+"specify-partition-alignment\"/>."
 
 #: C/gparted.xml:1200(para) C/gparted.xml:1361(para)
 msgid ""
@@ -1340,28 +1372,37 @@ msgid ""
 "resize/move partition operation in the <guilabel>Pending Operations</"
 "guilabel> pane."
 msgstr ""
+"Clique em <guibutton>Redimensionar/Mover</guibutton>. O aplicativo exibirá a "
+"operação de redimensão/movimentação no painel <guilabel>Operação pendentes</"
+"guilabel>."
 
 #: C/gparted.xml:1207(para)
 msgid ""
 "Examine the operation that was added to the <guilabel>Pending Operations</"
 "guilabel> pane."
 msgstr ""
+"Examine a operação que foi adicionada ao painel <guilabel>Operações "
+"pendentes</guilabel>."
 
 #: C/gparted.xml:1216(para)
 msgid "A move step might take a long time to complete."
-msgstr ""
+msgstr "Uma movimentação pode levar um longo tempo para ser completada."
 
 #: C/gparted.xml:1222(para)
 msgid ""
 "If the partition is an operating system boot partition, then a move step "
 "might cause the operating system to fail to boot."
 msgstr ""
+"Se a partição é uma partição de inicialização do sistema operacional então "
+"uma movimentação pode motivar o sistema operacional a falhar ao inicializar."
 
 #: C/gparted.xml:1211(para)
 msgid ""
 "If the operation involves a move step, then consider the following: "
 "<placeholder-1/>"
 msgstr ""
+"Se a operação envolve uma movimentação então considere o seguinte: "
+"<placeholder-1/>"
 
 #: C/gparted.xml:1230(para)
 msgid ""
@@ -1369,38 +1410,49 @@ msgid ""
 "problems, then you might want to undo the operation. See <xref linkend="
 "\"gparted-undo-last-operation\"/>."
 msgstr ""
+"Se você não está preparado para esperar ou consertar potenciais problemas de "
+"inicialização do sistema operacional então você deveria desfazer a operação. "
+"Consulte <xref linkend=\"gparted-undo-last-operation\"/>."
 
 #: C/gparted.xml:1169(para)
 msgid "To resize a partition: <placeholder-1/>"
-msgstr ""
+msgstr "Redimensionar uma partição: <placeholder-1/>"
 
 #: C/gparted.xml:1240(para)
 msgid ""
 "To grow or move a partition, unallocated space must be available adjacent to "
 "the partition."
 msgstr ""
+"Para aumentar ou mover uma partição é necessário espaço não alocado "
+"disponível adjacente à partição."
 
 #: C/gparted.xml:1244(para)
 msgid ""
 "If you are growing a logical partition, then the unallocated space must be "
 "within the extended partition."
 msgstr ""
+"Se você está aumentando uma partição lógica então o espaço não alocado "
+"precisa estar dentro da partição extendida."
 
 #: C/gparted.xml:1248(para)
 msgid ""
 "If you are growing a primary partition, then the unallocated space must not "
 "be within the extended partition."
 msgstr ""
+"Se você está aumentando uma partição primária então o espaço não alocado "
+"precisa não estar dentro da partição extendida."
 
 #: C/gparted.xml:1252(para)
 msgid ""
 "You can move unallocated space to be inside or outside of the extended "
 "partition by resizing the extended partition boundaries."
 msgstr ""
+"Você pode mover espaço não alocado para estar dentro ou fora da partição "
+"extendida fazendo redimensionamento dos limites da partição extendida."
 
 #: C/gparted.xml:1263(para)
 msgid "Defragment the file system."
-msgstr ""
+msgstr "Desfragmentar o sistema de arquivos."
 
 #: C/gparted.xml:1266(para)
 msgid ""
@@ -1409,30 +1461,44 @@ msgid ""
 "press <keycap>F8</keycap> while your computer is booting the operating "
 "system."
 msgstr ""
+"Inicializando no modo seguro com o sistema operacional comercial que usa "
+"NTFS pode melhorar a possibilidade de desfragmentação do sistema de "
+"arquivos. Para entrar no modo seguro pressione <keycap>F8</keycap> enquanto "
+"seu computador está inicializando o sistema operacional."
 
 #: C/gparted.xml:1277(para)
 msgid ""
 "Check the partition for errors with the following command: <screen><prompt>C:"
 "&gt; </prompt><command>chkdsk</command> /f /r</screen>"
 msgstr ""
+"Verifique a partição por erros com o seguinte comando: <screen><prompt>C:"
+"&gt; </prompt><command>chkdsk</command> /f /r</screen>"
 
 #: C/gparted.xml:1283(para)
 msgid ""
 "Temporarily disable the paging file. The paging file occupies a fixed "
 "location in the partition that the defragmentation process is unable to move."
 msgstr ""
+"Desabilite o arquivo de paginação temporariamente. O arquivo de paginação "
+"ocupa uma localização fixa na partição no qual o processo de desfragmentação "
+"é incapaz de movimentar."
 
 #: C/gparted.xml:1291(para)
 msgid ""
 "Temporarily move large files to another partition or disk device. Large "
 "files are defined as greater than a few hundred Megabytes (MB)."
 msgstr ""
+"Temporariamente mova os arquivos grandes para outra partição ou dispositivo "
+"de disco. Arquivos grandes são definidos como maiores do que algumas "
+"centenas de Megabytes (MB)."
 
 #: C/gparted.xml:1298(para)
 msgid ""
 "Ensure a proper shut down of the commercial operating system that uses NTFS "
 "before you resize the NTFS partition"
 msgstr ""
+"Garanta um correto desligamento do sistema operacional comercial que usa "
+"NTFS antes de redimensionar a partição NTFS"
 
 #: C/gparted.xml:1305(para)
 msgid ""
@@ -1440,54 +1506,70 @@ msgid ""
 "the partition too much, then the commercial operating system might have "
 "difficulty functioning properly."
 msgstr ""
+"Deixe ao menos 10 por cento de espação não usado na partição NTFS. Se você "
+"reduzir muito a partição então o sistema operacional comercial pode ter "
+"dificuldade de funcionar corretamente."
 
 #: C/gparted.xml:1313(para)
 msgid ""
 "Reboot twice into the commercial operating system that uses NTFS after "
 "shrinking the NTFS partition."
 msgstr ""
+"Reinicie duas vezes o sistema operacional comercial que usa NTFS após "
+"reduzir a partição NTFS."
 
 #: C/gparted.xml:1258(para)
 msgid ""
 "To improve the ability to shrink NTFS partitions, you might consider one or "
 "more of the following: <placeholder-1/>"
 msgstr ""
+"Para melhorar a habilidade de reduzir partições NTFS você pode considerar "
+"uma ou mais das seguintes recomendações: <placeholder-1/>"
 
 #: C/gparted.xml:1325(title)
 msgid "Moving a Partition"
-msgstr ""
+msgstr "Movendo uma partição"
 
 #: C/gparted.xml:1326(para)
 msgid ""
 "Moving and resizing a partition can be performed by a single "
 "<application>gparted</application> operation."
 msgstr ""
+"As operação de movimentação e redimensionamento da partição podem ser "
+"realizadas por uma única operação do <application>gparted</application>."
 
 #: C/gparted.xml:1349(para)
 msgid ""
 "Adjust the location of the partition. See <xref linkend=\"gparted-specify-"
 "partition-size-and-location\"/>."
 msgstr ""
+"Ajuste a localização da partição. Consulte <xref linkend=\"gparted-specify-"
+"partition-size-and-location\"/>."
 
 #: C/gparted.xml:1330(para)
 msgid "To move a partition: <placeholder-1/>"
-msgstr ""
+msgstr "Movimentar uma partição: <placeholder-1/>"
 
 #: C/gparted.xml:1370(para)
 msgid ""
 "If the partition is an operating system boot partition, then the operating "
 "system might not boot after the move operation is applied."
 msgstr ""
+"Se a partição é um partição de inicialização do sistema operacional então o "
+"sistema operacional pode não inicializar após a operação de movimentação ser "
+"aplicada."
 
 #: C/gparted.xml:1375(para)
 msgid ""
 "If the operating system fails to boot, see <xref linkend=\"gparted-fix-"
 "operating-system-boot-problems\"/>."
 msgstr ""
+"Se o sistema operacional falha ao inicializar consulte <xref linkend="
+"\"gparted-fix-operating-system-boot-problems\"/>."
 
 #: C/gparted.xml:1384(title)
 msgid "Copying and Pasting a Partition"
-msgstr ""
+msgstr "Copiando e colando uma partição"
 
 #: C/gparted.xml:1395(para)
 msgid ""
@@ -1495,16 +1577,21 @@ msgid ""
 "guimenuitem></menuchoice>. The application marks the partition as the source "
 "partition."
 msgstr ""
+"Vá até <menuchoice><guimenu>Partição</guimenu><guimenuitem>Copiar</"
+"guimenuitem></menuchoice>. O aplicativo marcará a partição como partição de "
+"origem."
 
 #: C/gparted.xml:1385(para)
 msgid "To copy a partition: <placeholder-1/>"
-msgstr ""
+msgstr "Copiar uma partição: <placeholder-1/>"
 
 #: C/gparted.xml:1408(para)
 msgid ""
 "Select an unallocated space on a disk device. See <xref linkend=\"gparted-"
 "select-unallocated\"/>."
 msgstr ""
+"Selecione um espaço não alocado no dispositivo de disco. Consulte <xref "
+"linkend=\"gparted-select-unallocated\"/>."
 
 #: C/gparted.xml:1414(para)
 msgid ""
@@ -1512,28 +1599,37 @@ msgid ""
 "guimenuitem></menuchoice>. The application displays the <guilabel>Paste "
 "<replaceable>/path-to-partition</replaceable></guilabel> dialog."
 msgstr ""
+"Vá até <menuchoice><guimenu>Partição</guimenu><guimenuitem>Colar</"
+"guimenuitem></menuchoice>. O aplicativo exibe o diálogo <guilabel>Colar "
+"<replaceable>/caminho-à-partição</replaceable></guilabel>."
 
 #: C/gparted.xml:1423(para)
 msgid ""
 "If you want you can adjust the size and location of the partition. See <xref "
 "linkend=\"gparted-specify-partition-size-and-location\"/>."
 msgstr ""
+"Se você desejar pode ajustar o tamanho e localização da partição. Consulte "
+"<xref linkend=\"gparted-specify-partition-size-and-location\"/>."
 
 #: C/gparted.xml:1429(para)
 msgid ""
 "If you want you can specify the alignment of partition. See <xref linkend="
 "\"gparted-specify-partition-alignment\"/>."
 msgstr ""
+"Se você desejar pode especificar o alinhamento da partição. Consulte <xref "
+"linkend=\"gparted-specify-partition-alignment\"/>."
 
 #: C/gparted.xml:1435(para)
 msgid ""
 "Click <guibutton>Paste</guibutton>. The application displays the copy "
 "partition operation in the <guilabel>Pending Operations</guilabel> pane."
 msgstr ""
+"Clique em <guibutton>Paste</guibutton>. O aplicativo exibirá a operação de "
+"cópia no painel <guilabel>Operações pendentes</guilabel>."
 
 #: C/gparted.xml:1404(para)
 msgid "To Paste a partition: <placeholder-1/>"
-msgstr ""
+msgstr "Colar uma partição: <placeholder-1/>"
 
 #: C/gparted.xml:1444(para)
 msgid ""
@@ -1542,26 +1638,36 @@ msgid ""
 "mount actions use the partition label or the UUID to identify the partition. "
 "The problem is that the label and the UUID are not unique."
 msgstr ""
+"A cópia da partição tem o mesmo rótulo e mesma Identificação Universalmente "
+"Única (Universally Unique Identifier - UUID) como a partição de origem. Isto "
+"pode causar algum problema nas ações de montagem que usam o rótulo da "
+"partição ou o UUID para identificar a partição. O problema é que o rótulo e "
+"o UUID não são únicos."
 
 #: C/gparted.xml:1456(para)
 msgid ""
 "Change the UUID of the partition. If the partition label is not blank, "
 "change the label of the partition."
 msgstr ""
+"Altere o UUID da partição. Se o rótulo da partição não está vazio, altere o "
+"rótulo da partição."
 
 #: C/gparted.xml:1463(para)
 msgid ""
 "Use some other method to ensure that the source partition and the copy of "
 "the source partition are not used on the same computer at the same time."
 msgstr ""
+"Use algum outro método para garantir que a partição de origem e a cópia da "
+"partição de origem não estão usando o mesmo computador ao mesmo tempo."
 
 #: C/gparted.xml:1452(para)
 msgid "You are advised to do one of the following: <placeholder-1/>"
 msgstr ""
+"Você será avisado para fazer uma das seguintes tarefas: <placeholder-1/>"
 
 #: C/gparted.xml:1476(title)
 msgid "Managing Partition Flags"
-msgstr ""
+msgstr "Gerenciando flags de partição"
 
 #: C/gparted.xml:1487(para)
 msgid ""
@@ -1569,6 +1675,10 @@ msgid ""
 "guimenuitem></menuchoice>. The application opens a <guilabel>Manage flags on "
 "<replaceable>/path-to-partition</replaceable></guilabel> dialog."
 msgstr ""
+"Vá até <menuchoice><guimenu>Partição</guimenu><guimenuitem>Gerenciar flags</"
+"guimenuitem></menuchoice>. O aplicativo abrirá um diálogo "
+"<guilabel>Gerenciar flags em <replaceable>/caminho-à-partição</replaceable></"
+"guilabel>."
 
 #: C/gparted.xml:1496(para)
 msgid ""
@@ -1576,6 +1686,10 @@ msgid ""
 "writes the enabled flag to the partition and refreshes the <guilabel>Manage "
 "flags on <replaceable>/path-to-partition</replaceable></guilabel> dialog."
 msgstr ""
+"Para habilitar um flag marque a caixa de seleção ao lado do flag. O "
+"aplicativo gravará o flag habilitado na partição e atualizará o diálogo "
+"<guilabel>Gerenciar flags em <replaceable>/caminho-à-partição</replaceable></"
+"guilabel>."
 
 #: C/gparted.xml:1504(para)
 msgid ""
@@ -1583,16 +1697,22 @@ msgid ""
 "writes the disabled flag to the partition and refreshes the <guilabel>Manage "
 "flags on <replaceable>/path-to-partition</replaceable></guilabel> dialog."
 msgstr ""
+"Para desabilitar um flag desmarque a caixa de seleção ao lado do flag. O "
+"aplicativo gravará o flag desabilitado na partição e atualizará o diálogo "
+"<guilabel>Gerenciar flags em <replaceable>/caminho-à-partição</replaceable></"
+"guilabel>."
 
 #: C/gparted.xml:1477(para)
 msgid "To manage partition flags: <placeholder-1/>"
-msgstr ""
+msgstr "Para gerenciar flags de partição: <placeholder-1/>"
 
 #: C/gparted.xml:1516(para)
 msgid ""
 "To close the <guilabel>Manage flags on <replaceable>/path-to-partition</"
 "replaceable></guilabel> dialog, click <guibutton>Close</guibutton>."
 msgstr ""
+"Para fechar o diálogo <guilabel>Gerenciar flags em <replaceable>/caminho-à-"
+"partição</replaceable></guilabel> clique em <guibutton>Fechar</guibutton>."
 
 #: C/gparted.xml:1527(para)
 msgid ""
@@ -1600,12 +1720,18 @@ msgid ""
 "indicates the partition is active or bootable. Only one partition on a disk "
 "device can be active."
 msgstr ""
+"Boot (inicializável) é usado por alguns carregadores de inicialização de "
+"sistemas operacionais comerciais. O flag boot indica que a partição está "
+"ativa ou é inicializável. Apenas uma partição do dispositivo de disco pode "
+"estar ativo."
 
 #: C/gparted.xml:1536(para)
 msgid ""
 "Hidden is used by some commercial operating systems. The hidden flag makes "
 "the partition invisible to the operating system."
 msgstr ""
+"Hidden (oculto) é usado por alguns sistemas operacionais comerciais. O flag "
+"hidden deixa a partição invisível ao sistema operacional."
 
 #: C/gparted.xml:1543(para)
 msgid ""
@@ -1613,39 +1739,55 @@ msgid ""
 "indicates the partition should be accessed using Logical Block Addressing "
 "(LBA), instead of Cylinder-Head-Sector (CHS) addressing."
 msgstr ""
+"LBA é usado por alguns carregadores de inicialização de sistemas "
+"operacionais comerciais. O flag LBA indica que a partição deveria ser "
+"acessada usando o Endereçamento de Bloco Lógico (Logical Block Addressing, "
+"LBA) em vez de endereçamento Cilindro-Cabeça-Setor (Cylinder-Head-Sector, "
+"CHS)."
 
 #: C/gparted.xml:1552(para)
 msgid ""
 "LVM is used to indicate the partition is used by a Logical Volume Manager "
 "(LVM)."
 msgstr ""
+"LVM é usado para indicar que a partição é usada por um Gerenciador de Volume "
+"Lógico (Logical Volume Manager, LVM)."
 
 #: C/gparted.xml:1558(para)
 msgid ""
 "Palo is used by the Precision Architecture - Reduced Instruction Set "
 "Computing (PA-RISC) boot loader, palo."
 msgstr ""
+"Palo é usado pelo carregador de inicialização Arquitetura Precisa - "
+"Computador com um Conjunto Reduzido de Instruções (Precision Architecture - "
+"Reduced Instruction Set Computing, PA-RISC)."
 
 #: C/gparted.xml:1565(para)
 msgid ""
 "Prep is used to indicate the boot partition on Power Performance Computing "
 "(PowerPC) hardware."
 msgstr ""
+"Prep é usado para indicar a partição de inicialização no hardware do Power "
+"Performance Computing (PowerPC)."
 
 #: C/gparted.xml:1571(para)
 msgid ""
 "RAID is used to indicate the partition is used in a Redundant Array of "
 "Inexpensive Disks (RAID)."
 msgstr ""
+"RAID é usado para indicar a partição usada no Conjunto Redundante de Discos "
+"Independentes (Redundant Array of Inexpensive Disks, RAID)."
 
 #: C/gparted.xml:1522(para)
 msgid ""
 "A description of flags in an msdos partition table follows: <placeholder-1/>"
 msgstr ""
+"A descrição dos flags em uma tabela de partição msdos, a seguir: "
+"<placeholder-1/>"
 
 #: C/gparted.xml:1583(title)
 msgid "Checking a Partition"
-msgstr ""
+msgstr "Verificando uma partição"
 
 #: C/gparted.xml:1584(para)
 msgid ""
@@ -1653,6 +1795,9 @@ msgid ""
 "system. Checking a partition will attempt to grow the file system to fill "
 "the partition."
 msgstr ""
+"A verificação de uma partição tentará encontrar e corrigir problemas no "
+"sistema de arquivos. A verificação de uma partiçaõ tentará aumentar o "
+"sistema de arquivos para preencher a partição."
 
 #: C/gparted.xml:1600(para)
 msgid ""
@@ -1660,18 +1805,20 @@ msgid ""
 "guimenuitem></menuchoice>. The application displays the check partition "
 "operation in the <guilabel>Pending Operations</guilabel> pane."
 msgstr ""
+"Vá até <menuchoice><guimenu>Partição</guimenu><guimenuitem>Checar</"
+"guimenuitem></menuchoice>."
 
 #: C/gparted.xml:1590(para)
 msgid "To check a partition: <placeholder-1/>"
-msgstr ""
+msgstr "Para vericar uma partição: <placeholder-1/>"
 
 #: C/gparted.xml:1616(title)
 msgid "Working with the Operation Queue"
-msgstr ""
+msgstr "Trabalhando com a fila de operações"
 
 #: C/gparted.xml:1620(title)
 msgid "Undoing Last Operation"
-msgstr ""
+msgstr "Desfazendo a última operação"
 
 #: C/gparted.xml:1621(para)
 msgid ""
@@ -1682,10 +1829,16 @@ msgid ""
 "there are no operations remaining in the queue, the application closes the "
 "<guilabel>Pending Operations</guilabel> pane."
 msgstr ""
+"Para desfazer a última operação da fila de operações, vá até: "
+"<menuchoice><guimenu>Editar</guimenu><guimenuitem>Desfazer a última "
+"operação</guimenuitem></menuchoice>. O aplicativo removerá a última operação "
+"da fila exibida no painel <guilabel>Operações pendentes</guilabel>. Se não "
+"há operações restantes na fila o aplicativo fechará o painel "
+"<guilabel>Operações pendentes</guilabel>."
 
 #: C/gparted.xml:1634(title)
 msgid "Clearing All Operations"
-msgstr ""
+msgstr "Limpando todas as operações"
 
 #: C/gparted.xml:1635(para)
 msgid ""
@@ -1694,10 +1847,14 @@ msgid ""
 "guimenuitem></menuchoice>. The application removes all operations from the "
 "queue and closes the <guilabel>Pending Operations</guilabel> pane."
 msgstr ""
+"Para limpar todas as operações da fila de operações, vá até: "
+"<menuchoice><guimenu>Editar</guimenu><guimenuitem>Limpar todas as operações</"
+"guimenuitem></menuchoice>. O aplicativo removerá todas operações da fila e "
+"fechará o painel <guilabel>Operações pendentes</guilabel>."
 
 #: C/gparted.xml:1645(title)
 msgid "Applying All Operations"
-msgstr ""
+msgstr "Aplicando todas as operações"
 
 #: C/gparted.xml:1650(para)
 msgid ""
@@ -1705,30 +1862,42 @@ msgid ""
 "Operations</guimenuitem></menuchoice>. The application displays an "
 "<guilabel>Apply operations to device</guilabel> dialog."
 msgstr ""
+"Vá até: <menuchoice><guimenu>Editar</guimenu><guimenuitem>Aplicar todas as "
+"operações</guimenuitem></menuchoice>. O aplicativo exibe um diálogo "
+"<guilabel>Apply operations to device</guilabel>."
 
 #: C/gparted.xml:1657(para)
 msgid ""
 "Editing partitions has the potential to cause LOSS of DATA. You are advised "
 "to backup your data before applying your partition editing operations."
 msgstr ""
+"Editar partições há o risco potencial de PERDA de DADOS. Você será advertido "
+"em fazer backup dos seus dados antes de aplicar suas operações de edição de "
+"partição."
 
 #: C/gparted.xml:1675(para)
 msgid ""
 "To view more information, click <guibutton>Details</guibutton>. The "
 "application displays more details about operations."
 msgstr ""
+"Para ver mais informações clique em <guibutton>Details</guibutton>. O "
+"aplicativo exibirá mais detalhes sobre as operações."
 
 #: C/gparted.xml:1680(para)
 msgid ""
 "To view more information about the steps in each operation, click the arrow "
 "button beside each step."
 msgstr ""
+"Para ver mais informações sobre os passos em cada operação clique na seta ao "
+"lado de cada passo."
 
 #: C/gparted.xml:1686(para)
 msgid ""
 "To stop the operations while they are executing, click <guibutton>Cancel</"
 "guibutton>. The application displays a warning dialog."
 msgstr ""
+"Para parar as operações enquanto elas estão em execução clique em "
+"<guibutton>Cancelar</guibutton>. O aplicativo exibirá um diálogo de aviso."
 
 #: C/gparted.xml:1691(para)
 msgid ""
@@ -1736,6 +1905,10 @@ msgid ""
 "<guibutton>Cancel Operation</guibutton> might cause SEVERE file system "
 "damage. Cancel the operation only if you agree to the consequences."
 msgstr ""
+"Você será advertido em clicar em <guibutton>Continuar operação</guibutton> "
+"porque <guibutton>Cancelar operação</guibutton> pode causar GRAVES danos ao "
+"sistema de arquivos. Cancele a operação apenas se você concorda com as "
+"consequências."
 
 #: C/gparted.xml:1699(para)
 msgid ""
@@ -1743,6 +1916,9 @@ msgid ""
 "displays the <guibutton>Save Details</guibutton> button and the "
 "<guibutton>Close</guibutton> button."
 msgstr ""
+"Quando o aplicativo finaliza a aplicação de todas as operações, o aplicativo "
+"exibe o botão <guibutton>Salvar detalhes</guibutton> e o botão "
+"<guibutton>Fechar</guibutton>."
 
 #: C/gparted.xml:1665(para)
 msgid ""
@@ -1752,12 +1928,18 @@ msgid ""
 "application displays a status update when each operation is completed. "
 "<placeholder-1/>"
 msgstr ""
+"Clique em <guibutton>Aplicar</guibutton>. O aplicativo exibirá um diálogo "
+"<guilabel>Aplicando operações pendentes</guilabel>. O aplicativo aplicará "
+"cada operação pendente na ordem que elas foram criadas. O aplicativo exibirá "
+"um atualização de status quando cada operação for completada <placeholder-1/>"
 
 #: C/gparted.xml:1717(para)
 msgid ""
 "If you want to change the default file name, then type a file name in the "
 "<guilabel>Name</guilabel> text box."
 msgstr ""
+"Se você deseja alterar o nome de arquivo padrão, então digite um nome de "
+"arquivo na caixa de texto <guilabel>Nome</guilabel>."
 
 #: C/gparted.xml:1724(para)
 msgid ""
@@ -1765,16 +1947,21 @@ msgid ""
 "<guibutton>Browse for other folders</guibutton>. The application displays a "
 "file system navigator."
 msgstr ""
+"Se você deseja salvar o arquivo em uma pasta diferente do que /root clique "
+"<guibutton>Navegar em outras pastas</guibutton>. O aplicativo exibirá um "
+"navegador do sistema de arquivos."
 
 #: C/gparted.xml:1730(para)
 msgid "Use the file system navigator to select a folder."
-msgstr ""
+msgstr "Use o navegador do sistema de arquivos para selecionar uma pasta."
 
 #: C/gparted.xml:1735(para)
 msgid ""
 "Click <guibutton>Save</guibutton> to save the file. The application saves "
 "the details file."
 msgstr ""
+"Clique em <guibutton>Salvar</guibutton> para salvar o arquivo. O aplicativo "
+"salvará o arquivo de detalhes."
 
 #: C/gparted.xml:1710(para)
 msgid ""
@@ -1782,6 +1969,9 @@ msgid ""
 "<guibutton>Save Details</guibutton>. The application displays a "
 "<guilabel>Save Details</guilabel> dialog. <placeholder-1/>"
 msgstr ""
+"Se você deseja salvar os detalhes da aplicação de todas as operações então "
+"clique em <guibutton>Salvar detalhes</guibutton>. O aplicativo exibirá um "
+"diálogo <guilabel>Salvar detalhes</guilabel>. <placeholder-1/>"
 
 #: C/gparted.xml:1743(para)
 msgid ""
@@ -1789,6 +1979,10 @@ msgid ""
 "file system exists in RAM memory. All files saved to the Live CD root file "
 "system will be lost when you shut down the computer."
 msgstr ""
+"Se você usa o <application>gparted</application> de um Live CD, então a raíz "
+"do sistema de arquivos está na memória RAM. Todos os arquivos salvos na raíz "
+"do sistema de arquivos do Live CD serão perdidos quando você desligar o "
+"computador."
 
 #: C/gparted.xml:1749(para)
 msgid ""
@@ -1796,6 +1990,10 @@ msgid ""
 "need to copy the file to more permanent storage. Examples of more permanent "
 "storage are a hard disk drive or a USB flash memory drive."
 msgstr ""
+"Se você salvou os detalhes do gparted na raíz do sistema de arquivos do Live "
+"CD, então você precisa copiar o arquivo para armazenamento mais permanente. "
+"Exemplos de armazenamentos mais permanentes são os drives de disco rígido ou "
+"um drive de memória flash USB."
 
 #: C/gparted.xml:1758(para)
 msgid ""
@@ -1804,101 +2002,131 @@ msgid ""
 "rescans all the disk devices and refreshes the device partition layout in "
 "the <application>gparted</application> window."
 msgstr ""
+"Clique em <guibutton>Fechar</guibutton>. O aplicativo fechará o diálogo "
+"<guilabel>Aplicando operações pendentes</guilabel>. O aplicativo varrerá "
+"novamente todos dispositivos de disco e atualizará o layout de partição do "
+"dispositivo na janela do <application>gparted</application>."
 
 #: C/gparted.xml:1646(para)
 msgid "To apply all operations: <placeholder-1/>"
-msgstr ""
+msgstr "Para aplicar todas operações: <placeholder-1/>"
 
 #: C/gparted.xml:1777(title)
 msgid "Acquiring GParted on Live CD"
-msgstr ""
+msgstr "Adquirindo o GParted em Live CD"
 
 #: C/gparted.xml:1778(para)
 msgid ""
 "A Live CD is a Compact Disc that contains a bootable operating system. A "
 "Live CD enables you to boot your computer from the CD."
 msgstr ""
+"Um Live CD é um Disco Compacto (CD) que contém um sistema operacional "
+"inicializável. Um Live CD permite que você inicialize seu computador a "
+"partir de um CD."
 
 #: C/gparted.xml:1787(para)
 msgid ""
 "You can edit all of your partitions because the partitions are not mounted."
 msgstr ""
+"Você pode editar todas as suas partições porque as partições não estão "
+"montadas."
 
 #: C/gparted.xml:1793(para)
 msgid ""
 "You can edit partitions on computers that do not have a bootable operating "
 "system."
 msgstr ""
+"Você pode editar as partições em computadores que não tem um sistema "
+"operacional inicializável."
 
 #: C/gparted.xml:1782(para)
 msgid ""
 "Using <application>gparted</application> from a Live CD has the following "
 "advantages: <placeholder-1/>"
 msgstr ""
+"Usar o <application>gparted</application> a partir de um Live CD tem as "
+"seguintes vantagens: <placeholder-1/>"
 
 #: C/gparted.xml:1800(para)
 msgid ""
 "The <application>gparted</application> application is available on many Live "
 "CD distributions."
 msgstr ""
+"O aplicativo <application>gparted</application> está disponível em muitas "
+"distribuições em Live CD."
 
 #: C/gparted.xml:1809(para)
 msgid ""
 "GParted Live CD <ulink type=\"http\" url=\"http://gparted.sourceforge.net/"
 "livecd.php\"/>"
 msgstr ""
+"GParted Live CD <ulink type=\"http\" url=\"http://gparted.sourceforge.net/"
+"livecd.php\"/>"
 
 #: C/gparted.xml:1815(para)
 msgid ""
 "System Rescue CD <ulink type=\"http\" url=\"http://www.sysresccd.org\"/>"
 msgstr ""
+"System Rescue CD <ulink type=\"http\" url=\"http://www.sysresccd.org\"/>"
 
 #: C/gparted.xml:1804(para)
 msgid ""
 "You can download a Live CD image containing <application>gparted</"
 "application> from the following web sites: <placeholder-1/>"
 msgstr ""
+"Você pode baixar uma imagem Live CD contendo o <application>gparted</"
+"application> a partir dos seguintes web sites: <placeholder-1/>"
 
 #: C/gparted.xml:1823(para)
 msgid ""
 "To avoid wasting a blank CD when burning a CD image file, use the following "
 "tips:"
 msgstr ""
+"Para evitar o desperdício de um CD vazio ao gravar um arquivo de imagem de "
+"CD use as seguintes dicas:"
 
 #: C/gparted.xml:1829(para)
 msgid ""
 "Ensure the checksum of the downloaded file matches the checksum posted on "
 "the download page."
 msgstr ""
+"Garanta que o checksum do arquivo baixado se iguala ao checksum divulgado na "
+"página de download."
 
 #: C/gparted.xml:1835(para)
 msgid ""
 "Be sure to burn the .iso file as an image to the blank CD. If you burn the ."
 "iso file as data to a blank CD then the CD will not boot in your computer."
 msgstr ""
+"Garantir a gravação do arquivo .iso como uma imagem para um CD vazio. Se "
+"você gravar o arquivo .iso como dado para um CD vazio então o CD não "
+"inicializará no seu computador."
 
 #: C/gparted.xml:1847(title)
 msgid "Fixing Operating System Boot Problems"
-msgstr ""
+msgstr "Consertando problemas de inicialização do sistema operacional"
 
 #: C/gparted.xml:1853(para)
 msgid "Delete a partition."
-msgstr ""
+msgstr "Excluir uma partição."
 
 #: C/gparted.xml:1858(para)
 msgid "Move a partition."
-msgstr ""
+msgstr "Mover uma partição."
 
 #: C/gparted.xml:1863(para)
 msgid ""
 "Install another operating system and overwrite the Master Boot Record (MBR)."
 msgstr ""
+"Instalar outro sistema operacional e sobrescrever o Master Boot Record (MBR)."
 
 #: C/gparted.xml:1848(para)
 msgid ""
 "Your computer might fail to boot an operating system when you perform one of "
 "the following actions: <placeholder-1/>"
 msgstr ""
+"Seu computador pode falha na inicialização do sistema operacional quando "
+"você realiza uma das seguintes ações: <placeholder-1/>"
 
 #: C/gparted.xml:1870(para)
 msgid ""
@@ -1909,37 +2137,52 @@ msgid ""
 "ulink>. You might also use Internet search engines to learn how other people "
 "have solved similar problems."
 msgstr ""
+"Você está avisado em consultar a documentação para seu carregador de "
+"inicialização para aprender como corrigir o problema. Você pode consultar o "
+"<ulink type=\"http\" url=\"http://gparted.sourceforge.net/faq.php\">GParted "
+"FAQ (inglês)</ulink> ou o <ulink type=\"http\" url=\"http://gparted."
+"sourceforge.net/forum.php\">GParted forum (inglês)</ulink>. Você pode também "
+"usar motores de busca da Internet para aprender como outras pessoas "
+"resolveram problemas similares."
 
 #: C/gparted.xml:1883(title)
 msgid "Fixing GRUB boot problem"
-msgstr ""
+msgstr "Consertando problema de inicialização do GRUB"
 
 #: C/gparted.xml:1889(para)
 msgid "Move the partition containing the GRUB stage2 file."
-msgstr ""
+msgstr "Mova a partição contendo o arquivo stage2 do GRUB."
 
 #: C/gparted.xml:1894(para)
 msgid ""
 "Install a new operating system that overwrites the Master Boot Record (MBR)."
 msgstr ""
+"Instale um novo sistema operacional que sobrescreve o Master Boot Record "
+"(MBR)."
 
 #: C/gparted.xml:1884(para)
 msgid ""
 "The Grand Unified Boot loader (GRUB) might fail to boot an operating system "
 "if you do one of the following: <placeholder-1/>"
 msgstr ""
+"O Grand Unified Boot loader (GRUB) pode falhar ao inicializar um sistema "
+"operacional se você fizer uma das seguintes ações: <placeholder-1/>"
 
 #: C/gparted.xml:1906(para)
 msgid ""
 "Start the <application>grub</application> application from the command line. "
 "<screen><prompt>$ </prompt><command>grub</command></screen>"
 msgstr ""
+"Inicie o aplicativo <application>grub</application> da linha de comando. "
+"<screen><prompt>$ </prompt><command>grub</command></screen>"
 
 #: C/gparted.xml:1913(para)
 msgid ""
 "Find where <application>grub</application> stage1 is located by using one of "
 "the following:"
 msgstr ""
+"Localize onde stage1 do <application>grub</application> está localizado "
+"usando um dos seguintes:"
 
 #: C/gparted.xml:1917(para)
 msgid ""
@@ -1949,6 +2192,11 @@ msgid ""
 "partition, use the command: <screen><prompt>grub&gt; </prompt><command>find</"
 "command> /grub/stage1</screen>"
 msgstr ""
+"Se a pasta /boot está armazenada na partição /, use o comando: "
+"<screen><prompt>grub&gt; </prompt><command>find</command> /boot/grub/stage1</"
+"screen>. Se a pasta /boot esa armazenada em uma partição diferente do que a "
+"partição /, use o comando: <screen><prompt>grub&gt; </prompt><command>find</"
+"command> /grub/stage1</screen>"
 
 #: C/gparted.xml:1925(para)
 msgid ""
@@ -1958,6 +2206,11 @@ msgid ""
 "output, you will need to decide which device you use for <application>grub</"
 "application>."
 msgstr ""
+"A saída do comando <command>find</command> pode ser como a seguinte: "
+"<screen><computeroutput> <replaceable>(hd0,0)</replaceable></"
+"computeroutput></screen>. Se mais do que uma linha está listada na saída do "
+"comando, você precisará decidir qual dispositivo você usará para o "
+"<application>grub</application>."
 
 #: C/gparted.xml:1934(para)
 msgid ""
@@ -1965,6 +2218,10 @@ msgid ""
 "returned by the <command>find</command> command. <screen><prompt>grub&gt; </"
 "prompt>root <replaceable>(hd0,0)</replaceable></screen>"
 msgstr ""
+"Defina o dispositivo raíz do <application>grub</application> especificando o "
+"dispositivo retornado pelo comando <command>find</command>. "
+"<screen><prompt>grub&gt; </prompt>root <replaceable>(hd0,0)</replaceable></"
+"screen>"
 
 #: C/gparted.xml:1942(para)
 msgid ""
@@ -1972,38 +2229,49 @@ msgid ""
 "by the <command>find</command> command. <screen><prompt>grub&gt; </"
 "prompt>setup <replaceable>(hd0,0)</replaceable></screen>"
 msgstr ""
+"Reinstale o <application>grub</application> especificando o dispositivo "
+"retornado pelo comando <command>find</command>. <screen><prompt>grub&gt; </"
+"prompt>setup <replaceable>(hd0,0)</replaceable></screen>"
 
 #: C/gparted.xml:1950(para)
 msgid ""
 "Exit <application>grub</application>. <screen><prompt>grub&gt; </"
 "prompt>quit</screen>"
 msgstr ""
+"Saia do <application>grub</application>. <screen><prompt>grub&gt; </"
+"prompt>quit</screen>"
 
 #: C/gparted.xml:1956(para)
 msgid "Reboot your computer."
-msgstr ""
+msgstr "Reinicie seu computador."
 
 #: C/gparted.xml:1901(para)
 msgid ""
 "To fix these problems, you will need to reinstall the GRUB boot record using "
 "the following steps: <placeholder-1/>"
 msgstr ""
+"Para corrigir estes problemas você precisará reinstalar o registro de "
+"inicialização do GRUB usando os seguintes passos: <placeholder-1/>"
 
 #: C/gparted.xml:1962(para)
 msgid ""
 "The <application>grub</application> application is included on each Live CD "
 "listed in <xref linkend=\"gparted-acquire-livecd\"/>"
 msgstr ""
+"O aplicativo <application>grub</application> está incluso em cada Live CD "
+"listado em <xref linkend=\"gparted-acquire-livecd\"/>"
 
 #: C/gparted.xml:1974(title)
 msgid "Recovering Partition Tables"
-msgstr ""
+msgstr "Recuperando tabelas de partição"
 
 #: C/gparted.xml:1975(para)
 msgid ""
 "If you accidentally overwrite your partition table, there is a chance that "
 "you might be able to recover it."
 msgstr ""
+"Se você acidentalmente sobrescrever sua tabela de partição há uma chance de "
+"que você possa ser capaz de recuperá-la."
 
 #: C/gparted.xml:1979(para)
 msgid ""
@@ -2012,17 +2280,25 @@ msgid ""
 "application>, see <ulink type=\"http\" url=\"http://www.cgsecurity.org/wiki/"
 "TestDisk\"/>."
 msgstr ""
+"O aplicativo <application>testdisk</application> é projetado para ajudar "
+"recuperar partições perdidas. Para mais informações sobre o "
+"<application>testdisk</application>, consulte <ulink type=\"http\" url="
+"\"http://www.cgsecurity.org/wiki/TestDisk\"/>."
 
 #: C/gparted.xml:1985(para)
 msgid ""
 "The <application>testdisk</application> application is included on each Live "
 "CD listed in <xref linkend=\"gparted-acquire-livecd\"/>"
 msgstr ""
+"O aplicativo <application>testdisk</application> está incluso em cada Live "
+"CD listado em <xref linkend=\"gparted-acquire-livecd\"/>"
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
 #: C/gparted.xml:0(None)
 msgid "translator-credits"
-msgstr "Fabrício Godoy <skarllot@gmail.com>, 2008."
+msgstr ""
+"Fabrício Godoy <skarllot@gmail.com>, 2008-2009.\n"
+"Leonardo Ferreira Fontenelle <leonardof@gnome.org>, 2008."
 
 #~ msgid "2008"
 #~ msgstr "2008"
