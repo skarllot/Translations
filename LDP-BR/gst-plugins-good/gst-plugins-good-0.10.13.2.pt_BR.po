@@ -1,7 +1,7 @@
 # Brazilian Portuguese translation of gst-plugins-good.
 # This file is distributed under the same license as the gst-plugins-good package.
-# Copyright (C) 2008 Free Software Foundation, Inc.
-# Fabrício Godoy <skarllot@gmail.com>, 2008.
+# Copyright (C) 2008-2009 Free Software Foundation, Inc.
+# Fabrício Godoy <skarllot@gmail.com>, 2008-2009.
 #
 # data flow -> fluxo de dados
 # streaming -> fluxo contínuo
@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: gst-plugins-good 0.10.10.3\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2009-02-07 16:02+0000\n"
-"PO-Revision-Date: 2008-10-18 02:05-0300\n"
+"PO-Revision-Date: 2009-02-24 22:02-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
 "MIME-Version: 1.0\n"
@@ -32,7 +32,7 @@ msgstr "Falha ao examinar os recursos do servidor de som"
 #: ext/libpng/gstpngdec.c:516 ext/wavpack/gstwavpackparse.c:1165
 #: gst/avi/gstavidemux.c:4162 gst/avi/gstavidemux.c:4170
 msgid "Internal data stream error."
-msgstr "Erro no fluxo de dados interno."
+msgstr "Erro interno no fluxo de dados."
 
 #: ext/jpeg/gstjpegdec.c:1049
 msgid "Failed to decode JPEG image"
@@ -44,8 +44,7 @@ msgstr "Não foi possível conectar ao servidor"
 
 #: gst/avi/gstavimux.c:1610
 msgid "No or invalid input audio, AVI stream will be corrupt."
-msgstr ""
-"Entrada de áudio nula ou inválida, o fluxo do AVI pode estar corrompido."
+msgstr "Entrada de áudio nula ou inválida, o fluxo AVI pode estar corrompido."
 
 #: gst/qtdemux/qtdemux.c:988 gst/qtdemux/qtdemux.c:2008
 msgid "This file contains no playable streams."
@@ -53,7 +52,7 @@ msgstr "Este arquivo não contêm fluxos reproduzíveis."
 
 #: gst/qtdemux/qtdemux.c:1106 gst/qtdemux/qtdemux.c:2149
 msgid "This file is invalid and cannot be played."
-msgstr "Este arquivo é inválido e não pode ser reproduzido."
+msgstr "Este arquivo é inválido e não pôde ser reproduzido."
 
 #: gst/qtdemux/qtdemux.c:1164
 msgid "This file is incomplete and cannot be played."
@@ -61,7 +60,7 @@ msgstr "Este arquivo está incompleto e não pôde ser reproduzido."
 
 #: gst/qtdemux/qtdemux.c:2865
 msgid "The video in this file might not play correctly."
-msgstr "O vídeo neste arquivo não pode ser reproduzido corretamente."
+msgstr "O vídeo neste arquivo pode não ser reproduzido corretamente."
 
 #: gst/qtdemux/qtdemux.c:2940
 #, c-format
@@ -185,7 +184,6 @@ msgstr ""
 "está sendo usado por outro aplicativo."
 
 #: sys/oss/gstosssink.c:413
-#, fuzzy
 msgid ""
 "Could not open audio device for playback. You don't have permission to open "
 "the device."
@@ -198,7 +196,6 @@ msgid "Could not open audio device for playback."
 msgstr "Não foi possível abrir o dispositivo de áudio para reprodução."
 
 #: sys/oss/gstosssrc.c:377
-#, fuzzy
 msgid ""
 "Could not open audio device for recording. You don't have permission to open "
 "the device."
@@ -215,9 +212,9 @@ msgid "Gain"
 msgstr "Ganho"
 
 #: sys/v4l2/gstv4l2src.c:1259
-#, fuzzy, c-format
+#, c-format
 msgid "Error reading %d bytes from device '%s'."
-msgstr "Erro ao ler %d bytes no dispositivo \"%s\"."
+msgstr "Erro ao ler %d bytes do dispositivo \"%s\"."
 
 #: sys/v4l2/gstv4l2src.c:1290
 #, c-format
@@ -225,7 +222,7 @@ msgid "Got unexpected frame size of %u instead of %u."
 msgstr "Foi obtido um tamanho de quadro inesperado de %u, ao invés de %u."
 
 #: sys/v4l2/gstv4l2src.c:1308
-#, fuzzy, c-format
+#, c-format
 msgid "Error reading %d bytes on device '%s'."
 msgstr "Erro ao ler %d bytes no dispositivo \"%s\"."
 
@@ -241,7 +238,7 @@ msgstr ""
 #: sys/v4l2/v4l2_calls.c:132
 #, c-format
 msgid "Failed to query attributes of input %d in device %s"
-msgstr "Falha ao examinar os atributos de entrada %d no dispositivo %s"
+msgstr "Falha ao examinar os atributos da entrada %d no dispositivo %s"
 
 #: sys/v4l2/v4l2_calls.c:162
 #, c-format
@@ -389,7 +386,7 @@ msgstr ""
 #: sys/v4l2/v4l2src_calls.c:1296
 #, c-format
 msgid "Device '%s' does not support video capture"
-msgstr "O dispositivo \"%s\" não suporta a captura de vídeo"
+msgstr "Não há suporte a captura de vídeo no dispositivo \"%s\""
 
 #: sys/v4l2/v4l2src_calls.c:1304 sys/v4l2/v4l2src_calls.c:1313
 #, c-format
