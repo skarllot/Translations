@@ -1,5 +1,5 @@
 # Brazilian Portuguese translation of GNOME Keyring.
-# Copyright (C) 2004-2008 the GNOME Keyring authors.
+# Copyright (C) 2004-2009 the GNOME Keyring authors.
 # This file is distributed under the same license as the gnome-keyring package.
 # Guilherme de S. Pastore <gpastore@gnome.org>, 2004-2005.
 # Leonardo Ferreira Fontenelle <leonardof@gnome.org>, 2006, 2008.
@@ -8,6 +8,7 @@
 # Enrico Nicoletto <liverig@gmail.com>, 2008.
 # Daniel S. Koda <danielskoda@gmail.com>, 2009.
 # Michel Recondo <mrecondo@gmail.com>, 2009.
+# Fabrício Godoy <skarllot@gmail.com>, 2009.
 #
 msgid ""
 msgstr ""
@@ -15,8 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "keyring&component=general\n"
 "POT-Creation-Date: 2009-02-28 22:46+0000\n"
-"PO-Revision-Date: 2009-02-28 22:00-0300\n"
-"Last-Translator: Michel Recondo <mrecondo@gmail.com>\n"
+"PO-Revision-Date: 2009-03-01 17:26-0300\n"
+"Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -60,8 +61,8 @@ msgid ""
 "The application '%s' (%s) wants to access the password for '<object "
 "prop='name'/>' in the default keyring."
 msgstr ""
-"O aplicativo \"%s\" (%s) quer acessar a senha para \"<object prop=\"name\"/>"
-"\" no chaveiro padrão."
+"O aplicativo \"%s\" (%s) quer acessar a senha de \"<object prop='name'/>\" "
+"no chaveiro padrão."
 
 #. TRANSLATORS: Don't translate text in markup (ie: HTML or XML tags)
 #: ../daemon/gkr-daemon-ops.c:232
@@ -70,8 +71,8 @@ msgid ""
 "The application '%s' (%s) wants to access the password for '<object "
 "prop='name'/>' in %s."
 msgstr ""
-"O aplicativo \"%s\" (%s) quer acessar a senha para \"<object prop=\"name\"/>"
-"\" em %s."
+"O aplicativo \"%s\" (%s) quer acessar a senha de \"<object prop='name'/>\" "
+"em %s."
 
 #. TRANSLATORS: Don't translate text in markup (ie: HTML or XML tags)
 #: ../daemon/gkr-daemon-ops.c:238 ../daemon/gkr-daemon-ops.c:248
@@ -80,7 +81,7 @@ msgid ""
 "The application '%s' wants to access the password for '<object prop='name'/"
 ">' in the default keyring."
 msgstr ""
-"O aplicativo \"%s\" quer acessar a senha para \"<object prop=\"name\"/>\" no "
+"O aplicativo \"%s\" quer acessar a senha de \"<object prop='name'/>\" no "
 "chaveiro padrão."
 
 #. TRANSLATORS: Don't translate text in markup (ie: HTML or XML tags)
@@ -90,8 +91,7 @@ msgid ""
 "The application '%s' wants to access the password for '<object prop='name'/"
 ">' in %s."
 msgstr ""
-"O aplicativo \"%s\" quer acessar a senha para \"<object prop=\"name\"/>\" em "
-"%s."
+"O aplicativo \"%s\" quer acessar a senha de \"<object prop='name'/>\" em %s."
 
 #. TRANSLATORS: Don't translate text in markup (ie: HTML or XML tags)
 #: ../daemon/gkr-daemon-ops.c:258
@@ -99,8 +99,8 @@ msgid ""
 "An unknown application wants to access the password for '<object prop='name'/"
 ">' in the default keyring."
 msgstr ""
-"Um aplicativo desconhecido quer acessar a senha para \"<object prop=\"name\"/"
-">\" no chaveiro padrão."
+"Um aplicativo desconhecido quer acessar a senha de \"<object prop='name'/>\" "
+"no chaveiro padrão."
 
 #. TRANSLATORS: Don't translate text in markup (ie: HTML or XML tags)
 #: ../daemon/gkr-daemon-ops.c:261
@@ -109,8 +109,8 @@ msgid ""
 "An unknown application wants to access the password for '<object prop='name'/"
 ">' in %s."
 msgstr ""
-"Um aplicativo desconhecido quer acessar a senha para \"<object prop=\"name\"/"
-">\" em %s."
+"Um aplicativo desconhecido quer acessar a senha de \"<object prop='name'/>\" "
+"em %s."
 
 #. And put together the ask request
 #: ../daemon/gkr-daemon-ops.c:267
@@ -317,7 +317,7 @@ msgstr ""
 #: ../daemon/gkr-daemon-ops.c:552
 #, c-format
 msgid "Choose a new password for the '%s' keyring. "
-msgstr "Escolha uma nova senha para o chaveiro \"%s\"."
+msgstr "Escolha uma nova senha para o chaveiro \"%s\". "
 
 #: ../daemon/gkr-daemon-ops.c:554
 #, c-format
@@ -337,7 +337,7 @@ msgid ""
 "it."
 msgstr ""
 "O aplicativo \"%s\" (%s) quer gravar uma senha, mas não existe um chaveiro "
-"padrão. Para criar um, você precisa escolher uma senha para ele."
+"padrão. Para criar um você precisa escolher uma senha para ele."
 
 #: ../daemon/gkr-daemon-ops.c:635 ../daemon/gkr-daemon-ops.c:639
 #, c-format
@@ -347,7 +347,7 @@ msgid ""
 "it."
 msgstr ""
 "O aplicativo \"%s\" quer gravar uma senha, mas não existe um chaveiro "
-"padrão. Para criar um, você precisa escolher uma senha para ele."
+"padrão. Para criar um você precisa escolher uma senha para ele."
 
 #: ../daemon/gkr-daemon-ops.c:643
 #, c-format
@@ -357,7 +357,7 @@ msgid ""
 "it."
 msgstr ""
 "Um aplicativo desconhecido quer gravar uma senha, mas não existe um chaveiro "
-"padrão. Para criar um, você precisa escolher uma senha para ele."
+"padrão. Para criar um você precisa escolher uma senha para ele."
 
 #. And put together the ask request
 #: ../daemon/gkr-daemon-ops.c:648
@@ -376,7 +376,7 @@ msgid ""
 "passed to the daemon."
 msgstr ""
 "Esta opção habilita o componente PKCS#11 no daemon do gnome-keyring. Ela só "
-"tem efeito quando o gnome-keyring-daemon inicia, p. ex. quando o usuário "
+"tem efeito quando o gnome-keyring-daemon inicia, ou seja, quando o usuário "
 "inicia uma sessão. Esta configuração pode ser substituída quando certos "
 "argumentos de linha de comando são passados para o daemon."
 
@@ -388,17 +388,17 @@ msgid ""
 "the daemon."
 msgstr ""
 "Esta opção habilita o agente SSH no daemon do gnome-keyring. Ela só tem "
-"efeito quando o gnome-keyring-daemon inicia (p. ex. quando o usuário inicia "
-"uma sessão). Esta configuração pode ser substituída quando certos argumentos "
-"de linha de comando são passados para o daemon."
+"efeito quando o gnome-keyring-daemon inicia, ou seja, quando o usuário "
+"inicia uma sessão. Esta configuração pode ser substituída quando certos "
+"argumentos de linha de comando são passados para o daemon."
 
 #: ../daemon/data/gnome-keyring.schemas.in.h:3
 msgid "Whether the gnome-keyring PKCS#11 component is enabled."
-msgstr "Se o componente PKCS#11 do gnome-keyring está habilitado."
+msgstr "Habilitar o componente PKCS#11 do gnome-keyring."
 
 #: ../daemon/data/gnome-keyring.schemas.in.h:4
 msgid "Whether the gnome-keyring SSH agent is enabled."
-msgstr "Se o agente SSH do gnome-keyring está habilitado."
+msgstr "Habilitar o agente SSH do gnome-keyring."
 
 #: ../daemon/gnome-keyring-daemon.desktop.in.in.h:1
 msgid "GNOME Keyring Daemon"
@@ -435,8 +435,8 @@ msgid ""
 "Your login keyring was not automatically created when you logged into this "
 "computer. It will now be created."
 msgstr ""
-"Seu chaveiro de sessão não foi desbloqueado automaticamente quando você "
-"iniciou a sessão neste computador. Ele será criado agora."
+"Seu chaveiro de sessão não foi criado automaticamente quando você iniciou a "
+"sessão neste computador. Ele será criado agora."
 
 #: ../daemon/keyrings/gkr-keyring.c:586
 #, c-format
@@ -500,7 +500,7 @@ msgstr ""
 #: ../daemon/pkcs11/gkr-pkcs11-auth.c:139
 #, c-format
 msgid "An application wants access to '%s', but it is locked"
-msgstr "Um aplicativo deseja acesso para \"%s\", mas ele está bloqueado"
+msgstr "Um aplicativo deseja acesso ao \"%s\", mas ele está bloqueado"
 
 #: ../daemon/pkcs11/gkr-pkcs11-auth.c:148
 msgid "Automatically unlock this private key when I log in."
@@ -519,15 +519,16 @@ msgstr ""
 
 #: ../daemon/pkcs11/gkr-pkcs11-auth.c:154
 msgid "Automatically unlock this when I log in"
-msgstr "Automaticamente desbloquear isto quando eu iniciar a sessão."
+msgstr "Automaticamente desbloquear isto quando eu iniciar a sessão"
 
 #: ../daemon/pkcs11/gkr-pkcs11-auth.c:393
 msgid "Unlock certificate/key storage"
-msgstr "Desbloquear o armazenamento de certificados/chaves"
+msgstr "Desbloquear o armazenamento de certificados e chaves"
 
 #: ../daemon/pkcs11/gkr-pkcs11-auth.c:394
 msgid "Enter password to unlock the certificate/key storage"
-msgstr "Digite a senha para desbloquear o armazenamento de certificados/chaves"
+msgstr ""
+"Digite a senha para desbloquear o armazenamento de certificados e chaves"
 
 #. TRANSLATORS: The storage is locked, and needs unlocking before the application can use it.
 #: ../daemon/pkcs11/gkr-pkcs11-auth.c:397
@@ -536,8 +537,8 @@ msgid ""
 "An application wants access to the certificate/key storage '%s', but it is "
 "locked"
 msgstr ""
-"Um aplicativo deseja acesso ao armazenamento de certificados/chaves \"%s\", "
-"mas ele está bloqueado"
+"Um aplicativo deseja acesso ao armazenamento de certificados e chaves \"%s"
+"\", mas ele está bloqueado"
 
 #: ../daemon/pkcs11/gkr-pkcs11-auth.c:402
 #: ../daemon/pkcs11/gkr-pkcs11-auth.c:553
@@ -575,7 +576,7 @@ msgstr ""
 "<b><big>Não foi possível capturar seu mouse.</big></b>\n"
 "\n"
 "Um cliente malicioso pode estar bisbilhotando na sua sessão ou você pode ter "
-"apenas clicado em um menu ou alguma aplicação decidiu receber o foco.\n"
+"apenas clicado em um menu ou algum aplicativo que decidiu receber o foco.\n"
 "\n"
 "Tente novamente."
 
@@ -591,7 +592,7 @@ msgstr ""
 "<b><big>Não foi possível capturar seu teclado.</big></b>\n"
 "\n"
 "Um cliente malicioso pode estar bisbilhotando na sua sessão ou você pode ter "
-"apenas clicado em um menu ou alguma aplicação decidiu receber o foco.\n"
+"apenas clicado em um menu ou algum aplicativo que decidiu receber o foco.\n"
 "\n"
 "Tente novamente."
 
@@ -635,11 +636,11 @@ msgstr "Força da nova senha"
 
 #: ../daemon/ui/gkr-ask-tool.c:645
 msgid "Passwords do not match."
-msgstr "As senhas diferem."
+msgstr "As senhas são diferentes."
 
 #: ../daemon/ui/gkr-ask-tool.c:661
 msgid "Password cannot be blank"
-msgstr "A senha não pode ser em branco"
+msgstr "A senha não pode ser vazia"
 
 #: ../daemon/ui/gkr-ask-tool.c:712
 msgid "_Deny"
@@ -747,12 +748,10 @@ msgid "Initials"
 msgstr "Iniciais"
 
 #: ../egg/egg-oid.c:91
-#, fuzzy
 msgid "Generation Qualifier"
 msgstr "Qualificador de geração"
 
 #: ../egg/egg-oid.c:93
-#, fuzzy
 msgid "DN Qualifier"
 msgstr "Qualificador DN"
 
@@ -786,7 +785,7 @@ msgstr "SHA1 com DSA"
 
 #: ../gcr/gcr-certificate-basics-widget.c:59
 msgid "<i>Not Part of Certificate</i>"
-msgstr "<i>Não é parte do Certificado</i>"
+msgstr "<i>Não é parte do certificado</i>"
 
 #: ../gcr/gcr-certificate-basics-widget.c:80
 msgid "<i>unknown</i>"
@@ -794,7 +793,7 @@ msgstr "<i>desconhecido</i>"
 
 #: ../gcr/gcr-certificate-basics-widget.glade.h:1
 msgid "<Not Part of Certificate>"
-msgstr "<Não é parte do Certificado>"
+msgstr "<Não é parte do certificado>"
 
 #: ../gcr/gcr-certificate-basics-widget.glade.h:2
 msgid "<b>Fingerprints</b>"
@@ -886,9 +885,8 @@ msgstr "Crítico"
 
 #. The subject
 #: ../gcr/gcr-certificate-details-widget.c:311
-#, fuzzy
 msgid "Subject Name"
-msgstr "Nome do assunto"
+msgstr "Nome do portador"
 
 #. The Issuer
 #: ../gcr/gcr-certificate-details-widget.c:315
@@ -906,11 +904,11 @@ msgstr "Versão"
 
 #: ../gcr/gcr-certificate-details-widget.c:337
 msgid "Not Valid Before"
-msgstr "Não válido antes de"
+msgstr "Não é válido antes de"
 
 #: ../gcr/gcr-certificate-details-widget.c:342
 msgid "Not Valid After"
-msgstr "Não válido após"
+msgstr "Não é válido após"
 
 #. Signature
 #: ../gcr/gcr-certificate-details-widget.c:347
@@ -975,12 +973,12 @@ msgstr "Sem localização disponível para importar para"
 
 #: ../gcr/gcr-importer.c:404
 msgid "Import Certificates/Keys"
-msgstr "Importar certificado/chaves"
+msgstr "Importar certificado e chaves"
 
 #: ../gcr/gcr-importer.c:411
 msgid "Choose a location to store the imported certificates/keys."
 msgstr ""
-"Escolha uma localização para armazenar os certificados/chaves importados."
+"Escolha uma localização para armazenar os certificados e chaves importados."
 
 #. TRANSLATORS: The key is locked.
 #: ../gcr/gcr-importer.c:449
@@ -1029,11 +1027,11 @@ msgstr "Certificado"
 
 #: ../gcr/gcr-parser.c:1576
 msgid "Unrecognized or unsupported data."
-msgstr "Dados não reconhecidos ou não suportados."
+msgstr "Dados não reconhecidos ou sem suporte."
 
 #: ../gcr/gcr-parser.c:1579
 msgid "Could not parse invalid or corrupted data."
-msgstr "Não possível analisar dados inválidos ou corrompidos."
+msgstr "Não possível analisar os dados inválidos ou corrompidos."
 
 #: ../gcr/gcr-parser.c:1582
 msgid "The data is locked"
@@ -1045,7 +1043,7 @@ msgstr "Memória disponível insuficiente"
 
 #: ../gp11/gp11-misc.c:119
 msgid "The specified slot ID is not valid"
-msgstr "Os IDs de slot especificados não são válidos"
+msgstr "O ID de slot especificado não é válido"
 
 #: ../gp11/gp11-misc.c:121
 msgid "Internal error"
@@ -1061,7 +1059,7 @@ msgstr "Argumentos inválidos"
 
 #: ../gp11/gp11-misc.c:127
 msgid "The module cannot create needed threads"
-msgstr "O módulo não pôde criar as discussões necessárias"
+msgstr "O módulo não pôde criar as linhas necessárias"
 
 #: ../gp11/gp11-misc.c:129
 msgid "The module cannot lock data properly"
@@ -1077,7 +1075,7 @@ msgstr "O campo é sensível e não será revelado"
 
 #: ../gp11/gp11-misc.c:135
 msgid "The field is invalid or does not exist"
-msgstr "O campo é invalido ou não existe"
+msgstr "O campo é inválido ou não existe"
 
 #: ../gp11/gp11-misc.c:137
 msgid "Invalid value for field"
@@ -1101,15 +1099,15 @@ msgstr "Memória insuficiente disponível no dispositivo"
 
 #: ../gp11/gp11-misc.c:147
 msgid "The device was removed or unplugged"
-msgstr "O dispositivo foi removido ou desplugado"
+msgstr "O dispositivo foi removido ou desconectado"
 
 #: ../gp11/gp11-misc.c:149
 msgid "The encrypted data is not valid or unrecognized"
-msgstr "Os dados codificados não são válidos ou não foram reconhecidos"
+msgstr "Os dados criptografados não são válidos ou não foram reconhecidos"
 
 #: ../gp11/gp11-misc.c:151
 msgid "The encrypted data is too long"
-msgstr "Os dados codificados são demasiadamente extensos"
+msgstr "Os dados criptografados são demasiadamente extensos"
 
 #: ../gp11/gp11-misc.c:153
 msgid "This operation is not supported"
@@ -1145,7 +1143,7 @@ msgstr "A chave não pôde ser incluída no digest"
 
 #: ../gp11/gp11-misc.c:169
 msgid "This operation cannot be done with this key"
-msgstr "A operação não pode ser realizada com esta chave"
+msgstr "A operação não pôde ser realizada com esta chave"
 
 #: ../gp11/gp11-misc.c:171
 msgid "The key cannot be wrapped"
@@ -1153,7 +1151,7 @@ msgstr "A chave não pode ser quebrada"
 
 #: ../gp11/gp11-misc.c:173
 msgid "Cannot export this key"
-msgstr "Não foi possível exportar a chave"
+msgstr "Não foi possível exportar esta chave"
 
 #: ../gp11/gp11-misc.c:175
 msgid "The crypto mechanism is invalid or unrecognized"
@@ -1185,7 +1183,7 @@ msgstr "A senha ou o PIN é inválido"
 
 #: ../gp11/gp11-misc.c:189
 msgid "The password or PIN is of an invalid length"
-msgstr "A senha ou o PIN é de uma largura inválida"
+msgstr "A senha ou o PIN tem um comprimento inválido"
 
 #: ../gp11/gp11-misc.c:191
 msgid "The password or PIN has expired"
@@ -1213,7 +1211,7 @@ msgstr "A sessão é somente leitura"
 
 #: ../gp11/gp11-misc.c:203
 msgid "An open session exists"
-msgstr "Já existe uma sessão em aberto"
+msgstr "Já existe uma sessão aberta"
 
 #: ../gp11/gp11-misc.c:205
 msgid "A read-only session exists"
@@ -1225,11 +1223,11 @@ msgstr "Já existe uma sessão administrativa aberta"
 
 #: ../gp11/gp11-misc.c:209
 msgid "The signature is bad or corrupted"
-msgstr "A assinatura é ruim ou corrompida"
+msgstr "A assinatura é ruim ou está corrompida"
 
 #: ../gp11/gp11-misc.c:211
 msgid "The signature is unrecognized or corrupted"
-msgstr "A assinatura não foi reconhecida ou é corruptível"
+msgstr "A assinatura não foi reconhecida ou está corrompida"
 
 #: ../gp11/gp11-misc.c:213
 msgid "Certain required fields are missing"
@@ -1241,7 +1239,7 @@ msgstr "Certos campos possuem valores inválidos"
 
 #: ../gp11/gp11-misc.c:217
 msgid "The device is not present or unplugged"
-msgstr "O dispositivo não está presente ou desplugado"
+msgstr "O dispositivo não está presente ou está desconectado"
 
 #: ../gp11/gp11-misc.c:219
 msgid "The device is invalid or unrecognizable"
@@ -1261,7 +1259,7 @@ msgstr "Não foi possível importar pois a chave é de tamanho incorreto"
 
 #: ../gp11/gp11-misc.c:227
 msgid "Cannot import because the key is of the wrong type"
-msgstr "Não foi possível importar pois a chave é do tipo errado"
+msgstr "Não foi possível importar pois a chave é do tipo incorreto"
 
 #: ../gp11/gp11-misc.c:229
 msgid "You are already logged in"
@@ -1293,7 +1291,7 @@ msgstr "Não é possível importar uma chave inválida"
 
 #: ../gp11/gp11-misc.c:243
 msgid "Cannot import a key of the wrong size"
-msgstr "Não é possível importar uma chave de tamanho errado"
+msgstr "Não é possível importar uma chave de tamanho incorreto"
 
 #: ../gp11/gp11-misc.c:245
 msgid "Cannot export because the key is invalid"
@@ -1301,11 +1299,11 @@ msgstr "Não foi possível exportar pois a chave é inválida"
 
 #: ../gp11/gp11-misc.c:247
 msgid "Cannot export because the key is of the wrong size"
-msgstr "Não foi possível exportar pois a chave é de tamanho errado"
+msgstr "Não foi possível exportar pois a chave é de tamanho incorreto"
 
 #: ../gp11/gp11-misc.c:249
 msgid "Cannot export because the key is of the wrong type"
-msgstr "Não foi possível exportar pois a chave é do tipo errado"
+msgstr "Não foi possível exportar pois a chave é do tipo incorreto"
 
 #: ../gp11/gp11-misc.c:251
 msgid "Unable to initialize the random number generator"
@@ -1333,7 +1331,7 @@ msgstr "A informação é sensível e não pode ser revelada"
 
 #: ../gp11/gp11-misc.c:263
 msgid "The state cannot be saved"
-msgstr "O estado não foi salvo"
+msgstr "O estado não pôde ser salvo"
 
 #: ../gp11/gp11-misc.c:265
 msgid "The module has not been initialized"
@@ -1349,7 +1347,7 @@ msgstr "Não foi possível bloquear os dados"
 
 #: ../gp11/gp11-misc.c:271
 msgid "The data cannot be locked"
-msgstr "Os dados não podem ser bloqueados"
+msgstr "Os dados não puderam ser bloqueados"
 
 #: ../gp11/gp11-misc.c:273
 msgid "The signature request was rejected by the user"
@@ -1373,7 +1371,7 @@ msgstr "Erro de comunicação com gnome-keyring-daemon"
 
 #: ../library/gnome-keyring-utils.c:161
 msgid "A keyring with that name already exists"
-msgstr "Um chaveiro com aquele nome já existe"
+msgstr "Um chaveiro com este nome já existe"
 
 #: ../library/gnome-keyring-utils.c:163
 msgid "Programmer error: The application sent invalid data."
@@ -1397,7 +1395,7 @@ msgstr "Certificado sem nome"
 
 #: ../pkcs11/ssh-store/gck-ssh-private-key.c:309
 msgid "Couldn't parse public SSH key"
-msgstr "Não foi possível analisar a chave pública de SSH"
+msgstr "Não foi possível analisar a chave pública do SSH"
 
 #~ msgid ""
 #~ "A list of paths to PKCS#11 modules to load. No modules are currently "
@@ -1431,13 +1429,13 @@ msgstr "Não foi possível analisar a chave pública de SSH"
 
 #~ msgid "The system wants to import the public key '%s', but it is locked"
 #~ msgstr ""
-#~ "O sistema deseja importa a chave pública \"%s\", mas ela está bloqueada"
+#~ "O sistema deseja importar a chave pública \"%s\", mas ela está bloqueada"
 
 #~ msgid "The system wants to import '%s', but it is locked"
 #~ msgstr "O sistema deseja importar \"%s\", mas ele está bloqueado"
 
 #~ msgid "Create Storage for Key Information"
-#~ msgstr "Criar armazenamento para a informação da chave"
+#~ msgstr "Criar armazenamento para informações de chave"
 
 #~ msgid "Choose password to protect storage"
 #~ msgstr "Escolha uma senha para proteger o armazenamento"
@@ -1447,12 +1445,12 @@ msgstr "Não foi possível analisar a chave pública de SSH"
 #~ "In order to protect this information, choose a password with which it "
 #~ "will be locked."
 #~ msgstr ""
-#~ "O sistema deseja armazenar informação sobre suas chaves e certificados. "
+#~ "O sistema deseja armazenar informações sobre suas chaves e certificados. "
 #~ "Para proteger esta informação, escolha uma senha com a qual será "
 #~ "bloqueada."
 
 #~ msgid "Unlock Storage for Key Information"
-#~ msgstr "Desbloquear o armazenamento de informação da chave"
+#~ msgstr "Desbloquear o armazenamento de informações de chave"
 
 #~ msgid "Enter password to unlock storage"
 #~ msgstr "Digite a senha para desbloquear o armazenamento"
@@ -1497,10 +1495,10 @@ msgstr "Não foi possível analisar a chave pública de SSH"
 #~ "senha para bloqueá-lo."
 
 #~ msgid "Unrecognized or unsupported file."
-#~ msgstr "Arquivo não reconhecido ou não suportado."
+#~ msgstr "Arquivo não reconhecido ou sem suporte."
 
 #~ msgid "Could not parse invalid or corrupted file."
-#~ msgstr "Não possível analisar arquivo inválido ou corrompido."
+#~ msgstr "Não possível analisar o arquivo inválido ou corrompido."
 
 #~ msgid "Couldn't read secure shell private key: %s"
 #~ msgstr "Não foi possível a leitura da chave privada de SSH: %s"
@@ -1515,7 +1513,7 @@ msgstr "Não foi possível analisar a chave pública de SSH"
 #~ msgstr "Não foi possível codificar a chave SSH para armazená-la."
 
 #~ msgid "Cannot set a random seed"
-#~ msgstr "Não foi possível ajustar uma semente aleatória"
+#~ msgstr "Não foi possível definir uma semente aleatória"
 
 #~ msgid "Unlock password for '%s'"
-#~ msgstr "Senha para desbloquear %s"
+#~ msgstr "Senha para desbloquear \"%s\""
