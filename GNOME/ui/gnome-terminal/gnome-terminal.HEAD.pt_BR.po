@@ -84,9 +84,9 @@ msgid ""
 "is a list of encodings to appear there. The special encoding name \"current"
 "\" means to display the encoding of the current locale."
 msgstr ""
-"O subconjunto de codificações possíveis aparece no submenu Codificações. "
-"Esta é uma lista de codificações que aparecem lá. O nome especial \"atual\" "
-"representa a opção da codificação atual."
+"Um subconjunto de codificações possíveis aparece no submenu Codificações. "
+"Esta é uma lista de codificações que aparecem lá. O nome especial \"current"
+"\" (atual) exibe a codificação do local atual."
 
 #: ../src/gnome-terminal.schemas.in.h:2
 msgid ""
@@ -98,7 +98,7 @@ msgstr ""
 "Um valor entre 0.0 e 1.0 indica o quanto escurecer a imagem de fundo. 0.0 "
 "significa não escurecer, 1.0 significa totalmente escuro. Na implementação "
 "atual só existem dois níveis de escurecimento possíveis, então esta opção se "
-"comporta como uma chave, onde 0.0 desabilita o escurecimento."
+"comporta como uma booleana, onde 0.0 desabilita o escurecimento."
 
 #: ../src/gnome-terminal.schemas.in.h:3
 msgid ""
@@ -106,10 +106,10 @@ msgid ""
 "format used for GTK+ resource files. If you set the option to the special "
 "string \"disabled\", then there will be no keybinding for this action."
 msgstr ""
-"Tecla de atalho para destacar a aba atual. Expressa como uma string no mesmo "
-"formato usado pelos arquivos de recursos do GTK+. Se você mudar esta opção "
-"para a palavra especial \"disabled\", não haverá tecla de atalho para esta "
-"ação."
+"Tecla de atalho para desanexar a aba atual. Expressa como uma string no "
+"mesmo formato usado pelos arquivos de recursos do GTK+. Se você definir esta "
+"opção para a palavra especial \"disabled\", não haverá tecla de atalho para "
+"esta ação."
 
 #: ../src/gnome-terminal.schemas.in.h:4
 msgid ""
@@ -120,7 +120,7 @@ msgid ""
 msgstr ""
 "Tecla de atalho para mover a aba atual para a esquerda. Expressa como uma "
 "string no mesmo formato usado pelos arquivos de recursos do GTK+. Se você "
-"mudar esta opção para a palavra especial \"disabled\", não haverá tecla de "
+"definir esta opção para a palavra especial \"disabled\", não haverá tecla de "
 "atalho para essa ação."
 
 #: ../src/gnome-terminal.schemas.in.h:5
@@ -132,12 +132,12 @@ msgid ""
 msgstr ""
 "Tecla de atalho para mover a aba atual para a direita. Expressa como uma "
 "string no mesmo formato usado pelos arquivos de recursos do GTK+. Se você "
-"mudar esta opção para a palavra especial \"disabled\", não haverá tecla de "
+"definir esta opção para a palavra especial \"disabled\", não haverá tecla de "
 "atalho para essa ação."
 
 #: ../src/gnome-terminal.schemas.in.h:6
 msgid "Accelerator to detach current tab."
-msgstr "Atalho para destacar a aba atual."
+msgstr "Atalho para desanexar a aba atual."
 
 #: ../src/gnome-terminal.schemas.in.h:7
 msgid "Accelerator to move the current tab to the left."
@@ -174,7 +174,7 @@ msgstr "Padrão"
 
 #: ../src/gnome-terminal.schemas.in.h:15
 msgid "Default color of terminal background"
-msgstr "Cor de fundo do terminal"
+msgstr "Cor padrão do fundo do terminal"
 
 #: ../src/gnome-terminal.schemas.in.h:16
 msgid ""
@@ -182,19 +182,19 @@ msgid ""
 "style hex digits, or a color name such as \"red\")."
 msgstr ""
 "Cor padrão do fundo do terminal, como uma especificação de cor (pode ser no "
-"estilo HTML de 6 dígitos, ou um nome como \"red\", para vermelho)."
+"estilo HTML de dígitos hexadecimais ou um nome como \"red\", para vermelho)."
 
 #: ../src/gnome-terminal.schemas.in.h:17
 msgid "Default color of text in the terminal"
-msgstr "Cor do texto do terminal"
+msgstr "Cor padrão do texto no terminal"
 
 #: ../src/gnome-terminal.schemas.in.h:18
 msgid ""
 "Default color of text in the terminal, as a color specification (can be HTML-"
 "style hex digits, or a color name such as \"red\")."
 msgstr ""
-"Cor padrão de texto do terminal, como uma especificação de cor (pode ser no "
-"estilo HTML de 6 digitos, ou um nome como \"red\", para vermelho)."
+"Cor padrão do texto no terminal, como uma especificação de cor (pode ser no "
+"estilo HTML de dígitos hexadecimais, ou um nome como \"red\", para vermelho)."
 
 #: ../src/gnome-terminal.schemas.in.h:19
 msgid "Effect of the Backspace key"
@@ -236,7 +236,7 @@ msgstr "Ícone para a janela do terminal"
 
 #: ../src/gnome-terminal.schemas.in.h:30
 msgid "Icon to use for tabs/windows containing this profile."
-msgstr "Ícone para usar para abas/janelas contendo este perfil."
+msgstr "Ícone para usar nas abas e janelas contendo este perfil."
 
 #: ../src/gnome-terminal.schemas.in.h:31
 msgid ""
@@ -254,8 +254,7 @@ msgstr ""
 #: ../src/gnome-terminal.schemas.in.h:32
 msgid "If true, allow applications in the terminal to make text boldface."
 msgstr ""
-"Se verdadeiro, permitir o uso de texto em negrito para aplicativos no "
-"terminal."
+"Se verdadeiro, permite que os aplicativos no terminal usem texto em negrito."
 
 #: ../src/gnome-terminal.schemas.in.h:33
 msgid ""
@@ -276,7 +275,7 @@ msgid ""
 "If true, scroll the background image with the foreground text; if false, "
 "keep the image in a fixed position and scroll the text above it."
 msgstr ""
-"Se verdadeiro, move a imagem de fundo junto com o texto; se falso, mantem a "
+"Se verdadeiro, move a imagem de fundo junto com o texto; se falso, mantém a "
 "imagem em uma posição fixa e move o texto sobre ela."
 
 #: ../src/gnome-terminal.schemas.in.h:36
@@ -333,7 +332,7 @@ msgid ""
 msgstr ""
 "Tecla de atalho para abrir o diálogo de criação de perfil. Expressa como uma "
 "string no mesmo formato usado pelos arquivos de recursos do GTK+. Se você "
-"mudar esta opção para a palavra especial \"disabled\", não haverá tecla de "
+"definir esta opção para a palavra especial \"disabled\", não haverá tecla de "
 "atalho para esta ação."
 
 #: ../src/gnome-terminal.schemas.in.h:43
@@ -343,7 +342,7 @@ msgid ""
 "string \"disabled\", then there will be no keyboard shortcut for this action."
 msgstr ""
 "Tecla de atalho para fechar uma aba. Expressa como uma string no mesmo "
-"formato usado pelos arquivos de recursos do GTK+. Se você mudar esta opção "
+"formato usado pelos arquivos de recursos do GTK+. Se você definir esta opção "
 "para a palavra especial \"disabled\", não haverá tecla de atalho para esta "
 "ação."
 
@@ -355,7 +354,7 @@ msgid ""
 "this action."
 msgstr ""
 "Tecla de atalho para fechar uma janela. Expressa como uma string no mesmo "
-"formato usado pelos arquivos de recursos do GTK+. Se você mudar esta opção "
+"formato usado pelos arquivos de recursos do GTK+. Se você definir esta opção "
 "para a palavra especial \"disabled\", não haverá tecla de atalho para esta "
 "ação."
 
