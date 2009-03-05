@@ -19,7 +19,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "terminal&component=general\n"
 "POT-Creation-Date: 2009-02-28 15:52+0000\n"
-"PO-Revision-Date: 2009-03-04 23:48-0300\n"
+"PO-Revision-Date: 2009-03-05 00:05-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -817,8 +817,8 @@ msgid ""
 "standard menubar accelerator to be disabled."
 msgstr ""
 "Normalmente você pode acessar a barra de menus com F10. Isso pode também ser "
-"personalizado no gtkrc (gtk-menu-bar-accel = \"qualquercoisa\"). Essa opção "
-"permite que o acelerador padrão da barra de menus seja desligado."
+"personalizado no gtkrc (gtk-menu-bar-accel = \"whatever\" (qualquercoisa)). "
+"Essa opção permite que o acelerador padrão da barra de menus seja desligado."
 
 #: ../src/gnome-terminal.schemas.in.h:106
 msgid "Number of lines to keep in scrollback"
@@ -942,8 +942,8 @@ msgid ""
 "settings, or \"on\" or \"off\" to set the mode explicitly."
 msgstr ""
 "Os possíveis valores são \"system\" (sistema) para utilizar as configurações "
-"globais de intermitência do cursor, ou \"ligado\" ou \"desligado\" para "
-"definir explicitamente o modo."
+"globais de intermitência do cursor, ou \"on\" (ligado) ou \"off"
+"\" (desligado) para definir explicitamente o modo."
 
 #: ../src/gnome-terminal.schemas.in.h:124
 msgid "Title for terminal"
@@ -1429,7 +1429,7 @@ msgstr "_Cor do fundo:"
 
 #: ../src/profile-preferences.glade.h:63
 msgid "_Background image"
-msgstr "Imagem de fundo"
+msgstr "Imagem de _fundo"
 
 #: ../src/profile-preferences.glade.h:64
 msgid "_Backspace key generates:"
@@ -1493,7 +1493,7 @@ msgstr "Resposta ao desafio de S/Key"
 
 #: ../src/skey-challenge.glade.h:2
 msgid "_Password:"
-msgstr "Senha:"
+msgstr "_Senha:"
 
 #: ../src/skey-popup.c:164
 msgid "The text you clicked on doesn't seem to be a valid S/Key challenge."
@@ -2212,7 +2212,7 @@ msgstr "Aj_uda"
 
 #: ../src/terminal-window.c:1579
 msgid "New _Profile…"
-msgstr "Novo perfil..."
+msgstr "Novo _perfil..."
 
 #: ../src/terminal-window.c:1582 ../src/terminal-window.c:1704
 msgid "C_lose Tab"
@@ -2224,15 +2224,15 @@ msgstr "_Fechar janela"
 
 #: ../src/terminal-window.c:1596 ../src/terminal-window.c:1692
 msgid "Paste _Filenames"
-msgstr "Colar nomes de arquivos"
+msgstr "Colar nomes de ar_quivos"
 
 #: ../src/terminal-window.c:1602
 msgid "P_rofiles…"
-msgstr "Perfis..."
+msgstr "Pe_rfis..."
 
 #: ../src/terminal-window.c:1605
 msgid "_Keyboard Shortcuts…"
-msgstr "Atalhos de teclado..."
+msgstr "Atalhos de _teclado..."
 
 #: ../src/terminal-window.c:1608
 msgid "Pr_ofile Preferences"
@@ -2245,7 +2245,7 @@ msgstr "Alterar _perfil"
 
 #: ../src/terminal-window.c:1625
 msgid "_Set Title…"
-msgstr "Definir título..."
+msgstr "Definir _título..."
 
 #: ../src/terminal-window.c:1628
 msgid "Set _Character Encoding"
@@ -2305,7 +2305,7 @@ msgstr "_Copiar endereço de e-mail"
 
 #: ../src/terminal-window.c:1673
 msgid "C_all To…"
-msgstr "Ligar para..."
+msgstr "Li_gar para..."
 
 #: ../src/terminal-window.c:1676
 msgid "_Copy Call Address"
