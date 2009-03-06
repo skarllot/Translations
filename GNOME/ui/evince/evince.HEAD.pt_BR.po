@@ -1,13 +1,15 @@
 # Brazilian Portuguese translation of Evince.
-# Copyright (C) 2004-2008 the Evince authors.
+# Copyright (C) 2004-2009 the Evince authors.
 # This file is distributed under the same license as the evince package.
-# Leonardo Ferreira Fontenelle <leonardof@gnome.org>, 2006, 2007, 2008.
+# Raphael Higino <In Memoriam>, 2004-2005, 2007.
+# Licio Fernando <liciofernando@gmail.com>, ?.
+# Leonardo Ferreira Fontenelle <leonardof@gnome.org>, 2006-2008.
 # Washington Lins <washington-lins@uol.com.br>, 2007.
-# Raphael Higino <phhigino@gmail.com>, 2004-2005, 2007.
 # Rodrigo Flores <rodrigomarquesflores@gmail.com>, 2007.
 # Hugo Doria <hugodoria@gmail.com>, 2007-2008.
-# Vladimir Melo <vladimirmelo.psi@gmail.com>, 2008.
+# Vladimir Melo <vmelo@gnome.org>, 2008.
 # Taylon Silmer <taylonsilva@gmail.com>, 2009.
+# Fabrício Godoy <skarllot@gmail.com>, 2009.
 #
 msgid ""
 msgstr ""
@@ -15,9 +17,9 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=evince&component=general\n"
 "POT-Creation-Date: 2009-02-15 13:53+0000\n"
-"PO-Revision-Date: 2009-01-03 17:14-0300\n"
-"Last-Translator: Taylon <taylonsilva@gmail.com>\n"
-"Language-Team: Brazilian Portuguese <gnome-l10n-br@listas.cipsga.org.br>\n"
+"PO-Revision-Date: 2009-03-06 01:35-0300\n"
+"Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
+"Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -34,38 +36,30 @@ msgstr "Tipo MIME desconhecido"
 #: ../backend/comics/comics-document.c:165
 #, c-format
 msgid "Not a comic book MIME type: %s"
-msgstr ""
+msgstr "Não é um tipo MIME de revistas em quadrinhos: %s"
 
 #: ../backend/comics/comics-document.c:186
 msgid "File corrupted."
 msgstr "Arquivo corrompido."
 
 #: ../backend/comics/comics-document.c:198
-#, fuzzy
-#| msgid "No images found in archive %s"
 msgid "No files in archive."
-msgstr "Não foram localizadas imagens no arquivo %s"
+msgstr "Nenhum arquivo no pacote."
 
 #: ../backend/comics/comics-document.c:230
 #, c-format
 msgid "No images found in archive %s"
-msgstr "Não foram localizadas imagens no arquivo %s"
+msgstr "Não foram localizadas imagens no pacote %s"
 
 #: ../backend/comics/comicsdocument.evince-backend.in.h:1
 msgid "Comic Books"
 msgstr "Revistas em quadrinho"
 
 #: ../backend/djvu/djvu-document.c:174
-#, fuzzy
-#| msgid "DVI document has incorrect format"
 msgid "DJVU document has incorrect format"
-msgstr "O documento DVI tem um formato incorreto"
+msgstr "O documento DJVU tem um formato incorreto"
 
 #: ../backend/djvu/djvu-document.c:251
-#, fuzzy
-#| msgid ""
-#| "The document is composed by several files. One or more of such files "
-#| "cannot be accessed."
 msgid ""
 "The document is composed of several files. One or more of such files cannot "
 "be accessed."
@@ -176,19 +170,19 @@ msgstr "Arquivo zip inválido"
 
 #: ../backend/impress/zip.c:65
 msgid "Multi file zips are not supported"
-msgstr "Arquivos zip com múltiplos arquivos sem suporte"
+msgstr "Não há suporte a pacotes zip com múltiplos arquivos"
 
 #: ../backend/impress/zip.c:68
 msgid "Cannot open the file"
-msgstr "Não é possível abrir o arquivo"
+msgstr "Não foi possível abrir o arquivo"
 
 #: ../backend/impress/zip.c:71
 msgid "Cannot read data from file"
-msgstr "Não é possível ler os dados do arquivo"
+msgstr "Não foi possível ler os dados do arquivo"
 
 #: ../backend/impress/zip.c:74
 msgid "Cannot find file in the zip archive"
-msgstr "Não é possível encontrar arquivos no arquivo zip"
+msgstr "Não foi possível encontrar arquivos no pacote zip"
 
 #: ../backend/impress/zip.c:77
 msgid "Unknown error"
@@ -226,7 +220,7 @@ msgstr "Não foi possível abrir o anexo \"%s\""
 #: ../libdocument/ev-document-factory.c:168
 #, c-format
 msgid "File type %s (%s) is not supported"
-msgstr "O tipo de arquivo %s (%s) não tem suporte"
+msgstr "Não há suporte ao tipo de arquivo %s (%s)"
 
 #: ../libdocument/ev-document-factory.c:353
 msgid "All Documents"
@@ -316,7 +310,7 @@ msgstr "Desabilita a conexão com gerenciador de sessão"
 
 #: ../cut-n-paste/smclient/eggsmclient.c:227
 msgid "Specify file containing saved configuration"
-msgstr "Especifica o arquivo contendo configuração salva"
+msgstr "Especifica o arquivo contendo a configuração salva"
 
 #: ../cut-n-paste/smclient/eggsmclient.c:227
 msgid "FILE"
@@ -455,88 +449,60 @@ msgid "Document"
 msgstr "Documento"
 
 #: ../properties/ev-properties-view.c:59
-#, fuzzy
-#| msgid "Title"
 msgid "Title:"
-msgstr "Título"
+msgstr "Título:"
 
 #: ../properties/ev-properties-view.c:60
-#, fuzzy
-#| msgid "Location"
 msgid "Location:"
-msgstr "Localização"
+msgstr "Localização:"
 
 #: ../properties/ev-properties-view.c:61
-#, fuzzy
-#| msgid "Subject"
 msgid "Subject:"
-msgstr "Assunto"
+msgstr "Assunto:"
 
 #: ../properties/ev-properties-view.c:62
-#, fuzzy
-#| msgid "Author"
 msgid "Author:"
-msgstr "Autor"
+msgstr "Autor:"
 
 #: ../properties/ev-properties-view.c:63
-#, fuzzy
-#| msgid "Keywords"
 msgid "Keywords:"
-msgstr "Palavras-chave"
+msgstr "Palavras-chave:"
 
 #: ../properties/ev-properties-view.c:64
-#, fuzzy
-#| msgid "Producer"
 msgid "Producer:"
-msgstr "Produtor"
+msgstr "Produtor:"
 
 #: ../properties/ev-properties-view.c:65
-#, fuzzy
-#| msgid "Creator"
 msgid "Creator:"
-msgstr "Criador"
+msgstr "Criador:"
 
 #: ../properties/ev-properties-view.c:66
-#, fuzzy
-#| msgid "Created"
 msgid "Created:"
-msgstr "Criado"
+msgstr "Criado:"
 
 #: ../properties/ev-properties-view.c:67
-#, fuzzy
-#| msgid "Modified"
 msgid "Modified:"
-msgstr "Modificado"
+msgstr "Modificado:"
 
 #: ../properties/ev-properties-view.c:68
-#, fuzzy
-#| msgid "Number of Pages"
 msgid "Number of Pages:"
-msgstr "Número de páginas"
+msgstr "Número de páginas:"
 
 #: ../properties/ev-properties-view.c:69
-#, fuzzy
-#| msgid "Optimized"
 msgid "Optimized:"
-msgstr "Otimizado"
+msgstr "Otimizado:"
 
 #: ../properties/ev-properties-view.c:70
-#, fuzzy
-#| msgid "Format"
 msgid "Format:"
-msgstr "Formato"
+msgstr "Formato:"
 
 #: ../properties/ev-properties-view.c:71
-#, fuzzy
-#| msgid "Security"
 msgid "Security:"
-msgstr "Segurança"
+msgstr "Segurança:"
 
 #: ../properties/ev-properties-view.c:72
-#, fuzzy
-#| msgid "Paper Size"
 msgid "Paper Size:"
-msgstr "Tamanho do papel"
+msgstr "Tamanho do papel:"
 
 #: ../properties/ev-properties-view.c:202
 msgid "None"
@@ -672,7 +638,7 @@ msgstr "Diferenciar maiúsc./minúsc."
 
 #: ../shell/eggfindbar.c:161
 msgid "TRUE for a case sensitive search"
-msgstr "Diferenciar maiúsculas de minúsculas"
+msgstr "VERDADEIRO para uma pesquisa sensível a maiusculização"
 
 #: ../shell/eggfindbar.c:168
 msgid "Highlight color"
@@ -716,7 +682,7 @@ msgstr "_Diferenciar maiúsc./minúsc."
 
 #: ../shell/eggfindbar.c:351
 msgid "Toggle case sensitive search"
-msgstr "Alternar diferenciação de maiúsculas de minúsculas"
+msgstr "Alternar sensibilidade a maiusculização"
 
 #: ../shell/ev-keyring.c:102
 #, c-format
@@ -790,7 +756,7 @@ msgstr "Imprimindo página %d de %d..."
 
 #: ../shell/ev-print-operation.c:1010
 msgid "Printing is not supported on this printer."
-msgstr "Esta impressora não tem suporte para impressão."
+msgstr "Não há suporte a impressão nesta impressora."
 
 #: ../shell/ev-print-operation.c:1136 ../shell/ev-window.c:5079
 msgid "Print"
@@ -861,10 +827,9 @@ msgid "Loading document from %s"
 msgstr "Carregando o documento a partir de %s"
 
 #: ../shell/ev-window.c:1749 ../shell/ev-window.c:1942
-#, fuzzy, c-format
-#| msgid "Downloading document %d%%"
+#, c-format
 msgid "Downloading document (%d%%)"
-msgstr "Baixando o documento %d%%"
+msgstr "Baixando o documento (%d%%)"
 
 #: ../shell/ev-window.c:1888
 #, c-format
@@ -872,8 +837,6 @@ msgid "Reloading document from %s"
 msgstr "Recarregando o documento a partir de %s"
 
 #: ../shell/ev-window.c:1921
-#, fuzzy
-#| msgid "Failed to reaload document."
 msgid "Failed to reload document."
 msgstr "Falha ao recarregar o documento."
 
@@ -884,7 +847,7 @@ msgstr "Abrir documento"
 #: ../shell/ev-window.c:2131
 #, c-format
 msgid "Couldn't create symlink “%s”: %s"
-msgstr "Não foi possível criar a ligação simbólica \"%s\": %s"
+msgstr "Não foi possível criar o link simbólico \"%s\": %s"
 
 #: ../shell/ev-window.c:2160
 msgid "Cannot open a copy."
@@ -911,22 +874,19 @@ msgid "The file could not be saved as “%s”."
 msgstr "Não foi possível salvar o arquivo como \"%s\"."
 
 #: ../shell/ev-window.c:2479
-#, fuzzy, c-format
-#| msgid "Uploading document %d%%"
+#, c-format
 msgid "Uploading document (%d%%)"
-msgstr "Enviando o documento %d%%"
+msgstr "Enviando o documento (%d%%)"
 
 #: ../shell/ev-window.c:2483
-#, fuzzy, c-format
-#| msgid "Uploading attachment %d%%"
+#, c-format
 msgid "Uploading attachment (%d%%)"
-msgstr "Enviando o anexo %d%%"
+msgstr "Enviando o anexo (%d%%)"
 
 #: ../shell/ev-window.c:2487
-#, fuzzy, c-format
-#| msgid "Uploading image %d%%"
+#, c-format
 msgid "Uploading image (%d%%)"
-msgstr "Enviando a imagem %d%%"
+msgstr "Enviando a imagem (%d%%)"
 
 #: ../shell/ev-window.c:2594
 msgid "Save a Copy"
@@ -972,8 +932,6 @@ msgid "Cancel _print and Close"
 msgstr "Cancelar im_pressão e fechar"
 
 #: ../shell/ev-window.c:3130
-#, fuzzy
-#| msgid "Close after _Printing"
 msgid "Close _after Printing"
 msgstr "Fechar depois de im_primir"
 
@@ -1043,9 +1001,12 @@ msgstr ""
 "Raphael Higino <In memoriam>\n"
 "Licio Fernando <liciofernando@gmail.com>\n"
 "Leonardo Ferreira Fontenelle <leonardof@gnome.org>\n"
+"Washington Lins <washington-lins@uol.com.br>\n"
+"Rodrigo Flores <rodrigomarquesflores@gmail.com>\n"
 "Hugo Doria <hugodoria@gmail.com>\n"
-"Vladimir Melo <vladimirmelo.psi@gmail.com>\n"
-"Taylon Silmer <taylonsilva@gmail.com>"
+"Vladimir Melo <vmelo@gnome.org>\n"
+"Taylon Silmer <taylonsilva@gmail.com>\n"
+"Fabrício Godoy <skarllot@gmail.com>"
 
 #. TRANS: Sometimes this could be better translated as
 #. "%d hit(s) on this page".  Therefore this string
@@ -1377,11 +1338,11 @@ msgstr "Largura da página"
 
 #: ../shell/ev-window.c:5465 ../shell/ev-window.c:5483
 msgid "Unable to launch external application."
-msgstr "Impossível executar a aplicação externa."
+msgstr "Não foi possível executar o aplicativo externo."
 
 #: ../shell/ev-window.c:5526
 msgid "Unable to open external link"
-msgstr "Não é possível abrir o link externo"
+msgstr "Não foi possível abrir o link externo"
 
 #: ../shell/ev-window.c:5682
 msgid "Couldn't find appropriate format to save image"
@@ -1397,7 +1358,7 @@ msgstr "Salvar imagem"
 
 #: ../shell/ev-window.c:5815
 msgid "Unable to open attachment"
-msgstr "Não foi possível abrir anexo"
+msgstr "Não foi possível abrir o anexo"
 
 #: ../shell/ev-window.c:5866
 msgid "The attachment could not be saved."
@@ -1434,7 +1395,7 @@ msgstr "Executa o Evince em modo de tela cheia"
 
 #: ../shell/main.c:69
 msgid "Run evince in presentation mode"
-msgstr "Executa o documento em modo de apresentação"
+msgstr "Executa o Evince em modo de apresentação"
 
 #: ../shell/main.c:70
 msgid "Run evince as a previewer"
@@ -1480,7 +1441,7 @@ msgstr ""
 #~ msgstr "Arquivo não disponível"
 
 #~ msgid "Remote files aren't supported"
-#~ msgstr "Arquivos remotos sem suporte"
+#~ msgstr "Não há suporte a arquivos remotos"
 
 #~ msgid "Find Previous"
 #~ msgstr "Localizar anterior"
@@ -1501,13 +1462,13 @@ msgstr ""
 #~ msgstr "<b>Título:</b>"
 
 #~ msgid "%.2f x %.2f in"
-#~ msgstr "%.2f x %.2f in"
+#~ msgstr "%.2f x %.2f pol."
 
 #~ msgid "Incorrect password"
 #~ msgstr "Senha incorreta"
 
 #~ msgid "Evince Document Viewer"
-#~ msgstr "Visualizador de Documentos Evince"
+#~ msgstr "Visualizador de documentos Evince"
 
 #~ msgid "BBox"
 #~ msgstr "BBox"
@@ -1583,10 +1544,10 @@ msgstr ""
 #~ msgstr "Falha do interpretador."
 
 #~ msgid "Unhandled MIME type: “%s”"
-#~ msgstr "Tipo MIME não tratado: \"%s\""
+#~ msgstr "Tipo MIME não manipulável: \"%s\""
 
 #~ msgid "Generating PDF is not supported"
-#~ msgstr "Geração de arquivos PDF sem suporte"
+#~ msgstr "Não há suporte a geração de arquivos PDF"
 
 #~ msgid ""
 #~ "You were trying to print to a printer using the “%s” driver. This program "
@@ -1605,4 +1566,4 @@ msgstr ""
 #~ msgstr "URI inválido: \"%s\""
 
 #~ msgid "Unsupported URI: “%s”"
-#~ msgstr "URI sem suporte: \"%s\""
+#~ msgstr "Não há suporte ao URI: \"%s\""
