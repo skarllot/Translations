@@ -1,10 +1,18 @@
+# Brazilian Portuguese translation of totem.
+# This file is distributed under the same license as the totem package.
+# Copyright (C) 2007-2009 Free Software Foundation, Inc.
+# Raphael Higino <In Memoriam>, 2007.
+# Irapuan Pascoal <irapuan.menezes@gmail.com>, 2007.
+# Leonardo Ferreira Fontenelle <leonardof@gnome.org>, 2008.
+# Fabrício Godoy <skarllot@gmail.com>, 2009.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Totem\n"
 "POT-Creation-Date: 2009-03-08 19:53+0000\n"
-"PO-Revision-Date: 2007-02-11 14:24-0200\n"
-"Last-Translator: Irapuan Pascoal <irapuan.menezes@gmail.com>\n"
-"Language-Team: Brazilian Portuguese <gnome-l10n-br@listas.cipsga.org.br>\n"
+"PO-Revision-Date: 2009-03-11 01:09-0300\n"
+"Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
+"Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -66,7 +74,7 @@ msgstr ""
 
 #: C/totem.xml:30(title)
 msgid "<application>Totem Movie Player</application> Manual"
-msgstr "Manual do <application>Reprodutor de Filmes Totem</application>"
+msgstr "Manual do <application>Reprodutor de filmes Totem</application>"
 
 #: C/totem.xml:32(year)
 msgid "2003"
@@ -77,14 +85,12 @@ msgid "Chee Bin HOH"
 msgstr "Chee Bin HOH"
 
 #: C/totem.xml:36(year)
-#, fuzzy
-#| msgid "2003"
 msgid "2009"
-msgstr "2003"
+msgstr "2009"
 
 #: C/totem.xml:37(holder)
 msgid "Philip Withnall"
-msgstr ""
+msgstr "Philip Withnall"
 
 #: C/totem.xml:42(para)
 msgid ""
@@ -93,6 +99,11 @@ msgid ""
 "support for most audio and video codecs including DVDs among many others. "
 "Features include TV-out, fullscreen, subtitles, and more."
 msgstr ""
+"O <application>Reprodutor de filmes Totem</application> é um reprodutor de "
+"mídia para o GNOME que executa sobre o GStreamer por padrão, mas pode também "
+"ser executado sobre o xine. Há suporte a maioria dos codecs de áudio e "
+"vídeio incluindo DVDs dentre muitos outros. Nos recursos estão inclusos "
+"saída de TV, tela cheia, legendas e mais."
 
 #: C/totem.xml:49(publishername) C/totem.xml:62(orgname) C/totem.xml:117(para)
 #: C/totem.xml:127(para)
@@ -100,14 +111,6 @@ msgid "GNOME Documentation Project"
 msgstr "Projeto de Documentação do GNOME"
 
 #: C/totem.xml:2(para)
-#, fuzzy
-#| msgid ""
-#| "This program is distributed under the terms of the GNU General Public "
-#| "license as published by the Free Software Foundation; either version 2 of "
-#| "the License, or (at your option) any later version. A copy of this "
-#| "license can be found at this <ulink url=\"ghelp:gpl\" type=\"help\">link</"
-#| "ulink>, or in the file COPYING included with the source code of this "
-#| "program."
 msgid ""
 "Permission is granted to copy, distribute and/or modify this document under "
 "the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
@@ -116,11 +119,13 @@ msgid ""
 "of the GFDL at this <ulink type=\"help\" url=\"ghelp:fdl\">link</ulink> or "
 "in the file COPYING-DOCS distributed with this manual."
 msgstr ""
-"Este programa é distribuído sob os termos da licença GNU General Public "
-"license publicada pela Free Software Foundation; tanto a versão 2 dessa "
-"licença, como (a seu critério) qualquer uma mais nova. Uma cópia dessa "
-"licença pode ser encontrada em <ulink url=\"ghelp:gpl\" type=\"help\">link</"
-"ulink> ou no arquivo COPYING incluso no código fonte deste programa."
+"Permissão concedida para copiar, distribuir e/ou modificar este documento "
+"sob os termos da Licença de Documentação Livre GNU (GNU Free Documentation "
+"License), Versão 1.1 ou qualquer versão mais recente publicada pela Free "
+"Software Foundation; sem Seções Invariantes, sem Textos de Capa Frontal, e "
+"sem Textos de Contracapa. Você pode encontrar uma cópia da licença GFDL no "
+"<ulink type=\"help\" url=\"ghelp:fdl\">link</ulink> ou no arquivo COPYING-"
+"DOCS distribuído com este manual."
 
 #: C/totem.xml:12(para)
 msgid ""
@@ -129,6 +134,10 @@ msgid ""
 "you can do so by adding a copy of the license to the manual, as described in "
 "section 6 of the license."
 msgstr ""
+"Este manual é parte da coleção de manuais do GNOME distribuídos sob a GFDL. "
+"Se você quiser distribuí-lo separadamente da coleção, você pode fazê-lo "
+"adicionando ao manual uma cópia da licença, como descrito na seção 6 da "
+"licença."
 
 #: C/totem.xml:19(para)
 msgid ""
@@ -138,6 +147,11 @@ msgid ""
 "aware of those trademarks, then the names are in capital letters or initial "
 "capital letters."
 msgstr ""
+"Muitos dos nomes usados por empresas para distinguir seus produtos e "
+"serviços são reivindicados como marcas registradas. Onde esses nomes "
+"aparecem em qualquer documentação do GNOME e os membros do Projeto de "
+"Documentação do GNOME estiverem cientes dessas marcas registradas, os nomes "
+"aparecerão impressos em letras maiúsculas ou com iniciais em maiúsculas."
 
 #: C/totem.xml:35(para)
 msgid ""
@@ -153,6 +167,18 @@ msgid ""
 "ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION "
 "OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
 msgstr ""
+"O DOCUMENTO É FORNECIDO NA BASE \"COMO ESTÁ\", SEM GARANTIAS DE QUALQUER "
+"TIPO, TANTO EXPRESSA OU IMPLÍCITA, INCLUINDO, MAS NÃO LIMITADO A, GARANTIAS "
+"DE QUE O DOCUMENTO OU VERSÃO MODIFICADA DO DOCUMENTO SEJA COMERCIALIZÁVEL, "
+"LIVRE DE DEFEITOS, PRÓPRIO PARA UM PROPÓSITO ESPECÍFICO OU SEM INFRAÇÕES. "
+"TODO O RISCO A RESPEITO DA QUALIDADE, EXATIDÃO, E DESEMPENHO DO DOCUMENTO OU "
+"VERSÕES MODIFICADAS DO DOCUMENTO É DE SUA RESPONSABILIDADE. SE ALGUM "
+"DOCUMENTO OU VERSÃO MODIFICADA SE PROVAR DEFEITUOSO EM QUALQUER ASPECTO, "
+"VOCÊ (NÃO O ESCRITOR INICIAL, AUTOR OU QUALQUER CONTRIBUIDOR) ASSUME O CUSTO "
+"DE QUALQUER SERVIÇO NECESSÁRIO, REPARO OU CORREÇÃO. ESSA RENÚNCIA DE "
+"GARANTIAS CONSTITUI UMA PARTE ESSENCIAL DESTA LICENÇA. NENHUM USO DESTE "
+"DOCUMENTO OU VERSÃO MODIFICADA DESTE DOCUMENTO É AUTORIZADO SE NÃO FOR SOB "
+"ESSA RENÚNCIA; E"
 
 #: C/totem.xml:55(para)
 msgid ""
@@ -167,6 +193,17 @@ msgid ""
 "VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE "
 "POSSIBILITY OF SUCH DAMAGES."
 msgstr ""
+"SOB NENHUMA CIRCUNSTÂNCIA E SOB NENHUMA TEORIA LEGAL, TANTO EM DANO "
+"(INCLUINDO NEGLIGÊNCIA), CONTRATO, OU OUTROS, DEVEM O AUTOR, ESCRITOR "
+"INICIAL, QUALQUER CONTRIBUIDOR, OU QUALQUER DISTRIBUIDOR DO DOCUMENTO OU "
+"VERSÃO MODIFICADA DO DOCUMENTO, OU QUALQUER FORNECEDOR DE ALGUMA DESSAS "
+"PARTES, SER CONSIDERADOS RESPONSÁVEIS A QUALQUER PESSOA POR QUALQUER DANO, "
+"SEJA DIRETO, INDIRETO, ESPECIAL, ACIDENTAL OU CONSEQÜENCIAL DE QUALQUER "
+"INDIVÍDUO, INCLUINDO, MAS NÃO LIMITADO A, DANOS POR PERDA DE BOA VONTADE, "
+"TRABALHO PARADO, FALHA OU MAU FUNCIONAMENTO DO COMPUTADOR, OU QUALQUER E "
+"TODOS OS OUTROS DANOS OU PERDAS RESULTANTES OU RELACIONADOS AO USO DO "
+"DOCUMENTO E VERSÕES MODIFICADAS, MESMO QUE TAL PARTE TENHA SIDO INFORMADA DA "
+"POSSIBILIDADE DE TAIS DANOS."
 
 #: C/totem.xml:28(para)
 msgid ""
@@ -174,6 +211,9 @@ msgid ""
 "OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
 "<placeholder-1/>"
 msgstr ""
+"O DOCUMENTO E VERSÕES MODIFICADAS DO DOCUMENTO SÃO FORNECIDOS SOB OS TERMOS "
+"DA GNU FREE DOCUMENTATION LICENSE COM O ENTENDIMENTO ADICIONAL DE QUE: "
+"<placeholder-1/>"
 
 #: C/totem.xml:59(firstname)
 msgid "Chee Bin"
@@ -189,99 +229,89 @@ msgstr "cbhoh@gnome.org"
 
 #: C/totem.xml:67(firstname)
 msgid "Baptiste"
-msgstr ""
+msgstr "Baptiste"
 
 #: C/totem.xml:68(surname)
 msgid "Mille-Mathias"
-msgstr ""
+msgstr "Mille-Mathias"
 
 #: C/totem.xml:70(orgname)
-#, fuzzy
-#| msgid "GNOME Documentation Project"
 msgid "GNOME Documentation project"
-msgstr "Projeto de Documentação do GNOME"
+msgstr "Projeto de documentação do GNOME"
 
 #: C/totem.xml:71(email)
 msgid "baptiste.millemathias@gmail.org"
-msgstr ""
+msgstr "baptiste.millemathias@gmail.org"
 
 #: C/totem.xml:73(contrib) C/totem.xml:81(contrib)
 msgid "Update documentation"
-msgstr ""
+msgstr "Atualização da documentação"
 
 #: C/totem.xml:76(firstname)
 msgid "Philip"
-msgstr ""
+msgstr "Philip"
 
 #: C/totem.xml:77(surname)
 msgid "Withnall"
-msgstr ""
+msgstr "Withnall"
 
 #: C/totem.xml:79(email)
 msgid "philip@tecnocode.co.uk"
-msgstr ""
+msgstr "philip@tecnocode.co.uk"
 
 #: C/totem.xml:111(revnumber)
-#, fuzzy
-#| msgid "<application>Totem Movie Player</application> Manual"
 msgid "<application>Totem Movie Player</application> Manual V2.0"
-msgstr "Manual do <application>Reprodutor de Filmes Totem</application>"
+msgstr ""
+"Manual do <application>Reprodutor de filmes Totem</application> versão 2.0"
 
 #: C/totem.xml:112(date)
 msgid "August 2006"
-msgstr ""
+msgstr "Agosto de 2006"
 
 #: C/totem.xml:114(para)
 msgid "Chee Bin HOH <email>cbhoh@gnome.org</email>"
 msgstr "Chee Bin HOH <email>cbhoh@gnome.org</email>"
 
 #: C/totem.xml:121(revnumber)
-#, fuzzy
-#| msgid "<application>Totem Movie Player</application> Manual"
 msgid "<application>Totem Movie Player</application> Manual V3.0"
-msgstr "Manual do <application>Reprodutor de Filmes Totem</application>"
+msgstr ""
+"Manual do <application>Reprodutor de filmes Totem</application> versão 3.0"
 
 #: C/totem.xml:122(date)
 msgid "February 2009"
-msgstr ""
+msgstr "Fevereiro de 2009"
 
 #: C/totem.xml:124(para)
 msgid "Philip Withnall <email>philip@tecnocode.co.uk</email>"
-msgstr ""
+msgstr "Philip Withnall <email>philip@tecnocode.co.uk</email>"
 
 #: C/totem.xml:132(releaseinfo)
-#, fuzzy
-#| msgid "This manual describes version 0.997 of Totem Movie Player."
 msgid ""
 "This manual describes version 2.26 of <application>Totem Movie Player</"
 "application>."
-msgstr "Este manual descreve a versão 2.16 do Reprodutor de Filmes Totem"
+msgstr ""
+"Este manual descreve a versão 2.26 do <application>Reprodutor de filmes "
+"Totem</application>"
 
 #: C/totem.xml:135(title)
 msgid "Feedback"
 msgstr "Feedback"
 
 #: C/totem.xml:136(para) C/totem.xml:1088(para)
-#, fuzzy
-#| msgid ""
-#| "To report a bug or make a suggestion regarding the Totem Movie Player "
-#| "application or this manual, follow the directions in the <ulink url="
-#| "\"ghelp:user-guide#feedback\" type=\"help\">GNOME Feedback Page</ulink>."
 msgid ""
 "To report a bug or make a suggestion regarding the <application>Totem Movie "
 "Player</application> application or this manual, follow the directions in "
 "the <ulink url=\"ghelp:user-guide#feedback\" type=\"help\">GNOME Feedback "
 "Page</ulink>."
 msgstr ""
-"Para reportar um erro ou fazer uma sugestão a respeito do aplicativo "
-"Reprodutor de Filmes Totem ou deste manual, siga as instruções em <ulink url="
-"\"ghelp:user-guide#feedback\" type=\"help\">GNOME Feedback Page</ulink>."
+"Para relatar um erro ou fazer uma sugestão relacionada ao aplicativo "
+"<application>Reprodutor de filmes Totem</application> ou este manual, visite "
+"<ulink url=\"ghelp:user-guide#feedback\" type=\"help\">GNOME Feedback Page</"
+"ulink>."
 
 #: C/totem.xml:144(primary) C/totem.xml:261(application)
-#, fuzzy
-#| msgid "To Quit Totem Movie Player"
 msgid "Totem Movie Player"
-msgstr "Sair do Reprodutor de Filmes Totem"
+msgstr "Reprodutor de filmes Totem"
 
 #: C/totem.xml:147(primary) C/totem.xml:236(command)
 msgid "totem"
@@ -292,49 +322,36 @@ msgid "Introduction"
 msgstr "Introdução"
 
 #: C/totem.xml:157(para)
-#, fuzzy
-#| msgid ""
-#| "The <application>Totem Movie Player</application> application is a movie "
-#| "player for the GNOME desktop based on xine library, it enables you to "
-#| "play movies or songs."
 msgid ""
 "The <application>Totem Movie Player</application> application is a movie "
 "player for the GNOME desktop based on the GStreamer framework and xine "
 "library, and enables you to play movies or songs."
 msgstr ""
-"O aplicativo <application>Reprodutor de Filmes Totem</application> é um "
-"reprodutor de filmes para o ambiente GNOME e é baseado na biblioteca xine. "
-"Ele permite que sejam reproduzidos filmes e músicas."
+"O aplicativo <application>Reprodutor de filmes Totem</application> é um "
+"reprodutor de filmes para o ambiente GNOME baseado no framework GStreamer e "
+"na biblioteca xine, e permite que sejam reproduzidos filmes e músicas."
 
 #: C/totem.xml:160(para)
 msgid ""
 "<application>Totem Movie Player</application> provides the following "
 "features:"
 msgstr ""
-"O <application>Reprodutor de Filmes Totem</application> provê as seguintes "
-"características:"
+"O <application>Reprodutor de filmes Totem</application> fornece os seguintes "
+"recursos:"
 
 #: C/totem.xml:163(para)
-#, fuzzy
-#| msgid "Support a variety of video and audio files."
 msgid "Support for a variety of video and audio files."
 msgstr "Suporte a uma variedade de arquivos de vídeo e áudio."
 
 #: C/totem.xml:166(para)
-#, fuzzy
-#| msgid ""
-#| "Provide a variety of zoom levels and aspect ratios, and a full screen "
-#| "view."
 msgid "A variety of zoom levels and aspect ratios, and a fullscreen view."
 msgstr ""
-"Provê uma variedade de níveis de zoom e razões de aspecto, e visão de tela "
-"cheia."
+"Uma variedade de níveis de ampliação e taxas de proporção e uma visão em "
+"tela cheia."
 
 #: C/totem.xml:169(para)
-#, fuzzy
-#| msgid "Seek and Volume controls."
 msgid "Seek and volume controls."
-msgstr "Controles de Busca e Volume."
+msgstr "Controles de busca e volume."
 
 #: C/totem.xml:172(para)
 msgid "A playlist."
@@ -342,30 +359,26 @@ msgstr "Uma lista de reprodução."
 
 #: C/totem.xml:175(para)
 msgid "Subtitle support."
-msgstr ""
+msgstr "Suporte a legendas."
 
 #: C/totem.xml:178(para)
-#, fuzzy
-#| msgid "A complete keyboard navigation."
 msgid "Complete keyboard navigation."
-msgstr "Uma navegação completa através do teclado."
+msgstr "Navegação completa através do teclado."
 
 #: C/totem.xml:181(para)
 msgid ""
 "Comprehensive set of plugins, including a subtitle downloader, YouTube "
 "browser, and disc burner."
 msgstr ""
+"Abrangente conjunto de plugins, incluindo um gerenciador de downloads de "
+"legendas, navegador do YouTube e gravador de disco."
 
 #: C/totem.xml:185(para)
-#, fuzzy
-#| msgid ""
-#| "<application>Totem Movie Player</application> also comes with additional "
-#| "functionalities such as:"
 msgid ""
 "<application>Totem Movie Player</application> also comes with additional "
 "functionality such as:"
 msgstr ""
-"O <application>Reprodutor de Filmes Totem</application> também possui "
+"O <application>Reprodutor de filmes Totem</application> também possui "
 "funcionalidades adicionais tais como:"
 
 #: C/totem.xml:189(para)
@@ -374,7 +387,7 @@ msgstr "Miniaturizador de vídeo para o GNOME."
 
 #: C/totem.xml:192(para)
 msgid "Audio preview application for GNOME."
-msgstr ""
+msgstr "Aplicativo de visualização de áudio para o GNOME."
 
 #: C/totem.xml:195(para)
 msgid "Nautilus properties tab."
@@ -382,37 +395,31 @@ msgstr "Aba de propriedades do Nautilus."
 
 #: C/totem.xml:212(title)
 msgid "Getting Started"
-msgstr "Iniciando"
+msgstr "Primeiros passos"
 
 #: C/totem.xml:215(title)
-#, fuzzy
-#| msgid "About <application>Totem Movie Player</application>"
 msgid "To Start <application>Totem Movie Player</application>"
-msgstr "Sobre o <application>Reprodutor de Filmes Totem</application>"
+msgstr "Para iniciar o <application>Reprodutor de filmes Totem</application>"
 
 #: C/totem.xml:216(para)
 msgid ""
 "You can start <application>Totem Movie Player</application> in the following "
 "ways:"
 msgstr ""
-"Você pode iniciar o <application>Reprodutor de Filmes Totem</application> "
+"Você pode iniciar o <application>Reprodutor de filmes Totem</application> "
 "das seguintes maneiras:"
 
 #: C/totem.xml:220(term)
 msgid "<guimenu>Applications</guimenu> menu"
-msgstr "Menu <guimenu>Aplicações</guimenu>"
+msgstr "Menu <guimenu>Aplicativos</guimenu>"
 
 #: C/totem.xml:222(para)
-#, fuzzy
-#| msgid ""
-#| "Choose <menuchoice><guisubmenu>Multimedia</guisubmenu><guimenuitem>Totem "
-#| "Movie Player</guimenuitem></menuchoice>."
 msgid ""
 "Choose <menuchoice><guisubmenu>Sound &amp; Video</"
 "guisubmenu><guimenuitem>Movie Player</guimenuitem></menuchoice>."
 msgstr ""
-"Escolha <menuchoice><guisubmenu>Multimídia</"
-"guisubmenu><guimenuitem>Reprodutor de Filmes</guimenuitem></menuchoice>."
+"Vá até <menuchoice><guisubmenu>Multimídia</"
+"guisubmenu><guimenuitem>Reprodutor de filmes</guimenuitem></menuchoice>."
 
 #: C/totem.xml:231(term)
 msgid "Command line"
@@ -423,7 +430,7 @@ msgid ""
 "To start <application>Totem Movie Player</application> from a command line, "
 "type the following command, then press <keycap>Return</keycap>:"
 msgstr ""
-"Para iniciar o <application>Reprodutor de Filmes Totem</application> a "
+"Para iniciar o <application>Reprodutor de filmes Totem</application> a "
 "partir da linha de comando, digite o seguinte comando, e então pressione "
 "<keycap>Enter</keycap>:"
 
@@ -436,40 +443,33 @@ msgstr ""
 "<command>totem --help</command>, e então pressione <keycap>Enter</keycap>."
 
 #: C/totem.xml:249(title)
-#, fuzzy
-#| msgid "About <application>Totem Movie Player</application>"
 msgid "When You Start <application>Totem Movie Player</application>"
-msgstr "Sobre o <application>Reprodutor de Filmes Totem</application>"
+msgstr "Ao iniciar o <application>Reprodutor de filmes Totem</application>"
 
 #: C/totem.xml:250(para)
 msgid ""
 "When you start <application>Totem Movie Player</application>, the following "
 "window is displayed."
 msgstr ""
-"Quando você iniciar o <application>Reprodutor de Filmes Totem</application>, "
+"Quando você iniciar o <application>Reprodutor de filmes Totem</application>, "
 "a seguinte janela será exibida."
 
 #: C/totem.xml:254(title)
-#, fuzzy
-#| msgid "<application>Totem Movie Player</application> Manual"
 msgid "<application>Totem Movie Player</application> Start Up Window"
-msgstr "Manual do <application>Reprodutor de Filmes Totem</application>"
+msgstr ""
+"Janela inicial do <application>Reprodutor de filmes Totem</application>"
 
 #: C/totem.xml:261(phrase)
-#, fuzzy
-#| msgid ""
-#| "Shows <application>Totem Movie Player</application> main window. Contains "
-#| "menubar, display area, time elapsed slider, seek control buttons, volume "
-#| "slider and statusbar."
 msgid ""
 "Shows <placeholder-1/> main window with sidebar opened on playlist. Contains "
 "menubar, display area, sidebar, elapsed time slider, seek control buttons, "
 "volume slider and statusbar."
 msgstr ""
-"Mostra a janela mãe do <application>Reprodutor de Filmes Totem</"
-"application>. Ela contém uma barra de menus, uma área de exibição, uma barra "
-"de rolagem de tempo decorrido, botões de controle de posicionamento, barra "
-"de rolagem de volume e uma barra de status."
+"Mostra a janela principal do <placeholder-1/> com uma barra lateral aberta "
+"com a lista de reprodução. Contém uma barra de menus, uma área de exibição, "
+"uma barra lateral, um controle deslizante de tempo decorrido, botões de "
+"controle de posicionamento, um controle deslizante de volume e uma barra de "
+"status."
 
 #. for example, the items on the menubar and on the toolbar. This section is optional.
 #: C/totem.xml:274(para)
@@ -477,7 +477,7 @@ msgid ""
 "The <application>Totem Movie Player</application> window contains the "
 "following elements:"
 msgstr ""
-"A janela do <application>Reprodutor de Filmes Totem</application> contém os "
+"A janela do <application>Reprodutor de filmes Totem</application> contém os "
 "seguintes elementos:"
 
 #: C/totem.xml:278(term)
@@ -490,7 +490,7 @@ msgid ""
 "<application>Totem Movie Player</application>."
 msgstr ""
 "Nos menus na barra de menus estão todos os comandos que você precisa para "
-"usar o <application>Reprodutor de Filmes Totem</application>."
+"usar o <application>Reprodutor de filmes Totem</application>."
 
 #: C/totem.xml:285(term)
 msgid "Display area."
@@ -2259,8 +2259,10 @@ msgstr ""
 #: C/totem.xml:0(None)
 msgid "translator-credits"
 msgstr ""
-"Raphael Higino <phhigino@gmail.com>, 2007.\n"
-"Irapuan Pascoal <irapuan.menezes@gmail.com>, 2007."
+"Raphael Higino <In Memoriam>, 2007.\n"
+"Irapuan Pascoal <irapuan.menezes@gmail.com>, 2007.\n"
+"Leonardo Ferreira Fontenelle <leonardof@gnome.org>, 2008.\n"
+"Fabrício Godoy <skarllot@gmail.com>, 2009."
 
 #~ msgid ""
 #~ "@@image: 'figures/totem_volume_mute_button.png'; "
