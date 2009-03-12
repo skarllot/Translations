@@ -497,17 +497,13 @@ msgid "Display area."
 msgstr "Área de exibição."
 
 #: C/totem.xml:287(para)
-#, fuzzy
-#| msgid "The display area displays movie or visualisation of song."
 msgid ""
 "The display area displays the movie or a visualization of the current song."
-msgstr "A área de exibição mostra o filme ou a visualização da música."
+msgstr "A área de exibição exibe o filme ou uma visualização da música atual."
 
 #: C/totem.xml:292(term)
-#, fuzzy
-#| msgid "Menubar."
 msgid "Sidebar."
-msgstr "Barra de menus."
+msgstr "Barra lateral."
 
 #: C/totem.xml:294(para)
 msgid ""
@@ -516,37 +512,32 @@ msgid ""
 "Search plugins. They can be selected by clicking on the drop-down list at "
 "the top of the sidebar."
 msgstr ""
+"A barra lateral exibe as propriedades do arquivo sendo reproduzido e "
+"funciona com uma lista de reprodução. Ela pode também ser usada por vários "
+"plugins como o MythTV, YouTube e pesquisa de vídeo. Eles podem ser "
+"selecionados clicando na lista suspensa no topo da barra lateral."
 
 #: C/totem.xml:301(term)
-#, fuzzy
-#| msgid "Time elapsed slider."
 msgid "Elapsed time slider."
-msgstr "Barra de rolagem de tempo decorrido."
+msgstr "Controle deslizante de tempo decorrido."
 
 #: C/totem.xml:303(para)
-#, fuzzy
-#| msgid ""
-#| "The time elapsed slider displays the elapsed time of movie or song that "
-#| "is playing. It also enables you to skip forward or backward a movie or "
-#| "song."
 msgid ""
 "The elapsed time slider displays the elapsed time of the movie or song that "
 "is playing. It also enables you to skip forward or backward in a movie or "
 "song by dragging the slider's handle along the bar, or by clicking on a "
 "point on the bar."
 msgstr ""
-"A barra de rolagem de tempo decorrido exibe o tempo decorrido da reprodução "
-"do filme ou da música. Ela também serve para mover pra frente e para trás."
+"O controle deslizante de tempo decorrido exibe o tempo decorrido da "
+"reprodução do filme ou da música. Ele também permite que você mova pra "
+"frente e para trás num filme ou música apenas arrastando a alça do controle "
+"deslizante ao longo da barra ou clicando em algum ponto na barra."
 
 #: C/totem.xml:310(term)
 msgid "Seek control buttons."
 msgstr "Botões de controle de posicionamento."
 
 #: C/totem.xml:312(para)
-#, fuzzy
-#| msgid ""
-#| "The seek control buttons enables you to move to next or previous track, "
-#| "to pause or play a movie or song."
 msgid ""
 "The seek control buttons enable you to move to the next or previous track, "
 "and to pause or play a movie or song."
@@ -556,26 +547,18 @@ msgstr ""
 "ou música."
 
 #: C/totem.xml:318(term)
-#, fuzzy
-#| msgid "Shows pause button."
 msgid "Volume button."
-msgstr "Mostra o botão pausar."
+msgstr "Botão de volume."
 
 #: C/totem.xml:320(para)
-#, fuzzy
-#| msgid "The volume slider enables you to adjust volume."
 msgid "The volume button enables you to adjust the volume."
-msgstr "A barra de rolagem de volume permite que o volume seja ajustado."
+msgstr "O controle deslizante de volume permite que você ajuste o volume."
 
 #: C/totem.xml:324(term)
 msgid "Statusbar."
 msgstr "Barra de status."
 
 #: C/totem.xml:326(para)
-#, fuzzy
-#| msgid ""
-#| "The statusbar displays status information about movie or song that is "
-#| "playing."
 msgid ""
 "The statusbar displays status information about the movie or song that is "
 "playing."
@@ -592,14 +575,6 @@ msgid "To Open a File"
 msgstr "Abrir um Arquivo"
 
 #: C/totem.xml:343(para)
-#, fuzzy
-#| msgid ""
-#| "To open a video or an audio file, choose "
-#| "<menuchoice><shortcut><keycombo><keycap>Ctrl</keycap><keycap>O</keycap></"
-#| "keycombo></shortcut><guimenu>Movie</guimenu><guisubmenu>Open</"
-#| "guisubmenu></menuchoice>. The <guilabel>Select files</guilabel> dialog is "
-#| "displayed. Select the file you want to open, then click <guibutton>OK</"
-#| "guibutton>."
 msgid ""
 "To open a video or an audio file, choose "
 "<menuchoice><shortcut><keycombo><keycap>Ctrl</keycap><keycap>O</keycap></"
@@ -608,22 +583,14 @@ msgid ""
 "dialog is displayed. Select the file or files you want to open, then click "
 "<guibutton>OK</guibutton>."
 msgstr ""
-"Para abrir um arquivo de vídeo ou de áudio, escolha "
+"Para abrir um arquivo de vídeo ou de áudio, vá até "
 "<menuchoice><shortcut><keycombo><keycap>Ctrl</keycap><keycap>O</keycap></"
 "keycombo></shortcut><guimenu>Filme</guimenu><guisubmenu>Abrir</guisubmenu></"
-"menuchoice>. A janela <guilabel>Selecione Filmes ou Listas de Reprodução</"
-"guilabel> será exibida. Selecione o arquivo que você quer abrir, e então "
-"clique no botão <guibutton>Adicionar</guibutton>."
+"menuchoice>. O diálogo <guilabel>Selecionar filmes ou listas de reprodução</"
+"guilabel> será exibido. Selecione o arquivo ou os arquivos que você quer "
+"abrir, e então clique no botão <guibutton>OK</guibutton>."
 
 #: C/totem.xml:353(para)
-#, fuzzy
-#| msgid ""
-#| "You can drag a file from another application such as a file manager to "
-#| "the <application>Totem Movie Player</application> window. The "
-#| "<application>Totem Movie Player</application> application will open the "
-#| "file and play the movie or song. <application>Totem Movie Player</"
-#| "application> displays the title of the movie or song beneath the display "
-#| "area and in the titlebar of the window."
 msgid ""
 "You can drag a file from another application such as a file manager to the "
 "<application>Totem Movie Player</application> window. If you drag the file "
@@ -636,12 +603,15 @@ msgid ""
 "the playlist in the sidebar."
 msgstr ""
 "Você pode arrastar um arquivo a partir de outro aplicativo tal como o "
-"gerenciador de aquivos para a janela do <application>Reprodutor de Filmes "
-"Totem</application>. O <application>Reprodutor de Filmes Totem</application> "
-"abrirá o arquivo e reproduzi-lo seja filme ou música. O "
-"<application>Reprodutor de Filmes Totem</application> exibirá o título do "
-"filme ou da música abaixo da área de exibição e na barra de título da janela "
-"mãe."
+"gerenciador de aquivos para a janela do <application>Reprodutor de filmes "
+"Totem</application>. Se você arrastar o arquivo para a área de exibição, o "
+"arquivo sobrescreverá a lista de reprodução atual e iniciará imediatamente. "
+"Se você arrastar o arquivo para a lista de reprodução na barra lateral, o "
+"arquivo será anexado à lista de reprodução atual. O aplicativo "
+"<application>Reprodutor de filmes Totem</application> abrirá o arquivo e o "
+"reproduzirá seja filme ou música. O <application>Reprodutor de filmes Totem</"
+"application> exibirá o título do filme ou da música na barra de título da "
+"janela e na lista de reprodução na barra lateral."
 
 #: C/totem.xml:361(para)
 msgid ""
