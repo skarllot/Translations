@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Totem\n"
 "POT-Creation-Date: 2009-03-15 15:47+0000\n"
-"PO-Revision-Date: 2009-03-15 17:20-0300\n"
+"PO-Revision-Date: 2009-03-17 00:40-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -21,16 +21,12 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: C/totem.xml:260(None)
-#, fuzzy
-#| msgid ""
-#| "@@image: 'figures/totem_start_window.png'; "
-#| "md5=b6c073eeba5825ccee90fad0985565b3"
 msgid ""
 "@@image: 'figures/totem_start_window.png'; "
 "md5=85daf6f6aaae9262482c8f1b0b6d67b0"
 msgstr ""
 "@@image: 'figures/totem_start_window.png'; "
-"md5=b6c073eeba5825ccee90fad0985565b3"
+"md5=26c83a709d569d9fe3c2885839d28358"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1597,7 +1593,7 @@ msgstr "Com um artista selecionado, você pode clicar no botão "
 
 #: C/totem.xml:827(title)
 msgid "Popular Albums and Latest Releases"
-msgstr ""
+msgstr "Álbuns populares e últimos lançamentos"
 
 #: C/totem.xml:828(para)
 msgid ""
@@ -1607,10 +1603,15 @@ msgid ""
 "<guilabel>Latest Releases</guilabel> page will likewise load a list of the "
 "latest albums released on Jamendo."
 msgstr ""
+"Visualizando a página <guilabel>Popular</guilabel> na barra lateral "
+"<guilabel>Jamendo</guilabel> será carregado uma lista dos álbuns mais "
+"populares on Jamendo no momento, o qual pode ser reproduzido como nos "
+"resultados de pesquisa. Visualizando a página <guilabel>Últimos lançamentos</"
+"guilabel> carregará uma lista dos últimos álbuns lançados no Jamendo."
 
 #: C/totem.xml:834(title)
 msgid "Local Search"
-msgstr ""
+msgstr "Pesquisa local"
 
 #: C/totem.xml:835(para)
 msgid ""
@@ -1623,6 +1624,15 @@ msgid ""
 "<guilabel>Local Search</guilabel> from the drop-down list at the top of the "
 "sidebar to display the <guilabel>Local Search</guilabel> sidebar."
 msgstr ""
+"O plug-in <guilabel>Pesquisa local</guilabel> permite que você pesquise por "
+"filmes e arquivos de áudio reproduzíveis no seu computador com o "
+"<application>Reprodutor de filmes Totem</application>. Com o plug-in "
+"habilitado, vá até <menuchoice><shortcut><keycap>F9</keycap></"
+"shortcut><guimenu>Ver</guimenu><guimenuitem>Barra lateral</guimenuitem></"
+"menuchoice> ou clique no botão <guibutton>Barra lateral</guibutton> para "
+"mostrar a barra lateral. Selecione <guilabel>Pesquisa local</guilabel> na "
+"lista suspensa no topo da barra lateral para exibir a barra lateral "
+"<guilabel>Pesquisa local</guilabel>."
 
 #: C/totem.xml:840(para)
 msgid ""
@@ -1633,6 +1643,12 @@ msgid ""
 "all movies with the <filename class=\"extension\">.mpg</filename> file "
 "extension."
 msgstr ""
+"Para realizar uma pesquisa insira sua expressão de pesquisa na entrada de "
+"pesquisa no topo da barra lateral e clique em <guibutton>Localizar</"
+"guibutton>. Sua expressão de pesquisa pode incluir curingas como <literal>*</"
+"literal>, o qual combina com qualquer caractere. Por exemplo, a pesquisa "
+"<userinput>*.mpg</userinput> localizará todos os filmes com a extensão de "
+"arquivo <filename class=\"extension\">.mpg</filename>."
 
 #: C/totem.xml:843(para)
 msgid ""
@@ -1640,10 +1656,14 @@ msgid ""
 "<guibutton>Forward</guibutton> buttons at the bottom of the sidebar, and you "
 "may jump to a specific results page by entering its number in the spin box."
 msgstr ""
+"Os resultados de pesquisa podem ser navegados usando os botões "
+"<guibutton>Voltar</guibutton> e <guibutton>Avançar</guibutton> na base da "
+"barra lateral, e você pode pular para uma página de resultados específica "
+"inserindo seu número no seletor numérico."
 
 #: C/totem.xml:847(title)
 msgid "Publish Playlist"
-msgstr ""
+msgstr "Publicar lista de reprodução"
 
 #: C/totem.xml:848(para)
 msgid ""
@@ -1651,50 +1671,53 @@ msgid ""
 "playlists on your local network to allow other computers to access and play "
 "them."
 msgstr ""
+"O plug-in <guilabel>Publicar lista de reprodução</guilabel> permite que você "
+"publique listas de reprodução na sua rede local para permitir que outros "
+"computadores os acessem e os reproduza."
 
 #: C/totem.xml:857(literal)
 msgid "%a"
-msgstr ""
+msgstr "%a"
 
 #: C/totem.xml:858(para)
-#, fuzzy
-#| msgid "About <application>Totem Movie Player</application>"
 msgid ""
 "Replaced with the program's name: <application>Totem Movie Player</"
 "application>."
-msgstr "Sobre o <application>Reprodutor de Filmes Totem</application>"
+msgstr ""
+"Substituído com o nome do programa: <application>Reprodutor de filmes Totem</"
+"application>."
 
 #: C/totem.xml:861(literal)
 msgid "%h"
-msgstr ""
+msgstr "%h"
 
 #: C/totem.xml:862(para)
 msgid "Replaced with your computer's host name."
-msgstr ""
+msgstr "Substituído com o nome de máquina do seu computador."
 
 #: C/totem.xml:865(literal)
 msgid "%u"
-msgstr ""
+msgstr "%u"
 
 #: C/totem.xml:866(para)
 msgid "Replaced with your username."
-msgstr ""
+msgstr "Substituído com o seu nome de usuário."
 
 #: C/totem.xml:869(literal)
 msgid "%U"
-msgstr ""
+msgstr "%U"
 
 #: C/totem.xml:870(para)
 msgid "Replaced with your real name."
-msgstr ""
+msgstr "Substituído com o seu nome real."
 
 #: C/totem.xml:873(literal)
 msgid "%%"
-msgstr ""
+msgstr "%%"
 
 #: C/totem.xml:874(para)
 msgid "Replaced with a literal percent sign."
-msgstr ""
+msgstr "Substituído com um sinal de porcentagem."
 
 #: C/totem.xml:852(para)
 msgid ""
@@ -1704,6 +1727,12 @@ msgid ""
 "which will appear for your playlist share. The following strings will be "
 "replaced when playlists are published: <placeholder-1/>"
 msgstr ""
+"O plug-in <guilabel>Publicar lista de reprodução</guilabel> pode ser "
+"configurado. Clique no botão <guibutton>Configurar</guibutton> ao habilitar "
+"o plug-in e o diálogo de configuração será exibido. Aqui, você pode alterar "
+"o nome que aparecerá para seu compartilhamento de lista de reprodução. Os "
+"seguintes textos serão substituídos quando as listas de reprodução forem "
+"publicadas: <placeholder-1/>"
 
 #: C/totem.xml:878(para)
 msgid ""
@@ -1711,26 +1740,30 @@ msgid ""
 "guilabel> checkbox if you wish to encrypt the shared playlists when they're "
 "transmitted over the network."
 msgstr ""
+"Você também pode selecionar a caixa de seleção <guilabel>Usar protocolo de "
+"transporte criptografado</guilabel> se você desejar criptografar as listas "
+"de reprodução compartilhadas quando elas são transmitidas sobre a rede."
 
 #: C/totem.xml:880(para)
 msgid "Once you're done, click <guibutton>Close</guibutton>."
-msgstr ""
+msgstr "Uma vez concluído clique em <guibutton>Fechar</guibutton>."
 
 #: C/totem.xml:883(title)
-#, fuzzy
-#| msgid "To Manage Playlist"
 msgid "To Publish Playlists"
-msgstr "Gerenciar a Lista de Reprodução"
+msgstr "Publicar listas de reprodução"
 
 #: C/totem.xml:884(para)
 msgid ""
 "With the plugin enabled, you do not need to explicitly publish playlists; "
 "they are automatically made available on the network as a Zeroconf website."
 msgstr ""
+"Com o plug-in habilitado você não precisar publicar as listas de reprodução "
+"explicitamente, elas ficam automaticamente disponíveis na rede como um site "
+"Zeroconf."
 
 #: C/totem.xml:888(title)
 msgid "To Browse your Neighborhood"
-msgstr ""
+msgstr "Navegar na sua vizinhança"
 
 #: C/totem.xml:889(para)
 msgid ""
@@ -1739,10 +1772,15 @@ msgid ""
 "sidebar. If any playlists have been published on the network, they will be "
 "listed here. Double-click on a playlist to load and play it on your computer."
 msgstr ""
+"Para ver as listas de reprodução de outros na sua rede selecione "
+"<guilabel>Vizinhança</guilabel> na sua lista suspensa no topo da barra "
+"lateral. Se alguma lista de reprodução foi publicada na rede, ela será "
+"listada aqui. Clique duas vezes na lista de reprodução para carregá-la e "
+"reproduzí-la no seu computador."
 
 #: C/totem.xml:895(title)
 msgid "Subtitles downloader"
-msgstr ""
+msgstr "Buscador de legendas"
 
 #: C/totem.xml:896(para)
 msgid ""
@@ -1750,6 +1788,9 @@ msgid ""
 "download subtitle files from the <ulink type=\"http\" url=\"http://www."
 "opensubtitles.org/en\">OpenSubtitles</ulink> service."
 msgstr ""
+"O plug-in <guilabel>Buscador de legendas</guilabel> permite que você "
+"localize e baixe arquivos de legenda do serviço <ulink type=\"http\" url="
+"\"http://www.opensubtitles.org/pb\">OpenSubtitles</ulink>."
 
 #: C/totem.xml:898(para)
 msgid ""
@@ -1760,6 +1801,11 @@ msgid ""
 "which will display the <application>Download Movie Subtitles</application> "
 "dialog."
 msgstr ""
+"Legendas podem apenas ser baixadas de filmes locais e não de arquivos de "
+"música, DVDs, fluxos DVB, VCDs ou fluxos HTTP. Para pesquisar por legendas "
+"para o filme que está sendo reproduzido, vá até <menuchoice><guimenu>Ver</"
+"guimenu><guimenuitem>Baixar a legenda do filme</guimenuitem></menuchoice>, o "
+"qual exibirá o diálogo <application>Baixe a legenda do filme</application>."
 
 #: C/totem.xml:901(para)
 msgid ""
@@ -1769,6 +1815,11 @@ msgid ""
 "are found on the basis of the movie's content, rather than its filename or "
 "tags."
 msgstr ""
+"Selecione o idioma que você deseja para suas legendas na lista suspensa no "
+"topo do diálogo, e então clique no botão <guibutton>Localizar</guibutton> "
+"para pesquisar por legendas para o filme atual. Legendas são encontradas com "
+"base no conteúdo do filme, em preferência ao seu nome de arquivo ou "
+"etiquetas."
 
 #: C/totem.xml:904(para)
 msgid ""
@@ -1778,6 +1829,12 @@ msgid ""
 "you wish to download, click on the <guibutton>Play with Subtitle</guibutton> "
 "button to download the subtitles reload the movie."
 msgstr ""
+"Os resultados de pesquisa são listados na visão em árvore no meio do "
+"diálogo. Atualmente, legendas podem apenas serem usadas com um filme após "
+"<emphasis>recarregar</emphasis>-lo com as legendas, assim após selecionar o "
+"arquivo de legenda que você deseja baixar, clique no botão "
+"<guibutton>Reproduzir com legenda</guibutton> para baixar as legendas e "
+"recarregar o filme."
 
 #: C/totem.xml:907(para)
 msgid ""
@@ -1786,50 +1843,49 @@ msgid ""
 "subtitles for a movie, any previously downloaded subtitles for that movie "
 "are deleted."
 msgstr ""
+"Arquivos de legenda baixados são guardados assim eles não precisam ser "
+"baixados novamente ao reproduzir o filme novamente. Ao baixar novas legendas "
+"para o filme, quaisquer legendas baixadas anteriormente para o filme são "
+"excluídas."
 
 #: C/totem.xml:911(title)
 msgid "Thumbnail"
-msgstr ""
+msgstr "Miniatura"
 
 #: C/totem.xml:912(para)
-#, fuzzy
-#| msgid ""
-#| "Select the <guilabel>resize</guilabel> option if you want "
-#| "<application>Totem Movie Player</application> to automatically resize the "
-#| "window when a new video is loaded."
 msgid ""
 "The <guilabel>Thumbnail</guilabel> plugin sets <application>Totem Movie "
 "Player</application>'s main window icon to a thumbnail of the current movie, "
 "and updates the icon when new movies are loaded."
 msgstr ""
-"Selecione a opção <guilabel>Redimensionar...</guilabel> se você deseja que o "
-"<application>Reprodutor de Filmes Totem</application> redimensione "
-"automaticamente a janela quando um novo vídeo for carregado."
+"O plug-in <guilabel>Miniatura</guilabel> define que o ícone da janela "
+"principal do <application>Reprodutor de filmes Totem</application> deve ser "
+"uma miniatura do filme atual e atualiza o ícone quando novos filmes são "
+"carregados."
 
 #: C/totem.xml:914(para)
-#, fuzzy
-#| msgid ""
-#| "You can double-click on a video or an audio file in the "
-#| "<application>Nautilus</application> file manager to open it on the "
-#| "<application>Totem Movie Player</application> window."
 msgid ""
 "If a thumbnail doesn't exist for the current movie (or if you're playing an "
 "audio file), the main window icon will be reset to the <application>Totem "
 "Movie Player</application> logo."
 msgstr ""
-"Você pode clicar duas vezes sobre o arquivo de vídeo ou de áudio no "
-"gerenciador de aquivos <application>Nautilus</application> para abri-lo no "
-"<application>Reprodutor de Filmes Totem</application>."
+"Se uma miniatura não existir para o filme atual (ou se você estiver "
+"reproduzindo um arquivo de áudio), o ícone da janela principal será "
+"redefinido para o logotipo do <application> Reprodutor de filmes Totem</"
+"application>."
 
 #: C/totem.xml:918(title)
 msgid "Video Disc Recorder"
-msgstr ""
+msgstr "Gravador de discos de vídeo"
 
 #: C/totem.xml:919(para)
 msgid ""
 "The <guilabel>Video Disc Recorder</guilabel> plugin allows you to burn the "
 "current playlist to a DVD or VCD using <application>Brasero</application>."
 msgstr ""
+"O plug-in <guilabel>Gravador de discos de vídeo</guilabel> permite que você "
+"grave a lista de reprodução atual para um DVD ou VCD usando "
+"<application>Brasero</application>."
 
 #: C/totem.xml:920(para)
 msgid ""
@@ -1840,10 +1896,16 @@ msgid ""
 "disc. For more information, see the <ulink type=\"help\" url=\"ghelp:brasero?"
 "brasero-new-project-video\">Brasero documentation</ulink>."
 msgstr ""
+"Para gravar a lista de reprodução atual, vá até <menuchoice><guimenu>Filme</"
+"guimenu><guimenuitem>Criar um disco de vídeo</guimenuitem></menuchoice>. Um "
+"diálogo do <application>Brasero</application> será exibido, dando opções "
+"para conversão de filmes para o formato apropriado e para gravá-los no "
+"disco. Para mais informações visite a <ulink type=\"help\" url=\"ghelp:"
+"brasero?brasero-new-project-video\">Documentação do Brasero</ulink>."
 
 #: C/totem.xml:925(title)
 msgid "YouTube browser"
-msgstr ""
+msgstr "Navegador do YouTube"
 
 #: C/totem.xml:926(para)
 msgid ""
@@ -1857,6 +1919,16 @@ msgid ""
 "<guilabel>YouTube</guilabel> from the drop-down list at the top of the "
 "sidebar to display the <guilabel>YouTube</guilabel> sidebar."
 msgstr ""
+"O plug-in <guilabel>Navegador do YouTube</guilabel> permite que você "
+"pesquise e navegue no <ulink type=\"http\" url=\"http://www.youtube.com/"
+"\">YouTube</ulink>, e reproduza videos do YouTube diretamente no "
+"<application>Reprodutor de filmes Totem</application>. Com o plug-in "
+"habilitado, vá até <menuchoice><shortcut><keycap>F9</keycap></"
+"shortcut><guimenu>Ver</guimenu><guimenuitem>Barra lateral</guimenuitem></"
+"menuchoice> ou clique no botão <guibutton>Barra lateral</guibutton> para "
+"mostrar a barra lateral. Selecione <guilabel>YouTube</guilabel> na lista "
+"suspensa no topo da barra lateral para exibir a barra lateral "
+"<guilabel>YouTube</guilabel>."
 
 #: C/totem.xml:932(para)
 msgid ""
@@ -1865,6 +1937,11 @@ msgid ""
 "results will be listed in the tree view below. More results will be loaded "
 "automatically as you scroll down the list."
 msgstr ""
+"Para pesquisar por um vídeo do YouTube, insira sua expressão de pesquisa na "
+"entrada no topo da barra lateral, e então clique em <guibutton>Localizar</"
+"guibutton>. Os resultados da pesquisa serão listados na visão em árvore "
+"abaixo. Mais resultados podem ser carregados automaticamente quando você "
+"rola abaixo na lista."
 
 #: C/totem.xml:934(para)
 msgid ""
@@ -1874,6 +1951,12 @@ msgid ""
 "automatically be loaded in the <guilabel>Related Videos</guilabel> page of "
 "the <guilabel>YouTube</guilabel> sidebar."
 msgstr ""
+"Para reproduzir um vídeo, clique duas vezes nele na lista de resultados ou "
+"escolha <menuchoice><guimenuitem>Adicionar à lista de reprodução</"
+"guimenuitem></menuchoice> do seu menu de contexto. Quando um vídeo está "
+"sendo reproduzido uma lista dos vídeos relacionados será automaticamente "
+"carregada na página <guilabel>Vídeos relacionados</guilabel> da barra "
+"lateral <guilabel>YouTube</guilabel>."
 
 #: C/totem.xml:937(para)
 msgid ""
@@ -1882,28 +1965,24 @@ msgid ""
 "their context menu. This will open the video in its original location on the "
 "YouTube website."
 msgstr ""
+"Os vídeos do YouTube podem ser aberto em um navegador web escolhendo "
+"<menuchoice><guimenuitem>Abrir no navegador web</guimenuitem></menuchoice> "
+"do seu menu de contexto. Isso abrirá o vídeo na sua localização original do "
+"site do YouTube."
 
 #: C/totem.xml:946(title)
 msgid "Preferences"
 msgstr "Preferências"
 
 #: C/totem.xml:947(para)
-#, fuzzy
-#| msgid ""
-#| "To modify the preferences of <application>Totem Movie Player</"
-#| "application>, choose <menuchoice><guimenu>Edit</"
-#| "guimenu><guimenuitem>Preferences</guimenuitem></menuchoice>. The "
-#| "<guilabel>Preferences</guilabel> dialog contains the following tabbed "
-#| "sections:"
 msgid ""
 "To modify the preferences of <application>Totem Movie Player</application>, "
 "choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Preferences</"
 "guimenuitem></menuchoice>."
 msgstr ""
-"Para modificar as preferências do <application>Reprodutor de Filmes Totem</"
-"application>, escolha <menuchoice><guimenu>Editar</"
-"guimenu><guimenuitem>Preferências</guimenuitem></menuchoice>. A janela "
-"<guilabel>Preferências</guilabel> contém as seguintes seções:"
+"Para modificar as preferências do <application>Reprodutor de filmes Totem</"
+"application>, vá até <menuchoice><guimenu>Editar</"
+"guimenu><guimenuitem>Preferências</guimenuitem></menuchoice>."
 
 #: C/totem.xml:954(title)
 msgid "General"
@@ -1914,20 +1993,16 @@ msgid "Networking"
 msgstr "Rede"
 
 #: C/totem.xml:959(para)
-#, fuzzy
-#| msgid ""
-#| "Select network connection speed from the <guilabel>Connection speed</"
-#| "guilabel> drop-down list box."
 msgid ""
 "Select network connection speed from the <guilabel>Connection speed</"
 "guilabel> drop-down list."
 msgstr ""
-"Selecione a velocidade de conexão de rede no controle <guilabel>Velocidade "
-"da Conexão</guilabel>"
+"Selecione a velocidade de conexão de rede na lista suspensa "
+"<guilabel>Velocidade da conexão</guilabel>."
 
 #: C/totem.xml:965(term)
 msgid "Text Subtitles"
-msgstr ""
+msgstr "Legendas de texto"
 
 #: C/totem.xml:969(para)
 msgid ""
@@ -1935,49 +2010,40 @@ msgid ""
 "to automatically load any subtitle files with the same filename as a movie "
 "when the movie is loaded."
 msgstr ""
+"<guilabel>Carregar automaticamente arquivos de legenda</guilabel>: selecione "
+"está opção para carregar automaticamente quaisquer arquivos de legenda com o "
+"mesmo nome de arquivo do filme quando um filme é carregado."
 
 #: C/totem.xml:973(para)
-#, fuzzy
-#| msgid ""
-#| "<guilabel>visual</guilabel>: select this option to show visual effects "
-#| "while an audio file is playing."
 msgid ""
 "<guilabel>Font</guilabel>: select this option to change the font used to "
 "display subtitles."
 msgstr ""
-"<guilabel>Mostras efeitos...</guilabel>: selecione esta opção para mostrar "
-"efeitos visuais quando um arquivo de áudio estiver sendo reproduzido."
+"<guilabel>Fonte</guilabel>: selecione esta opção para alterar a fonte usada "
+"para exibir as legendas."
 
 #: C/totem.xml:977(para)
-#, fuzzy
-#| msgid ""
-#| "<guilabel>visual</guilabel>: select this option to show visual effects "
-#| "while an audio file is playing."
 msgid ""
 "<guilabel>Encoding</guilabel>: select this option to change the encoding "
 "used to display subtitles."
 msgstr ""
-"<guilabel>Mostras efeitos...</guilabel>: selecione esta opção para mostrar "
-"efeitos visuais quando um arquivo de áudio estiver sendo reproduzido."
+"<guilabel>Codificação</guilabel>: selecione esta opção para alterar a "
+"codificação usada para exibir as legendas."
 
 #: C/totem.xml:986(title) C/totem.xml:989(term)
 msgid "Display"
 msgstr "Monitor"
 
 #: C/totem.xml:991(para)
-#, fuzzy
-#| msgid ""
-#| "Select the <guilabel>resize</guilabel> option if you want "
-#| "<application>Totem Movie Player</application> to automatically resize the "
-#| "window when a new video is loaded."
 msgid ""
 "Select the resize option if you want <application>Totem Movie Player</"
 "application> to automatically resize the window to the size of the video "
 "when a new video is loaded."
 msgstr ""
-"Selecione a opção <guilabel>Redimensionar...</guilabel> se você deseja que o "
-"<application>Reprodutor de Filmes Totem</application> redimensione "
-"automaticamente a janela quando um novo vídeo for carregado."
+"Selecione a opção de redimensionar se você deseja que o "
+"<application>Reprodutor de filmes Totem</application> redimensione "
+"automaticamente a janela para o tamanho do vídeo quando um novo vídeo for "
+"carregado."
 
 #: C/totem.xml:996(para)
 msgid ""
@@ -1985,94 +2051,80 @@ msgid ""
 "activate when playing audio files. Some monitors with integrated speakers "
 "may stop playing music when the screensaver is activated."
 msgstr ""
+"Selecione a opção de proteção de tela se você deseja habilitar a proteção de "
+"tela para que inicie ao reproduzir arquivos de áudio. Alguns monitores com "
+"caixas de som integrada podem parar de reproduzir música quando a proteção "
+"de tela é ativada."
 
 #: C/totem.xml:1001(term)
 msgid "Visual Effects"
-msgstr "Efeitos Visuais"
+msgstr "Efeitos visuais"
 
 #: C/totem.xml:1005(para)
-#, fuzzy
-#| msgid ""
-#| "<guilabel>visual</guilabel>: select this option to show visual effects "
-#| "while an audio file is playing."
 msgid ""
 "<guilabel>Visual</guilabel>: select this option to show visual effects while "
 "an audio file is playing."
 msgstr ""
-"<guilabel>Mostras efeitos...</guilabel>: selecione esta opção para mostrar "
+"<guilabel>Efeitos visuais</guilabel>: selecione esta opção para mostrar "
 "efeitos visuais quando um arquivo de áudio estiver sendo reproduzido."
 
 #: C/totem.xml:1010(para)
-#, fuzzy
-#| msgid ""
-#| "<guilabel>Type of visualisation</guilabel>: select type of visualisation "
-#| "from the drop-down list box."
 msgid ""
 "<guilabel>Type of visualization</guilabel>: select type of visualization "
 "from the drop-down list."
 msgstr ""
 "<guilabel>Tipo de visualização</guilabel>: selecione o tipo de visualização "
-"a partir da caixa de controle."
+"a partir da lista suspensa."
 
 #: C/totem.xml:1015(para)
-#, fuzzy
-#| msgid ""
-#| "<guilabel>Visualisation size</guilabel>: select visualisation size from "
-#| "the drop-down list box."
 msgid ""
 "<guilabel>Visualization size</guilabel>: select visualization size from the "
 "drop-down list."
 msgstr ""
 "<guilabel>Tamanho da visualização</guilabel>: selecione o tamanho da "
-"visualização a partir da caixa de controle."
+"visualização a partir da lista suspensa."
 
 #: C/totem.xml:1023(term)
 msgid "Color balance"
-msgstr ""
+msgstr "Balanço de cor"
 
 #: C/totem.xml:1027(para)
 msgid ""
 "<guilabel>Brightness</guilabel>: use the slider to specify the level of "
 "brightness."
 msgstr ""
-"<guilabel>Brilho</guilabel>: use a barra de rolagem para especificar o nível "
-"de brilho."
+"<guilabel>Brilho</guilabel>: use o controle deslizante para especificar o "
+"nível de brilho."
 
 #: C/totem.xml:1030(para)
 msgid ""
 "<guilabel>Contrast</guilabel>: use the slider to specify the level of "
 "contrast."
 msgstr ""
-"<guilabel>Contraste</guilabel>: use a barra de rolagem para especificar o "
+"<guilabel>Contraste</guilabel>: use o controle deslizante para especificar o "
 "nível de contraste."
 
 #: C/totem.xml:1033(para)
-#, fuzzy
-#| msgid ""
-#| "<guilabel>Contrast</guilabel>: use the slider to specify the level of "
-#| "contrast."
 msgid ""
 "<guilabel>Saturation</guilabel>: use the slider to specify the level of "
 "saturation."
 msgstr ""
-"<guilabel>Contraste</guilabel>: use a barra de rolagem para especificar o "
-"nível de contraste."
+"<guilabel>Saturação</guilabel>: use o controle deslizante para especificar o "
+"nível de saturação."
 
 #: C/totem.xml:1037(para)
-#, fuzzy
-#| msgid ""
-#| "<guilabel>Brightness</guilabel>: use the slider to specify the level of "
-#| "brightness."
 msgid "<guilabel>Hue</guilabel>: use the slider to specify the level of hue."
 msgstr ""
-"<guilabel>Brilho</guilabel>: use a barra de rolagem para especificar o nível "
-"de brilho."
+"<guilabel>Matiz</guilabel>: use o controle deslizante para especificar o "
+"nível de matiz."
 
 #: C/totem.xml:1041(para)
 msgid ""
 "You may use the <guilabel>Reset To Defaults</guilabel> button to reset the "
 "color balance controls to their default positions."
 msgstr ""
+"Você pode usar o botão <guilabel>Restaurar padrões</guilabel> para redefinir "
+"os valores dos controles de balanço de cor para o padrão."
 
 #: C/totem.xml:1048(title)
 msgid "Audio"
@@ -2080,30 +2132,21 @@ msgstr "Áudio"
 
 #: C/totem.xml:1051(term)
 msgid "Audio Output"
-msgstr "Saída de Áudio"
+msgstr "Saída de áudio"
 
 #: C/totem.xml:1053(para)
 msgid ""
 "Select audio output type from the <guilabel>Audio output type</guilabel> "
 "drop-down list."
 msgstr ""
-"Selecione o tipo de saída de áudio a partir da caixa de controle "
-"<guilabel>Tipo de saída de áudio</guilabel>."
+"Selecione o tipo de saída de áudio a partir da lista suspensa <guilabel>Tipo "
+"de saída de áudio</guilabel>."
 
 #: C/totem.xml:1081(title)
 msgid "About <application>Totem Movie Player</application>"
 msgstr "Sobre o <application>Reprodutor de Filmes Totem</application>"
 
 #: C/totem.xml:1082(para)
-#, fuzzy
-#| msgid ""
-#| "<application>Totem Movie Player</application> is written by Bastien "
-#| "Nocera (<email>hadess@hadess.net</email>), Julien Moutte "
-#| "(<email>julien@moutte.net</email>) for GStreamer backend, and Guenter "
-#| "Bartsch (<email>guenter@users.sourceforge.net</email>). To find more "
-#| "information about <application>Totem Movie Player</application>, please "
-#| "visit the <ulink url=\"http://www.gnome.org/projects/totem/\" type=\"http"
-#| "\"><application>Totem Movie Player</application> Home Page</ulink>."
 msgid ""
 "<application>Totem Movie Player</application> is written by Bastien Nocera "
 "(<email>hadess@hadess.net</email>), Julien Moutte (<email>julien@moutte.net</"
@@ -2113,14 +2156,14 @@ msgid ""
 "gnome.org/totem/\" type=\"http\"><application>Totem Movie Player</"
 "application> website</ulink>."
 msgstr ""
-"O <application>Reprodutor de Filmes Totem</application> é escrito por "
+"O <application>Reprodutor de filmes Totem</application> é escrito por "
 "Bastien Nocera (<email>hadess@hadess.net</email>), Julien Moutte "
 "(<email>julien@moutte.net</email>) para base GStreamer e  Guenter Bartsch "
 "(<email>guenter@users.sourceforge.net</email>). Para encontrar mais "
-"informações sobre o <application>Reprodutor de Filmes Totem</application>, "
+"informações sobre o <application>Reprodutor de filmes Totem</application>, "
 "por favor visite a página do <ulink url=\"http://www.gnome.org/projects/"
-"totem/\" type=\"http\"><application>Reprodutor de Filmes Totem</"
-"application></ulink>."
+"totem/\" type=\"http\"><application>Reprodutor de filmes Totem</"
+"application></ulink> (em inglês)."
 
 #: C/totem.xml:1095(para)
 msgid ""
