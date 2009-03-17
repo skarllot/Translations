@@ -1,0 +1,1234 @@
+# Brazilian Portuguese translation of GNOME Release Notes
+# Copyright (C) 2009 Free Software Fundation.
+# This file is distributed under the same license as the release-notes package.
+# Enrico Nicoletto <liverig@gmail.com>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Release Notes 2.26\n"
+"POT-Creation-Date: 2009-03-16 20:17+0000\n"
+"PO-Revision-Date: 2009-03-15 21:21-0300\n"
+"Last-Translator: Enrico Nicoletto <liverig@gmail.com>\n"
+"Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: BRAZIL\n"
+
+#: C/rnlookingforward.xml:10(title)
+msgid "Looking Forward to GNOME 2.28"
+msgstr "O que vem por aí no GNOME 2.28"
+
+#: C/rnlookingforward.xml:12(para)
+msgid ""
+"Development doesn't stop with GNOME 2.26. Work has already begun on GNOME "
+"2.28, due to be released exactly six months after 2.26."
+msgstr ""
+"O desenvolvimento não para com o GNOME 2.26. Já começamos a trabalhar no "
+"GNOME 2.28, a fim de ser lançado exatamente seis meses após o 2.26."
+
+#: C/rnlookingforward.xml:18(para)
+msgid ""
+"<ulink url=\"http://live.gnome.org/RoadMap\">GNOME's roadmap</ulink> details "
+"the developers' plans for the next release cycle, and the <ulink url="
+"\"http://www.gnome.org/start/unstable/\">GNOME 2.28 release schedule</ulink> "
+"will appear soon."
+msgstr ""
+"O <ulink url=\"http://live.gnome.org/RoadMap\">Roadmap do GNOME</ulink> "
+"detalha os planos dos desenvolvedores para o próximo ciclo de lançamento, e "
+"o <ulink url=\"http://www.gnome.org/start/unstable/\">calendário para o "
+"lançamento do GNOME 2.28</ulink> aparecerá em breve."
+
+#: C/rninstallation.xml:9(title)
+msgid "Installing GNOME"
+msgstr "Instalando o GNOME"
+
+#: C/rninstallation.xml:11(para)
+msgid ""
+"You can try out GNOME 2.26 with the LiveCD, which contains all of the "
+"software included in GNOME 2.26 on a single CD. You can boot your computer "
+"directly from the LiveCD without installing anything. The LiveCD can be "
+"downloaded from the GNOME <ulink url=\"http://torrent.gnome.org/"
+"\">BitTorrent site</ulink>."
+msgstr ""
+"Você pode experimentar o GNOME 2.26 através de um LiveCD, que contêm todo o "
+"software incluso no GNOME 2.26 em um único CD. Você pode iniciar o seu "
+"computador diretamente do LiveCD sem instalar nada. O LiveCD pode ser "
+"baixado do<ulink url=\"http://torrent.gnome.org/\">site BitTorrent</ulink> "
+"do GNOME."
+
+#: C/rninstallation.xml:19(para)
+msgid ""
+"To install or upgrade your machine to GNOME 2.26, we recommend you install "
+"official packages from your vendor or distribution. Popular distributions "
+"will make GNOME 2.26 available very soon, and some already have development "
+"versions with GNOME 2.26 available. You can get a list of distributions that "
+"ship GNOME and discover the latest versions they ship on our <ulink url="
+"\"http://www.gnome.org/~davyd/footware.shtml\">Get Footware</ulink> page."
+msgstr ""
+"Para instalar ou atualizar a sua máquina para o GNOME 2.26, nós recomendamos "
+"a você instalar os pacotes oficiais do seu vendedor ou da distribuição. "
+"Distribuições populares disponibilizarão o GNOME 2.26 muito em breve, e "
+"algumas já possuem versões em desenvolvimento com o GNOME 2.26 disponível. "
+"Você pode obter uma lista de distribuições que vêm com GNOME e descobrir as "
+"últimas versões elas trazem na nossa página <ulink url=\"http://www.gnome."
+"org/~davyd/footware.shtml\">Get Footware</ulink>."
+
+#: C/rninstallation.xml:29(para)
+msgid ""
+"If you are brave and patient, and would like to build GNOME from source, we "
+"recommend you use one of the build tools. <ulink url=\"http://www.gnome.org/"
+"projects/garnome/\">GARNOME</ulink> builds GNOME from release tarballs. You "
+"will need GARNOME 2.26.x to build GNOME 2.26.x. There is also <ulink url="
+"\"http://library.gnome.org/devel/jhbuild/\">JHBuild</ulink>, which is "
+"designed to build the latest GNOME from SVN. You can use JHBuild to build "
+"GNOME 2.26.x by using the <filename>gnome-2.26</filename> moduleset."
+msgstr ""
+"Se você for corajoso e paciente, e quiser construir o GNOME a partir do "
+"código fonte, nós o recomendamos a utilizar uma das ferramentas de "
+"compilação. O <ulink url=\"http://www.gnome.org/projects/garnome/\">GARNOME</"
+"ulink> compila o GNOME a partir de versões lançadas. Você precisará do "
+"GARNOME 2.26.x para compilar o GNOME 2.26.x. Há também o <ulink url=\"http://"
+"library.gnome.org/devel/jhbuild/\">JHBuild</ulink>, o qual foi projetado "
+"para compilar o GNOME mais recente a partir do SVN. Você pode usar o JHBuild "
+"para compilar o GNOME 2.26.x usando o módulo <filename>gnome-2.26</filename>."
+
+#: C/rninstallation.xml:40(para)
+msgid ""
+"While it is possible to build GNOME directly from the release tarballs, we "
+"strongly recommend the use of one of the build tools above."
+msgstr ""
+"Embora seja possível compilar o GNOME diretamente das versões lançadas, nós "
+"fortemente recomendamos o uso de uma das ferramentas de compilação descritas "
+"acima."
+
+#: C/rni18n.xml:8(title)
+msgid "Internationalization"
+msgstr "Internacionalização"
+
+#. Translators: number of languages might change before final date
+#: C/rni18n.xml:11(para)
+#, fuzzy
+#| msgid ""
+#| "Thanks to members of the worldwide <ulink url=\"http://developer.gnome."
+#| "org/projects/gtp/\">GNOME Translation Project</ulink>, GNOME 2.26 offers "
+#| "support for 45 languages with at least 80 percent of strings translated, "
+#| "including the user and administration manuals for many languages."
+msgid ""
+"Thanks to members of the worldwide <ulink url=\"http://developer.gnome.org/"
+"projects/gtp/\">GNOME Translation Project</ulink>, GNOME 2.26 offers support "
+"for 48 languages with at least 80 percent of strings translated, including "
+"the user and administration manuals for many languages."
+msgstr ""
+"Graças aos membros do <ulink url=\"http://developer.gnome.org/projects/gtp/"
+"\">Projeto de tradução GNOME</ulink> do mundo inteiro, o GNOME 2.26 oferece "
+"suporte para 45 idiomas com pelo menos 80 porcento de linhas traduzidas, "
+"incluindo os manuais de usuário e de administrador em muitos idiomas."
+
+#: C/rni18n.xml:26(para)
+msgid "Arabic"
+msgstr "Árabe"
+
+#: C/rni18n.xml:27(para)
+msgid "Assamese"
+msgstr ""
+
+#: C/rni18n.xml:28(para)
+msgid "Basque"
+msgstr "Basco"
+
+#: C/rni18n.xml:30(para)
+msgid "Bengali (India)"
+msgstr "Bengalês (Índia)"
+
+#: C/rni18n.xml:31(para)
+msgid "Brazilian Portuguese"
+msgstr "Português Brasileiro"
+
+#: C/rni18n.xml:32(para)
+msgid "Bulgarian"
+msgstr "Búlgaro"
+
+#: C/rni18n.xml:33(para)
+msgid "Catalan"
+msgstr "Catalão"
+
+#: C/rni18n.xml:34(para)
+msgid "Chinese (China)"
+msgstr "Chinês (China)"
+
+#: C/rni18n.xml:35(para)
+msgid "Chinese (Hong Kong)"
+msgstr "Chinês (Hong Kong)"
+
+#: C/rni18n.xml:36(para)
+msgid "Chinese (Taiwan)"
+msgstr "Chinês (Taiwan)"
+
+#: C/rni18n.xml:37(para)
+msgid "Czech"
+msgstr "Tcheco"
+
+#: C/rni18n.xml:38(para)
+msgid "Danish"
+msgstr "Dinamarquês"
+
+#: C/rni18n.xml:39(para)
+msgid "Dutch"
+msgstr "Holandês"
+
+# Translating the brackets as 'EUA, Inglaterra e Canadá' can be ambiguous to the reader, for example an argentino could not understand the diferrences (he could think english is read in same way in different countries). So I translated as 'americano, britânico e canadense' as the italian translation team did too.
+#: C/rni18n.xml:41(para)
+#, fuzzy
+#| msgid "English (US, British, Canadian)"
+msgid "English (US, British)"
+msgstr "Inglês (americano, britânico, canadense)"
+
+#: C/rni18n.xml:42(para)
+msgid "Estonian"
+msgstr "Estoniano"
+
+#: C/rni18n.xml:43(para)
+msgid "Finnish"
+msgstr "FInlandês"
+
+#: C/rni18n.xml:44(para)
+msgid "French"
+msgstr "Francês"
+
+#: C/rni18n.xml:45(para)
+msgid "Galician"
+msgstr "Galego"
+
+#: C/rni18n.xml:46(para)
+msgid "German"
+msgstr "Alemão"
+
+#: C/rni18n.xml:47(para)
+msgid "Greek"
+msgstr "Grego"
+
+#: C/rni18n.xml:48(para)
+msgid "Gujarati"
+msgstr "Gujarati"
+
+#: C/rni18n.xml:49(para)
+msgid "Hebrew"
+msgstr "Hebráico"
+
+#: C/rni18n.xml:50(para)
+msgid "Hindi"
+msgstr "Hindi"
+
+#: C/rni18n.xml:51(para)
+msgid "Hungarian"
+msgstr "Húngaro"
+
+#: C/rni18n.xml:52(para)
+msgid "Italian"
+msgstr "Italiano"
+
+#: C/rni18n.xml:53(para)
+msgid "Japanese"
+msgstr "Japonês"
+
+# Can be translated as Canarês, Canada or Canará.
+#: C/rni18n.xml:54(para)
+msgid "Kannada"
+msgstr "Canarês"
+
+#: C/rni18n.xml:55(para)
+msgid "Korean"
+msgstr "Coreano"
+
+#: C/rni18n.xml:57(para)
+msgid "Lithuanian"
+msgstr "Lituano"
+
+#: C/rni18n.xml:58(para)
+msgid "Macedonian"
+msgstr "Macedônio"
+
+#: C/rni18n.xml:59(para)
+msgid "Malayalam"
+msgstr "Malayalam"
+
+#: C/rni18n.xml:60(para)
+msgid "Marathi"
+msgstr "Marata"
+
+#: C/rni18n.xml:61(para)
+msgid "Norwegian Bokmål"
+msgstr "Norueguês Bokmål"
+
+#: C/rni18n.xml:63(para)
+msgid "Oriya"
+msgstr "Oriya"
+
+#: C/rni18n.xml:64(para)
+msgid "Polish"
+msgstr "Polonês"
+
+#: C/rni18n.xml:65(para)
+msgid "Portuguese"
+msgstr "Português"
+
+#: C/rni18n.xml:66(para)
+msgid "Punjabi"
+msgstr "Punjabi"
+
+#: C/rni18n.xml:67(para)
+msgid "Romanian"
+msgstr "Romêno"
+
+#: C/rni18n.xml:68(para)
+msgid "Russian"
+msgstr "Russo"
+
+#: C/rni18n.xml:70(para)
+msgid "Slovenian"
+msgstr "Esloveno"
+
+#: C/rni18n.xml:71(para)
+msgid "Spanish"
+msgstr "Espanhol"
+
+#: C/rni18n.xml:72(para)
+msgid "Swedish"
+msgstr "SUeco"
+
+#: C/rni18n.xml:73(para)
+msgid "Tamil"
+msgstr "Tâmil"
+
+#: C/rni18n.xml:74(para)
+msgid "Telugu"
+msgstr "Telugu"
+
+#: C/rni18n.xml:75(para)
+msgid "Thai"
+msgstr "Tailandês"
+
+#: C/rni18n.xml:76(para)
+msgid "Turkish"
+msgstr "Turco"
+
+#: C/rni18n.xml:77(para)
+msgid "Ukrainian"
+msgstr "Ucraniano"
+
+#: C/rni18n.xml:78(para)
+msgid "Vietnamese"
+msgstr "Vietnamita"
+
+#: C/rni18n.xml:18(para)
+msgid "Supported languages: <placeholder-1/>"
+msgstr "Idiomas suportados: <placeholder-1/>"
+
+#: C/rni18n.xml:82(para)
+msgid ""
+"Many other languages are partially supported, with more than half of their "
+"strings translated."
+msgstr ""
+"Muitos outros idiomas são parcialmente suportados, com mais da metade de "
+"suas linhas traduzidas."
+
+#: C/rni18n.xml:85(para)
+#, fuzzy
+#| msgid ""
+#| "Translating a software package as large as GNOME into a new language can "
+#| "be an overwhelming task for even the most dedicated translation team. For "
+#| "this release two language teams have put in a stellar effort, increasing "
+#| "the completeness of their translations by more than 20%. Congratulations "
+#| "to the Romanian and Oriya teams for their hard work. Congratulations also "
+#| "to the Romanian and Telugu teams, which each passed the 80% mark this "
+#| "time."
+msgid ""
+"Translating a software package as large as GNOME into a new language can be "
+"an overwhelming task for even the most dedicated translation team. For this "
+"release two language teams have put in a stellar effort, increasing the "
+"completeness of their translations by more than 20%. Congratulations to the "
+"Romanian and Oriya teams for their hard work. Congratulations also to the "
+"Assamese, Kannada, Oriya, Romanian, and Telugu teams, which each passed the "
+"80% mark this time."
+msgstr ""
+"Traduzir um pacote de software tão extenso quanto o GNOME em um novo idioma "
+"pode ser uma tarefa exaustiva até mesmo para as equipes de tradução mais "
+"dedicadas. Para este lançamento duas equipes de tradução fizeram um esforço "
+"louvável, aumentando a totalidade de suas traduções em mais de 20%. Parabéns "
+"às equipes romena e oriya pelos seus grandes trabalhos. Parabéns também para "
+"as equipes romena e telugu, as quais cada uma passou da marca de 80% desta "
+"vez."
+
+#: C/rni18n.xml:95(para)
+msgid ""
+"Detailed statistics and more information are available on GNOME's <ulink url="
+"\"http://l10n.gnome.org/\">translation status site</ulink>."
+msgstr ""
+"Estatísticas detalhadas e maiores informações estão disponíveis na página de "
+"<ulink url=\"http://l10n.gnome.org/\">status de traduções GNOME</ulink>."
+
+#: C/rnmobile.xml:9(title)
+msgid "What's New In Mobile"
+msgstr "O que há de novo em mobilidade"
+
+#: C/rnmobile.xml:11(para)
+msgid ""
+"The GNOME Mobile platform is the technological heart of numerous Linux-based "
+"mobile device platforms including <ulink url=\"http://maemo.org/\">Maemo</"
+"ulink>, the <ulink url=\"http://http://alp.access-company.com/\">ACCESS "
+"Linux Platform</ulink>, the <ulink url=\"http://www.limofoundation.org"
+"\">LiMo reference platform</ulink>, <ulink url=\"http://www.ubuntu.com/"
+"products/mobile\">Ubuntu Mobile</ulink>, <ulink url=\"http://www.moblin.org/"
+"\">Moblin</ulink> and <ulink url=\"http://www.pokylinux.org/\">Poky</ulink>."
+msgstr ""
+"A plataforma GNOME Mobile é o coração tecnológico de numerosas plataformas "
+"de dispositivos móveis baseadas em Linux, incluindo o <ulink url=\"http://"
+"maemo.org/\">Maemo</ulink>, o <ulink url=\"http://http://alp.access-company."
+"com/\">ACCESS</ulink>, o <ulink url=\"http://www.limofoundation.org\">LiMo</"
+"ulink>, o <ulink url=\"http://www.ubuntu.com/products/mobile\">Ubuntu "
+"Mobile</ulink>, o <ulink url=\"http://www.moblin.org/\">Moblin</ulink> e o "
+"<ulink url=\"http://www.pokylinux.org/\">Poky</ulink>."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/rndevelopers.xml:69(None)
+msgid ""
+"@@image: 'figures/rndevelopers.entry-icons.png'; "
+"md5=2cd8a1c4d9827297ef300f919040bf5d"
+msgstr ""
+"@@image: 'figures/rndevelopers.entry-icons.png'; "
+"md5=2cd8a1c4d9827297ef300f919040bf5d"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/rndevelopers.xml:82(None)
+msgid ""
+"@@image: 'figures/rndevelopers.entry-with-progressbar.png'; "
+"md5=683cf72a602ce1caaad4421cd8d4365b"
+msgstr ""
+"@@image: 'figures/rndevelopers.entry-with-progressbar.png'; "
+"md5=683cf72a602ce1caaad4421cd8d4365b"
+
+#: C/rndevelopers.xml:11(title)
+msgid "What's New For Developers"
+msgstr "O que há de novo para desenvolvedores"
+
+#: C/rndevelopers.xml:13(para)
+msgid ""
+"The following changes are important for developers using the GNOME 2.26 "
+"developer platform. If you're not interested in changes for developers, you "
+"can skip forward to <xref linkend=\"rnmobile\"/>."
+msgstr ""
+"As alterações seguintes são importantes para desenvolvedores usando a "
+"plataforma de desenvolvimento GNOME 2.26. Se você não está interessado em "
+"alterações para desenvolvedores, você pode pular para <xref linkend="
+"\"rnmobile\"/>."
+
+#: C/rndevelopers.xml:20(para)
+msgid ""
+"As well as the GNOME Desktop, GNOME 2.26 is the latest release of the GNOME "
+"Developer Platform, a set of API and ABI stable libraries available under "
+"the GNU LGPL that can be used for the development of cross-platform "
+"applications."
+msgstr ""
+"Assim como a área de trabalho GNOME, o GNOME 2.26 é o lançamento mais "
+"recente da plataforma de desenvolvimento GNOME, um conjunto de bibliotecas "
+"estáveis API e ABI disponíveis sobre a licença GNU LGPL que pode seu usada "
+"para o desenvolvimento de aplicativos multiplataforma."
+
+#: C/rndevelopers.xml:28(title)
+msgid "Fixing Usage of Deprecated Libraries"
+msgstr "Reparando o uso de bibliotecas obsoletas"
+
+#: C/rndevelopers.xml:30(para)
+msgid ""
+"Starting with GNOME 3.0, various deprecated parts of GNOME will be removed. "
+"These deprecated components include GNOME-specific libraries such as "
+"libgnome, libgnomeui, libgnomeprint, libgnomeprintui, libglade, and "
+"libgnomevfs. For applications that ship as part of the GNOME Desktop, a "
+"number of <ulink url=\"http://live.gnome.org/GnomeGoals\">cleanup tasks</"
+"ulink> have been carried out to ensure no deprecated code is used. This will "
+"ensure the smooth transition to GNOME 3.0."
+msgstr ""
+"Quando começar o GNOME 3.0, várias partes obsoletas do GNOME serão "
+"removidas. Estes componentes obsoletos incluem bibliotecas específicas GNOME "
+"como o libgnome, libgnomeui, libgnomeprint, libgnomeprintui, libglade, e o "
+"libgnomevfs. Para aplicativos que fazem parte da área de trabalho GNOME, um "
+"certo número de <ulink url=\"http://live.gnome.org/GnomeGoals\">tarefas de "
+"limpeza</ulink> foram efetuadas para certificar-se de que nenhum código "
+"obsoleto fosse usado. Isto garantirá uma suave transição para o GNOME 3.0."
+
+#: C/rndevelopers.xml:41(para)
+msgid ""
+"Developers are strongly urged to follow this example in their own "
+"applications too. Furthermore, for any developers (or potential developers) "
+"who wish to help us out, the <ulink url=\"http://live.gnome.org/GnomeGoals"
+"\">GNOME goals</ulink> wiki page lists the various tasks that are yet to be "
+"completed."
+msgstr ""
+"Os desenvolvedores são extremamente encorajados para seguir este exemplo em "
+"seus próprios aplicativos também. Além disso, para qualquer desenvolvedor "
+"(ou potenciais desenvolvedores) que desejem nos ajudar, a página wiki <ulink "
+"url=\"http://live.gnome.org/GnomeGoals\">Objetivos GNOME</ulink> lista "
+"várias tarefas que ainda precisam ser completadas."
+
+#: C/rndevelopers.xml:52(title)
+msgid "GTK+ 2.16"
+msgstr "GTK+ 2.16"
+
+#: C/rndevelopers.xml:54(para)
+msgid ""
+"GTK+ 2.16 is the latest release of the GTK+ toolkit, which is at the heart "
+"of GNOME. GTK+ 2.16 includes a couple of new features for developers, as "
+"well as extensive bug fixing and housecleaning for the upcoming GTK+ 3.0."
+msgstr ""
+"GTK+ 2.16 é o lançamento mais recente do toolkit GTK+, que é o coração do "
+"GNOME. GTK+ 2.16 inclui um par de novos recursos para desenvolvedores, assim "
+"como um extensiva correção de erros e uma reorganização do código para o "
+"próximo GTK+ 3.0."
+
+#: C/rndevelopers.xml:60(para)
+msgid ""
+"<classname>GtkEntry</classname> widgets can now display icons at the front "
+"or back of the entry widget (depending on your locale's text direction). "
+"These icons are optionally prelightable and clickable."
+msgstr ""
+"Agora os widgets do <classname>GtkEntry</classname> podem exibir ícones na "
+"frente ou atrás da entrada do widget (dependendo da direção do texto nas "
+"configurações de idioma). Este ícones são opcionalmente pré-iluminados e "
+"clicáveis."
+
+#: C/rndevelopers.xml:67(title)
+msgid "Icons in <classname>GtkEntry</classname>"
+msgstr "Ícones no <classname>GtkEntry</classname>"
+
+#: C/rndevelopers.xml:74(para)
+msgid ""
+"<classname>GtkEntry</classname> widgets can now also be used to display a "
+"progress bar."
+msgstr ""
+"Agora widgets <classname>GtkEntry</classname> também podem ser usados para "
+"exibir a barra de progresso."
+
+#: C/rndevelopers.xml:80(title)
+msgid "<classname>GtkEntry</classname> with a progress bar"
+msgstr "<classname>GtkEntry</classname> com uma barra de progresso"
+
+#: C/rndevelopers.xml:86(para)
+msgid ""
+"A new interface, <interfacename>GtkActivatable</interfacename>, has been "
+"added for widgets that can be connected to a <classname>GtkAction</"
+"classname>."
+msgstr ""
+"Uma nova interface, <interfacename>GtkActivatable</interfacename>, foi "
+"adicionada para widgets que podem ser conectados com uma "
+"<classname>GtkAction</classname>."
+
+#: C/rndevelopers.xml:95(title)
+msgid "Access to Disc Burning APIs"
+msgstr "Acesso às APIs de gravação de disco"
+
+#: C/rndevelopers.xml:97(para)
+msgid ""
+"<application>libbrasero-media</application> provides an API for accessing "
+"the disc burning infrastructure in GNOME. An example of its use can be found "
+"in GNOME's Media Player, which includes a plugin to burn DVDs and VCDs from "
+"a video."
+msgstr ""
+
+#: C/rndevelopers.xml:106(title)
+msgid "Access to Evince APIs"
+msgstr "Acesso às APIs do Evince"
+
+#: C/rndevelopers.xml:108(para)
+msgid ""
+"A new library, <application>libevview</application>, has been created to "
+"provide the <classname>EvView</classname> widget used in "
+"<application>Evince</application>. This allows other applications to embed "
+"Evince's document viewing component."
+msgstr ""
+
+#: C/rndevelopers.xml:115(para)
+msgid ""
+"<application>libevdocument</application> is a library that makes it possible "
+"to develop third-party document backends for use with Evince without having "
+"to add them to the Evince source tree."
+msgstr ""
+
+#: C/rndevelopers.xml:121(para)
+msgid ""
+"Both libraries already have available Python bindings included in "
+"<application>gnome-python-desktop</application>."
+msgstr ""
+
+#: C/rndevelopers.xml:128(title)
+msgid "Anjuta"
+msgstr "Anjuta"
+
+#: C/rndevelopers.xml:130(para)
+msgid ""
+"The <application>Anjuta</application> integrated development environment has "
+"gained some great improvements in GNOME 2.26. Most important is a completely "
+"rewritten symbol management engine that, together with the new bookmark "
+"system, allows for much faster code navigation. Auto-detection of any "
+"libraries using <application>pkg-config</application> for code completion "
+"and calltips is now possible."
+msgstr ""
+
+#: C/rndevelopers.xml:140(para)
+msgid ""
+"In addition, the integration of version control systems and the "
+"<application>Glade</application> interface designer have taken a major step "
+"forward. The file tree now shows status icons for all files in projects "
+"using the <application>Subversion</application> or <application>Git</"
+"application> version control systems. It is possible to automatically "
+"generate callbacks from Glade, and GtkBuilder files are now supported."
+msgstr ""
+
+#: C/rndevelopers.xml:149(para)
+msgid ""
+"For better support of the GNOME Mobile platform, remote debugging using "
+"<application>gdbserver</application> and support for "
+"<application>Scratchbox</application> (version 2) have also been added."
+msgstr ""
+
+#: C/rncontributors.xml:9(title)
+msgid "What's New For Contributors"
+msgstr "O que há de novo para contribuidores"
+
+#: C/rncontributors.xml:11(para)
+msgid ""
+"GNOME is the result of various people helping out by either developing the "
+"software, writing documentation, translating the software into a local "
+"language, performing usability testing, creating the images used by GNOME, "
+"designing t-shirts and websites, testing and more. This section provides an "
+"overview of the various improvements made by various contributors for other "
+"contributors."
+msgstr ""
+"GNOME é o resultado de várias pessoas ajudando-se mutuamente desenvolvendo o "
+"software, escrevendo a documentação, traduzindo o software em um idioma "
+"local, realizando testes de usabilidade, criando as imagens usadas pela "
+"GNOME, desenhando camisetas e sites, testando e muito mais. Esta seção "
+"fornece uma visão geral dos diversos aprimoramentos feitos por vários "
+"contribuintes para outros contribuintes."
+
+#: C/rncontributors.xml:21(title)
+msgid "Workflow addition to Damned Lies translation website"
+msgstr ""
+"Implementação do fluxo de trabalho ao site de tradução Mentiras Cabeludas"
+
+#: C/rncontributors.xml:23(para)
+msgid ""
+"Damned Lies is the name of the GNOME translation website. In the beginning "
+"this site just provided statistics statistics such as the percentage of "
+"strings which have been translated. It since has expanded to include "
+"statistics regarding documentation."
+msgstr ""
+"Mentiras Cabeludas é o nome do site de tradução GNOME. No começo este site "
+"apenas fornecia estatísticas como a porcentagem de linhas traduzidas. Desde "
+"então foi expandido para incluir as estatísticas referentes à documentação."
+
+#: C/rncontributors.xml:30(para)
+msgid ""
+"During the development of GNOME 2.26, Damned Lies was enhanced to include "
+"the workflow tool known by some as Vertimus. The addition allows a "
+"translator to create their own account on Damned Lies and upload their "
+"translation work. After that the site tracks the review status and finally "
+"if it has been integrated within GNOME ('committed')."
+msgstr ""
+"Durante o desenvolvimento do GNOME 2.26, o Mentiras Cabeludas foi aprimorado "
+"para incluir uma ferramenta de fluxo de trabalho conhecida por alguns como "
+"Vertimus. A implementação permite a um tradutor criar a sua própria conta no "
+"Mentiras Cabeludas e enviar seus trabalhos de tradução. Depois disso o site "
+"controla o status de revisão e finalmente se foi integrado dentro do GNOME "
+"(se houve o \"commit\")."
+
+#: C/rncontributors.xml:42(title)
+msgid "Project related news site"
+msgstr "Site de notícias relacionadas ao projeto"
+
+#: C/rncontributors.xml:44(para)
+msgid ""
+"Tracking the changes within GNOME involved following Planet GNOME, various "
+"mailing lists and hanging around on IRC. A new site has been set up with the "
+"aim of allowing people to easily track changes within GNOME."
+msgstr ""
+"Rastreie as mudanças dentro do GNOME seguindo o Planeta GNOME, várias listas "
+"de correio e passando pelo IRC. Um novo site foi criado com o intuito de "
+"permitir as pessoas de facilmente rastrear as mudanças dentro do GNOME."
+
+#: C/rncontributors.xml:52(para)
+msgid "GNOME foundation related announcements"
+msgstr "Anúncios relacionados com a fundação GNOME"
+
+#: C/rncontributors.xml:53(para)
+msgid ""
+"Development announcements such as the request for tarballs and GNOME releases"
+msgstr ""
+
+#: C/rncontributors.xml:55(para)
+msgid "Commit Digest, a weekly summary of all the code changes"
+msgstr ""
+
+#: C/rncontributors.xml:56(para)
+msgid ""
+"Product announcements, with for example the nearly daily Metacity blog, GTK+ "
+"news, Project Hamster and more."
+msgstr ""
+
+#: C/rncontributors.xml:50(para)
+msgid "Articles on this site include: <placeholder-1/>"
+msgstr "Artigos neste site incluem: <placeholder-1/>"
+
+#: C/rnadmins.xml:9(title)
+msgid "What's New For Administrators"
+msgstr "O que há de novo para administradores"
+
+#: C/rna11y.xml:9(title)
+msgid "What's New In Accessibility"
+msgstr "O que há de novo em acessibilidade"
+
+#: C/rna11y.xml:11(para)
+msgid ""
+"GNOME has a passion for making software available to everyone, including "
+"users and developers with impairments that can make it harder to use their "
+"computer. To help, GNOME created the GNOME Accessibility Project and an "
+"accessibility framework that is now a standard on libre desktops."
+msgstr ""
+
+#: C/rna11y.xml:18(para)
+msgid ""
+"GNOME 2.26 continues to build on its prior accessibility credentials with "
+"several improvements."
+msgstr ""
+
+#: C/rna11y.xml:24(title)
+msgid "Orca Screenreader"
+msgstr "Leitor de tela Orca"
+
+#: C/rna11y.xml:26(para)
+msgid ""
+"The <application>Orca</application> screenreader has had significant work "
+"done to reduce program bugs and improve performance, with over 160 bugs "
+"fixed for GNOME 2.26. Some of the improvements include:"
+msgstr ""
+
+#: C/rna11y.xml:32(para)
+msgid "improved support for ARIA in Firefox;"
+msgstr ""
+
+#: C/rna11y.xml:35(para)
+msgid "new understanding of how to pronounce WikiWords and mnemonics;"
+msgstr ""
+
+#: C/rna11y.xml:38(para)
+msgid ""
+"the ability to configure speech pitch, rate and volume on the fly from the "
+"preferences pane; and"
+msgstr ""
+
+#: C/rna11y.xml:42(para)
+msgid "improved performance and reliability."
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/rnusers.xml:39(None)
+msgid ""
+"@@image: 'figures/rnusers.brasero.png'; md5=5e28e89115b8e42c04c7449b3b30dd4e"
+msgstr ""
+"@@image: 'figures/rnusers.brasero.png'; md5=5e28e89115b8e42c04c7449b3b30dd4e"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/rnusers.xml:72(None)
+msgid ""
+"@@image: 'figures/rnusers.gnome-user-share.png'; "
+"md5=f9b038fb5c3777e4340dec1e754aeae2"
+msgstr ""
+"@@image: 'figures/rnusers.gnome-user-share.png'; "
+"md5=f9b038fb5c3777e4340dec1e754aeae2"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/rnusers.xml:152(None)
+msgid ""
+"@@image: 'figures/rnusers.volume-control.png'; "
+"md5=5dc825f5293fa6a7f70d5ba6b045aaa1"
+msgstr ""
+"@@image: 'figures/rnusers.volume-control.png'; "
+"md5=5dc825f5293fa6a7f70d5ba6b045aaa1"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/rnusers.xml:183(None)
+msgid ""
+"@@image: 'figures/rnusers.empathy.png'; md5=8da5043886054909dc2bb46cc0463e4a"
+msgstr ""
+"@@image: 'figures/rnusers.empathy.png'; md5=8da5043886054909dc2bb46cc0463e4a"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/rnusers.xml:209(None)
+msgid ""
+"@@image: 'figures/rnusers.epiphany.png'; md5=2eb197d7c2556baf38df0adfcbe30196"
+msgstr ""
+"@@image: 'figures/rnusers.epiphany.png'; md5=2eb197d7c2556baf38df0adfcbe30196"
+
+#: C/rnusers.xml:9(title)
+msgid "What's New For Users"
+msgstr "O que há de novo para usuários"
+
+#: C/rnusers.xml:11(para)
+msgid ""
+"The GNOME Project's focus on users and usability continues in GNOME 2.26 "
+"with its hundreds of bug fixes and user-requested improvements. The sheer "
+"number of enhancements makes it impossible to list every change and "
+"improvement made, but these notes aim to highlight some of the more "
+"exciting, user-oriented features in this release."
+msgstr ""
+
+#: C/rnusers.xml:20(title)
+msgid "Comprehensive New Disc Burning"
+msgstr "Compreensivo aplicativo de gravação de disco"
+
+#: C/rnusers.xml:21(para)
+msgid ""
+"Although previous versions of GNOME already had an easy way to burn CDs and "
+"DVDs, as of GNOME 2.26 this has been expanded to a whole application "
+"dedicated to disc creation: <application>Brasero</application>."
+msgstr ""
+
+#: C/rnusers.xml:29(para)
+msgid ""
+"Brasero delivers new features that were not supported by the CD burner, such "
+"as audio CD burning with audio track preview, track splitting, and volume "
+"normalization; full multisession support; integrity checks; a cover editor; "
+"and support for multiple burning backends."
+msgstr ""
+
+#: C/rnusers.xml:37(application)
+msgid "Brasero"
+msgstr "Brasero"
+
+#: C/rnusers.xml:43(para)
+msgid ""
+"People who appreciated the way CD burning used to work will not have to "
+"relearn their habits; the existing interfaces are also available. "
+"<menuchoice><guimenu>Places</guimenu><guimenuitem>CD/DVD Creator</"
+"guimenuitem></menuchoice> in the menu still brings up a folder you can drag "
+"into. CD (ISO) image files can still be burnt directly from the file manager "
+"by right-clicking on them."
+msgstr ""
+
+#: C/rnusers.xml:52(para)
+msgid ""
+"Brasero allows other GNOME applications to add disc burning capabilities. "
+"For example, the Media Player now allows you to burn the movie you're "
+"watching to either (S)VCD or DVD."
+msgstr ""
+
+#: C/rnusers.xml:62(title)
+msgid "Simpler File Sharing"
+msgstr "Simples compartilhamento de arquivos"
+
+#: C/rnusers.xml:64(para)
+msgid ""
+"GNOME 2.26 now includes a plugin for its file manager to enable simple "
+"personal file sharing over WebDAV, HTTP and Bluetooth."
+msgstr ""
+"Agora o GNOME 2.26 inclui um plug-in para o seu gerenciador de arquivos para "
+"ativar compartilhamento pessoal de arquivo simples em WebDAV, HTTP e "
+"Bluetooth."
+
+#: C/rnusers.xml:70(title)
+msgid "Sharing Files"
+msgstr "Compartilhando arquivos"
+
+#: C/rnusers.xml:79(title)
+msgid "Evolution Evolves its Migration from Windows"
+msgstr ""
+
+#: C/rnusers.xml:81(para)
+msgid ""
+"GNOME's email and groupware suite, <application>Evolution</application>, has "
+"gained two important features for helping users who are migrating to GNOME "
+"from Microsoft Windows environments."
+msgstr ""
+
+#: C/rnusers.xml:87(para)
+msgid ""
+"First is the ability to import Microsoft Outlook Personal Folders (PST "
+"files) directly in Evolution. Email, contacts, appointments, tasks and "
+"journal entries are supported. Previously, the files had to be imported via "
+"a third-party utility, such as Thunderbird on Windows."
+msgstr ""
+
+#. FIXME: screenshot ala
+#. 	      http://bugzilla.gnome.org/attachment.cgi?id=127445&action=view
+#: C/rnusers.xml:96(para)
+msgid ""
+"Second is support for Microsoft Exchange's MAPI protocol. This is the "
+"protocol that Microsoft Outlook uses to communicate with Exchange. "
+"Previously, Evolution only supported Exchange's SOAP protocol, which is not "
+"available on all Exchange servers. This support significantly improves "
+"Evolution's integration with Exchange servers."
+msgstr ""
+
+#: C/rnusers.xml:106(title)
+msgid "Media Player Improvements"
+msgstr "Aprimoramentos do Mídia Player"
+
+#: C/rnusers.xml:108(para)
+msgid ""
+"GNOME's <application>Media Player</application> continues to be improved "
+"with several new features."
+msgstr ""
+
+#: C/rnusers.xml:113(para)
+msgid ""
+"Many media player appliances now offer the option to share the stored "
+"content via either the UPnP or DLNA protocols. With the new "
+"<application>Coherence</application> DLNA/UPnP client, it is possible to "
+"browse and play this content from within the GNOME Media Player."
+msgstr ""
+
+#. FIXME: screenshot of this
+#: C/rnusers.xml:123(para)
+msgid ""
+"While GNOME's Media Player already has the ability to display subtitles for "
+"a movie, this still required you to have the subtitle data available. As of "
+"GNOME 2.26, this restriction is gone. Using the new subtitle downloader "
+"plugin, the Media Player will automatically find subtitles for you."
+msgstr ""
+
+#: C/rnusers.xml:135(title)
+msgid "Volume Control Integrated with PulseAudio"
+msgstr "Integração do controle de volume com o PulseAudio"
+
+#: C/rnusers.xml:137(para)
+msgid ""
+"<application>PulseAudio</application> is the new audio input/output routing "
+"and mixing framework that is being adopted by many free software platforms. "
+"It has support for features like per-application volume and dynamic plug-and-"
+"play and rerouting of sound devices (e.g. USB soundcards)."
+msgstr ""
+
+#: C/rnusers.xml:144(para)
+msgid ""
+"GNOME 2.26 can take advantage of these features with its new volume control "
+"and new <application>Sound Preferences</application> tool."
+msgstr ""
+
+#: C/rnusers.xml:150(title)
+msgid "Volume Control Input Settings"
+msgstr "Configurações de entrada do controle de volume"
+
+#: C/rnusers.xml:156(para)
+msgid ""
+"The <application>Sound Preferences</application> tool integrates the choice "
+"of sound devices, application volumes, alert volume and alert theme in one "
+"place."
+msgstr ""
+
+#: C/rnusers.xml:161(para)
+msgid ""
+"For those without PulseAudio, the old (GStreamer) mixer will still be "
+"available and has even been augmented with a sound theme tab to match the "
+"new interface."
+msgstr ""
+
+#: C/rnusers.xml:169(title)
+msgid "Almost Telepathic Communication"
+msgstr ""
+
+#: C/rnusers.xml:171(para)
+msgid ""
+"The <application>Empathy</application> instant messaging application, which "
+"uses the Telepathy communications framework, has taken another step forward "
+"with features including file transfer where supported by Telepathy "
+"(currently Jabber and link-local XMPP), chat room invite support, sound "
+"themes and notifications, and an improved VoIP experience."
+msgstr ""
+
+#: C/rnusers.xml:181(title)
+msgid "Video Calling in Empathy"
+msgstr "Vídeo-chamada no Empathy"
+
+#: C/rnusers.xml:187(para)
+msgid ""
+"VoIP using the free Theora and Speex codecs is now possible over Jingle to "
+"clients that support them."
+msgstr ""
+"VoIP usando os codecs gratuitos Theora e Speex, agora é possível o Jingle "
+"com clientes que suportem eles."
+
+#: C/rnusers.xml:191(para)
+msgid ""
+"Support for <application>Canberra</application> sound themes and "
+"notification bubble has also been added."
+msgstr ""
+
+#: C/rnusers.xml:198(title)
+msgid "Location Epiphany"
+msgstr ""
+
+#: C/rnusers.xml:200(para)
+msgid ""
+"GNOME's web browser, <application>Epiphany</application>, gains an exciting "
+"new feature of an improved location bar, similar to the Awesome Bar "
+"popularized by Firefox 3.0."
+msgstr ""
+
+#: C/rnusers.xml:207(title)
+msgid "New Location Bar"
+msgstr ""
+
+#: C/rnusers.xml:215(title)
+msgid "Fingerprint Reader Integration"
+msgstr "Leitor de impressão digital integrado"
+
+#: C/rnusers.xml:217(para)
+msgid ""
+"GNOME 2.26 now integrates with the <application>fprintd</application> "
+"fingerprint service to allow users to enroll fingerprints for use in "
+"authentication."
+msgstr ""
+
+#: C/rnusers.xml:222(para)
+msgid ""
+"If a system is configurated for allowing fingerprint authentication, users "
+"can enroll their fingerprints via <menuchoice><guimenu>Desktop</"
+"guimenu><guimenu>Preferences</guimenu><guimenuitem>About Me</guimenuitem></"
+"menuchoice> from the panel menu."
+msgstr ""
+
+#: C/rnusers.xml:231(title)
+msgid "But Wait, There's More…"
+msgstr "Mas espere, tem muito mais..."
+
+#: C/rnusers.xml:233(para)
+msgid ""
+"As well as big changes, there are also various small additions and tweaks "
+"that happen in every GNOME release."
+msgstr ""
+
+#: C/rnusers.xml:239(para)
+msgid ""
+"The file manager can now to ask <application>PackageKit</application> to "
+"install support for a file you wish to open."
+msgstr ""
+
+#: C/rnusers.xml:243(para)
+msgid ""
+"A keyboard modifier (usually Alt) is now required to drag panels around on "
+"the screen (the same keyboard modifier used for dragging windows around by "
+"their middles)."
+msgstr ""
+
+#: C/rnusers.xml:248(para)
+msgid ""
+"Password entry widgets will now warn if you have your Caps Lock key enabled."
+msgstr ""
+
+#: C/rnusers.xml:252(para)
+msgid ""
+"Changing the Input Method type using the context menu on a text entry widget "
+"is now per-widget, rather than per-application. (This is separate from "
+"setting your default input manager or keyboard layout.)"
+msgstr ""
+
+#: C/rnusers.xml:257(para)
+msgid "Input methods now work in password entry widgets."
+msgstr "Métodos de entrada funcionam agora em widgets de entrada de senha."
+
+#: C/rnusers.xml:260(para)
+msgid "The <application>Deskbar</application> now supports OpenSearch plugins."
+msgstr ""
+"O <application>Deskbar</application> suporta agora plug-ins OpenSearch."
+
+#: C/rnusers.xml:263(para)
+msgid ""
+"New visual effects, such as the panels sliding in and out at login and "
+"logout, and crossfading desktop backgrounds."
+msgstr ""
+"Novos efeitos visuais, como painéis deslizantes para dentro e para fora ao "
+"iniciar e encerrar a sessão, e suavizando o plano de fundo da área de "
+"trabalho."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/release-notes.xml:69(None)
+msgid "@@image: 'figures/gnome.png'; md5=85e38c565268a9d73de74a01ce133f38"
+msgstr "@@image: 'figures/gnome.png'; md5=85e38c565268a9d73de74a01ce133f38"
+
+#: C/release-notes.xml:11(title)
+msgid "GNOME 2.26 Release Notes"
+msgstr "Notas de lançamento do GNOME 2.26"
+
+#: C/release-notes.xml:14(year)
+msgid "2009"
+msgstr "2009"
+
+#: C/release-notes.xml:15(holder) C/release-notes.xml:19(publishername)
+msgid "GNOME Foundation"
+msgstr "Fundação GNOME"
+
+#: C/release-notes.xml:21(pubdate)
+msgid "2009-03-19"
+msgstr "19/03/2009"
+
+#: C/release-notes.xml:22(edition)
+msgid "2.26"
+msgstr "2.26"
+
+#: C/release-notes.xml:24(para)
+msgid ""
+"GNOME has a time-based release schedule. This means that there is a new "
+"GNOME release with accompanying notes every six months, to the minute."
+msgstr ""
+"O GNOME tem seu calendário de lançamentos baseado no tempo. Isso significa "
+"que haverá uma nova versão do GNOME, com suas notas de lançamento, de seis "
+"em seis meses, sem falta."
+
+#: C/release-notes.xml:30(firstname)
+msgid "Davyd"
+msgstr "Davyd"
+
+#: C/release-notes.xml:31(surname)
+msgid "Madeley"
+msgstr "Madeley"
+
+#: C/release-notes.xml:33(orgname)
+msgid "GNOME Documentation Project"
+msgstr "Projeto de documentação GNOME"
+
+#. TRANSLATOR: change your affiliation if required
+#: C/release-notes.xml:44(orgname)
+msgid "GNOME Translation Project"
+msgstr "Projeto de tradução GNOME"
+
+#: C/release-notes.xml:52(title)
+msgid "Introduction"
+msgstr "Introdução"
+
+#: C/release-notes.xml:54(para)
+msgid ""
+"GNOME 2.26 is the latest version of the GNOME Desktop: a popular, multi-"
+"platform desktop environment for your computer. GNOME's focus is ease of "
+"use, stability, and first class internationalization and accessibility "
+"support. GNOME is Free and Open Source Software and provides all of the "
+"common tools computer users expect of a modern computing environment, such "
+"as email, groupware, web browsing, file management, multimedia, and games. "
+"Furthermore, GNOME provides a flexible and powerful platform for software "
+"developers, both on the desktop and in mobile applications."
+msgstr ""
+"O GNOME 2.26 é a versão mais recente da área de trabalho GNOME: um ambiente "
+"de trabalho popular e multiplataforma. O foco do GNOME é facilidade de uso, "
+"estabilidade, e suporte de primeira classe a internacionalização e "
+"acessibilidade. GNOME é um Software Livre e de Código Aberto e fornece todas "
+"as ferramentas comuns que usuários de computador esperam de um ambiente de "
+"computação moderno como: e-mail, groupware, navegação na internet, "
+"gerenciamento de arquivos, multimídia e jogos. Além disso, GNOME proporciona "
+"uma plataforma flexível e poderosa para desenvolvedores de software, tanto "
+"para aplicativos desktop quanto para móveis."
+
+#: C/release-notes.xml:67(title)
+msgid "GNOME 2.26"
+msgstr "GNOME 2.26"
+
+#: C/release-notes.xml:73(para)
+msgid ""
+"The GNOME Desktop is released every six months and contains many new "
+"features, improvements, bug fixes, and translations. GNOME 2.26 continues "
+"this tradition. To learn more about GNOME and the qualities that distinguish "
+"it from other computer desktop environments (such as usability, "
+"accessibility, internationalization, and freedom) visit the <ulink url="
+"\"http://www.gnome.org/about\">About GNOME</ulink> page on our website."
+msgstr ""
+"A área de trabalho GNOME é lançada a cada seis meses e contem muitos novos "
+"recursos, correção de erros, e traduções. O GNOME 2.26 continua esta "
+"tradição. Para aprender mais sobre o GNOME e as qualidades que o distinguem "
+"de outros ambientes de trabalho (como usabilidade, acessibilidade, "
+"internacionalização e liberdade), visite a página <ulink url=\"http://www."
+"gnome.org/about\">Sobre o GNOME</ulink> no nosso website."
+
+#: C/release-notes.xml:83(para)
+msgid ""
+"<ulink url=\"http://live.gnome.org/JoinGnome\">Join us today</ulink> and see "
+"what a difference you can make."
+msgstr ""
+"<ulink url=\"http://live.gnome.org/JoinGnome\">Junte-se a nós hoje</ulink> e "
+"confira que diferença você pode fazer."
+
+#: C/release-notes.xml:86(para)
+msgid ""
+"GNOME 2.26 includes all of the improvements made in GNOME 2.24 and earlier. "
+"You can learn more about the changes that happened in GNOME 2.24 from its "
+"<ulink url=\"http://www.gnome.org/start/2.24/\">release notes</ulink>."
+msgstr ""
+"GNOME 2.26 inclui todos os aprimoramentos feitos no GNOME 2.24 e anteriores. "
+"Você pode aprender mais sobre as mudanças que ocorreram no GNOME 2.24 a "
+"partir da suas <ulink url=\"http://www.gnome.org/start/2.24/\">notas de "
+"lançamento</ulink>."
+
+#: C/release-notes.xml:120(title)
+msgid "Credits"
+msgstr "Créditos"
+
+#. TRANSLATOR: insert your translation credit between the 1st and 2nd
+#. 	       sentences:
+#.
+#. 				 These release notes were compiled by Davyd Madeley with extensive
+#. 				 help from the GNOME community. The translation into Alpha Centaurian
+#. 				 was done by the GNOME Furry Creatures from Alpha Centauri Translation
+#. 				 Team. On behalf of the community, ...
+#: C/release-notes.xml:128(para)
+msgid ""
+"These release notes were compiled by Davyd Madeley with extensive help from "
+"the GNOME community. On behalf of the community, we give our warmest thanks "
+"to the developers and contributors who made this GNOME release possible."
+msgstr ""
+"Estas notas de lançamento foram compiladas por Davyd Madeley com uma grande "
+"ajuda da comunidade GNOME. A tradução brasileira desta nota foi feita por "
+"Enrico Nicoletto, membro da <ulink url=\"http://br.gnome.org/bin/view/"
+"GNOMEBR/Traducao\">Equipe Brasileira de Tradução GNOME</ulink>. Em nome da "
+"comunidade, damos os nossos mais sinceros agradecimentos ao desenvolvedores "
+"e contribuidores que fizeram este lançamento GNOME possível."
+
+#: C/release-notes.xml:135(para)
+msgid ""
+"This work may be freely translated into any language. If you wish to "
+"translate it into your language, please contact the <ulink url=\"http://"
+"developer.gnome.org/projects/gtp/\">GNOME Translation Project</ulink>."
+msgstr ""
+"Este trabalho pode ser livremente traduzido em qualquer idioma. Se você "
+"quiser traduzi-lo em seu idioma, por gentileza entre em contato com o <ulink "
+"url=\"http://developer.gnome.org/projects/gtp/\">Projeto de Tradução GNOME</"
+"ulink>."
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
+#: C/release-notes.xml:0(None)
+msgid "translator-credits"
+msgstr "Enrico Nicoletto <liverig@gmail.com>, 2009."
+
+#~ msgid "Albanian"
+#~ msgstr "Albanês"
+
+#~ msgid "Belarusian Latin"
+#~ msgstr "Bielorusso latino"
+
+#~ msgid "Dzongkha"
+#~ msgstr "Dzonga"
+
+#~ msgid "Latvian"
+#~ msgstr "Letão"
+
+#~ msgid "Norwegian Nynorsk"
+#~ msgstr "Norueguês Nynorsk"
+
+#~ msgid "Serbian"
+#~ msgstr "Sérvio"
