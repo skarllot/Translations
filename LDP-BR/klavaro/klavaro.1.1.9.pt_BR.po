@@ -1,10 +1,11 @@
-# Klavaro - Tradução para o português.
-# Copyright (C) 2008 Felipe Castro
-# Felipe CASTRO <_fefcas_@gmail.com>, 2008.
+# Brazilian Portuguese translation of klavaro.
+# This file is distributed under the same license as the gst-plugins-ugly package.
+# Copyright (C) 2008-2009 Free Software Foundation, Inc.
+# Felipe CASTRO <fefcas_@gmail.com>, 2008, 2009.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: klavaro-1.1.7\n"
+"Project-Id-Version: klavaro-1.1.9\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-04-09 20:55-0300\n"
 "PO-Revision-Date: 2009-04-08 19:31-0300\n"
