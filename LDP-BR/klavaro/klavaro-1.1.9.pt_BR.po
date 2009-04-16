@@ -1,5 +1,5 @@
 # Brazilian Portuguese translation of klavaro.
-# This file is distributed under the same license as the gst-plugins-ugly package.
+# This file is distributed under the same license as the klavaro package.
 # Copyright (C) 2008-2009 Free Software Foundation, Inc.
 # Felipe CASTRO <fefcas_@gmail.com>, 2008, 2009.
 #
@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: klavaro-1.1.9\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-04-09 20:55-0300\n"
-"PO-Revision-Date: 2009-04-08 19:31-0300\n"
-"Last-Translator: Felipe Castro <fefcas@gmail.com>\n"
-"Language-Team: Português <pt@li.org>\n"
+"PO-Revision-Date: 2009-04-10 15:28-0300\n"
+"Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
+"Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n>1);\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Poedit-Country: BRAZIL\n"
 
 #: src/interface.c:116
