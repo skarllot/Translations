@@ -1,0 +1,905 @@
+# Brazilian Portuguese translation of gpe-calendar.
+# Copyright (C) 2004-2009 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gpe-calendar package.
+# Luis Oliveira <luismbo@netcabo.pt>, 2003.
+# Marcus Moreira de Souza <marcus@frb.br>, 2004.
+# Fabrício Godoy <skarllot@gmail.com>, 2009.
+#
+#: ../event-ui.c:193
+msgid ""
+msgstr ""
+"Project-Id-Version: gpe-calendar 0.91\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-06-08 19:01+0200\n"
+"PO-Revision-Date: 2009-04-17 01:22-0300\n"
+"Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
+"Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../gpe-calendar.desktop.in.in.h:1 ../hildon/gpe-calendar.desktop.in.in.h:1
+#: ../event-menu.c:352
+msgid "Calendar"
+msgstr "Calendário"
+
+#: ../gpe-calendar.desktop.in.in.h:2
+msgid "GPE Calendar"
+msgstr "Calendário GPE"
+
+#: ../hildon/gpe-calendar.desktop.in.in.h:2
+#, fuzzy
+#| msgid "GPE Calendar"
+msgid "GPE Calendar Application"
+msgstr "Calendário GPE"
+
+#: ../alarm-dialog.c:188 ../main.c:2328
+#, fuzzy
+#| msgid "Alarm"
+msgid "Alarms"
+msgstr "Alarme"
+
+#: ../alarm-dialog.c:208
+msgid "Acknowledge All"
+msgstr ""
+
+#: ../alarm-dialog.c:214 ../calendars-dialog.c:468
+msgid "Dismiss"
+msgstr ""
+
+#: ../alarm-dialog.c:285
+msgid "No alarms have gone off."
+msgstr ""
+
+#: ../alarm-dialog.c:371
+#, c-format
+msgid "%s%s%s%s%s%s%s%s"
+msgstr ""
+
+#: ../alarm-dialog.c:372
+#, fuzzy
+#| msgid "Summary:"
+msgid "<b>Summary</b>: "
+msgstr "Assunto:"
+
+#: ../alarm-dialog.c:375
+#, fuzzy
+#| msgid "Description:"
+msgid "<b>Description</b>: "
+msgstr "Descrição:"
+
+#: ../alarm-dialog.c:378
+msgid "<b>Location</b>: "
+msgstr ""
+
+#: ../alarm-dialog.c:464
+#, fuzzy
+#| msgid "Event"
+msgid "Show Event"
+msgstr "Evento"
+
+#: ../alarm-dialog.c:470
+msgid "Acknowledge"
+msgstr ""
+
+#: ../alarm-dialog.c:477
+msgid "Sleep:"
+msgstr ""
+
+#: ../alarm-dialog.c:492
+#, fuzzy
+#| msgid "minutes"
+msgid "Minutes"
+msgstr "minutos"
+
+#: ../alarm-dialog.c:493
+#, fuzzy
+#| msgid "hours"
+msgid "Hours"
+msgstr "horas"
+
+#: ../alarm-dialog.c:494
+msgid "Days"
+msgstr "Dias"
+
+#: ../calendar-delete-dialog.c:134
+#, c-format
+msgid ""
+" %s cannot be the new parent of %s's constituents: this would create a loop "
+"(try being your own grandparent).\n"
+"Please select a calendar which is not a descendent of %s."
+msgstr ""
+
+#: ../calendar-delete-dialog.c:171
+#, fuzzy, c-format
+#| msgid "Calendar"
+msgid "Delete Calendar %s"
+msgstr "Calendário"
+
+#: ../calendar-delete-dialog.c:197
+#, c-format
+msgid "Delete %s%s%s"
+msgstr ""
+
+#: ../calendar-delete-dialog.c:207
+#, c-format
+msgid "Reparent %s%s%s"
+msgstr ""
+
+#: ../calendar-edit-dialog.c:258
+#, fuzzy
+#| msgid "Calendar: New event"
+msgid "Calendar: New Calendar"
+msgstr "Calendário: Novo evento"
+
+#: ../calendar-edit-dialog.c:289
+#, fuzzy
+#| msgid "Time:"
+msgid "Title:"
+msgstr "Hora:"
+
+#. Description.
+#. Description textarea.
+#: ../calendar-edit-dialog.c:300 ../event-ui.c:840
+msgid "Description:"
+msgstr "Descrição:"
+
+#. Parent.
+#: ../calendar-edit-dialog.c:311
+#, fuzzy
+#| msgid "Start:"
+msgid "Parent:"
+msgstr "Início:"
+
+#. Color selection.
+#: ../calendar-edit-dialog.c:327
+msgid "Color:"
+msgstr ""
+
+#. mode.
+#: ../calendar-edit-dialog.c:348
+msgid "Type:"
+msgstr "Tipo:"
+
+#: ../calendar-edit-dialog.c:354
+msgid "Local"
+msgstr ""
+
+#: ../calendar-edit-dialog.c:355
+msgid "Subscribe"
+msgstr ""
+
+#: ../calendar-edit-dialog.c:356
+msgid "Publish"
+msgstr ""
+
+#. Uncomment as we support other modes.
+#: ../calendar-edit-dialog.c:359
+msgid "Synchronize"
+msgstr ""
+
+#. Don't show initially.
+#: ../calendar-edit-dialog.c:374
+msgid "URL:"
+msgstr ""
+
+#: ../calendar-edit-dialog.c:385
+msgid "Username:"
+msgstr ""
+
+#: ../calendar-edit-dialog.c:395
+msgid "Password:"
+msgstr ""
+
+#. Don't show initially.
+#: ../calendar-edit-dialog.c:413
+#, fuzzy
+#| msgid "Date:"
+msgid "Update:"
+msgstr "Data:"
+
+#: ../calendar-edit-dialog.c:428
+msgid "times per year"
+msgstr ""
+
+#: ../calendar-edit-dialog.c:429
+msgid "times per month"
+msgstr ""
+
+#: ../calendar-edit-dialog.c:430
+msgid "times per week"
+msgstr ""
+
+#: ../calendar-edit-dialog.c:431
+msgid "times per day"
+msgstr ""
+
+#: ../calendar-edit-dialog.c:432
+msgid "times per hour"
+msgstr ""
+
+#: ../calendar-edit-dialog.c:530
+#, fuzzy
+#| msgid "Calendar: Edit event"
+msgid "Calendar: Edit Calendar"
+msgstr "Calendário: Editar evento"
+
+#: ../calendars-dialog.c:300
+#, fuzzy
+#| msgid "Calendar"
+msgid "Calendars"
+msgstr "Calendário"
+
+#: ../calendars-dialog.c:336
+msgid "Show All"
+msgstr ""
+
+#: ../calendars-widgets.c:385
+#, fuzzy, c-format
+#| msgid "minutes"
+msgid "%ld minutes ago"
+msgstr "minutos"
+
+#: ../calendars-widgets.c:387
+#, c-format
+msgid "%ld hours ago"
+msgstr ""
+
+#: ../calendars-widgets.c:389
+#, c-format
+msgid "%ld days ago"
+msgstr ""
+
+#: ../calendars-widgets.c:396
+#, c-format
+msgid "%x"
+msgstr ""
+
+#: ../calendars-widgets.c:409
+msgid "Up to date"
+msgstr ""
+
+#: ../calendars-widgets.c:411
+msgid "Modified"
+msgstr ""
+
+#: ../calendar-update.c:157
+msgid "Calendar Syncronization"
+msgstr ""
+
+#: ../day_popup.c:85
+#, fuzzy
+#| msgid "%a, %d"
+msgid "%a %d %B"
+msgstr "%a, %d"
+
+#: ../day_popup.c:138 ../event-list.c:257
+#, c-format
+msgid "Until %s"
+msgstr ""
+
+#: ../day_view.c:254
+msgid " - "
+msgstr ""
+
+#: ../event-list.c:192
+#, c-format
+msgid "%-m/%-d"
+msgstr ""
+
+#: ../event-list.c:193
+#, fuzzy
+#| msgid "%a, %d"
+msgid "%b %-d"
+msgstr "%a, %d"
+
+#: ../event-list.c:196
+msgid "%m/%d/%t"
+msgstr ""
+
+#: ../event-list.c:197
+msgid "%b %d, %y"
+msgstr ""
+
+#: ../event-list.c:203 ../event-menu.c:230 ../month_view.c:816
+msgid "%-H:%M"
+msgstr ""
+
+#: ../event-list.c:206
+msgid "%-m/%-d %-H:%M"
+msgstr ""
+
+#: ../event-list.c:207
+msgid "%b %-d %-H:%M"
+msgstr ""
+
+#: ../event-list.c:210
+msgid "%-m/%-d/%y %-H:%M"
+msgstr ""
+
+#: ../event-list.c:211
+msgid "%b %-d, %y %-H:%M"
+msgstr ""
+
+#: ../event-list.c:238 ../event-list.c:320 ../main.c:561 ../main.c:2351
+msgid "Today"
+msgstr "Hoje"
+
+#: ../event-list.c:752 ../event-ui.c:196 ../event-ui.c:910
+msgid "days"
+msgstr "dias"
+
+#: ../event-list.c:753 ../event-ui.c:911
+msgid "weeks"
+msgstr "semanas"
+
+#: ../event-list.c:754 ../event-ui.c:202
+msgid "months"
+msgstr "meses"
+
+#: ../event-list.c:755 ../event-ui.c:205
+msgid "years"
+msgstr "anos"
+
+#: ../event-menu.c:56
+#, c-format
+msgid "Delete all occurrences of %s?"
+msgstr ""
+
+#: ../event-menu.c:60 ../event-menu.c:82
+#, fuzzy
+#| msgid "Description:"
+msgid "Question"
+msgstr "Descrição:"
+
+#: ../event-menu.c:61
+msgid "Delete this occurrence"
+msgstr ""
+
+#: ../event-menu.c:62
+msgid "Delete all occurrences"
+msgstr ""
+
+#: ../event-menu.c:80
+#, c-format
+msgid "Delete %s?"
+msgstr ""
+
+#: ../event-menu.c:202 ../event-menu.c:224
+#, fuzzy
+#| msgid "%a, %d"
+msgid "%b %d"
+msgstr "%a, %d"
+
+#: ../event-menu.c:204 ../event-menu.c:232
+msgid "%b %d, %-H:%M"
+msgstr ""
+
+#: ../event-menu.c:222 ../gtkdatesel.c:225
+#, c-format
+msgid "%d"
+msgstr ""
+
+#: ../event-menu.c:275 ../event-menu.c:363
+#, fuzzy
+#| msgid "Exit"
+msgid "Edit"
+msgstr "Sair"
+
+#: ../event-menu.c:287 ../event-menu.c:383
+msgid "Delete"
+msgstr ""
+
+#: ../event-menu.c:299 ../event-ui.c:1671
+msgid "Save"
+msgstr ""
+
+#: ../event-menu.c:314
+msgid "Send via Infra-red"
+msgstr ""
+
+#: ../event-menu.c:327
+msgid "Send via Bluetooth"
+msgstr ""
+
+#: ../event-menu.c:342
+msgid "Move to Calendar..."
+msgstr ""
+
+#: ../event-menu.c:373
+msgid "Save as"
+msgstr ""
+
+#: ../event-menu.c:394
+msgid "Only Show"
+msgstr ""
+
+#: ../event-menu.c:405
+msgid "Hide"
+msgstr ""
+
+#: ../event-ui.c:156 ../event-ui.c:1010
+msgid "Every"
+msgstr "Todos"
+
+#: ../event-ui.c:157
+#, fuzzy
+#| msgid "first"
+msgid "First"
+msgstr "primeiro"
+
+#: ../event-ui.c:158
+#, fuzzy
+#| msgid "second"
+msgid "Second"
+msgstr "segundo"
+
+#: ../event-ui.c:159
+#, fuzzy
+#| msgid "third"
+msgid "Third"
+msgstr "terceiro"
+
+#: ../event-ui.c:160
+#, fuzzy
+#| msgid "fourth"
+msgid "Fourth"
+msgstr "quarto"
+
+#: ../event-ui.c:161
+#, fuzzy
+#| msgid "last"
+msgid "Last"
+msgstr "último"
+
+#: ../event-ui.c:162
+msgid "Second to last"
+msgstr ""
+
+#: ../event-ui.c:199
+msgid "weeks, on:"
+msgstr "semanas, em:"
+
+#: ../event-ui.c:294
+msgid "End time must not be earlier than start time"
+msgstr "A data do final não pode ser anterior à data de início"
+
+#: ../event-ui.c:304 ../event-ui.c:310
+msgid ""
+"Event starts in the past!\n"
+"Save anyway?"
+msgstr ""
+
+#. Location.
+#: ../event-ui.c:800
+msgid "Location:"
+msgstr ""
+
+#. Categories.
+#: ../event-ui.c:818
+msgid "Categories"
+msgstr ""
+
+#: ../event-ui.c:826
+msgid "Define categories by tapping the Categories button."
+msgstr ""
+
+#: ../event-ui.c:887 ../event-ui.c:1571
+msgid "Alarm"
+msgstr "Alarme"
+
+#: ../event-ui.c:908
+msgid "minutes"
+msgstr "minutos"
+
+#: ../event-ui.c:909
+msgid "hours"
+msgstr "horas"
+
+#: ../event-ui.c:921
+msgid "before event"
+msgstr "antes do evento"
+
+#: ../event-ui.c:963
+#, fuzzy
+#| msgid "Recurrence"
+msgid "Recurrence type:"
+msgstr "Recorrência"
+
+#: ../event-ui.c:969
+#, fuzzy
+#| msgid "Recurrence"
+msgid "single occurrence"
+msgstr "Recorrência"
+
+#: ../event-ui.c:970
+#, fuzzy
+#| msgid "Daily"
+msgid "daily"
+msgstr "Diariamente"
+
+#: ../event-ui.c:971
+#, fuzzy
+#| msgid "Weekly"
+msgid "weekly"
+msgstr "Mensalmente"
+
+#: ../event-ui.c:972
+#, fuzzy
+#| msgid "Monthly"
+msgid "monthly"
+msgstr "Mensalmente"
+
+#: ../event-ui.c:973
+#, fuzzy
+#| msgid "Yearly"
+msgid "yearly"
+msgstr "Anualmente"
+
+#: ../event-ui.c:1049
+msgid "M"
+msgstr ""
+
+#: ../event-ui.c:1049
+msgid "T"
+msgstr ""
+
+#: ../event-ui.c:1049
+msgid "W"
+msgstr ""
+
+#: ../event-ui.c:1049
+msgid "F"
+msgstr ""
+
+#: ../event-ui.c:1049
+msgid "S"
+msgstr ""
+
+#. forever radio button
+#: ../event-ui.c:1175
+msgid "forever"
+msgstr "indefinidamente"
+
+#: ../event-ui.c:1187
+msgid "end after"
+msgstr "acabar depois de"
+
+#: ../event-ui.c:1205
+#, fuzzy
+#| msgid "Recurrence"
+msgid "occurrences"
+msgstr "Recorrência"
+
+#: ../event-ui.c:1215
+msgid "end on"
+msgstr "acabar em"
+
+#. Event tab.
+#: ../event-ui.c:1323
+msgid "Event"
+msgstr "Evento"
+
+#: ../event-ui.c:1358
+msgid "Summary:"
+msgstr "Assunto:"
+
+#: ../event-ui.c:1374
+msgid "All day event"
+msgstr ""
+
+#. Start time.
+#: ../event-ui.c:1391
+msgid "Start:"
+msgstr "Início:"
+
+#: ../event-ui.c:1411 ../event-ui.c:1467
+msgid "on:"
+msgstr ""
+
+#. End time.
+#: ../event-ui.c:1449
+msgid "End:"
+msgstr "Fim:"
+
+#: ../event-ui.c:1512
+#, fuzzy
+#| msgid "Calendar"
+msgid "Calendar:"
+msgstr "Calendário"
+
+#. Detail page.
+#: ../event-ui.c:1539
+#, fuzzy
+#| msgid "Daily"
+msgid "Details"
+msgstr "Diariamente"
+
+#: ../event-ui.c:1613
+msgid "Recurrence"
+msgstr "Recorrência"
+
+#: ../event-ui.c:1667
+msgid "Cancel"
+msgstr ""
+
+#: ../event-ui.c:1730
+msgid "Calendar: New event"
+msgstr "Calendário: Novo evento"
+
+#: ../event-ui.c:1785
+msgid "Calendar: Edit event"
+msgstr "Calendário: Editar evento"
+
+#: ../gtkdatesel.c:273
+msgid "%b"
+msgstr "%b"
+
+#: ../gtkdatesel.c:276
+msgid "%B"
+msgstr "%B"
+
+#: ../gtkdatesel.c:279
+#, c-format
+msgid "%m"
+msgstr "%m"
+
+#: ../main.c:555
+msgid "Yesterday"
+msgstr ""
+
+#: ../main.c:567
+msgid "Tomorrow"
+msgstr ""
+
+#: ../main.c:574
+msgid "%a %b %e"
+msgstr ""
+
+#: ../main.c:576
+msgid "%a %b %e, %Y"
+msgstr ""
+
+#: ../main.c:598
+#, fuzzy, c-format
+#| msgid "Calendar"
+msgid "Calendar - %s"
+msgstr "Calendário"
+
+#: ../main.c:2180
+msgid "Main"
+msgstr ""
+
+#: ../main.c:2244
+#, fuzzy
+#| msgid "Days"
+msgid "Day"
+msgstr "Dias"
+
+#: ../main.c:2252
+msgid "Tap here to select day-at-a-time view."
+msgstr "Clique aqui para selecionar a visão diária"
+
+#: ../main.c:2262
+msgid "Week"
+msgstr "Semana"
+
+#: ../main.c:2270
+msgid "Tap here to select week-at-a-time view."
+msgstr "Clique aqui para selecionar a visão semanal"
+
+#: ../main.c:2282
+msgid "Month"
+msgstr "Mês"
+
+#: ../main.c:2290
+msgid "Tap here to select month-at-a-time view."
+msgstr "Clique aqui para seleccionar a visão mensal"
+
+#: ../main.c:2301
+msgid "Agenda"
+msgstr ""
+
+#: ../main.c:2310
+#, fuzzy
+#| msgid "Tap here to exit the program"
+msgid "Tap here to select the agenda."
+msgstr "Clique aqui para sair do programa"
+
+#: ../main.c:2333
+msgid "Tap here to view alarms pending acknowledgement."
+msgstr ""
+
+#: ../main.c:2355
+msgid "Switch to today."
+msgstr ""
+
+#: ../main.c:2398
+msgid "_File"
+msgstr ""
+
+#: ../main.c:2405
+msgid "New"
+msgstr ""
+
+#: ../main.c:2416
+msgid "Import"
+msgstr ""
+
+#: ../main.c:2440
+msgid "Close"
+msgstr ""
+
+#. View menu.
+#: ../main.c:2451
+#, fuzzy
+#| msgid "Day View"
+msgid "_View"
+msgstr "Visão Diária"
+
+#. View -> Today.
+#: ../main.c:2458
+#, fuzzy
+#| msgid "Today"
+msgid "_Today"
+msgstr "Hoje"
+
+#. View -> Day.
+#: ../main.c:2471
+#, fuzzy
+#| msgid "Days"
+msgid "_Day"
+msgstr "Dias"
+
+#. View -> Week.
+#: ../main.c:2481
+#, fuzzy
+#| msgid "Week"
+msgid "_Week"
+msgstr "Semana"
+
+#. View -> Month.
+#: ../main.c:2491
+#, fuzzy
+#| msgid "Month"
+msgid "_Month"
+msgstr "Mês"
+
+#. View -> Agenda.
+#: ../main.c:2501 ../main.c:2542
+msgid "_Agenda"
+msgstr ""
+
+#. View -> Sidebar.
+#: ../main.c:2515
+msgid "_Sidebar"
+msgstr ""
+
+#. View -> Calendar.
+#: ../main.c:2524
+#, fuzzy
+#| msgid "Calendar"
+msgid "_Calendar"
+msgstr "Calendário"
+
+#. View -> Selector.
+#: ../main.c:2533
+#, fuzzy
+#| msgid "Calendar: New event"
+msgid "Calendar _Selector"
+msgstr "Calendário: Novo evento"
+
+#. Tools menu.
+#: ../main.c:2551
+msgid "_Tools"
+msgstr ""
+
+#. Tools -> Calendars.
+#: ../main.c:2558
+#, fuzzy
+#| msgid "Calendar"
+msgid "_Calendars"
+msgstr "Calendário"
+
+#. Tools -> Categories.
+#: ../main.c:2568
+msgid "Cate_gories"
+msgstr ""
+
+#. Tools -> Alarms.
+#: ../main.c:2579
+#, fuzzy
+#| msgid "Alarm"
+msgid "_Alarms"
+msgstr "Alarme"
+
+#. Tools -> Toolbar.
+#: ../main.c:2593
+msgid "_Toolbar"
+msgstr ""
+
+#. Tools -> Full Screen.
+#: ../main.c:2602
+msgid "_Full Screen"
+msgstr ""
+
+#: ../xsettings.c:105
+msgid "Cannot create XSettings client"
+msgstr "Impossível criar o cliente XSettings"
+
+#~ msgid "New appointment"
+#~ msgstr "Novo compromisso"
+
+#~ msgid "Tap here to add a new appointment or reminder"
+#~ msgstr "Clique aqui para criar um novo compromisso ou lembrete"
+
+#~ msgid "Future"
+#~ msgstr "Futuro"
+
+#~ msgid "Future View"
+#~ msgstr "Próximos Eventos"
+
+#~ msgid "Tap here to see all future events."
+#~ msgstr "Clique aqui para ver todos os eventos futuros."
+
+#~ msgid "Week View"
+#~ msgstr "Visão Semanal"
+
+#~ msgid "Month View"
+#~ msgstr "Visão Mensal"
+
+#~ msgid ""
+#~ "Delete all recurring entries?\n"
+#~ "(If no, delete this instance only)"
+#~ msgstr ""
+#~ "Apagar todas os compromissos recorrentes?\n"
+#~ "(Se não, apagar apenas esta instância)"
+
+#~ msgid "Appointment"
+#~ msgstr "Compromisso"
+
+#~ msgid "Reminder"
+#~ msgstr "Lembrete"
+
+#~ msgid "Task"
+#~ msgstr "Tarefa"
+
+#~ msgid "Weeks"
+#~ msgstr "Semanas"
+
+#~ msgid "at:"
+#~ msgstr "à:"
+
+#~ msgid "Due:"
+#~ msgstr "Fim:"
+
+#~ msgid "Allow:"
+#~ msgstr "Permitir:"
+
+#~ msgid "No recurrence"
+#~ msgstr "Nenhuma recorrência"
+
+#~ msgid "on day %d"
+#~ msgstr "no dia %d"
+
+#~ msgid "on the"
+#~ msgstr "em"
+
+#~ msgid "fifth"
+#~ msgstr "quinto"
+
+#~ msgid "End Date:"
+#~ msgstr "Data final:"
+
+#~ msgid "events"
+#~ msgstr "eventos"
+
+#~ msgid "No appointments"
+#~ msgstr "Nenhum compromisso"
+
+#~ msgid "%Y"
+#~ msgstr "%Y"
+
+#~ msgid "Week %V"
+#~ msgstr "Semana %V"
