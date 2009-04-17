@@ -15,10 +15,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gstreamer-0.10.21.3\n"
+"Project-Id-Version: gstreamer-0.10.22.2\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2009-04-16 00:14+0100\n"
-"PO-Revision-Date: 2009-01-17 11:59-0200\n"
+"PO-Revision-Date: 2009-04-16 21:51-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
 "MIME-Version: 1.0\n"
@@ -477,14 +477,12 @@ msgstr ""
 "está hospedado)"
 
 #: gst/gsttaglist.c:161
-#, fuzzy
-#| msgid "image"
 msgid "homepage"
-msgstr "imagem"
+msgstr "página inicial"
 
 #: gst/gsttaglist.c:163
 msgid "Homepage for this media (i.e. artist or movie homepage)"
-msgstr ""
+msgstr "Página inicial desta mídia (página inicial do artista ou filme)"
 
 #: gst/gsttaglist.c:166
 msgid "description"
@@ -605,16 +603,12 @@ msgid "codec the audio data is stored in"
 msgstr "CODEC de áudio usado nos dados"
 
 #: gst/gsttaglist.c:213
-#, fuzzy
-#| msgid "video codec"
 msgid "subtitle codec"
-msgstr "CODEC de vídeo"
+msgstr "CODEC de legenda"
 
 #: gst/gsttaglist.c:213
-#, fuzzy
-#| msgid "codec the video data is stored in"
 msgid "codec the subtitle data is stored in"
-msgstr "CODEC de vídeo usado nos dados"
+msgstr "CODEC de legenda usado nos dados"
 
 #: gst/gsttaglist.c:215
 msgid "bitrate"
@@ -911,9 +905,8 @@ msgid ""
 "Restrict the possible allowed capabilities (NULL means ANY). Setting this "
 "property takes a reference to the supplied GstCaps object."
 msgstr ""
-"Restrinja as possíveis capacidades permitidas (NULO significa TODAS). "
-"Definindo essa propriedade é levada uma referência ao objeto GstCaps "
-"fornecido."
+"Restrinja as possíveis capacidades permitidas (NULL = ANY). Definindo essa "
+"propriedade é levada uma referência ao objeto GstCaps fornecido."
 
 #: plugins/elements/gstfdsink.c:309
 #, c-format
@@ -1090,10 +1083,8 @@ msgstr ""
 "\"%s\".\n"
 
 #: tools/gst-launch.c:113
-#, fuzzy
-#| msgid "WARNING: only one toplevel element is supported at this time."
 msgid "WARNING: only one toplevel element is supported at this time.\n"
-msgstr "AVISO: apenas um elemento de nível superior é suportado atualmente."
+msgstr "AVISO: atualmente há suporte apenas a um elemento de nível superior.\n"
 
 #: tools/gst-launch.c:124
 #, c-format
@@ -1113,7 +1104,7 @@ msgstr "Obtida mensagem #%"
 #: tools/gst-launch.c:449
 #, c-format
 msgid "Got EOS from element \"%s\".\n"
-msgstr "Chegou ao final do fluxo do elemento \"%s\".\n"
+msgstr "Obtido o final do fluxo do elemento \"%s\".\n"
 
 #: tools/gst-launch.c:457
 #, c-format
@@ -1160,7 +1151,7 @@ msgstr "Redistribuição de latência...\n"
 #: tools/gst-launch.c:588
 #, c-format
 msgid "Setting state to %s as requested by %s...\n"
-msgstr ""
+msgstr "Definindo estado de %s como requerido por %s...\n"
 
 #: tools/gst-launch.c:604
 msgid "Interrupt: Stopping pipeline ...\n"
@@ -1175,10 +1166,8 @@ msgid "Output status information and property notifications"
 msgstr "Exibir informações do estado e notificações de propriedade"
 
 #: tools/gst-launch.c:643
-#, fuzzy
-#| msgid "Do not output status information of TYPE"
 msgid "Do not print any progress information"
-msgstr "Não é possível obter informações do estado de saída do TIPO"
+msgstr "Não imprimir nenhuma informação de progresso"
 
 #: tools/gst-launch.c:645
 msgid "Output messages"
@@ -1212,6 +1201,8 @@ msgstr "Exibir trilha de alocação (se habilitado na compilação)"
 #: tools/gst-launch.c:657
 msgid "Force EOS on sources before shutting the pipeline down"
 msgstr ""
+"Forçar finalização do fluxo nos elementos fonte antes de desligar a fila de "
+"processamento"
 
 #: tools/gst-launch.c:725
 #, c-format
@@ -1229,7 +1220,7 @@ msgstr "AVISO: fila de processamento com erros: %s\n"
 
 #: tools/gst-launch.c:760
 msgid "ERROR: the 'pipeline' element wasn't found.\n"
-msgstr "ERRO: o elemento da \"fila de processamento\" não foi encontrado.\n"
+msgstr "ERRO: o elemento de \"fila de processamento\" não foi encontrado.\n"
 
 #: tools/gst-launch.c:766 tools/gst-launch.c:851
 msgid "Setting pipeline to PAUSED ...\n"
@@ -1267,20 +1258,20 @@ msgstr "ERRO: a fila de processamento não quer reproduzir.\n"
 #: tools/gst-launch.c:828
 msgid "EOS on shutdown enabled -- Forcing EOS on the pipeline\n"
 msgstr ""
+"Finalizar fluxo ao desligar habilitado -- Forçando finalização do fluxo na "
+"fila de processamento\n"
 
 #: tools/gst-launch.c:831
 msgid "Waiting for EOS...\n"
-msgstr ""
+msgstr "Esperando pelo final do fluxo...\n"
 
 #: tools/gst-launch.c:836
-#, fuzzy
-#| msgid "Interrupt: Stopping pipeline ...\n"
 msgid "EOS received - stopping pipeline...\n"
-msgstr "Interrupção: Parando a fila de processamento...\n"
+msgstr "Final do fluxo recebido - parando a fila de processamento...\n"
 
 #: tools/gst-launch.c:838
 msgid "An error happened while waiting for EOS\n"
-msgstr ""
+msgstr "Um erro ocorreu ao esperar pelo final do fluxo\n"
 
 #: tools/gst-launch.c:845
 msgid "Execution ended after %"
@@ -1295,10 +1286,8 @@ msgid "Setting pipeline to NULL ...\n"
 msgstr "Definindo a fila de processamento para NULO...\n"
 
 #: tools/gst-launch.c:865
-#, fuzzy
-#| msgid "Setting pipeline to NULL ...\n"
 msgid "Freeing pipeline ...\n"
-msgstr "Definindo a fila de processamento para NULO...\n"
+msgstr "Liberando a fila de processamento...\n"
 
 #~ msgid "FREEING pipeline ...\n"
 #~ msgstr "LIBERANDO a fila de processamento...\n"
