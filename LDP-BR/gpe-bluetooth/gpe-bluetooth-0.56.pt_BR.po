@@ -1,0 +1,269 @@
+# Brazilian Portuguese translation of gpe-bluetooth.
+# Copyright (C) 2004-2009 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gpe-bluetooth package.
+# Fabrício Godoy <skarllot@gmail.com>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gpe-bluetooth 0.56\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-08-23 23:10+0100\n"
+"PO-Revision-Date: 2009-04-17 00:56-0300\n"
+"Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
+"Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../gpe-bluetooth.desktop.in.h:1 ../main.c:720
+msgid "Bluetooth control"
+msgstr "Controle de bluetooth"
+
+#: ../gpe-bluetooth.desktop.in.h:2
+msgid "Panel based Bluetooth control"
+msgstr "Painel para controle de bluetooth"
+
+#: ../dbus.c:117 ../dbus.c:147
+#, c-format
+msgid "Failed to request name: %s"
+msgstr "Falha ao solicitar nome: %s"
+
+#: ../dbus.c:119 ../dbus.c:149
+#, c-format
+msgid "Failed to acquire service: %s"
+msgstr "Falha ao obter serviço: %s"
+
+#: ../dbus.c:126
+#, c-format
+msgid "Failed to open connection to system message bus: %s"
+msgstr "Falha ao abrir conexão ao barramento de messagem do sistema: %s"
+
+#: ../dbus.c:156
+#, c-format
+msgid "Failed to open connection to session message bus: %s"
+msgstr "Falha ao abrir conexão ao barramento de mensagem da sessão: %s"
+
+#: ../headset.c:108 ../lap.c:109 ../pan.c:317
+#, c-format
+msgid "Connecting to %s"
+msgstr "Conectando ao %s"
+
+#: ../headset.c:127 ../lap.c:128 ../pan.c:336
+msgid "Connection failed\n"
+msgstr "Falha na conexão\n"
+
+#: ../headset.c:148
+#, c-format
+msgid "HEADSET connection to %s lost"
+msgstr "Conexão com o FONE DE OUVIDO %s perdida"
+
+#: ../headset.c:164
+#, c-format
+msgid "HEADSET connection to %s re-established"
+msgstr "Conexão com o FONE DE OUVIDO %s restabelecida"
+
+#: ../headset.c:201
+msgid "Disconnect HEADSET"
+msgstr "Desconectar FONE DE OUVIDO"
+
+#: ../headset.c:206
+msgid "Connect HEADSET"
+msgstr "Conectar FONE DE OUVIDO"
+
+# LAP = LAN Access Point
+#: ../lap.c:149
+#, c-format
+msgid "LAP connection to %s lost"
+msgstr "Conexão ao LAP %s perdida"
+
+#: ../lap.c:165
+#, c-format
+msgid "LAP connection to %s re-established"
+msgstr "Conexão ao LAP %s restabelecida"
+
+#: ../lap.c:202
+msgid "Disconnect LAP"
+msgstr "Desconectar do LAP"
+
+#: ../lap.c:207
+msgid "Connect LAP"
+msgstr "Conectar ao LAP"
+
+#: ../main.c:203
+msgid "No kernel support for Bluetooth"
+msgstr "Kernel sem suporte a Bluetooth"
+
+#: ../main.c:220
+msgid "Couldn't exec "
+msgstr "Não foi possível executar "
+
+#: ../main.c:224
+msgid "Energising radio"
+msgstr "Ligando rádio"
+
+#: ../main.c:339
+msgid "Device information"
+msgstr "Informação do dispositivo"
+
+#: ../main.c:379
+msgid "Details..."
+msgstr "Detalhes..."
+
+#: ../main.c:436 ../obexclient.c:379
+msgid "Scanning for devices"
+msgstr "Verificando por dispositivos"
+
+#: ../main.c:447 ../obexclient.c:391
+msgid "Inquiry failed"
+msgstr "Falha na consulta"
+
+#: ../main.c:455 ../obexclient.c:399
+msgid "HCI device open failed"
+msgstr "Falha ao abrir dispositivo HCI"
+
+#: ../main.c:482 ../obexclient.c:420
+msgid "unknown"
+msgstr "desconhecido"
+
+#: ../main.c:504
+msgid "Retrieving service information"
+msgstr "Obtendo informações do serviço"
+
+#: ../main.c:550
+msgid "Bluetooth devices"
+msgstr "Dispositivos Bluetooth"
+
+#: ../main.c:571
+msgid "Unable to scan for devices"
+msgstr "Não foi possível verificar por dispositivos"
+
+#: ../main.c:608
+msgid "hciattach died unexpectedly"
+msgstr "hciattach terminou inesperadamente"
+
+#: ../main.c:619
+msgid "Radio startup failed"
+msgstr "Falha ao iniciar o rádio"
+
+#: ../main.c:727
+msgid "Switch radio on"
+msgstr "Ligar rádio"
+
+#: ../main.c:728
+msgid "Switch radio off"
+msgstr "Desligar rádio"
+
+#: ../main.c:729
+msgid "Devices..."
+msgstr "Dispositivos..."
+
+#: ../main.c:748
+msgid "Remove from panel"
+msgstr "Remover do painel"
+
+#: ../main.c:763
+msgid ""
+"This is the Bluetooth control.\n"
+"Tap here to turn the radio on and off, or to see a list of Bluetooth devices."
+msgstr ""
+"Este é um controle de Bluetooth.\n"
+"Toque aqui para ligar e desligar o rádio ou para ver uma lista de "
+"dispositivos Bluetooth."
+
+#: ../obexclient.c:158
+msgid "Sending data"
+msgstr "Enviando dados"
+
+#: ../obexclient.c:228
+msgid "Connecting"
+msgstr "Conectando"
+
+#: ../obexclient.c:235
+msgid "Selected device lacks OBEX support"
+msgstr "Não há suporte a OBEX pelo dispositivo selecionado"
+
+#: ../obexclient.c:243
+msgid "Unable to create OBEX object"
+msgstr "Não foi possível criar objeto OBEX"
+
+#: ../obexclient.c:250
+msgid "Unable to connect"
+msgstr "Não foi possível conectar"
+
+#: ../obexclient.c:314
+msgid "No destination selected"
+msgstr "Nenhum destino selecionado"
+
+#: ../obexclient.c:478
+msgid "Select destination"
+msgstr "Selecione destino"
+
+#: ../obexclient.c:623
+msgid "Send my vCard"
+msgstr "Enviar meu vCard"
+
+#: ../obexserver.c:266
+msgid "Couldn't register OBEX service"
+msgstr "Não foi possível registrar o serviço OBEX"
+
+#: ../obex-unknown.c:60
+#, c-format
+msgid "Received a file '%s' (%d bytes).  Save it?"
+msgstr "Recebido o arquivo \"%s\" (%d bytes). Salvar?"
+
+#: ../obex-unknown.c:60
+msgid "<no name>"
+msgstr "<nenhum nome>"
+
+#: ../obex-unknown.c:78
+msgid "Save as..."
+msgstr "Salvar como..."
+
+#: ../obex-vcal.c:85
+#, c-format
+msgid "Received a calendar entry.  Import it?"
+msgstr "Recebido uma entrada de calendário. Importar?"
+
+#: ../obex-vcard.c:142
+#, c-format
+msgid "Received a business card for %s.  Import it?"
+msgstr "Recebido um cartão de negócios para %s. Importar?"
+
+# PAN = Personal Area Network
+#: ../pan.c:359
+#, c-format
+msgid "PAN connection to %s lost: %s"
+msgstr "Conexão ao PAN %s perdida: %s"
+
+#: ../pan.c:363
+#, c-format
+msgid "PAN connection to %s lost"
+msgstr "Conexão ao PAN %s perdida"
+
+#: ../pan.c:379
+#, c-format
+msgid "PAN connection to %s re-established"
+msgstr "Conexão ao PAN %s restabelecida"
+
+#: ../pan.c:415
+msgid "Disconnect PAN"
+msgstr "Desconectar do PAN"
+
+#: ../pan.c:420
+msgid "Connect PAN"
+msgstr "Conectar ao PAN"
+
+#: ../pin-ui.c:155
+msgid "Bluetooth PIN"
+msgstr "PIN do Bluetooth"
+
+#: ../pin-ui.c:166
+#, c-format
+msgid "Outgoing connection to %s"
+msgstr "Conexão de saída para %s"
+
+#: ../pin-ui.c:167
+#, c-format
+msgid "Incoming connection from %s"
+msgstr "Conexão de entrada de %s"
