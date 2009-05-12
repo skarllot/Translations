@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: gpe-clock 0.25\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2006-05-01 18:01+0100\n"
-"PO-Revision-Date: 2009-05-11 22:02-0300\n"
+"PO-Revision-Date: 2009-05-11 22:09-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
 "MIME-Version: 1.0\n"
@@ -20,25 +20,23 @@ msgstr ""
 
 #: clock.c:361
 msgid "Unable to set alarm"
-msgstr "Impossível programar o alarme"
+msgstr "Não foi possível programar o alarme"
 
 #: clock.c:493
 msgid "Clock preferences"
-msgstr "Preferências do Relógio"
+msgstr "Preferências do relógio"
 
 #: clock.c:498
 msgid "12-hour format"
-msgstr "formato 12 horas"
+msgstr "Formato de 12 horas"
 
 #: clock.c:500
 msgid "24-hour format"
-msgstr "formato 24 horas"
+msgstr "Formato de 24 horas"
 
 #: clock.c:502
-#, fuzzy
-#| msgid "12-hour format"
 msgid "Analogue format"
-msgstr "formato 12 horas"
+msgstr "Formato analógico"
 
 #: clock.c:505
 msgid "Show seconds"
@@ -70,31 +68,21 @@ msgstr "Preferências"
 
 #: clock.c:878
 msgid "Set the time"
-msgstr "Mudar a hora"
+msgstr "Definir a hora"
 
 #: clock.c:879
 msgid "Alarm ..."
-msgstr "Alarme ..."
+msgstr "Alarme..."
 
 #: clock.c:895
-#, fuzzy
-#| msgid "Alarm active"
 msgid "Alarm clock"
-msgstr "Alarme ativo"
+msgstr "Despertador"
 
 #: clock.c:942
-#, fuzzy
-#| msgid ""
-#| "This is the clock.\n"
-#| "Tap here to set the alarm, set the time, change the display format, or "
-#| "remove this program from the panel."
 msgid ""
 "This is the clock.\n"
 "Tap here to set the alarm, set the time, or change the display format."
 msgstr ""
 "Este é o relógio.\n"
-"Clique aqui para programar o alarme, mudar a hora, alterar o formato de "
-"visualização ou remover este programa do painel."
-
-#~ msgid "Remove from panel"
-#~ msgstr "Remover do painel"
+"Toque aqui para programar o alarme, definir a hora ou alterar o formato de "
+"exibição."
