@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: gpe-calendar 0.91\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2007-06-08 19:01+0200\n"
-"PO-Revision-Date: 2009-05-11 21:42-0300\n"
+"PO-Revision-Date: 2009-05-11 21:50-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "Language: pt_BR\n"
@@ -57,15 +57,15 @@ msgstr "%s%s%s%s%s%s%s%s"
 
 #: ../alarm-dialog.c:372
 msgid "<b>Summary</b>: "
-msgstr "<b>Resumo</b>:"
+msgstr "<b>Resumo</b>: "
 
 #: ../alarm-dialog.c:375
 msgid "<b>Description</b>: "
-msgstr "<b>Descrição</b>:"
+msgstr "<b>Descrição</b>: "
 
 #: ../alarm-dialog.c:378
 msgid "<b>Location</b>: "
-msgstr "<b>Localização</b>:"
+msgstr "<b>Localização</b>: "
 
 #: ../alarm-dialog.c:464
 msgid "Show Event"
@@ -701,7 +701,7 @@ msgstr "_Agenda"
 #. View -> Sidebar.
 #: ../main.c:2515
 msgid "_Sidebar"
-msgstr "Barra  _lateral"
+msgstr "Barra _lateral"
 
 #. View -> Calendar.
 #: ../main.c:2524
