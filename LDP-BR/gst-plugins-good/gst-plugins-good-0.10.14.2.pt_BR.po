@@ -9,10 +9,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gst-plugins-good 0.10.13.2\n"
+"Project-Id-Version: gst-plugins-good 0.10.14.2\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2009-05-11 22:52+0100\n"
-"PO-Revision-Date: 2009-02-24 22:02-0300\n"
+"PO-Revision-Date: 2009-05-12 22:43-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: ext/esd/esdsink.c:256 ext/esd/esdsink.c:361
 msgid "Could not establish connection to sound server"
-msgstr "Não foi possível estabelecer conexão com servidor de som"
+msgstr "Não foi possível estabelecer uma conexão com servidor de som"
 
 #: ext/esd/esdsink.c:263
 msgid "Failed to query sound server capabilities"
@@ -76,16 +76,20 @@ msgid ""
 "No supported stream was found. You might need to install a GStreamer RTSP "
 "extension plugin for Real media streams."
 msgstr ""
+"Nenhum fluxo com suporte foi localizado. Você pode precisar instalar um plug-"
+"in de extensão GStreamer RTSP para fluxos Real media."
 
 #: gst/rtsp/gstrtspsrc.c:4322
 msgid ""
 "No supported stream was found. You might be missing the right GStreamer RTSP "
 "extension plugin."
 msgstr ""
+"Nenhum fluxo com suporte foi localizado. Você pode estar com o plug-in de "
+"extensão GStreamer RTSP incorreto."
 
 #: gst/wavparse/gstwavparse.c:1969
 msgid "Internal data flow error."
-msgstr "Erro no fluxo de dados interno."
+msgstr "Erro interno no fluxo de dados."
 
 #: sys/oss/gstossmixertrack.c:98 sys/sunaudio/gstsunaudiomixertrack.c:65
 msgid "Volume"
@@ -244,7 +248,7 @@ msgid ""
 "Error getting capabilities for device '%s': It isn't a v4l2 driver. Check if "
 "it is a v4l1 driver."
 msgstr ""
-"Erro ao obter recursos para o dispositivo \"%s\": Ele não é um driver v4l2. "
+"Erro ao obter recursos do dispositivo \"%s\": Ele não é um driver v4l2. "
 "Verifique se ele é um driver v4l1."
 
 #: sys/v4l2/v4l2_calls.c:132
@@ -429,7 +433,7 @@ msgstr "Não foi possível mapear buffers do dispositivo \"%s\""
 #, c-format
 msgid "The driver of device '%s' does not support any known capture method."
 msgstr ""
-"O driver do dispositivo \"%s\" não suporta qualquer método conhecido de "
+"O driver do dispositivo \"%s\" não tem suporte a nenhum método conhecido de "
 "captura."
 
 #: sys/v4l2/v4l2src_calls.c:1472
