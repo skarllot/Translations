@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: psmisc 22.7rc1\n"
 "Report-Msgid-Bugs-To: csmall@small.dropbear.id.au\n"
 "POT-Creation-Date: 2009-04-26 10:22+1000\n"
-"PO-Revision-Date: 2009-06-17 23:42-0300\n"
+"PO-Revision-Date: 2009-06-18 00:46-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr "Matar %s(%s%d)? (y/N) "
 #: src/killall.c:77
 #, c-format
 msgid "Signal %s(%s%d) ? (y/N) "
-msgstr "Sinalizar %s(%s%d)? (y/N) "
+msgstr "Enviar sinal para %s(%s%d)? (y/N) "
 
 #: src/killall.c:121
 #, c-format
@@ -63,7 +63,7 @@ msgid ""
 "    -V      display version information\n"
 "\n"
 msgstr ""
-"Uso  : pidof [ -eg ] NOME...\n"
+"Uso:   pidof [ -eg ] NOME...\n"
 "       pidof -V\n"
 "\n"
 "    -e      exigir ocorrência exata para nomes muito longos;\n"
@@ -77,12 +77,12 @@ msgstr ""
 msgid ""
 "Usage: killall [-Z CONTEXT] [-u USER] [ -eIgiqrvw ] [ -SIGNAL ] NAME...\n"
 msgstr ""
-"Uso: killall [-Z CONTEXTO] [-u USUÁRIO] [ -eIgiqrvw ] [ -SINAL ] NOME...\n"
+"Uso:   killall [-Z CONTEXTO] [-u USUÁRIO] [ -eIgiqrvw ] [ -SINAL ] NOME...\n"
 
 #: src/killall.c:514
 #, c-format
 msgid "Usage: killall [OPTION]... [--] NAME...\n"
-msgstr "Uso: killall [OPÇÃO]... [--] NOME...\n"
+msgstr "Uso:   killall [OPÇÃO]... [--] NOME...\n"
 
 #: src/killall.c:517
 #, c-format
@@ -112,9 +112,9 @@ msgstr ""
 "  -i,--interactive    exibir confirmação antes de matar\n"
 "  -l,--list           listar todos os nomes de sinal conhecidos\n"
 "  -q,--quiet          não exibir avisos\n"
-"  -r,--regexp         interpretar NOME com uma expressão regular extendida\n"
-"  -s,--signal SIGNAL  enviar este sinal em vez de SIGTERM\n"
-"  -u,--user USER      matar apenas processo(s) sendo executados como "
+"  -r,--regexp         interpretar NOME como uma expressão regular extendida\n"
+"  -s,--signal SINAL   enviar este sinal em vez de SIGTERM\n"
+"  -u,--user USUÁRIO   matar apenas processo(s) sendo executados como "
 "USUÁRIO\n"
 "  -v,--verbose        relatar se o sinal foi enviado com sucesso\n"
 "  -V,--version        exibir informações de versão\n"
@@ -146,6 +146,10 @@ msgid ""
 "the terms of the GNU General Public License.\n"
 "For more information about these matters, see the files named COPYING.\n"
 msgstr ""
+"PSmisc vem com ABSOLUTAMENTE NENHUMA GARANTIA.\n"
+"Este é um software livre, e você é bem-vindo em redistribuí-lo dentro\n"
+"dos termos da GNU General Public License.\n"
+"Para mais informações a respeito, veja os arquivos com o nome COPYING.\n"
 
 #: src/killall.c:656
 #, c-format
@@ -186,7 +190,7 @@ msgid ""
 "    -v        verbose output\n"
 "    -V        display version information\n"
 msgstr ""
-"Usage: fuser [ -fuv ] [ -a | -s ] [ -4 | -6 ] [ -c | -m | -n ESPAÇO ] [ -k "
+"Uso:   fuser [ -fuv ] [ -a | -s ] [ -4 | -6 ] [ -c | -m | -n ESPAÇO ] [ -k "
 "[ -i ] [ -SINAL ]] NOME...\n"
 "       fuser -l\n"
 "       fuser -V\n"
@@ -196,14 +200,14 @@ msgstr ""
 "    -a        exibir também arquivos sem uso\n"
 "    -c        o mesmo que \\-m (para compatibilidade com POSIX)\n"
 "    -f        ignorado silenciosamente (para compatibilidade com POSIX)\n"
-"    -i        pergunta antes de matar (ignorado sem -k)\n"
+"    -i        perguntar antes de matar (ignorado sem -k)\n"
 "    -k        matar processos acessando o arquivo nomeado\n"
 "    -l        listar os nomes de sinal disponíveis\n"
 "    -m        mostrar todos processos usando o sistema de arquivos nomeado "
 "ou dispositivo de bloco\n"
-"    -n ESPAÇO pesquisa neste espaço de nome (arquivo, udp ou tcp)\n"
+"    -n ESPAÇO pesquisar neste espaço de nome (arquivo, udp ou tcp)\n"
 "    -s        operação silenciosa\n"
-"    -SINAL    envia este sinal em vez de SIGKILL\n"
+"    -SINAL    enviar este sinal em vez de SIGKILL\n"
 "    -u        exibir IDs de usuário\n"
 "    -v        saída detalhada\n"
 "    -V        exibir informações de versão\n"
@@ -241,7 +245,7 @@ msgid ""
 "Copyright (C) 1993-2009 Werner Almesberger and Craig Small\n"
 "\n"
 msgstr ""
-"Copyright (C) 1993-2009 Werner Almesberger and Craig Small\n"
+"Copyright © 1993-2009 Werner Almesberger and Craig Small\n"
 "\n"
 
 #: src/fuser.c:147
@@ -252,17 +256,17 @@ msgstr "Não foi possível abrir o diretório /proc: %s\n"
 #: src/fuser.c:283
 #, c-format
 msgid "Cannot allocate memory for matched proc: %s\n"
-msgstr "Não foi possível alocar memória para o proc combinado: %s\n"
+msgstr "Não foi possível alocar memória ao proc equiparado: %s\n"
 
 #: src/fuser.c:316
 #, c-format
 msgid "Cannot stat mount point %s: %s\n"
-msgstr "Não foi possível obter status do ponto de montagem %s: %s\n"
+msgstr "Não foi possível analisar o ponto de montagem %s: %s\n"
 
 #: src/fuser.c:333 src/fuser.c:352 src/fuser.c:375
 #, c-format
 msgid "Cannot stat %s: %s\n"
-msgstr "Não foi possível obter status de %s: %s\n"
+msgstr "Não foi possível analisar %s: %s\n"
 
 #: src/fuser.c:476
 #, c-format
@@ -289,14 +293,13 @@ msgstr "Nome de espaço de nome inválido"
 
 #: src/fuser.c:811
 msgid "You can only use files with mountpoint option"
-msgstr "Você pode apenas usar arquivo com a opção de ponto de montagem"
+msgstr "Você pode apenas usar arquivos com a opção de ponto de montagem"
 
 #: src/fuser.c:840
 msgid "No process specification given"
 msgstr "Nenhuma especificação de processo fornecida"
 
 #: src/fuser.c:845
-#, fuzzy
 msgid "You cannot use the mounted and mountpoint flags together"
 msgstr "Você não pode usar os sinalizadores mounted e mountpoint juntos"
 
@@ -306,7 +309,7 @@ msgstr "a opção all não pode ser usada com a opção silent."
 
 #: src/fuser.c:856
 msgid "You cannot search for only IPv4 and only IPv6 sockets at the same time"
-msgstr "Você não pode localizar apenas sockets IPv4 e apenas IPv6 ao mesmo tempo"
+msgstr "Você não pode pesquisar apenas por sockets IPv4 e IPv6 ao mesmo tempo"
 
 #: src/fuser.c:901
 #, c-format
@@ -384,13 +387,13 @@ msgid ""
 "\n"
 "  Press CTRL-C to end output.\n"
 msgstr ""
-"Uso: peekfd [-8] [-n] [-c] [-d] [-V] [-h] <pid> [<fd> ..]\n"
+"Uso:   peekfd [-8] [-n] [-c] [-d] [-V] [-h] <pid> [<fd> ..]\n"
 "    -8 saída limpa com fluxos de 8 bits.\n"
 "    -n não exibir leitura/gravação dos cabeçalhos fd.\n"
-"    -c espia qualquer novos processos filhos também.\n"
-"    -d remove leitura/gravação duplicados da saída.\n"
-"    -V exibe informações de versão.\n"
-"    -h exibe esta ajuda.\n"
+"    -c espiar qualquer novos processos filhos também.\n"
+"    -d remover leitura/gravação duplicados da saída.\n"
+"    -V exibir informações de versão.\n"
+"    -h exibir esta ajuda.\n"
 "\n"
 "  Pressione CTRL+C para finalizar a saída.\n"
 
@@ -415,7 +418,7 @@ msgid ""
 "    -U     use UTF-8 (Unicode) line drawing characters\n"
 "    -V     display version information\n"
 msgstr ""
-"Uso: pstree [ -a ] [ -c ] [ -h | -H PID ] [ -l ] [ -n ] [ -p ] [ -u ]\n"
+"Uso:   pstree [ -a ] [ -c ] [ -h | -H PID ] [ -l ] [ -n ] [ -p ] [ -u ]\n"
 "              [ -A | -G | -U ] [ PID | USR ]\n"
 "       pstree -V\n"
 "Exibe uma árvore de processos.\n"
@@ -429,7 +432,7 @@ msgstr ""
 "    -l     não truncar linhas longas\n"
 "    -n     ordenar saída pelo PID\n"
 "    -p     mostrar PIDs; implica -c\n"
-"    -u     mostrar transições UID\n"
+"    -u     mostrar transições de UID\n"
 "    -U     usar caracteres UTF-8 (Unicode) no desenho de linhas\n"
 "    -V     exibir informações de versão\n"
 
@@ -445,7 +448,7 @@ msgid ""
 "    USER   show only trees rooted at processes of this user\n"
 "\n"
 msgstr ""
-"    PID    inicia deste PID; predefinido como 1 (init)\n"
+"    PID    iniciar deste PID; predefinido como 1 (init)\n"
 "    USR    mostrar apenas árvores originadas de processos deste usuário\n"
 "\n"
 
@@ -472,7 +475,7 @@ msgstr "Nome de usuário inexistente: %s\n"
 #: src/pstree.c:998
 #, c-format
 msgid "No processes found.\n"
-msgstr "Nenhum processo encontrado.\n"
+msgstr "Nenhum processo localizado.\n"
 
 #: src/pstree.c:1004
 #, c-format
@@ -483,5 +486,3 @@ msgstr "Pressione Enter para fechar\n"
 #, c-format
 msgid "%s: unknown signal; %s -l lists signals.\n"
 msgstr "%s: sinal desconhecido; %s -l lista os sinais.\n"
-
-
