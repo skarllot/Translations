@@ -1,0 +1,162 @@
+# Brazilian Portuguese translation of pessulus.
+# Copyright (C) 2005-2006 Free Software Foundation, Inc.
+# This file is distributed under the same license as the pessulus package.
+# Guilherme de S. Pastore <gpastore@gnome.org>, 2005, 2006.
+# Jonh Wendell <jwendell@gnome.org>, 2009.
+# Krix Apolinário <krixapolinario@gmail.com>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pessulus\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=pessulus&component=general\n"
+"POT-Creation-Date: 2009-08-06 00:17+0000\n"
+"PO-Revision-Date: 2009-08-05 10:34-0300\n"
+"Last-Translator: Krix Apolinário <krixapolinario@gmail.com>\n"
+"Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../data/pessulus.desktop.in.in.h:1
+msgid "Configure the lockdown policy"
+msgstr "Configure a política de bloqueios"
+
+#: ../data/pessulus.desktop.in.in.h:2 ../data/pessulus.glade.h:4
+#: ../Pessulus/main.py:56
+msgid "Lockdown Editor"
+msgstr "Editor de Bloqueios"
+
+#: ../data/pessulus.glade.h:1
+msgid "<b>Disabled Applets</b>"
+msgstr "<b>Miniaplicativos Desabilitados</b>"
+
+#: ../data/pessulus.glade.h:2
+msgid "<b>Safe Protocols</b>"
+msgstr "<b>Protocolos Seguros</b>"
+
+#: ../data/pessulus.glade.h:3
+msgid "Disable _unsafe protocols"
+msgstr "Desabilitar protocolos _inseguros"
+
+#: ../Pessulus/lockdownbutton.py:97
+msgid "Click to make this setting not mandatory"
+msgstr "Clique para tornar esta configuração não obrigatória"
+
+#: ../Pessulus/lockdownbutton.py:99
+msgid "Click to make this setting mandatory"
+msgstr "Clique para tornar esta configuração obrigatória"
+
+#: ../Pessulus/maindialog.py:41
+msgid "General"
+msgstr "Geral"
+
+#: ../Pessulus/maindialog.py:42
+msgid "Panel"
+msgstr "Painel"
+
+#: ../Pessulus/maindialog.py:43
+msgid "Epiphany Web Browser"
+msgstr "Navegador Web Epiphany"
+
+#: ../Pessulus/maindialog.py:44
+msgid "GNOME Screensaver"
+msgstr "Proteção de tela do GNOME"
+
+#: ../Pessulus/maindialog.py:54
+msgid "Disable _command line"
+msgstr "Desabilitar linha de _comando"
+
+#: ../Pessulus/maindialog.py:55
+msgid "Disable _printing"
+msgstr "Desabilitar _impressão"
+
+#: ../Pessulus/maindialog.py:56
+msgid "Disable print _setup"
+msgstr "Desabilitar _configuração de impressão"
+
+#: ../Pessulus/maindialog.py:57
+msgid "Disable save to _disk"
+msgstr "Desabilitar gravação no _disco"
+
+#: ../Pessulus/maindialog.py:59
+msgid "_Lock down the panels"
+msgstr "_Bloquear os painéis"
+
+#: ../Pessulus/maindialog.py:60
+msgid "Disable force _quit"
+msgstr "Desabilitar saída _forçada"
+
+#: ../Pessulus/maindialog.py:61
+msgid "Disable lock _screen"
+msgstr "Desabilitar bloq_ueio de tela"
+
+#: ../Pessulus/maindialog.py:62
+msgid "Disable log _out"
+msgstr "Desabilitar _encerramento de sessão"
+
+#: ../Pessulus/maindialog.py:64
+msgid "Disable _quit"
+msgstr "Desabilitar _sair"
+
+#: ../Pessulus/maindialog.py:65
+msgid "Disable _arbitrary URL"
+msgstr "Desabilitar URLs _arbitrárias"
+
+#: ../Pessulus/maindialog.py:66
+msgid "Disable _bookmark editing"
+msgstr "Desabilitar edição de _marcadores"
+
+#: ../Pessulus/maindialog.py:67
+msgid "Disable _history"
+msgstr "Desabilitar _histórico"
+
+# Talvez fosse melhor 'Desabilitar chrome de _javascript'
+#: ../Pessulus/maindialog.py:68
+msgid "Disable _javascript chrome"
+msgstr "Desabilitar interface gráfica _javascript"
+
+#: ../Pessulus/maindialog.py:69
+msgid "Disable _toolbar editing"
+msgstr "Desabilitar edição de barra de _ferramentas"
+
+#: ../Pessulus/maindialog.py:70
+msgid "Force _fullscreen mode"
+msgstr "Forçar modo de tela _cheia"
+
+#: ../Pessulus/maindialog.py:71
+msgid "Hide _menubar"
+msgstr "Ocultar barra de _menus"
+
+#: ../Pessulus/maindialog.py:72
+msgid "_Lock on activation"
+msgstr "Blo_quear ao ativar"
+
+#: ../Pessulus/maindialog.py:73
+msgid "Allow log _out"
+msgstr "Permitir _encerramento de sessão"
+
+#: ../Pessulus/maindialog.py:74
+msgid "Allow user _switching"
+msgstr "_Permitir alternar usuário"
+
+#: ../Pessulus/maindialog.py:232
+#, python-format
+msgid "Could not display help document '%s'"
+msgstr "Não foi possível exibir o documento de ajuda \"%s\""
+
+#: ../Pessulus/main.py:51
+msgid "Cannot contact the GConf server"
+msgstr "Falha ao contactar o servidor GConf"
+
+#: ../Pessulus/main.py:52
+msgid ""
+"This usually happens when running this application with 'su' instead of 'su "
+"-'.\n"
+"If this is not the case, you can look at the output of the application to "
+"get more details."
+msgstr ""
+"Isto geralmente acontece quando este aplicativo é esecutado com o \"su\" ao "
+"invés do \"su -\".\n"
+"Se este não é o caso, dê uma olhada nas mensagens do aplicativo (no "
+"terminal) para obter mais detalhes."
