@@ -9,10 +9,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gst-plugins-good 0.10.14.2\n"
+"Project-Id-Version: gst-plugins-good 0.10.15.2\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2009-08-11 17:17+0100\n"
-"PO-Revision-Date: 2009-05-12 22:43-0300\n"
+"PO-Revision-Date: 2009-08-16 15:45-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
 "MIME-Version: 1.0\n"
@@ -114,7 +114,7 @@ msgstr "PCM"
 
 #: sys/oss/gstossmixertrack.c:103
 msgid "Speaker"
-msgstr "Alto-falante do PC"
+msgstr "Alto-falante"
 
 #: sys/oss/gstossmixertrack.c:104
 msgid "Line-in"
@@ -229,30 +229,28 @@ msgid "Gain"
 msgstr "Ganho"
 
 #: sys/sunaudio/gstsunaudiomixertrack.c:72
-#, fuzzy
-#| msgid "Speaker"
 msgid "Built-in Speaker"
-msgstr "Alto-falante do PC"
+msgstr "Alto-falante interno"
 
 #: sys/sunaudio/gstsunaudiomixertrack.c:73
 msgid "Headphone"
-msgstr ""
+msgstr "Fone de ouvido com microfone"
 
 #: sys/sunaudio/gstsunaudiomixertrack.c:74
 msgid "Line Out"
-msgstr ""
+msgstr "Saída de linha"
 
 #: sys/sunaudio/gstsunaudiomixertrack.c:75
 msgid "SPDIF Out"
-msgstr ""
+msgstr "Saída SPDIF"
 
 #: sys/sunaudio/gstsunaudiomixertrack.c:76
 msgid "AUX 1 Out"
-msgstr ""
+msgstr "Saída aux. 1"
 
 #: sys/sunaudio/gstsunaudiomixertrack.c:77
 msgid "AUX 2 Out"
-msgstr ""
+msgstr "Saída aux. 2"
 
 #: sys/v4l2/gstv4l2src.c:832
 #, c-format
@@ -319,10 +317,9 @@ msgid "Device '%s' is not a capture device."
 msgstr "O dispositivo \"%s\" não é um dispositivo de captura."
 
 #: sys/v4l2/v4l2_calls.c:510
-#, fuzzy, c-format
-#| msgid "Device '%s' is not a capture device."
+#, c-format
 msgid "Device '%s' is not a output device."
-msgstr "O dispositivo \"%s\" não é um dispositivo de captura."
+msgstr "O dispositivo \"%s\" não é um dispositivo de saída."
 
 #: sys/v4l2/v4l2_calls.c:608
 #, c-format

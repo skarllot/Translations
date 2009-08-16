@@ -6,7 +6,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gst-plugins-bad-0.10.10.2\n"
+"Project-Id-Version: gst-plugins-bad-0.10.13.2\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2009-08-11 17:42+0100\n"
 "PO-Revision-Date: 2009-08-16 15:33-0300\n"
@@ -250,7 +250,7 @@ msgstr "Bip do teclado"
 
 #: sys/oss4/oss4-mixer.c:763
 msgid "Monitor"
-msgstr "Monitor"
+msgstr "Monitorador"
 
 #: sys/oss4/oss4-mixer.c:764
 msgid "Simulate Stereo"
