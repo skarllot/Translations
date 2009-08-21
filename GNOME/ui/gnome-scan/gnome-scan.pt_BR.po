@@ -1,0 +1,362 @@
+# Brazilian Portuguese translation of gnome-scan.
+# Copyright (C) 2007-2009 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gnome-scan package.
+# Raphael Higino <in memoriam>, 2007.
+# Fabrício Godoy <skarllot@gmail.com>, 2008.
+# Enrico Nicoletto <liverig@gmail.com>, 2009.
+#
+# Acquire -> Digitalizar
+# Scan -> Digitalizar, Scannear
+# Flatbed -> Scanner de mesa
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-scan\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"scan&component=general\n"
+"POT-Creation-Date: 2009-07-07 17:10+0000\n"
+"PO-Revision-Date: 2009-07-28 19:11-0300\n"
+"Last-Translator: Enrico Nicoletto <liverig@gmail.com>\n"
+"Language-Team: Brazilian Portuguese <gnome-l10n-br@listas.cipsga.org.br>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: BRAZIL\n"
+
+#: ../flegita.desktop.in.h:1
+msgid "Scanner Utility"
+msgstr "Utilitário do Scanner"
+
+# Descrição do programa, aparece como dica de ferramenta no menu
+#: ../flegita.desktop.in.h:2
+msgid "Simply scan images"
+msgstr "Digitalize imagens de maneira simples"
+
+#: ../lib/gnome-scan-common.vala:42
+msgid "px"
+msgstr "px"
+
+#: ../lib/gnome-scan-common.vala:44
+msgid "pt"
+msgstr "pt"
+
+#: ../lib/gnome-scan-common.vala:46
+msgid "mm"
+msgstr "mm"
+
+#: ../lib/gnome-scan-common.vala:48
+msgid "bit"
+msgstr "bit"
+
+#: ../lib/gnome-scan-common.vala:50
+msgid "dpi"
+msgstr "ppp"
+
+#: ../lib/gnome-scan-common.vala:54
+msgid "µs"
+msgstr "µs"
+
+#: ../lib/gnome-scan-dialog.vala:75
+msgid "Scan"
+msgstr "Digitalizar"
+
+#: ../lib/gnome-scan-dialog.vala:201
+msgid "_General"
+msgstr "_Geral"
+
+#: ../lib/gnome-scan-dialog.vala:225
+msgid "Acquisition"
+msgstr "Digitalização"
+
+#: ../lib/gnome-scan-dialog.vala:226
+msgid "The software now acquires and processes images according to settings."
+msgstr ""
+"Agora o software digitaliza e processa imagens de acordo com as "
+"configurações."
+
+#: ../lib/gnome-scan-dialog.vala:243
+msgid "_Advanced"
+msgstr "_Avançado"
+
+#: ../lib/gnome-scan-dialog.vala:246
+msgid "_Processing"
+msgstr "_Processar"
+
+#: ../lib/gnome-scan-dialog.vala:249
+msgid "_Output"
+msgstr "_Saída"
+
+#: ../lib/gnome-scan-node.vala:81
+msgid "Unknown"
+msgstr "Desconhecido"
+
+#: ../lib/gnome-scan-node.vala:84
+msgid "Failed"
+msgstr "Falhou"
+
+#: ../lib/gnome-scan-node.vala:87
+msgid "Initializing"
+msgstr "Inicializando"
+
+#: ../lib/gnome-scan-node.vala:90
+msgid "Unconfigured"
+msgstr "Desconfigurado"
+
+#: ../lib/gnome-scan-node.vala:93
+msgid "Ready"
+msgstr "Pronto"
+
+#: ../lib/gnome-scan-node.vala:96
+msgid "Processing"
+msgstr "Processando"
+
+#: ../lib/gnome-scan-node.vala:99
+msgid "Done"
+msgstr "Concluído"
+
+#. translator: %s is the name of an option and is
+#. prepended before the option widget. Accord ":" to
+#. locale typographic rules.
+#: ../lib/gnome-scan-option-box.vala:86
+#, c-format
+msgid "%s:"
+msgstr "%s:"
+
+#: ../lib/gnome-scan-scanner-selector.vala:70
+msgid "Device"
+msgstr "Dispositivo"
+
+#: ../lib/gnome-scan-scanner-selector.vala:74
+msgid "Status"
+msgstr "Status"
+
+#: ../modules/gsane/gsane-option-area.c:65
+msgid "Origin"
+msgstr "Origem"
+
+#: ../modules/gsane/gsane-option-area.c:65
+msgid "Coordinate of the top left corner of the paper."
+msgstr "Coordenar para o canto superior esquerdo do papel."
+
+#. Translator: manual selection display label
+#: ../modules/gsane/gsane-option-area.c:203
+msgid "Manual"
+msgstr "Personalizado"
+
+#. Translator: maximum paper size display label
+#: ../modules/gsane/gsane-option-area.c:209
+msgid "Maximum"
+msgstr "Máximo"
+
+#: ../modules/gsane/gsane-option-area.c:238
+msgid "Paper-Size"
+msgstr "Tamanho do papel"
+
+#: ../modules/gsane/gsane-option-area.c:285
+msgid "Page Orientation"
+msgstr "Orientação da página"
+
+#: ../modules/gsane/gsane-option-area.c:285
+msgid "Page orientation"
+msgstr "Orientação da página"
+
+#.
+#. * GSaneOptionSource has many jobs to fill.
+#. *
+#. * - It expose source option as a primary option, making some changes
+#. *   to void backend inconsistency.
+#. *
+#. * - It knows whether the ADF has been selected in order to enable
+#. *   mass acquisition.
+#. *
+#. * TODO:
+#. *
+#. * - Support ADF boolean option.
+#. *
+#. * - Support duplex scan (boolean and special source).
+#.
+#. some unlisted sources :
+#. *
+#. * - Slide(s)
+#. * - TMA Slides
+#. * - ADF Back
+#. * - ADF Duplex (should be mapped to duplex boolean)
+#.
+#. List of known source used for flatbed
+#: ../modules/gsane/gsane-option-source.c:62
+msgid "Flatbed"
+msgstr "Scanner de mesa"
+
+#. List of known source used for Automatic Document Feeder
+#: ../modules/gsane/gsane-option-source.c:72
+msgid "Automatic Document Feeder"
+msgstr "Alimentadora automática de documentos"
+
+#. List of known source used for Transparency Adapter
+#: ../modules/gsane/gsane-option-source.c:83
+msgid "Transparency Adapter"
+msgstr "Adptador de transparência"
+
+#. List of known source used for Negative Adapter
+#: ../modules/gsane/gsane-option-source.c:93
+msgid "Negative Adapter"
+msgstr "Adaptador de negativo"
+
+#: ../modules/gsane/gsane-option-source.c:149
+msgid "Source"
+msgstr "Fonte"
+
+#: ../modules/gsfile/gsfile-filenames-widget.c:88
+msgid "Select files"
+msgstr "Selecionar arquivos"
+
+#: ../modules/gsfile/gsfile-filenames-widget.c:101
+msgid "Supported formats"
+msgstr "Formatos suportados"
+
+#: ../modules/gsfile/gsfile-filenames-widget.c:298
+msgid "Preview"
+msgstr "Visualização"
+
+#: ../modules/gsfile/gsfile-filenames-widget.c:305
+msgid "Filename"
+msgstr "Nome do arquivo"
+
+#. translator: this is the name of the file
+#. loader backend which allow user to scan
+#. a list a images
+#: ../modules/gsfile/gsfile-scanner.c:49
+msgid "Files"
+msgstr "Arquivos"
+
+#: ../modules/gsfile/gsfile-scanner.c:50
+msgid "Import from files."
+msgstr "Importe de arquivos."
+
+#: ../modules/gsfile/gsfile-scanner.c:115
+msgid "PNG picture"
+msgstr "Imagem PNG"
+
+#: ../modules/gsfile/gsfile-scanner.c:126
+msgid "JPEG picture"
+msgstr "Imagem JPEG"
+
+#. GtkWidget *toplevel = gtk_widget_get_toplevel (GTK_WIDGET (gspw));
+#: ../src/flegita-action-selector.c:148
+msgid "Configure printing"
+msgstr "Configure a impressão"
+
+#: ../src/flegita-gimp-sink.c:77
+msgid "Layer"
+msgstr "Camada"
+
+#: ../src/flegita-gimp-sink.c:78
+msgid "New layer name"
+msgstr "Nome da nova camada"
+
+#: ../src/flegita-gimp-sink.c:80 ../src/flegita-output-filename-widget.c:88
+msgid "Scanned image"
+msgstr "Imagem digitalizada"
+
+#: ../src/flegita-gimp.c:89
+msgid "Scan a new image."
+msgstr "Digitalize uma nova imagem."
+
+#: ../src/flegita-gimp.c:90 ../src/flegita-gimp.c:105
+msgid "Help"
+msgstr "Ajuda"
+
+#: ../src/flegita-gimp.c:94
+msgid "Scan ..."
+msgstr "Digitalizar..."
+
+#: ../src/flegita-gimp.c:104
+msgid "Scan picture as new layer..."
+msgstr "Digitalizar imagem como nova camada..."
+
+#: ../src/flegita-gimp.c:109
+msgid "Scan as Layer..."
+msgstr "Digitalizar como camada..."
+
+#. directory selector
+#: ../src/flegita-option-widgets.vala:55
+msgid "Select output directory"
+msgstr "Selecione o diretório de saída"
+
+#. directory
+#: ../src/flegita-output-filename-widget.c:77
+msgid "Select directory"
+msgstr "Selecionar diretório"
+
+#: ../src/flegita-sink.vala:40
+msgid "Output Filename"
+msgstr "Nome do arquivo de saida"
+
+#: ../src/flegita-sink.vala:40
+msgid "Output filename"
+msgstr "Nome do arquivo de saida"
+
+#: ../src/flegita-sink.vala:42
+msgid "PNG Picture"
+msgstr "Imagem PNG"
+
+#: ../src/flegita-sink.vala:50
+msgid "Scanned picture"
+msgstr "Imagem digitalizada"
+
+#~ msgid "Waiting for device"
+#~ msgstr "Esperando por dispositivo"
+
+#~ msgid "Pre_view"
+#~ msgstr "Pre_ver"
+
+#~ msgid "Unable to detect scanners!"
+#~ msgstr "Não foi possível detectar scanners!"
+
+#~ msgid "No drivers has been found."
+#~ msgstr "Nenhum driver foi encontrado."
+
+#~ msgid "No device found!"
+#~ msgstr "Nenhum dispositivo encontrado!"
+
+#~ msgid ""
+#~ "Ensure your device is plugged, powered, supported and configured. The "
+#~ "dialog will run until you plug a scanner or cancel."
+#~ msgstr ""
+#~ "Certifique-se de que o dispositivo esteja conectado, ligado, com suporte "
+#~ "e configurado. A janela continuará aberta até que você conecte um scanner "
+#~ "ou cancele."
+
+#~ msgid "No device found !"
+#~ msgstr "Nenhum dispositivo encontrado!"
+
+#~ msgid "Ensure your device is plugged, powered, supported and configured."
+#~ msgstr ""
+#~ "Certifique-se de que o dispositivo esteja conectado, ligado, com suporte, "
+#~ "e configurado."
+
+#~ msgid "Scanner"
+#~ msgstr "Scanner"
+
+#~ msgid "Acquiring Preview"
+#~ msgstr "Obtendo Visualização"
+
+#~ msgid "The software preview acquisition and processing."
+#~ msgstr "A aquisição e processamento da visualização do software."
+
+#~ msgid "Inactive"
+#~ msgstr "Inativo"
+
+#~ msgid "_Scan"
+#~ msgstr "_Digitalizar"
+
+#~ msgid "Job completed"
+#~ msgstr "Tarefa completada"
+
+#~ msgid "Acquiring from scanner"
+#~ msgstr "Digitalizando do scanner"
+
+#~ msgid "Processing page"
+#~ msgstr "Processando página"
