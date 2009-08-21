@@ -2,7 +2,7 @@
 # Copyright (C) 2007-2009 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gnome-scan package.
 # Raphael Higino <in memoriam>, 2007.
-# Fabrício Godoy <skarllot@gmail.com>, 2008.
+# Fabrício Godoy <skarllot@gmail.com>, 2008, 2009.
 # Enrico Nicoletto <liverig@gmail.com>, 2009.
 #
 # Acquire -> Digitalizar
@@ -15,8 +15,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "scan&component=general\n"
 "POT-Creation-Date: 2009-07-07 17:10+0000\n"
-"PO-Revision-Date: 2009-07-28 19:11-0300\n"
-"Last-Translator: Enrico Nicoletto <liverig@gmail.com>\n"
+"PO-Revision-Date: 2009-08-20 23:24-0300\n"
+"Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-l10n-br@listas.cipsga.org.br>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -82,7 +82,7 @@ msgstr "_Avançado"
 
 #: ../lib/gnome-scan-dialog.vala:246
 msgid "_Processing"
-msgstr "_Processar"
+msgstr "_Processamento"
 
 #: ../lib/gnome-scan-dialog.vala:249
 msgid "_Output"
@@ -138,7 +138,7 @@ msgstr "Origem"
 
 #: ../modules/gsane/gsane-option-area.c:65
 msgid "Coordinate of the top left corner of the paper."
-msgstr "Coordenar para o canto superior esquerdo do papel."
+msgstr "Coordenada do canto superior esquerdo do papel."
 
 #. Translator: manual selection display label
 #: ../modules/gsane/gsane-option-area.c:203
@@ -214,7 +214,7 @@ msgstr "Selecionar arquivos"
 
 #: ../modules/gsfile/gsfile-filenames-widget.c:101
 msgid "Supported formats"
-msgstr "Formatos suportados"
+msgstr "Formatos com suporte"
 
 #: ../modules/gsfile/gsfile-filenames-widget.c:298
 msgid "Preview"
@@ -233,7 +233,7 @@ msgstr "Arquivos"
 
 #: ../modules/gsfile/gsfile-scanner.c:50
 msgid "Import from files."
-msgstr "Importe de arquivos."
+msgstr "Importe dos arquivos."
 
 #: ../modules/gsfile/gsfile-scanner.c:115
 msgid "PNG picture"
@@ -246,7 +246,7 @@ msgstr "Imagem JPEG"
 #. GtkWidget *toplevel = gtk_widget_get_toplevel (GTK_WIDGET (gspw));
 #: ../src/flegita-action-selector.c:148
 msgid "Configure printing"
-msgstr "Configure a impressão"
+msgstr "Configurar a impressão"
 
 #: ../src/flegita-gimp-sink.c:77
 msgid "Layer"
@@ -262,7 +262,7 @@ msgstr "Imagem digitalizada"
 
 #: ../src/flegita-gimp.c:89
 msgid "Scan a new image."
-msgstr "Digitalize uma nova imagem."
+msgstr "Digitalizar uma nova imagem."
 
 #: ../src/flegita-gimp.c:90 ../src/flegita-gimp.c:105
 msgid "Help"
@@ -274,11 +274,11 @@ msgstr "Digitalizar..."
 
 #: ../src/flegita-gimp.c:104
 msgid "Scan picture as new layer..."
-msgstr "Digitalizar imagem como nova camada..."
+msgstr "Digitalizar imagem como uma nova camada..."
 
 #: ../src/flegita-gimp.c:109
 msgid "Scan as Layer..."
-msgstr "Digitalizar como camada..."
+msgstr "Digitalizar como uma camada..."
 
 #. directory selector
 #: ../src/flegita-option-widgets.vala:55
@@ -292,11 +292,11 @@ msgstr "Selecionar diretório"
 
 #: ../src/flegita-sink.vala:40
 msgid "Output Filename"
-msgstr "Nome do arquivo de saida"
+msgstr "Nome do arquivo de saída"
 
 #: ../src/flegita-sink.vala:40
 msgid "Output filename"
-msgstr "Nome do arquivo de saida"
+msgstr "Nome do arquivo de saída"
 
 #: ../src/flegita-sink.vala:42
 msgid "PNG Picture"
