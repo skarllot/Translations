@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gst-plugins-bad-0.10.13.2\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2009-08-11 17:42+0100\n"
-"PO-Revision-Date: 2009-08-16 15:33-0300\n"
+"PO-Revision-Date: 2009-08-20 23:50-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
 "MIME-Version: 1.0\n"
@@ -330,7 +330,7 @@ msgstr "Modem"
 
 #: sys/oss4/oss4-mixer.c:783
 msgid "Handset"
-msgstr ""
+msgstr "Monofone"
 
 #: sys/oss4/oss4-mixer.c:784
 msgid "Other"
@@ -468,13 +468,14 @@ msgstr "Conector vermelho do painel frontal"
 msgid "Yellow Front Panel Connector"
 msgstr "Conector amarelo do painel frontal"
 
+#  int spread;         /* copy front to surr/center channels */
 #: sys/oss4/oss4-mixer.c:820
 msgid "Spread Output"
-msgstr ""
+msgstr "Saída comum"
 
 #: sys/oss4/oss4-mixer.c:821
 msgid "Downmix"
-msgstr ""
+msgstr "Mesclar canais"
 
 #: sys/oss4/oss4-mixer.c:868
 msgid "Virtual Mixer Input"
