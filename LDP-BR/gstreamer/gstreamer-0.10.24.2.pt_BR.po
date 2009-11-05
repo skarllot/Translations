@@ -15,10 +15,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gstreamer-0.10.22.2\n"
+"Project-Id-Version: gstreamer-0.10.24.2\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2009-09-11 23:09+0100\n"
-"PO-Revision-Date: 2009-04-16 21:51-0300\n"
+"PO-Revision-Date: 2009-11-05 01:18-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
 "MIME-Version: 1.0\n"
@@ -169,6 +169,8 @@ msgid ""
 "GStreamer error: state change failed and some element failed to post a "
 "proper error message with the reason for the failure."
 msgstr ""
+"Erro no GStreamer: falha ao alterar estado e algum elemento falhou ao enviar "
+"uma mensagem de erro apropriada com a razão da falha."
 
 #: gst/gsterror.c:148
 msgid "Internal GStreamer error: pad problem."
@@ -276,8 +278,7 @@ msgstr "Não foi possível sincronizar no recurso."
 
 #: gst/gsterror.c:216
 msgid "Could not get/set settings from/on resource."
-msgstr ""
-"Não foi possível obter, ou definir, configurações para, ou do, recurso."
+msgstr "Não foi possível obter/definir configurações para/do recurso."
 
 #: gst/gsterror.c:217
 msgid "No space left on the resource."
@@ -290,7 +291,7 @@ msgstr "O GStreamer encontrou um erro geral no fluxo."
 #: gst/gsterror.c:236
 msgid "Element doesn't implement handling of this stream. Please file a bug."
 msgstr ""
-"O elemento não implementa a manipulação desse fluxo. Por favor, reporte o "
+"O elemento não implementa a manipulação desse fluxo. Por favor, relate o "
 "erro."
 
 #: gst/gsterror.c:238
@@ -323,11 +324,11 @@ msgstr "Não foi possível multiplexar o fluxo."
 
 #: gst/gsterror.c:247
 msgid "The stream is in the wrong format."
-msgstr "Esse fluxo está com o formato errado."
+msgstr "Esse fluxo está com um formato errado."
 
 #: gst/gsterror.c:249
 msgid "The stream is encrypted and decryption is not supported."
-msgstr "O fluxo está criptografado e descriptografação não é suportada."
+msgstr "O fluxo está criptografado e não há suporte a descriptografação."
 
 #: gst/gsterror.c:251
 msgid ""
@@ -345,7 +346,7 @@ msgstr "Nenhuma mensagem de erro para o domínio %s."
 #: gst/gsterror.c:311
 #, c-format
 msgid "No standard error message for domain %s and code %d."
-msgstr "Nenhuma mensagem de erro padrão para o domínio %s e código %d."
+msgstr "Nenhuma mensagem de erro predefinida para o domínio %s e código %d."
 
 #: gst/gstpipeline.c:514
 msgid "Selected clock cannot be used in pipeline."
@@ -401,24 +402,20 @@ msgid "album containing this data for sorting purposes"
 msgstr "álbum contendo esses dados, para ordenação"
 
 #: gst/gsttaglist.c:121
-#, fuzzy
-#| msgid "artist"
 msgid "album artist"
-msgstr "artista"
+msgstr "artista do álbum"
 
 #: gst/gsttaglist.c:122
 msgid "The artist of the entire album, as it should be displayed"
-msgstr ""
+msgstr "O artista de todo álbum, como ele deveria ser exibido"
 
 #: gst/gsttaglist.c:126
-#, fuzzy
-#| msgid "artist sortname"
 msgid "album artist sortname"
-msgstr "artista para ordenação"
+msgstr "artista do álbum para ordenação"
 
 #: gst/gsttaglist.c:127
 msgid "The artist of the entire album, as it should be sorted"
-msgstr ""
+msgstr "O artista de todo álbum, como ele deveria ser ordenado"
 
 #: gst/gsttaglist.c:129
 msgid "date"
@@ -426,7 +423,7 @@ msgstr "data"
 
 #: gst/gsttaglist.c:129
 msgid "date the data was created (as a GDate structure)"
-msgstr "data que os dados foram criados (como uma estrutura GDate)"
+msgstr "data que os dados foram criados (estrutura GDate)"
 
 #: gst/gsttaglist.c:132
 msgid "genre"
@@ -434,7 +431,7 @@ msgstr "gênero"
 
 #: gst/gsttaglist.c:133
 msgid "genre this data belongs to"
-msgstr "gênero ao qual este dado pertence"
+msgstr "gênero que este dado pertence"
 
 #: gst/gsttaglist.c:136
 msgid "comment"
@@ -468,7 +465,7 @@ msgstr "número de faixas"
 
 #: gst/gsttaglist.c:150
 msgid "count of tracks inside collection this track belongs to"
-msgstr "número de faixas dentro da coleção a qual esta faixa pertence"
+msgstr "número de faixas dentro da coleção que esta faixa pertence"
 
 #: gst/gsttaglist.c:154
 msgid "disc number"
@@ -484,7 +481,7 @@ msgstr "número de discos"
 
 #: gst/gsttaglist.c:159
 msgid "count of discs inside collection this disc belongs to"
-msgstr "número de discos dentro da coleção o qual este disco pertence"
+msgstr "número de discos dentro da coleção que este disco pertence"
 
 #: gst/gsttaglist.c:163
 msgid "location"
@@ -582,7 +579,7 @@ msgstr "participação"
 
 #: gst/gsttaglist.c:200
 msgid "person(s) performing"
-msgstr "pessoa(s) participantes"
+msgstr "pessoa(s) participante(s)"
 
 #: gst/gsttaglist.c:203
 msgid "composer"
@@ -633,16 +630,12 @@ msgid "codec the subtitle data is stored in"
 msgstr "CODEC de legenda usado nos dados"
 
 #: gst/gsttaglist.c:223
-#, fuzzy
-#| msgid "contact information"
 msgid "container format"
-msgstr "informação de contato"
+msgstr "formato do contêiner"
 
 #: gst/gsttaglist.c:224
-#, fuzzy
-#| msgid "codec the data is stored in"
 msgid "container format the data is stored in"
-msgstr "CODEC usado nos dados"
+msgstr "formato do contêiner usado para os dados"
 
 #: gst/gsttaglist.c:226
 msgid "bitrate"
@@ -793,15 +786,11 @@ msgid "geo location name"
 msgstr "nome da localização geográfica"
 
 #: gst/gsttaglist.c:271
-#, fuzzy
-#| msgid ""
-#| "human readable descriptive location or where the media has been recorded "
-#| "or produced"
 msgid ""
 "human readable descriptive location of where the media has been recorded or "
 "produced"
 msgstr ""
-"localização ou onde a mídia foi gravada ou produzida descritiva e legível"
+"descrição legível da localização de onde a mídia foi gravada ou produzida"
 
 #: gst/gsttaglist.c:274
 msgid "geo location latitude"
@@ -855,7 +844,7 @@ msgstr "o arquivo \"%s\" está vazio, operação não permitida"
 #: gst/parse/grammar.y:240
 #, c-format
 msgid "no bin \"%s\", skipping"
-msgstr "nenhum Bin \"%s\", cancelando"
+msgstr "nenhum arquivo \"%s\", cancelando"
 
 #: gst/parse/grammar.y:399
 #, c-format
@@ -882,7 +871,7 @@ msgstr "nenhum elemento \"%s\""
 #: gst/parse/grammar.y:656
 #, c-format
 msgid "could not parse caps \"%s\""
-msgstr "não foi possível validar o Caps \"%s\""
+msgstr "não foi possível analisar o Caps \"%s\""
 
 #: gst/parse/grammar.y:678 gst/parse/grammar.y:726 gst/parse/grammar.y:742
 #: gst/parse/grammar.y:805
@@ -928,7 +917,7 @@ msgstr "Erro interno no fluxo de dados."
 
 #: libs/gst/base/gstbasesink.c:2571
 msgid "A lot of buffers are being dropped."
-msgstr ""
+msgstr "Uma grande quantidade de buffers está sendo descartada."
 
 #: libs/gst/base/gstbasesink.c:3278
 msgid "Internal data flow problem."
@@ -1130,28 +1119,24 @@ msgid "WARNING: element named '%s' not found.\n"
 msgstr "AVISO: o elemento com o nome \"%s\" não foi encontrado.\n"
 
 #: tools/gst-launch.c:420
-#, fuzzy, c-format
-#| msgid "Got Message from element \"%s\" (%s): "
+#, c-format
 msgid "Got message #%u from element \"%s\" (%s): "
-msgstr "Obtida mensagem do elemento \"%s\" (%s): "
+msgstr "Obtida a mensagem #%u do elemento \"%s\" (%s): "
 
 #: tools/gst-launch.c:424
-#, fuzzy, c-format
-#| msgid "Got Message from element \"%s\" (%s): "
+#, c-format
 msgid "Got message #%u from pad \"%s:%s\" (%s): "
-msgstr "Obtida mensagem do elemento \"%s\" (%s): "
+msgstr "Obtida a mensagem #%u do Pad \"%s:%s\" (%s): "
 
 #: tools/gst-launch.c:428
-#, fuzzy, c-format
-#| msgid "Got Message from element \"%s\" (%s): "
+#, c-format
 msgid "Got message #%u from object \"%s\" (%s): "
-msgstr "Obtida mensagem do elemento \"%s\" (%s): "
+msgstr "Obtida a mensagem #%u do objeto \"%s\" (%s): "
 
 #: tools/gst-launch.c:432
-#, fuzzy, c-format
-#| msgid "Got Message #%"
+#, c-format
 msgid "Got message #%u (%s): "
-msgstr "Obtida mensagem #%"
+msgstr "Obtida a mensagem #%u (%s): "
 
 #: tools/gst-launch.c:469
 #, c-format
@@ -1164,20 +1149,18 @@ msgid "FOUND TAG      : found by element \"%s\".\n"
 msgstr "ETIQ. ENCONTR. : encontrada pelo elemento \"%s\".\n"
 
 #: tools/gst-launch.c:481
-#, fuzzy, c-format
-#| msgid "FOUND TAG      : found by element \"%s\".\n"
+#, c-format
 msgid "FOUND TAG      : found by pad \"%s:%s\".\n"
-msgstr "ETIQ. ENCONTR. : encontrada pelo elemento \"%s\".\n"
+msgstr "ETIQ. ENCONTR. : encontrada pelo Pad \"%s:%s\".\n"
 
 #: tools/gst-launch.c:484
-#, fuzzy, c-format
-#| msgid "FOUND TAG      : found by element \"%s\".\n"
+#, c-format
 msgid "FOUND TAG      : found by object \"%s\".\n"
-msgstr "ETIQ. ENCONTR. : encontrada pelo elemento \"%s\".\n"
+msgstr "ETIQ. ENCONTR. : encontrada pelo objeto \"%s\".\n"
 
 #: tools/gst-launch.c:487
 msgid "FOUND TAG\n"
-msgstr ""
+msgstr "ETIQUETA ENCONTRADA\n"
 
 #: tools/gst-launch.c:502
 #, c-format
