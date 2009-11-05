@@ -6,10 +6,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gphoto2 2.4.3\n"
+"Project-Id-Version: gphoto2 2.4.7\n"
 "Report-Msgid-Bugs-To: gphoto-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2009-08-21 08:39+0200\n"
-"PO-Revision-Date: 2009-01-21 01:08-0200\n"
+"PO-Revision-Date: 2009-11-05 00:41-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
 "MIME-Version: 1.0\n"
@@ -67,10 +67,9 @@ msgid "  Mime type:   '%s'\n"
 msgstr "  Tipo MIME:   \"%s\"\n"
 
 #: gphoto2/actions.c:262 gphoto2/actions.c:294
-#, fuzzy, c-format
-#| msgid "  Size:        %li byte(s)\n"
+#, c-format
 msgid "  Size:        %lu byte(s)\n"
-msgstr "  Tamanho:     %li byte(s)\n"
+msgstr "  Tamanho:     %lu byte(s)\n"
 
 #: gphoto2/actions.c:264 gphoto2/actions.c:296
 #, c-format
@@ -147,10 +146,9 @@ msgid "  Mime type:  '%s'\n"
 msgstr "  Tipo MIME:  \"%s\"\n"
 
 #: gphoto2/actions.c:310
-#, fuzzy, c-format
-#| msgid "  Size:       %li byte(s)\n"
+#, c-format
 msgid "  Size:       %lu byte(s)\n"
-msgstr "  Tamanho:    %li byte(s)\n"
+msgstr "  Tamanho:    %lu byte(s)\n"
 
 #: gphoto2/actions.c:312
 #, c-format
@@ -186,12 +184,12 @@ msgstr "gphoto2 foi compilado sem suporte a EXIF."
 #: gphoto2/actions.c:545
 #, c-format
 msgid "Number of supported cameras: %i\n"
-msgstr "Quantidade de câmeras as quais há suporte: %i\n"
+msgstr "Quantidade de câmeras que há suporte: %i\n"
 
 #: gphoto2/actions.c:546
 #, c-format
 msgid "Supported cameras:\n"
-msgstr "Câmeras as quais há suporte:\n"
+msgstr "Câmeras que há suporte:\n"
 
 #: gphoto2/actions.c:559
 #, c-format
@@ -211,7 +209,7 @@ msgstr "\t\"%s\"\n"
 #: gphoto2/actions.c:611
 #, c-format
 msgid "Devices found: %i\n"
-msgstr "Dispositivos encontrados: %i\n"
+msgstr "Disp. encontrados: %i\n"
 
 #: gphoto2/actions.c:612
 #, c-format
@@ -258,7 +256,7 @@ msgstr "Suporte a USB                    : %s\n"
 #: gphoto2/actions.c:667
 #, c-format
 msgid "Transfer speeds supported        :\n"
-msgstr "Vel. de transf. suportadas       :\n"
+msgstr "Vel. de transf. permitidas       :\n"
 
 #: gphoto2/actions.c:669
 #, c-format
@@ -294,7 +292,7 @@ msgstr "                                 : Visualização\n"
 #, c-format
 msgid ""
 "                                 : Capture not supported by the driver\n"
-msgstr "                                 : Captura não suportada pelo driver\n"
+msgstr "                                 : Driver sem suporte a captura\n"
 
 #: gphoto2/actions.c:692
 #, c-format
@@ -477,7 +475,8 @@ msgstr "Layout da câmera (DCIM)"
 #: gphoto2/actions.c:1167
 #, c-format
 msgid "Overriding USB vendor/product id 0x%x/0x%x with 0x%x/0x%x"
-msgstr "Sobrescrevendo o ID do fornecedor/produto USB 0x%x/0x%x por 0x%x/0x%x"
+msgstr ""
+"Sobrescrevendo o ID USB do fornecedor/produto de 0x%x/0x%x para 0x%x/0x%x"
 
 #: gphoto2/actions.c:1231
 msgid ""
@@ -510,7 +509,7 @@ msgstr "Falha ao obter os valores do widget de alcance %s."
 #: gphoto2/actions.c:1453
 #, c-format
 msgid "Failed to retrieve values of toggle widget %s."
-msgstr "Falha ao obter os valores do widget de alternância %s."
+msgstr "Falha ao obter os valores do widget de faixa %s."
 
 #: gphoto2/actions.c:1465
 #, c-format
@@ -600,6 +599,7 @@ msgstr ""
 msgid ""
 "The %s widget has no indexed list of choices. Use --set-config-value instead."
 msgstr ""
+"O widget %s não tem um índice da lista de escolhas. Use --set-config-value."
 
 #: gphoto2/foreach.c:254
 #, c-format
@@ -610,7 +610,7 @@ msgid ""
 msgstr ""
 "Numero de arquivo errado. Você especificou %i, mas há somente %i arquivos "
 "disponíveis em \"%s\" ou em suas subpastas. Por favor, primeiro obtenha um "
-"número de arquivo válido da listagem de arquivos."
+"número de arquivo válido da lista de arquivos."
 
 #: gphoto2/foreach.c:279
 #, c-format
@@ -634,7 +634,7 @@ msgid ""
 msgstr ""
 "Número de arquivo errado. Você especificou %i, mas há somente %i arquivos "
 "disponíveis em \"%s\". Por favor, primeiro obtenha um número de arquivo "
-"válido da listagem de arquivos."
+"válido da lista de arquivos."
 
 #: gphoto2/gp-params.c:70
 #, c-format
@@ -718,7 +718,7 @@ msgstr ""
 #: gphoto2/main.c:288
 #, c-format
 msgid "The filename provided by the camera ('%s') does not contain a suffix!"
-msgstr "O nome do arquivo fornecido pela câmera (\"%s\") não contem um sufixo!"
+msgstr "O nome do arquivo fornecido pela câmera (\"%s\") não contêm um sufixo!"
 
 #: gphoto2/main.c:343
 #, c-format
@@ -728,7 +728,7 @@ msgstr "Formato inválido \"%s\" (erro na posição %i)."
 #: gphoto2/main.c:396
 #, c-format
 msgid "File %s exists. Overwrite? [y|n] "
-msgstr "O arquivo %s existe. Sobrescrever? [y|n] "
+msgstr "O arquivo %s já existe. Sobrescrever? [y|n] "
 
 #: gphoto2/main.c:408
 #, c-format
@@ -838,7 +838,8 @@ msgid ""
 "c:d instead. a b c d should be hexadecimal numbers beginning with '0x'.\n"
 msgstr ""
 "Use a sintaxe a:b=c:d para tratar qualquer dispositivo USB detectado como a:"
-"b como c:d. a b c d devem ser números hexadecimais começando com \"0x\".\n"
+"b em vez de c:d. a b c d devem ser números hexadecimais começando com \"0x"
+"\".\n"
 
 #: gphoto2/main.c:1193
 msgid "gphoto2 has been compiled without support for CDK."
@@ -850,16 +851,17 @@ msgid "Waiting for events from camera. Press Ctrl-C to abort.\n"
 msgstr "Esperando por eventos da câmera. Pressione Ctrl+C para interromper.\n"
 
 #: gphoto2/main.c:1364
-#, fuzzy, c-format
-#| msgid "Waiting for events from camera. Press Ctrl-C to abort.\n"
+#, c-format
 msgid "Waiting for %d seconds for events from camera. Press Ctrl-C to abort.\n"
-msgstr "Esperando por eventos da câmera. Pressione Ctrl+C para interromper.\n"
+msgstr ""
+"Esperando %d segundos por eventos da câmera. Pressione Ctrl+C para "
+"interromper.\n"
 
 #: gphoto2/main.c:1367
-#, fuzzy, c-format
-#| msgid "Waiting for events from camera. Press Ctrl-C to abort.\n"
+#, c-format
 msgid "Waiting for %d events from camera. Press Ctrl-C to abort.\n"
-msgstr "Esperando por eventos da câmera. Pressione Ctrl+C para interromper.\n"
+msgstr ""
+"Esperando por %d eventos da câmera. Pressione Ctrl+C para interromper.\n"
 
 #: gphoto2/main.c:1432
 #, c-format
@@ -924,10 +926,8 @@ msgid "Hook script to call after downloads, captures, etc."
 msgstr "Script de gancho para chamar após downloads, capturas e etc."
 
 #: gphoto2/main.c:1546
-#, fuzzy
-#| msgid "Specify port device"
 msgid "Specify device port"
-msgstr "Especifica o dispositivo de porta"
+msgstr "Especifica a porta do dispositivo"
 
 #: gphoto2/main.c:1548
 msgid "Specify serial transfer speed"
@@ -982,26 +982,20 @@ msgid "Get configuration value"
 msgstr "Obtém o valor de configuração"
 
 #: gphoto2/main.c:1578
-#, fuzzy
-#| msgid "Set configuration value"
 msgid "Set configuration value or index in choices"
-msgstr "Define o valor de configuração"
+msgstr "Define o valor de configuração ou um índice nas escolhas"
 
 #: gphoto2/main.c:1580
-#, fuzzy
-#| msgid "Set configuration value"
 msgid "Set configuration value index in choices"
-msgstr "Define o valor de configuração"
+msgstr "Define o índice do valor de configuração nas escolhas"
 
 #: gphoto2/main.c:1582
 msgid "Set configuration value"
 msgstr "Define o valor de configuração"
 
 #: gphoto2/main.c:1588
-#, fuzzy
-#| msgid "Wait for event from camera"
 msgid "Wait for event(s) from camera"
-msgstr "Espera por evento da câmera"
+msgstr "Espera por evento(s) da câmera"
 
 #: gphoto2/main.c:1588 gphoto2/main.c:1590 gphoto2/main.c:1595
 #: gphoto2/main.c:1609
@@ -1009,10 +1003,8 @@ msgid "COUNT"
 msgstr "QUANTIDADE"
 
 #: gphoto2/main.c:1590
-#, fuzzy
-#| msgid "Wait for shutter release on the camera and download"
 msgid "Wait for event(s) from the camera and download new images"
-msgstr "Esperar por liberação do obturador na câmera e baixar"
+msgstr "Esperar por evento(s) da câmera e baixar as novas imagens"
 
 #: gphoto2/main.c:1593
 msgid "Capture a quick preview"
@@ -1141,7 +1133,7 @@ msgstr "Enviar um arquivo à câmera"
 
 #: gphoto2/main.c:1658
 msgid "Specify a filename or filename pattern"
-msgstr "Especifica um padrão de nome de arquivo ou um nome de arquivo"
+msgstr "Especifica um nome de arquivo ou um padrão de nome de arquivo"
 
 #: gphoto2/main.c:1658
 msgid "FILENAME_PATTERN"
@@ -1255,7 +1247,7 @@ msgid ""
 "Image ID %i too high."
 msgstr ""
 "%s\n"
-"ID de imagem %i é muito grande."
+"O ID de imagem %i é muito grande."
 
 #: gphoto2/range.c:126
 #, c-format
@@ -1387,16 +1379,12 @@ msgid "name=value"
 msgstr "nome=valor"
 
 #: gphoto2/shell.c:147
-#, fuzzy
-#| msgid "Set configuration variable"
 msgid "Set configuration variable index"
-msgstr "Definir variável de configuração"
+msgstr "Definir o índice da variável de configuração"
 
 #: gphoto2/shell.c:147
-#, fuzzy
-#| msgid "name=value"
 msgid "name=valueindex"
-msgstr "nome=valor"
+msgstr "nome=indice_valor"
 
 #: gphoto2/shell.c:149
 msgid "Capture a single image"
@@ -1404,29 +1392,23 @@ msgstr "Capturar uma única imagem"
 
 #: gphoto2/shell.c:150
 msgid "Capture a single image and download it"
-msgstr "Capturar uma única imagem e baixa-la"
+msgstr "Capturar uma única imagem e baixá-la"
 
 #: gphoto2/shell.c:151
-#, fuzzy
-#| msgid "Wait for event from camera"
 msgid "Wait for an event"
-msgstr "Espera por evento da câmera"
+msgstr "Espera por um evento"
 
 #: gphoto2/shell.c:151 gphoto2/shell.c:152 gphoto2/shell.c:153
 msgid "count or seconds"
-msgstr ""
+msgstr "quantidade ou segundos"
 
 #: gphoto2/shell.c:152
-#, fuzzy
-#| msgid "Wait for shutter release on the camera and download"
 msgid "Wait for images to be captured and download it"
-msgstr "Esperar por liberação do obturador na câmera e baixar"
+msgstr "Esperar que as imagens sejam capturadas e baixá-las"
 
 #: gphoto2/shell.c:153
-#, fuzzy
-#| msgid "Capture an image and download it"
 msgid "Wait for events and images to be captured and download it"
-msgstr "Capturar uma imagem e baixa-la"
+msgstr "Esperar que eventos e imagens sejam capturados e baixá-los"
 
 #: gphoto2/shell.c:478
 msgid "Invalid command."
@@ -1466,16 +1448,14 @@ msgid "set-config needs a second argument.\n"
 msgstr "set-config necessita de um segundo argumento.\n"
 
 #: gphoto2/shell.c:873
-#, fuzzy, c-format
-#| msgid "set-config needs a second argument.\n"
+#, c-format
 msgid "set-config-value needs a second argument.\n"
-msgstr "set-config necessita de um segundo argumento.\n"
+msgstr "set-config-value necessita de um segundo argumento.\n"
 
 #: gphoto2/shell.c:894
-#, fuzzy, c-format
-#| msgid "set-config needs a second argument.\n"
+#, c-format
 msgid "set-config-index needs a second argument.\n"
-msgstr "set-config necessita de um segundo argumento.\n"
+msgstr "set-config-index necessita de um segundo argumento.\n"
 
 #: gphoto2/shell.c:954
 #, c-format
