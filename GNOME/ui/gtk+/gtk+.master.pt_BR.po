@@ -15,14 +15,16 @@
 # André Gondim <andregondim@ubuntu.com>, 2009.
 # Rodrigo L. M. Flores <mail@rodrigoflores.org>
 # Jonh Wendell <jwendell@gnome.org>, 2009, 2010.
+# Fabrício Godoy <skarllot@gmail.com>, 2010.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: gtk+\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gtk"
 "+&component=general\n"
 "POT-Creation-Date: 2010-02-19 16:05+0000\n"
-"PO-Revision-Date: 2010-02-05 11:29-0300\n"
-"Last-Translator: Jonh Wendell <jwendell@gnome.org>\n"
+"PO-Revision-Date: 2010-02-22 16:13-0300\n"
+"Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,12 +35,12 @@ msgstr ""
 #: ../gdk/gdk.c:103
 #, c-format
 msgid "Error parsing option --gdk-debug"
-msgstr "Erro analisando a opção --gdk-debug"
+msgstr "Erro ao analisar a opção --gdk-debug"
 
 #: ../gdk/gdk.c:123
 #, c-format
 msgid "Error parsing option --gdk-no-debug"
-msgstr "Erro analisando a opção --gdk-no-debug"
+msgstr "Erro ao analisar a opção --gdk-no-debug"
 
 #. Description of --class=CLASS in --help output
 #: ../gdk/gdk.c:151
@@ -73,7 +75,7 @@ msgstr "MONITOR"
 #. Description of --screen=SCREEN in --help output
 #: ../gdk/gdk.c:160
 msgid "X screen to use"
-msgstr "Tela X a ser utilizada"
+msgstr "Tela do X a ser utilizada"
 
 #. Placeholder in --screen=SCREEN in --help output
 #: ../gdk/gdk.c:161
@@ -336,7 +338,7 @@ msgstr "Não há suporte para imagens do tipo \"%s\""
 #, c-format
 msgid "Couldn't recognize the image file format for file '%s'"
 msgstr ""
-"Não foi possível reconhecer o formato de arquivo de imagem do arquivo \"%s\""
+"Não foi possível reconhecer o formato de imagem do arquivo \"%s\""
 
 #: ../gdk-pixbuf/gdk-pixbuf-io.c:871
 msgid "Unrecognized image file format"
@@ -424,7 +426,7 @@ msgstr "Pedaço de ícone inesperado na animação"
 
 #: ../gdk-pixbuf/io-ani.c:337
 msgid "Unsupported animation type"
-msgstr "Tipo de animação não suportado"
+msgstr "Tipo de animação sem suporte"
 
 #: ../gdk-pixbuf/io-ani.c:348 ../gdk-pixbuf/io-ani.c:406
 #: ../gdk-pixbuf/io-ani.c:432 ../gdk-pixbuf/io-ani.c:455
@@ -467,7 +469,7 @@ msgstr "Imagens BMP topdown não podem ser compactadas"
 
 #: ../gdk-pixbuf/io-bmp.c:717 ../gdk-pixbuf/io-pnm.c:709
 msgid "Premature end-of-file encountered"
-msgstr "Fim de arquivo prematuro encontrado"
+msgstr "Fim de arquivo inesperado"
 
 #: ../gdk-pixbuf/io-bmp.c:1329
 msgid "Couldn't allocate memory for saving BMP file"
@@ -578,7 +580,7 @@ msgstr "Não há suporte para ícones compactados"
 
 #: ../gdk-pixbuf/io-ico.c:417
 msgid "Unsupported icon type"
-msgstr "Tipo de ícone não suportado"
+msgstr "Tipo de ícone sem suporte"
 
 #: ../gdk-pixbuf/io-ico.c:511
 msgid "Not enough memory to load ICO file"
@@ -628,7 +630,7 @@ msgstr "Imagem JPEG2000 transformada tem altura ou largura igual a zero"
 
 #: ../gdk-pixbuf/io-jasper.c:137
 msgid "Image type currently not supported"
-msgstr "Tipo de imagem não suportada atualmente"
+msgstr "Tipo de imagem atualmente não suportada"
 
 #: ../gdk-pixbuf/io-jasper.c:149 ../gdk-pixbuf/io-jasper.c:157
 msgid "Couldn't allocate memory for color profile"
@@ -708,12 +710,12 @@ msgstr "A imagem tem altura e/ou largura inválidas"
 
 #: ../gdk-pixbuf/io-pcx.c:613 ../gdk-pixbuf/io-pcx.c:674
 msgid "Image has unsupported bpp"
-msgstr "A imagem possui um número de bits-por-pixel (bpp) não suportado"
+msgstr "Não há suporte ao número de bits-por-pixel (bpp) da imagem"
 
 #: ../gdk-pixbuf/io-pcx.c:618 ../gdk-pixbuf/io-pcx.c:626
 #, c-format
 msgid "Image has unsupported number of %d-bit planes"
-msgstr "A imagem tem um número não suportado de planos de %d bits"
+msgstr "Não há suporte ao número de %d bits de planos da imagem"
 
 #: ../gdk-pixbuf/io-pcx.c:642
 msgid "Couldn't create new pixbuf"
@@ -801,7 +803,7 @@ msgstr "Chaves para blocos de texto PNG devem ser caracteres ASCII."
 #: ../gdk-pixbuf/io-png.c:886 ../gdk-pixbuf/io-tiff.c:738
 #, c-format
 msgid "Color profile has invalid length %d."
-msgstr "Perfil de cor tem um tamanho inválido: %d."
+msgstr "O tamanho do perfil de cor é inválido: %d."
 
 #: ../gdk-pixbuf/io-png.c:899 ../gdk-pixbuf/io-gdip-png.c:56
 #, c-format
@@ -867,7 +869,7 @@ msgstr "O tipo de imagem PNM bruta é inválido"
 
 #: ../gdk-pixbuf/io-pnm.c:654
 msgid "PNM image loader does not support this PNM subformat"
-msgstr "O carregador de imagens PNM dá suporte a esse sub-formato PNM"
+msgstr "O carregador de imagens PNM não dá suporte a esse sub-formato PNM"
 
 #: ../gdk-pixbuf/io-pnm.c:741 ../gdk-pixbuf/io-pnm.c:968
 msgid "Raw PNM formats require exactly one whitespace before sample data"
@@ -907,7 +909,7 @@ msgstr "Falha ao ler o cabeçalho QTIF"
 #: ../gdk-pixbuf/io-qtif.c:446
 #, c-format
 msgid "QTIF atom size too large (%d bytes)"
-msgstr "Tamanho do átomo QTIF é muito largo (%d bytes)"
+msgstr "Tamanho da unidade do QTIF é muito grande (%d bytes)"
 
 #: ../gdk-pixbuf/io-qtif.c:172
 #, c-format
@@ -917,7 +919,7 @@ msgstr "Falha ao alocar %d bytes para o buffer de leitura do arquivo"
 #: ../gdk-pixbuf/io-qtif.c:196
 #, c-format
 msgid "File error when reading QTIF atom: %s"
-msgstr "Erro de E/S ao ler o átomo QTIF: %s"
+msgstr "Erro de E/S ao ler a unidade do QTIF: %s"
 
 #: ../gdk-pixbuf/io-qtif.c:233
 #, c-format
@@ -934,7 +936,7 @@ msgstr "Falha ao criar o objeto GdkPixbufLoader."
 
 #: ../gdk-pixbuf/io-qtif.c:421
 msgid "Failed to find an image data atom."
-msgstr "Falha ao localizar dados de imagem no átomo."
+msgstr "Falha ao localizar unidade de dados da imagem."
 
 #: ../gdk-pixbuf/io-qtif.c:602
 msgid "The QTIF image format"
@@ -946,11 +948,11 @@ msgstr "A imagem RAS tem dados de cabeçalho incorretos"
 
 #: ../gdk-pixbuf/io-ras.c:148
 msgid "RAS image has unknown type"
-msgstr "A imagem RAS tem tipo desconhecido"
+msgstr "A imagem RAS tem um tipo desconhecido"
 
 #: ../gdk-pixbuf/io-ras.c:156
 msgid "unsupported RAS image variation"
-msgstr "variação de imagem RAS não suportado"
+msgstr "Não há suporte a variação de imagem RAS"
 
 #: ../gdk-pixbuf/io-ras.c:171 ../gdk-pixbuf/io-ras.c:200
 msgid "Not enough memory to load RAS image"
@@ -974,11 +976,11 @@ msgstr "Não foi possível realocar os dados de IOBuffer"
 
 #: ../gdk-pixbuf/io-tga.c:214
 msgid "Cannot allocate temporary IOBuffer data"
-msgstr "Não foi possível alocar os dados de IOBuffer temporários"
+msgstr "Não foi possível alocar os dados temporários de IOBuffer"
 
 #: ../gdk-pixbuf/io-tga.c:347
 msgid "Cannot allocate new pixbuf"
-msgstr "Não foi possível alocar novo pixbuf"
+msgstr "Não foi possível alocar um novo pixbuf"
 
 #: ../gdk-pixbuf/io-tga.c:687
 msgid "Cannot allocate colormap structure"
@@ -2281,8 +2283,8 @@ msgctxt "input method menu"
 msgid "System"
 msgstr "Sistema"
 
+# (Método de) entrada: nenhuma (feminino)
 #: ../gtk/gtkimmulticontext.c:573
-#, fuzzy
 msgctxt "input method menu"
 msgid "None"
 msgstr "Nenhuma"
