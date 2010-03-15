@@ -337,8 +337,7 @@ msgstr "Não há suporte para imagens do tipo \"%s\""
 #: ../gdk-pixbuf/gdk-pixbuf-io.c:863
 #, c-format
 msgid "Couldn't recognize the image file format for file '%s'"
-msgstr ""
-"Não foi possível reconhecer o formato de imagem do arquivo \"%s\""
+msgstr "Não foi possível reconhecer o formato de imagem do arquivo \"%s\""
 
 #: ../gdk-pixbuf/gdk-pixbuf-io.c:871
 msgid "Unrecognized image file format"
@@ -1006,7 +1005,7 @@ msgstr "A imagem TGA tem dimensões inválidas"
 #: ../gdk-pixbuf/io-tga.c:792 ../gdk-pixbuf/io-tga.c:802
 #: ../gdk-pixbuf/io-tga.c:809
 msgid "TGA image type not supported"
-msgstr "Sem suporte para imagem do tipo TGA"
+msgstr "Não há suporte ao tipo de imagem TGA"
 
 #: ../gdk-pixbuf/io-tga.c:856
 msgid "Cannot allocate memory for TGA context struct"
@@ -1063,7 +1062,7 @@ msgstr "Falha ao salvar a imagem TIFF"
 
 #: ../gdk-pixbuf/io-tiff.c:727
 msgid "TIFF compression doesn't refer to a valid codec."
-msgstr "Compressão TIFF não remete a um codec válido."
+msgstr "Compressão TIFF não referencia um codec válido."
 
 #: ../gdk-pixbuf/io-tiff.c:767
 msgid "Failed to write TIFF data"
@@ -1189,7 +1188,7 @@ msgstr "Não foi possível carregar metarquivo"
 
 #: ../gdk-pixbuf/io-gdip-utils.c:1006
 msgid "Unsupported image format for GDI+"
-msgstr "Formato de imagem não suportado para GDI+"
+msgstr "Não há suporte a este formato de imagem para GDI+"
 
 #: ../gdk-pixbuf/io-gdip-utils.c:1013
 msgid "Couldn't save"
@@ -1371,7 +1370,7 @@ msgstr "Função de tipo inválida na linha %d: \"%s\""
 #: ../gtk/gtkbuilderparser.c:407
 #, c-format
 msgid "Duplicate object id '%s' on line %d (previously on line %d)"
-msgstr "Id de objeto \"%s\" duplicado na linha %d (anteriormente na linha %d)"
+msgstr "Id do objeto \"%s\" duplicado na linha %d (anteriormente na linha %d)"
 
 #: ../gtk/gtkbuilderparser.c:859
 #, c-format
