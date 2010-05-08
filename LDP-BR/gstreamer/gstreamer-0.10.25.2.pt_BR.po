@@ -1,7 +1,7 @@
 # Brazilian Portuguese translation of GStreamer.
-# Copyright (C) 2008-2009 Free Software Foundation, Inc.
+# Copyright (C) 2008-2010 Free Software Foundation, Inc.
 # This file is distributed under the same license as the GStreamer package.
-# Fabrício Godoy <skarllot@gmail.com>, 2008-2009.
+# Fabrício Godoy <skarllot@gmail.com>, 2008-2010.
 #
 # pipeline -> fila de processamento
 # sink -> consumidor
@@ -15,10 +15,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gstreamer-0.10.24.2\n"
+"Project-Id-Version: gstreamer-0.10.25.2\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2010-01-26 19:15+0000\n"
-"PO-Revision-Date: 2009-11-05 01:18-0300\n"
+"PO-Revision-Date: 2010-05-08 17:39-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
 "MIME-Version: 1.0\n"
@@ -105,10 +105,9 @@ msgid "Disable updating the registry"
 msgstr "Desabilitar atualização do registro"
 
 #: gst/gst.c:357
-#, fuzzy
-#| msgid "Disable the use of fork() while scanning the registry"
 msgid "Disable spawning a helper process while scanning the registry"
-msgstr "Desabilitar o uso de fork() durante a análise do registro"
+msgstr ""
+"Desabilitar a criação de um processo auxiliar durante a análise do registro"
 
 #: gst/gst.c:382
 msgid "GStreamer Options"
@@ -821,74 +820,67 @@ msgstr ""
 
 #: gst/gsttaglist.c:289
 msgid "show name"
-msgstr ""
+msgstr "mostrar nome"
 
 #: gst/gsttaglist.c:290
 msgid "Name of the tv/podcast/series show the media is from"
 msgstr ""
+"Nome do programa de TV, do podcast ou da série de onde a mídia tem origem"
 
 #: gst/gsttaglist.c:293
-#, fuzzy
-#| msgid "artist sortname"
 msgid "show sortname"
-msgstr "artista para ordenação"
+msgstr "mostrar ordenação"
 
 #: gst/gsttaglist.c:294
 msgid ""
 "Name of the tv/podcast/series show the media is from, for sorting purposes"
 msgstr ""
+"Nome do programa de TV, do podcast ou da série de onde a mídia tem origem, "
+"para ordenação"
 
 #: gst/gsttaglist.c:297
-#, fuzzy
-#| msgid "disc number"
 msgid "episode number"
-msgstr "número do disco"
+msgstr "número do episódio"
 
 #: gst/gsttaglist.c:298
 msgid "The episode number in the season the media is part of"
-msgstr ""
+msgstr "O número do episódio da temporada que a mídia faz parte"
 
 #: gst/gsttaglist.c:301
-#, fuzzy
-#| msgid "disc number"
 msgid "season number"
-msgstr "número do disco"
+msgstr "número da temporada"
 
 #: gst/gsttaglist.c:302
 msgid "The season number of the show the media is part of"
-msgstr ""
+msgstr "O número da temporada da série que a mídia faz parte"
 
 #: gst/gsttaglist.c:305
-#, fuzzy
-#| msgid "license"
 msgid "lyrics"
-msgstr "licença"
+msgstr "letras de música"
 
 #: gst/gsttaglist.c:305
 msgid "The lyrics of the media, commonly used for songs"
-msgstr ""
+msgstr "As letras de música da mídia"
 
 #: gst/gsttaglist.c:308
-#, fuzzy
-#| msgid "title sortname"
 msgid "composer sortname"
-msgstr "título para ordenação"
+msgstr "compositor para ordenação"
 
 #: gst/gsttaglist.c:309
-#, fuzzy
-#| msgid "person(s) responsible for the recording for sorting purposes"
 msgid "person(s) who composed the recording, for sorting purposes"
-msgstr "pessoa(s) responsável(is) pela gravação, para ordenação"
+msgstr "pessoa(s) que compôs a gravação, para ordenação"
 
 #: gst/gsttaglist.c:311
 msgid "grouping"
-msgstr ""
+msgstr "parte"
 
 #: gst/gsttaglist.c:312
 msgid ""
 "Groups related media that spans multiple tracks, like the different pieces "
 "of a concerto. It is a higher level than a track, but lower than an album"
 msgstr ""
+"Partes da mídia que se extende em várias faixas, como diferentes partes de "
+"um concerto. Tem um nível acima da faixa, mas abaixo do álbum"
 
 #: gst/gsttaglist.c:354
 msgid ", "
@@ -1052,13 +1044,12 @@ msgstr "Falha após as interações requeridas."
 
 #: plugins/elements/gstqueue2.c:997
 msgid "No Temp directory specified."
-msgstr ""
+msgstr "Nenhum diretório temporário especificado."
 
 #: plugins/elements/gstqueue2.c:1003
-#, fuzzy, c-format
-#| msgid "Could not get info on \"%s\"."
+#, c-format
 msgid "Could not create temp file \"%s\"."
-msgstr "Não foi possível obter informações em \"%s\"."
+msgstr "Não foi possível criar o arquivo temporário \"%s\"."
 
 #: plugins/elements/gsttypefindelement.c:201
 msgid "caps"
@@ -1107,7 +1098,7 @@ msgstr "controlável"
 
 #: tools/gst-inspect.c:950
 msgid "Blacklisted files:"
-msgstr ""
+msgstr "Arquivos colocados na lista negra:"
 
 #: tools/gst-inspect.c:962 tools/gst-inspect.c:1055
 msgid "Total count: "
@@ -1117,8 +1108,8 @@ msgstr "Contagem total: "
 #, c-format
 msgid "%d blacklisted file"
 msgid_plural "%d blacklisted files"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d arquivo na lista negra"
+msgstr[1] "%d arquivos na lista negra"
 
 #: tools/gst-inspect.c:1056
 #, c-format
@@ -1131,8 +1122,8 @@ msgstr[1] "%d plug-ins"
 #, c-format
 msgid "%d blacklist entry"
 msgid_plural "%d blacklist entries"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d entrada na lista negra"
+msgstr[1] "%d entradas na lista negra"
 
 #: tools/gst-inspect.c:1064
 #, c-format
@@ -1147,14 +1138,9 @@ msgstr "Exibir todos elementos"
 
 #: tools/gst-inspect.c:1467
 msgid "Print list of blacklisted files"
-msgstr ""
+msgstr "Exibir lista dos arquivos na lista negra"
 
 #: tools/gst-inspect.c:1469
-#, fuzzy
-#| msgid ""
-#| "Print a machine-parsable list of features the specified plugin provides.\n"
-#| "                                       Useful in connection with external "
-#| "automatic plugin installation mechanisms"
 msgid ""
 "Print a machine-parsable list of features the specified plugin or all "
 "plugins provide.\n"
@@ -1162,7 +1148,7 @@ msgid ""
 "automatic plugin installation mechanisms"
 msgstr ""
 "Exibir uma lista, legível para máquina, de recursos que o plug-in "
-"especificado fornece.\n"
+"especificado ou todos os plug-ins fornecem.\n"
 "                                       Útil na conexão com mecanismos "
 "externos de instalação automática de plug-ins"
 
@@ -1332,7 +1318,7 @@ msgstr "TIPO1,TIPO2,..."
 #: tools/gst-launch.c:684
 msgid "Save xml representation of pipeline to FILE and exit"
 msgstr ""
-"Salvar representação como xml da fila de processamento para o ARQUIVO e sair"
+"Salvar representação da fila de processamento como xml para o ARQUIVO e sair"
 
 #: tools/gst-launch.c:684
 msgid "FILE"
