@@ -6,7 +6,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: libgphoto2_port 2.1.6rc1\n"
+"Project-Id-Version: libgphoto2_port 2.4.8\n"
 "Report-Msgid-Bugs-To: gphoto-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2009-11-04 23:06+0100\n"
 "PO-Revision-Date: 2010-05-09 20:23-0300\n"
