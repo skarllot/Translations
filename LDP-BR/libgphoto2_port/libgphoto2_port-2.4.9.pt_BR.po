@@ -6,10 +6,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: libgphoto2_port 2.4.8\n"
+"Project-Id-Version: libgphoto2_port 2.4.9\n"
 "Report-Msgid-Bugs-To: gphoto-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2010-04-11 14:39+0200\n"
-"PO-Revision-Date: 2010-05-09 20:23-0300\n"
+"PO-Revision-Date: 2010-05-09 20:44-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
 "MIME-Version: 1.0\n"
@@ -531,36 +531,32 @@ msgstr "(desconhecido)"
 #: usbdiskdirect/linux.c:223
 #, c-format
 msgid "USB Mass Storage direct IO"
-msgstr ""
+msgstr "E/S direta para armazenamento em massa USB"
 
 #: usbdiskdirect/linux.c:317
-#, fuzzy, c-format
-#| msgid "Could not close '%s' (%m)."
+#, c-format
 msgid "Could not seek to offset: %x on '%s' (%m)."
-msgstr "Não foi possível fechar \"%s\" (%m)."
+msgstr "Não foi possível buscar até a posição %x em \"%s\" (%m)."
 
 #: usbdiskdirect/linux.c:340
-#, fuzzy, c-format
-#| msgid "Could not write to port (%m)"
+#, c-format
 msgid "Could not write to '%s' (%m)."
-msgstr "Não foi possível escrever para a porta (%m)"
+msgstr "Não foi possível escrever para \"%s\" (%m)."
 
 #: usbdiskdirect/linux.c:362
-#, fuzzy, c-format
-#| msgid "Could not close '%s' (%m)."
+#, c-format
 msgid "Could not read from '%s' (%m)."
-msgstr "Não foi possível fechar \"%s\" (%m)."
+msgstr "Não foi possível ler de \"%s\" (%m)."
 
 #: usbscsi/linux.c:214
 #, c-format
 msgid "USB Mass Storage raw SCSI"
-msgstr ""
+msgstr "Armazenamento em massa USB bruto SCSI"
 
 #: usbscsi/linux.c:323
-#, fuzzy, c-format
-#| msgid "Could not set altsetting from %d to %d (%m)"
+#, c-format
 msgid "Could not send scsi command to: '%s' (%m)."
-msgstr "Não foi possível definir a configuração alternativa de %d para %d (%m)"
+msgstr "Não foi possível enviar um comando SCSI para \"%s\" (%m)."
 
 #~ msgid "Loading io-drivers from '%s' without ltdl..."
 #~ msgstr "Carregando drivers de E/S de \"%s\" sem LTDL..."
