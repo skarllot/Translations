@@ -815,7 +815,7 @@ msgstr "Não foi possível finalizar captura (modo bulb)."
 
 #: gphoto2/main.c:809
 msgid "Could not trigger image capture."
-msgstr "Não foi possível executar a captura da imagem."
+msgstr "Não foi possível disparar a captura da imagem."
 
 #: gphoto2/main.c:818
 msgid "Could not capture image."
