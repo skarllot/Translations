@@ -6,10 +6,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gphoto2 2.4.8\n"
+"Project-Id-Version: gphoto2 2.4.9\n"
 "Report-Msgid-Bugs-To: gphoto-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2010-04-11 15:59+0200\n"
-"PO-Revision-Date: 2010-05-09 13:44-0300\n"
+"PO-Revision-Date: 2010-05-09 17:11-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
 "MIME-Version: 1.0\n"
@@ -763,23 +763,21 @@ msgstr "Excluindo arquivo %s%s%s na câmera\n"
 #: gphoto2/main.c:707
 #, c-format
 msgid "Event FOLDER_ADDED %s/%s during wait, ignoring.\n"
-msgstr ""
+msgstr "Evento de pasta adicionada %s/%s durante a espera, ignorando.\n"
 
 #: gphoto2/main.c:717
 #, c-format
 msgid "Event UNKNOWN %s during wait, ignoring.\n"
-msgstr ""
+msgstr "Evento desconhecido %s durante a espera, ignorando.\n"
 
 #: gphoto2/main.c:723
 #, c-format
 msgid "Unknown event type %d during bulb wait, ignoring.\n"
-msgstr ""
+msgstr "Tipo de evento desconhecido %d durante a espera bulb, ignorando.\n"
 
 #: gphoto2/main.c:741
-#, fuzzy
-#| msgid "Could not get image."
 msgid "Could not get capabilities?"
-msgstr "Não foi possível obter imagem."
+msgstr "Não foi possível obter as características?"
 
 #: gphoto2/main.c:749
 #, c-format
@@ -807,26 +805,21 @@ msgid "Capturing frame #%d/%d...\n"
 msgstr "Capturando quadro #%d/%d...\n"
 
 #: gphoto2/main.c:783
-#, fuzzy, c-format
-#| msgid "Could not end capture (bulb mode)."
+#, c-format
 msgid "Could not set bulb capture, result %d."
-msgstr "Não foi possível finalizar captura (modo bulb)."
+msgstr "Não foi possível definir captura bulb, resultado %d."
 
 #: gphoto2/main.c:797
 msgid "Could not end capture (bulb mode)."
 msgstr "Não foi possível finalizar captura (modo bulb)."
 
 #: gphoto2/main.c:809
-#, fuzzy
-#| msgid "Could not get image."
 msgid "Could not trigger image capture."
-msgstr "Não foi possível obter imagem."
+msgstr "Não foi possível executar a captura da imagem."
 
 #: gphoto2/main.c:818
-#, fuzzy
-#| msgid "Could not capture."
 msgid "Could not capture image."
-msgstr "Não foi possível capturar."
+msgstr "Não foi possível capturar a imagem."
 
 #: gphoto2/main.c:826
 #, c-format
@@ -840,7 +833,7 @@ msgstr "Não foi possível capturar."
 #: gphoto2/main.c:861
 #, c-format
 msgid "Waiting for next capture slot %ld seconds...\n"
-msgstr ""
+msgstr "Esperando pela próxima captura em %ld segundos...\n"
 
 #: gphoto2/main.c:870 gphoto2/main.c:909
 #, c-format
@@ -848,10 +841,9 @@ msgid "Awakened by SIGUSR1...\n"
 msgstr "Alertado por SIGUSR1...\n"
 
 #: gphoto2/main.c:881
-#, fuzzy, c-format
-#| msgid "not sleeping (%d seconds behind schedule)\n"
+#, c-format
 msgid "not sleeping (%ld seconds behind schedule)\n"
-msgstr "não esperando (%d segundos atrasado)\n"
+msgstr "não esperando (%ld segundos atrasado)\n"
 
 #: gphoto2/main.c:1012
 #, c-format
