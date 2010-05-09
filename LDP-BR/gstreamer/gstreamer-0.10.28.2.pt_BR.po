@@ -15,10 +15,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gstreamer-0.10.26.2\n"
+"Project-Id-Version: gstreamer-0.10.28.2\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2010-04-14 23:57+0100\n"
-"PO-Revision-Date: 2010-05-08 18:36-0300\n"
+"PO-Revision-Date: 2010-05-09 13:00-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
 "MIME-Version: 1.0\n"
@@ -806,46 +806,31 @@ msgstr ""
 "acordo com WGS84 (zero é a média do nível do mar)"
 
 #: gst/gsttaglist.c:286
-#, fuzzy
-#| msgid "geo location longitude"
 msgid "geo location country"
-msgstr "longitude da localização geográfica"
+msgstr "localização geográfica do país"
 
 #: gst/gsttaglist.c:287
-#, fuzzy
-#| msgid ""
-#| "human readable descriptive location of where the media has been recorded "
-#| "or produced"
 msgid "country (english name) where the media has been recorded or produced"
-msgstr ""
-"descrição legível da localização de onde a mídia foi gravada ou produzida"
+msgstr "país, em inglês, onde a mídia foi gravada ou produzida"
 
 #: gst/gsttaglist.c:290
-#, fuzzy
-#| msgid "geo location latitude"
 msgid "geo location city"
-msgstr "latitude da localização geográfica"
+msgstr "localização geográfica da cidade"
 
 #: gst/gsttaglist.c:291
-#, fuzzy
-#| msgid ""
-#| "human readable descriptive location of where the media has been recorded "
-#| "or produced"
 msgid "city (english name) where the media has been recorded or produced"
-msgstr ""
-"descrição legível da localização de onde a mídia foi gravada ou produzida"
+msgstr "cidade, em inglês, onde a mídia foi gravada ou produzida"
 
 #: gst/gsttaglist.c:294
-#, fuzzy
-#| msgid "geo location elevation"
 msgid "geo location sublocation"
-msgstr "elevação da localização geográfica"
+msgstr "sublocalização geográfica"
 
 #: gst/gsttaglist.c:295
 msgid ""
 "a location whithin a city where the media has been produced or created (e.g. "
 "the neighborhood)"
 msgstr ""
+"localização numa cidade onde a mídia foi produzida ou criada (ex: bairro)"
 
 #. TRANSLATORS: 'show name' = 'TV/radio/podcast show name' here
 #: gst/gsttaglist.c:299
@@ -914,16 +899,16 @@ msgstr ""
 "um concerto. Tem um nível acima da faixa, mas abaixo do álbum"
 
 #: gst/gsttaglist.c:327
-#, fuzzy
-#| msgid "duration"
 msgid "user rating"
-msgstr "duração"
+msgstr "avaliação do usuário"
 
 #: gst/gsttaglist.c:328
 msgid ""
 "Rating attributed by a user. The higher the rank, the more the user likes "
 "this media"
 msgstr ""
+"Avaliação atribuída pelo usuário. Quanto melhor a avaliação, mais o usuário "
+"gosta da mídia"
 
 #: gst/gsttaglist.c:368
 msgid ", "
@@ -1100,10 +1085,8 @@ msgid "Failed after iterations as requested."
 msgstr "Falha após as interações requeridas."
 
 #: plugins/elements/gstqueue2.c:973
-#, fuzzy
-#| msgid "Error while writing to file \"%s\"."
 msgid "Error while writing to download file."
-msgstr "Erro ao escrever no arquivo \"%s\"."
+msgstr "Erro ao escrever no arquivo baixado."
 
 #: plugins/elements/gstqueue2.c:1238
 msgid "No Temp directory specified."
