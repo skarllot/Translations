@@ -1,5 +1,5 @@
-# Brazilian Portuguese translation of libgphoto2_port.
-# This file is distributed under the same license as the libgphoto2_port package.
+# Brazilian Portuguese translation of libgphoto2.
+# This file is distributed under the same license as the libgphoto2 package.
 # Copyright (C) 2002-2010 Free Software Foundation, Inc.
 # Evandro Gardenali <evandro@fasternet.com.br>, 2002.
 # Fabrício Godoy <skarllot@gmail.com>, 2010.
