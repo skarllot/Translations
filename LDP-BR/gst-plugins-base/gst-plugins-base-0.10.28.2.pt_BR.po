@@ -1,7 +1,7 @@
 # Brazilian Portuguese translation of gst-plugins-base.
-# Copyright (C) 2008-2009 Free Software Foundation, Inc.
+# Copyright (C) 2008-2010 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gst-plugins-base package.
-# Fabrício Godoy <skarllot@gmail.com>, 2008-2009.
+# Fabrício Godoy <skarllot@gmail.com>, 2008-2010.
 #
 # PCM -> PCM
 #
@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: gst-plugins-base-0.10.28.2\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2010-04-14 20:10+0100\n"
-"PO-Revision-Date: 2009-11-05 01:06-0300\n"
+"PO-Revision-Date: 2010-05-09 21:09-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
 "MIME-Version: 1.0\n"
@@ -249,10 +249,9 @@ msgid "The autovideosink element is missing."
 msgstr "O elemento autovideosink está faltando."
 
 #: gst/playback/gstplaysink.c:1103
-#, fuzzy, c-format
-#| msgid "The autovideosink element is not working."
+#, c-format
 msgid "Configured videosink %s is not working."
-msgstr "O elemento autovideosink não está funcionando."
+msgstr "O videosink configurado %s não está funcionando."
 
 #: gst/playback/gstplaysink.c:1107
 #, c-format
@@ -281,10 +280,9 @@ msgid "The autoaudiosink element is missing."
 msgstr "O elemento autoaudiosink não está faltando."
 
 #: gst/playback/gstplaysink.c:1582
-#, fuzzy, c-format
-#| msgid "The autoaudiosink element is not working."
+#, c-format
 msgid "Configured audiosink %s is not working."
-msgstr "O elemento autoaudiosink não está funcionando."
+msgstr "O audiosink configurado %s não está funcionando."
 
 #: gst/playback/gstplaysink.c:1586
 #, c-format
@@ -296,10 +294,9 @@ msgid "The autoaudiosink element is not working."
 msgstr "O elemento autoaudiosink não está funcionando."
 
 #: gst/playback/gstplaysink.c:1869 gst/playback/gstplaysink.c:1874
-#, fuzzy
-#| msgid "Can't play a text file without video."
 msgid "Can't play a text file without video or visualizations."
-msgstr "Não é possível reproduzir um arquivo de texto sem vídeo."
+msgstr ""
+"Não é possível reproduzir um arquivo de texto sem vídeo ou visualização."
 
 #: gst/playback/gsturidecodebin.c:684
 #, c-format
