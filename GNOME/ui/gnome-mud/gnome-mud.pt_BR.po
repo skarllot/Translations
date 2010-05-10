@@ -1,22 +1,23 @@
-# gnome-mud's Brazilian Portuguese translation.
-# Copyright (C) 2003, 2004 gnome-mud
+# Brazilian Portuguese translation of gnome-mud.
+# Copyright (C) 2003-2010 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gnome-mud package.
-# Everson Santos Araujo <nobios@por.com.br>, 2004
-# Leonardo Ferreira Fontenelle <leonardof@gnome.org>, 2008
-# Antonio Fernandes C. Neto <fernandes@pelivre.org>, 2010
+# Everson Santos Araujo <nobios@por.com.br>, 2004.
+# Leonardo Ferreira Fontenelle <leonardof@gnome.org>, 2008.
+# Antonio Fernandes C. Neto <fernandes@pelivre.org>, 2010.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: 1\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "mud&component=general\n"
 "POT-Creation-Date: 2010-03-16 17:37+0000\n"
-"PO-Revision-Date: 2010-04-23 16:45-0300\n"
-"Last-Translator: Antonio Fernandes C. Neto <fernandes@pelivre.org>\n"
+"PO-Revision-Date: 2010-05-10 01:06-0300\n"
+"Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Virtaal 0.2\n"
 "X-Poedit-Language: Portuguese\n"
 "X-Poedit-Country: BRAZIL\n"
@@ -27,19 +28,19 @@ msgstr "GNOME-Mud"
 
 #: ../gnome-mud.desktop.in.h:2
 msgid "The GNOME MUD Client"
-msgstr "O cliente de MUD para GNOME"
+msgstr "O cliente MUD para GNOME"
 
 #: ../gnome-mud.schemas.in.h:1
 msgid "A Pango font name. Examples are \"Sans 12\" or \"Monospace Bold 14\"."
 msgstr ""
-"Um nome de fonte Pango. Exemplos são \"Sans 12\" ou \"Monospace Bold 14\"."
+"Um nome de fonte Pango. Por exemplo \"Sans 12\" ou \"Monospace Bold 14\"."
 
 #: ../gnome-mud.schemas.in.h:2
 msgid ""
 "A character that is used to split commands in a string like \"w;w;w;l\", "
 "which will be sent to the MUD as 4 separate commands."
 msgstr ""
-"Caractere que será utilizado para separar comandos em uma expressão tal como "
+"Um caractere que é utilizado para separar comandos em uma expressão tal como "
 "\"w;w;w;l\", que serão enviados para o MUD como 4 comandos separados."
 
 #: ../gnome-mud.schemas.in.h:3 ../ui/prefs.glade.h:7
@@ -48,7 +49,7 @@ msgstr "Atalhos"
 
 #: ../gnome-mud.schemas.in.h:4
 msgid "Color palette"
-msgstr "Paleta cores"
+msgstr "Paleta de cores"
 
 #: ../gnome-mud.schemas.in.h:5
 msgid "Command Divider"
@@ -56,35 +57,35 @@ msgstr "Divisor de comandos"
 
 #: ../gnome-mud.schemas.in.h:6
 msgid "Default color of the background"
-msgstr "Cor padrão do fundo"
+msgstr "Cor predefinida de fundo"
 
 #: ../gnome-mud.schemas.in.h:7
 msgid ""
 "Default color of the background, as a color specification (can be HTML-style "
 "hex digits, or a color name such as \"red\")."
 msgstr ""
-"Cor padrão do fundo, como especificação de cor (pode-se usar dígitos "
-"hexadecimais estilo-HTML, ou o nome da cor como \"red\")."
+"Cor predefinida de fundo como uma especificação de cor (pode-se usar dígitos "
+"hexadecimais com estilo-HTML ou um nome de cor em inglês, como \"red\")."
 
 #: ../gnome-mud.schemas.in.h:8
 msgid "Default color of the text"
-msgstr "Cor padrão do texto"
+msgstr "Cor predefinida de texto"
 
 #: ../gnome-mud.schemas.in.h:9
 msgid ""
 "Default color of the text, as a color specification (can be HTML-style hex "
 "digits, or a color name such as \"red\")."
 msgstr ""
-"Cor padrão do texto, como especificação de cor (pode-se usar dígitos "
-"hexadecimais estilo-HTML, ou o nome da cor como \"red\")."
+"Cor predefinida de texto como uma especificação de cor (pode-se usar dígitos "
+"hexadecimais com estilo-HTML ou um nome de cor em inglês, como \"red\")."
 
 #: ../gnome-mud.schemas.in.h:10
 msgid "Directional keybindings"
-msgstr "Atalhos de teclado direcionais"
+msgstr "Atalhos para os direcionais de teclado"
 
 #: ../gnome-mud.schemas.in.h:11
 msgid "Enable sound file downloading on MSP enabled MUDs"
-msgstr "Habilitar download de arquivos sonoros no MSP habilitado por MUDs"
+msgstr "Habilitar download de arquivos sonoros para MSP com suporte a MUDs"
 
 #: ../gnome-mud.schemas.in.h:12
 msgid "Encoding"
@@ -104,14 +105,15 @@ msgid ""
 "the form of a colon-separated list of color names. Color names should be in "
 "hex format e.g. \"#FF00FF\"."
 msgstr ""
-"GNOME-Mud tem uma paleta de 16-cores que os MUDs podem utilizar. Deve ser "
+"O GNOME-Mud tem uma paleta de 16 cores que os MUDs podem utilizar. Deve ser "
 "especificada num formato de lista de nomes de cores separados por vírgulas. "
 "Nomes de cores devem estar no formato hexadecimal, por ex. \"#FF00FF\"."
 
 #: ../gnome-mud.schemas.in.h:16
 msgid "How often in seconds gnome-mud should flush logfiles."
 msgstr ""
-"Com que frequência, em segundos, gnome-mud despeja os arquivos de registo."
+"Com que frequência, em segundos, o gnome-mud descarrega os arquivos de "
+"registo."
 
 #: ../gnome-mud.schemas.in.h:17
 msgid ""
@@ -119,8 +121,8 @@ msgid ""
 "overridden by custom keybindings, or they can be disabled completely with "
 "this option."
 msgstr ""
-"Se habilito, GNOME-Mud irá disponibilizar alguns atalhos de teclado "
-"embutidos. Podem ser sobrepostos por atalhos personalizados ou podem ser "
+"Se habilitado o GNOME-Mud irá disponibilizar alguns atalhos de teclado "
+"embutidos que podem ser sobrescritos por atalhos personalizados ou podem ser "
 "completamente desabilitados com esta opção."
 
 #: ../gnome-mud.schemas.in.h:18
@@ -128,7 +130,7 @@ msgid ""
 "If enabled, all the text typed in will be echoed in the terminal, making it "
 "easier to control what is sent."
 msgstr ""
-"Se habilito, todo o texto inserido será ecoado no terminal, tornando mais "
+"Se habilitado todo o texto inserido será repetido no terminal, tornando mais "
 "fácil controlar o que é enviado."
 
 #: ../gnome-mud.schemas.in.h:19
@@ -137,17 +139,17 @@ msgid ""
 "selection in the entry box. Otherwise, the text entry box will be cleared "
 "after each text input."
 msgstr ""
-"Se habilito, o texto que é enviado para a conexão será deixado como uma "
-"seleção na caixa de entrada. Caso contrário, a caixa de entrada de texto "
-"será limpa após cada entrada de texto."
+"Se habilitado o texto que é enviado para a conexão será deixado selecionado "
+"na caixa de entrada. Caso contrário, a caixa de entrada de texto será limpa "
+"após cada entrada de texto."
 
 #: ../gnome-mud.schemas.in.h:20
 msgid ""
 "If enabled, whenever there's new output the terminal will be scrolled to the "
 "bottom."
 msgstr ""
-"Se habilito, sempre que existirem novas respostas o terminal será rolado até "
-"o final."
+"Se habilitado sempre que existirem novas respostas o terminal será rolado "
+"até o final."
 
 #: ../gnome-mud.schemas.in.h:21 ../ui/prefs.glade.h:16
 msgid "Keybindings"
@@ -166,16 +168,16 @@ msgid ""
 "List of profiles known to GNOME-Mud. The list contains strings naming "
 "subdirectories relative to /apps/gnome-mud/profiles."
 msgstr ""
-"Lista de perfis conhecidos do GNOME-Mud. A lista contém expressões que "
-"designam subdiretórios relativos a /apps/gnome-mud/profiles."
+"Lista de perfis conhecidos do GNOME-Mud. A lista contém expressões de texto "
+"que designam subdiretórios relativos a /apps/gnome-mud/profiles."
 
 #: ../gnome-mud.schemas.in.h:25
 msgid "Log flush interval"
-msgstr "Intervalo de despejo dos registros"
+msgstr "Intervalo para descarregamento dos registros"
 
 #: ../gnome-mud.schemas.in.h:26
 msgid "Number of lines to keep in scrollback"
-msgstr "Número de linhas a manter no histórico de rolamento"
+msgstr "Número de linhas a manter no histórico de rolagem"
 
 #: ../gnome-mud.schemas.in.h:27
 msgid ""
@@ -183,12 +185,13 @@ msgid ""
 "terminal by this number of lines; lines that don't fit in the scrollback are "
 "discarded."
 msgstr ""
-"Número de linhas de histórico a manter. Pode retornar no terminal este "
-"número de linhas; linhas que não caibam no histórico serão descartadas."
+"Número de linhas mantidas no histórico de rolagem. Será permitido rolar de "
+"volta no terminal este número de linhas; linhas que não caibam no histórico "
+"serão descartadas."
 
 #: ../gnome-mud.schemas.in.h:28
 msgid "Proxy Hostname"
-msgstr "Nome do proxy"
+msgstr "Endereço do proxy"
 
 #: ../gnome-mud.schemas.in.h:29
 msgid "Proxy Version"
@@ -196,7 +199,7 @@ msgstr "Versão do proxy"
 
 #: ../gnome-mud.schemas.in.h:30
 msgid "Remote Download"
-msgstr "Baixar"
+msgstr "Download remoto"
 
 #: ../gnome-mud.schemas.in.h:31
 msgid "Remote Encoding"
@@ -204,23 +207,23 @@ msgstr "Codificação remota"
 
 #: ../gnome-mud.schemas.in.h:32
 msgid "The SOCKS Version to be used."
-msgstr "Versão SOCKS para usar."
+msgstr "A versão do SOCKS para usar."
 
 #: ../gnome-mud.schemas.in.h:33
 msgid "The encoding for the terminal widget."
-msgstr "Codificação para o widget do terminal."
+msgstr "A codificação para o widget do terminal."
 
 #: ../gnome-mud.schemas.in.h:34
 msgid "The file in which a mudlog was last saved."
-msgstr "O arquivo no qual um mudlog foi salvo pela última vez."
+msgstr "O arquivo no qual um registro MUD foi salvo pela última vez."
 
 #: ../gnome-mud.schemas.in.h:35
 msgid "The hostname for the SOCKS proxy server."
-msgstr "O nome do servidor proxy SOCKS."
+msgstr "O endereço do servidor proxy SOCKS."
 
 #: ../gnome-mud.schemas.in.h:36
 msgid "The index of the currently selected encoding."
-msgstr "O índice da codificação selecionada atualmente."
+msgstr "O índice da codificação atualmente selecionada."
 
 #: ../gnome-mud.schemas.in.h:37 ../ui/prefs.glade.h:25
 msgid "Triggers"
@@ -236,7 +239,7 @@ msgstr "Usar negociação remota de codificação."
 
 #: ../gnome-mud.schemas.in.h:40
 msgid "Use a proxy server to connect to the mud."
-msgstr "Usar um servidor proxy para conectar-se ao mud."
+msgstr "Usar um servidor proxy para conectar-se ao MUD."
 
 #: ../gnome-mud.schemas.in.h:41 ../ui/prefs.glade.h:26
 msgid "Variables"
@@ -244,19 +247,19 @@ msgstr "Variáveis"
 
 #: ../gnome-mud.schemas.in.h:42
 msgid "Whether to echo sent text to the connection"
-msgstr "Ecoar ou não o texto enviado para a conexão"
+msgstr "Se o texto enviado para a conexão será repetido"
 
 #: ../gnome-mud.schemas.in.h:43
 msgid "Whether to enable or disable the system keys"
-msgstr "Habilitar ou desabilitar as teclas de sistema"
+msgstr "Se as teclas de sistema serão habilitadas"
 
 #: ../gnome-mud.schemas.in.h:44
 msgid "Whether to keep text sent to the connection"
-msgstr "Manter ou não o texto enviado para a conexão"
+msgstr "Se o texto enviado para a conexão será mantido"
 
 #: ../gnome-mud.schemas.in.h:45
 msgid "Whether to scroll to the bottom when there's new output"
-msgstr "Rolar ou não para o fundo ao receber novo texto"
+msgstr "Se ao receber novo texto será rolado para o final"
 
 #: ../src/debug-logger.c:827 ../src/mud-connections.c:1272
 msgid "Error"
@@ -281,7 +284,7 @@ msgstr "Mensagem"
 
 #: ../src/debug-logger.c:855
 msgid "Info"
-msgstr "Informação "
+msgstr "Informação"
 
 #: ../src/debug-logger.c:862
 msgid "Debug"
@@ -322,7 +325,7 @@ msgstr "Excluir %s?"
 
 #: ../src/mud-connections.c:1273
 msgid "No mud name specified."
-msgstr "Sem nome de mud especificado."
+msgstr "Nenhum nome de MUD especificado."
 
 #: ../src/mud-connection-view.c:575 ../src/mud-connection-view.c:1977
 #, c-format
@@ -359,8 +362,8 @@ msgid ""
 "There was an error loading config value for whether to use image in menus. (%"
 "s)\n"
 msgstr ""
-"Houve um erro ao carregar o valor da configuração de utilizar ou não "
-"imagens  nos menus. (%s)\n"
+"Houve um erro ao carregar o valor de configuração que define a utilização de "
+"imagens nos menus. (%s)\n"
 
 #: ../src/mud-connection-view.c:1880 ../src/mud-connection-view.c:1924
 msgid ""
@@ -372,7 +375,7 @@ msgstr ""
 
 #: ../src/mud-connection-view.c:2027
 msgid "<password removed>"
-msgstr "<remover senha>"
+msgstr "<senha removida>"
 
 #: ../src/mud-connection-view.c:2223
 msgid "Connecting..."
@@ -384,7 +387,7 @@ msgstr "A conexão expirou."
 
 #: ../src/mud-connection-view.c:2362
 msgid "There was an internal http connection error."
-msgstr "Houve um erro interno na conexão http."
+msgstr "Houve um erro interno na conexão HTTP."
 
 #: ../src/mud-connection-view.c:2384
 msgid "Downloading"
@@ -392,7 +395,7 @@ msgstr "Baixando"
 
 #: ../src/mud-log.c:395
 msgid "Save log as..."
-msgstr "Salvar log como..."
+msgstr "Salvar registro como..."
 
 #: ../src/mud-log.c:727
 msgid ""
