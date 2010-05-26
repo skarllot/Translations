@@ -6,9 +6,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gst-plugins-ugly-0.10.13.2\n"
+"Project-Id-Version: gst-plugins-ugly-0.10.14.2\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
-"POT-Creation-Date: 2010-02-19 01:06+0000\n"
+"POT-Creation-Date: 2010-05-14 18:43+0100\n"
 "PO-Revision-Date: 2009-03-11 02:18-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
@@ -17,34 +17,34 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ext/cdio/gstcdiocddasrc.c:205
+#: ext/cdio/gstcdiocddasrc.c:201
 msgid "Could not read from CD."
 msgstr "Não foi possível ler as informações do CD."
 
-#: ext/cdio/gstcdiocddasrc.c:280
+#: ext/cdio/gstcdiocddasrc.c:276
 msgid "Could not open CD device for reading."
 msgstr "Não foi possível abrir o dispositivo de CD para leitura."
 
-#: ext/cdio/gstcdiocddasrc.c:287
+#: ext/cdio/gstcdiocddasrc.c:283
 msgid "Disc is not an Audio CD."
 msgstr "O disco não é um CD de áudio."
 
-#: ext/dvdread/dvdreadsrc.c:228 ext/dvdread/dvdreadsrc.c:235
+#: ext/dvdread/dvdreadsrc.c:224 ext/dvdread/dvdreadsrc.c:231
 msgid "Could not open DVD"
 msgstr "Não foi possível abrir o DVD"
 
-#: ext/dvdread/dvdreadsrc.c:242 ext/dvdread/dvdreadsrc.c:594
-#: ext/dvdread/dvdreadsrc.c:601
+#: ext/dvdread/dvdreadsrc.c:238 ext/dvdread/dvdreadsrc.c:590
+#: ext/dvdread/dvdreadsrc.c:597
 #, c-format
 msgid "Could not open DVD title %d"
 msgstr "Não foi possível abrir o título %d do DVD"
 
-#: ext/dvdread/dvdreadsrc.c:248
+#: ext/dvdread/dvdreadsrc.c:244
 #, c-format
 msgid "Failed to go to chapter %d of DVD title %d"
 msgstr "Falha ao avançar para o capítulo %d do título %d do DVD"
 
-#: ext/dvdread/dvdreadsrc.c:608
+#: ext/dvdread/dvdreadsrc.c:604
 #, c-format
 msgid ""
 "Could not open DVD title %d. Interactive titles are not supported by this "
@@ -53,13 +53,13 @@ msgstr ""
 "Não foi possível abrir o título %d do DVD. Não há suporte a títulos "
 "interativos por este elemento"
 
-#: ext/lame/gstlame.c:635
+#: ext/lame/gstlame.c:630
 msgid "Failed to configure LAME encoder. Check your encoding parameters."
 msgstr ""
 "Falha ao configurar o codificador LAME. Verifique seus parâmetros de "
 "codificação."
 
-#: ext/lame/gstlame.c:729 ext/twolame/gsttwolame.c:515
+#: ext/lame/gstlame.c:724 ext/twolame/gsttwolame.c:515
 #, c-format
 msgid ""
 "The requested bitrate %d kbit/s for property '%s' is not allowed. The "
@@ -74,11 +74,11 @@ msgstr ""
 "Falha ao configurar o codificador TwoLAME. Verifique seus parâmetros de "
 "codificação."
 
-#: gst/asfdemux/gstasfdemux.c:383
+#: gst/asfdemux/gstasfdemux.c:379
 msgid "This stream contains no data."
 msgstr "Este fluxo não contém dados."
 
-#: gst/asfdemux/gstasfdemux.c:1644
+#: gst/asfdemux/gstasfdemux.c:1641
 msgid "Internal data stream error."
 msgstr "Erro interno no fluxo de dados."
 
