@@ -9,9 +9,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gst-plugins-good 0.10.21.2\n"
+"Project-Id-Version: gst-plugins-good 0.10.22.2\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
-"POT-Creation-Date: 2010-04-14 20:34+0100\n"
+"POT-Creation-Date: 2010-05-14 18:37+0100\n"
 "PO-Revision-Date: 2009-11-29 19:29-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
@@ -29,7 +29,7 @@ msgid "Failed to query sound server capabilities"
 msgstr "Falha ao examinar os recursos do servidor de som"
 
 #. TRANSLATORS: 'song title' by 'artist name'
-#: ext/pulse/pulsesink.c:2237
+#: ext/pulse/pulsesink.c:2226
 #, c-format
 msgid "'%s' by '%s'"
 msgstr "\"%s\" por \"%s\""
@@ -40,7 +40,7 @@ msgstr "\"%s\" por \"%s\""
 msgid "Internal data stream error."
 msgstr "Erro interno no fluxo de dados."
 
-#: ext/jpeg/gstjpegdec.c:850 ext/jpeg/gstjpegdec.c:1261
+#: ext/jpeg/gstjpegdec.c:935 ext/jpeg/gstjpegdec.c:1446
 msgid "Failed to decode JPEG image"
 msgstr "Falha ao decodificar a imagem JPEG"
 
@@ -48,7 +48,7 @@ msgstr "Falha ao decodificar a imagem JPEG"
 msgid "Could not connect to server"
 msgstr "Não foi possível conectar ao servidor"
 
-#: gst/avi/gstavimux.c:1846
+#: gst/avi/gstavimux.c:1847
 msgid "No or invalid input audio, AVI stream will be corrupt."
 msgstr "Entrada de áudio nula ou inválida, o fluxo AVI pode estar corrompido."
 
@@ -56,32 +56,31 @@ msgstr "Entrada de áudio nula ou inválida, o fluxo AVI pode estar corrompido."
 msgid "This file contains no playable streams."
 msgstr "Este arquivo não contêm fluxos reproduzíveis."
 
-#: gst/qtdemux/qtdemux.c:531 gst/qtdemux/qtdemux.c:1545
-#: gst/qtdemux/qtdemux.c:1800 gst/qtdemux/qtdemux.c:3108
-#: gst/qtdemux/qtdemux.c:3165
+#: gst/qtdemux/qtdemux.c:531 gst/qtdemux/qtdemux.c:1797
+#: gst/qtdemux/qtdemux.c:3105 gst/qtdemux/qtdemux.c:3162
 msgid "This file is invalid and cannot be played."
 msgstr "Este arquivo é inválido e não pôde ser reproduzido."
 
-#: gst/qtdemux/qtdemux.c:1857
+#: gst/qtdemux/qtdemux.c:1854
 msgid "This file is incomplete and cannot be played."
 msgstr "Este arquivo está incompleto e não pôde ser reproduzido."
 
-#: gst/qtdemux/qtdemux.c:3831 gst/qtdemux/qtdemux.c:3838
-#: gst/qtdemux/qtdemux.c:4306 gst/qtdemux/qtdemux.c:4704
-#: gst/qtdemux/qtdemux.c:4710 gst/qtdemux/qtdemux.c:6123
+#: gst/qtdemux/qtdemux.c:3828 gst/qtdemux/qtdemux.c:3835
+#: gst/qtdemux/qtdemux.c:4303 gst/qtdemux/qtdemux.c:4705
+#: gst/qtdemux/qtdemux.c:4711 gst/qtdemux/qtdemux.c:6124
 msgid "This file is corrupt and cannot be played."
 msgstr "Este arquivo está corrompido e não pôde ser reproduzido."
 
-#: gst/qtdemux/qtdemux.c:4019
+#: gst/qtdemux/qtdemux.c:4016
 msgid "The video in this file might not play correctly."
 msgstr "O vídeo neste arquivo pode não ser reproduzido corretamente."
 
-#: gst/qtdemux/qtdemux.c:4110
+#: gst/qtdemux/qtdemux.c:4107
 #, c-format
 msgid "This file contains too many streams. Only playing first %d"
 msgstr "Este arquivo contêm muitos fluxos. Apenas reproduzindo o primeiro %d"
 
-#: gst/rtsp/gstrtspsrc.c:4654
+#: gst/rtsp/gstrtspsrc.c:4781
 msgid ""
 "No supported stream was found. You might need to install a GStreamer RTSP "
 "extension plugin for Real media streams."
@@ -89,7 +88,7 @@ msgstr ""
 "Nenhum fluxo com suporte foi localizado. Você pode precisar instalar um plug-"
 "in de extensão GStreamer RTSP para fluxos Real media."
 
-#: gst/rtsp/gstrtspsrc.c:4659
+#: gst/rtsp/gstrtspsrc.c:4786
 msgid ""
 "No supported stream was found. You might need to allow more transport "
 "protocols or may otherwise be missing the right GStreamer RTSP extension "
@@ -103,15 +102,16 @@ msgstr ""
 msgid "Internal data flow error."
 msgstr "Erro interno no fluxo de dados."
 
-#: sys/oss/gstossmixertrack.c:98 sys/sunaudio/gstsunaudiomixertrack.c:69
+#: sys/oss/gstossmixertrack.c:98 sys/oss4/oss4-mixer.c:722
+#: sys/sunaudio/gstsunaudiomixertrack.c:69
 msgid "Volume"
 msgstr "Volume"
 
-#: sys/oss/gstossmixertrack.c:99
+#: sys/oss/gstossmixertrack.c:99 sys/oss4/oss4-mixer.c:735
 msgid "Bass"
 msgstr "Grave"
 
-#: sys/oss/gstossmixertrack.c:100
+#: sys/oss/gstossmixertrack.c:100 sys/oss4/oss4-mixer.c:736
 msgid "Treble"
 msgstr "Agudo"
 
@@ -119,7 +119,7 @@ msgstr "Agudo"
 msgid "Synth"
 msgstr "Sintetizador"
 
-#: sys/oss/gstossmixertrack.c:102
+#: sys/oss/gstossmixertrack.c:102 sys/oss4/oss4-mixer.c:750
 msgid "PCM"
 msgstr "PCM"
 
@@ -131,7 +131,7 @@ msgstr "Alto-falante"
 msgid "Line-in"
 msgstr "Entrada de linha"
 
-#: sys/oss/gstossmixertrack.c:105
+#: sys/oss/gstossmixertrack.c:105 sys/oss4/oss4-mixer.c:741
 msgid "Microphone"
 msgstr "Microfone"
 
@@ -199,11 +199,13 @@ msgstr "Vídeo"
 msgid "Radio"
 msgstr "Rádio"
 
-#: sys/oss/gstossmixertrack.c:122 sys/sunaudio/gstsunaudiomixertrack.c:71
+#: sys/oss/gstossmixertrack.c:122 sys/oss4/oss4-mixer.c:764
+#: sys/sunaudio/gstsunaudiomixertrack.c:71
 msgid "Monitor"
 msgstr "Monitorador"
 
-#: sys/oss/gstosssink.c:398
+#: sys/oss/gstosssink.c:398 sys/oss4/oss4-sink.c:494
+#: sys/oss4/oss4-source.c:367
 msgid ""
 "Could not open audio device for playback. Device is being used by another "
 "application."
@@ -211,7 +213,8 @@ msgstr ""
 "Não foi possível abrir o dispositivo de áudio para reprodução. O dispositivo "
 "está sendo usado por outro aplicativo."
 
-#: sys/oss/gstosssink.c:405
+#: sys/oss/gstosssink.c:405 sys/oss4/oss4-sink.c:504
+#: sys/oss4/oss4-source.c:377
 msgid ""
 "Could not open audio device for playback. You don't have permission to open "
 "the device."
@@ -219,7 +222,8 @@ msgstr ""
 "Não foi possível abrir o dispositivo de áudio para reprodução. Você não tem "
 "permissão para abrir o dispositivo."
 
-#: sys/oss/gstosssink.c:413
+#: sys/oss/gstosssink.c:413 sys/oss4/oss4-sink.c:515
+#: sys/oss4/oss4-source.c:388
 msgid "Could not open audio device for playback."
 msgstr "Não foi possível abrir o dispositivo de áudio para reprodução."
 
@@ -235,33 +239,491 @@ msgstr ""
 msgid "Could not open audio device for recording."
 msgstr "Não foi possível abrir o dispositivo de áudio para gravação."
 
+#: sys/oss4/oss4-mixer.c:302
+#, fuzzy
+#| msgid "Could not open audio device for recording."
+msgid "Could not open audio device for mixer control handling."
+msgstr "Não foi possível abrir o dispositivo de áudio para gravação."
+
+#: sys/oss4/oss4-mixer.c:316
+#, fuzzy
+#| msgid ""
+#| "Could not open audio device for recording. You don't have permission to "
+#| "open the device."
+msgid ""
+"Could not open audio device for mixer control handling. This version of the "
+"Open Sound System is not supported by this element."
+msgstr ""
+"Não foi possível abrir o dispositivo de áudio para gravação. Você não tem "
+"permissão para abrir o dispositivo."
+
+#: sys/oss4/oss4-mixer.c:723
+msgid "Master"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:724
+msgid "Front"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:725
+#, fuzzy
+#| msgid "Record"
+msgid "Rear"
+msgstr "Gravação"
+
+#: sys/oss4/oss4-mixer.c:726
+#, fuzzy
+#| msgid "Headphone"
+msgid "Headphones"
+msgstr "Fone de ouvido"
+
+#: sys/oss4/oss4-mixer.c:727
+msgid "Center"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:728
+msgid "LFE"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:729
+msgid "Surround"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:730
+#, fuzzy
+#| msgid "Video"
+msgid "Side"
+msgstr "Vídeo"
+
+#: sys/oss4/oss4-mixer.c:731 sys/sunaudio/gstsunaudiomixertrack.c:72
+msgid "Built-in Speaker"
+msgstr "Alto-falante interno"
+
+#: sys/oss4/oss4-mixer.c:732 sys/sunaudio/gstsunaudiomixertrack.c:76
+msgid "AUX 1 Out"
+msgstr "Saída aux. 1"
+
+#: sys/oss4/oss4-mixer.c:733 sys/sunaudio/gstsunaudiomixertrack.c:77
+msgid "AUX 2 Out"
+msgstr "Saída aux. 2"
+
+#: sys/oss4/oss4-mixer.c:734
+#, fuzzy
+#| msgid "AUX 1 Out"
+msgid "AUX Out"
+msgstr "Saída aux. 1"
+
+#: sys/oss4/oss4-mixer.c:737
+msgid "3D Depth"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:738
+msgid "3D Center"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:739
+msgid "3D Enhance"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:740
+#, fuzzy
+#| msgid "Headphone"
+msgid "Telephone"
+msgstr "Fone de ouvido"
+
+#: sys/oss4/oss4-mixer.c:742 sys/sunaudio/gstsunaudiomixertrack.c:74
+msgid "Line Out"
+msgstr "Saída de linha"
+
+#: sys/oss4/oss4-mixer.c:743 sys/oss4/oss4-mixer.c:744
+#, fuzzy
+#| msgid "Line-in"
+msgid "Line In"
+msgstr "Entrada de linha"
+
+#: sys/oss4/oss4-mixer.c:745
+msgid "Internal CD"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:746
+#, fuzzy
+#| msgid "Video"
+msgid "Video In"
+msgstr "Vídeo"
+
+#: sys/oss4/oss4-mixer.c:747
+#, fuzzy
+#| msgid "AUX 1 Out"
+msgid "AUX 1 In"
+msgstr "Saída aux. 1"
+
+#: sys/oss4/oss4-mixer.c:748
+#, fuzzy
+#| msgid "AUX 2 Out"
+msgid "AUX 2 In"
+msgstr "Saída aux. 2"
+
+#: sys/oss4/oss4-mixer.c:749
+msgid "AUX In"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:751 sys/oss4/oss4-mixer.c:752
+#, fuzzy
+#| msgid "Record"
+msgid "Record Gain"
+msgstr "Gravação"
+
+#: sys/oss4/oss4-mixer.c:753
+#, fuzzy
+#| msgid "Out-gain"
+msgid "Output Gain"
+msgstr "Ganho de saída"
+
+#: sys/oss4/oss4-mixer.c:754
+#, fuzzy
+#| msgid "Microphone"
+msgid "Microphone Boost"
+msgstr "Microfone"
+
+#: sys/oss4/oss4-mixer.c:755
+msgid "Loopback"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:756
+msgid "Diagnostic"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:757
+msgid "Bass Boost"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:758
+msgid "Playback Ports"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:759
+msgid "Input"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:760 sys/oss4/oss4-mixer.c:761
+#, fuzzy
+#| msgid "Record"
+msgid "Record Source"
+msgstr "Gravação"
+
+#: sys/oss4/oss4-mixer.c:762
+#, fuzzy
+#| msgid "Monitor"
+msgid "Monitor Source"
+msgstr "Monitorador"
+
+#: sys/oss4/oss4-mixer.c:763
+msgid "Keyboard Beep"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:765
+msgid "Simulate Stereo"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:766 sys/oss4/oss4-mixer.c:786
+msgid "Stereo"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:767
+msgid "Surround Sound"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:768
+#, fuzzy
+#| msgid "Microphone"
+msgid "Microphone Gain"
+msgstr "Microfone"
+
+#: sys/oss4/oss4-mixer.c:769
+#, fuzzy
+#| msgid "Speaker"
+msgid "Speaker Source"
+msgstr "Alto-falante"
+
+#: sys/oss4/oss4-mixer.c:770
+#, fuzzy
+#| msgid "Microphone"
+msgid "Microphone Source"
+msgstr "Microfone"
+
+#: sys/oss4/oss4-mixer.c:771
+msgid "Jack"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:772
+msgid "Center / LFE"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:773
+msgid "Stereo Mix"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:774
+msgid "Mono Mix"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:775
+msgid "Input Mix"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:776
+#, fuzzy
+#| msgid "SPDIF Out"
+msgid "SPDIF In"
+msgstr "Saída SPDIF"
+
+#: sys/oss4/oss4-mixer.c:777 sys/sunaudio/gstsunaudiomixertrack.c:75
+msgid "SPDIF Out"
+msgstr "Saída SPDIF"
+
+#: sys/oss4/oss4-mixer.c:778
+#, fuzzy
+#| msgid "Microphone"
+msgid "Microphone 1"
+msgstr "Microfone"
+
+#: sys/oss4/oss4-mixer.c:779
+#, fuzzy
+#| msgid "Microphone"
+msgid "Microphone 2"
+msgstr "Microfone"
+
+#: sys/oss4/oss4-mixer.c:780
+#, fuzzy
+#| msgid "Digital-1"
+msgid "Digital Out"
+msgstr "Digital 1"
+
+#: sys/oss4/oss4-mixer.c:781
+#, fuzzy
+#| msgid "Digital-1"
+msgid "Digital In"
+msgstr "Digital 1"
+
+#: sys/oss4/oss4-mixer.c:782
+msgid "HDMI"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:783
+msgid "Modem"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:784
+msgid "Handset"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:785
+msgid "Other"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:787
+msgid "None"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:788
+msgid "On"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:789
+msgid "Off"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:790
+msgid "Mute"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:791
+msgid "Fast"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:792
+msgid "Very Low"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:793
+msgid "Low"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:794
+msgid "Medium"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:795
+msgid "High"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:796 sys/oss4/oss4-mixer.c:797
+msgid "Very High"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:798
+msgid "Production"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:799
+#, fuzzy
+#| msgid "Microphone"
+msgid "Front Panel Microphone"
+msgstr "Microfone"
+
+#: sys/oss4/oss4-mixer.c:800
+msgid "Front Panel Line In"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:801
+msgid "Front Panel Headphones"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:802
+msgid "Front Panel Line Out"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:803
+msgid "Green Connector"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:804
+msgid "Pink Connector"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:805
+msgid "Blue Connector"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:806
+msgid "White Connector"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:807
+msgid "Black Connector"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:808
+msgid "Gray Connector"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:809
+msgid "Orange Connector"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:810
+msgid "Red Connector"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:811
+msgid "Yellow Connector"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:812
+msgid "Green Front Panel Connector"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:813
+msgid "Pink Front Panel Connector"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:814
+msgid "Blue Front Panel Connector"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:815
+msgid "White Front Panel Connector"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:816
+msgid "Black Front Panel Connector"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:817
+msgid "Gray Front Panel Connector"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:818
+msgid "Orange Front Panel Connector"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:819
+msgid "Red Front Panel Connector"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:820
+msgid "Yellow Front Panel Connector"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:821
+msgid "Spread Output"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:822
+msgid "Downmix"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:866
+msgid "Virtual Mixer Input"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:868
+msgid "Virtual Mixer Output"
+msgstr ""
+
+#: sys/oss4/oss4-mixer.c:870
+msgid "Virtual Mixer Channels"
+msgstr ""
+
+#. TRANSLATORS: name + number of a volume mixer control
+#: sys/oss4/oss4-mixer.c:921
+#, c-format
+msgid "%s %d Function"
+msgstr ""
+
+#. TRANSLATORS: name of a volume mixer control
+#: sys/oss4/oss4-mixer.c:928
+#, c-format
+msgid "%s Function"
+msgstr ""
+
+#: sys/oss4/oss4-sink.c:524 sys/oss4/oss4-source.c:398
+#, fuzzy
+#| msgid ""
+#| "Could not open audio device for playback. You don't have permission to "
+#| "open the device."
+msgid ""
+"Could not open audio device for playback. This version of the Open Sound "
+"System is not supported by this element."
+msgstr ""
+"Não foi possível abrir o dispositivo de áudio para reprodução. Você não tem "
+"permissão para abrir o dispositivo."
+
+#: sys/oss4/oss4-sink.c:640
+msgid "Playback is not supported by this audio device."
+msgstr ""
+
+#: sys/oss4/oss4-sink.c:647
+msgid "Audio playback error."
+msgstr ""
+
+#: sys/oss4/oss4-source.c:520
+msgid "Recording is not supported by this audio device."
+msgstr ""
+
+#: sys/oss4/oss4-source.c:527
+#, fuzzy
+#| msgid "Error reading %d bytes from device '%s'."
+msgid "Error recording from audio device."
+msgstr "Erro ao ler %d bytes do dispositivo \"%s\"."
+
 #: sys/sunaudio/gstsunaudiomixertrack.c:70
 msgid "Gain"
 msgstr "Ganho"
 
-#: sys/sunaudio/gstsunaudiomixertrack.c:72
-msgid "Built-in Speaker"
-msgstr "Alto-falante interno"
-
 #: sys/sunaudio/gstsunaudiomixertrack.c:73
 msgid "Headphone"
 msgstr "Fone de ouvido"
-
-#: sys/sunaudio/gstsunaudiomixertrack.c:74
-msgid "Line Out"
-msgstr "Saída de linha"
-
-#: sys/sunaudio/gstsunaudiomixertrack.c:75
-msgid "SPDIF Out"
-msgstr "Saída SPDIF"
-
-#: sys/sunaudio/gstsunaudiomixertrack.c:76
-msgid "AUX 1 Out"
-msgstr "Saída aux. 1"
-
-#: sys/sunaudio/gstsunaudiomixertrack.c:77
-msgid "AUX 2 Out"
-msgstr "Saída aux. 2"
 
 #: sys/v4l2/gstv4l2src.c:855
 #, c-format
