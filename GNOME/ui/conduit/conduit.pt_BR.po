@@ -1,26 +1,27 @@
 # Brazilian Portuguese translation for conduit.
-# Copyright (C) 2007 Free Software Foundation, Inc.
+# Copyright (C) 2007-2010 Free Software Foundation, Inc.
 # This file is distributed under the same license as the conduit package.
 # Vladimir Melo <vmelo@gnome.org>, 2007-2008.
 # Og Maciel <ogmaciel@gnome.org>, 2008.
 # Leonardo Fontenelle <leo.fontenelle@gmail.com>, 2008.
 # Fábio Nogueira <deb-user-ba@ubuntu.com>, 2008.
 # Michel Recondo <mrecondo@gmail.com>, 2008.
-#
 # Flamarion Jorge <jorge.flamarion@gmail.com>, 2009.
 # Jonh Wendell <jwendell@gnome.org>, 2009.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: conduit\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=conduit&component=documentation and translation\n"
 "POT-Creation-Date: 2010-01-21 18:41+0000\n"
-"PO-Revision-Date: 2009-08-25 16:27-0300\n"
+"PO-Revision-Date: 2010-06-05 23:47-0300\n"
 "Last-Translator: Flamarion Jorge <jorge.flamarion@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../data/conduit.desktop.in.in.h:1
 msgid "Conduit Synchronizer"
@@ -28,7 +29,7 @@ msgstr "Sincronizador Conduit"
 
 #: ../data/conduit.desktop.in.in.h:2
 msgid "Synchronization for GNOME"
-msgstr "Sincronização para GNOME"
+msgstr "Sincronizador para o GNOME"
 
 #: ../conduit/Knowledge.py:8
 msgid "What Do You Want to Synchronize?"
@@ -44,15 +45,15 @@ msgstr "Sincronização de grupo criada"
 
 #: ../conduit/Knowledge.py:12
 msgid "Add Another Data Provider to the Group to Synchronize it"
-msgstr "Adicione outro provedor de dados para o grupo para sincroniza-lo"
+msgstr "Adicione outro provedor de dados para o grupo para sincronizá-lo"
 
 #: ../conduit/Knowledge.py:14
 msgid "You Are Now Ready to Synchronize"
-msgstr "Você está pronto para sincronizar"
+msgstr "Agora você está pronto para sincronizar"
 
 #: ../conduit/Knowledge.py:15
 msgid "Right Click on Group for Options"
-msgstr "Clique com o botão direito para opções de grupo"
+msgstr "Clique com o botão direito no grupo para opções"
 
 #: ../conduit/Knowledge.py:24
 msgid "Synchronize Two Folders"
@@ -64,23 +65,19 @@ msgstr "Backup de pasta no Box.net"
 
 #: ../conduit/Knowledge.py:30
 msgid "Synchronize Tagged F-Spot Photos to Flickr"
-msgstr "Sincroniza fotos etiquetadas do F-Spot para o Flickr"
+msgstr "Sincronizar fotos etiquetadas do F-Spot para o Flickr"
 
 #: ../conduit/Knowledge.py:33
-#, fuzzy
-#| msgid "Synchronize Tagged F-Spot Photos to Flickr"
 msgid "Synchronize Photos to Flickr"
-msgstr "Sincroniza fotos etiquetadas do F-Spot para o Flickr"
+msgstr "Sincronizar fotos para o Flickr"
 
 #: ../conduit/Knowledge.py:36
 msgid "Upload Photos to Facebook"
-msgstr ""
+msgstr "Subir fotos para o Facebook"
 
 #: ../conduit/Knowledge.py:39
-#, fuzzy
-#| msgid "Synchronize data from RSS enclosures"
 msgid "Synchronize Desktop Wallpaper from a RSS Feed"
-msgstr "Sincroniza dados de componentes de RSS"
+msgstr "Sincronizar papel de parede com fonte de RSS"
 
 #: ../conduit/Main.py:59
 msgid "Conduit is a synchronization application."
@@ -89,33 +86,33 @@ msgstr "Conduit é um aplicativo de sincronização."
 #: ../conduit/Main.py:63
 #, python-format
 msgid "Launch without GUI. [default: %default]"
-msgstr "Lançar sem interface gráfica [padrão: %default]"
+msgstr "Lançar sem interface gráfica. [predefinição: %default]"
 
 #: ../conduit/Main.py:67
 #, python-format
 msgid "Save dataprovider configuration to FILE. [default: %default]"
-msgstr "Salvar configuração de provedor de dados no ARQUIVO [padrão: %default]"
+msgstr "Salvar configuração de provedor de dados para ARQUIVO. [predefinição: %default]"
 
 #: ../conduit/Main.py:71
 #, python-format
 msgid "Iconify on startup. [default: %default]"
-msgstr "Minimizar na inicialização [padrão: %default]"
+msgstr "Minimizar na inicialização. [predefinição: %default]"
 
 #: ../conduit/Main.py:75
 #, python-format
 msgid "Run with the specified UI. [default: %default]"
-msgstr "Executar com UI específico [default: %default]"
+msgstr "Executar com interface especificada. [predefinição: %default]"
 
 #: ../conduit/Main.py:79
 msgid "Only load modules in the named files. [default: load all modules]"
 msgstr ""
-"Somente carregar módulos nas chamadas de arquivos [padrão: carregar todos "
-"módulos]"
+"Somente carregar módulos nos arquivos designados. [predefinição: carregar todos "
+"os módulos]"
 
 #: ../conduit/Main.py:83
 msgid "Do not load modules in the named files. [default: load all modules]"
 msgstr ""
-"Não carregar módulos nas chamadas de arquivos. [padrão: carregar todos "
+"Não carregar módulos nos arquivos designados. [predefinição: carregar todos os "
 "módulos]"
 
 #: ../conduit/Main.py:87
@@ -123,8 +120,8 @@ msgid ""
 "Explicitly set internal Conduit settings (keys) to the given values for this "
 "session. [default: do not set]"
 msgstr ""
-"Explicitamente definir configurações (chaves) internas no Conduit de\n"
-"determinados valores para esta sessão, [padrão: não definir]"
+"Explicitamente definir configurações (chaves) internas do Conduit pelos "
+"valores determinados para esta sessão. [predefinição: não definir]"
 
 #: ../conduit/Main.py:91
 #, python-format
@@ -132,23 +129,23 @@ msgid ""
 "Enable loading of unfinished or unsupported dataproviders. [default: %"
 "default]"
 msgstr ""
-"Habilitar carregamento de provedores de dados inacabados ou  sem suporte. "
-"[default: %default]"
+"Habilitar carregamento de provedores de dados incompletos ou sem suporte. "
+"[predefinição: %default]"
 
 #: ../conduit/Main.py:95
 #, python-format
 msgid "Generate more debugging information. [default: %default]"
-msgstr "Gerar mais informações de depuração. [padrão: %default]"
+msgstr "Gerar mais informações de depuração. [predefinição: %default]"
 
 #: ../conduit/Main.py:99
 #, python-format
 msgid "Generate less debugging information. [default: %default]"
-msgstr "Gerar menos informações de depuração. [padrão: %default]"
+msgstr "Gerar menos informações de depuração. [predefinição: %default]"
 
 #: ../conduit/Main.py:103
 #, python-format
 msgid "Generate no debugging information. [default: %default]"
-msgstr "Não gerar informações de depuração. [padrão: %default]"
+msgstr "Não gerar informações de depuração. [predefinição: %default]"
 
 #: ../conduit/dataproviders/DataProvider.py:22
 msgid "Ready"
@@ -192,7 +189,7 @@ msgstr "Sincronização cancelada"
 
 #: ../conduit/dataproviders/DataProvider.py:32
 msgid "Synchronization Conflict"
-msgstr "Conflito de sincronização"
+msgstr "Conflito na sincronização"
 
 #: ../conduit/dataproviders/DataProvider.py:33
 msgid "Not Configured"
@@ -217,7 +214,7 @@ msgstr "1024x768"
 #: ../conduit/dataproviders/Image.py:35
 #: ../conduit/modules/N800Module/N800Module.py:57
 msgid "None"
-msgstr "Nenhum"
+msgstr "Nenhuma"
 
 #. Default Categories for the DataProviders
 #: ../conduit/dataproviders/__init__.py:6
@@ -295,7 +292,7 @@ msgstr "Introdução"
 
 #: ../conduit/gtkui/UI.py:34
 msgid "Writing a Data Provider"
-msgstr "Gravar um provedor de dados"
+msgstr "Gravando um provedor de dados"
 
 #: ../conduit/gtkui/UI.py:35
 msgid "API Documentation"
@@ -320,7 +317,7 @@ msgstr "para"
 
 #: ../conduit/gtkui/UI.py:190
 msgid "Relationship Database"
-msgstr "Banco de dados de relações"
+msgstr "Banco de dados de relacionamento"
 
 #: ../conduit/gtkui/UI.py:194
 msgid "Conversions Available"
@@ -1055,487 +1052,3 @@ msgstr "Zoto"
 msgid "Synchronize your Zoto photos"
 msgstr "Sincroniza suas fotos do Zoto"
 
-#~ msgid "<b>Default Synchronization Options</b>"
-#~ msgstr "<b>Opções padrões de sincronização</b>"
-
-#~ msgid "<b>General</b>"
-#~ msgstr "<b>Geral</b>"
-
-#~ msgid "Always Up-To-Date"
-#~ msgstr "Sempre atualizar"
-
-#~ msgid "Ask Me What to Do"
-#~ msgstr "Pergunte-me o que fazer"
-
-#~ msgid "Ask me what to do"
-#~ msgstr "Pergunta o que fazer"
-
-#~ msgid "Cancel Synchronization"
-#~ msgstr "Cancelar sincronização"
-
-#~ msgid "Cancel currently-synchronizing groups"
-#~ msgstr "Cancela a sincronização atual de grupos"
-
-#~ msgid "Clear Canvas"
-#~ msgstr "Limpar tela"
-
-#~ msgid "Compare"
-#~ msgstr "Comparar"
-
-#~ msgid "Conduit Preferences"
-#~ msgstr "Preferências do Conduit"
-
-#~ msgid "Configuration"
-#~ msgstr "Configurações"
-
-#~ msgid "Configure Item"
-#~ msgstr "Configurar item"
-
-#~ msgid "Configure the synchronization settings for this item"
-#~ msgstr "Define as configurações de sincronização para este item"
-
-#~ msgid "Conflict Options"
-#~ msgstr "Opções de conflito"
-
-#~ msgid "Conflicts"
-#~ msgstr "Conflitos"
-
-#~ msgid "Contents"
-#~ msgstr "Conteúdos"
-
-#~ msgid "Data Conversions"
-#~ msgstr "Conversões de dados"
-
-#~ msgid "Data Providers"
-#~ msgstr "Provedores de dados"
-
-#~ msgid "Delete Group"
-#~ msgstr "Excluir grupo"
-
-#~ msgid "Delete Item"
-#~ msgstr "Excluir item"
-
-#~ msgid "Delete Options"
-#~ msgstr "Opções de exclusão"
-
-#~ msgid "Delete from the corresponding sink"
-#~ msgstr "Excluir do recipiente correspondente"
-
-#~ msgid "Delete the Corresponding Item"
-#~ msgstr "Excluir o item correspondente"
-
-#~ msgid "Editor"
-#~ msgstr "Editor"
-
-#~ msgid "Minimize to notification area"
-#~ msgstr "Minimizar para área de notificação"
-
-#~ msgid "Refresh Group"
-#~ msgstr "Atualizar grupo"
-
-#~ msgid "Refresh Item"
-#~ msgstr "Atualizar item"
-
-#~ msgid "Replace the Older Item"
-#~ msgstr "Substituir o item mais antigo"
-
-#~ msgid "Replace the older item"
-#~ msgstr "Substitui o item mais antigo"
-
-#~ msgid "Resolve Conflicts"
-#~ msgstr "Resolver conflitos"
-
-#~ msgid "Save settings on exit"
-#~ msgstr "Salvar configurações ao sair"
-
-#~ msgid "Show Hints"
-#~ msgstr "Mostrar dicas"
-
-#~ msgid "Show status icon"
-#~ msgstr "Mostrar ícone de status"
-
-#~ msgid "Skip"
-#~ msgstr "Pular"
-
-#~ msgid "Slow Synchronization"
-#~ msgstr "Sincronização lenta"
-
-#~ msgid "Start Conduit at login"
-#~ msgstr "Iniciar o Conduit no início da sessão"
-
-#~ msgid "Synchronization Options"
-#~ msgstr "Opções de sincronização"
-
-#~ msgid "Synchronize All"
-#~ msgstr "Sincronizar tudo"
-
-#~ msgid "Synchronize Group"
-#~ msgstr "Sincronizar grupo"
-
-#~ msgid "Synchronize group"
-#~ msgstr "Sincroniza grupo"
-
-#~ msgid "Synchronizes all groups"
-#~ msgstr "Sincroniza todos os grupos"
-
-#~ msgid "Title"
-#~ msgstr "Título"
-
-#~ msgid "Two-Way Synchronization"
-#~ msgstr "Sincronização bilateral"
-
-#~ msgid "When an item has been deleted:"
-#~ msgstr "Quando um item for excluído:"
-
-#~ msgid "When an item is deleted..."
-#~ msgstr "Quando um item é excluído..."
-
-#~ msgid "When there is a conflict..."
-#~ msgstr "Quando houver um conflito..."
-
-#~ msgid "When there is a two-way conflict:"
-#~ msgstr "Quando houver um conflito bilateral:"
-
-#~ msgid "_Edit"
-#~ msgstr "_Editar"
-
-#~ msgid "_File"
-#~ msgstr "_Arquivo"
-
-#~ msgid "_Help"
-#~ msgstr "Aj_uda"
-
-#~ msgid "<b>Account Details</b>"
-#~ msgstr "<b>Detalhes da conta</b>"
-
-#~ msgid "Calendar:"
-#~ msgstr "Agenda:"
-
-#~ msgid "Email:"
-#~ msgstr "E-mail:"
-
-#~ msgid "Load Calendars"
-#~ msgstr "Carregar agendas"
-
-#~ msgid "Password:"
-#~ msgstr "Senha:"
-
-#~ msgid "Create Partnership"
-#~ msgstr "Criar parceria"
-
-#~ msgid "Windows Mobile Contacts"
-#~ msgstr "Contatos do Windows Mobile"
-
-#~ msgid "Windows Mobile Calendar"
-#~ msgstr "Calendário do Windows Mobile"
-
-#~ msgid "Tasks"
-#~ msgstr "Tarefas"
-
-#~ msgid "Windows Mobile Tasks"
-#~ msgstr "Tarefas do Windows Mobile"
-
-#~ msgid "Not Configured Correctly"
-#~ msgstr "Configuração incorreta"
-
-#~ msgid "<b>Saved Note Settings</b>"
-#~ msgstr "<b>Salvar configurações das notas</b>"
-
-#~ msgid "Backpack"
-#~ msgstr "Backpack"
-
-#~ msgid "Enabled"
-#~ msgstr "Habilitado"
-
-#~ msgid "<b>Return Playlists</b>"
-#~ msgstr "<b>Retornar listas de reprodução</b>"
-
-#~ msgid "Banshee"
-#~ msgstr "Banshee"
-
-#~ msgid "Folder:"
-#~ msgstr "Pasta:"
-
-#~ msgid "Load"
-#~ msgstr "Carregar"
-
-#~ msgid "Addressbook:"
-#~ msgstr "Catálogo de endereços:"
-
-#~ msgid "Evolution"
-#~ msgstr "Evolution"
-
-#~ msgid ""
-#~ "Limit the Number of\n"
-#~ "Enclosures Downloaded to:"
-#~ msgstr ""
-#~ "Limitar o número de\n"
-#~ "componentes baixados para:"
-
-#~ msgid "<b>Items to Synchronize</b>"
-#~ msgstr "<b>Itens para sincronizar</b>"
-
-#~ msgid "Add Directory"
-#~ msgstr "Adicionar diretório"
-
-#~ msgid "Add File"
-#~ msgstr "Adicionar arquivo"
-
-#~ msgid "Advanced"
-#~ msgstr "Avançado"
-
-#~ msgid "File Configuration"
-#~ msgstr "Configurações de arquivo"
-
-#~ msgid "Folder Configuration"
-#~ msgstr "Configurações de pasta"
-
-#~ msgid "Folder Location:"
-#~ msgstr "Localização da pasta:"
-
-#~ msgid "Follow Symbolic Links"
-#~ msgstr "Seguir links simbólicos"
-
-#~ msgid "Ignore File Modification Times"
-#~ msgstr "Ignorar tempo de modificação do arquivo"
-
-#~ msgid "Include Hidden Files"
-#~ msgstr "Incluir arquivos ocultos"
-
-#~ msgid "Select A Folder"
-#~ msgstr "Selecionar uma pasta"
-
-#~ msgid "Photoset Name:"
-#~ msgstr "Nome do conjunto de fotos:"
-
-#~ msgid "<b>Return Photos Tagged With</b>"
-#~ msgstr "<b>Retornar fotos etiquetadas com</b>"
-
-#~ msgid "Create Tags: "
-#~ msgstr "Criar etiquetas: "
-
-#~ msgid "Synchronize your desktop preferences"
-#~ msgstr "Sincroniza suas preferências da área de trabalho"
-
-#~ msgid "<b>Downloaded Document Format</b>"
-#~ msgstr "<b>Formato do documento baixado</b>"
-
-#~ msgid "Presentations"
-#~ msgstr "Apresentações"
-
-#~ msgid "Spreadsheets"
-#~ msgstr "Planilhas"
-
-#~ msgid "<b>Download Videos</b>"
-#~ msgstr "<b>Baixar vídeos</b>"
-
-#~ msgid "Favorites of above user"
-#~ msgstr "Favoritos do usuário acima"
-
-#~ msgid "Max retrieved videos (0 is unlimited):"
-#~ msgstr "Máx. de vídeos recuperados (0 é ilimitado):"
-
-#~ msgid "Top rated"
-#~ msgstr "Mais bem avaliados"
-
-#~ msgid "Uploaded by above user"
-#~ msgstr "Enviado pelo usuário acima"
-
-#~ msgid "YouTube Source"
-#~ msgstr "Fonte do YouTube"
-
-#~ msgid "<b>Encoding</b>"
-#~ msgstr "<b>Codificação</b>"
-
-#~ msgid "iPod Photos"
-#~ msgstr "Fotos do iPod"
-
-#~ msgid "%s Format (%s)"
-#~ msgstr "%s Formato (%s)"
-
-#~ msgid "unchanged"
-#~ msgstr "inalterado"
-
-#~ msgid "<b>Synchronize the Following Playlists</b>"
-#~ msgstr "<b>Sincronizar as seguintes listas de reprodução</b>"
-
-#~ msgid "Rhythmbox Playlists"
-#~ msgstr "Listas de reprodução do Rhythmbox"
-
-#~ msgid "Slow Sync"
-#~ msgstr "Sincronização lenta"
-
-#~ msgid "Sync Options"
-#~ msgstr "Opções de sincronização"
-
-#~ msgid "Two Way Sync"
-#~ msgstr "Sincronização bilateral"
-
-#~ msgid "Use built in Web browser"
-#~ msgstr "Usar navegador de internet embutido"
-
-#~ msgid "_About"
-#~ msgstr "_Sobre"
-
-#~ msgid "About Conduit"
-#~ msgstr "Sobre o Conduit"
-
-#~ msgid "Please Enter a Folder Name"
-#~ msgstr "Por favor digite o nome de uma pasta"
-
-#~ msgid ""
-#~ "All folders require a descriptive name. To name a folder enter its name "
-#~ "where indicated"
-#~ msgstr ""
-#~ "Todas as pastas requerem um nome descritivo. Para nomear uma pasta digite "
-#~ "seu nome no local indicado"
-
-#~ msgid "By user"
-#~ msgstr "Por usuário"
-
-#~ msgid "User: "
-#~ msgstr "Usuário: "
-
-#~ msgid "_Synchronize"
-#~ msgstr "_Sincronizar"
-
-#~ msgid "Synchronize all dataproviders"
-#~ msgstr "Sincronizar todos os provedores de dados"
-
-#~ msgid "F-Spot Photos"
-#~ msgstr "Fotos do F-Spot"
-
-#~ msgid "Gmail Emails"
-#~ msgstr "E-mails do Gmail"
-
-#~ msgid "Sync your emails"
-#~ msgstr "Sincroniza seus e-mails"
-
-#~ msgid "<b>Return Emails Matching</b>"
-#~ msgstr "<b>Retornar E-mails que Coincidem com</b>"
-
-#~ msgid "<b>When Saving Emails</b>"
-#~ msgstr "<b>Quando Salvar E-mails</b>"
-
-#~ msgid "All emails"
-#~ msgstr "Todos os e-mails"
-
-#~ msgid "Emails in folder:"
-#~ msgstr "E-mails na pasta:"
-
-#~ msgid "Emails with label:"
-#~ msgstr "E-mails com rótulo:"
-
-#~ msgid "Unread emails"
-#~ msgstr "E-mails não lidos"
-
-#~ msgid "Sync your Evolution contacts"
-#~ msgstr "Sincronizar seus contatos do Evolution"
-
-#~ msgid "Evolution Events"
-#~ msgstr "Eventos do Evolution"
-
-#~ msgid "Sync your Evolution events"
-#~ msgstr "Sincronizar seus eventos do Evolution"
-
-#~ msgid "Evolution Todo"
-#~ msgstr "Tarefas do Evolution"
-
-#~ msgid "Picasa Desktop"
-#~ msgstr "Picasa Desktop"
-
-#~ msgid "Sync your Picasa photos"
-#~ msgstr "Sincroniza suas fotos do Picasa"
-
-#~ msgid "<b>Return Photos In The Following Albums</b>"
-#~ msgstr "<b>Retornar Fotos nos Seguintes Álbuns</b>"
-
-#~ msgid "Sync your devices contacts"
-#~ msgstr "Sincronizar seus contatos dos dispositivos"
-
-#~ msgid "Sync your devices events"
-#~ msgstr "Sincronizar seus eventos dos dispositivos"
-
-#~ msgid "Sync your devices tasks"
-#~ msgstr "Sincronizar suas tarefas dos dispositivos"
-
-#~ msgid "Dataproviders"
-#~ msgstr "Provedores de dados"
-
-#~ msgid "dialog1"
-#~ msgstr "dialog1"
-
-#~ msgid "F-Spot DBus Photos"
-#~ msgstr "Fotos do F-Spot pelo DBus"
-
-#~ msgid "Sync your F-Spot photos over DBus"
-#~ msgstr "Sincronizar suas fotos do F-Spot pelo DBus"
-
-#~ msgid "Email"
-#~ msgstr "E-mail"
-
-#~ msgid "<b>Saved Email Settings</b>"
-#~ msgstr "<b>Configurações de E-mail Salvas</b>"
-
-#~ msgid "Attach label to email"
-#~ msgstr "Anexar rótulo ao e-mail"
-
-#~ msgid "Gmail Sink Properties"
-#~ msgstr "Propriedades do Recipiente do Gmail"
-
-#~ msgid "Password:   "
-#~ msgstr "Senha:   "
-
-#~ msgid "Save with label:"
-#~ msgstr "Salvar com rótulo:"
-
-#~ msgid "Username: "
-#~ msgstr "Nome de usuário: "
-
-#~ msgid "Network your desktop"
-#~ msgstr "Conectar sua área de trabalho em rede"
-
-#~ msgid "%Y-%m-%dT%H:%M:%S"
-#~ msgstr "%Y-%m-%dT%H:%M:%S"
-
-#~ msgid "Synce Events"
-#~ msgstr "Eventos do Synce"
-
-#~ msgid "Synce Todo"
-#~ msgstr "Tarefas do Synce"
-
-#~ msgid "Settings Configuration"
-#~ msgstr "Configuração de Preferências"
-
-#~ msgid "Enable iPod and USB Key Support"
-#~ msgstr "Habilitar Suporte a iPod e USB"
-
-#~ msgid "Backpack Notes Sink Properties"
-#~ msgstr "Propriedades de Destino das Notas do Backpack"
-
-#~ msgid "Url: "
-#~ msgstr "Url: "
-
-#~ msgid "Attach Tag to Photo"
-#~ msgstr "Anexar Etiqueta à Foto"
-
-#~ msgid "Flickr Sink Properties"
-#~ msgstr "Propriedades de Destino do Flickr"
-
-#~ msgid "Photos are Restricted to Family"
-#~ msgstr "Fotos são Restritas à Família"
-
-#~ msgid "Photos are Restricted to Friends"
-#~ msgstr "Fotos são Restritas aos Amigos"
-
-#~ msgid "Gmail Source Properties"
-#~ msgstr "Propriedades de Fonte de Gmail"
-
-#~ msgid "Tomboy Notes"
-#~ msgstr "Notas do Tomboy"
-
-#~ msgid "GNOME Wiki"
-#~ msgstr "Wiki do GNOME"
-
-#~ msgid "Get Pages from the GNOME Wiki"
-#~ msgstr "Obter Páginas do Wiki do GNOME"
