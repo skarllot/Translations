@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: gstreamer-0.10.29.2\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2010-06-26 14:09+0100\n"
-"PO-Revision-Date: 2010-05-09 13:00-0300\n"
+"PO-Revision-Date: 2010-06-28 20:12-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
 "MIME-Version: 1.0\n"
@@ -833,21 +833,19 @@ msgstr ""
 "localização numa cidade onde a mídia foi produzida ou criada (ex: bairro)"
 
 #: gst/gsttaglist.c:298
-#, fuzzy
-#| msgid "geo location longitude"
 msgid "geo location movement speed"
-msgstr "longitude da localização geográfica"
+msgstr "velocidade de movimento na localização geográfica"
 
 #: gst/gsttaglist.c:299
 msgid ""
 "movement speed of the capturing device while performing the capture in m/s"
 msgstr ""
+"velocidade de movimento do  dispositivo de captura ao realizar a captura, em "
+"m/s"
 
 #: gst/gsttaglist.c:302
-#, fuzzy
-#| msgid "geo location elevation"
 msgid "geo location movement direction"
-msgstr "elevação da localização geográfica"
+msgstr "direção de movimento na localização geográfica"
 
 #: gst/gsttaglist.c:303
 msgid ""
@@ -855,12 +853,13 @@ msgid ""
 "media. It is represented as degrees in floating point representation, 0 "
 "means the geographic north, and increases clockwise"
 msgstr ""
+"indica a direção de movimento do dispositivo ao realizar a captura de uma "
+"mídia. É representado como graus em representação fracionária, 0 indica "
+"Norte e incrementa-se no sentido do relógio"
 
 #: gst/gsttaglist.c:308
-#, fuzzy
-#| msgid "geo location elevation"
 msgid "geo location capture direction"
-msgstr "elevação da localização geográfica"
+msgstr "direção de captura na localização geográfica"
 
 #: gst/gsttaglist.c:309
 msgid ""
@@ -868,6 +867,9 @@ msgid ""
 "It is represented as degrees in floating point  representation, 0 means the "
 "geographic north, and increases clockwise"
 msgstr ""
+"indica a direção que o dispositivo estava apontando quando capturava uma "
+"mídia. É representado como graus em representação fracionária, 0 indica "
+"Norte e incrementa-se no sentido do relógio"
 
 #. TRANSLATORS: 'show name' = 'TV/radio/podcast show name' here
 #: gst/gsttaglist.c:315
@@ -949,33 +951,27 @@ msgstr ""
 
 #: gst/gsttaglist.c:347
 msgid "device manufacturer"
-msgstr ""
+msgstr "fabricante do dispositivo"
 
 #: gst/gsttaglist.c:348
-#, fuzzy
-#| msgid "version of the encoder used to encode this stream"
 msgid "Manufacturer of the device used to create this media"
-msgstr "versão do codificador usado pelo fluxo"
+msgstr "Fabricante do dispositivo usado para criar esta mídia"
 
 #: gst/gsttaglist.c:350
-#, fuzzy
-#| msgid "video codec"
 msgid "device model"
-msgstr "CODEC de vídeo"
+msgstr "modelo do dispositivo"
 
 #: gst/gsttaglist.c:351
-#, fuzzy
-#| msgid "version of the encoder used to encode this stream"
 msgid "Model of the device used to create this media"
-msgstr "versão do codificador usado pelo fluxo"
+msgstr "Modelo do dispositivo usado para criar esta mídia"
 
 #: gst/gsttaglist.c:353
 msgid "image orientation"
-msgstr ""
+msgstr "orientação de imagem"
 
 #: gst/gsttaglist.c:354
 msgid "How the image should be rotated or flipped before display"
-msgstr ""
+msgstr "Como a imagem deveria ser rotacionada ou invertida antes da exibição"
 
 #: gst/gsttaglist.c:393
 msgid ", "
@@ -1443,7 +1439,7 @@ msgstr "Não instale um manipulador de falhas"
 
 #: tools/gst-launch.c:713
 msgid "Do not install signal handlers for SIGUSR1 and SIGUSR2"
-msgstr ""
+msgstr "Não fixar manipuladores de sinal para SIGUSR1 e SIGUSR2"
 
 #: tools/gst-launch.c:715
 msgid "Print alloc trace (if enabled at compile time)"
