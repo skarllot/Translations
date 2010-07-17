@@ -8,6 +8,7 @@
 # Michel Recondo <mrecondo@gmail.com>, 2008.
 # Flamarion Jorge <jorge.flamarion@gmail.com>, 2009.
 # Jonh Wendell <jwendell@gnome.org>, 2009.
+# Fabrício Godoy <skarllot@gmail.com>, 2010.
 #
 msgid ""
 msgstr ""
@@ -15,8 +16,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=conduit&component=documentation and translation\n"
 "POT-Creation-Date: 2010-01-21 18:41+0000\n"
-"PO-Revision-Date: 2010-06-05 23:47-0300\n"
-"Last-Translator: Flamarion Jorge <jorge.flamarion@gmail.com>\n"
+"PO-Revision-Date: 2010-07-17 14:16-0300\n"
+"Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -69,7 +70,7 @@ msgstr "Sincronizar fotos etiquetadas do F-Spot para o Flickr"
 
 #: ../conduit/Knowledge.py:33
 msgid "Synchronize Photos to Flickr"
-msgstr "Sincronizar fotos para o Flickr"
+msgstr "Sincronizar fotos com o Flickr"
 
 #: ../conduit/Knowledge.py:36
 msgid "Upload Photos to Facebook"
@@ -91,7 +92,9 @@ msgstr "Lançar sem interface gráfica. [predefinição: %default]"
 #: ../conduit/Main.py:67
 #, python-format
 msgid "Save dataprovider configuration to FILE. [default: %default]"
-msgstr "Salvar configuração de provedor de dados para ARQUIVO. [predefinição: %default]"
+msgstr ""
+"Salvar configuração de provedor de dados para ARQUIVO. [predefinição: %"
+"default]"
 
 #: ../conduit/Main.py:71
 #, python-format
@@ -106,14 +109,14 @@ msgstr "Executar com interface especificada. [predefinição: %default]"
 #: ../conduit/Main.py:79
 msgid "Only load modules in the named files. [default: load all modules]"
 msgstr ""
-"Somente carregar módulos nos arquivos designados. [predefinição: carregar todos "
-"os módulos]"
+"Somente carregar módulos nos arquivos designados. [predefinição: carregar "
+"todos os módulos]"
 
 #: ../conduit/Main.py:83
 msgid "Do not load modules in the named files. [default: load all modules]"
 msgstr ""
-"Não carregar módulos nos arquivos designados. [predefinição: carregar todos os "
-"módulos]"
+"Não carregar módulos nos arquivos designados. [predefinição: carregar todos "
+"os módulos]"
 
 #: ../conduit/Main.py:87
 msgid ""
@@ -655,13 +658,14 @@ msgstr "Fonte para sincronização de arquivos múltiplos"
 msgid "Synchronize folders"
 msgstr "Sincronizar pastas"
 
+# No Firefox bookmarks é traduzido como favoritos
 #: ../conduit/modules/Firefox3Module/Firefox3Module.py:40
 msgid "Firefox 3 Bookmarks"
-msgstr "Marcadores do Firefox"
+msgstr "Favoritos do Firefox 3"
 
 #: ../conduit/modules/Firefox3Module/Firefox3Module.py:41
 msgid "Syncronize your Firefox 3 Bookmarks"
-msgstr "Sincroniza seus marcadores do Firefox 3"
+msgstr "Sincroniza seus favoritos do Firefox 3"
 
 #: ../conduit/modules/Firefox3Module/Firefox3Module.py:100
 msgid "Firefox Profile"
@@ -673,7 +677,7 @@ msgstr "Flickr"
 
 #: ../conduit/modules/FlickrModule/FlickrModule.py:77
 msgid "Synchronize your Flickr.com photos"
-msgstr "Sincroniza suas fotos do Flickr.com"
+msgstr "Sincroniza suas fotos com o Flickr.com"
 
 #: ../conduit/modules/FlickrModule/FlickrModule.py:287
 msgid "Failed to connect."
@@ -685,11 +689,11 @@ msgstr "Nomes de álbuns carregados."
 
 #: ../conduit/modules/FlickrModule/FlickrModule.py:292
 msgid "Failed to login."
-msgstr "Falha no login."
+msgstr "Falha ao iniciar sessão."
 
 #: ../conduit/modules/FlickrModule/FlickrModule.py:303
 msgid "Logging in, please wait..."
-msgstr "Identificando, por favor aguarde..."
+msgstr "Favor aguardar, iniciando sessão..."
 
 #: ../conduit/modules/FlickrModule/FlickrModule.py:308
 #: ../conduit/modules/GoogleBookmarksModule.py:67
@@ -724,19 +728,19 @@ msgstr "F-Spot"
 
 #: ../conduit/modules/FspotModule/FspotModule.py:26
 msgid "Synchronize your F-Spot photos"
-msgstr "Sincroniza suas fotos do F-Spot"
+msgstr "Sincroniza suas fotos com o F-Spot"
 
 #: ../conduit/modules/FspotModule/FspotModule.py:152
 msgid "F-Spot DBus interface is operating in read-only mode"
-msgstr "A interface DBus do F-Spot está operando em modo somente leitura"
+msgstr "A interface D-Bus do F-Spot está operando em modo somente leitura"
 
 #: ../conduit/modules/FspotModule/FspotModule.py:218
 msgid "F-Spot is running"
-msgstr "F-Spot está executando"
+msgstr "F-Spot está em execução"
 
 #: ../conduit/modules/FspotModule/FspotModule.py:219
 msgid "Please start F-Spot or activate the D-Bus Extension"
-msgstr "Por favor inicie o F-Spot ou ative a extensão D-Bus"
+msgstr "Por favor, inicie o F-Spot ou ative a extensão D-Bus"
 
 #: ../conduit/modules/FspotModule/FspotModule.py:244
 msgid "Start F-Spot"
@@ -801,7 +805,7 @@ msgstr "Sincroniza seu Google Bookmarks"
 
 #: ../conduit/modules/GoogleBookmarksModule.py:66
 msgid "Login Details"
-msgstr "Detalhes de login"
+msgstr "Detalhes de usuário"
 
 #: ../conduit/modules/GoogleBookmarksModule.py:70
 #: ../conduit/modules/ZotoModule/ZotoModule.py:247
@@ -822,7 +826,7 @@ msgstr "Picasa"
 
 #: ../conduit/modules/GoogleModule/GoogleModule.py:583
 msgid "Synchronize your Google Picasa photos"
-msgstr "Sincroniza suas fotos do Google Picasa"
+msgstr "Sincroniza suas fotos com o Google Picasa"
 
 #: ../conduit/modules/GoogleModule/GoogleModule.py:745
 msgid "Google Contacts"
@@ -830,7 +834,7 @@ msgstr "Contatos do Gmail"
 
 #: ../conduit/modules/GoogleModule/GoogleModule.py:746
 msgid "Synchronize your Google Mail contacts"
-msgstr "Sincroniza seus contatos do Gmail"
+msgstr "Sincroniza seus contatos com o Gmail"
 
 #: ../conduit/modules/GoogleModule/GoogleModule.py:1076
 msgid "Google Documents"
@@ -838,7 +842,7 @@ msgstr "Google Docs"
 
 #: ../conduit/modules/GoogleModule/GoogleModule.py:1077
 msgid "Synchronize your Google Documents"
-msgstr "Sincroniza seu Google Docs"
+msgstr "Sincroniza seus documentos com o Google Docs"
 
 #: ../conduit/modules/GoogleModule/GoogleModule.py:1322
 #: ../conduit/modules/RhythmboxModule/RhythmboxModule.py:69
@@ -859,11 +863,11 @@ msgstr "YouTube"
 
 #: ../conduit/modules/GoogleModule/GoogleModule.py:1334
 msgid "Synchronize data from YouTube"
-msgstr "Sincroniza dados do YouTube"
+msgstr "Sincroniza dados com o YouTube"
 
 #: ../conduit/modules/iPodModule/iPodModule.py:180
 msgid "Synchronize your iPod notes"
-msgstr "Sincroniza suas notas do iPod"
+msgstr "Sincroniza suas notas com o iPod"
 
 #: ../conduit/modules/iPodModule/iPodModule.py:295
 msgid "Contacts"
@@ -871,7 +875,7 @@ msgstr "Contatos"
 
 #: ../conduit/modules/iPodModule/iPodModule.py:296
 msgid "Synchronize your iPod contacts"
-msgstr "Sincroniza seus contatos do iPod"
+msgstr "Sincroniza seus contatos com o iPod"
 
 #: ../conduit/modules/iPodModule/iPodModule.py:331
 msgid "Calendar"
@@ -879,11 +883,11 @@ msgstr "Calendário"
 
 #: ../conduit/modules/iPodModule/iPodModule.py:332
 msgid "Synchronize your iPod calendar"
-msgstr "Sincroniza seu calendário do iPod"
+msgstr "Sincroniza seu calendário com o iPod"
 
 #: ../conduit/modules/iPodModule/iPodModule.py:368
 msgid "Synchronize your iPod photos"
-msgstr "Sincroniza suas fotos do iPod"
+msgstr "Sincroniza suas fotos com o iPod"
 
 #: ../conduit/modules/iPodModule/iPodModule.py:465
 msgid "Delete"
@@ -901,7 +905,7 @@ msgstr "Opções de conversão"
 
 #: ../conduit/modules/iPodModule/iPodModule.py:816
 msgid "Keep converted files"
-msgstr "Manter arquivos convertidos"
+msgstr "Manter os arquivos convertidos"
 
 #: ../conduit/modules/iPodModule/iPodModule.py:846
 msgid "iPod Music"
@@ -909,7 +913,7 @@ msgstr "Músicas do iPod"
 
 #: ../conduit/modules/iPodModule/iPodModule.py:847
 msgid "Synchronize your iPod music"
-msgstr "Sincroniza suas músicas do iPod"
+msgstr "Sincroniza suas músicas com o iPod"
 
 #: ../conduit/modules/iPodModule/iPodModule.py:882
 msgid "iPod Video"
@@ -917,7 +921,7 @@ msgstr "Vídeos do iPod"
 
 #: ../conduit/modules/iPodModule/iPodModule.py:883
 msgid "Synchronize your iPod videos"
-msgstr "Sincroniza seus vídeos do iPod"
+msgstr "Sincroniza seus vídeos com o iPod"
 
 #: ../conduit/modules/iPodModule/iPodModule.py:907
 msgid "Movie"
@@ -929,7 +933,7 @@ msgstr "Vídeos musicais"
 
 #: ../conduit/modules/iPodModule/iPodModule.py:909
 msgid "TV Show"
-msgstr "Exibir tv"
+msgstr "Exibir TV"
 
 #: ../conduit/modules/iPodModule/iPodModule.py:911
 msgid "Video kind"
@@ -946,7 +950,7 @@ msgstr "Arquivos do N800"
 
 #: ../conduit/modules/N800Module/N800Module.py:106
 msgid "Synchronizes files/folders to a N800 device"
-msgstr "Sincronizar arquivos/pastas para um dispositivo N800"
+msgstr "Sincronizar arquivos/pastas com um dispositivo N800"
 
 #. To translators: default backup folder of N800
 #: ../conduit/modules/N800Module/N800Module.py:111
@@ -959,7 +963,7 @@ msgstr "Músicas do N800"
 
 #: ../conduit/modules/N800Module/N800Module.py:127
 msgid "Synchronizes music to a N800 device"
-msgstr "Sincroniza músicas para um dispositivo N800"
+msgstr "Sincroniza músicas com um dispositivo N800"
 
 #. To translators: defaul music folder of N800
 #: ../conduit/modules/N800Module/N800Module.py:133
@@ -972,7 +976,7 @@ msgstr "Vídeos do N800"
 
 #: ../conduit/modules/N800Module/N800Module.py:151
 msgid "Synchronizes video to a N800 device"
-msgstr "Sincroniza vídeos para um dispositivo N800"
+msgstr "Sincroniza vídeos com um dispositivo N800"
 
 #. To translators: defaul video folder of N800
 #: ../conduit/modules/N800Module/N800Module.py:157
@@ -985,7 +989,7 @@ msgstr "Fotos do N800"
 
 #: ../conduit/modules/N800Module/N800Module.py:175
 msgid "Synchronizes photos to an N800 device"
-msgstr "Sincroniza fotos para um dispositivo N800"
+msgstr "Sincroniza fotos com um dispositivo N800"
 
 #. To translators: default photos folder of N800
 #: ../conduit/modules/N800Module/N800Module.py:181
@@ -1002,11 +1006,11 @@ msgstr "Sincronizar seus marcadores do Nautilus"
 
 #: ../conduit/modules/NautilusBookmarksModule.py:145
 msgid "Sync bookmarks to local places/files"
-msgstr "Sincronizar marcadores para lugares/arquivos locais"
+msgstr "Sincronizar marcadores com caminhos locais"
 
 #: ../conduit/modules/NautilusBookmarksModule.py:148
 msgid "Sync bookmarks to remote places/files"
-msgstr "Sincronizar marcadores para lugares/arquivos remotos"
+msgstr "Sincronizar marcadores com caminhos remotos"
 
 #: ../conduit/modules/NetworkModule/Server.py:147
 msgid "Network"
@@ -1030,7 +1034,7 @@ msgstr "Shutterfly"
 
 #: ../conduit/modules/ShutterflyModule/ShutterflyModule.py:27
 msgid "Synchronize your Shutterfly photos"
-msgstr "Sincroniza suas fotos do Shutterfly"
+msgstr "Sincroniza suas fotos com o Shutterfly"
 
 #: ../conduit/modules/ShutterflyModule/shutterfly/shutterfly.py:33
 msgid "%Y-%m-%d %H:%M:%S"
@@ -1042,7 +1046,7 @@ msgstr "SmugMug"
 
 #: ../conduit/modules/SmugMugModule/SmugMugModule.py:29
 msgid "Synchronize your SmugMug.com photos"
-msgstr "Sincroniza suas fotos do SmugMug.com"
+msgstr "Sincroniza suas fotos com o SmugMug.com"
 
 #: ../conduit/modules/ZotoModule/ZotoModule.py:154
 msgid "Zoto"
@@ -1050,5 +1054,4 @@ msgstr "Zoto"
 
 #: ../conduit/modules/ZotoModule/ZotoModule.py:155
 msgid "Synchronize your Zoto photos"
-msgstr "Sincroniza suas fotos do Zoto"
-
+msgstr "Sincroniza suas fotos com o Zoto"
