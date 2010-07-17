@@ -414,7 +414,7 @@ msgstr "Detalhes da conta"
 
 #: ../conduit/modules/BackpackModule/BackpackModule.py:106
 msgid "Login"
-msgstr "Iniciar sessão"
+msgstr "Usuário"
 
 #: ../conduit/modules/BackpackModule/BackpackModule.py:109
 msgid "API key"
@@ -524,7 +524,7 @@ msgstr "Sincroniza suas fotos do Facebook"
 #: ../conduit/modules/FacebookModule/FacebookModule.py:124
 #: ../conduit/modules/FlickrModule/FlickrModule.py:282
 msgid "Loading album list..."
-msgstr "Obtendo lista de álbuns..."
+msgstr "Carregando lista de álbuns..."
 
 #: ../conduit/modules/FacebookModule/FacebookModule.py:128
 msgid "Failed to connect"
@@ -536,7 +536,7 @@ msgstr "Autenticado"
 
 #: ../conduit/modules/FacebookModule/FacebookModule.py:133
 msgid "Failed to login"
-msgstr "Falha no login"
+msgstr "Falha ao carregar sessão"
 
 #: ../conduit/modules/FacebookModule/FacebookModule.py:145
 #: ../conduit/modules/FspotModule/FspotModule.py:243
@@ -588,7 +588,7 @@ msgstr "Limitar para"
 
 #: ../conduit/modules/FeedModule/FeedModule.py:129
 msgid "Randomize enclosures"
-msgstr "Randomizar componentes"
+msgstr "Tornar os componentes aleatórios"
 
 #: ../conduit/modules/FeedModule/FeedModule.py:133
 msgid "Download types"
@@ -634,7 +634,7 @@ msgstr "Incluir pasta..."
 
 #: ../conduit/modules/FileModule/FileConfiguration.py:314
 msgid "Please Name All Folders"
-msgstr "Por favor nomeie todas as pastas"
+msgstr "Por favor, nomeie todas as pastas"
 
 #: ../conduit/modules/FileModule/FileConfiguration.py:315
 msgid ""
