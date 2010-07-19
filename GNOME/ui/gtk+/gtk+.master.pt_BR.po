@@ -2067,7 +2067,7 @@ msgstr "Fornece um indicador visual de progresso"
 #: ../gtk/gtkstock.c:313
 msgctxt "Stock label"
 msgid "Information"
-msgstr "Informações"
+msgstr "Informação"
 
 #: ../gtk/gtkstock.c:314
 msgctxt "Stock label"
@@ -2082,7 +2082,7 @@ msgstr "Erro"
 #: ../gtk/gtkstock.c:316
 msgctxt "Stock label"
 msgid "Question"
-msgstr "Question"
+msgstr "Pergunta"
 
 #. FIXME these need accelerators when appropriate, and
 #. * need the mnemonics to be rationalized
