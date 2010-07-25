@@ -1,6 +1,6 @@
 # Brazilian Portuguese translation of Diary.
-# Copyright (C) 2008 Free Software Foundation, Inc.
-# This file is distributed under the same license as the Diary package.
+# Copyright (C) 2008-2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the almanah package.
 # Fabrício Godoy <skarllot@gmail.com>, 2008.
 # Fábio Nogueira <deb-user-ba@ubuntu.com>, 2008.
 # Taylon Silmer <taylonsilva@gmail.com>, 2008.
@@ -254,7 +254,7 @@ msgstr "_Editar"
 
 #: ../data/almanah.ui.h:37
 msgid "_Export…"
-msgstr "_Exportar…"
+msgstr "E_xportar..."
 
 #: ../data/almanah.ui.h:38
 msgid "_File"
@@ -286,7 +286,7 @@ msgstr "_Ver definições"
 
 #: ../data/almanah.ui.h:45
 msgid "e.g. \"14/03/2009\" or \"14th March 2009\"."
-msgstr "exemplo \"14/03/2009\" ou \"14 de Março de 2009\"."
+msgstr "exemplo \"14/03/2009\" ou \"14 de março de 2009\"."
 
 #: ../src/add-definition-dialog.c:82
 msgid "Add Definition"
@@ -314,7 +314,7 @@ msgstr "Um compromisso em um calendário do Evolution."
 
 #: ../src/events/calendar-appointment.c:120 ../src/events/calendar-task.c:109
 msgid "Error launching Evolution"
-msgstr "Erro ao lançar o Evolution."
+msgstr "Erro ao lançar o Evolution"
 
 #: ../src/events/calendar-task.c:49
 msgid "Calendar Task"
@@ -335,8 +335,8 @@ msgid ""
 "exported, unencrypted in plain text format."
 msgstr ""
 "Selecione uma _pasta para exportar as entradas como arquivos texto, uma por "
-"entrada, com nome no formato 'dd-mm-yyyy', e sem extensão. Todas as entradas "
-"serão exportadas sem criptografia, no formato texto-puro."
+"entrada, com nomes no formato 'aaaa-mm-dd' e sem extensão. Todas as entradas "
+"serão exportadas sem criptografia, no formato de texto puro."
 
 #: ../src/export-operation.c:51 ../src/import-operation.c:51
 msgid "Database"
@@ -347,16 +347,16 @@ msgid ""
 "Select a _filename for a complete copy of the unencrypted Almanah Diary "
 "database to be given."
 msgstr ""
-"Selecione uma _pasta onde será gerada uma cópia completa da base de dados do "
-"Diário Almanah, sem criptografia."
+"Selecione um nome de ar_quivo onde será gerada uma cópia completa e sem "
+"criptografia da base de dados do Diário Almanah."
 
 #: ../src/import-export-dialog.c:145
 msgid "Import _mode: "
-msgstr "_Modo de importação:"
+msgstr "_Modo de importação: "
 
 #: ../src/import-export-dialog.c:145
 msgid "Export _mode: "
-msgstr "_Modo de exportação:"
+msgstr "_Modo de exportação: "
 
 #. Set the window title
 #: ../src/import-export-dialog.c:148
@@ -414,8 +414,8 @@ msgid ""
 "format 'yyyy-mm-dd', and no extension. Any and all such files will be "
 "imported."
 msgstr ""
-"Selecione uma _pasta contendo arquivos texto, um por entrada, com nome no "
-"formato 'dd-mm-yyyy', e sem extensão. Todos e qualquer arquivos serão "
+"Selecione uma _pasta contendo arquivos texto, um por entrada, com nomes no "
+"formato 'aaaa-mm-dd' e sem extensão. Todos e quaisquer desses arquivos serão "
 "importados."
 
 #: ../src/import-operation.c:52
@@ -522,7 +522,7 @@ msgstr "Erro ao abrir a URI"
 
 #: ../src/definitions/uri.c:99
 msgid "URI: "
-msgstr "URI:"
+msgstr "URI: "
 
 #: ../src/main-window.c:398
 #, c-format
@@ -577,7 +577,7 @@ msgstr ""
 #: ../src/main-window.c:910
 #, c-format
 msgid "A helpful diary keeper, storing %u entries and %u definitions."
-msgstr "Um útil mantedor de diário, armazenando %u entradas e %u definições."
+msgstr "Um útil criador de diário, armazenando %u entradas e %u definições."
 
 #: ../src/main-window.c:916
 msgid "Copyright © 2008-2009 Philip Withnall"
@@ -595,8 +595,8 @@ msgstr ""
 "Fábio Nogueira <deb-user-ba@ubuntu.com>\n"
 "Taylon Silmer <taylonsilva@gmail.com>\n"
 "Vladimir Melo <vmelo@gnome.org>\n"
-"Antonio Fernandes C. Neto <fernandes@pelivre.org>Carlos José Pereira "
-"<carlao2005@gmail.com>"
+"Antonio Fernandes C. Neto <fernandes@pelivre.org>\n"
+"Carlos José Pereira <carlao2005@gmail.com>"
 
 #: ../src/main-window.c:928
 msgid "Almanah Website"
@@ -663,7 +663,7 @@ msgstr "O verificador ortográfico não pôde ser inicializado"
 
 #: ../src/printing.c:277
 msgid "This entry is marked as important."
-msgstr "A entrada atual é marcada como importante."
+msgstr "Esta entrada está marcada como importante."
 
 #: ../src/printing.c:298
 msgid "No entry for this date."
@@ -760,66 +760,4 @@ msgstr "Erro ao desserializar entrada dentro do buffer durante a pesquisa."
 #. Translators: This is the detail string for important days as displayed in the calendar.
 #: ../src/widgets/calendar.c:116
 msgid "Important!"
-msgstr "Importante"
-
-#~ msgid "F-Spot Photo"
-#~ msgstr "Foto do F-Spot"
-
-#~ msgid "A photo stored in F-Spot."
-#~ msgstr "Uma foto armazenada no F-Spot."
-
-#~ msgid "Error launching F-Spot"
-#~ msgstr "Erro ao lançar o F-Spot"
-
-#~ msgid "Enable import mode"
-#~ msgstr "Habilitar o modo de importação"
-
-#~ msgid "Description"
-#~ msgstr "Descrição"
-
-#~ msgid "Type"
-#~ msgstr "Tipo"
-
-#~ msgid "Error closing database"
-#~ msgstr "Erro ao fechar o banco de dados"
-
-#~ msgid ""
-#~ "Error getting encryption key: GConf key \"%s\" invalid or empty. Your "
-#~ "diary will not be encrypted; please install Seahorse and set up a default "
-#~ "key, or ignore this message."
-#~ msgstr ""
-#~ "Erro ao obter a chave de criptografia: a chave \"%s\" do GConf é inválida "
-#~ "ou vazia. Seu diário não será criptografado; por favor, instale o "
-#~ "Seahorse e defina uma chave padrão, ou apenas ignore essa mensagem."
-
-#~ msgid "Add Link"
-#~ msgstr "Adicionar link"
-
-#~ msgid "Attached Links"
-#~ msgstr "Links anexados"
-
-#~ msgid "Due to an unknown error the file cannot be opened."
-#~ msgstr "Devido a um erro desconhecido o arquivo não pôde ser aberto."
-
-#~ msgid "Due to an unknown error the URI cannot be opened."
-#~ msgstr "Devido a um erro desconhecido o URI não pôde ser aberto."
-
-#~ msgid ""
-#~ "Both an encrypted and plaintext version of the database exist as \"%s\" "
-#~ "and \"%s\", and one is likely corrupt. Please delete the corrupt one (i."
-#~ "e. one which is 0KiB in size) before continuing. If neither file is 0KiB, "
-#~ "the problem will most likely have been caused by Diary being unable to "
-#~ "encrypt the database, so you should move the first file."
-#~ msgstr ""
-#~ "Tanto a versão criptografada quanto a versão de texto puro do banco de "
-#~ "dados existem em \"%s\" e \"%s\", e uma delas parece corrompida. Por "
-#~ "favor, exclua a corrompida (isto é, 0KiB de tamanho) antes de continuar. "
-#~ "Se nenhum dos arquivos tiver 0KiB, o problema provavelmente terá sido "
-#~ "provavelmente causado pelo Diary ter sido incapaz de criptografar o banco "
-#~ "de dados, assim você deveria mover o primeiro arquivo."
-
-#~ msgid "Diary Website"
-#~ msgstr "Site do Diary"
-
-#~ msgid "<b>%A, %e %B %Y</b>"
-#~ msgstr "<b>%A, %e de %B de %Y</b>"
+msgstr "Importante!"
