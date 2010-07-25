@@ -1441,9 +1441,10 @@ msgstr "Gerenciar tamanhos personalizados..."
 msgid "_Format for:"
 msgstr "_Formatar para:"
 
+# Conflito com "Im_primir"
 #: ../gtk/gtkpagesetupunixdialog.c:929 ../gtk/gtkprintunixdialog.c:3448
 msgid "_Paper size:"
-msgstr "Tamanho do _papel:"
+msgstr "_Tamanho do papel:"
 
 #: ../gtk/gtkpagesetupunixdialog.c:960
 msgid "_Orientation:"
@@ -1612,11 +1613,11 @@ msgstr "Argumento inválido para PrintDlgEx"
 
 #: ../gtk/gtkprintoperation-win32.c:1764
 msgid "Invalid pointer to PrintDlgEx"
-msgstr "Ponteiro para PrintDlgEx inválido"
+msgstr "Ponteiro inválido para PrintDlgEx"
 
 #: ../gtk/gtkprintoperation-win32.c:1769
 msgid "Invalid handle to PrintDlgEx"
-msgstr "Manipulador para PrintDlgEx inválido"
+msgstr "Manipulador inválido para PrintDlgEx"
 
 #: ../gtk/gtkprintoperation-win32.c:1774
 msgid "Unspecified error"
@@ -1624,7 +1625,7 @@ msgstr "Erro não especificado"
 
 #: ../gtk/gtkprintunixdialog.c:613
 msgid "Getting printer information failed"
-msgstr "Falha na obtenção de informações da impressora"
+msgstr "Falha ao obter informações da impressora"
 
 #: ../gtk/gtkprintunixdialog.c:1861
 msgid "Getting printer information..."
@@ -1660,9 +1661,10 @@ msgstr "Página _atual"
 msgid "Se_lection"
 msgstr "S_eleção"
 
+# Não modificar para "_Páginas:", conflito com "Im_primir"
 #: ../gtk/gtkprintunixdialog.c:2208
 msgid "Pag_es:"
-msgstr "_Páginas:"
+msgstr "Pá_ginas:"
 
 #: ../gtk/gtkprintunixdialog.c:2209
 msgid ""
@@ -1777,7 +1779,7 @@ msgstr "Frente e _verso:"
 
 #: ../gtk/gtkprintunixdialog.c:3318
 msgid "Pages per _side:"
-msgstr "Página_s por lado:"
+msgstr "Páginas por _lado:"
 
 #: ../gtk/gtkprintunixdialog.c:3335
 msgid "Page or_dering:"
@@ -1862,7 +1864,7 @@ msgstr "Imprimir documento"
 #.
 #: ../gtk/gtkprintunixdialog.c:3583
 msgid "_Now"
-msgstr "_Agora"
+msgstr "A_gora"
 
 #: ../gtk/gtkprintunixdialog.c:3594
 msgid "A_t:"
@@ -1878,7 +1880,7 @@ msgid ""
 " e.g. 15:30, 2:35 pm, 14:15:20, 11:46:30 am, 4 pm"
 msgstr ""
 "Informe a hora da impressão,\n"
-"p. ex: 9:30, 15:10, 19:40:15"
+" ex.: 9:30, 15:10, 19:40:15"
 
 #: ../gtk/gtkprintunixdialog.c:3610
 msgid "Time of print"
@@ -1939,7 +1941,7 @@ msgstr "Concluindo"
 
 #: ../gtk/gtkprintunixdialog.c:3812
 msgid "Some of the settings in the dialog conflict"
-msgstr "Algumas configurações no diálogo de conflito"
+msgstr "Há conflitos em algumas das configurações no diálogo"
 
 #: ../gtk/gtkprintunixdialog.c:3835
 msgid "Print"
@@ -1968,7 +1970,7 @@ msgstr "Selecione quais tipos de documentos são mostrados"
 #: ../gtk/gtkrecentchooserdefault.c:1134 ../gtk/gtkrecentchooserdefault.c:1171
 #, c-format
 msgid "No item for URI '%s' found"
-msgstr "Nenhum item para o URI \"%s\" localizado"
+msgstr "Nenhum item localizado para o URI \"%s\""
 
 #: ../gtk/gtkrecentchooserdefault.c:1298
 msgid "Untitled filter"
@@ -1992,7 +1994,7 @@ msgstr "_Remover da lista"
 
 #: ../gtk/gtkrecentchooserdefault.c:1801
 msgid "_Clear List"
-msgstr "_Limpar lista"
+msgstr "Limpar lis_ta"
 
 #: ../gtk/gtkrecentchooserdefault.c:1815
 msgid "Show _Private Resources"
@@ -2015,7 +2017,7 @@ msgstr "Nenhum item localizado"
 #: ../gtk/gtkrecentchoosermenu.c:534 ../gtk/gtkrecentchoosermenu.c:590
 #, c-format
 msgid "No recently used resource found with URI `%s'"
-msgstr "Nenhum recurso recentemente usado localizado com o URI \"%s\""
+msgstr "Nenhum recurso usado recentemente localizado com o URI \"%s\""
 
 #: ../gtk/gtkrecentchoosermenu.c:801
 #, c-format
@@ -2283,7 +2285,7 @@ msgstr "Índ_ice"
 #: ../gtk/gtkstock.c:365
 msgctxt "Stock label"
 msgid "_Information"
-msgstr "_Informações"
+msgstr "_Informação"
 
 #: ../gtk/gtkstock.c:366
 msgctxt "Stock label"
@@ -2524,7 +2526,7 @@ msgstr "_Parar"
 #: ../gtk/gtkstock.c:429
 msgctxt "Stock label"
 msgid "_Strikethrough"
-msgstr "_Tachado"
+msgstr "_Tachar"
 
 #: ../gtk/gtkstock.c:430
 msgctxt "Stock label"
@@ -2587,7 +2589,7 @@ msgstr "Tanto \"id\" quanto \"name\" foram localizados no elemento <%s>"
 #: ../gtk/gtktextbufferserialize.c:805 ../gtk/gtktextbufferserialize.c:831
 #, c-format
 msgid "The attribute \"%s\" was found twice on the <%s> element"
-msgstr "O atributo \"%s\" foi repetido duas vezes no mesmo elemento <%s>"
+msgstr "O atributo \"%s\" foi localizado duas vezes no elemento <%s>"
 
 #: ../gtk/gtktextbufferserialize.c:845
 #, c-format
@@ -2597,7 +2599,7 @@ msgstr "O elemento <%s> tem id \"%s\" inválida"
 #: ../gtk/gtktextbufferserialize.c:855
 #, c-format
 msgid "<%s> element has neither a \"name\" nor an \"id\" attribute"
-msgstr "O elemento <%s> não tem nem os elementos \"name\" ou \"id\""
+msgstr "O elemento <%s> não tem os atributos \"name\" ou \"id\""
 
 #: ../gtk/gtktextbufferserialize.c:942
 #, c-format
@@ -2616,12 +2618,12 @@ msgstr "A tag \"%s\" não foi definida."
 
 #: ../gtk/gtktextbufferserialize.c:1033
 msgid "Anonymous tag found and tags can not be created."
-msgstr "Tag anônima localizada e tags não podem ser criadas."
+msgstr "Tag anônima localizada e tags não puderam ser criadas."
 
 #: ../gtk/gtktextbufferserialize.c:1044
 #, c-format
 msgid "Tag \"%s\" does not exist in buffer and tags can not be created."
-msgstr "A tag \"%s\" não existe no buffer e tags não podem ser criadas."
+msgstr "A tag \"%s\" não existe no buffer e tags não puderam ser criadas."
 
 #: ../gtk/gtktextbufferserialize.c:1143 ../gtk/gtktextbufferserialize.c:1218
 #: ../gtk/gtktextbufferserialize.c:1319 ../gtk/gtktextbufferserialize.c:1393
