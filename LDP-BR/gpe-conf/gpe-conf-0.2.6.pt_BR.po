@@ -1,9 +1,9 @@
 # Brazilian Portuguese translation of gpe-conf.
-# Copyright (C) 2004-2009 Free Software Foundation, Inc.
+# Copyright (C) 2003-2004, 2010 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gpe-conf package.
 # Luis Oliveira <luismbo@netcabo.pt>, 2003.
 # Marcus Moreira de Souza <marcus@frb.br>, 2004.
-# Fabrício Godoy <skarllot@gmail.com>, 2009.
+# Fabrício Godoy <skarllot@gmail.com>, 2010.
 #
 msgid ""
 msgstr ""
@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../applets.c:413
 msgid "Root access"
-msgstr "Acesso de administrador"
+msgstr "Acesso como root"
 
 #: ../applets.c:427
 msgid ""
@@ -28,60 +28,58 @@ msgid ""
 "accessible for user root.\n"
 "Please enter password."
 msgstr ""
-"Algumas opções apenas estão\n"
-"acessíveis ao utilizador root.\n"
-"Por favor insira a password."
+"Algumas opções estão apenas\n"
+"acessíveis ao usuário root.\n"
+"Por favor, insira a senha."
 
 #: ../applets.c:474 ../modules/screen/calibrate.c:32
 msgid "Sorry, wrong password."
-msgstr "Password incorrecta"
+msgstr "Senha incorreta"
 
 #: ../modules/battery.c:186 ../modules/battery.c:247
-#, fuzzy
-#| msgid "Unknown"
 msgid "unknown"
-msgstr "Desconhecido"
+msgstr "desconhecido"
 
 #: ../modules/battery.c:195 ../modules/battery.c:255 ../modules/battery.c:356
 msgid "Status: high"
-msgstr "Situação: cheia"
+msgstr "Status: alto"
 
 #: ../modules/battery.c:198 ../modules/battery.c:258 ../modules/battery.c:360
 msgid "Status: low"
-msgstr "Situação: baixa"
+msgstr "Status: baixo"
 
 #: ../modules/battery.c:201 ../modules/battery.c:261 ../modules/battery.c:364
 msgid "Status: critical"
-msgstr "Situação: crítico"
+msgstr "Status: crítico"
 
 #: ../modules/battery.c:204 ../modules/battery.c:264 ../modules/battery.c:368
 msgid "Status: charging"
-msgstr "Situação: carregando"
+msgstr "Status: carregando"
 
 #: ../modules/battery.c:207 ../modules/battery.c:267
 msgid "Status: charge main"
-msgstr "Situação: carregando principal"
+msgstr "Status: carregando principal"
 
 #: ../modules/battery.c:210
 msgid "Status: dead"
-msgstr "Situação: desativada"
+msgstr "Status: morta"
 
 #: ../modules/battery.c:213 ../modules/battery.c:273 ../modules/battery.c:354
 msgid "Status: full"
-msgstr "Situação: cheia"
+msgstr "Status: cheia"
 
 #: ../modules/battery.c:216 ../modules/battery.c:276
 msgid "Status: no battery"
-msgstr "Situação: sem bateria"
+msgstr "Status: sem bateria"
 
 #: ../modules/battery.c:219 ../modules/battery.c:279 ../modules/battery.c:297
 #: ../modules/battery.c:371
 msgid "Status: unknown"
-msgstr "Situação: desconhecido"
+msgstr "Status: desconhecido"
 
 #: ../modules/battery.c:224
 msgid "learning"
-msgstr "apredizado"
+msgstr "aprendendo"
 
 #: ../modules/battery.c:228 ../modules/battery.c:283
 msgid "Voltage"
@@ -89,7 +87,7 @@ msgstr "Voltagem"
 
 #: ../modules/battery.c:232 ../modules/battery.c:287 ../modules/battery.c:388
 msgid "AC connected"
-msgstr "Ligada à corrente"
+msgstr "Ligada à tomada"
 
 #: ../modules/battery.c:234 ../modules/battery.c:289 ../modules/battery.c:390
 msgid "Lifetime"
@@ -97,7 +95,7 @@ msgstr "Autonomia"
 
 #: ../modules/battery.c:270
 msgid "Status: not installed"
-msgstr "Situação: não instalada"
+msgstr "Status: não instalada"
 
 #: ../modules/battery.c:296
 msgid "not installed"
@@ -112,10 +110,8 @@ msgid "Lifetime: unknown"
 msgstr "Autonomia: desconhecida"
 
 #: ../modules/battery.c:346
-#, fuzzy
-#| msgid "Battery"
 msgid "No battery"
-msgstr "Bateria"
+msgstr "Sem bateria"
 
 #: ../modules/battery.c:451
 msgid "Internal battery"
@@ -127,7 +123,7 @@ msgstr "Bateria externa"
 
 #: ../modules/cfgfile.c:919
 msgid "No write access to network configuration."
-msgstr "Sem acesso de escrita às configurações da rede."
+msgstr "Sem permissão de escrita às configurações de rede."
 
 #: ../main-info.c:67
 #, c-format
@@ -141,23 +137,19 @@ msgstr "    Onde página pode ser \"global\" (padrão)\n"
 
 #: ../main-info.c:78 ../desktop/gpe-conf-sysinfo.desktop.in.h:2
 msgid "System Information"
-msgstr "Informação do Sistema"
+msgstr "Informação do sistema"
 
 #: ../main.c:89 ../modules/timeanddate.c:489
 msgid "Time"
 msgstr "Horas"
 
 #: ../main.c:89
-#, fuzzy
-#| msgid "Time & Date"
 msgid "Time and Date Setup"
-msgstr "Data & Horas"
+msgstr "Configuração de data e hora"
 
 #: ../main.c:91
-#, fuzzy
-#| msgid "Green"
 msgid "Screen"
-msgstr "Verde"
+msgstr "Tela"
 
 #: ../main.c:91 ../desktop/gpe-conf-screen.desktop.in.h:1
 msgid "Screen Setup"
@@ -165,11 +157,11 @@ msgstr "Configuração da Tela"
 
 #: ../main.c:93
 msgid "Keys & Buttons"
-msgstr ""
+msgstr "Teclas e botões"
 
 #: ../main.c:93
 msgid "Keys and Buttons Setup"
-msgstr ""
+msgstr "Configuração de teclas e botões"
 
 #: ../main.c:95 ../modules/timeanddate.c:502
 msgid "Network"
@@ -177,7 +169,7 @@ msgstr "Rede"
 
 #: ../main.c:95 ../desktop/gpe-conf-network.desktop.in.h:1
 msgid "Network Setup"
-msgstr "Configuração de Rede"
+msgstr "Configuração de rede"
 
 #: ../main.c:97 ../modules/theme.c:985
 msgid "Theme"
@@ -186,173 +178,141 @@ msgstr "Tema"
 #: ../main.c:97 ../modules/theme.c:987
 #: ../desktop/gpe-conf-theme.desktop.in.h:2
 msgid "Look and Feel"
-msgstr "Aparência e Comportamento"
+msgstr "Aparência e comportamento"
 
 #: ../main.c:99
-#, fuzzy
-#| msgid "Provider"
 msgid "Power"
-msgstr "Fornecedor"
+msgstr "Energia"
 
 #: ../main.c:99
 msgid "Configure Power Saving"
-msgstr ""
+msgstr "Configurar economia de energia"
 
 #: ../main.c:101
 msgid "Owner"
-msgstr ""
+msgstr "Proprietário"
 
 #: ../main.c:101 ../desktop/gpe-conf-ownerinfo.desktop.in.h:1
 msgid "Owner Information"
-msgstr "Informação do Proprietário"
+msgstr "Informação do proprietário"
 
 #: ../main.c:103
-#, fuzzy
-#| msgid "Link"
 msgid "Login"
-msgstr "Link"
+msgstr "Usuário"
 
 #: ../main.c:103 ../desktop/gpe-conf-login-setup.desktop.in.h:1
 msgid "Login Setup"
-msgstr "Configuração do Login"
+msgstr "Configuração de usuário"
 
 #: ../main.c:105
-#, fuzzy
-#| msgid "User Access"
 msgid "Users"
-msgstr "Acesso do Usuário"
+msgstr "Usuários"
 
 #: ../main.c:105
-#, fuzzy
-#| msgid "User access administration"
 msgid "User Administration"
-msgstr "Administração do acesso do usuário"
+msgstr "Administração de usuários"
 
 #: ../main.c:107
 msgid "GPE"
-msgstr ""
+msgstr "GPE"
 
 #: ../main.c:107
-#, fuzzy
-#| msgid "User access administration"
 msgid "GPE Conf Administration"
-msgstr "Administração do acesso do usuário"
+msgstr "Administração do GPE Conf"
 
 #: ../main.c:109 ../desktop/gpe-conf-serial.desktop.in.h:2
 msgid "Serial Ports"
-msgstr "Portas Seriais"
+msgstr "Portas seriais"
 
 #: ../main.c:109
-#, fuzzy
-#| msgid "Sleep Configuration"
 msgid "Serial Port Configuration"
-msgstr "Configuração de Suspensão"
+msgstr "Configuração da porta serial"
 
 #: ../main.c:111
 msgid "USB"
-msgstr ""
+msgstr "USB"
 
 #: ../main.c:111
-#, fuzzy
-#| msgid "Sleep Configuration"
 msgid "USB Configuration"
-msgstr "Configuração de Suspensão"
+msgstr "Configuração do USB"
 
 #: ../main.c:113
-#, fuzzy
-#| msgid "PC/CF Cards"
 msgid "PCMCIA/CF Cards"
-msgstr "Cartões PC/CF"
+msgstr "Cartões PCMCIA/CF"
 
 #: ../main.c:113
-#, fuzzy
-#| msgid "PC/CF Cards info and config"
 msgid "PCMCIA/CF Card Info and Config"
-msgstr "Configuração dos cartões PC/CF"
+msgstr "Configuração e informações do cartão PCMCIA/CF"
 
 #: ../main.c:115
 msgid "Sound"
-msgstr ""
+msgstr "Som"
 
 #: ../main.c:115
-#, fuzzy
-#| msgid "Login Setup"
 msgid "Sound Setup"
-msgstr "Configuração do Login"
+msgstr "Configuração de som"
 
 #: ../main.c:117
-#, fuzzy
-#| msgid "Taskmanager"
 msgid "Task nameserver"
-msgstr "Gerenciador de tarefas"
+msgstr "Tarefa para nome de servidor"
 
 #: ../main.c:117
 msgid "Task for changing nameserver"
-msgstr ""
+msgstr "Tarefa para alterar o nome de servidor"
 
 #: ../main.c:119
-#, fuzzy
-#| msgid "Background"
 msgid "Task sound"
-msgstr "Fundo"
+msgstr "Tarefa de som"
 
 #: ../main.c:119
 msgid "Command line task saving/restoring sound settings."
-msgstr ""
+msgstr "Tarefa de linha de comando para salvar/restaurar configurações de som."
 
 #: ../main.c:121
-#, fuzzy
-#| msgid "Use background image for login screen."
 msgid "Task background image"
-msgstr "Usar imagem de fundo na tela de login."
+msgstr "Tarefa de imagem de fundo"
 
 #: ../main.c:121
 msgid "Only select background image."
-msgstr ""
+msgstr "Apenas seleciona a imagem de fundo."
 
 #: ../main.c:123
 msgid "Task backlight setting"
-msgstr ""
+msgstr "Tarefa de configuração de luz de fundo"
 
 #: ../main.c:123
 msgid "Change backlight power and brightness."
-msgstr ""
+msgstr "Altera o brilho e força da luz de fundo."
 
 #: ../main.c:144
-#, fuzzy
-#| msgid "GPS settings"
 msgid "Settings saved"
-msgstr "Opções GPS"
+msgstr "Configurações salvas"
 
 #: ../main.c:339
 #, c-format
 msgid "'task_backlight' supports zero, one and two arguments.\n"
-msgstr ""
+msgstr "\"task_backlight\" fornece suporte a nenhum, um ou dois argumentos.\n"
 
 #: ../main.c:358
 #, c-format
 msgid "'task_nameserver' needs a new (and only one) nameserver as argument.\n"
 msgstr ""
-"'task_nameserver' precisa de um (e apenas um) novo nameserver como "
+"\"task_nameserver\" precisa de um (e apenas um) novo nome de servidor como "
 "argumento.\n"
 
 #: ../main.c:376
-#, fuzzy, c-format
-#| msgid ""
-#| "'task_nameserver' needs a new (and only one) nameserver as argument.\n"
+#, c-format
 msgid "'task_sound' needs (s)ave/(r)estore as argument.\n"
-msgstr ""
-"'task_nameserver' precisa de um (e apenas um) novo nameserver como "
-"argumento.\n"
+msgstr "\"task_sound\" precisa (s)alvar/(r)estaurar como argumento.\n"
 
 #: ../main.c:444
 msgid "Warning: PCMCIA init failed."
-msgstr "Aviso: a inicialização PCMCIA falhou."
+msgstr "Aviso: a inicialização do PCMCIA falhou."
 
 #: ../main.c:476
 #, c-format
 msgid "This mode is disabled, please try:\n"
-msgstr "Este modo est,ba(B desactivado, por favor tente:\n"
+msgstr "Este modo está desabilitado, por favor tente:\n"
 
 #: ../main.c:477
 #, c-format
@@ -362,13 +322,13 @@ msgid ""
 "where AppletName is in:\n"
 msgstr ""
 "\n"
-"gpe-conf [AppletName]\n"
-"onde AppletName é um de:\n"
+"gpe-conf [NomeApplet]\n"
+"onde NomeApplet é um de:\n"
 
 #: ../main.c:493
 #, c-format
 msgid "Applet %s unknown!\n"
-msgstr "Applet %s desconhecido!\n"
+msgstr "O Applet %s é desconhecido!\n"
 
 #: ../main.c:494
 #, c-format
@@ -380,8 +340,8 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"Utilização: gpe-conf  [AppletName]\n"
-"onde AppletName é um de:\n"
+"Uso: gpe-conf [NomeApplet]\n"
+"onde NomeApplet é um de:\n"
 
 #: ../tools/interface.c:315 ../tools/interface.c:515 ../tools/interface.c:531
 #: ../tools/interface.c:651
@@ -394,7 +354,7 @@ msgstr "UNSPEC"
 
 #: ../tools/interface.c:708
 msgid "UNIX Domain"
-msgstr "UNIX Domain"
+msgstr "Domínio UNIX"
 
 #: ../tools/interface.c:711
 msgid "DARPA Internet"
@@ -439,17 +399,17 @@ msgstr "Ash"
 #: ../tools/interface.c:765
 #, c-format
 msgid "Too many address family arguments.\n"
-msgstr "Muitos argumentos na família de enfereços.\n"
+msgstr "Muitos argumentos na família de endereços.\n"
 
 #: ../tools/interface.c:776
 #, c-format
 msgid "Unknown address family '%s'.\n"
-msgstr "Família de endereços desconhecida `%s'.\n"
+msgstr "Família de endereços desconhecida \"%s\".\n"
 
 #: ../tools/interface.c:839
 #, c-format
 msgid "Please don't supply more than one address family.\n"
-msgstr "Por favor forneça apenas uma família de endereços.\n"
+msgstr "Por favor, forneça apenas uma família de endereços.\n"
 
 #: ../tools/interface.c:966
 #, c-format
@@ -459,12 +419,12 @@ msgstr "Não foram encontradas famílias de endereços utilizáveis.\n"
 #: ../tools/interface.c:1036
 #, c-format
 msgid "Warning: no inet socket available: %s\n"
-msgstr "Aviso: nenhum inet socket disponível: %s\n"
+msgstr "Aviso: nenhum socket inet disponível: %s\n"
 
 #: ../tools/interface.c:1188
 #, c-format
 msgid "Warning: cannot open %s (%s). Limited output.\n"
-msgstr "Aviso: não foi possível abrir %s (%s). Output limitada.\n"
+msgstr "Aviso: não foi possível abrir %s (%s). Saída limitada.\n"
 
 #. Give better error message for this case.
 #: ../tools/interface.c:1431
@@ -483,27 +443,27 @@ msgstr "Não é possível iniciar o PPP com este programa.\n"
 
 #: ../tools/interface.c:1703
 msgid "Local Loopback"
-msgstr "Loopback Local"
+msgstr "Loopback local"
 
 #: ../tools/interface.c:1706
 msgid "Serial Line IP"
-msgstr "Serial Line IP"
+msgstr "Linha serial IP"
 
 #: ../tools/interface.c:1707
 msgid "VJ Serial Line IP"
-msgstr "VJ Serial Line IP"
+msgstr "Linha serial VJ IP"
 
 #: ../tools/interface.c:1708
 msgid "6-bit Serial Line IP"
-msgstr "6-bit Serial Line IP"
+msgstr "Linha serial 6-bit IP"
 
 #: ../tools/interface.c:1709
 msgid "VJ 6-bit Serial Line IP"
-msgstr "VJ 6-bit Serial Line IP"
+msgstr "Linha serial VJ 6-bit IP"
 
 #: ../tools/interface.c:1710
 msgid "Adaptive Serial Line IP"
-msgstr "Adpative Serial Line IP"
+msgstr "Linha serial adaptável IP"
 
 #: ../tools/interface.c:1713
 msgid "Ethernet"
@@ -523,11 +483,11 @@ msgstr "X.25 genérico"
 
 #: ../tools/interface.c:1737
 msgid "IPIP Tunnel"
-msgstr "IPIP Tunnel"
+msgstr "Túnel IPIP"
 
 #: ../tools/interface.c:1740
 msgid "Point-to-Point Protocol"
-msgstr "Prococolo Point-to-Point"
+msgstr "Prococolo ponto-a-ponto"
 
 #: ../tools/interface.c:1743
 msgid "(Cisco)-HDLC"
@@ -543,7 +503,7 @@ msgstr "ARCnet"
 
 #: ../tools/interface.c:1750
 msgid "Frame Relay DLCI"
-msgstr "Frame Realy DLCI"
+msgstr "Frame Relay DLCI"
 
 #: ../tools/interface.c:1751
 msgid "Frame Relay Access Device"
@@ -551,7 +511,7 @@ msgstr "Frame Relay Access Device"
 
 #: ../tools/interface.c:1754
 msgid "IPv6-in-IPv4"
-msgstr "IPv6-via-IPv4"
+msgstr "IPv6 via IPv4"
 
 #: ../tools/interface.c:1757
 msgid "IrLAP"
@@ -566,16 +526,13 @@ msgid "16/4 Mbps Token Ring (New)"
 msgstr "16/4 Mbps Token Ring (Novo)"
 
 #: ../tools/interface.c:1874
-#, fuzzy
-#| msgid "New Interface"
 msgid "Interface:"
-msgstr "Nova interface"
+msgstr "Interface:"
 
 #: ../tools/interface.c:1875
-#, fuzzy, c-format
-#| msgid "Type:"
+#, c-format
 msgid "Type: %s"
-msgstr "Tipo:"
+msgstr "Tipo: %s"
 
 #: ../tools/interface.c:1884
 #, c-format
@@ -588,28 +545,24 @@ msgid "(auto)"
 msgstr "(auto)"
 
 #: ../tools/interface.c:1901
-#, fuzzy, c-format
-#| msgid "Address:\t\t%s\n"
+#, c-format
 msgid "Address: %s\n"
-msgstr "Endereço:\t\t%s\n"
+msgstr "Endereço: %s\n"
 
 #: ../tools/interface.c:1906
-#, fuzzy, c-format
-#| msgid "P-t-P:\t\t%s\n"
+#, c-format
 msgid "P-t-P: %s\n"
-msgstr "P-t-P:\t\t%s\n"
+msgstr "P-t-P: %s\n"
 
 #: ../tools/interface.c:1910
-#, fuzzy, c-format
-#| msgid "Netmask:\t\t%s\n"
+#, c-format
 msgid "Netmask: %s\n"
-msgstr "Netmask:\t\t%s\n"
+msgstr "Máscara de rede: %s\n"
 
 #: ../tools/interface.c:1914
-#, fuzzy, c-format
-#| msgid "Broadcast:\t%s\n"
+#, c-format
 msgid "Broadcast: %s\n"
-msgstr "Broadcast:\t%s\n"
+msgstr "Broadcast: %s\n"
 
 #: ../tools/interface.c:1926
 #, c-format
@@ -657,16 +610,13 @@ msgid "Unknown"
 msgstr "Desconhecido"
 
 #: ../device.c:215
-#, fuzzy
-#| msgid "Unknown"
 msgid "Unknown Device"
-msgstr "Desconhecido"
+msgstr "Dispositivo desconhecido"
 
 #: ../modules/logread.c:116
-#, fuzzy
-#| msgid "Can't find circular buffer, is syslog running?"
 msgid "Can't find circular buffer, is syslog running?\n"
-msgstr "Impossível encontrar o buffer circular O syslog está executando?"
+msgstr ""
+"Não foi possível encontrar o buffer circular, o syslog está em execução?\n"
 
 #: ../modules/logread.c:123
 msgid "Can't get access to syslogd's circular buffer."
@@ -674,7 +624,7 @@ msgstr "Não foi possível acessar o buffer circular do syslogd."
 
 #: ../modules/logread.c:130
 msgid "Can't get access to semaphore(s) for syslogd's circular buffer."
-msgstr "Não foi possível acessar semáforo do buffer circular do syslogd."
+msgstr "Não foi possível acessar o semáforo do buffer circular do syslogd."
 
 #: ../modules/logread.c:156
 msgid "<empty syslog>"
@@ -682,25 +632,23 @@ msgstr "<syslog vazio>"
 
 #: ../modules/logread.c:227 ../modules/logread.c:243
 msgid "System Log"
-msgstr "Log do Sistema"
+msgstr "Log do sistema"
 
 #: ../modules/logread.c:252 ../modules/logread.c:268
 msgid "Session Log"
-msgstr "Log de Sessão"
+msgstr "Log de sessão"
 
 #: ../modules/logread.c:275
-#, fuzzy
-#| msgid "Could not open X session log."
 msgid "Could not open X session log.\n"
-msgstr "Impossível abrir o log da sessão X."
+msgstr "Não foi possível abrir o log de sessão X.\n"
 
 #: ../modules/usb.c:80
 msgid "Choose backing file"
-msgstr ""
+msgstr "Escolha o arquivo de apoio"
 
 #: ../modules/usb.c:240
 msgid "USB Peripheral Mode"
-msgstr ""
+msgstr "Modo do periférico USB"
 
 #: ../modules/usb.c:247
 msgid "Ethernet Networking"
