@@ -1,7 +1,8 @@
 # Brazilian Portuguese translation for nautilus-ideviceinfo.
-# Copyright (C) 2010 nautilus-ideviceinfo's COPYRIGHT HOLDER
+# Copyright (C) 2010 the nautilus-ideviceinfo authors.
 # This file is distributed under the same license as the nautilus-ideviceinfo package.
 # Taylon Silmer <taylon@taylon.eti.br>, 2010.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: nautilus-ideviceinfo master\n"
@@ -35,7 +36,7 @@ msgstr "Fotos"
 #: ../src/ideviceinfo-property-page.c:524
 #: ../src/ideviceinfo-property-page.c:527
 msgid "Applications"
-msgstr "Aplicações"
+msgstr "Aplicativos"
 
 #: ../src/ideviceinfo-property-page.c:523
 msgid "Other"
@@ -51,7 +52,7 @@ msgstr "Arquivos de vídeo"
 
 #: ../src/ideviceinfo-property-page.c:526
 msgid "Other & Media"
-msgstr "Mídia & Outro"
+msgstr "Mídias e outros"
 
 #: ../src/ideviceinfo-property-page.c:531
 msgid "Free"
@@ -63,8 +64,8 @@ msgid ""
 "There was an error loading '%s'.\n"
 "Consider reinstalling the application."
 msgstr ""
-"Houve um erro ao carregar o '%s'.\n"
-"Considere reinstalar a aplicação."
+"Houve um erro ao carregar o \"%s\".\n"
+"Considere reinstalar o aplicativo."
 
 #: ../src/nautilus-ideviceinfo.c:54
 msgid "Details"
@@ -72,7 +73,7 @@ msgstr "Detalhes"
 
 #: ../src/nautilus-afc2-warning-bar.c:80
 msgid "Jailbroken filesystem browsing is unsupported"
-msgstr "A navegação no sistema de arquivos Jailbroken não é suportada"
+msgstr "Não há suporte a navegação no sistema de arquivos (jailbreak)"
 
 #: ../src/nautilus-afc2-warning-bar.c:86
 msgid ""
@@ -88,7 +89,7 @@ msgstr "Endereço do bluetooth:"
 
 #: ../src/nautilus-ideviceinfo.ui.h:2
 msgid "Browse jailbroken filesystem..."
-msgstr "Navegar no sistema de arquivos jailbroken..."
+msgstr "Navegar no sistema de arquivos (jailbreak)..."
 
 #: ../src/nautilus-ideviceinfo.ui.h:3
 msgid "General"
