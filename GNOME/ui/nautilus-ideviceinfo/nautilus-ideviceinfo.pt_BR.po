@@ -108,7 +108,6 @@ msgid "IMSI:"
 msgstr "IMSI:"
 
 #: ../src/nautilus-ideviceinfo.ui.h:7
-#, fuzzy
 msgid "Mobile Carrier:"
 msgstr "Operadora móvel:"
 
