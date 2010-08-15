@@ -536,7 +536,7 @@ msgstr "asprintf em print_stat falhou.\n"
 #: src/prtstat.c:226
 #, c-format
 msgid "Process with pid %d does not exist.\n"
-msgstr "O processo com PID %s não existe.\n"
+msgstr "O processo com PID %d não existe.\n"
 
 #: src/prtstat.c:228
 #, c-format
