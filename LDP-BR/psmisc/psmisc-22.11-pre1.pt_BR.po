@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: psmisc 22.10\n"
+"Project-Id-Version: psmisc 22.11-pre1\n"
 "Report-Msgid-Bugs-To: csmall@small.dropbear.id.au\n"
 "POT-Creation-Date: 2010-03-28 18:17+1100\n"
-"PO-Revision-Date: 2010-08-15 03:37-0300\n"
+"PO-Revision-Date: 2010-08-15 04:27-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
 "MIME-Version: 1.0\n"
@@ -407,54 +407,53 @@ msgid ""
 "    -r,--raw       Raw display of information\n"
 "    -V,--version   Display version information and exit\n"
 msgstr ""
+"Uso:   prtstat [opções] PID ...\n"
+"       prtstat -V\n"
+"Exibe informações sobre um processo\n"
+"    -r,--raw       Exibição bruta de informações\n"
+"    -V,--version   Exibir informações de versão e sair\n"
 
 #: src/prtstat.c:65
-#, fuzzy, c-format
-#| msgid "pstree (PSmisc) %s\n"
+#, c-format
 msgid "prtstat (PSmisc) %s\n"
-msgstr "pstree (PSmisc) %s\n"
+msgstr "prtstat (PSmisc) %s\n"
 
 #: src/prtstat.c:66
-#, fuzzy, c-format
-#| msgid ""
-#| "Copyright (C) 2007 Trent Waddington\n"
-#| "\n"
+#, c-format
 msgid ""
 "Copyright (C) 2009 Craig Small\n"
 "\n"
 msgstr ""
-"Copyright © 2007 Trent Waddington\n"
+"Copyright © 2009 Craig Small\n"
 "\n"
 
 #: src/prtstat.c:78
 msgid "running"
-msgstr ""
+msgstr "executando"
 
 #: src/prtstat.c:80
 msgid "sleeping"
-msgstr ""
+msgstr "suspenso"
 
 #: src/prtstat.c:82
 msgid "disk sleep"
-msgstr ""
+msgstr "suspenso por disco"
 
 #: src/prtstat.c:84
 msgid "zombie"
-msgstr ""
+msgstr "zumbi"
 
 #: src/prtstat.c:86
 msgid "traced"
-msgstr ""
+msgstr "interrompido"
 
 #: src/prtstat.c:88
 msgid "paging"
-msgstr ""
+msgstr "paginado"
 
 #: src/prtstat.c:90
-#, fuzzy
-#| msgid "(unknown)"
 msgid "unknown"
-msgstr "(desconhecido)"
+msgstr "desconhecido"
 
 #: src/prtstat.c:164
 #, c-format
@@ -462,6 +461,8 @@ msgid ""
 "Process: %-14s\t\tState: %c (%s)\n"
 "  CPU#:  %-3d\t\tTTY: %s\tThreads: %ld\n"
 msgstr ""
+"Processo: %-14s\t\tEstado: %c (%s)\n"
+"   CPU#:  %-3d\t\tTTY: %s\tThreads: %ld\n"
 
 #: src/prtstat.c:169
 #, c-format
@@ -472,6 +473,11 @@ msgid ""
 "  T Group ID: %d\n"
 "\n"
 msgstr ""
+"IDs de processos, grupos e sessões\n"
+" ID processo: %d\t\t     ID pai: %d\n"
+"    ID grupo: %d\t\t  ID sessão: %d\n"
+"  ID grupo T: %d\n"
+"\n"
 
 #: src/prtstat.c:175
 #, c-format
@@ -480,6 +486,9 @@ msgid ""
 "  This Process    (minor major): %8lu  %8lu\n"
 "  Child Processes (minor major): %8lu  %8lu\n"
 msgstr ""
+"Faltas de página\n"
+"  Este processo   (menor maior): %8lu  %8lu\n"
+"  Processos filho (menor maior): %8lu  %8lu\n"
 
 #: src/prtstat.c:180
 #, c-format
@@ -488,6 +497,9 @@ msgid ""
 "  This Process    (user system guest blkio): %6.2f %6.2f %6.2f %6.2f\n"
 "  Child processes (user system guest):       %6.2f %6.2f %6.2f\n"
 msgstr ""
+"Tempo de CPU\n"
+"  Este processo   (usu. sist. conv. blkio):  %6.2f %6.2f %6.2f %6.2f\n"
+"  Processos filho (usu. sist. conv.):        %6.2f %6.2f %6.2f\n"
 
 #: src/prtstat.c:189
 #, c-format
@@ -499,6 +511,12 @@ msgid ""
 "  Stack Start: %#-10lx\n"
 "  Stack Pointer (ESP): %#10lx\t Inst Pointer (EIP): %#10lx\n"
 msgstr ""
+"Memória\n"
+"  Vsize:       %-10s\n"
+"  RSS:         %-10s \t\tLimite RSS: %s\n"
+"  Início cód.: %#-10lx\t\t Fim cód. :  %#-10lx\n"
+"  Início stack:%#-10lx\n"
+"  Pont. stack (ESP): %#10lx\t   Pont. Instr. (EIP): %#10lx\n"
 
 #: src/prtstat.c:199
 #, c-format
@@ -507,36 +525,36 @@ msgid ""
 "  Policy: %s\n"
 "  Nice:   %ld \t\t RT Priority: %ld %s\n"
 msgstr ""
+"Agendamento\n"
+"  Polít.: %s\n"
+"  Nice:   %ld \t\t Priorid. RT: %ld %s\n"
 
 #: src/prtstat.c:221
 msgid "asprintf in print_stat failed.\n"
-msgstr ""
+msgstr "asprintf em print_stat falhou.\n"
 
 #: src/prtstat.c:226
-#, fuzzy, c-format
-#| msgid "Specified filename %s does not exist.\n"
+#, c-format
 msgid "Process with pid %d does not exist.\n"
-msgstr "O nome de arquivo especificado %s não existe.\n"
+msgstr "O processo com PID %s não existe.\n"
 
 #: src/prtstat.c:228
 #, c-format
 msgid "Unable to open stat file for pid %d (%s)\n"
-msgstr ""
+msgstr "Não foi possível abrir o arquivo de análise para PID %d (%s)\n"
 
 #: src/prtstat.c:308
-#, fuzzy
-#| msgid "%s: Invalid option %s\n"
 msgid "Invalid option"
-msgstr "%s: Opção inválida %s\n"
+msgstr "Opção inválida"
 
 #: src/prtstat.c:313
 msgid "You must provide at least one PID."
-msgstr ""
+msgstr "Você precisa fornecer ao menos um PID."
 
 #: src/prtstat.c:317
 #, c-format
 msgid "/proc is not mounted, cannot stat /proc/self/stat.\n"
-msgstr ""
+msgstr "/proc não está montado, impossível analisar /proc/self/stat.\n"
 
 #: src/pstree.c:774
 #, c-format
