@@ -5,7 +5,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: psmisc 22.8rc1\n"
+"Project-Id-Version: psmisc 22.10\n"
 "Report-Msgid-Bugs-To: csmall@small.dropbear.id.au\n"
 "POT-Creation-Date: 2010-01-04 21:42+1100\n"
 "PO-Revision-Date: 2010-08-15 03:37-0300\n"
