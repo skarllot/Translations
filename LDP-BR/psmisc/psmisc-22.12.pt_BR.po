@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: psmisc 22.11-pre1\n"
 "Report-Msgid-Bugs-To: csmall@small.dropbear.id.au\n"
-"POT-Creation-Date: 2010-03-28 18:17+1100\n"
+"POT-Creation-Date: 2010-05-29 20:15+1000\n"
 "PO-Revision-Date: 2010-08-15 04:27-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
@@ -95,7 +95,7 @@ msgstr ""
 "Copyright © 1993-2010 Werner Almesberger and Craig Small\n"
 "\n"
 
-#: src/fuser.c:138 src/killall.c:680 src/peekfd.c:89 src/prtstat.c:68
+#: src/fuser.c:138 src/killall.c:680 src/peekfd.c:108 src/prtstat.c:68
 #: src/pstree.c:806
 #, c-format
 msgid ""
@@ -356,17 +356,17 @@ msgstr "O número máximo de nomes é %d\n"
 msgid "%s is empty (not mounted ?)\n"
 msgstr "%s está vazio (não montado?)\n"
 
-#: src/peekfd.c:77
+#: src/peekfd.c:96
 #, c-format
 msgid "Error attaching to pid %i\n"
 msgstr "Erro ao anexar ao PID %i\n"
 
-#: src/peekfd.c:85
+#: src/peekfd.c:104
 #, c-format
 msgid "peekfd (PSmisc) %s\n"
 msgstr "peekfd (PSmisc) %s\n"
 
-#: src/peekfd.c:87
+#: src/peekfd.c:106
 #, c-format
 msgid ""
 "Copyright (C) 2007 Trent Waddington\n"
@@ -375,7 +375,7 @@ msgstr ""
 "Copyright © 2007 Trent Waddington\n"
 "\n"
 
-#: src/peekfd.c:97
+#: src/peekfd.c:116
 #, c-format
 msgid ""
 "Usage: peekfd [-8] [-n] [-c] [-d] [-V] [-h] <pid> [<fd> ..]\n"
