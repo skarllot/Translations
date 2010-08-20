@@ -6,10 +6,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gphoto2 2.4.9\n"
+"Project-Id-Version: gphoto2 2.4.10\n"
 "Report-Msgid-Bugs-To: gphoto-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2010-08-15 15:12+0200\n"
-"PO-Revision-Date: 2010-05-09 17:11-0300\n"
+"PO-Revision-Date: 2010-08-19 23:19-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
 "MIME-Version: 1.0\n"
@@ -391,48 +391,49 @@ msgstr ""
 "opções:\n"
 
 #: gphoto2/actions.c:980
-#, fuzzy
-#| msgid "Could not get image."
 msgid "Could not open 'movie.mjpg'."
-msgstr "Não foi possível obter imagem."
+msgstr "Não foi possível abrir \"movie.mjpg\"."
 
 #: gphoto2/actions.c:987
-#, fuzzy, c-format
-#| msgid "Waiting for events from camera. Press Ctrl-C to abort.\n"
+#, c-format
 msgid "Capturing preview frames as movie to '%s'. Press Ctrl-C to abort.\n"
-msgstr "Esperando por eventos da câmera. Pressione Ctrl+C para interromper.\n"
+msgstr ""
+"Capturando quadros de pré-visualização como vídeo em \"%s\". Pressione Ctrl"
+"+C para interromper.\n"
 
 #: gphoto2/actions.c:991
 #, c-format
 msgid "Capturing preview frames as movie to '%s' for %d seconds.\n"
 msgstr ""
+"Capturando quadros de pré-visualização como vídeo em \"%s\" por %d "
+"segundos.\n"
 
 #: gphoto2/actions.c:996
 #, c-format
 msgid "Capturing %d preview frames as movie to '%s'.\n"
-msgstr ""
+msgstr "Capturando %d quadros de pré-visualização como vídeo em \"%s\".\n"
 
 #: gphoto2/actions.c:1005
 msgid "Movie capture error... Exiting."
-msgstr ""
+msgstr "Erro na captura de vídeo... Saindo."
 
 #: gphoto2/actions.c:1010
 #, c-format
 msgid "Movie capture error... Unhandled MIME type '%s'."
-msgstr ""
+msgstr "Erro na captura de vídeo... Tipo MIME \"%s\" não manipulável."
 
 #: gphoto2/actions.c:1015
 #, c-format
 msgid "Ctrl-C pressed ... Exiting.\n"
-msgstr ""
+msgstr "Ctrl+C foi pressionado... Saindo.\n"
 
 #: gphoto2/actions.c:1099 gphoto2/main.c:650
 msgid "Could not set folder."
-msgstr "Não foi possível definir pasta."
+msgstr "Não foi possível definir a pasta."
 
 #: gphoto2/actions.c:1105 gphoto2/main.c:657
 msgid "Could not get image."
-msgstr "Não foi possível obter imagem."
+msgstr "Não foi possível obter a imagem."
 
 #: gphoto2/actions.c:1112 gphoto2/main.c:664
 msgid "Buggy libcanon.so?"
@@ -649,7 +650,7 @@ msgid ""
 "'%s' or its subfolders. Please obtain a valid file number from a file "
 "listing first."
 msgstr ""
-"Numero de arquivo errado. Você especificou %i, mas há somente %i arquivos "
+"Número de arquivo errado. Você especificou %i, mas há somente %i arquivos "
 "disponíveis em \"%s\" ou em suas subpastas. Por favor, primeiro obtenha um "
 "número de arquivo válido da lista de arquivos."
 
@@ -952,6 +953,8 @@ msgid ""
 "*** Error: No camera found. ***\n"
 "\n"
 msgstr ""
+"*** Erro: Nenhuma câmera localizada. ***\n"
+"\n"
 
 #: gphoto2/main.c:1596
 #, c-format
@@ -1085,7 +1088,7 @@ msgstr "Espera por evento(s) da câmera"
 #: gphoto2/main.c:1749 gphoto2/main.c:1751 gphoto2/main.c:1758
 #: gphoto2/main.c:1772
 msgid "COUNT"
-msgstr "QUANTIDADE"
+msgstr "QTDE"
 
 #: gphoto2/main.c:1751
 msgid "Wait for event(s) from the camera and download new images"
@@ -1128,10 +1131,8 @@ msgid "Capture a movie"
 msgstr "Capturar um vídeo"
 
 #: gphoto2/main.c:1768
-#, fuzzy
-#| msgid "SECONDS"
 msgid "COUNT or SECONDS"
-msgstr "SEGUNDOS"
+msgstr "QTDE ou SEGUNDOS"
 
 #: gphoto2/main.c:1770
 msgid "Capture an audio clip"
@@ -1594,209 +1595,3 @@ msgid "To get help on a particular command, type in 'help command-name'."
 msgstr ""
 "Para obter ajuda em um comando particular digite \"help nome_do_comando\"."
 
-#~ msgid "Could not get filename (bulb mode)."
-#~ msgstr "Não foi possível obter o nome do arquivo (modo bulb)."
-
-#~ msgid "Could not close camera connection."
-#~ msgstr "Não foi possível fechar a conexão com a câmera."
-
-#~ msgid "Sleeping for %d second(s)...\n"
-#~ msgstr "Esperando por %d segundo(s)...\n"
-
-#~ msgid "New file %s/%s, downloading...\n"
-#~ msgstr "Novo arquivo %s/%s, baixando...\n"
-
-#~ msgid "filename"
-#~ msgstr "NOME_ARQUIVO"
-
-#~ msgid "[name]"
-#~ msgstr "[nome]"
-
-#~ msgid "Usage:\n"
-#~ msgstr "Uso:\n"
-
-#~ msgid ""
-#~ "Short/long options (& argument)        Description\n"
-#~ "--------------------------------------------------------------------------------\n"
-#~ msgstr ""
-#~ "Opções pequenas e longas (& argument)  Descrição\n"
-#~ "--------------------------------------------------------------------------------\n"
-
-#~ msgid "%-38s %s\n"
-#~ msgstr "%-38s %s\n"
-
-#~ msgid ""
-#~ "--------------------------------------------------------------------------------\n"
-#~ "[Use double-quotes around arguments]        [Picture numbers begin with "
-#~ "one (1)]\n"
-#~ msgstr ""
-#~ "--------------------------------------------------------------------------------\n"
-#~ "[Use aspas duplas nos argumentos   ]        [Núm. de imagens começa com "
-#~ "um (1)]\n"
-
-#~ msgid "Displays this help screen"
-#~ msgstr "Exibe esta tela de ajuda"
-
-#~ msgid "Get metadata from file"
-#~ msgstr "Obter metadados do arquivo"
-
-#~ msgid "List the configuration tree"
-#~ msgstr "Lista a árvore de configurações"
-
-#~ msgid "Capture a movie "
-#~ msgstr "Capturar um vídeo"
-
-#~ msgid "Summary of camera status"
-#~ msgstr "Resumo do status da câmera"
-
-#~ msgid "Camera driver manual"
-#~ msgstr "Manual do driver da câmera"
-
-#~ msgid "About the camera driver"
-#~ msgstr "Sobre o driver da câmera"
-
-#~ msgid "path"
-#~ msgstr "caminho"
-
-#~ msgid "speed"
-#~ msgstr "velocidade"
-
-#~ msgid "model"
-#~ msgstr "modelo"
-
-#~ msgid "usbid"
-#~ msgstr "usbid"
-
-#~ msgid "folder"
-#~ msgstr "pasta"
-
-#~ msgid ""
-#~ "gPhoto2 for OS/2 requires you to set the enviroment value CAMLIBS to the "
-#~ "location of the camera libraries. e.g. SET CAMLIBS=C:\\GPHOTO2\\CAM\n"
-#~ msgstr ""
-#~ "gPhoto2 para OS/2 requer que você defina a variável de ambiente CAMLIBS "
-#~ "para o local das bibliotecas da câmera. ex. SET CAMLIBS=C:\\GPHOTO2\\CAM\n"
-
-#~ msgid ""
-#~ "gPhoto2 for OS/2 requires you to set the enviroment value IOLIBS to the "
-#~ "location of the io libraries. e.g. SET IOLIBS=C:\\GPHOTO2\\IOLIB\n"
-#~ msgstr ""
-#~ "gPhoto2 para OS/2 requer que você defina a variável de ambiente IOLIBS "
-#~ "para o local das bibliotecas IO. ex. SET IOLIBS=C:\\GPHOTO2\\IOLIB\n"
-
-#~ msgid "There are no folders in folder '%s'."
-#~ msgstr "Não há pastas na pasta \"%s\"."
-
-#~ msgid "There are %i folders in folder '%s':"
-#~ msgstr "Há %i pastas na pasta \"%s\":"
-
-#~ msgid "There are %i files in folder '%s':"
-#~ msgstr "Há %i arquivos na pasta \"%s\":"
-
-#~ msgid "Jan"
-#~ msgstr "jan"
-
-#~ msgid "January"
-#~ msgstr "janeiro"
-
-#~ msgid "Feb"
-#~ msgstr "fev"
-
-#~ msgid "February"
-#~ msgstr "fevereiro"
-
-#~ msgid "Mar"
-#~ msgstr "mar"
-
-#~ msgid "March"
-#~ msgstr "março"
-
-#~ msgid "Apr"
-#~ msgstr "abr"
-
-#~ msgid "April"
-#~ msgstr "abril"
-
-#~ msgid "May"
-#~ msgstr "mai"
-
-#~ msgid "Jun"
-#~ msgstr "jun"
-
-#~ msgid "June"
-#~ msgstr "junho"
-
-#~ msgid "Jul"
-#~ msgstr "jul"
-
-#~ msgid "July"
-#~ msgstr "julho"
-
-#~ msgid "Aug"
-#~ msgstr "ago"
-
-#~ msgid "August"
-#~ msgstr "agosto"
-
-#~ msgid "Sep"
-#~ msgstr "set"
-
-#~ msgid "September"
-#~ msgstr "setembro"
-
-#~ msgid "Oct"
-#~ msgstr "out"
-
-#~ msgid "October"
-#~ msgstr "outubro"
-
-#~ msgid "Nov"
-#~ msgstr "nov"
-
-#~ msgid "November"
-#~ msgstr "novembro"
-
-#~ msgid "Dec"
-#~ msgstr "dez"
-
-#~ msgid "December"
-#~ msgstr "dezembro"
-
-#~ msgid "Sun"
-#~ msgstr "dom"
-
-#~ msgid "Sunday"
-#~ msgstr "domingo"
-
-#~ msgid "Monday"
-#~ msgstr "segunda-feira"
-
-#~ msgid "Tue"
-#~ msgstr "ter"
-
-#~ msgid "Tuesday"
-#~ msgstr "terça-feira"
-
-#~ msgid "Wed"
-#~ msgstr "qua"
-
-#~ msgid "Wednesday"
-#~ msgstr "quarta-feira"
-
-#~ msgid "Thu"
-#~ msgstr "qui"
-
-#~ msgid "Thursday"
-#~ msgstr "quinta-feira"
-
-#~ msgid "Fri"
-#~ msgstr "sex"
-
-#~ msgid "Friday"
-#~ msgstr "sexta-feira"
-
-#~ msgid "Sat"
-#~ msgstr "sab"
-
-#~ msgid "Saturday"
-#~ msgstr "sábado"
