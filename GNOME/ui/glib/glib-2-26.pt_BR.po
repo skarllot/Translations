@@ -9,14 +9,16 @@
 # Henrique P Machado <zehrique@gmail.com>, 2008-2009.
 # Fábio Nogueira <fnogueira@gnome.org>, 2009.
 # Jonh Wendell <jwendell@gnome.org>, 2009, 2010.
+# Fabrício Godoy <skarllot@gmail.com>, 2010.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: glib\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=glib&component=general\n"
 "POT-Creation-Date: 2010-09-18 21:44+0000\n"
-"PO-Revision-Date: 2010-03-04 17:12-0300\n"
-"Last-Translator: Jonh Wendell <jwendell@gnome.org>\n"
+"PO-Revision-Date: 2010-09-18 23:46-0300\n"
+"Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,7 +30,7 @@ msgstr ""
 #: ../glib/gbookmarkfile.c:780
 #, c-format
 msgid "Unexpected attribute '%s' for element '%s'"
-msgstr "Atributo \"%s\" inesperado para elemento \"%s\""
+msgstr "Atributo \"%s\" inesperado para o elemento \"%s\""
 
 #: ../glib/gbookmarkfile.c:791 ../glib/gbookmarkfile.c:862
 #: ../glib/gbookmarkfile.c:872 ../glib/gbookmarkfile.c:979
@@ -168,231 +170,229 @@ msgstr "Nome de servidor inválido"
 
 #. Translators: 'before midday' indicator
 #: ../glib/gdatetime.c:149
-#, fuzzy
-#| msgid "name"
 msgctxt "GDateTime"
 msgid "am"
-msgstr "nome"
+msgstr "am"
 
 #. Translators: 'before midday' indicator
 #: ../glib/gdatetime.c:151
 msgctxt "GDateTime"
 msgid "AM"
-msgstr ""
+msgstr "AM"
 
 #. Translators: 'after midday' indicator
 #: ../glib/gdatetime.c:153
 msgctxt "GDateTime"
 msgid "pm"
-msgstr ""
+msgstr "pm"
 
 #. Translators: 'after midday' indicator
 #: ../glib/gdatetime.c:155
 msgctxt "GDateTime"
 msgid "PM"
-msgstr ""
+msgstr "PM"
 
 #. Translators: this is the preferred format for expressing the date
 #: ../glib/gdatetime.c:164
 msgctxt "GDateTime"
 msgid "%m/%d/%y"
-msgstr ""
+msgstr "%d/%m/%y"
 
 #. Translators: this is the preferred format for expressing the time
 #: ../glib/gdatetime.c:167
 msgctxt "GDateTime"
 msgid "%H:%M:%S"
-msgstr ""
+msgstr "%H:%M:%S"
 
 #: ../glib/gdatetime.c:193
 msgctxt "full month name"
 msgid "January"
-msgstr ""
+msgstr "janeiro"
 
 #: ../glib/gdatetime.c:195
 msgctxt "full month name"
 msgid "February"
-msgstr ""
+msgstr "fevereiro"
 
 #: ../glib/gdatetime.c:197
 msgctxt "full month name"
 msgid "March"
-msgstr ""
+msgstr "março"
 
 #: ../glib/gdatetime.c:199
 msgctxt "full month name"
 msgid "April"
-msgstr ""
+msgstr "abril"
 
 #: ../glib/gdatetime.c:201
 msgctxt "full month name"
 msgid "May"
-msgstr ""
+msgstr "maio"
 
 #: ../glib/gdatetime.c:203
 msgctxt "full month name"
 msgid "June"
-msgstr ""
+msgstr "junho"
 
 #: ../glib/gdatetime.c:205
 msgctxt "full month name"
 msgid "July"
-msgstr ""
+msgstr "julho"
 
 #: ../glib/gdatetime.c:207
 msgctxt "full month name"
 msgid "August"
-msgstr ""
+msgstr "agosto"
 
 #: ../glib/gdatetime.c:209
 msgctxt "full month name"
 msgid "September"
-msgstr ""
+msgstr "setembro"
 
 #: ../glib/gdatetime.c:211
 msgctxt "full month name"
 msgid "October"
-msgstr ""
+msgstr "outubro"
 
 #: ../glib/gdatetime.c:213
 msgctxt "full month name"
 msgid "November"
-msgstr ""
+msgstr "novembro"
 
 #: ../glib/gdatetime.c:215
 msgctxt "full month name"
 msgid "December"
-msgstr ""
+msgstr "dezembro"
 
 #: ../glib/gdatetime.c:230
 msgctxt "abbreviated month name"
 msgid "Jan"
-msgstr ""
+msgstr "jan"
 
 #: ../glib/gdatetime.c:232
 msgctxt "abbreviated month name"
 msgid "Feb"
-msgstr ""
+msgstr "fev"
 
 #: ../glib/gdatetime.c:234
 msgctxt "abbreviated month name"
 msgid "Mar"
-msgstr ""
+msgstr "mar"
 
 #: ../glib/gdatetime.c:236
 msgctxt "abbreviated month name"
 msgid "Apr"
-msgstr ""
+msgstr "abr"
 
 #: ../glib/gdatetime.c:238
 msgctxt "abbreviated month name"
 msgid "May"
-msgstr ""
+msgstr "mai"
 
 #: ../glib/gdatetime.c:240
 msgctxt "abbreviated month name"
 msgid "Jun"
-msgstr ""
+msgstr "jun"
 
 #: ../glib/gdatetime.c:242
 msgctxt "abbreviated month name"
 msgid "Jul"
-msgstr ""
+msgstr "jul"
 
 #: ../glib/gdatetime.c:244
 msgctxt "abbreviated month name"
 msgid "Aug"
-msgstr ""
+msgstr "ago"
 
 #: ../glib/gdatetime.c:246
 msgctxt "abbreviated month name"
 msgid "Sep"
-msgstr ""
+msgstr "set"
 
 #: ../glib/gdatetime.c:248
 msgctxt "abbreviated month name"
 msgid "Oct"
-msgstr ""
+msgstr "out"
 
 #: ../glib/gdatetime.c:250
 msgctxt "abbreviated month name"
 msgid "Nov"
-msgstr ""
+msgstr "nov"
 
 #: ../glib/gdatetime.c:252
 msgctxt "abbreviated month name"
 msgid "Dec"
-msgstr ""
+msgstr "dez"
 
 #: ../glib/gdatetime.c:267
 msgctxt "full weekday name"
 msgid "Monday"
-msgstr ""
+msgstr "segunda-feira"
 
 #: ../glib/gdatetime.c:269
 msgctxt "full weekday name"
 msgid "Tuesday"
-msgstr ""
+msgstr "terça-feira"
 
 #: ../glib/gdatetime.c:271
 msgctxt "full weekday name"
 msgid "Wednesday"
-msgstr ""
+msgstr "quarta-feira"
 
 #: ../glib/gdatetime.c:273
 msgctxt "full weekday name"
 msgid "Thursday"
-msgstr ""
+msgstr "quinta-feira"
 
 #: ../glib/gdatetime.c:275
 msgctxt "full weekday name"
 msgid "Friday"
-msgstr ""
+msgstr "sexta-feira"
 
 #: ../glib/gdatetime.c:277
 msgctxt "full weekday name"
 msgid "Saturday"
-msgstr ""
+msgstr "sábado"
 
 #: ../glib/gdatetime.c:279
 msgctxt "full weekday name"
 msgid "Sunday"
-msgstr ""
+msgstr "domingo"
 
 #: ../glib/gdatetime.c:294
 msgctxt "abbreviated weekday name"
 msgid "Mon"
-msgstr ""
+msgstr "seg"
 
 #: ../glib/gdatetime.c:296
 msgctxt "abbreviated weekday name"
 msgid "Tue"
-msgstr ""
+msgstr "ter"
 
 #: ../glib/gdatetime.c:298
 msgctxt "abbreviated weekday name"
 msgid "Wed"
-msgstr ""
+msgstr "qua"
 
 #: ../glib/gdatetime.c:300
 msgctxt "abbreviated weekday name"
 msgid "Thu"
-msgstr ""
+msgstr "qui"
 
 #: ../glib/gdatetime.c:302
 msgctxt "abbreviated weekday name"
 msgid "Fri"
-msgstr ""
+msgstr "sex"
 
 #: ../glib/gdatetime.c:304
 msgctxt "abbreviated weekday name"
 msgid "Sat"
-msgstr ""
+msgstr "sab"
 
 #: ../glib/gdatetime.c:306
 msgctxt "abbreviated weekday name"
 msgid "Sun"
-msgstr ""
+msgstr "dom"
 
 #: ../glib/gdir.c:114 ../glib/gdir.c:137
 #, c-format
@@ -1457,35 +1457,36 @@ msgstr "Fim do fluxo precoce não esperado"
 
 #: ../gio/gdbusaddress.c:142 ../gio/gdbusaddress.c:230
 #: ../gio/gdbusaddress.c:304
-#, fuzzy, c-format
+#, c-format
 msgid "Unsupported key `%s' in address entry `%s'"
-msgstr "Endereço de soquete não suportado"
+msgstr "Não há suporte a chave \"%s\" na entrada de endereço \"%s\""
 
 #: ../gio/gdbusaddress.c:169
 #, c-format
 msgid ""
 "Address `%s' is invalid (need exactly one of path, tmpdir or abstract keys)"
-msgstr ""
+msgstr "O endereço \"%s\" não é válido (é necessário exatamente um dentre: "
+"caminho, tmpdir e chaves abstratas)"
 
 #: ../gio/gdbusaddress.c:182
 #, c-format
 msgid "Meaningless key/value pair combination in address entry `%s'"
-msgstr ""
+msgstr "Combinação de pares chave/valor sem sentido na entrada de endereço \"%s\""
 
 #: ../gio/gdbusaddress.c:245 ../gio/gdbusaddress.c:319
 #, c-format
 msgid "Error in address `%s' - the port attribute is malformed"
-msgstr ""
+msgstr "Erro no endereço \"%s\" - o atributo porta é inválido"
 
 #: ../gio/gdbusaddress.c:256 ../gio/gdbusaddress.c:330
 #, c-format
 msgid "Error in address `%s' - the family attribute is malformed"
-msgstr ""
+msgstr "Erro no endereço \"%s\" - o atributo família é inválido"
 
 #: ../gio/gdbusaddress.c:434
 #, c-format
 msgid "Address element `%s', does not contain a colon (:)"
-msgstr ""
+msgstr "O elemento endereço \"%s\", não contém um dois-pontos (:)"
 
 #: ../gio/gdbusaddress.c:455
 #, c-format
@@ -1493,6 +1494,8 @@ msgid ""
 "Key/Value pair %d, `%s', in address element `%s', does not contain an equal "
 "sign"
 msgstr ""
+"O par chave/valor %d, \"%s\", no elemento endereço \"%s\", não contém um sinal "
+"de igual"
 
 #: ../gio/gdbusaddress.c:469
 #, c-format
@@ -1500,6 +1503,8 @@ msgid ""
 "Error unescaping key or value in Key/Value pair %d, `%s', in address element "
 "`%s'"
 msgstr ""
+"Erro ao distinguir a chave ou valor no par chave/valor %d, \"%s\", no elemento "
+"endereço \"%s\""
 
 #: ../gio/gdbusaddress.c:547
 #, c-format
