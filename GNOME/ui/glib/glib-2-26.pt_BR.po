@@ -1445,15 +1445,15 @@ msgstr "tipo %s"
 
 #: ../gio/gcredentials.c:246 ../gio/gcredentials.c:441
 msgid "GCredentials is not implemented on this OS"
-msgstr ""
+msgstr "GCredentials não está implementado neste SO"
 
 #: ../gio/gcredentials.c:396
 msgid "There is no GCredentials support for your platform"
-msgstr ""
+msgstr "Não há suporte ao GCredentials para sua plataforma"
 
 #: ../gio/gdatainputstream.c:311
 msgid "Unexpected early end-of-stream"
-msgstr "Fim do fluxo precoce não esperado"
+msgstr "Fim do fluxo antes do esperado"
 
 #: ../gio/gdbusaddress.c:142 ../gio/gdbusaddress.c:230
 #: ../gio/gdbusaddress.c:304
@@ -1512,61 +1512,60 @@ msgid ""
 "Error in address `%s' - the unix transport requires exactly one of the keys "
 "`path' or `abstract' to be set"
 msgstr ""
+"Erro no endereço \"%s\" - o transporte Unix requer exatamente uma das chaves "
+"\"path\" (caminho) ou \"abstract\" (abstrato) sejam definidas"
 
 #: ../gio/gdbusaddress.c:583
 #, c-format
 msgid "Error in address `%s' - the host attribute is missing or malformed"
-msgstr ""
+msgstr "Erro no endereço \"%s\" - o atributo servidor está faltando ou é inválido"
 
 #: ../gio/gdbusaddress.c:597
 #, c-format
 msgid "Error in address `%s' - the port attribute is missing or malformed"
-msgstr ""
+msgstr "Erro no endereço \"%s\" - o atributo porta está faltando ou é inválido"
 
 #: ../gio/gdbusaddress.c:611
 #, c-format
 msgid "Error in address `%s' - the noncefile attribute is missing or malformed"
-msgstr ""
+msgstr "Erro no endereço \"%s\" - o atributo noncefile está faltando ou é inválido"
 
 #: ../gio/gdbusaddress.c:632
-#, fuzzy
-#| msgid "Error connecting: "
 msgid "Error auto-launching: "
-msgstr "Erro ao conectar: "
+msgstr "Erro ao lançar automaticamente: "
 
 #: ../gio/gdbusaddress.c:640
 #, c-format
 msgid "Unknown or unsupported transport `%s' for address `%s'"
-msgstr ""
+msgstr "O transporte \"%s\" para o endereço \"%s\" é desconhecido ou não há suporte"
 
 #: ../gio/gdbusaddress.c:676
-#, fuzzy, c-format
-#| msgid "Error opening file '%s': %s"
+#, c-format
 msgid "Error opening nonce file `%s': %s"
-msgstr "Erro ao abrir arquivo \"%s\": %s"
+msgstr "Erro ao abrir arquivo nonce \"%s\": %s"
 
 #: ../gio/gdbusaddress.c:694
-#, fuzzy, c-format
+#, c-format
 msgid "Error reading from nonce file `%s': %s"
-msgstr "Erro ao ler arquivo \"%s\": %s"
+msgstr "Erro ao ler arquivo nonce \"%s\": %s"
 
 #: ../gio/gdbusaddress.c:703
-#, fuzzy, c-format
+#, c-format
 msgid "Error reading from nonce file `%s', expected 16 bytes, got %d"
-msgstr "Erro ao ler arquivo \"%s\": %s"
+msgstr "Erro ao ler arquivo nonce \"%s\", esperado 16 bytes, obtido %d"
 
 #: ../gio/gdbusaddress.c:721
-#, fuzzy, c-format
+#, c-format
 msgid "Error writing contents of nonce file `%s' to stream:"
-msgstr "Erro ao escrever no arquivo: %s"
+msgstr "Erro ao escrever do arquivo nonce \"%s\" no fluxo:"
 
 #: ../gio/gdbusaddress.c:942
 msgid "The given address is empty"
-msgstr ""
+msgstr "O endereço fornecido está vazio"
 
 #: ../gio/gdbusaddress.c:1011
 msgid "Cannot spawn a message bus without a machine-id: "
-msgstr ""
+msgstr "Não foi possível chamar um barramento de mensagens sem um ID de máquina: "
 
 #: ../gio/gdbusaddress.c:1048
 #, fuzzy, c-format
