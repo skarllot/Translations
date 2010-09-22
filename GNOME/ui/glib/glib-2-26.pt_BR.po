@@ -1465,13 +1465,15 @@ msgstr "Não há suporte a chave \"%s\" na entrada de endereço \"%s\""
 #, c-format
 msgid ""
 "Address `%s' is invalid (need exactly one of path, tmpdir or abstract keys)"
-msgstr "O endereço \"%s\" não é válido (é necessário exatamente um dentre: "
-"caminho, tmpdir e chaves abstratas)"
+msgstr ""
+"O endereço \"%s\" não é válido (é necessário exatamente um dentre: caminho, "
+"tmpdir e chaves abstratas)"
 
 #: ../gio/gdbusaddress.c:182
 #, c-format
 msgid "Meaningless key/value pair combination in address entry `%s'"
-msgstr "Combinação de pares chave/valor sem sentido na entrada de endereço \"%s\""
+msgstr ""
+"Combinação de pares chave/valor sem sentido na entrada de endereço \"%s\""
 
 #: ../gio/gdbusaddress.c:245 ../gio/gdbusaddress.c:319
 #, c-format
@@ -1494,8 +1496,8 @@ msgid ""
 "Key/Value pair %d, `%s', in address element `%s', does not contain an equal "
 "sign"
 msgstr ""
-"O par chave/valor %d, \"%s\", no elemento endereço \"%s\", não contém um sinal "
-"de igual"
+"O par chave/valor %d, \"%s\", no elemento endereço \"%s\", não contém um "
+"sinal de igual"
 
 #: ../gio/gdbusaddress.c:469
 #, c-format
@@ -1503,8 +1505,8 @@ msgid ""
 "Error unescaping key or value in Key/Value pair %d, `%s', in address element "
 "`%s'"
 msgstr ""
-"Erro ao distinguir a chave ou valor no par chave/valor %d, \"%s\", no elemento "
-"endereço \"%s\""
+"Erro ao distinguir a chave ou valor no par chave/valor %d, \"%s\", no "
+"elemento endereço \"%s\""
 
 #: ../gio/gdbusaddress.c:547
 #, c-format
@@ -1518,7 +1520,8 @@ msgstr ""
 #: ../gio/gdbusaddress.c:583
 #, c-format
 msgid "Error in address `%s' - the host attribute is missing or malformed"
-msgstr "Erro no endereço \"%s\" - o atributo servidor está faltando ou é inválido"
+msgstr ""
+"Erro no endereço \"%s\" - o atributo servidor está faltando ou é inválido"
 
 #: ../gio/gdbusaddress.c:597
 #, c-format
@@ -1528,7 +1531,8 @@ msgstr "Erro no endereço \"%s\" - o atributo porta está faltando ou é inváli
 #: ../gio/gdbusaddress.c:611
 #, c-format
 msgid "Error in address `%s' - the noncefile attribute is missing or malformed"
-msgstr "Erro no endereço \"%s\" - o atributo noncefile está faltando ou é inválido"
+msgstr ""
+"Erro no endereço \"%s\" - o atributo noncefile está faltando ou é inválido"
 
 #: ../gio/gdbusaddress.c:632
 msgid "Error auto-launching: "
@@ -1537,7 +1541,8 @@ msgstr "Erro ao lançar automaticamente: "
 #: ../gio/gdbusaddress.c:640
 #, c-format
 msgid "Unknown or unsupported transport `%s' for address `%s'"
-msgstr "O transporte \"%s\" para o endereço \"%s\" é desconhecido ou não há suporte"
+msgstr ""
+"O transporte \"%s\" para o endereço \"%s\" é desconhecido ou não há suporte"
 
 #: ../gio/gdbusaddress.c:676
 #, c-format
@@ -1565,27 +1570,30 @@ msgstr "O endereço fornecido está vazio"
 
 #: ../gio/gdbusaddress.c:1011
 msgid "Cannot spawn a message bus without a machine-id: "
-msgstr "Não foi possível chamar um barramento de mensagens sem um ID de máquina: "
+msgstr ""
+"Não foi possível chamar um barramento de mensagens sem um ID de máquina: "
 
 #: ../gio/gdbusaddress.c:1048
-#, fuzzy, c-format
+#, c-format
 msgid "Error spawning command line `%s': "
-msgstr "Erro ao ler arquivo \"%s\": %s"
+msgstr "Erro ao chamar a linha de comandos \"%s\": "
 
 #: ../gio/gdbusaddress.c:1059
 #, c-format
 msgid "Abnormal program termination spawning command line `%s': %s"
-msgstr ""
+msgstr "Término anormal de programa ao chamar a linha de comandos \"%s\": %s"
 
 #: ../gio/gdbusaddress.c:1073
 #, c-format
 msgid "Command line `%s' exited with non-zero exit status %d: %s"
-msgstr ""
+msgstr "Linha de comandos \"%s\" saiu com status de saída não-zero, %d: %s"
 
 #: ../gio/gdbusaddress.c:1146
 #, c-format
 msgid "Cannot determine session bus address (not implemented for this OS)"
 msgstr ""
+"Não foi possível determinar endereço de barramento da sessão (sem "
+"implementação para este SO)"
 
 #: ../gio/gdbusaddress.c:1245 ../gio/gdbusconnection.c:6016
 #, c-format
@@ -1593,78 +1601,90 @@ msgid ""
 "Cannot determine bus address from DBUS_STARTER_BUS_TYPE environment variable "
 "- unknown value `%s'"
 msgstr ""
+"Não foi possível determinar endereço de barramento da variável de ambiente "
+"DBUS_STARTER_BUS_TYPE - valor \"%s\" desconhecido"
 
 #: ../gio/gdbusaddress.c:1254 ../gio/gdbusconnection.c:6025
 msgid ""
 "Cannot determine bus address because the DBUS_STARTER_BUS_TYPE environment "
 "variable is not set"
 msgstr ""
+"Não foi possível determinar endereço de barramento porque a variável de "
+"ambiente DBUS_STARTER_BUS_TYPE não está definida"
 
 #: ../gio/gdbusaddress.c:1264
-#, fuzzy, c-format
+#, c-format
 msgid "Unknown bus type %d"
-msgstr "Tipo desconhecido"
+msgstr "Tipo de barramento %d desconhecido"
 
 #: ../gio/gdbusauth.c:288
 msgid "Unexpected lack of content trying to read a line"
-msgstr ""
+msgstr "Falta de conteúdo inesperada ao tentar ler uma linha"
 
 #: ../gio/gdbusauth.c:332
 msgid "Unexpected lack of content trying to (safely) read a line"
-msgstr ""
+msgstr "Falta de conteúdo inesperada ao tentar (seguramente) ler uma linha"
 
 #: ../gio/gdbusauth.c:503
 #, c-format
 msgid ""
 "Exhausted all available authentication mechanisms (tried: %s) (available: %s)"
 msgstr ""
+"Esgotado todos mecanismos de autenticação disponíveis (tentado: %s) "
+"(disponível: %s)"
 
 #: ../gio/gdbusauth.c:1150
 msgid "Cancelled via GDBusAuthObserver::authorize-authenticated-peer"
-msgstr ""
+msgstr "Cancelado via GDBusAuthObserver::authorize-authenticated-peer"
 
 #: ../gio/gdbusauthmechanismsha1.c:266
-#, fuzzy, c-format
+#, c-format
 msgid "Error statting directory `%s': %s"
-msgstr "Erro ao abrir o diretório \"%s\": %s"
+msgstr "Erro ao obter status do diretório \"%s\": %s"
 
 #: ../gio/gdbusauthmechanismsha1.c:278
 #, c-format
 msgid ""
 "Permissions on directory `%s' are malformed. Expected mode 0700, got 0%o"
 msgstr ""
+"As permissões no diretório \"%s\" estão defeituosas. Esperado modo 0700 "
+"obtido 0%o"
 
 #: ../gio/gdbusauthmechanismsha1.c:299
-#, fuzzy, c-format
+#, c-format
 msgid "Error creating directory `%s': %s"
-msgstr "Erro ao criar o diretório: %s"
+msgstr "Erro ao criar o diretório \"%s\": %s"
 
 #: ../gio/gdbusauthmechanismsha1.c:382
-#, fuzzy, c-format
+#, c-format
 msgid "Error opening keyring `%s' for reading: "
-msgstr "Erro ao abrir arquivo \"%s\": %s"
+msgstr "Erro ao abrir o chaveiro \"%s\" para leitura: "
 
 #: ../gio/gdbusauthmechanismsha1.c:406 ../gio/gdbusauthmechanismsha1.c:715
 #, c-format
 msgid "Line %d of the keyring at `%s' with content `%s' is malformed"
-msgstr ""
+msgstr "A linha %d do chaveiro em \"%s\" com conteúdo \"%s\" está defeituosa"
 
 #: ../gio/gdbusauthmechanismsha1.c:420 ../gio/gdbusauthmechanismsha1.c:729
 #, c-format
 msgid ""
 "First token of line %d of the keyring at `%s' with content `%s' is malformed"
 msgstr ""
+"O primeiro símbolo da linha %d do chaveiro em \"%s\" com conteúdo \"%s\" "
+"está defeituoso"
 
 #: ../gio/gdbusauthmechanismsha1.c:434 ../gio/gdbusauthmechanismsha1.c:743
 #, c-format
 msgid ""
 "Second token of line %d of the keyring at `%s' with content `%s' is malformed"
 msgstr ""
+"O segundo símbolo da linha %d do chaveiro em \"%s\" com conteúdo \"%s\" está "
+"defeituoso"
 
 #: ../gio/gdbusauthmechanismsha1.c:458
 #, c-format
 msgid "Didn't find cookie with id %d in the keyring at `%s'"
-msgstr ""
+msgstr "Não foi encotrado um anexo com o ID %d no chaveiro em \"%s\""
 
 #: ../gio/gdbusauthmechanismsha1.c:535
 #, fuzzy, c-format
