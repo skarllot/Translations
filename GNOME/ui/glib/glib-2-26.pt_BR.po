@@ -1557,7 +1557,8 @@ msgstr "Erro ao ler arquivo nonce \"%s\": %s"
 #: ../gio/gdbusaddress.c:703
 #, c-format
 msgid "Error reading from nonce file `%s', expected 16 bytes, got %d"
-msgstr "Erro ao ler arquivo nonce \"%s\", esperado 16 bytes, obtido %d"
+msgstr ""
+"Erro ao ler arquivo nonce \"%s\". É esperado 16 bytes, mas foi obtido %d"
 
 #: ../gio/gdbusaddress.c:721
 #, c-format
@@ -1586,13 +1587,13 @@ msgstr "Término anormal de programa ao chamar a linha de comandos \"%s\": %s"
 #: ../gio/gdbusaddress.c:1073
 #, c-format
 msgid "Command line `%s' exited with non-zero exit status %d: %s"
-msgstr "Linha de comandos \"%s\" saiu com status de saída não-zero, %d: %s"
+msgstr "A linha de comandos \"%s\" saiu com status de saída não-zero, %d: %s"
 
 #: ../gio/gdbusaddress.c:1146
 #, c-format
 msgid "Cannot determine session bus address (not implemented for this OS)"
 msgstr ""
-"Não foi possível determinar endereço de barramento da sessão (sem "
+"Não foi possível determinar o endereço de barramento da sessão (sem "
 "implementação para este SO)"
 
 #: ../gio/gdbusaddress.c:1245 ../gio/gdbusconnection.c:6016
@@ -1601,21 +1602,21 @@ msgid ""
 "Cannot determine bus address from DBUS_STARTER_BUS_TYPE environment variable "
 "- unknown value `%s'"
 msgstr ""
-"Não foi possível determinar endereço de barramento da variável de ambiente "
-"DBUS_STARTER_BUS_TYPE - valor \"%s\" desconhecido"
+"Não foi possível determinar o endereço de barramento da variável de ambiente "
+"DBUS_STARTER_BUS_TYPE, o valor \"%s\" é desconhecido"
 
 #: ../gio/gdbusaddress.c:1254 ../gio/gdbusconnection.c:6025
 msgid ""
 "Cannot determine bus address because the DBUS_STARTER_BUS_TYPE environment "
 "variable is not set"
 msgstr ""
-"Não foi possível determinar endereço de barramento porque a variável de "
+"Não foi possível determinar o endereço de barramento porque a variável de "
 "ambiente DBUS_STARTER_BUS_TYPE não está definida"
 
 #: ../gio/gdbusaddress.c:1264
 #, c-format
 msgid "Unknown bus type %d"
-msgstr "Tipo de barramento %d desconhecido"
+msgstr "O tipo de barramento %d é desconhecido"
 
 #: ../gio/gdbusauth.c:288
 msgid "Unexpected lack of content trying to read a line"
@@ -1630,7 +1631,7 @@ msgstr "Falta de conteúdo inesperada ao tentar (seguramente) ler uma linha"
 msgid ""
 "Exhausted all available authentication mechanisms (tried: %s) (available: %s)"
 msgstr ""
-"Esgotado todos mecanismos de autenticação disponíveis (tentado: %s) "
+"Foram esgotados todos mecanismos de autenticação disponíveis (tentado: %s) "
 "(disponível: %s)"
 
 #: ../gio/gdbusauth.c:1150
@@ -1640,14 +1641,14 @@ msgstr "Cancelado via GDBusAuthObserver::authorize-authenticated-peer"
 #: ../gio/gdbusauthmechanismsha1.c:266
 #, c-format
 msgid "Error statting directory `%s': %s"
-msgstr "Erro ao obter status do diretório \"%s\": %s"
+msgstr "Erro ao avaliar o diretório \"%s\": %s"
 
 #: ../gio/gdbusauthmechanismsha1.c:278
 #, c-format
 msgid ""
 "Permissions on directory `%s' are malformed. Expected mode 0700, got 0%o"
 msgstr ""
-"As permissões no diretório \"%s\" estão defeituosas. Esperado modo 0700 "
+"As permissões no diretório \"%s\" são inválidas. É esperado 0700, mas foi "
 "obtido 0%o"
 
 #: ../gio/gdbusauthmechanismsha1.c:299
@@ -1663,23 +1664,23 @@ msgstr "Erro ao abrir o chaveiro \"%s\" para leitura: "
 #: ../gio/gdbusauthmechanismsha1.c:406 ../gio/gdbusauthmechanismsha1.c:715
 #, c-format
 msgid "Line %d of the keyring at `%s' with content `%s' is malformed"
-msgstr "A linha %d do chaveiro em \"%s\" com conteúdo \"%s\" está defeituosa"
+msgstr "A linha %d do chaveiro em \"%s\" com o conteúdo \"%s\" é inválida"
 
 #: ../gio/gdbusauthmechanismsha1.c:420 ../gio/gdbusauthmechanismsha1.c:729
 #, c-format
 msgid ""
 "First token of line %d of the keyring at `%s' with content `%s' is malformed"
 msgstr ""
-"O primeiro símbolo da linha %d do chaveiro em \"%s\" com conteúdo \"%s\" "
-"está defeituoso"
+"O primeiro símbolo da linha %d do chaveiro em \"%s\" com o conteúdo \"%s\" é "
+"inválido"
 
 #: ../gio/gdbusauthmechanismsha1.c:434 ../gio/gdbusauthmechanismsha1.c:743
 #, c-format
 msgid ""
 "Second token of line %d of the keyring at `%s' with content `%s' is malformed"
 msgstr ""
-"O segundo símbolo da linha %d do chaveiro em \"%s\" com conteúdo \"%s\" está "
-"defeituoso"
+"O segundo símbolo da linha %d do chaveiro em \"%s\" com o conteúdo \"%s\" é "
+"inválido"
 
 #: ../gio/gdbusauthmechanismsha1.c:458
 #, c-format
@@ -1687,114 +1688,118 @@ msgid "Didn't find cookie with id %d in the keyring at `%s'"
 msgstr "Não foi encotrado um anexo com o ID %d no chaveiro em \"%s\""
 
 #: ../gio/gdbusauthmechanismsha1.c:535
-#, fuzzy, c-format
+#, c-format
 msgid "Error deleting stale lock file `%s': %s"
-msgstr "Erro ao ler arquivo \"%s\": %s"
+msgstr "Erro ao excluir o arquivo de bloqueio anterior \"%s\": %s"
 
 #: ../gio/gdbusauthmechanismsha1.c:566
-#, fuzzy, c-format
+#, c-format
 msgid "Error creating lock file `%s': %s"
-msgstr "Erro ao ler arquivo \"%s\": %s"
+msgstr "Erro ao criar o arquivo de bloqueio \"%s\": %s"
 
 #: ../gio/gdbusauthmechanismsha1.c:596
-#, fuzzy, c-format
+#, c-format
 msgid "Error closing (unlinked) lock file `%s': %s"
-msgstr "Erro ao fechar arquivo: %s"
+msgstr "Erro ao fechar o arquivo de bloqueio (desvinculado) \"%s\": %s"
 
 #: ../gio/gdbusauthmechanismsha1.c:606
-#, fuzzy, c-format
+#, c-format
 msgid "Error unlinking lock file `%s': %s"
-msgstr "Erro ao abrir arquivo \"%s\": %s"
+msgstr "Erro ao desvincular o arquivo de bloqueio \"%s\": %s"
 
 #: ../gio/gdbusauthmechanismsha1.c:682
-#, fuzzy, c-format
+#, c-format
 msgid "Error opening keyring `%s' for writing: "
-msgstr "Erro ao abrir arquivo \"%s\": %s"
+msgstr "Erro ao abrir o chaveiro \"%s\" para escrita: "
 
 #: ../gio/gdbusauthmechanismsha1.c:877
 #, c-format
 msgid "(Additionally, releasing the lock for `%s' also failed: %s) "
-msgstr ""
+msgstr "(Adicionalmente, liberar o bloqueio de \"%s\" também falhou: %s) "
 
 #: ../gio/gdbusconnection.c:1061 ../gio/gdbusconnection.c:1290
 #: ../gio/gdbusconnection.c:1329 ../gio/gdbusconnection.c:1652
-#, fuzzy
 msgid "The connection is closed"
-msgstr "Soquete adicionado está fechado"
+msgstr "A conexão está fechada"
 
 #: ../gio/gdbusconnection.c:1596
 msgid "Timeout was reached"
-msgstr ""
+msgstr "O tempo limite foi alcançado"
 
 #: ../gio/gdbusconnection.c:2173
 msgid ""
 "Unsupported flags encountered when constructing a client-side connection"
 msgstr ""
+"Foram encontrados sinalizadores sem suporte ao construir uma conexão do lado "
+"do cliente"
 
 #: ../gio/gdbusconnection.c:3599 ../gio/gdbusconnection.c:3917
 #, c-format
 msgid ""
 "No such interface `org.freedesktop.DBus.Properties' on object at path %s"
 msgstr ""
+"Nenhuma interface \"org.freedesktop.DBus.Properties\" no objeto no caminho %s"
 
 #: ../gio/gdbusconnection.c:3671
 #, c-format
 msgid "Error setting property `%s': Expected type `%s' but got `%s'"
 msgstr ""
+"Erro ao definir a propriedade \"%s\": o tipo esperado é \"%s\", mas obteve "
+"\"%s\""
 
 #: ../gio/gdbusconnection.c:3766
 #, c-format
 msgid "No such property `%s'"
-msgstr ""
+msgstr "Nenhuma propriedade \"%s\""
 
 #: ../gio/gdbusconnection.c:3778
-#, fuzzy, c-format
+#, c-format
 msgid "Property `%s' is not readable"
-msgstr "O tipo %s não tem classe"
+msgstr "A propriedade \"%s\" está sem leitura"
 
 #: ../gio/gdbusconnection.c:3789
-#, fuzzy, c-format
+#, c-format
 msgid "Property `%s' is not writable"
-msgstr "O tipo %s não tem classe"
+msgstr "A propriedade \"%s\" está sem escrita"
 
 #: ../gio/gdbusconnection.c:3859 ../gio/gdbusconnection.c:5450
 #, c-format
 msgid "No such interface `%s'"
-msgstr ""
+msgstr "Nenhuma interface \"%s\""
 
 #: ../gio/gdbusconnection.c:4047
 msgid "No such interface"
-msgstr ""
+msgstr "Nenhuma interface"
 
 #: ../gio/gdbusconnection.c:4263 ../gio/gdbusconnection.c:5966
 #, c-format
 msgid "No such interface `%s' on object at path %s"
-msgstr ""
+msgstr "Nenhuma interface \"%s\" no objeto no caminho %s"
 
 #: ../gio/gdbusconnection.c:4315
 #, c-format
 msgid "No such method `%s'"
-msgstr ""
+msgstr "Nenhum método \"%s\""
 
 #: ../gio/gdbusconnection.c:4346
 #, c-format
 msgid "Type of message, `%s', does not match expected type `%s'"
-msgstr ""
+msgstr "O tipo da mensagem, \"%s\", não equivale ao tipo esperado \"%s\""
 
 #: ../gio/gdbusconnection.c:4565
 #, c-format
 msgid "An object is already exported for the interface %s at %s"
-msgstr ""
+msgstr "Um objeto já foi exportado para a interface %s em %s"
 
 #: ../gio/gdbusconnection.c:4759
 #, c-format
 msgid "Method `%s' returned type `%s', but expected `%s'"
-msgstr ""
+msgstr "O método \"%s\" retornou o tipo \"%s\", mas é esperado \"%s\""
 
 #: ../gio/gdbusconnection.c:5561
 #, c-format
 msgid "Method `%s' on interface `%s' with signature `%s' does not exist"
-msgstr ""
+msgstr "O método \"%s\" na interface \"%s\" com a assinatura \"%s\" não existe"
 
 #: ../gio/gdbusconnection.c:5679
 #, fuzzy, c-format
