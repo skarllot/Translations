@@ -1802,46 +1802,56 @@ msgid "Method `%s' on interface `%s' with signature `%s' does not exist"
 msgstr "O método \"%s\" na interface \"%s\" com a assinatura \"%s\" não existe"
 
 #: ../gio/gdbusconnection.c:5679
-#, fuzzy, c-format
+#, c-format
 msgid "A subtree is already exported for %s"
-msgstr "O ouvinte já está fechado"
+msgstr "Uma sub-árvore já foi exportada para %s"
 
 #: ../gio/gdbusmessage.c:856
 msgid "type is INVALID"
-msgstr ""
+msgstr "o tipo é INVALID"
 
 #: ../gio/gdbusmessage.c:867
 msgid "METHOD_CALL message: PATH or MEMBER header field is missing"
 msgstr ""
+"Mensagem de METHOD_CALL: O campo de cabeçalho PATH ou MEMBER está faltando"
 
 #: ../gio/gdbusmessage.c:878
 msgid "METHOD_RETURN message: REPLY_SERIAL header field is missing"
 msgstr ""
+"Mensagem de METHOD_RETURN: O campo de cabeçalho REPLY_SERIAL está faltando"
 
 #: ../gio/gdbusmessage.c:890
 msgid "ERROR message: REPLY_SERIAL or ERROR_NAME header field is missing"
 msgstr ""
+"Mensagem de ERROR: O campo de cabeçalho REPLY_SERIAL ou ERROR_NAME está "
+"faltando"
 
 #: ../gio/gdbusmessage.c:903
 msgid "SIGNAL message: PATH, INTERFACE or MEMBER header field is missing"
 msgstr ""
+"Mensagem de SIGNAL: O campo de cabeçalho PATH, INTERFACE ou MEMBER está "
+"faltando"
 
 #: ../gio/gdbusmessage.c:911
 msgid ""
 "SIGNAL message: The PATH header field is using the reserved value /org/"
 "freedesktop/DBus/Local"
 msgstr ""
+"Mensagem de SIGNAL: O campo de cabeçalho PATH está usando o valor reservado /"
+"org/freedesktop/DBus/Local"
 
 #: ../gio/gdbusmessage.c:919
 msgid ""
 "SIGNAL message: The INTERFACE header field is using the reserved value org."
 "freedesktop.DBus.Local"
 msgstr ""
+"Mensagem de SIGNAL: O campo de cabeçalho INTERFACE está usando o valor "
+"reservado org.freedesktop.DBus.Local"
 
 #: ../gio/gdbusmessage.c:994
 #, c-format
 msgid "Wanted to read %lu bytes but got EOF"
-msgstr ""
+msgstr "Ao tentar ler %lu bytes obteve-se EOF (fim de arquivo)"
 
 #: ../gio/gdbusmessage.c:1019
 #, c-format
@@ -1849,38 +1859,48 @@ msgid ""
 "Expected valid UTF-8 string but found invalid bytes at byte offset %d "
 "(length of string is %d). The valid UTF-8 string up until that point was `%s'"
 msgstr ""
+"Era esperado um texto UTF-8 válido, mas foi localizado bytes inválidos na "
+"posição %d (tamanho do texto é %d). O texto UTF-8 válido até este ponto era "
+"\"%s\""
 
 #: ../gio/gdbusmessage.c:1032
 #, c-format
 msgid "Expected NUL byte after the string `%s' but found byte %d"
 msgstr ""
+"Era esperado um byte NUL (nulo) após o texto \"%s\", mas foi localizado o "
+"byte %d"
 
 #: ../gio/gdbusmessage.c:1231
 #, c-format
 msgid "Parsed value `%s' is not a valid D-Bus object path"
-msgstr ""
+msgstr "O valor \"%s\" analisado não é um objeto de caminho D-Bus válido"
 
 #: ../gio/gdbusmessage.c:1257
-#, fuzzy, c-format
+#, c-format
 msgid "Parsed value `%s' is not a valid D-Bus signature"
-msgstr "\"%s\" não é um nome válido"
+msgstr "O valor \"%s\" analisado não é uma assinatura D-Bus válida"
 
 #: ../gio/gdbusmessage.c:1311
 #, c-format
 msgid ""
 "Encountered array of length %u bytes. Maximum length is 2<<26 bytes (64 MiB)."
 msgstr ""
+"Foi encotrado um vetor com tamanho de %u bytes. O tamanho máximo é de 2<<26 "
+"bytes (64 MiB)."
 
 #: ../gio/gdbusmessage.c:1472
 #, c-format
 msgid "Parsed value `%s' for variant is not a valid D-Bus signature"
 msgstr ""
+"O valor \"%s\" analisado para variante não é uma assinatura D-Bus válida"
 
 #: ../gio/gdbusmessage.c:1499
 #, c-format
 msgid ""
 "Error deserializing GVariant with type string `%s' from the D-Bus wire format"
 msgstr ""
+"Erro ao desserializar GVariant com o texto de tipo \"%s\" do formato "
+"demilitado pelo D-Bus"
 
 #: ../gio/gdbusmessage.c:1683
 #, c-format
@@ -1888,50 +1908,63 @@ msgid ""
 "Invalid endianness value. Expected 0x6c ('l') or 0x42 ('B') but found value "
 "0x%02x"
 msgstr ""
+"Valor identificador de endian inválido. Era esperado 0x6c ('l') ou 0x42 "
+"('B'), mas foi localizado o valor 0x%02x"
 
 #: ../gio/gdbusmessage.c:1697
 #, c-format
 msgid "Invalid major protocol version. Expected 1 but found %d"
 msgstr ""
+"Versão majoritária de protocolo inválida. Era esperado 1, mas foi localizado "
+"%d"
 
 #: ../gio/gdbusmessage.c:1754
 #, c-format
 msgid "Signature header with signature `%s' found but message body is empty"
 msgstr ""
+"O cabeçalho de assinatura foi localizado com a assinatura \"%s\", mas o "
+"corpo da mensagem está vazio"
 
 #: ../gio/gdbusmessage.c:1768
 #, c-format
 msgid "Parsed value `%s' is not a valid D-Bus signature (for body)"
 msgstr ""
+"O valor \"%s\" analisado não é uma assinatura D-Bus válida (para o corpo)"
 
 #: ../gio/gdbusmessage.c:1798
 #, c-format
 msgid "No signature header in message but the message body is %u bytes"
 msgstr ""
+"Nenhum cabeçalho de assinatura na mensagem, mas o corpo da mensagem tem %u "
+"bytes"
 
 #: ../gio/gdbusmessage.c:1806
 msgid "Cannot deserialize message: "
-msgstr ""
+msgstr "Não foi possível desserializar a mensagem: "
 
 #: ../gio/gdbusmessage.c:2131
 #, c-format
 msgid ""
 "Error serializing GVariant with type string `%s' to the D-Bus wire format"
 msgstr ""
+"Erro ao desserializar GVariant com o texto de tipo \"%s\" para o formato "
+"demilitado pelo D-Bus"
 
 #: ../gio/gdbusmessage.c:2272
 #, c-format
 msgid "Message has %d fds but the header field indicates %d fds"
-msgstr ""
+msgstr "A mensagem tem %d fds, mas o campo de cabeçalho indica %d fds"
 
 #: ../gio/gdbusmessage.c:2280
 msgid "Cannot serialize message: "
-msgstr ""
+msgstr "Não foi possível serializar a mensagem: "
 
 #: ../gio/gdbusmessage.c:2324
 #, c-format
 msgid "Message body has signature `%s' but there is no signature header"
 msgstr ""
+"O corpo da mensagem tem a assinatura \"%s\", mas não há um cabeçalho de "
+"assinatura"
 
 #: ../gio/gdbusmessage.c:2334
 #, c-format
@@ -1939,6 +1972,8 @@ msgid ""
 "Message body has type signature `%s' but signature in the header field is `%"
 "s'"
 msgstr ""
+"O corpo da mensagem tem o tipo de assinatura \"%s\", mas a assinatura no "
+"campo de cabeçalho é \"%s\""
 
 #: ../gio/gdbusmessage.c:2350
 #, c-format
