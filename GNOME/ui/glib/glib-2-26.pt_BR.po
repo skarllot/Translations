@@ -17,7 +17,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=glib&component=general\n"
 "POT-Creation-Date: 2010-09-18 21:44+0000\n"
-"PO-Revision-Date: 2010-09-18 23:46-0300\n"
+"PO-Revision-Date: 2010-09-26 18:32-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -576,12 +576,12 @@ msgstr "Texto do nome codificado em UTF-8 inválido - \"%s\" não válido"
 #: ../glib/gmarkup.c:378
 #, c-format
 msgid "'%s' is not a valid name "
-msgstr "\"%s\" não é um nome válido"
+msgstr "\"%s\" não é um nome válido "
 
 #: ../glib/gmarkup.c:394
 #, c-format
 msgid "'%s' is not a valid name: '%c' "
-msgstr "\"%s\" não é um nome válido: \"%c\""
+msgstr "\"%s\" não é um nome válido: \"%c\" "
 
 #: ../glib/gmarkup.c:498
 #, c-format
@@ -605,7 +605,7 @@ msgid ""
 "as &amp;"
 msgstr ""
 "Referência de caractere não terminou com um ponto e vírgula; provavelmente "
-"utilizou um caractere \"e\" comercial sem desejar iniciar uma entidade - "
+"utilizou um caractere \"e comercial\" sem desejar iniciar uma entidade - "
 "escape-o com &amp;"
 
 #: ../glib/gmarkup.c:620
@@ -631,7 +631,7 @@ msgid ""
 "character without intending to start an entity - escape ampersand as &amp;"
 msgstr ""
 "Entidade não termina com um ponto e vírgula; provavelmente você utilizou um "
-"\"e\" comercial sem desejar iniciar uma entidade - escape-o com &amp;"
+"\"e comercial\" sem desejar iniciar uma entidade - escape-o com &amp;"
 
 #: ../glib/gmarkup.c:1018
 msgid "Document must begin with an element (e.g. <book>)"
@@ -734,8 +734,8 @@ msgid ""
 "Document ended unexpectedly, expected to see a close angle bracket ending "
 "the tag <%s/>"
 msgstr ""
-"Documento terminou inesperadamente, esperava-se ver um maior que (\">\") "
-"para terminar a marca <%s/>"
+"Documento terminou inesperadamente, esperava-se ver um sinal de maior (\">"
+"\") para terminar a marca <%s/>"
 
 #: ../glib/gmarkup.c:1688
 msgid "Document ended unexpectedly inside an element name"
@@ -893,7 +893,7 @@ msgstr ") sem abrir ("
 #.
 #: ../glib/gregex.c:315
 msgid "(?R or (?[+-]digits must be followed by )"
-msgstr "dígitos (?R ou (?[+-] devem ser seguidos por )"
+msgstr "\"(?R\" ou \"(?[+-]digitos\" devem ser seguidos por )"
 
 #: ../glib/gregex.c:318
 msgid "reference to non-existent subpattern"
@@ -901,7 +901,7 @@ msgstr "referência a subpadrão não existente"
 
 #: ../glib/gregex.c:321
 msgid "missing ) after comment"
-msgstr ") em falta após o comentário"
+msgstr "\")\" em falta após o comentário"
 
 #: ../glib/gregex.c:324
 msgid "regular expression too large"
@@ -1067,7 +1067,7 @@ msgstr "referência simbólica ilegal"
 
 #: ../glib/gregex.c:2291
 msgid "stray final '\\'"
-msgstr "\"\\\" final sem isolado"
+msgstr "\"\\\" final errado"
 
 #: ../glib/gregex.c:2295
 msgid "unknown escape sequence"
@@ -1225,7 +1225,7 @@ msgstr "Uso:"
 
 #: ../glib/goption.c:760
 msgid "[OPTION...]"
-msgstr "[OPÇÕES...]"
+msgstr "[OPÇÃO...]"
 
 #: ../glib/goption.c:866
 msgid "Help Options:"
@@ -1515,7 +1515,7 @@ msgid ""
 "`path' or `abstract' to be set"
 msgstr ""
 "Erro no endereço \"%s\" - o transporte Unix requer exatamente uma das chaves "
-"\"path\" (caminho) ou \"abstract\" (abstrato) sejam definidas"
+"\"path\" ou \"abstract\" sejam definidas"
 
 #: ../gio/gdbusaddress.c:583
 #, c-format
@@ -2005,7 +2005,7 @@ msgstr "Erro ao abrir enviar mensagem: %s"
 
 #: ../gio/gdbusprivate.c:1766
 msgid "Unable to load /var/lib/dbus/machine-id: "
-msgstr ""
+msgstr "Não foi possível carregar /var/lib/dbus/machine-id: "
 
 #: ../gio/gdbusproxy.c:714
 #, c-format
@@ -2013,22 +2013,27 @@ msgid ""
 "Trying to set property %s of type %s but according to the expected interface "
 "the type is %s"
 msgstr ""
+"Tentando definir a propriedade %s do tipo %s, mas de acordo com a interface "
+"esperada o tipo é %s"
 
 #: ../gio/gdbusproxy.c:1235
 #, c-format
 msgid "Error calling StartServiceByName for %s: "
-msgstr ""
+msgstr "Erro ao chamar StartServiceByName para %s: "
 
 #: ../gio/gdbusproxy.c:1256
 #, c-format
 msgid "Unexpected reply %d from StartServiceByName(\"%s\") method"
-msgstr ""
+msgstr "Resposta %d inesperada do método StartServiceByName(\"%s\")"
 
 #: ../gio/gdbusproxy.c:2315 ../gio/gdbusproxy.c:2472
 msgid ""
 "Cannot invoke method; proxy is for a well-known name without an owner and "
 "proxy was constructed with the G_DBUS_PROXY_FLAGS_DO_NOT_AUTO_START flag"
 msgstr ""
+"Não foi possível chamar método; o proxy é para um nome conhecido sem um dono "
+"e o proxy foi construído com o sinalizador "
+"G_DBUS_PROXY_FLAGS_DO_NOT_AUTO_START"
 
 #: ../gio/gdbusserver.c:715
 msgid "Abstract name space not supported"
@@ -2157,12 +2162,12 @@ msgstr "Erro ao conectar: %s\n"
 #: ../gio/gdbus-tool.c:646 ../gio/gdbus-tool.c:1264 ../gio/gdbus-tool.c:1524
 #, c-format
 msgid "Error: Destination is not specified\n"
-msgstr "Erro: Destino não foi especificado\n"
+msgstr "Erro: O destino não foi especificado\n"
 
 #: ../gio/gdbus-tool.c:667 ../gio/gdbus-tool.c:1283
 #, c-format
 msgid "Error: Object path is not specified\n"
-msgstr "Erro: Caminho do objeto não foi especificado\n"
+msgstr "Erro: O caminho do objeto não foi especificado\n"
 
 #: ../gio/gdbus-tool.c:687 ../gio/gdbus-tool.c:1303 ../gio/gdbus-tool.c:1564
 #, c-format
@@ -2172,7 +2177,7 @@ msgstr "Erro: %s não é um caminho de objeto válido\n"
 #: ../gio/gdbus-tool.c:702
 #, c-format
 msgid "Error: Method name is not specified\n"
-msgstr "Erro: O nome do método não foi especificado"
+msgstr "Erro: O nome do método não foi especificado\n"
 
 #: ../gio/gdbus-tool.c:713
 #, c-format
@@ -2494,7 +2499,7 @@ msgstr ""
 #, c-format
 msgid "invalid name '%s': two successive dashes ('--') are not permitted."
 msgstr ""
-"nome \"%s\" inválido: dois traços (\"-\") consecutivos não são permitidos."
+"nome \"%s\" inválido: dois traços (\"--\") consecutivos não são permitidos."
 
 #: ../gio/glib-compile-schemas.c:742
 #, c-format
@@ -2546,7 +2551,6 @@ msgstr "<%s id='%s'> não está (ainda) definido."
 
 #: ../gio/glib-compile-schemas.c:919
 #, c-format
-#| msgid "Invalid attribute type (string expected)"
 msgid "invalid GVariant type string '%s'"
 msgstr "tipo de texto GVariant \"%s\" é inválido"
 
@@ -2602,46 +2606,50 @@ msgid ""
 "<schema id='%s' list-of='%s'> extends <schema id='%s' list-of='%s'> but '%s' "
 "does not extend '%s'"
 msgstr ""
+"<schema id='%s' list-of='%s'> extende <schema id='%s' list-of='%s'>, mas \"%s"
+"\" não extende \"%s\""
 
 #: ../gio/glib-compile-schemas.c:1119
 #, c-format
 msgid "a path, if given, must begin and end with a slash"
-msgstr ""
+msgstr "um caminho, se determinado, precisa começar e terminar com uma barra"
 
 #: ../gio/glib-compile-schemas.c:1126
 #, c-format
 msgid "the path of a list must end with ':/'"
-msgstr ""
+msgstr "o caminho de uma lista precisa terminar com \":/\""
 
 #: ../gio/glib-compile-schemas.c:1148
 #, c-format
 msgid "<%s id='%s'> already specified"
-msgstr ""
+msgstr "<%s id='%s'> já especificado"
 
 #: ../gio/glib-compile-schemas.c:1362
 #, c-format
 msgid "Element <%s> not allowed inside <%s>"
-msgstr ""
+msgstr "O elemento <%s> não é permitido dentro de <%s>"
 
 #: ../gio/glib-compile-schemas.c:1366
 #, c-format
 msgid "Element <%s> not allowed at toplevel"
-msgstr ""
+msgstr "O elemento <%s> não é permitido no nível mais alto"
 
 #: ../gio/glib-compile-schemas.c:1460
 #, c-format
 msgid "text may not appear inside <%s>"
-msgstr ""
+msgstr "texto não pode aparecer dentro de <%s>"
 
 #: ../gio/glib-compile-schemas.c:1674
 #, c-format
 msgid "No such schema `%s' specified in override file `%s'"
-msgstr ""
+msgstr "Nenhum esquema \"%s\" especificado no arquivo de sobrescrita \"%s\""
 
 #: ../gio/glib-compile-schemas.c:1698
 #, c-format
 msgid "No such key `%s' in schema `%s' as specified in override file `%s'"
 msgstr ""
+"Nenhuma chave \"%s\" no esquema \"%s\" como especificado no arquivo de "
+"sobrescrita \"%s\""
 
 #: ../gio/glib-compile-schemas.c:1731
 #, c-format
@@ -2649,6 +2657,8 @@ msgid ""
 "override for key `%s' in schema `%s' in override file `%s' is out of the "
 "range given in the schema"
 msgstr ""
+"sobrescrita para chave \"%s\" no esquema \"%s\" no arquivo de sobrescrita \"%"
+"s\" está fora dos limites dado pelo esquema"
 
 #: ../gio/glib-compile-schemas.c:1752
 #, c-format
@@ -2656,26 +2666,28 @@ msgid ""
 "override for key `%s' in schema `%s' in override file `%s' is not in the "
 "list of valid choices"
 msgstr ""
+"sobrescrita para a chave \"%s\" no esquema \"%s\" no arquivo de sobrescrita "
+"\"%s\" não está na lista de escolhas válidas"
 
 #: ../gio/glib-compile-schemas.c:1797
 msgid "where to store the gschemas.compiled file"
-msgstr ""
+msgstr "onde armazenar o arquivo gschemas compilado"
 
 #: ../gio/glib-compile-schemas.c:1797 ../gio/glib-compile-schemas.c:1809
 msgid "DIRECTORY"
-msgstr ""
+msgstr "DIRETÓRIO"
 
 #: ../gio/glib-compile-schemas.c:1798
 msgid "Do not write the gschema.compiled file"
-msgstr ""
+msgstr "Não gravar o arquivo gschema compilado"
 
 #: ../gio/glib-compile-schemas.c:1799
 msgid "This option will be removed soon."
-msgstr ""
+msgstr "Esta opção será removida logo."
 
 #: ../gio/glib-compile-schemas.c:1800
 msgid "Do not enforce key name restrictions"
-msgstr ""
+msgstr "Não forçar restrições de nome de chave"
 
 #: ../gio/glib-compile-schemas.c:1812
 msgid ""
@@ -2683,26 +2695,29 @@ msgid ""
 "Schema files are required to have the extension .gschema.xml,\n"
 "and the cache file is called gschemas.compiled."
 msgstr ""
+"Compila todos os arquivos schema GSettings em um cache schema.\n"
+"É necessário que os arquivos schema tenham a extensão\n"
+".gschema.xml, e o arquivo de cache é chamado gschemas.compiled."
 
 #: ../gio/glib-compile-schemas.c:1828
 #, c-format
 msgid "You should give exactly one directory name\n"
-msgstr ""
+msgstr "Voce deveria dar exatamente um nome de diretório\n"
 
 #: ../gio/glib-compile-schemas.c:1867
 #, c-format
 msgid "No schema files found: "
-msgstr ""
+msgstr "Nenhum arquivo schema localizado: "
 
 #: ../gio/glib-compile-schemas.c:1870
 #, c-format
 msgid "doing nothing.\n"
-msgstr ""
+msgstr "fazendo nada.\n"
 
 #: ../gio/glib-compile-schemas.c:1873
 #, c-format
 msgid "removed existing output file.\n"
-msgstr ""
+msgstr "arquivo de saída existente removido.\n"
 
 #: ../gio/glocaldirectorymonitor.c:287
 msgid "Unable to find default local directory monitor type"
@@ -2844,7 +2859,7 @@ msgstr "Erro ao iniciar arquivo \"%s\": %s"
 
 #: ../gio/glocalfileinfo.c:1567
 msgid " (invalid encoding)"
-msgstr "(codificação inválida)"
+msgstr " (codificação inválida)"
 
 #: ../gio/glocalfileinfo.c:1769
 #, c-format
@@ -3125,27 +3140,36 @@ msgid ""
 "\n"
 "Use '%s COMMAND --help' to get help for individual commands.\n"
 msgstr ""
+"Comandos:\n"
+"  help        Mostra esta informação\n"
+"  get         Obtém o valor de uma chave\n"
+"  set         Define o valor de uma chave\n"
+"  reset       Restaura o valor de uma chave\n"
+"  monitor     Monitora uma chave por alterações\n"
+"  writable    Verifica se uma chave é gravável\n"
+"\n"
+"Use '%s COMANDO --help' para obter ajuda para comando individuais.\n"
 
 #: ../gio/gsettings-tool.c:220 ../gio/gsettings-tool.c:320
 #: ../gio/gsettings-tool.c:436 ../gio/gsettings-tool.c:531
 #: ../gio/gsettings-tool.c:644
 msgid "Specify the path for the schema"
-msgstr ""
+msgstr "Especificar o caminho para um esquema"
 
 #: ../gio/gsettings-tool.c:220 ../gio/gsettings-tool.c:320
 #: ../gio/gsettings-tool.c:436 ../gio/gsettings-tool.c:531
 #: ../gio/gsettings-tool.c:644
 msgid "PATH"
-msgstr ""
+msgstr "CAMINHO"
 
 #: ../gio/gsettings-tool.c:228 ../gio/gsettings-tool.c:539
 #: ../gio/gsettings-tool.c:652
 msgid "SCHEMA KEY"
-msgstr ""
+msgstr "ESQUEMA CHAVE"
 
 #: ../gio/gsettings-tool.c:230
 msgid "Get the value of KEY"
-msgstr ""
+msgstr "Obtém o valor de CHAVE"
 
 #: ../gio/gsettings-tool.c:232 ../gio/gsettings-tool.c:448
 #: ../gio/gsettings-tool.c:543 ../gio/gsettings-tool.c:659
@@ -3154,14 +3178,17 @@ msgid ""
 "  SCHEMA      The id of the schema\n"
 "  KEY         The name of the key\n"
 msgstr ""
+"Argumentos:\n"
+"  ESQUEMA     A identificação do esquema\n"
+"  CHAVE       O nome da chave\n"
 
 #: ../gio/gsettings-tool.c:328 ../gio/gsettings-tool.c:444
 msgid "SCHEMA KEY VALUE"
-msgstr ""
+msgstr "ESQUEMA CHAVE VALOR"
 
 #: ../gio/gsettings-tool.c:330
 msgid "Set the value of KEY"
-msgstr ""
+msgstr "Define o valor de CHAVE"
 
 #: ../gio/gsettings-tool.c:332
 msgid ""
@@ -3170,30 +3197,36 @@ msgid ""
 "  KEY         The name of the key\n"
 "  VALUE       The value to set key to, as a serialized GVariant\n"
 msgstr ""
+"Argumentos:\n"
+"  ESQUEMA     A identificação do esquema\n"
+"  CHAVE       O nome da chave\n"
+"  VALOR       O valor para definir na chave, como um GVariant serializado\n"
 
 #: ../gio/gsettings-tool.c:405
-#, fuzzy, c-format
+#, c-format
 msgid "Key %s is not writable\n"
-msgstr "O tipo %s não tem classe"
+msgstr "A chave %s não é gravável\n"
 
 #: ../gio/gsettings-tool.c:446
 msgid "Sets KEY to its default value"
-msgstr ""
+msgstr "Define CHAVE para seu valor predefinido"
 
 #: ../gio/gsettings-tool.c:541
 msgid "Find out whether KEY is writable"
-msgstr ""
+msgstr "Descobrir se CHAVE é gravável"
 
 #: ../gio/gsettings-tool.c:655
 msgid ""
 "Monitor KEY for changes and print the changed values.\n"
 "Monitoring will continue until the process is terminated."
 msgstr ""
+"Monitorar CHAVE por alterações e exibir os valores alterados.\n"
+"O monitoramento continuará até que o processo seja terminado."
 
 #: ../gio/gsettings-tool.c:831
-#, fuzzy, c-format
+#, c-format
 msgid "Unknown command '%s'\n"
-msgstr "Opção %s desconhecida"
+msgstr "Comando \"%s\" desconhecido\n"
 
 #: ../gio/gsocket.c:276
 msgid "Invalid socket, not initialized"
@@ -3210,12 +3243,12 @@ msgstr "O soquete já está fechado"
 
 #: ../gio/gsocket.c:299 ../gio/gsocket.c:2716 ../gio/gsocket.c:2760
 msgid "Socket I/O timed out"
-msgstr ""
+msgstr "Tempo de I/O do soquete foi esgotado"
 
 #: ../gio/gsocket.c:421
 #, c-format
 msgid "creating GSocket from fd: %s"
-msgstr "Criando GSocket a partir do fd: %s"
+msgstr "criando GSocket a partir do fd: %s"
 
 #: ../gio/gsocket.c:455 ../gio/gsocket.c:471 ../gio/gsocket.c:2113
 #, c-format
@@ -3291,7 +3324,7 @@ msgstr "Aguardando pela condição do soquete: %s"
 
 #: ../gio/gsocket.c:2999
 msgid "GSocketControlMessage not supported on windows"
-msgstr "não há suporte a GSocketControlMessage no windows"
+msgstr "Não há suporte a GSocketControlMessage no windows"
 
 #: ../gio/gsocket.c:3258 ../gio/gsocket.c:3399
 #, c-format
@@ -3300,7 +3333,7 @@ msgstr "Erro ao receber mensagem: %s"
 
 #: ../gio/gsocket.c:3494
 msgid "g_socket_get_credentials not implemented for this OS"
-msgstr ""
+msgstr "g_socket_get_credentials não está implementado para este SO"
 
 #: ../gio/gsocketclient.c:674 ../gio/gsocketclient.c:1153
 msgid "Unknown error on connect"
@@ -3308,12 +3341,12 @@ msgstr "erro desconhecido ao conectar"
 
 #: ../gio/gsocketclient.c:711 ../gio/gsocketclient.c:1038
 msgid "Trying to proxy over non-TCP connection is not supported."
-msgstr ""
+msgstr "Não há suporte a tentativa ao uso de proxy sobre uma conexão não TCP."
 
 #: ../gio/gsocketclient.c:749 ../gio/gsocketclient.c:1061
-#, fuzzy, c-format
+#, c-format
 msgid "Proxy protocol '%s' is not supported."
-msgstr "O tipo %s não tem classe"
+msgstr "Não há suporte ao protocolo de proxy \"%s\"."
 
 #: ../gio/gsocketlistener.c:191
 msgid "Listener is already closed"
@@ -3326,89 +3359,94 @@ msgstr "Soquete adicionado está fechado"
 #: ../gio/gsocks4aproxy.c:121
 #, c-format
 msgid "SOCKSv4 does not support IPv6 address '%s'"
-msgstr ""
+msgstr "Não há suporte ao endereço IPv6 \"%s\" pelo SOCKSv4"
 
 #: ../gio/gsocks4aproxy.c:139
 #, c-format
 msgid "SOCKSv4 implementation limits username to %i characters"
-msgstr ""
+msgstr "A implementação SOCKSv4 limita o nome de usuário a %i caracteres"
 
 #: ../gio/gsocks4aproxy.c:157
 #, c-format
 msgid "SOCKSv4a implementation limits hostname to %i characters"
-msgstr ""
+msgstr "A implementação SOCKSv4a limita o nome de servidor para %i caracteres"
 
 #: ../gio/gsocks4aproxy.c:183
 msgid "The server is not a SOCKSv4 proxy server."
-msgstr ""
+msgstr "O servidor não é um servidor proxy SOCKSv4."
 
 #: ../gio/gsocks4aproxy.c:190
 msgid "Connection through SOCKSv4 server was rejected"
-msgstr ""
+msgstr "A conexão ao servidor por meio de SOCKSv4 foi rejeitada"
 
 #: ../gio/gsocks5proxy.c:155 ../gio/gsocks5proxy.c:328
 #: ../gio/gsocks5proxy.c:338
 msgid "The server is not a SOCKSv5 proxy server."
-msgstr ""
+msgstr "O servidor não é um servidor proxy SOCKSv5."
 
 #: ../gio/gsocks5proxy.c:169
 msgid "The SOCKSv5 proxy requires authentication."
-msgstr ""
+msgstr "O proxy SOCKSv5 requer autenticação."
 
 #: ../gio/gsocks5proxy.c:179
 msgid ""
 "The SOCKSv5 require an authentication method that is not supported by GLib."
-msgstr ""
+msgstr "O SOCKSv5 requer um método de autenticação sem suporte pelo GLib."
 
 #: ../gio/gsocks5proxy.c:208
 #, c-format
 msgid "Username or password is too long for SOCKSv5 protocol (max. is %i)."
 msgstr ""
+"O nome de usuário ou a senha são muito longos para o protocolo SOCKSv5 (máx. "
+"é %i)."
 
 #: ../gio/gsocks5proxy.c:239
 msgid "SOCKSv5 authentication failed due to wrong username or password."
 msgstr ""
+"A autenticação SOCKSv5 falhou devido a um nome de usuário ou senha errados."
 
 #: ../gio/gsocks5proxy.c:289
 #, c-format
 msgid "Hostname '%s' too long for SOCKSv5 protocol (maximum is %i bytes)"
 msgstr ""
+"O nome de servidor \"%s\" é muito longo para o protocolo SOCKSv5 (o máximo é "
+"%i bytes)"
 
 #: ../gio/gsocks5proxy.c:352
 msgid "The SOCKSv5 proxy server uses unkown address type."
-msgstr ""
+msgstr "O servidor proxy SOCKSv5 está usando um tipo de endereço desconhecido."
 
 #: ../gio/gsocks5proxy.c:359
 msgid "Internal SOCKSv5 proxy server error."
-msgstr ""
+msgstr "Erro interno de servidor proxy SOCKSv5."
 
 #: ../gio/gsocks5proxy.c:365
 msgid "SOCKSv5 connection not allowed by ruleset."
-msgstr ""
+msgstr "A conexão SOCKSv5 não foi permitida pelo conjunto de regras."
 
 #: ../gio/gsocks5proxy.c:372
 msgid "Host unreachable through SOCKSv5 server."
-msgstr ""
+msgstr "Servidor inalcançável por meio do servidor SOCKSv5."
 
 #: ../gio/gsocks5proxy.c:378
 msgid "Network unreachable through SOCKSv5 proxy."
-msgstr ""
+msgstr "Rede inalcançável por meio do proxy SOCKSv5."
 
 #: ../gio/gsocks5proxy.c:384
 msgid "Connection refused through SOCKSv5 proxy."
-msgstr ""
+msgstr "Conexão recusada por meio do proxy SOCKSv5."
 
 #: ../gio/gsocks5proxy.c:390
 msgid "SOCKSv5 proxy does not support 'connect' command."
-msgstr ""
+msgstr "Proxy SOCKSv5 sem suporte ao comando \"connect\"."
 
 #: ../gio/gsocks5proxy.c:396
 msgid "SOCKSv5 proxy does not support provided address type."
-msgstr ""
+msgstr "Proxy SOCKSv5 sem suporte ao tipo de endereço fornecido."
 
 #: ../gio/gsocks5proxy.c:402
 msgid "Unkown SOCKSv5 proxy error."
-msgstr ""
+msgstr "Erro de proxy SOCKSv5 desconhecido."
 
 #: ../gio/gthemedicon.c:498
 #, c-format
@@ -3434,14 +3472,13 @@ msgid "Received invalid fd"
 msgstr "Recebido fd inválido"
 
 #: ../gio/gunixconnection.c:359
-#, fuzzy
 msgid "Error sending credentials: "
-msgstr "Erro ao enviar dados: %s"
+msgstr "Erro ao enviar credenciais: "
 
 #: ../gio/gunixconnection.c:439
 #, c-format
 msgid "Error checking if SO_PASSCRED is enabled for socket: %s"
-msgstr ""
+msgstr "Erro ao verificar se SO_PASSCRED está habilitado pelo soquete: %s"
 
 #: ../gio/gunixconnection.c:448
 #, c-format
@@ -3449,21 +3486,25 @@ msgid ""
 "Unexpected option length while checking if SO_PASSCRED is enabled for "
 "socket. Expected %d bytes, got %d"
 msgstr ""
+"Tamanho inesperado de opção ao verificar se SO_PASSCRED está habilitado pelo "
+"soquete. Esperado %d bytes, mas obteve %d"
 
 #: ../gio/gunixconnection.c:465
-#, fuzzy, c-format
+#, c-format
 msgid "Error enabling SO_PASSCRED: %s"
-msgstr "Erro ao renomear arquivo: %s"
+msgstr "Erro ao habilitar SO_PASSCRED: %s"
 
 #: ../gio/gunixconnection.c:495
 msgid ""
 "Expecting to read a single byte for receiving credentials but read zero bytes"
 msgstr ""
+"Era esperado ler apenas um byte para receber credenciais, mas foi lido zero "
+"byte"
 
 #: ../gio/gunixconnection.c:538
 #, c-format
 msgid "Error while disabling SO_PASSCRED: %s"
-msgstr ""
+msgstr "Erro ao desabilitar SO_PASSCRED: %s"
 
 #: ../gio/gunixinputstream.c:353 ../gio/gunixinputstream.c:373
 #: ../gio/gunixinputstream.c:451 ../gio/gunixoutputstream.c:438
@@ -3524,19 +3565,19 @@ msgid "Association creation not supported on win32"
 msgstr "Não há suporte à criação de associação em win32"
 
 #: ../gio/gwin32inputstream.c:318
-#, fuzzy, c-format
+#, c-format
 msgid "Error reading from handle: %s"
-msgstr "Erro ao ler do arquivo: %s"
+msgstr "Erro ao ler do manipulador: %s"
 
 #: ../gio/gwin32inputstream.c:348 ../gio/gwin32outputstream.c:348
-#, fuzzy, c-format
+#, c-format
 msgid "Error closing handle: %s"
-msgstr "Erro ao fechar arquivo: %s"
+msgstr "Erro ao fechar manipulador: %s"
 
 #: ../gio/gwin32outputstream.c:318
-#, fuzzy, c-format
+#, c-format
 msgid "Error writing to handle: %s"
-msgstr "Erro ao escrever no arquivo: %s"
+msgstr "Erro ao escrever no manipulador: %s"
 
 #: ../gio/gzlibcompressor.c:396 ../gio/gzlibdecompressor.c:349
 msgid "Not enough memory"
@@ -3554,90 +3595,3 @@ msgstr "Precisa de mais entrada"
 #: ../gio/gzlibdecompressor.c:342
 msgid "Invalid compressed data"
 msgstr "Dados comprimidos inválidos"
-
-#, fuzzy
-#~ msgid "Do not give error for empty directory"
-#~ msgstr "Não é possível mover diretório sobre diretório"
-
-#~ msgid "Invalid UTF-8 sequence in input"
-#~ msgstr "Seqüência UTF-8 inválida na entrada"
-
-#~ msgid "Reached maximum data array limit"
-#~ msgstr "Foi alcançado o limite máximo de matriz de dados"
-
-#~ msgid "do not hide entries"
-#~ msgstr "não ocultar entradas"
-
-#~ msgid "use a long listing format"
-#~ msgstr "usar um formato de listagem longo"
-
-#~ msgid "[FILE...]"
-#~ msgstr "[ARQUIVO...]"
-
-#~ msgid ""
-#~ "Character '%s' is not valid at the start of an entity name; the & "
-#~ "character begins an entity; if this ampersand isn't supposed to be an "
-#~ "entity, escape it as &amp;"
-#~ msgstr ""
-#~ "Caractere \"%s\" não é válido no início do nome da entidade; o caractere "
-#~ "& inicia uma entidade; se este \"e\" comercial não é suposto ser uma "
-#~ "entidade, escape-o como &amp;"
-
-#~ msgid "Character '%s' is not valid inside an entity name"
-#~ msgstr "Caractere \"%s\" não é válido dentro de um nome de entidade"
-
-#~ msgid "Empty character reference; should include a digit such as &#454;"
-#~ msgstr ""
-#~ "Referência de caractere vazia; deveria incluir um dígito tal como &#454;"
-
-#~ msgid "Unfinished entity reference"
-#~ msgstr "Referência de entidade inacabada"
-
-#~ msgid "Unfinished character reference"
-#~ msgstr "Referência de caractere inacabada"
-
-#~ msgid "Invalid UTF-8 encoded text - overlong sequence"
-#~ msgstr "Texto codificado em UTF-8 inválido - seqüência muito extensa"
-
-#~ msgid "Invalid UTF-8 encoded text - not a start char"
-#~ msgstr "Texto codificado em UTF-8 inválido - não é um caractere inicial"
-
-#~ msgid "file"
-#~ msgstr "arquivo"
-
-#~ msgid "The file containing the icon"
-#~ msgstr "O arquivo contendo o ícone"
-
-#~ msgid "The name of the icon"
-#~ msgstr "O nome do ícone"
-
-#~ msgid "names"
-#~ msgstr "nomes"
-
-#~ msgid "An array containing the icon names"
-#~ msgstr "Um array contendo os nomes dos ícones"
-
-#~ msgid "use default fallbacks"
-#~ msgstr "usa os fallbacks padrões"
-
-#~ msgid ""
-#~ "Whether to use default fallbacks found by shortening the name at '-' "
-#~ "characters. Ignores names after the first if multiple names are given."
-#~ msgstr ""
-#~ "Se deve tentar os nomes mais curtos, localizados através do caractere "
-#~ "'-'. Ignora nomes depois do primeiro, de vários foram fornecidos."
-
-#~ msgid "File descriptor"
-#~ msgstr "Descritor de arquivo"
-
-#~ msgid "The file descriptor to read from"
-#~ msgstr "O descritor de arquivo de onde ler"
-
-#~ msgid "Close file descriptor"
-#~ msgstr "Fechar descritor de arquivo"
-
-#~ msgid "Whether to close the file descriptor when the stream is closed"
-#~ msgstr "Fechar ou não o descritor de arquivo quando o fluxo for fechado"
-
-#~ msgid "The file descriptor to write to"
-#~ msgstr "O descritor de arquivo para o qual escrever"
