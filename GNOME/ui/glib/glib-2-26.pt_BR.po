@@ -1947,7 +1947,7 @@ msgstr "Não foi possível desserializar a mensagem: "
 msgid ""
 "Error serializing GVariant with type string `%s' to the D-Bus wire format"
 msgstr ""
-"Erro ao desserializar GVariant com o texto de tipo \"%s\" para o formato "
+"Erro ao serializar GVariant com o texto de tipo \"%s\" para o formato "
 "demilitado pelo D-Bus"
 
 #: ../gio/gdbusmessage.c:2272
@@ -1979,20 +1979,23 @@ msgstr ""
 #, c-format
 msgid "Message body is empty but signature in the header field is `(%s)'"
 msgstr ""
+"O corpo da mensagem está vazio, mas a assinatura no campo de cabeçalho é \"(%"
+"s)\""
 
 #: ../gio/gdbusmessage.c:2907
-#, fuzzy, c-format
+#, c-format
 msgid "Error return with body of type `%s'"
-msgstr "Erro ao escrever no arquivo: %s"
+msgstr "Retorno de erro com o corpo de tipo \"%s\""
 
 #: ../gio/gdbusmessage.c:2915
 msgid "Error return with empty body"
-msgstr ""
+msgstr "Retorno de erro com o corpo vazio"
 
 #: ../gio/gdbusmethodinvocation.c:375
 #, c-format
 msgid "Type of return value is incorrect, got `%s', expected `%s'"
 msgstr ""
+"O tipo do valor de retorno está incorreto, obtido \"%s\", era esperado \"%s\""
 
 #: ../gio/gdbusmethodinvocation.c:406 ../gio/gsocket.c:2974
 #: ../gio/gsocket.c:3055
@@ -2028,32 +2031,31 @@ msgid ""
 msgstr ""
 
 #: ../gio/gdbusserver.c:715
-#, fuzzy
 msgid "Abstract name space not supported"
-msgstr "Não há suporte para lixeira"
+msgstr "Não há suporte a espaço de nome abstrato"
 
 #: ../gio/gdbusserver.c:805
 msgid "Cannot specify nonce file when creating a server"
-msgstr ""
+msgstr "Não foi possível especificar um arquivo nonce ao criar um servidor"
 
 #: ../gio/gdbusserver.c:882
-#, fuzzy, c-format
+#, c-format
 msgid "Error writing nonce file at `%s': %s"
-msgstr "Erro ao escrever no arquivo: %s"
+msgstr "Erro ao escrever no arquivo nonce em \"%s\": %s"
 
 #: ../gio/gdbusserver.c:1044
-#, fuzzy, c-format
+#, c-format
 msgid "The string `%s' is not a valid D-Bus GUID"
-msgstr "\"%s\" não é um nome válido"
+msgstr "O texto \"%s\" não é válido para GUID D-Bus"
 
 #: ../gio/gdbusserver.c:1084
 #, c-format
 msgid "Cannot listen on unsupported transport `%s'"
-msgstr ""
+msgstr "Não é possível escutar no transporte \"%s\" por falta de suporte"
 
 #: ../gio/gdbus-tool.c:87 ../gio/gsettings-tool.c:76
 msgid "COMMAND"
-msgstr ""
+msgstr "COMANDO"
 
 #: ../gio/gdbus-tool.c:92
 #, c-format
@@ -2066,55 +2068,61 @@ msgid ""
 "\n"
 "Use \"%s COMMAND --help\" to get help on each command.\n"
 msgstr ""
+"Comandos:\n"
+"  help         Mostra esta informação\n"
+"  introspect   Auto-exame de um objeto remoto\n"
+"  monitor      Monitora um objeto remoto\n"
+"  call         Chama um método de um objeto remoto\n"
+"\n"
+"Use \"%s COMANDO --help\" para obter ajuda de cada comando.\n"
 
 #: ../gio/gdbus-tool.c:160 ../gio/gdbus-tool.c:216 ../gio/gdbus-tool.c:288
 #: ../gio/gdbus-tool.c:312 ../gio/gdbus-tool.c:814 ../gio/gdbus-tool.c:1324
-#, fuzzy, c-format
+#, c-format
 msgid "Error: %s\n"
-msgstr "Erro na linha %d: %s"
+msgstr "Erro: %s\n"
 
 #: ../gio/gdbus-tool.c:171 ../gio/gdbus-tool.c:229 ../gio/gdbus-tool.c:1340
-#, fuzzy, c-format
+#, c-format
 msgid "Error parsing introspection XML: %s\n"
-msgstr "Erro ao ler a opção %s"
+msgstr "Erro ao analisar XML de auto-exame: %s\n"
 
 #: ../gio/gdbus-tool.c:346
 msgid "Connect to the system bus"
-msgstr ""
+msgstr "Conectar ao barramento de sistema"
 
 #: ../gio/gdbus-tool.c:347
 msgid "Connect to the session bus"
-msgstr ""
+msgstr "Conectar ao barramento de sessão"
 
 #: ../gio/gdbus-tool.c:348
-#, fuzzy
 msgid "Connect to given D-Bus address"
-msgstr "Conexão em progresso"
+msgstr "Conectar ao endereço D-Bus escolhido"
 
 #: ../gio/gdbus-tool.c:358
-#, fuzzy
 msgid "Connection Endpoint Options:"
-msgstr "Conexão em progresso"
+msgstr "Opções de conexão de ponto final:"
 
 #: ../gio/gdbus-tool.c:359
 msgid "Options specifying the connection endpoint"
-msgstr ""
+msgstr "Opções especificando a conexão de ponto final"
 
 #: ../gio/gdbus-tool.c:379
 #, c-format
 msgid "No connection endpoint specified"
-msgstr ""
+msgstr "Nenhuma conexão de ponto final especificada"
 
 #: ../gio/gdbus-tool.c:389
 #, c-format
 msgid "Multiple connection endpoints specified"
-msgstr ""
+msgstr "Múltiplas conexões de ponto final especificadas"
 
 #: ../gio/gdbus-tool.c:459
 #, c-format
 msgid ""
 "Warning: According to introspection data, interface `%s' does not exist\n"
 msgstr ""
+"Aviso: De acordo com os dados de auto-exame a interface \"%s\" não existe\n"
 
 #: ../gio/gdbus-tool.c:468
 #, c-format
@@ -2122,95 +2130,96 @@ msgid ""
 "Warning: According to introspection data, method `%s' does not exist on "
 "interface `%s'\n"
 msgstr ""
+"Aviso: De acordo com os dados de auto-exame o método \"%s\" não existe na "
+"interface \"%s\"\n"
 
 #: ../gio/gdbus-tool.c:530
 msgid "Destination name to invoke method on"
-msgstr ""
+msgstr "Nome do destino para chamar um método"
 
 #: ../gio/gdbus-tool.c:531
 msgid "Object path to invoke method on"
-msgstr ""
+msgstr "Caminho do objeto para chamar um método"
 
 #: ../gio/gdbus-tool.c:532
 msgid "Method and interface name"
-msgstr ""
+msgstr "Nome de método e de interface"
 
 #: ../gio/gdbus-tool.c:571
 msgid "Invoke a method on a remote object."
-msgstr ""
+msgstr "Chamar um método no objeto remoto."
 
 #: ../gio/gdbus-tool.c:626 ../gio/gdbus-tool.c:1245 ../gio/gdbus-tool.c:1505
-#, fuzzy, c-format
+#, c-format
 msgid "Error connecting: %s\n"
-msgstr "Erro ao conectar: %s"
+msgstr "Erro ao conectar: %s\n"
 
 #: ../gio/gdbus-tool.c:646 ../gio/gdbus-tool.c:1264 ../gio/gdbus-tool.c:1524
 #, c-format
 msgid "Error: Destination is not specified\n"
-msgstr ""
+msgstr "Erro: Destino não foi especificado\n"
 
 #: ../gio/gdbus-tool.c:667 ../gio/gdbus-tool.c:1283
 #, c-format
 msgid "Error: Object path is not specified\n"
-msgstr ""
+msgstr "Erro: Caminho do objeto não foi especificado\n"
 
 #: ../gio/gdbus-tool.c:687 ../gio/gdbus-tool.c:1303 ../gio/gdbus-tool.c:1564
-#, fuzzy, c-format
+#, c-format
 msgid "Error: %s is not a valid object path\n"
-msgstr "\"%s\" não é um nome válido"
+msgstr "Erro: %s não é um caminho de objeto válido\n"
 
 #: ../gio/gdbus-tool.c:702
 #, c-format
 msgid "Error: Method name is not specified\n"
-msgstr ""
+msgstr "Erro: O nome do método não foi especificado"
 
 #: ../gio/gdbus-tool.c:713
 #, c-format
 msgid "Error: Method name `%s' is invalid\n"
-msgstr ""
+msgstr "Erro: O nome de método \"%s\" é inválido\n"
 
 #: ../gio/gdbus-tool.c:778
-#, fuzzy, c-format
+#, c-format
 msgid "Error parsing parameter %d of type `%s': %s\n"
-msgstr "Erro ao abrir o diretório \"%s\": %s"
+msgstr "Erro ao analisar o parâmetro %d do tipo \"%s\": %s\n"
 
 #: ../gio/gdbus-tool.c:786
-#, fuzzy, c-format
+#, c-format
 msgid "Error parsing parameter %d: %s\n"
-msgstr "Erro ao ler a opção %s"
+msgstr "Erro ao analisar o parâmetro %d: %s\n"
 
 #: ../gio/gdbus-tool.c:1162
 msgid "Destination name to introspect"
-msgstr ""
+msgstr "Nome do destino para auto-exame"
 
 #: ../gio/gdbus-tool.c:1163
 msgid "Object path to introspect"
-msgstr ""
+msgstr "Caminho do objeto para auto-exame"
 
 #: ../gio/gdbus-tool.c:1164
 msgid "Print XML"
-msgstr ""
+msgstr "Exibir XML"
 
 #: ../gio/gdbus-tool.c:1197
 msgid "Introspect a remote object."
-msgstr ""
+msgstr "Auto-examinar um objeto remoto."
 
 #: ../gio/gdbus-tool.c:1423
 msgid "Destination name to monitor"
-msgstr ""
+msgstr "Nome do destino para monitorar"
 
 #: ../gio/gdbus-tool.c:1424
 msgid "Object path to monitor"
-msgstr ""
+msgstr "Caminho do objeto para monitorar"
 
 #: ../gio/gdbus-tool.c:1457
-#, fuzzy
 msgid "Monitor a remote object."
-msgstr "objeto corrompido"
+msgstr "Monitorar um objeto remoto."
 
 #: ../gio/gdesktopappinfo.c:467 ../gio/gwin32appinfo.c:221
 msgid "Unnamed"
-msgstr "Não nomeado"
+msgstr "Sem nome"
 
 #: ../gio/gdesktopappinfo.c:751
 msgid "Desktop file didn't specify Exec field"
@@ -2464,14 +2473,13 @@ msgid "Unsupported socket address"
 msgstr "Endereço de soquete não suportado"
 
 #: ../gio/glib-compile-schemas.c:702
-#, fuzzy
 msgid "empty names are not permitted"
-msgstr "Não há suporte para lixeira"
+msgstr "não é permitido nomes vazios"
 
 #: ../gio/glib-compile-schemas.c:712
 #, c-format
 msgid "invalid name '%s': names must begin with a lowercase letter"
-msgstr ""
+msgstr "nome \"%s\" inválido: nomes precisam começar com uma letra minúscula"
 
 #: ../gio/glib-compile-schemas.c:724
 #, c-format
@@ -2479,35 +2487,39 @@ msgid ""
 "invalid name '%s': invalid character '%c'; only lowercase letters, numbers "
 "and dash ('-') are permitted."
 msgstr ""
+"nome \"%s\" inválido: caractere \"%c\" inválido, apenas é permitido letras "
+"minúsculas, números e traços (\"-\")."
 
 #: ../gio/glib-compile-schemas.c:733
 #, c-format
 msgid "invalid name '%s': two successive dashes ('--') are not permitted."
 msgstr ""
+"nome \"%s\" inválido: dois traços (\"-\") consecutivos não são permitidos."
 
 #: ../gio/glib-compile-schemas.c:742
 #, c-format
 msgid "invalid name '%s': the last character may not be a dash ('-')."
 msgstr ""
+"nome \"%s\" inválido: o último caractere não pode ser um traço (\"-\")."
 
 #: ../gio/glib-compile-schemas.c:750
 #, c-format
 msgid "invalid name '%s': maximum length is 32"
-msgstr ""
+msgstr "nome \"%s\" inválido: o tamanho máximo é 32"
 
 #: ../gio/glib-compile-schemas.c:819
 #, c-format
 msgid "<child name='%s'> already specified"
-msgstr ""
+msgstr "<child name='%s'> já especificado"
 
 #: ../gio/glib-compile-schemas.c:845
 msgid "can not add keys to a 'list-of' schema"
-msgstr ""
+msgstr "não é possível adicionar chaves ao esquema \"list-of\""
 
 #: ../gio/glib-compile-schemas.c:856
 #, c-format
 msgid "<key name='%s'> already specified"
-msgstr ""
+msgstr "<key name='%s'> já especificado"
 
 #: ../gio/glib-compile-schemas.c:874
 #, c-format
@@ -2515,6 +2527,8 @@ msgid ""
 "<key name='%s'> shadows <key name='%s'> in <schema id='%s'>; use <override> "
 "to modify value"
 msgstr ""
+"<key name='%s'> shadows <key name='%s'> em <schema id='%s'>; use <override> "
+"para modificar o valor"
 
 #: ../gio/glib-compile-schemas.c:885
 #, c-format
@@ -2522,62 +2536,65 @@ msgid ""
 "exactly one of 'type', 'enum' or 'flags' must be specified as an attribute "
 "to <key>"
 msgstr ""
+"apenas um entre \"type\", \"enum\" ou \"flags\" deve ser especificado como "
+"atributo para <key>"
 
 #: ../gio/glib-compile-schemas.c:904
 #, c-format
 msgid "<%s id='%s'> not (yet) defined."
-msgstr ""
+msgstr "<%s id='%s'> não está (ainda) definido."
 
 #: ../gio/glib-compile-schemas.c:919
-#, fuzzy, c-format
+#, c-format
 #| msgid "Invalid attribute type (string expected)"
 msgid "invalid GVariant type string '%s'"
-msgstr "Tipo de atributo inválido (esperava-se expressão)"
+msgstr "tipo de texto GVariant \"%s\" é inválido"
 
 #: ../gio/glib-compile-schemas.c:949
 msgid "<override> given but schema isn't extending anything"
-msgstr ""
+msgstr "<override> determinado, mas o esquema não está extendendo nada"
 
 #: ../gio/glib-compile-schemas.c:962
 #, c-format
 msgid "no <key name='%s'> to override"
-msgstr ""
+msgstr "nenhum <key name='%s'> para sobrescrever"
 
 #: ../gio/glib-compile-schemas.c:970
 #, c-format
 msgid "<override name='%s'> already specified"
-msgstr ""
+msgstr "<override name='%s'> já especificado"
 
 #: ../gio/glib-compile-schemas.c:1036
 #, c-format
 msgid "<schema id='%s'> already specified"
-msgstr ""
+msgstr "<schema id='%s'> já especificado"
 
 #: ../gio/glib-compile-schemas.c:1048
 #, c-format
 msgid "<schema id='%s'> extends not yet existing schema '%s'"
-msgstr ""
+msgstr "<schema id='%s'> extende um esquema ainda não existente \"%s\""
 
 #: ../gio/glib-compile-schemas.c:1064
 #, c-format
 msgid "<schema id='%s'> is list of not yet existing schema '%s'"
-msgstr ""
+msgstr "<schema id='%s'> é uma lista de esquema ainda não existente \"%s\""
 
 #: ../gio/glib-compile-schemas.c:1072
 #, c-format
 msgid "Can not be a list of a schema with a path"
-msgstr ""
+msgstr "Não pode ser uma lista de um esquema com um caminho"
 
 #: ../gio/glib-compile-schemas.c:1082
 #, c-format
 msgid "Can not extend a schema with a path"
-msgstr ""
+msgstr "Não é possível extender um esquema com um caminho"
 
 #: ../gio/glib-compile-schemas.c:1092
 #, c-format
 msgid ""
 "<schema id='%s'> is a list, extending <schema id='%s'> which is not a list"
 msgstr ""
+"<schema id='%s'> é uma lista, extendendo <schema id='%s'> que não é uma lista"
 
 #: ../gio/glib-compile-schemas.c:1102
 #, c-format
