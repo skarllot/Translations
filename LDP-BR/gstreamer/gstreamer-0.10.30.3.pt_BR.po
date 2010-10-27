@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: gstreamer-0.10.30.3\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2010-10-22 17:21+0100\n"
-"PO-Revision-Date: 2010-06-28 20:12-0300\n"
+"PO-Revision-Date: 2010-10-27 16:35-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
 "MIME-Version: 1.0\n"
@@ -206,7 +206,7 @@ msgstr "Não foi possível configurar a biblioteca de suporte."
 
 #: gst/gsterror.c:201
 msgid "Encoding error."
-msgstr ""
+msgstr "Erro de codificação."
 
 #: gst/gsterror.c:214
 msgid "GStreamer encountered a general resource error."
@@ -402,16 +402,12 @@ msgid "date the data was created (as a GDate structure)"
 msgstr "data que os dados foram criados (estrutura GDate)"
 
 #: gst/gsttaglist.c:131
-#, fuzzy
-#| msgid "date"
 msgid "datetime"
-msgstr "data"
+msgstr "data hora"
 
 #: gst/gsttaglist.c:132
-#, fuzzy
-#| msgid "date the data was created (as a GDate structure)"
 msgid "date and time the data was created (as a GstDateTime structure)"
-msgstr "data que os dados foram criados (estrutura GDate)"
+msgstr "data e hora que os dados foram criados (estrutura GstDateTime)"
 
 #: gst/gsttaglist.c:136
 msgid "genre"
@@ -849,14 +845,12 @@ msgstr ""
 "localização numa cidade onde a mídia foi produzida ou criada (ex: bairro)"
 
 #: gst/gsttaglist.c:302
-#, fuzzy
-#| msgid "geo location name"
 msgid "geo location horizontal error"
-msgstr "nome da localização geográfica"
+msgstr "desvio horizontal da localização geográfica"
 
 #: gst/gsttaglist.c:303
 msgid "expected error of the horizontal positioning measures (in meters)"
-msgstr ""
+msgstr "desvio esperado nas medidas de posicionamento horizontal (em metros)"
 
 #: gst/gsttaglist.c:306
 msgid "geo location movement speed"
@@ -992,24 +986,20 @@ msgid "Model of the device used to create this media"
 msgstr "Modelo do dispositivo usado para criar esta mídia"
 
 #: gst/gsttaglist.c:361
-#, fuzzy
-#| msgid "geo location name"
 msgid "application name"
-msgstr "nome da localização geográfica"
+msgstr "nome do aplicativo"
 
 #: gst/gsttaglist.c:361
-#, fuzzy
-#| msgid "Model of the device used to create this media"
 msgid "Application used to create the media"
-msgstr "Modelo do dispositivo usado para criar esta mídia"
+msgstr "Aplicativo usado para criar a mídia"
 
 #: gst/gsttaglist.c:363
 msgid "application data"
-msgstr ""
+msgstr "Dados do aplicativo"
 
 #: gst/gsttaglist.c:364
 msgid "Arbitrary application data to be serialized into the media"
-msgstr ""
+msgstr "Dados arbitrários do aplicativo para ser serializado na mídia"
 
 #: gst/gsttaglist.c:366
 msgid "image orientation"
@@ -1253,15 +1243,15 @@ msgstr "controlável"
 
 #: tools/gst-inspect.c:371
 msgid "changeable in NULL, READY, PAUSED or PLAYING state"
-msgstr ""
+msgstr "estado alterável para NULO, PRONTO, PAUSADO ou REPRODUZINDO"
 
 #: tools/gst-inspect.c:373
 msgid "changeable only in NULL, READY or PAUSED state"
-msgstr ""
+msgstr "estado alterável apenas para NULO, PRONTO ou PAUSADO"
 
 #: tools/gst-inspect.c:375
 msgid "changeable only in NULL or READY state"
-msgstr ""
+msgstr "estado alterável apenas para NULO ou PRONTO"
 
 #: tools/gst-inspect.c:1009
 msgid "Blacklisted files:"
@@ -1593,27 +1583,3 @@ msgstr "Definindo a fila de processamento para NULO...\n"
 #: tools/gst-launch.c:969
 msgid "Freeing pipeline ...\n"
 msgstr "Liberando a fila de processamento...\n"
-
-#~ msgid "Error writing registry cache to %s: %s"
-#~ msgstr "Erro ao escrever no cache do registro em %s: %s"
-
-#~ msgid "Error re-scanning registry %s: %s"
-#~ msgstr "Erro ao re-analisar o registro %s: %s"
-
-#~ msgid "Error re-scanning registry %s"
-#~ msgstr "Erro ao re-analisar o registro %s"
-
-#~ msgid "Internal GStreamer error: state change failed."
-#~ msgstr "Erro interno no GStreamer: falha ao alterar estado."
-
-#~ msgid "Error while writing to file descriptor \"%d\"."
-#~ msgstr "Erro ao escrever no descritor \"%d\" do arquivo."
-
-#~ msgid "File descriptor \"%d\" is not valid."
-#~ msgstr "O descritor \"%d\" do arquivo não é válido."
-
-#~ msgid "FREEING pipeline ...\n"
-#~ msgstr "LIBERANDO a fila de processamento...\n"
-
-#~ msgid "original location of file as a URI"
-#~ msgstr "local original do arquivo como um URI"
