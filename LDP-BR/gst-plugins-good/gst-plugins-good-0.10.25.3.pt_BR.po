@@ -1,7 +1,7 @@
 # Brazilian Portuguese translation of gst-plugins-good.
 # This file is distributed under the same license as the gst-plugins-good package.
-# Copyright (C) 2008-2010 Free Software Foundation, Inc.
-# Fabrício Godoy <skarllot@gmail.com>, 2008-2010.
+# Copyright (C) 2008-2011 Free Software Foundation, Inc.
+# Fabrício Godoy <skarllot@gmail.com>, 2008-2011.
 #
 # data flow -> fluxo de dados
 # streaming -> fluxo contínuo
@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: gst-plugins-good 0.10.25.3\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2010-10-22 18:18+0100\n"
-"PO-Revision-Date: 2010-06-28 21:00-0300\n"
+"PO-Revision-Date: 2011-01-08 01:16-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
 "Language: pt_BR\n"
@@ -50,39 +50,34 @@ msgid "Could not connect to server"
 msgstr "Não foi possível conectar ao servidor"
 
 #: ext/soup/gstsouphttpsrc.c:868
-#, fuzzy
-#| msgid "Device '%s' does not support video capture"
 msgid "Server does not support seeking."
-msgstr "Não há suporte a captura de vídeo no dispositivo \"%s\""
+msgstr "Nâo há suporte a busca pelo servidor."
 
 #: ext/soup/gstsouphttpsrc.c:1075
-#, fuzzy
-#| msgid "Could not connect to server"
 msgid "Could not resolve server name."
-msgstr "Não foi possível conectar ao servidor"
+msgstr "Não foi possível resolver o nome do servidor."
 
 #: ext/soup/gstsouphttpsrc.c:1081
-#, fuzzy
-#| msgid "Could not establish connection to sound server"
 msgid "Could not establish connection to server."
-msgstr "Não foi possível estabelecer uma conexão com servidor de som"
+msgstr "Não foi possível estabelecer uma conexão com servidor."
 
 #: ext/soup/gstsouphttpsrc.c:1086
 msgid "Secure connection setup failed."
-msgstr ""
+msgstr "Configuração de conexão segura falhou."
 
 #: ext/soup/gstsouphttpsrc.c:1091
 msgid ""
 "A network error occured, or the server closed the connection unexpectedly."
 msgstr ""
+"Um erro de rede ocorreu, ou o servidor fechou a conexão inesperadamente."
 
 #: ext/soup/gstsouphttpsrc.c:1097
 msgid "Server sent bad data."
-msgstr ""
+msgstr "O servidor enviou dados ruins."
 
 #: ext/soup/gstsouphttpsrc.c:1242
 msgid "No URL set."
-msgstr ""
+msgstr "Nenhum URL definido."
 
 #: gst/avi/gstavimux.c:1781
 msgid "No or invalid input audio, AVI stream will be corrupt."
@@ -870,58 +865,3 @@ msgstr "Ainda não há suporte a mudança de resolução enquanto está executan
 #: sys/ximage/gstximagesrc.c:725
 msgid "Cannot operate without a clock"
 msgstr "Não é possível operar sem um temporizador"
-
-#~ msgid "Failed to enumerate possible video formats device '%s' can work with"
-#~ msgstr ""
-#~ "Falha ao especificar os formatos possíveis de vídeo que o dispositivo \"%s"
-#~ "\" pode funcionar"
-
-#~ msgid ""
-#~ "The buffer type is not supported, or the index is out of bounds, or no "
-#~ "buffers have been allocated yet, or the userptr or length are invalid. "
-#~ "device %s"
-#~ msgstr ""
-#~ "Não há suporte ao tipo de buffer, ou o índice está fora dos limites, ou "
-#~ "nenhum buffer foi definido ainda, ou o userptr ou tamanho são inválidos. "
-#~ "Dispositivo %s"
-
-#~ msgid ""
-#~ "Failed trying to get video frames from device '%s'. Not enough memory."
-#~ msgstr ""
-#~ "Falha ao tentar obter os quadros de vídeo do dispositivo \"%s\". Memória "
-#~ "insuficiente."
-
-#~ msgid "insufficient memory to enqueue a user pointer buffer. device %s."
-#~ msgstr ""
-#~ "memória insuficiente para adicionar à fila um buffer de ponteiro do "
-#~ "usuário. Dispositivo %s."
-
-#~ msgid "No free buffers found in the pool at index %d."
-#~ msgstr "Nenhum buffer livre encontrado no reservatório, no índice %d."
-
-#~ msgid "Device '%s' cannot capture at %dx%d"
-#~ msgstr "O dispositivo \"%s\" não captura à %dx%d"
-
-#~ msgid "Device '%s' cannot capture in the specified format"
-#~ msgstr "O dispositivo \"%s\" não captura no formato especificado"
-
-#~ msgid "Could not get buffers from device '%s'."
-#~ msgstr "Não foi possível obter buffers do dispositivo \"%s\"."
-
-#~ msgid "Could not get enough buffers from device '%s'."
-#~ msgstr "Não foi possível obter buffers suficientes do dispositivo \"%s\"."
-
-#~ msgid "Error starting streaming capture from device '%s'."
-#~ msgstr "Erro ao iniciar um fluxo contínuo de captura do dispositivo \"%s\"."
-
-#~ msgid "Error stopping streaming capture from device '%s'."
-#~ msgstr "Erro ao parar um fluxo contínuo de captura do dispositivo \"%s\"."
-
-#~ msgid "Failed getting controls attributes on device '%s.'"
-#~ msgstr "Falha ao obter atributos de controle no dispositivo \"%s\"."
-
-#~ msgid "Could not read from CD."
-#~ msgstr "Não foi possível ler o CD."
-
-#~ msgid "Disc is not an Audio CD."
-#~ msgstr "O disco não é um CD de áudio."
