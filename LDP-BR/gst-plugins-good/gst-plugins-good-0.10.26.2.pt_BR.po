@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: gst-plugins-good 0.10.26.2\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2011-01-07 01:15+0000\n"
-"PO-Revision-Date: 2011-01-08 01:16-0300\n"
+"PO-Revision-Date: 2011-01-08 01:28-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
 "Language: pt_BR\n"
@@ -102,7 +102,7 @@ msgstr "Este arquivo está corrompido e não pôde ser reproduzido."
 
 #: gst/qtdemux/qtdemux.c:2627
 msgid "Invalid atom size."
-msgstr ""
+msgstr "Tamanho de Atom inválido."
 
 #: gst/qtdemux/qtdemux.c:2696
 msgid "This file is incomplete and cannot be played."
@@ -827,20 +827,17 @@ msgid "Failed to set input %d on device %s."
 msgstr "Falha ao definir a entrada %d no dispositivo %s."
 
 #: sys/v4l2/v4l2_calls.c:896
-#, fuzzy, c-format
-#| msgid ""
-#| "Failed to get current input on device '%s'. May be it is a radio device"
+#, c-format
 msgid ""
 "Failed to get current output on device '%s'. May be it is a radio device"
 msgstr ""
-"Falha ao obter a entrada atual no dispositivo \"%s\". Talvez seja um "
+"Falha ao obter a saída atual no dispositivo \"%s\". Talvez seja um "
 "dispositivo de rádio"
 
 #: sys/v4l2/v4l2_calls.c:921
-#, fuzzy, c-format
-#| msgid "Failed to set input %d on device %s."
+#, c-format
 msgid "Failed to set output %d on device %s."
-msgstr "Falha ao definir a entrada %d no dispositivo %s."
+msgstr "Falha ao definir a saída %d no dispositivo %s."
 
 #: sys/v4l2/v4l2src_calls.c:81
 #, c-format
