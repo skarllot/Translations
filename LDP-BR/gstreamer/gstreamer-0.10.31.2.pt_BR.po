@@ -15,12 +15,13 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gstreamer-0.10.30.3\n"
+"Project-Id-Version: gstreamer-0.10.31.2\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
-"POT-Creation-Date: 2010-10-22 17:21+0100\n"
+"POT-Creation-Date: 2011-01-06 17:41+0000\n"
 "PO-Revision-Date: 2010-10-27 16:35-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -117,7 +118,7 @@ msgstr "Opções do GStreamer"
 msgid "Show GStreamer Options"
 msgstr "Exibir opções do GStreamer"
 
-#: gst/gst.c:954
+#: gst/gst.c:944
 msgid "Unknown option"
 msgstr "Opção desconhecida"
 
@@ -324,7 +325,7 @@ msgstr "Nenhuma mensagem de erro para o domínio %s."
 msgid "No standard error message for domain %s and code %d."
 msgstr "Nenhuma mensagem de erro predefinida para o domínio %s e código %d."
 
-#: gst/gstpipeline.c:528
+#: gst/gstpipeline.c:535
 msgid "Selected clock cannot be used in pipeline."
 msgstr ""
 "O temporizador selecionado não pôde ser usado na fila de processamento."
@@ -1013,12 +1014,12 @@ msgstr "Como a imagem deveria ser rotacionada ou invertida antes da exibição"
 msgid ", "
 msgstr ", "
 
-#: gst/gstutils.c:2433 tools/gst-launch.c:262
+#: gst/gstutils.c:2399 tools/gst-launch.c:262
 #, c-format
 msgid "ERROR: from element %s: %s\n"
 msgstr "ERRO: do elemento %s: %s\n"
 
-#: gst/gstutils.c:2435 tools/gst-launch.c:264 tools/gst-launch.c:542
+#: gst/gstutils.c:2401 tools/gst-launch.c:264 tools/gst-launch.c:542
 #, c-format
 msgid ""
 "Additional debug info:\n"
@@ -1097,25 +1098,25 @@ msgstr "não foi possível vincular o elemento consumidor para o URI \"%s\""
 msgid "empty pipeline not allowed"
 msgstr "não é permitido que a fila de processamento seja vazia"
 
-#: libs/gst/base/gstbasesrc.c:2197
+#: libs/gst/base/gstbasesrc.c:2204
 msgid "Internal clock error."
 msgstr "Erro interno no temporizador."
 
-#: libs/gst/base/gstbasesrc.c:2562 libs/gst/base/gstbasesrc.c:2572
-#: libs/gst/base/gstbasesink.c:3973 plugins/elements/gstqueue.c:1285
-#: plugins/elements/gstqueue2.c:2318
+#: libs/gst/base/gstbasesrc.c:2572 libs/gst/base/gstbasesrc.c:2582
+#: libs/gst/base/gstbasesink.c:4020 plugins/elements/gstqueue.c:1270
+#: plugins/elements/gstqueue2.c:2346
 msgid "Internal data flow error."
 msgstr "Erro interno no fluxo de dados."
 
-#: libs/gst/base/gstbasesink.c:2698
+#: libs/gst/base/gstbasesink.c:2738
 msgid "A lot of buffers are being dropped."
 msgstr "Uma grande quantidade de buffers está sendo descartada."
 
-#: libs/gst/base/gstbasesink.c:3445
+#: libs/gst/base/gstbasesink.c:3491
 msgid "Internal data flow problem."
 msgstr "Problema interno no fluxo de dados."
 
-#: libs/gst/base/gstbasesink.c:3963
+#: libs/gst/base/gstbasesink.c:4010
 msgid "Internal data stream error."
 msgstr "Erro interno no fluxo de dados."
 
@@ -1159,7 +1160,7 @@ msgstr "Erro ao escrever no arquivo \"%s\"."
 msgid "No file name specified for reading."
 msgstr "Nenhum nome de arquivo especificado para leitura."
 
-#: plugins/elements/gstfilesrc.c:1038 plugins/elements/gstqueue2.c:1396
+#: plugins/elements/gstfilesrc.c:1038 plugins/elements/gstqueue2.c:1418
 #, c-format
 msgid "Could not open file \"%s\" for reading."
 msgstr "Não foi possível abrir o arquivo \"%s\" para leitura."
@@ -1183,16 +1184,16 @@ msgstr "O arquivo \"%s\" é um soquete."
 msgid "Failed after iterations as requested."
 msgstr "Falha após as interações requeridas."
 
-#: plugins/elements/gstqueue2.c:1382
+#: plugins/elements/gstqueue2.c:1404
 msgid "No Temp directory specified."
 msgstr "Nenhum diretório temporário especificado."
 
-#: plugins/elements/gstqueue2.c:1388
+#: plugins/elements/gstqueue2.c:1410
 #, c-format
 msgid "Could not create temp file \"%s\"."
 msgstr "Não foi possível criar o arquivo temporário \"%s\"."
 
-#: plugins/elements/gstqueue2.c:1759
+#: plugins/elements/gstqueue2.c:1784
 msgid "Error while writing to download file."
 msgstr "Erro ao escrever no arquivo baixado."
 
@@ -1289,15 +1290,15 @@ msgid_plural "%d features"
 msgstr[0] "%d recurso"
 msgstr[1] "%d recursos"
 
-#: tools/gst-inspect.c:1544
+#: tools/gst-inspect.c:1543
 msgid "Print all elements"
 msgstr "Exibir todos elementos"
 
-#: tools/gst-inspect.c:1546
+#: tools/gst-inspect.c:1545
 msgid "Print list of blacklisted files"
 msgstr "Exibir lista dos arquivos na lista negra"
 
-#: tools/gst-inspect.c:1548
+#: tools/gst-inspect.c:1547
 msgid ""
 "Print a machine-parsable list of features the specified plugin or all "
 "plugins provide.\n"
@@ -1309,20 +1310,20 @@ msgstr ""
 "                                       Útil na conexão com mecanismos "
 "externos de instalação automática de plug-ins"
 
-#: tools/gst-inspect.c:1553
+#: tools/gst-inspect.c:1552
 msgid "List the plugin contents"
 msgstr "Listar o conteúdo do plugin"
 
-#: tools/gst-inspect.c:1556
+#: tools/gst-inspect.c:1555
 msgid "Print supported URI schemes, with the elements that implement them"
 msgstr "Exibir esquemas URI com suporte, com os elementos que os implementam"
 
-#: tools/gst-inspect.c:1659
+#: tools/gst-inspect.c:1658
 #, c-format
 msgid "Could not load plugin file: %s\n"
 msgstr "Não foi possível carregar o arquivo do plug-in: %s\n"
 
-#: tools/gst-inspect.c:1664
+#: tools/gst-inspect.c:1663
 #, c-format
 msgid "No such element or plugin '%s'\n"
 msgstr "Nenhum elemento ou plug-in \"%s\"\n"
