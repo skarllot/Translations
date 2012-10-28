@@ -2295,7 +2295,7 @@ msgstr "Dispositivo de Loop %s"
 #: ../src/disks/gdudevicetreemodel.c:1068
 #, c-format
 msgid "%s Block Device"
-msgstr "Bloco de dispositivo %s"
+msgstr "Dispositivo de bloco de %s"
 
 #: ../src/disks/gdudisksettingsdialog.c:264
 msgctxt "standby-value"
