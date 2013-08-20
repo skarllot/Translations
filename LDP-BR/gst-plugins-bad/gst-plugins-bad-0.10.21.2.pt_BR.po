@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gst-plugins-bad-0.10.18.2\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2011-04-17 00:50+0100\n"
-"PO-Revision-Date: 2010-05-26 00:00-0300\n"
+"PO-Revision-Date: 2013-08-19 22:48-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
 "Language: pt_BR\n"
@@ -32,13 +32,16 @@ msgid "Failed to set PGC based seeking."
 msgstr "Falha ao definir busca baseada em PGC."
 
 #: ext/resindvd/resindvdsrc.c:1140
-msgid "Could not read DVD. This may be because the DVD is encrypted and a DVD decryption library is not installed."
+msgid ""
+"Could not read DVD. This may be because the DVD is encrypted and a DVD "
+"decryption library is not installed."
 msgstr ""
+"Não foi possível ler o DVD. O motivo pode ser que o DVD está criptografado "
+"ou uma biblioteca de descriptografia não está instalada."
 
 #: ext/resindvd/resindvdsrc.c:1145 ext/resindvd/resindvdsrc.c:1153
-#, fuzzy
 msgid "Could not read DVD."
-msgstr "Não foi possível ler as informações de título do DVD."
+msgstr "Não foi possível ler o DVD."
 
 #: ext/sndfile/gstsfsink.c:277 ext/sndfile/gstsfsrc.c:341
 msgid "No file name specified for writing."
@@ -75,7 +78,8 @@ msgstr "Não foi possível abrir o dispositivo de interface \"%s\"."
 #: sys/dvb/gstdvbsrc.c:744
 #, c-format
 msgid "Could not get settings from frontend device \"%s\"."
-msgstr "Não foi possível obter as configurações do dispositivo de interface \"%s\"."
+msgstr ""
+"Não foi possível obter as configurações do dispositivo de interface \"%s\"."
 
 #: sys/dvb/gstdvbsrc.c:825
 #, c-format
