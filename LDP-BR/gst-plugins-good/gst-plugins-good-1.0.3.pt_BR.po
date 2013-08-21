@@ -1,7 +1,7 @@
 # Brazilian Portuguese translation of gst-plugins-good.
 # This file is distributed under the same license as the gst-plugins-good package.
-# Copyright (C) 2008-2011 Free Software Foundation, Inc.
-# Fabrício Godoy <skarllot@gmail.com>, 2008-2011.
+# Copyright (C) 2008-2013 Free Software Foundation, Inc.
+# Fabrício Godoy <skarllot@gmail.com>, 2008-2013.
 #
 # data flow -> fluxo de dados
 # streaming -> fluxo contínuo
@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: gst-plugins-good-1.0.3\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2012-11-20 23:51+0000\n"
-"PO-Revision-Date: 2013-08-20 21:33-0300\n"
+"PO-Revision-Date: 2013-08-20 22:13-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>\n"
 "Language: pt_BR\n"
@@ -233,6 +233,8 @@ msgstr "Erro ao ler %d bytes do dispositivo \"%s\"."
 #, c-format
 msgid "Failed to enumerate possible video formats device '%s' can work with"
 msgstr ""
+"Falha ao relacionar os formatos de vídeo que o dispositivo \"%s\" oferece "
+"suporte"
 
 #: sys/v4l2/gstv4l2object.c:2186
 #, c-format
@@ -240,38 +242,36 @@ msgid "Could not map buffers from device '%s'"
 msgstr "Não foi possível mapear buffers do dispositivo \"%s\""
 
 #: sys/v4l2/gstv4l2object.c:2194
-#, fuzzy, c-format
+#, c-format
 msgid "The driver of device '%s' does not support the IO method %d"
-msgstr ""
-"O driver do dispositivo \"%s\" não tem suporte a nenhum método conhecido de "
-"captura."
+msgstr "O driver do dispositivo \"%s\" não tem suporte ao método %d de E/S"
 
 #: sys/v4l2/gstv4l2object.c:2201
-#, fuzzy, c-format
+#, c-format
 msgid "The driver of device '%s' does not support any known IO method."
 msgstr ""
 "O driver do dispositivo \"%s\" não tem suporte a nenhum método conhecido de "
-"captura."
+"E/S."
 
 #: sys/v4l2/gstv4l2object.c:2395
-#, fuzzy, c-format
+#, c-format
 msgid "Device '%s' does not support video capture"
-msgstr "O dispositivo \"%s\" não é um dispositivo de saída."
+msgstr "O dispositivo \"%s\" não tem suporte a captura de vídeo"
 
 #: sys/v4l2/gstv4l2object.c:2404
 #, c-format
 msgid "Device '%s' is busy"
-msgstr ""
+msgstr "O dispositivo \"%s\" está ocupado"
 
 #: sys/v4l2/gstv4l2object.c:2410 sys/v4l2/gstv4l2object.c:2421
-#, fuzzy, c-format
+#, c-format
 msgid "Device '%s' cannot capture at %dx%d"
-msgstr "O dispositivo \"%s\" não é um dispositivo de captura."
+msgstr "O dispositivo \"%s\" não realiza captura a %dx%d"
 
 #: sys/v4l2/gstv4l2object.c:2430
-#, fuzzy, c-format
+#, c-format
 msgid "Device '%s' cannot capture in the specified format"
-msgstr "O dispositivo \"%s\" não é um dispositivo de captura."
+msgstr "O dispositivo \"%s\" não realiza captura no formato especificado"
 
 #: sys/v4l2/gstv4l2object.c:2443
 #, c-format
@@ -279,35 +279,32 @@ msgid "Could not get parameters on device '%s'"
 msgstr "Não foi possível obter os parâmetros no dispositivo \"%s\""
 
 #: sys/v4l2/gstv4l2object.c:2451
-#, fuzzy
 msgid "Video device did not accept new frame rate setting."
-msgstr ""
-"A entrada do dispositivo de vídeo não aceita definir uma nova taxa de "
-"quadros."
+msgstr "O dispositivo de vídeo não aceita definir uma nova taxa de quadros."
 
 #: sys/v4l2/gstv4l2object.c:2458
 msgid "Video device could not create buffer pool."
-msgstr ""
+msgstr "O dispositivo de vídeo não pôde reservar um buffer."
 
 #: sys/v4l2/gstv4l2radio.c:138
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to get settings of tuner %d on device '%s'."
 msgstr "Falha ao obter configurações do sintonizador %d no dispositivo \"%s\"."
 
 #: sys/v4l2/gstv4l2radio.c:145
-#, fuzzy, c-format
+#, c-format
 msgid "Error getting capabilities for device '%s'."
-msgstr "Erro ao ler %d bytes do dispositivo \"%s\"."
+msgstr "Erro ao obter funcionalidades do dispositivo \"%s\"."
 
 #: sys/v4l2/gstv4l2radio.c:152
-#, fuzzy, c-format
+#, c-format
 msgid "Device '%s' is not a tuner."
-msgstr "O dispositivo \"%s\" não é um dispositivo de saída."
+msgstr "O dispositivo \"%s\" não é um sintonizador."
 
 #: sys/v4l2/gstv4l2radio.c:179
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to get radio input on device '%s'. "
-msgstr "Falha ao definir a entrada %d no dispositivo %s."
+msgstr "Falha ao obter a entrada de rádio do dispositivo \"%s\"."
 
 #: sys/v4l2/gstv4l2radio.c:202 sys/v4l2/v4l2_calls.c:857
 #, c-format
@@ -315,9 +312,9 @@ msgid "Failed to set input %d on device %s."
 msgstr "Falha ao definir a entrada %d no dispositivo %s."
 
 #: sys/v4l2/gstv4l2radio.c:236
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to change mute state for device '%s'."
-msgstr "Falha ao obter a força do sinal para o dispositivo \"%s\"."
+msgstr "Falha ao alterar estado de silêncio do dispositivo \"%s\"."
 
 #: sys/v4l2/v4l2_calls.c:96
 #, c-format
