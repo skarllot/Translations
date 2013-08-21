@@ -1,7 +1,7 @@
 # Brazilian Portuguese translation of GStreamer.
-# Copyright (C) 2008-2011 Free Software Foundation, Inc.
+# Copyright (C) 2008-2013 Free Software Foundation, Inc.
 # This file is distributed under the same license as the GStreamer package.
-# Fabrício Godoy <skarllot@gmail.com>, 2008-2011.
+# Fabrício Godoy <skarllot@gmail.com>, 2008-2013.
 #
 # pipeline -> fila de processamento
 # sink -> consumidor
@@ -15,12 +15,13 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gstreamer-0.10.31.2\n"
+"Project-Id-Version: gstreamer-0.10.32.2\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2011-04-16 14:53+0100\n"
-"PO-Revision-Date: 2011-01-08 01:36-0300\n"
+"PO-Revision-Date: 2013-08-20 23:10-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
-"Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
+"Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
+"net>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -535,13 +536,12 @@ msgid "URI to the copyright notice of the data"
 msgstr "URI para a informação de copyright dos dados"
 
 #: gst/gsttaglist.c:193
-#, fuzzy
 msgid "encoded by"
-msgstr "codificador"
+msgstr "codificado por"
 
 #: gst/gsttaglist.c:193
 msgid "name of the encoding person or organization"
-msgstr ""
+msgstr "nome da pessoa ou organização que codificou o arquivo"
 
 #: gst/gsttaglist.c:197
 msgid "contact"
@@ -1370,7 +1370,7 @@ msgstr "AVISO: o elemento com o nome \"%s\" não foi encontrado.\n"
 
 #: tools/gst-launch.c:363
 msgid "Index statistics"
-msgstr ""
+msgstr "Tabela de estatísticas"
 
 #: tools/gst-launch.c:624
 #, c-format
@@ -1515,7 +1515,7 @@ msgstr ""
 
 #: tools/gst-launch.c:925
 msgid "Gather and print index statistics"
-msgstr ""
+msgstr "Reunir e imprimir a tabela de estatísticas"
 
 #: tools/gst-launch.c:1007
 #, c-format
