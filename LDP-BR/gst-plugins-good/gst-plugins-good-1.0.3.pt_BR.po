@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: gst-plugins-good-1.0.3\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2012-11-20 23:51+0000\n"
-"PO-Revision-Date: 2013-08-20 22:13-0300\n"
+"PO-Revision-Date: 2013-08-21 00:12-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>\n"
 "Language: pt_BR\n"
@@ -314,7 +314,7 @@ msgstr "Falha ao definir a entrada %d no dispositivo %s."
 #: sys/v4l2/gstv4l2radio.c:236
 #, c-format
 msgid "Failed to change mute state for device '%s'."
-msgstr "Falha ao alterar estado de silêncio do dispositivo \"%s\"."
+msgstr "Falha ao alternar entre com e sem áudio para o dispositivo \"%s\"."
 
 #: sys/v4l2/v4l2_calls.c:96
 #, c-format
