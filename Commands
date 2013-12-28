@@ -1,0 +1,9 @@
+# Validate PO file
+msgfmt -cvo /dev/null file.po
+
+# Normalize PO file to 80 columns
+msgcat file.po -o file.po
+
+# Update PO file based on newer POT file
+msgmerge --previous file-old.po file-new.pot > file-new.po
+
