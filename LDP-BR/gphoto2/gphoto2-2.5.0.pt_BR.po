@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gphoto2 2.5.0\n"
 "Report-Msgid-Bugs-To: gphoto-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2012-06-03 20:02+0200\n"
-"PO-Revision-Date: 2013-12-29 18:55-0200\n"
+"PO-Revision-Date: 2013-12-29 19:20-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
 "net>\n"
@@ -430,20 +430,17 @@ msgid "Waiting for events from camera. Press Ctrl-C to abort.\n"
 msgstr "Esperando por eventos da câmera. Pressione Ctrl+C para interromper.\n"
 
 #: gphoto2/actions.c:1060
-#, fuzzy, c-format
-#| msgid "Waiting for %d events from camera. Press Ctrl-C to abort.\n"
+#, c-format
 msgid "Waiting for %d frames from the camera. Press Ctrl-C to abort.\n"
 msgstr ""
-"Esperando por %d eventos da câmera. Pressione Ctrl+C para interromper.\n"
+"Esperando por %d quadros da câmera. Pressione Ctrl+C para interromper.\n"
 
 #: gphoto2/actions.c:1065
-#, fuzzy, c-format
-#| msgid ""
-#| "Waiting for %d seconds for events from camera. Press Ctrl-C to abort.\n"
+#, c-format
 msgid ""
 "Waiting for %d milliseconds for events from camera. Press Ctrl-C to abort.\n"
 msgstr ""
-"Esperando %d segundos por eventos da câmera. Pressione Ctrl+C para "
+"Esperando %d milissegundos por eventos da câmera. Pressione Ctrl+C para "
 "interromper.\n"
 
 #: gphoto2/actions.c:1070
@@ -818,10 +815,8 @@ msgid "Permission denied"
 msgstr "Permissão negada"
 
 #: gphoto2/main.c:672
-#, fuzzy
-#| msgid "Could not trigger image capture."
 msgid "Could not trigger capture."
-msgstr "Não foi possível disparar a captura da imagem."
+msgstr "Não foi possível disparar a captura."
 
 #: gphoto2/main.c:702
 #, c-format
@@ -831,13 +826,12 @@ msgstr "Novo arquivo está localizado em %s%s%s na câmera\n"
 #: gphoto2/main.c:732
 #, c-format
 msgid "Deleting file %s%s%s on the camera\n"
-msgstr "Excluindo arquivo %s%s%s na câmera\n"
+msgstr "Excluindo o arquivo %s%s%s na câmera\n"
 
 #: gphoto2/main.c:742
-#, fuzzy, c-format
-#| msgid "Deleting file %s%s%s on the camera\n"
+#, c-format
 msgid "Keeping file %s%s%s on the camera\n"
-msgstr "Excluindo arquivo %s%s%s na câmera\n"
+msgstr "Mantendo o arquivo %s%s%s na câmera\n"
 
 #: gphoto2/main.c:775
 #, c-format
@@ -1120,11 +1114,11 @@ msgstr "Define o valor de configuração"
 
 #: gphoto2/main.c:1816
 msgid "Keep images on camera after capturing"
-msgstr ""
+msgstr "Manter as imagens na câmera após a captura"
 
 #: gphoto2/main.c:1818
 msgid "Remove images from camera after capturing"
-msgstr ""
+msgstr "Remover as imagens da câmera após a captura"
 
 #: gphoto2/main.c:1820
 msgid "Wait for event(s) from camera"
@@ -1168,10 +1162,8 @@ msgid "Capture an image"
 msgstr "Capturar uma imagem"
 
 #: gphoto2/main.c:1837
-#, fuzzy
-#| msgid "Capture an image"
 msgid "Trigger capture of an image"
-msgstr "Capturar uma imagem"
+msgstr "Disparar a captura de uma imagem"
 
 #: gphoto2/main.c:1839
 msgid "Capture an image and download it"
@@ -1191,13 +1183,11 @@ msgstr "Capturar um clipe de áudio"
 
 #: gphoto2/main.c:1845
 msgid "Wait for shutter release on the camera and download"
-msgstr "Esperar por liberação do obturador na câmera e baixar"
+msgstr "Esperar pela liberação do obturador da câmera e baixar"
 
 #: gphoto2/main.c:1847
-#, fuzzy
-#| msgid "Could not trigger image capture."
 msgid "Trigger image capture"
-msgstr "Não foi possível disparar a captura da imagem."
+msgstr "Disparar a captura de imagem"
 
 #: gphoto2/main.c:1853
 msgid "List folders in folder"
