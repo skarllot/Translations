@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the gphoto2 package.
 # Copyright (C) 2002-2013 Free Software Foundation, Inc.
 # Evandro Gardenali <evandro@fasternet.com.br>, 2002.
-# Fabrício Godoy <skarllot@gmail.com>, 2008-2010.
+# Fabrício Godoy <skarllot@gmail.com>, 2008-2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gphoto2 2.4.14\n"
 "Report-Msgid-Bugs-To: gphoto-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2012-04-15 18:07+0200\n"
-"PO-Revision-Date: 2013-12-29 18:43-0200\n"
+"PO-Revision-Date: 2013-12-29 18:55-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
 "net>\n"
@@ -990,6 +990,8 @@ msgid ""
 "Please make sure there is sufficient quoting around the arguments.\n"
 "\n"
 msgstr ""
+"Favor verifique se há aspas suficientes em torno dos argumentos.\n"
+"\n"
 
 #: gphoto2/main.c:1684
 msgid "Print complete help message on program usage"
@@ -1073,10 +1075,8 @@ msgid "List configuration tree"
 msgstr "Lista a árvore de configurações"
 
 #: gphoto2/main.c:1731
-#, fuzzy
-#| msgid "List configuration tree"
 msgid "Dump full configuration tree"
-msgstr "Lista a árvore de configurações"
+msgstr "Depeja toda a árvore de configurações"
 
 #: gphoto2/main.c:1733
 msgid "Get configuration value"
@@ -1233,10 +1233,8 @@ msgid "Delete files given in range"
 msgstr "Excluir os arquivos de um intervalo"
 
 #: gphoto2/main.c:1813
-#, fuzzy
-#| msgid "Delete all files in folder"
 msgid "Delete all files in folder (--no-recurse by default)"
-msgstr "Excluir todos os arquivos da pasta"
+msgstr "Excluir todos os arquivos da pasta (predefinido como --no-recurse)"
 
 #: gphoto2/main.c:1815
 msgid "Upload a file to camera"
