@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: gst-plugins-good-1.1.4\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2013-08-28 12:49+0200\n"
-"PO-Revision-Date: 2013-08-21 00:12-0300\n"
+"PO-Revision-Date: 2013-12-29 17:48-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
 "net>\n"
@@ -24,7 +24,7 @@ msgstr ""
 
 #: ext/jack/gstjackaudiosink.c:358 ext/jack/gstjackaudiosrc.c:366
 msgid "Jack server not found"
-msgstr ""
+msgstr "Servidor Jack não encontrado"
 
 #: ext/jpeg/gstjpegdec.c:924 ext/jpeg/gstjpegdec.c:1172
 #: ext/jpeg/gstjpegdec.c:1184 ext/jpeg/gstjpegdec.c:1213
@@ -93,6 +93,8 @@ msgstr "Este arquivo é inválido e não pôde ser reproduzido."
 #: gst/isomp4/qtdemux.c:2251
 msgid "Cannot play stream because it is encrypted with PlayReady DRM."
 msgstr ""
+"Não foi possível reproduzir o fluxo por estar criptografado com PlayReady "
+"DRM."
 
 #: gst/isomp4/qtdemux.c:2816 gst/isomp4/qtdemux.c:2892
 #: gst/isomp4/qtdemux.c:2935 gst/isomp4/qtdemux.c:5449
@@ -229,16 +231,12 @@ msgid "AUX 2 In"
 msgstr "Entrada aux. 2"
 
 #: sys/sunaudio/gstsunaudiomixeroptions.c:126
-#, fuzzy
-#| msgid "Loopback"
 msgid "Codec Loopback"
-msgstr "Loopback"
+msgstr "CODEC Loopback"
 
 #: sys/sunaudio/gstsunaudiomixeroptions.c:127
-#, fuzzy
-#| msgid "Loopback"
 msgid "SunVTS Loopback"
-msgstr "Loopback"
+msgstr "SunVTS Loopback"
 
 #: sys/sunaudio/gstsunaudiomixertrack.c:69
 msgid "Volume"
