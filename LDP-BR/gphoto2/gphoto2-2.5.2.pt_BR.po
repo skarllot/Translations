@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gphoto2 2.5.2\n"
 "Report-Msgid-Bugs-To: gphoto-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2013-05-05 21:52+0200\n"
-"PO-Revision-Date: 2013-12-29 19:25-0200\n"
+"PO-Revision-Date: 2013-12-29 19:34-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
 "net>\n"
@@ -644,10 +644,8 @@ msgid "Failed to set values %s of toggle widget %s."
 msgstr "Falha ao definir os valores %s do widget de alternância %s."
 
 #: gphoto2/actions.c:1750
-#, fuzzy
-#| msgid "no"
 msgid "now"
-msgstr "não"
+msgstr "agora"
 
 #: gphoto2/actions.c:1758 gphoto2/actions.c:1983
 #, c-format
@@ -1124,10 +1122,8 @@ msgid "Set configuration value"
 msgstr "Define o valor de configuração"
 
 #: gphoto2/main.c:1894
-#, fuzzy
-#| msgid "Specify device port"
 msgid "Reset device port"
-msgstr "Especifica a porta do dispositivo"
+msgstr "Redefinir a porta do dispositivo"
 
 #: gphoto2/main.c:1900
 msgid "Keep images on camera after capturing"
