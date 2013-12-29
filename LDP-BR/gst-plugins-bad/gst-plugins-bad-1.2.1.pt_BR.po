@@ -6,9 +6,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gst-plugins-bad-1.1.4\n"
+"Project-Id-Version: gst-plugins-bad-1.2.1\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
-"POT-Creation-Date: 2013-08-28 13:05+0200\n"
+"POT-Creation-Date: 2013-11-09 15:49+0100\n"
 "PO-Revision-Date: 2013-12-17 01:09-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
@@ -106,7 +106,7 @@ msgid "Generated file has a larger preroll time than its streams duration"
 msgstr ""
 "O arquivo gerado tem um tempo de preparação maior que a sua duração de fluxo"
 
-#: gst/camerabin2/camerabingeneral.c:166 gst/camerabin2/gstcamerabin2.c:1851
+#: gst/camerabin2/camerabingeneral.c:166 gst/camerabin2/gstcamerabin2.c:1860
 #: gst/camerabin2/gstviewfinderbin.c:271
 #, c-format
 msgid "Missing element '%s' - check your GStreamer installation."
