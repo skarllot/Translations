@@ -1,7 +1,7 @@
 # Brazilian Portuguese translation of psmisc.
 # This file is distributed under the same license as the psmisc package.
-# Copyright (C) 2009, 2010 Free Software Foundation, Inc.
-# Fabrício Godoy <skarllot@gmail.com>, 2009-2010.
+# Copyright (C) 2009-2013 Free Software Foundation, Inc.
+# Fabrício Godoy <skarllot@gmail.com>, 2009-2013.
 # Rafael Ferreira <rafael.f.f1@gmail.com>, 2013.
 #
 msgid ""
@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: psmisc 22.21\n"
 "Report-Msgid-Bugs-To: csmall@small.dropbear.id.au\n"
 "POT-Creation-Date: 2013-10-09 17:30+1100\n"
-"PO-Revision-Date: 2013-10-09 06:41-0300\n"
-"Last-Translator: Rafael Ferreira <rafael.f.f1@gmail.com>\n"
+"PO-Revision-Date: 2013-12-29 20:28-0200\n"
+"Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
 "net>\n"
 "Language: pt_BR\n"
@@ -18,7 +18,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 1.5.7\n"
 
 #: src/fuser.c:133
 #, c-format
@@ -554,29 +553,7 @@ msgid "%s is empty (not mounted ?)\n"
 msgstr "%s está vazio (não montado?)\n"
 
 #: src/pstree.c:981
-#, fuzzy, c-format
-#| msgid ""
-#| "Usage: pstree [ -a ] [ -c ] [ -h | -H PID ] [ -l ] [ -n ] [ -p ] [ -g ] "
-#| "[ -u ]\n"
-#| "              [ -A | -G | -U ] [ PID | USER ]\n"
-#| "       pstree -V\n"
-#| "Display a tree of processes.\n"
-#| "\n"
-#| "  -a, --arguments     show command line arguments\n"
-#| "  -A, --ascii         use ASCII line drawing characters\n"
-#| "  -c, --compact       don't compact identical subtrees\n"
-#| "  -h, --highlight-all highlight current process and its ancestors\n"
-#| "  -H PID,\n"
-#| "  --highlight-pid=PID highlight this process and its ancestors\n"
-#| "  -g, --show-pgids    show process group ids; implies -c\n"
-#| "  -G, --vt100         use VT100 line drawing characters\n"
-#| "  -l, --long          don't truncate long lines\n"
-#| "  -n, --numeric-sort  sort output by PID\n"
-#| "  -p, --show-pids     show PIDs; implies -c\n"
-#| "  -s, --show-parents  show parents of the selected process\n"
-#| "  -u, --uid-changes   show uid transitions\n"
-#| "  -U, --unicode       use UTF-8 (Unicode) line drawing characters\n"
-#| "  -V, --version       display version information\n"
+#, c-format
 msgid ""
 "Usage: pstree [ -a ] [ -c ] [ -h | -H PID ] [ -l ] [ -n ] [ -p ] [ -g ] [ -"
 "u ]\n"
@@ -604,7 +581,7 @@ msgid ""
 "  -U, --unicode       use UTF-8 (Unicode) line drawing characters\n"
 "  -V, --version       display version information\n"
 msgstr ""
-"Uso:   pstree [ -a ] [ -c ] [ -h | -H PID ] [ -l ] [ -n ] [ -p ] [ -u ]\n"
+"Uso:   pstree [ -a ] [ -c ] [ -h | -H PID ] [ -l ] [ -n ] [ -p ] [ -g ] [ -u ]\n"
 "              [ -A | -G | -U ] [ PID | USR ]\n"
 "       pstree -V\n"
 "Exibe uma árvore de processos.\n"
@@ -619,8 +596,12 @@ msgstr ""
 "  -G, --vt100         usa caracteres VT100 no desenho de linhas\n"
 "  -l, --long          não trunca linhas longas\n"
 "  -n, --numeric-sort  ordena saída pelo PID\n"
+"  -N tipo,\n"
+"  --ns-sort=tipo      ordena pelo tipo do namespace (ipc, mnt, net, pid, "
+"user, uts)\n"
 "  -p, --show-pids     mostra PIDs; implica -c\n"
 "  -s, --show-parents  mostra os pais do processo selecionado\n"
+"  -S, --ns-changes    mostra transições de namespace\n"
 "  -u, --uid-changes   mostra transições de UID\n"
 "  -U, --unicode       usa caracteres UTF-8 (Unicode) no desenho de linhas\n"
 "  -V, --version       exibe informações de versão\n"
@@ -668,7 +649,7 @@ msgstr "Não pôde obter as habilidades do terminal\n"
 #: src/pstree.c:1152
 #, c-format
 msgid "procfs file for %s namespace not available\n"
-msgstr ""
+msgstr "O arquivo procfs para o namespace %s não está disponível\n"
 
 #: src/pstree.c:1199
 #, c-format
