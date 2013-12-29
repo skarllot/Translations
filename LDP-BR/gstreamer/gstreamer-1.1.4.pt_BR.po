@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: gstreamer-1.1.4\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2013-08-28 12:33+0200\n"
-"PO-Revision-Date: 2013-08-20 23:59-0300\n"
+"PO-Revision-Date: 2013-12-29 18:14-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
 "net>\n"
@@ -73,6 +73,8 @@ msgid ""
 "Changes coloring mode of the debug log. Possible modes: off, on, disable, "
 "auto, unix"
 msgstr ""
+"Altera o modo de cor do log de depuração. Modos possíveis: off (desligado), "
+"on (ligado), disable (desabilitado), auto (automático) e unix"
 
 #: gst/gst.c:260
 msgid "Disable debugging"
@@ -340,7 +342,7 @@ msgstr ""
 #: gst/gstregistry.c:1651
 #, c-format
 msgid "Error writing registry cache to %s: %s"
-msgstr ""
+msgstr "Erro ao escrever o cache de registro em %s: %s"
 
 #: gst/gsttaglist.c:105
 msgid "title"
@@ -1040,19 +1042,20 @@ msgstr "Como a imagem deveria ser rotacionada ou invertida antes da exibição"
 
 #: gst/gsttaglist.c:392
 msgid "publisher"
-msgstr ""
+msgstr "editora"
 
 #: gst/gsttaglist.c:393
 msgid "Name of the label or publisher"
-msgstr ""
+msgstr "Nome da gravadora ou editora"
 
 #: gst/gsttaglist.c:396
 msgid "interpreted-by"
-msgstr ""
+msgstr "interpretado por"
 
 #: gst/gsttaglist.c:397
 msgid "Information about the people behind a remix and similar interpretations"
 msgstr ""
+"Informações sobre a pessoa detrás de um remix ou interpretações similares"
 
 #: gst/gsttaglist.c:437
 msgid ", "
@@ -1061,12 +1064,12 @@ msgstr ", "
 #: gst/gsturi.c:591
 #, c-format
 msgid "No URI handler for the %s protocol found"
-msgstr ""
+msgstr "Nenhum manipulador URI para o protocolo %s foi encontrado"
 
 #: gst/gsturi.c:764
 #, c-format
 msgid "URI scheme '%s' not supported"
-msgstr ""
+msgstr "Não há suporte para o esquema URI \"%s\""
 
 #: gst/gstutils.c:2352 tools/gst-launch.c:324
 #, c-format
@@ -1176,7 +1179,7 @@ msgstr "Erro interno no temporizador."
 
 #: libs/gst/base/gstbasesrc.c:2501
 msgid "Failed to map buffer."
-msgstr ""
+msgstr "Falha ao mapear o buffer."
 
 #: plugins/elements/gstcapsfilter.c:103
 msgid "Filter caps"
@@ -1474,10 +1477,8 @@ msgid "Prerolled, waiting for buffering to finish...\n"
 msgstr "Preparado, esperando o preenchimento do buffer para finalizar...\n"
 
 #: tools/gst-launch.c:697
-#, fuzzy
-#| msgid "Prerolled, waiting for buffering to finish...\n"
 msgid "Prerolled, waiting for progress to finish...\n"
-msgstr "Preparado, esperando o preenchimento do buffer para finalizar...\n"
+msgstr "Preparado, esperando o progresso para finalizar...\n"
 
 #: tools/gst-launch.c:709
 msgid "buffering..."
@@ -1510,7 +1511,7 @@ msgstr "Interrupção: Parando a fila de processamento...\n"
 #: tools/gst-launch.c:793
 #, c-format
 msgid "Progress: (%s) %s\n"
-msgstr ""
+msgstr "Progresso: (%s) %s\n"
 
 #: tools/gst-launch.c:806
 #, c-format
@@ -1518,10 +1519,9 @@ msgid "Missing element: %s\n"
 msgstr "Elemento faltando: %s\n"
 
 #: tools/gst-launch.c:818
-#, fuzzy, c-format
-#| msgid "WARNING: from element %s: %s\n"
+#, c-format
 msgid "Got context from element '%s': %s\n"
-msgstr "AVISO: do elemento %s: %s\n"
+msgstr "Contexto obtido do elemento \"%s\": %s\n"
 
 #: tools/gst-launch.c:954
 msgid "Output tags (also known as metadata)"
