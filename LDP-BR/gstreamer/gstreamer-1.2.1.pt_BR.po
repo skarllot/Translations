@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: gstreamer-1.2.1\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2013-11-09 12:05+0100\n"
-"PO-Revision-Date: 2013-12-29 18:14-0200\n"
+"PO-Revision-Date: 2013-12-29 18:20-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
 "net>\n"
@@ -41,13 +41,10 @@ msgid "Print available debug categories and exit"
 msgstr "Exibir as categorias de depuração disponíveis e sair"
 
 #: gst/gst.c:243
-#, fuzzy
-#| msgid ""
-#| "Default debug level from 1 (only error) to 5 (anything) or 0 for no output"
 msgid ""
 "Default debug level from 1 (only error) to 9 (anything) or 0 for no output"
 msgstr ""
-"Níveis de depuração predefinidos de 1 (apenas erros) até 5 (tudo) ou 0 para "
+"Níveis de depuração predefinidos de 1 (apenas erros) até 9 (tudo) ou 0 para "
 "nenhuma saída"
 
 #: gst/gst.c:245
@@ -1522,10 +1519,9 @@ msgid "Missing element: %s\n"
 msgstr "Elemento faltando: %s\n"
 
 #: tools/gst-launch.c:805
-#, fuzzy, c-format
-#| msgid "Got context from element '%s': %s\n"
+#, c-format
 msgid "Got context from element '%s': %s=%s\n"
-msgstr "Contexto obtido do elemento \"%s\": %s\n"
+msgstr "Contexto obtido do elemento \"%s\": %s=%s\n"
 
 #: tools/gst-launch.c:891
 msgid "Output tags (also known as metadata)"
