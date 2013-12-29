@@ -6,9 +6,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: psmisc 22.20rc1\n"
+"Project-Id-Version: psmisc 22.21\n"
 "Report-Msgid-Bugs-To: csmall@small.dropbear.id.au\n"
-"POT-Creation-Date: 2012-08-31 14:46+1000\n"
+"POT-Creation-Date: 2013-10-09 17:30+1100\n"
 "PO-Revision-Date: 2013-10-09 06:41-0300\n"
 "Last-Translator: Rafael Ferreira <rafael.f.f1@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
@@ -104,7 +104,7 @@ msgstr ""
 "\n"
 
 #: src/fuser.c:165 src/killall.c:653 src/peekfd.c:108 src/prtstat.c:68
-#: src/pstree.c:854
+#: src/pstree.c:1018
 #, c-format
 msgid ""
 "PSmisc comes with ABSOLUTELY NO WARRANTY.\n"
@@ -548,13 +548,35 @@ msgstr "Você precisa fornecer ao menos um PID."
 msgid "/proc is not mounted, cannot stat /proc/self/stat.\n"
 msgstr "/proc não está montado, impossível analisar /proc/self/stat.\n"
 
-#: src/pstree.c:784
+#: src/pstree.c:949
 #, c-format
 msgid "%s is empty (not mounted ?)\n"
 msgstr "%s está vazio (não montado?)\n"
 
-#: src/pstree.c:820
-#, c-format
+#: src/pstree.c:981
+#, fuzzy, c-format
+#| msgid ""
+#| "Usage: pstree [ -a ] [ -c ] [ -h | -H PID ] [ -l ] [ -n ] [ -p ] [ -g ] "
+#| "[ -u ]\n"
+#| "              [ -A | -G | -U ] [ PID | USER ]\n"
+#| "       pstree -V\n"
+#| "Display a tree of processes.\n"
+#| "\n"
+#| "  -a, --arguments     show command line arguments\n"
+#| "  -A, --ascii         use ASCII line drawing characters\n"
+#| "  -c, --compact       don't compact identical subtrees\n"
+#| "  -h, --highlight-all highlight current process and its ancestors\n"
+#| "  -H PID,\n"
+#| "  --highlight-pid=PID highlight this process and its ancestors\n"
+#| "  -g, --show-pgids    show process group ids; implies -c\n"
+#| "  -G, --vt100         use VT100 line drawing characters\n"
+#| "  -l, --long          don't truncate long lines\n"
+#| "  -n, --numeric-sort  sort output by PID\n"
+#| "  -p, --show-pids     show PIDs; implies -c\n"
+#| "  -s, --show-parents  show parents of the selected process\n"
+#| "  -u, --uid-changes   show uid transitions\n"
+#| "  -U, --unicode       use UTF-8 (Unicode) line drawing characters\n"
+#| "  -V, --version       display version information\n"
 msgid ""
 "Usage: pstree [ -a ] [ -c ] [ -h | -H PID ] [ -l ] [ -n ] [ -p ] [ -g ] [ -"
 "u ]\n"
@@ -572,8 +594,12 @@ msgid ""
 "  -G, --vt100         use VT100 line drawing characters\n"
 "  -l, --long          don't truncate long lines\n"
 "  -n, --numeric-sort  sort output by PID\n"
+"  -N type,\n"
+"  --ns-sort=type      sort by namespace type (ipc, mnt, net, pid, user, "
+"uts)\n"
 "  -p, --show-pids     show PIDs; implies -c\n"
 "  -s, --show-parents  show parents of the selected process\n"
+"  -S, --ns-changes    show namespace transitions\n"
 "  -u, --uid-changes   show uid transitions\n"
 "  -U, --unicode       use UTF-8 (Unicode) line drawing characters\n"
 "  -V, --version       display version information\n"
@@ -599,12 +625,12 @@ msgstr ""
 "  -U, --unicode       usa caracteres UTF-8 (Unicode) no desenho de linhas\n"
 "  -V, --version       exibe informações de versão\n"
 
-#: src/pstree.c:840
+#: src/pstree.c:1004
 #, c-format
 msgid "  -Z     show         SELinux security contexts\n"
 msgstr "  -Z     mostrar         contextos de segurança do SELinux\n"
 
-#: src/pstree.c:842
+#: src/pstree.c:1006
 #, c-format
 msgid ""
 "  PID    start at this PID; default is 1 (init)\n"
@@ -615,12 +641,12 @@ msgstr ""
 "  USR    mostra apenas árvores originadas de processos deste usuário\n"
 "\n"
 
-#: src/pstree.c:849
+#: src/pstree.c:1013
 #, c-format
 msgid "pstree (PSmisc) %s\n"
 msgstr "pstree (PSmisc) %s\n"
 
-#: src/pstree.c:852
+#: src/pstree.c:1016
 #, c-format
 msgid ""
 "Copyright (C) 1993-2009 Werner Almesberger and Craig Small\n"
@@ -629,27 +655,32 @@ msgstr ""
 "Copyright © 1993-2009 Werner Almesberger e Craig Small\n"
 "\n"
 
-#: src/pstree.c:965
+#: src/pstree.c:1130
 #, c-format
 msgid "TERM is not set\n"
 msgstr "TERM não está definido\n"
 
-#: src/pstree.c:969
+#: src/pstree.c:1134
 #, c-format
 msgid "Can't get terminal capabilities\n"
 msgstr "Não pôde obter as habilidades do terminal\n"
 
-#: src/pstree.c:1018
+#: src/pstree.c:1152
+#, c-format
+msgid "procfs file for %s namespace not available\n"
+msgstr ""
+
+#: src/pstree.c:1199
 #, c-format
 msgid "No such user name: %s\n"
 msgstr "Nome de usuário inexistente: %s\n"
 
-#: src/pstree.c:1041
+#: src/pstree.c:1225
 #, c-format
 msgid "No processes found.\n"
 msgstr "Nenhum processo localizado.\n"
 
-#: src/pstree.c:1047
+#: src/pstree.c:1231
 #, c-format
 msgid "Press return to close\n"
 msgstr "Pressione Enter para fechar\n"
