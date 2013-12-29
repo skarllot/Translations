@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gphoto2 2.5.1\n"
 "Report-Msgid-Bugs-To: gphoto-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2013-01-27 21:10+0100\n"
-"PO-Revision-Date: 2013-12-29 19:20-0200\n"
+"PO-Revision-Date: 2013-12-29 19:25-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
 "net>\n"
@@ -427,7 +427,7 @@ msgstr "Ctrl+C foi pressionado... Saindo.\n"
 #: gphoto2/actions.c:1049
 #, c-format
 msgid "Movie capture finished (%d frames)\n"
-msgstr ""
+msgstr "A captura do filme terminou (%d quadros)\n"
 
 #: gphoto2/actions.c:1079
 #, c-format
