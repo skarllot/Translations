@@ -7,3 +7,6 @@ msgcat file.po -o file.po
 # Update PO file based on newer POT file
 msgmerge --previous file-old.po file-new.pot > file-new.po
 
+# Perform quality tests
+pofilter file.po > verify.po
+
