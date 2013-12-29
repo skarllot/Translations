@@ -1,0 +1,162 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: conduit\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=condui"
+"t&component=documentation and translation\n"
+"POT-Creation-Date: 2010-01-21 18:41+0000\n"
+"PO-Revision-Date: 2010-07-17 14:16-0300\n"
+"Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
+"Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Translate Toolkit 1.7.0\n"
+
+# (pofilter) acronyms: acronyms should not be translated: GUI
+#: ../conduit/Main.py:63
+#, python-format
+msgid "Launch without GUI. [default: %default]"
+msgstr "Lançar sem interface gráfica. [predefinição: %default]"
+
+# (pofilter) acronyms: acronyms should not be translated: FILE
+#: ../conduit/Main.py:67
+#, python-format
+msgid "Save dataprovider configuration to FILE. [default: %default]"
+msgstr ""
+"Salvar configuração de provedor de dados para ARQUIVO. [predefinição: %"
+"default]"
+
+# (pofilter) acronyms: acronyms should not be translated: UI
+#: ../conduit/Main.py:75
+#, python-format
+msgid "Run with the specified UI. [default: %default]"
+msgstr "Executar com interface especificada. [predefinição: %default]"
+
+# (pofilter) acronyms: acronyms should not be translated: OK
+#: ../conduit/dataproviders/DataProvider.py:25
+msgid "Refreshed OK"
+msgstr "Atualizado com sucesso"
+
+# (pofilter) acronyms: acronyms should not be translated: OK
+#: ../conduit/dataproviders/DataProvider.py:28
+msgid "Synchronized OK"
+msgstr "Sincronizado com sucesso"
+
+# (pofilter) unchanged: please translate
+#: ../conduit/dataproviders/Image.py:34
+#: ../conduit/modules/FlickrModule/FlickrModule.py:329
+msgid "640x480"
+msgstr "640x480"
+
+# (pofilter) unchanged: please translate
+#: ../conduit/dataproviders/Image.py:34
+#: ../conduit/modules/FlickrModule/FlickrModule.py:329
+msgid "800x600"
+msgstr "800x600"
+
+# (pofilter) unchanged: please translate
+#: ../conduit/dataproviders/Image.py:34
+#: ../conduit/modules/FlickrModule/FlickrModule.py:329
+msgid "1024x768"
+msgstr "1024x768"
+
+# (pofilter) unchanged: please translate
+#: ../conduit/gtkui/ConfigItems.py:733
+#, python-format
+msgid "Total: %d"
+msgstr "Total: %d"
+
+# (pofilter) unchanged: please translate
+#: ../conduit/modules/BoxDotNetModule/BoxDotNetModule.py:29
+msgid "Box.net"
+msgstr "Box.net"
+
+# (pofilter) unchanged: please translate
+#: ../conduit/modules/FacebookModule/FacebookModule.py:38
+msgid "Facebook"
+msgstr "Facebook"
+
+# (pofilter) unchanged: please translate
+#: ../conduit/modules/FacebookModule/FacebookModule.py:145
+#: ../conduit/modules/FspotModule/FspotModule.py:243
+msgid "Status"
+msgstr "Status"
+
+# (pofilter) unchanged: please translate
+#: ../conduit/modules/FlickrModule/FlickrModule.py:76
+msgid "Flickr"
+msgstr "Flickr"
+
+# (pofilter) unchanged: please translate
+#: ../conduit/modules/FspotModule/FspotModule.py:25
+msgid "F-Spot"
+msgstr "F-Spot"
+
+# (pofilter) unchanged: please translate
+#: ../conduit/modules/GConfModule/GConfModule.py:31
+msgid "Metacity"
+msgstr "Metacity"
+
+# (pofilter) unchanged: please translate
+#: ../conduit/modules/GConfModule/GConfModule.py:32
+msgid "Nautilus"
+msgstr "Nautilus"
+
+# (pofilter) unchanged: please translate
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+#: ../conduit/modules/GConfModule/GConfModule.py:35
+msgid "Gnome Terminal"
+msgstr "GNOME Terminal"
+
+# (pofilter) unchanged: please translate
+#: ../conduit/modules/GoogleBookmarksModule.py:19
+msgid "Google Bookmarks"
+msgstr "Google Bookmarks"
+
+# (pofilter) unchanged: please translate
+#: ../conduit/modules/GoogleModule/GoogleModule.py:582
+msgid "Picasa"
+msgstr "Picasa"
+
+# (pofilter) unchanged: please translate
+#: ../conduit/modules/GoogleModule/GoogleModule.py:1333
+msgid "YouTube"
+msgstr "YouTube"
+
+# (pofilter) startcaps: checks that the message starts with the correct capitalisation
+#: ../conduit/modules/iPodModule/iPodModule.py:846
+msgid "iPod Music"
+msgstr "Músicas do iPod"
+
+# (pofilter) startcaps: checks that the message starts with the correct capitalisation
+#: ../conduit/modules/iPodModule/iPodModule.py:882
+msgid "iPod Video"
+msgstr "Vídeos do iPod"
+
+# (pofilter) unchanged: please translate
+#. Translators: Translate this in derived classes.
+#: ../conduit/modules/N800Module/N800Module.py:55
+msgid "Conduit"
+msgstr "Conduit"
+
+# (pofilter) unchanged: please translate
+#. To translators: default backup folder of N800
+#: ../conduit/modules/N800Module/N800Module.py:111
+msgid "Backups"
+msgstr "Backups"
+
+# (pofilter) unchanged: please translate
+#: ../conduit/modules/ShutterflyModule/ShutterflyModule.py:26
+msgid "Shutterfly"
+msgstr "Shutterfly"
+
+# (pofilter) unchanged: please translate
+#: ../conduit/modules/SmugMugModule/SmugMugModule.py:28
+msgid "SmugMug"
+msgstr "SmugMug"
+
+# (pofilter) unchanged: please translate
+#: ../conduit/modules/ZotoModule/ZotoModule.py:154
+msgid "Zoto"
+msgstr "Zoto"

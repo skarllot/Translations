@@ -1,0 +1,344 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gst-plugins-base-1.2.1\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
+"POT-Creation-Date: 2013-11-09 12:14+0100\n"
+"PO-Revision-Date: 2013-12-29 17:33-0300\n"
+"Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
+"Language-Team: Brazilian Portuguese <ldpbr-"
+"translation@lists.sourceforge.net>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Translate Toolkit 1.9.0\n"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: ext/alsa/gstalsasrc.c:444
+#, c-format
+msgid "Could not open device for recording in %d-channel mode"
+msgstr "Não foi possível abrir o dispositivo para gravação com %d canais."
+
+# (pofilter) singlequoting: Different quotation marks
+# (pofilter) doublequoting: Different quotation marks
+#: gst/encoding/gstencodebin.c:1474 gst/playback/gstplaybin2.c:3070
+#: gst/playback/gstplaysink.c:1369 gst/playback/gstplaysink.c:1386
+#: gst/playback/gstplaysink.c:1706 gst/playback/gstplaysink.c:2269
+#: gst/playback/gstplaysink.c:2318 gst/playback/gstplaysink.c:2333
+#: gst/playback/gstplaysink.c:2358 gst/playback/gstplaysink.c:2390
+#: gst/playback/gstplaysink.c:2520 gst/playback/gstplaysink.c:2892
+#: gst/playback/gstplaysink.c:2901 gst/playback/gstplaysink.c:2910
+#: gst/playback/gstplaysink.c:2919 gst/playback/gstplaysink.c:4116
+#: gst/playback/gstplaysinkconvertbin.c:97
+#: gst/playback/gstplaysinkconvertbin.c:117
+#: gst/playback/gsturidecodebin.c:1448
+#, c-format
+msgid "Missing element '%s' - check your GStreamer installation."
+msgstr ""
+"O elemento \"%s\" está faltando, verifique a instalação do seu GStreamer."
+
+# (pofilter) puncspacing: Different spacing around punctuation
+#: gst/playback/gstplaybin2.c:5123
+msgid "Could not create \"uridecodebin\" element."
+msgstr "Não foi possível criar o elemento \"uridecodebin\"."
+
+# (pofilter) singlequoting: Different quotation marks
+# (pofilter) doublequoting: Different quotation marks
+#: gst/playback/gsturidecodebin.c:930
+#, c-format
+msgid "No decoder available for type '%s'."
+msgstr "Decodificador não disponível para o tipo \"%s\"."
+
+# (pofilter) puncspacing: Different spacing around punctuation
+#: gst/playback/gsturidecodebin.c:1360
+#, c-format
+msgid "Invalid URI \"%s\"."
+msgstr "O URI \"%s\" é inválido."
+
+# (pofilter) puncspacing: Different spacing around punctuation
+#: gst/playback/gsturidecodebin.c:1385
+#, c-format
+msgid "No URI handler implemented for \"%s\"."
+msgstr "Nenhum manipulador para o URI \"%s\" foi implementado."
+
+# (pofilter) brackets: Added '(', ')'
+#: gst-libs/gst/pbutils/descriptions.c:182
+msgid "Windows Media Speech"
+msgstr "Mídia de Voz do Windows (WMS)"
+
+# (pofilter) unchanged: Consider translating
+#: gst-libs/gst/pbutils/descriptions.c:201
+msgid "FFMpeg v1"
+msgstr "FFMpeg v1"
+
+# (pofilter) simplecaps: Different capitalization
+#: gst-libs/gst/pbutils/descriptions.c:226
+msgid "Run-length encoding"
+msgstr "Codificação Run-length"
+
+# (pofilter) simplecaps: Different capitalization
+#: gst-libs/gst/pbutils/descriptions.c:280
+msgid "Sami subtitle format"
+msgstr "Formato de legendas Sami"
+
+# (pofilter) simplecaps: Different capitalization
+#: gst-libs/gst/pbutils/descriptions.c:285
+msgid "Kate subtitle format"
+msgstr "Formato de legendas Kate"
+
+# (pofilter) simplecaps: Different capitalization
+# (pofilter) startpunc: Different punctuation at the start
+# (pofilter) startcaps: Different capitalization at the start
+#: gst-libs/gst/pbutils/descriptions.c:395
+#, c-format
+msgid "Uncompressed palettized %d-bit %s"
+msgstr "%2$s de %1$d bits sem compressão com paletas"
+
+# (pofilter) simplecaps: Different capitalization
+# (pofilter) startpunc: Different punctuation at the start
+# (pofilter) startcaps: Different capitalization at the start
+#: gst-libs/gst/pbutils/descriptions.c:398
+#, c-format
+msgid "Uncompressed %d-bit %s"
+msgstr "%2$s de %1$d bits sem compressão"
+
+# (pofilter) simplecaps: Different capitalization
+#: gst-libs/gst/pbutils/descriptions.c:688
+#, c-format
+msgid "Raw %d-bit %s audio"
+msgstr "Áudio Raw de %d bits %s"
+
+# (pofilter) simplecaps: Different capitalization
+# (pofilter) startpunc: Different punctuation at the start
+# (pofilter) startcaps: Different capitalization at the start
+#: gst-libs/gst/pbutils/descriptions.c:806
+#, c-format
+msgid "%s protocol source"
+msgstr "Origem: protocolo %s"
+
+# (pofilter) startpunc: Different punctuation at the start
+#: gst-libs/gst/pbutils/descriptions.c:878
+#, c-format
+msgid "%s video RTP depayloader"
+msgstr "decodificador de vídeo RTP %s"
+
+# (pofilter) startpunc: Different punctuation at the start
+#: gst-libs/gst/pbutils/descriptions.c:880
+#, c-format
+msgid "%s audio RTP depayloader"
+msgstr "decodificador de áudio RTP %s"
+
+# (pofilter) startpunc: Different punctuation at the start
+#: gst-libs/gst/pbutils/descriptions.c:882
+#, c-format
+msgid "%s RTP depayloader"
+msgstr "decodificador RTP %s"
+
+# (pofilter) simplecaps: Different capitalization
+# (pofilter) startpunc: Different punctuation at the start
+# (pofilter) startcaps: Different capitalization at the start
+#: gst-libs/gst/pbutils/descriptions.c:889
+#, c-format
+msgid "%s demuxer"
+msgstr "Demultiplexador %s"
+
+# (pofilter) simplecaps: Different capitalization
+# (pofilter) startpunc: Different punctuation at the start
+# (pofilter) startcaps: Different capitalization at the start
+#: gst-libs/gst/pbutils/descriptions.c:891
+#, c-format
+msgid "%s decoder"
+msgstr "Decodificador %s"
+
+# (pofilter) startpunc: Different punctuation at the start
+#: gst-libs/gst/pbutils/descriptions.c:929
+#, c-format
+msgid "%s video RTP payloader"
+msgstr "codificador de vídeo RTP %s"
+
+# (pofilter) startpunc: Different punctuation at the start
+#: gst-libs/gst/pbutils/descriptions.c:931
+#, c-format
+msgid "%s audio RTP payloader"
+msgstr "codificador de áudio RTP %s"
+
+# (pofilter) startpunc: Different punctuation at the start
+#: gst-libs/gst/pbutils/descriptions.c:933
+#, c-format
+msgid "%s RTP payloader"
+msgstr "codificador RTP %s"
+
+# (pofilter) simplecaps: Different capitalization
+# (pofilter) startpunc: Different punctuation at the start
+# (pofilter) startcaps: Different capitalization at the start
+#: gst-libs/gst/pbutils/descriptions.c:940
+#, c-format
+msgid "%s muxer"
+msgstr "Multiplexador %s"
+
+# (pofilter) simplecaps: Different capitalization
+# (pofilter) startpunc: Different punctuation at the start
+# (pofilter) startcaps: Different capitalization at the start
+#: gst-libs/gst/pbutils/descriptions.c:942
+#, c-format
+msgid "%s encoder"
+msgstr "Codificador %s"
+
+# (pofilter) doublequoting: Different quotation marks
+#: gst-libs/gst/pbutils/descriptions.c:974
+#, c-format
+msgid "GStreamer element %s"
+msgstr "Elemento \"%s\" do GStreamer"
+
+# (pofilter) acronyms: Consider not translating acronyms: ID
+#: gst-libs/gst/tag/tags.c:79
+msgid "track ID"
+msgstr "ident. da trilha"
+
+# (pofilter) startcaps: Different capitalization at the start
+# (pofilter) acronyms: Consider not translating acronyms: ID
+#: gst-libs/gst/tag/tags.c:79
+msgid "MusicBrainz track ID"
+msgstr "ident. da trilha no MusicBrainz"
+
+# (pofilter) acronyms: Consider not translating acronyms: ID
+#: gst-libs/gst/tag/tags.c:81
+msgid "artist ID"
+msgstr "ident. do artista"
+
+# (pofilter) startcaps: Different capitalization at the start
+# (pofilter) acronyms: Consider not translating acronyms: ID
+#: gst-libs/gst/tag/tags.c:81
+msgid "MusicBrainz artist ID"
+msgstr "ident. do artista no MusicBrainz"
+
+# (pofilter) acronyms: Consider not translating acronyms: ID
+#: gst-libs/gst/tag/tags.c:83
+msgid "album ID"
+msgstr "ident. do álbum"
+
+# (pofilter) startcaps: Different capitalization at the start
+# (pofilter) acronyms: Consider not translating acronyms: ID
+#: gst-libs/gst/tag/tags.c:83
+msgid "MusicBrainz album ID"
+msgstr "ident. do álbum no MusicBrainz"
+
+# (pofilter) acronyms: Consider not translating acronyms: ID
+#: gst-libs/gst/tag/tags.c:86
+msgid "album artist ID"
+msgstr "ident. do artista do álbum"
+
+# (pofilter) startcaps: Different capitalization at the start
+# (pofilter) acronyms: Consider not translating acronyms: ID
+#: gst-libs/gst/tag/tags.c:86
+msgid "MusicBrainz album artist ID"
+msgstr "ident. do artista do álbum no MusicBrainz"
+
+# (pofilter) acronyms: Consider not translating acronyms: ID
+#: gst-libs/gst/tag/tags.c:88
+msgid "track TRM ID"
+msgstr "ident. da trilha TRM"
+
+# (pofilter) startcaps: Different capitalization at the start
+# (pofilter) acronyms: Consider not translating acronyms: ID
+#: gst-libs/gst/tag/tags.c:88
+msgid "MusicBrainz TRM ID"
+msgstr "ident. da trilha TRM no MusicBrainz"
+
+# (pofilter) brackets: Missing '(', ')'
+#: gst-libs/gst/tag/tags.c:115
+msgid "Focal ratio (f-number) used when capturing the image"
+msgstr "Taxa focal utilizada ao capturar a imagem, f-number"
+
+# (pofilter) simplecaps: Different capitalization
+#: gst-libs/gst/tag/tags.c:126
+msgid "capturing iso speed"
+msgstr "velocidade ISO ao capturar"
+
+# (pofilter) simplecaps: Different capitalization
+# (pofilter) startcaps: Different capitalization at the start
+#: gst-libs/gst/tag/tags.c:186
+msgid "image horizontal ppi"
+msgstr "PPI horizontal da imagem"
+
+# (pofilter) puncspacing: Different spacing around punctuation
+# (pofilter) simplecaps: Different capitalization
+#: gst-libs/gst/tag/tags.c:187
+msgid "Media (image/video) intended horizontal pixel density in ppi"
+msgstr ""
+"Densidade de pixels horizontais desejado para a mídia (imagem/vídeo), em PPI"
+
+# (pofilter) simplecaps: Different capitalization
+# (pofilter) startcaps: Different capitalization at the start
+#: gst-libs/gst/tag/tags.c:190
+msgid "image vertical ppi"
+msgstr "PPI vertical da imagem"
+
+# (pofilter) puncspacing: Different spacing around punctuation
+# (pofilter) simplecaps: Different capitalization
+#: gst-libs/gst/tag/tags.c:191
+msgid "Media (image/video) intended vertical pixel density in ppi"
+msgstr ""
+"Densidade de pixels verticais desejado para a mídia (imagem/vídeo), em PPI"
+
+# (pofilter) startcaps: Different capitalization at the start
+#: gst-libs/gst/tag/tags.c:194
+msgid "ID3v2 frame"
+msgstr "quadro ID3v2"
+
+# (pofilter) simplecaps: Different capitalization
+#: gst-libs/gst/tag/tags.c:194
+msgid "unparsed id3v2 tag frame"
+msgstr "quadro com etiqueta ID3v2 sem análise"
+
+# (pofilter) acronyms: Consider not translating acronyms: FILE1|URI1, FILE2|URI2, FILE3|URI3
+#: tools/gst-play.c:488
+#, c-format
+msgid "Usage: %s FILE1|URI1 [FILE2|URI2] [FILE3|URI3] ..."
+msgstr "Uso: %s ARQ1|URI1 [ARQ2|URI2] [ARQ3|URI3] ..."
+
+# (pofilter) startpunc: Different punctuation at the start
+# (pofilter) startcaps: Different capitalization at the start
+#~ msgid "Uncompressed %s YUV %s"
+#~ msgstr "%2$s YUV %1$s sem compressão"
+
+# (pofilter) simplecaps: Different capitalization
+#~ msgid "Could not open vfs file \"%s\" for writing: %s."
+#~ msgstr "Não foi possível abrir o arquivo VFS \"%s\" para escrita: %s."
+
+# (pofilter) simplecaps: Different capitalization
+#~ msgid "Could not close vfs file \"%s\"."
+#~ msgstr "Não foi possível fechar o arquivo VFS \"%s\"."
+
+# (pofilter) puncspacing: Different spacing around punctuation
+#~ msgid "Invalid subtitle URI \"%s\", subtitles disabled."
+#~ msgstr "O URI \"%s\" para legenda é inválido, legendas desabilitadas."
+
+# (pofilter) simplecaps: Different capitalization
+#~ msgid "Error while sending gdp header data to \"%s:%d\"."
+#~ msgstr "Erro ao enviar o cabeçalho de dados GDP para \"%s:%d\"."
+
+# (pofilter) simplecaps: Different capitalization
+#~ msgid "Error while sending gdp payload data to \"%s:%d\"."
+#~ msgstr "Erro ao enviar codificação de dados GDP para \"%s:%d\"."
+
+# (pofilter) simplecaps: Different capitalization
+#~ msgid "Raw %d-bit floating-point audio"
+#~ msgstr "Áudio Raw de ponto-flutuante de %d bits"
+
+# (pofilter) simplecaps: Different capitalization
+#~ msgid "Raw floating-point audio"
+#~ msgstr "Áudio Raw de ponto-flutuante"
+
+# (pofilter) puncspacing: Different spacing around punctuation
+#~ msgid "Could not create \"decodebin2\" element."
+#~ msgstr "Não foi possível criar o elemento \"decodebin2\"."
+
+# (pofilter) puncspacing: Different spacing around punctuation
+#~ msgid "Could not create \"queue2\" element."
+#~ msgstr "Não foi possível criar o elemento \"queue2\"."
+
+# (pofilter) puncspacing: Different spacing around punctuation
+#~ msgid "Could not create \"typefind\" element."
+#~ msgstr "Não foi possível criar o elemento \"typefind\"."

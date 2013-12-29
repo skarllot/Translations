@@ -1,0 +1,258 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: libgphoto2_port 2.4.9\n"
+"Report-Msgid-Bugs-To: gphoto-devel@lists.sourceforge.net\n"
+"POT-Creation-Date: 2010-04-11 14:39+0200\n"
+"PO-Revision-Date: 2010-05-09 20:44-0300\n"
+"Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
+"Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Translate Toolkit 1.6.0\n"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: libgphoto2_port/gphoto2-port-info-list.c:213
+#, c-format
+msgid "Called for filename '%s'."
+msgstr "Chamou pelo arquivo \"%s\"."
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: libgphoto2_port/gphoto2-port-info-list.c:218
+#, c-format
+msgid "Could not load '%s': '%s'."
+msgstr "Não foi possível carregar \"%s\": \"%s\"."
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: libgphoto2_port/gphoto2-port-info-list.c:226
+#, c-format
+msgid "Could not find some functions in '%s': '%s'."
+msgstr "Não foi possível localizar algumas funções em \"%s\": \"%s\"."
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+# (pofilter) startpunc: checks whether punctuation at the beginning of the strings match
+#: libgphoto2_port/gphoto2-port-info-list.c:238
+#, c-format
+msgid "'%s' already loaded"
+msgstr "\"%s\" já está carregado"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: libgphoto2_port/gphoto2-port-info-list.c:247
+#, c-format
+msgid "Could not load port driver list: '%s'."
+msgstr "Não foi possível carregar a lista de drivers porta: \"%s\"."
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: libgphoto2_port/gphoto2-port-info-list.c:254
+#, c-format
+msgid "Loaded '%s' ('%s') from '%s'."
+msgstr "Carregado \"%s\" (\"%s\") de \"%s\"."
+
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: libgphoto2_port/gphoto2-port-info-list.c:286
+#, c-format
+msgid "Using ltdl to load io-drivers from '%s'..."
+msgstr "Usando LTDL para carregar drivers de E/S de \"%s\"..."
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: libgphoto2_port/gphoto2-port-info-list.c:351
+#, c-format
+msgid "Looking for path '%s' (%i entries available)..."
+msgstr "Procurando pelo caminho \"%s\" (%i entradas disponíveis)..."
+
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: libgphoto2_port/gphoto2-port-info-list.c:363
+#, c-format
+msgid "Starting regex search for '%s'..."
+msgstr "Iniciando busca, por REGEX, por \"%s\"..."
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: libgphoto2_port/gphoto2-port-info-list.c:371
+#, c-format
+msgid "Trying '%s'..."
+msgstr "Tentando \"%s\"..."
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: libgphoto2_port/gphoto2-port-info-list.c:441
+#, c-format
+msgid "Looking up entry '%s'..."
+msgstr "Procurando entrada \"%s\"..."
+
+# (pofilter) acronyms: acronyms should not be translated: I/O
+#: libgphoto2_port/gphoto2-port-result.c:62
+msgid "I/O problem"
+msgstr "Problema de E/S"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: libgphoto2_port/gphoto2-port.c:55
+#, c-format
+msgid "The operation '%s' is not supported by this device"
+msgstr "Não há suporte a operação \"%s\" por esse dispositivo"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: libgphoto2_port/gphoto2-port.c:165
+#, c-format
+msgid "Could not load '%s' ('%s')."
+msgstr "Não foi possível carregar \"%s\" (\"%s\")."
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: libgphoto2_port/gphoto2-port.c:175
+#, c-format
+msgid "Could not find 'gp_port_library_operations' in '%s' ('%s')"
+msgstr ""
+"Não foi possível localizar \"gp_port_library_operations\" em \"%s\" (\"%s\")"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: libgphoto2_port/gphoto2-port.c:700
+#, c-format
+msgid "Setting pin %i (%s: '%s') to '%s'..."
+msgstr "Definindo pino %i (%s: \"%s\") para \"%s\"..."
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: serial/unix.c:241
+#, c-format
+msgid "Could not lock device '%s'"
+msgstr "Não foi possível travar o dispositivo \"%s\""
+
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: serial/unix.c:251 usbdiskdirect/linux.c:87 usbscsi/linux.c:84
+#, c-format
+msgid "Device '%s' is locked by pid %d"
+msgstr "O dispositivo \"%s\" está travado pelo PID %d"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: serial/unix.c:254 usbdiskdirect/linux.c:90 usbscsi/linux.c:87
+#, c-format
+msgid "Device '%s' could not be locked (dev_lock returned %d)"
+msgstr "O dispositivo \"%s\" não pôde ser travado (dev_lock retornou %d)"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: serial/unix.c:288
+#, c-format
+msgid "Device '%s' could not be unlocked."
+msgstr "O dispositivo \"%s\" não pôde ser destravado."
+
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: serial/unix.c:300 usbdiskdirect/linux.c:119 usbscsi/linux.c:116
+#, c-format
+msgid "Device '%s' could not be unlocked as it is locked by pid %d."
+msgstr ""
+"O dispositivo \"%s\" não pôde ser destravado pois está travado pelo PID %d."
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: serial/unix.c:304 usbdiskdirect/linux.c:123 usbscsi/linux.c:120
+#, c-format
+msgid "Device '%s' could not be unlocked (dev_unlock returned %d)"
+msgstr "O dispositivo \"%s\" não pôde ser destravado (dev_unlock retornou %d)"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: serial/unix.c:476 usbdiskdirect/linux.c:278 usbscsi/linux.c:269
+#, c-format
+msgid "Failed to open '%s' (%m)."
+msgstr "Falhou ao abrir \"%s\" (%m)."
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: serial/unix.c:494 usbdiskdirect/linux.c:292 usbscsi/linux.c:283
+#, c-format
+msgid "Could not close '%s' (%m)."
+msgstr "Não foi possível fechar \"%s\" (%m)."
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: serial/unix.c:754
+#, c-format
+msgid "Could not flush '%s' (%m)."
+msgstr "Não foi possível descarregar \"%s\" (%m)."
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: usb/libusb.c:259
+#, c-format
+msgid "Device has driver '%s' attached, detaching it now."
+msgstr "O dispositivo está com o driver \"%s\" anexado, desanexando agora."
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: usb/libusb.c:262
+#, c-format
+msgid "Could not detach kernel driver '%s' of camera device."
+msgstr ""
+"Não foi possível desanexar o driver de kernel \"%s\" do dispositivo de "
+"câmera."
+
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+#: usb/libusb.c:707
+#, c-format
+msgid "The supplied vendor or product id (0x%x,0x%x) is not valid."
+msgstr "O fabricante ou o ID do produto (0x%x,0x%x) não é válido."
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: disk/disk.c:179 disk/disk.c:229 disk/disk.c:270 disk/disk.c:302
+#: disk/disk.c:325
+#, c-format
+msgid "Media '%s'"
+msgstr "Mídia \"%s\""
+
+# (pofilter) acronyms: acronyms should not be translated: IO
+#: usbdiskdirect/linux.c:223
+#, c-format
+msgid "USB Mass Storage direct IO"
+msgstr "E/S direta para armazenamento em massa USB"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: usbdiskdirect/linux.c:317
+#, c-format
+msgid "Could not seek to offset: %x on '%s' (%m)."
+msgstr "Não foi possível buscar até a posição %x em \"%s\" (%m)."
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: usbdiskdirect/linux.c:340
+#, c-format
+msgid "Could not write to '%s' (%m)."
+msgstr "Não foi possível escrever para \"%s\" (%m)."
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: usbdiskdirect/linux.c:362
+#, c-format
+msgid "Could not read from '%s' (%m)."
+msgstr "Não foi possível ler de \"%s\" (%m)."
+
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: usbscsi/linux.c:323
+#, c-format
+msgid "Could not send scsi command to: '%s' (%m)."
+msgstr "Não foi possível enviar um comando SCSI para \"%s\" (%m)."

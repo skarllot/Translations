@@ -1,0 +1,37 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gst-plugins-bad-1.1.4\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
+"POT-Creation-Date: 2013-11-09 15:49+0100\n"
+"PO-Revision-Date: 2013-12-17 01:09-0200\n"
+"Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
+"Language-Team: Brazilian Portuguese <ldpbr-"
+"translation@lists.sourceforge.net>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Translate Toolkit 1.9.0\n"
+
+# (pofilter) singlequoting: Different quotation marks
+# (pofilter) doublequoting: Different quotation marks
+#: ext/resindvd/resindvdsrc.c:367
+#, c-format
+msgid "Failed to open DVD device '%s'."
+msgstr "Falha ao abrir o dispositivo de DVD \"%s\"."
+
+# (pofilter) singlequoting: Different quotation marks
+# (pofilter) doublequoting: Different quotation marks
+#: gst/camerabin2/camerabingeneral.c:166 gst/camerabin2/gstcamerabin2.c:1860
+#: gst/camerabin2/gstviewfinderbin.c:271
+#, c-format
+msgid "Missing element '%s' - check your GStreamer installation."
+msgstr ""
+"O elemento \"%s\" está faltando, verifique a sua instalação do GStreamer."
+
+# (pofilter) acronyms: Consider not translating acronyms: NULL
+#: gst/camerabin2/gstcamerabin2.c:370
+msgid "File location is set to NULL, please set it to a valid filename"
+msgstr ""
+"A localização do arquivo está NULA, favor definir um nome de arquivo válido"

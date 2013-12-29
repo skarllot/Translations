@@ -1,0 +1,479 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: psmisc 22.11-pre1\n"
+"Report-Msgid-Bugs-To: csmall@small.dropbear.id.au\n"
+"POT-Creation-Date: 2010-03-28 18:17+1100\n"
+"PO-Revision-Date: 2010-08-15 04:27-0300\n"
+"Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
+"Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Translate Toolkit 1.7.0\n"
+
+# (pofilter) newlines: line endings in original don't match line endings in translation
+# (pofilter) acronyms: acronyms should not be translated: SPACE, SIGNAL, NAME, NAME, SPACE, SIGNAL
+# (pofilter) doublespacing: checks for bad double-spaces by comparing to original
+#: src/fuser.c:105
+#, c-format
+msgid ""
+"Usage: fuser [-fMuv] [-a|-s] [-4|-6] [-c|-m|-n SPACE] [-k [-i] [-SIGNAL]] "
+"NAME...\n"
+"       fuser -l\n"
+"       fuser -V\n"
+"Show which processes use the named files, sockets, or filesystems.\n"
+"\n"
+"  -a,--all              display unused files too\n"
+"  -i,--interactive      ask before killing (ignored without -k)\n"
+"  -k,--kill             kill processes accessing the named file\n"
+"  -l,--list-signals     list available signal names\n"
+"  -m,--mount            show all processes using the named filesystems or "
+"block device\n"
+"  -M,--ismountpoint     fulfill request only if NAME is a mount point\n"
+"  -n,--namespace SPACE  search in this name space (file, udp, or tcp)\n"
+"  -s,--silent           silent operation\n"
+"  -SIGNAL               send this signal instead of SIGKILL\n"
+"  -u,--user             display user IDs\n"
+"  -v,--verbose          verbose output\n"
+"  -V,--version          display version information\n"
+msgstr ""
+"Uso:   fuser [-fMuv] [-a|-s] [-4|-6] [-c|-m|-n ESPNM] [-k [-i] [-SINAL]] "
+"NOME...\n"
+"       fuser -l\n"
+"       fuser -V\n"
+"Mostra quais processos usam os arquivos, sockets ou sistema de arquivos "
+"especificados.\n"
+"\n"
+"  -a,--all              exibir também arquivos sem uso\n"
+"  -i,--interactive      perguntar antes de matar (ignorado sem -k)\n"
+"  -k,--kill             matar processos acessando o arquivo especificado\n"
+"  -l,--list-signals     listar os nomes de sinal disponíveis\n"
+"  -m,--mount            mostrar todos processos usando o sistema de arquivos "
+"ou dispositivo de bloco especificado\n"
+"  -n,--namespace ESPNM  pesquisar neste espaço de nome (file, udp ou tcp)\n"
+"  -s,--silent           operação silenciosa\n"
+"  -SINAL                enviar este sinal em vez de SIGKILL\n"
+"  -u,--user             exibir IDs de usuário\n"
+"  -v,--verbose          saída detalhada\n"
+"  -V,--version          exibir informações de versão\n"
+
+# (pofilter) unchanged: please translate
+#: src/fuser.c:133
+#, c-format
+msgid "fuser (PSmisc) %s\n"
+msgstr "fuser (PSmisc) %s\n"
+
+# (pofilter) brackets: translation is missing '(', ')'
+#: src/fuser.c:136
+#, c-format
+msgid ""
+"Copyright (C) 1993-2010 Werner Almesberger and Craig Small\n"
+"\n"
+msgstr ""
+"Copyright © 1993-2010 Werner Almesberger and Craig Small\n"
+"\n"
+
+# (pofilter) acronyms: acronyms should not be translated: ABSOLUTELY, NO, WARRANTY
+#: src/fuser.c:138 src/killall.c:680 src/peekfd.c:89 src/prtstat.c:68
+#: src/pstree.c:806
+#, c-format
+msgid ""
+"PSmisc comes with ABSOLUTELY NO WARRANTY.\n"
+"This is free software, and you are welcome to redistribute it under\n"
+"the terms of the GNU General Public License.\n"
+"For more information about these matters, see the files named COPYING.\n"
+msgstr ""
+"PSmisc vem com ABSOLUTAMENTE NENHUMA GARANTIA.\n"
+"Este é um software livre, e você é bem-vindo em redistribuí-lo dentro\n"
+"dos termos da GNU General Public License.\n"
+"Para mais informações a respeito, veja os arquivos com o nome COPYING.\n"
+
+# (pofilter) acronyms: acronyms should not be translated: AF
+#: src/fuser.c:551
+#, c-format
+msgid "Unknown local port AF %d\n"
+msgstr "Família de endereços da porta local %d desconhecida\n"
+
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: src/fuser.c:937
+msgid "Namespace option requires an argument."
+msgstr "A opção \"espaço de nome\" requer um argumento."
+
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: src/fuser.c:1053
+msgid "all option cannot be used with silent option."
+msgstr "a opção \"detalhada\" não pode ser usada com a opção \"silenciosa\"."
+
+# (pofilter) acronyms: acronyms should not be translated: USER, ACCESS, COMMAND
+# (pofilter) doublespacing: checks for bad double-spaces by comparing to original
+#: src/fuser.c:1129
+#, c-format
+msgid "%*s USER        PID ACCESS COMMAND\n"
+msgstr "%*s USUÁRIO     PID ACESSO COMANDO\n"
+
+# (pofilter) puncspacing: checks for bad spacing after punctuation
+#: src/killall.c:102
+#, c-format
+msgid "Kill %s(%s%d) ? (y/N) "
+msgstr "Matar %s(%s%d)? (y/N) "
+
+# (pofilter) puncspacing: checks for bad spacing after punctuation
+#: src/killall.c:105
+#, c-format
+msgid "Signal %s(%s%d) ? (y/N) "
+msgstr "Enviar sinal para %s(%s%d)? (y/N) "
+
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) startpunc: checks whether punctuation at the beginning of the strings match
+# (pofilter) startcaps: checks that the message starts with the correct capitalisation
+#: src/killall.c:565
+#, c-format
+msgid "Killed %s(%s%d) with signal %d\n"
+msgstr "%s(%s%d) morto com o sinal %d\n"
+
+# (pofilter) acronyms: acronyms should not be translated: NAME
+# (pofilter) doublespacing: checks for bad double-spaces by comparing to original
+#: src/killall.c:617
+#, c-format
+msgid ""
+"Usage: pidof [ -eg ] NAME...\n"
+"       pidof -V\n"
+"\n"
+"    -e      require exact match for very long names;\n"
+"            skip if the command line is unavailable\n"
+"    -g      show process group ID instead of process ID\n"
+"    -V      display version information\n"
+"\n"
+msgstr ""
+"Uso:   pidof [ -eg ] NOME...\n"
+"       pidof -V\n"
+"\n"
+"    -e      exigir ocorrência exata para nomes muito longos;\n"
+"            ignorar se a linha de comando está indisponível\n"
+"    -g      mostrar ID do grupo de processo em vez do ID de processo\n"
+"    -V      exibir informações de versão\n"
+"\n"
+
+# (pofilter) acronyms: acronyms should not be translated: USER, SIGNAL, NAME
+# (pofilter) doublespacing: checks for bad double-spaces by comparing to original
+#: src/killall.c:633
+#, c-format
+msgid ""
+"Usage: killall [-Z CONTEXT] [-u USER] [ -eIgiqrvw ] [ -SIGNAL ] NAME...\n"
+msgstr ""
+"Uso:   killall [-Z CONTEXTO] [-u USUÁRIO] [ -eIgiqrvw ] [ -SINAL ] NOME...\n"
+
+# (pofilter) acronyms: acronyms should not be translated: OPTION, NAME
+# (pofilter) doublespacing: checks for bad double-spaces by comparing to original
+#: src/killall.c:636
+#, c-format
+msgid "Usage: killall [OPTION]... [--] NAME...\n"
+msgstr "Uso:   killall [OPÇÃO]... [--] NOME...\n"
+
+# (pofilter) brackets: translation is missing '(', ')'
+# (pofilter) acronyms: acronyms should not be translated: TIME, TIME, NAME, SIGNAL, USER, USER
+# (pofilter) doublespacing: checks for bad double-spaces by comparing to original
+#: src/killall.c:639
+#, c-format
+msgid ""
+"       killall -l, --list\n"
+"       killall -V, --version\n"
+"\n"
+"  -e,--exact          require exact match for very long names\n"
+"  -I,--ignore-case    case insensitive process name match\n"
+"  -g,--process-group  kill process group instead of process\n"
+"  -y,--younger-than   kill processes younger than TIME\n"
+"  -o,--older-than     kill processes older than TIME\n"
+"  -i,--interactive    ask for confirmation before killing\n"
+"  -l,--list           list all known signal names\n"
+"  -q,--quiet          don't print complaints\n"
+"  -r,--regexp         interpret NAME as an extended regular expression\n"
+"  -s,--signal SIGNAL  send this signal instead of SIGTERM\n"
+"  -u,--user USER      kill only process(es) running as USER\n"
+"  -v,--verbose        report if the signal was successfully sent\n"
+"  -V,--version        display version information\n"
+"  -w,--wait           wait for processes to die\n"
+msgstr ""
+"       killall -l, --list\n"
+"       killall -V, --version\n"
+"\n"
+"  -e,--exact          exigir ocorrência exata para nomes muito longos\n"
+"  -I,--ignore-case    ignorar maiusculização nos nomes de processo\n"
+"  -g,--process-group  matar o grupo de processo em vez do processo\n"
+"  -y,--younger-than   matar processos mais novos que TEMPO\n"
+"  -o,--older-than     matar processos mais velhos que TEMPO\n"
+"  -i,--interactive    exibir confirmação antes de matar\n"
+"  -l,--list           listar todos os nomes de sinal conhecidos\n"
+"  -q,--quiet          não exibir avisos\n"
+"  -r,--regexp         interpretar NOME como uma expressão regular extendida\n"
+"  -s,--signal SINAL   enviar este sinal em vez de SIGTERM\n"
+"  -u,--user USUARIO   matar apenas proc. sendo executados como USUARIO\n"
+"  -v,--verbose        relatar se o sinal foi enviado com sucesso\n"
+"  -V,--version        exibir informações de versão\n"
+"  -w,--wait           esperar que os processos morram\n"
+
+# (pofilter) simpleplurals: checks for English style plural(s) for you to review
+# (pofilter) acronyms: acronyms should not be translated: REGEXP
+#: src/killall.c:657
+#, c-format
+msgid ""
+"  -Z,--context REGEXP kill only process(es) having context\n"
+"                      (must precede other arguments)\n"
+msgstr ""
+"  -Z,--context EXPREG matar apenas processo(s) tendo contexto\n"
+"                      (precisa preceder outros argumentos)\n"
+
+# (pofilter) brackets: translation is missing '(', ')'
+#: src/killall.c:678
+#, c-format
+msgid ""
+"Copyright (C) 1993-2005 Werner Almesberger and Craig Small\n"
+"\n"
+msgstr ""
+"Copyright © 1993-2005 Werner Almesberger and Craig Small\n"
+"\n"
+
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+#: src/peekfd.c:77
+#, c-format
+msgid "Error attaching to pid %i\n"
+msgstr "Erro ao anexar ao PID %i\n"
+
+# (pofilter) unchanged: please translate
+#: src/peekfd.c:85
+#, c-format
+msgid "peekfd (PSmisc) %s\n"
+msgstr "peekfd (PSmisc) %s\n"
+
+# (pofilter) brackets: translation is missing '(', ')'
+#: src/peekfd.c:87
+#, c-format
+msgid ""
+"Copyright (C) 2007 Trent Waddington\n"
+"\n"
+msgstr ""
+"Copyright © 2007 Trent Waddington\n"
+"\n"
+
+# (pofilter) acronyms: acronyms should not be translated: CTRL-C
+# (pofilter) doublespacing: checks for bad double-spaces by comparing to original
+#: src/peekfd.c:97
+#, c-format
+msgid ""
+"Usage: peekfd [-8] [-n] [-c] [-d] [-V] [-h] <pid> [<fd> ..]\n"
+"    -8 output 8 bit clean streams.\n"
+"    -n don't display read/write from fd headers.\n"
+"    -c peek at any new child processes too.\n"
+"    -d remove duplicate read/writes from the output.\n"
+"    -V prints version info.\n"
+"    -h prints this help.\n"
+"\n"
+"  Press CTRL-C to end output.\n"
+msgstr ""
+"Uso:   peekfd [-8] [-n] [-c] [-d] [-V] [-h] <pid> [<fd> ..]\n"
+"    -8 saída limpa com fluxos de 8 bits.\n"
+"    -n não exibir leitura/gravação dos cabeçalhos fd.\n"
+"    -c espiar qualquer novos processos filhos também.\n"
+"    -d remover leitura/gravação duplicados da saída.\n"
+"    -V exibir informações de versão.\n"
+"    -h exibir esta ajuda.\n"
+"\n"
+"  Pressione CTRL+C para finalizar a saída.\n"
+
+# (pofilter) doublespacing: checks for bad double-spaces by comparing to original
+#: src/prtstat.c:54
+#, c-format
+msgid ""
+"Usage: prtstat [options] PID ...\n"
+"       prtstat -V\n"
+"Print information about a process\n"
+"    -r,--raw       Raw display of information\n"
+"    -V,--version   Display version information and exit\n"
+msgstr ""
+"Uso:   prtstat [opções] PID ...\n"
+"       prtstat -V\n"
+"Exibe informações sobre um processo\n"
+"    -r,--raw       Exibição bruta de informações\n"
+"    -V,--version   Exibir informações de versão e sair\n"
+
+# (pofilter) unchanged: please translate
+#: src/prtstat.c:65
+#, c-format
+msgid "prtstat (PSmisc) %s\n"
+msgstr "prtstat (PSmisc) %s\n"
+
+# (pofilter) brackets: translation is missing '(', ')'
+#: src/prtstat.c:66
+#, c-format
+msgid ""
+"Copyright (C) 2009 Craig Small\n"
+"\n"
+msgstr ""
+"Copyright © 2009 Craig Small\n"
+"\n"
+
+# (pofilter) doublespacing: checks for bad double-spaces by comparing to original
+#: src/prtstat.c:169
+#, c-format
+msgid ""
+"Process, Group and Session IDs\n"
+"  Process ID: %d\t\t  Parent ID: %d\n"
+"    Group ID: %d\t\t Session ID: %d\n"
+"  T Group ID: %d\n"
+"\n"
+msgstr ""
+"IDs de processos, grupos e sessões\n"
+" ID processo: %d\t\t     ID pai: %d\n"
+"    ID grupo: %d\t\t  ID sessão: %d\n"
+"  ID grupo T: %d\n"
+"\n"
+
+# (pofilter) doublewords: The word '%8lu' is repeated
+# (pofilter) doublespacing: checks for bad double-spaces by comparing to original
+#: src/prtstat.c:175
+#, c-format
+msgid ""
+"Page Faults\n"
+"  This Process    (minor major): %8lu  %8lu\n"
+"  Child Processes (minor major): %8lu  %8lu\n"
+msgstr ""
+"Faltas de página\n"
+"  Este processo   (menor maior): %8lu  %8lu\n"
+"  Processos filho (menor maior): %8lu  %8lu\n"
+
+# (pofilter) doublewords: The word '%62f' is repeated
+# (pofilter) doublespacing: checks for bad double-spaces by comparing to original
+#: src/prtstat.c:180
+#, c-format
+msgid ""
+"CPU Times\n"
+"  This Process    (user system guest blkio): %6.2f %6.2f %6.2f %6.2f\n"
+"  Child processes (user system guest):       %6.2f %6.2f %6.2f\n"
+msgstr ""
+"Tempo de CPU\n"
+"  Este processo   (usu. sist. conv. blkio):  %6.2f %6.2f %6.2f %6.2f\n"
+"  Processos filho (usu. sist. conv.):        %6.2f %6.2f %6.2f\n"
+
+# (pofilter) puncspacing: checks for bad spacing after punctuation
+# (pofilter) sentencecount: The number of sentences differ: 1 versus 4
+#: src/prtstat.c:189
+#, c-format
+msgid ""
+"Memory\n"
+"  Vsize:       %-10s\n"
+"  RSS:         %-10s \t\t RSS Limit: %s\n"
+"  Code Start:  %#-10lx\t\t Code Stop:  %#-10lx\n"
+"  Stack Start: %#-10lx\n"
+"  Stack Pointer (ESP): %#10lx\t Inst Pointer (EIP): %#10lx\n"
+msgstr ""
+"Memória\n"
+"  Vsize:       %-10s\n"
+"  RSS:         %-10s \t\tLimite RSS: %s\n"
+"  Início cód.: %#-10lx\t\t Fim cód. :  %#-10lx\n"
+"  Início stack:%#-10lx\n"
+"  Pont. stack (ESP): %#10lx\t   Pont. Instr. (EIP): %#10lx\n"
+
+# (pofilter) sentencecount: The number of sentences differ: 1 versus 2
+#: src/prtstat.c:199
+#, c-format
+msgid ""
+"Scheduling\n"
+"  Policy: %s\n"
+"  Nice:   %ld \t\t RT Priority: %ld %s\n"
+msgstr ""
+"Agendamento\n"
+"  Polít.: %s\n"
+"  Nice:   %ld \t\t Priorid. RT: %ld %s\n"
+
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) printf: checks whether printf format strings match
+#: src/prtstat.c:226
+#, c-format
+msgid "Process with pid %d does not exist.\n"
+msgstr "O processo com PID %s não existe.\n"
+
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+#: src/prtstat.c:228
+#, c-format
+msgid "Unable to open stat file for pid %d (%s)\n"
+msgstr "Não foi possível abrir o arquivo de análise para PID %d (%s)\n"
+
+# (pofilter) options: The parameter PID in option --highlight-pid is not translated.
+# (pofilter) acronyms: acronyms should not be translated: USER
+# (pofilter) doublespacing: checks for bad double-spaces by comparing to original
+#: src/pstree.c:774
+#, c-format
+msgid ""
+"Usage: pstree [ -a ] [ -c ] [ -h | -H PID ] [ -l ] [ -n ] [ -p ] [ -u ]\n"
+"              [ -A | -G | -U ] [ PID | USER ]\n"
+"       pstree -V\n"
+"Display a tree of processes.\n"
+"\n"
+"  -a, --arguments     show command line arguments\n"
+"  -A, --ascii         use ASCII line drawing characters\n"
+"  -c, --compact       don't compact identical subtrees\n"
+"  -h, --highlight-all highlight current process and its ancestors\n"
+"  -H PID,\n"
+"  --highlight-pid=PID highlight this process and its ancestors\n"
+"  -G, --vt100         use VT100 line drawing characters\n"
+"  -l, --long          don't truncate long lines\n"
+"  -n, --numeric-sort  sort output by PID\n"
+"  -p, --show-pids     show PIDs; implies -c\n"
+"  -u, --uid-changes   show uid transitions\n"
+"  -U, --unicode       use UTF-8 (Unicode) line drawing characters\n"
+"  -V, --version       display version information\n"
+msgstr ""
+"Uso:   pstree [ -a ] [ -c ] [ -h | -H PID ] [ -l ] [ -n ] [ -p ] [ -u ]\n"
+"              [ -A | -G | -U ] [ PID | USR ]\n"
+"       pstree -V\n"
+"Exibe uma árvore de processos.\n"
+"\n"
+"  -a, --arguments     mostrar argumentos de linha de comando\n"
+"  -A, --ascii         usar caracteres ASCII no desenho de linhas\n"
+"  -c, --compact       não comprimir subárvores idênticas\n"
+"  -h, --highlight-all realçar o processo atual e seus ancestrais\n"
+"  -H PID,\n"
+"  --highlight-pid=PID realçar este processo e seus ancestrais\n"
+"  -G, --vt100         usar caracteres VT100 no desenho de linhas\n"
+"  -l, --long          não truncar linhas longas\n"
+"  -n, --numeric-sort  ordenar saída pelo PID\n"
+"  -p, --show-pids     mostrar PIDs; implica -c\n"
+"  -u, --uid-changes   mostrar transições de UID\n"
+"  -U, --unicode       usar caracteres UTF-8 (Unicode) no desenho de linhas\n"
+"  -V, --version       exibir informações de versão\n"
+
+# (pofilter) acronyms: acronyms should not be translated: USER
+# (pofilter) doublespacing: checks for bad double-spaces by comparing to original
+#: src/pstree.c:794
+#, c-format
+msgid ""
+"  PID    start at this PID; default is 1 (init)\n"
+"  USER   show only trees rooted at processes of this user\n"
+"\n"
+msgstr ""
+"  PID    iniciar deste PID; predefinido como 1 (init)\n"
+"  USR    mostrar apenas árvores originadas de processos deste usuário\n"
+"\n"
+
+# (pofilter) unchanged: please translate
+#: src/pstree.c:801
+#, c-format
+msgid "pstree (PSmisc) %s\n"
+msgstr "pstree (PSmisc) %s\n"
+
+# (pofilter) brackets: translation is missing '(', ')'
+#: src/pstree.c:804
+#, c-format
+msgid ""
+"Copyright (C) 1993-2009 Werner Almesberger and Craig Small\n"
+"\n"
+msgstr ""
+"Copyright © 1993-2009 Werner Almesberger and Craig Small\n"
+"\n"
+
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+#: src/pstree.c:983
+#, c-format
+msgid "Press return to close\n"
+msgstr "Pressione Enter para fechar\n"

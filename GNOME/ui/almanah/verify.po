@@ -1,0 +1,165 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Diary\n"
+"Report-Msgid-Bugs-To: "
+"http://bugzilla.gnome.org/enter_bug.cgi?product=almanah&component=general\n"
+"POT-Creation-Date: 2010-07-04 19:45+0000\n"
+"PO-Revision-Date: 2010-07-24 13:00-0300\n"
+"Last-Translator: Carlos José Pereira <carlao2005@gmail.com>\n"
+"Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Translate Toolkit 1.7.0\n"
+"X-Poedit-Country: BRAZIL\n"
+"X-Poedit-Language: Portuguese\n"
+
+# (pofilter) endpunc: checks whether punctuation at the end of the strings match
+#: ../data/almanah.ui.h:25
+msgid "Select Date…"
+msgstr "Selecionar data..."
+
+# (pofilter) endpunc: checks whether punctuation at the end of the strings match
+#: ../data/almanah.ui.h:37
+msgid "_Export…"
+msgstr "E_xportar..."
+
+# (pofilter) endpunc: checks whether punctuation at the end of the strings match
+#: ../data/almanah.ui.h:40
+msgid "_Import…"
+msgstr "_Importar..."
+
+# (pofilter) endpunc: checks whether punctuation at the end of the strings match
+#: ../data/almanah.ui.h:41
+msgid "_Print…"
+msgstr "_Imprimir..."
+
+# (pofilter) endpunc: checks whether punctuation at the end of the strings match
+#: ../data/almanah.ui.h:43
+msgid "_Search…"
+msgstr "_Pesquisar..."
+
+# (pofilter) sentencecount: The number of sentences differ: 2 versus 1
+#: ../data/almanah.ui.h:45
+msgid "e.g. \"14/03/2009\" or \"14th March 2009\"."
+msgstr "exemplo \"14/03/2009\" ou \"14 de Março de 2009\"."
+
+# (pofilter) acronyms: acronyms should not be translated: UI
+#: ../src/add-definition-dialog.c:164 ../src/date-entry-dialog.c:131
+#: ../src/import-export-dialog.c:112 ../src/import-export-dialog.c:415
+#: ../src/definition-manager-window.c:132 ../src/main-window.c:171
+#: ../src/preferences-dialog.c:143 ../src/search-dialog.c:87
+#, c-format
+msgid "UI file \"%s\" could not be loaded"
+msgstr "Arquivo de interface de usuário \"%s\" não pôde ser carregado"
+
+# (pofilter) endpunc: checks whether punctuation at the end of the strings match
+#: ../src/events/calendar-appointment.c:120 ../src/events/calendar-task.c:109
+msgid "Error launching Evolution"
+msgstr "Erro ao lançar o Evolution."
+
+# (pofilter) puncspacing: checks for bad spacing after punctuation
+#: ../src/export-operation.c:47
+msgid ""
+"Select a _folder to export the entries to as text files, one per entry, with "
+"names in the format 'yyyy-mm-dd', and no extension. All entries will be "
+"exported, unencrypted in plain text format."
+msgstr ""
+"Selecione uma _pasta para exportar as entradas como arquivos texto, uma por "
+"entrada, com nomes no formato 'aaaa-mm-dd' e sem extensão. Todas as entradas "
+"serão exportadas sem criptografia, no formato de texto puro."
+
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) doublewords: The word 'de' is repeated
+#. Translators: This is a strftime()-format string for the dates displayed in import results.
+#. Translators: This is a strftime()-format string for the date to display when asking about editing a diary entry.
+#. Translators: This is a strftime()-format string for the date to display when asking about deleting a diary entry.
+#. Translators: This is a strftime()-format string for the date displayed at the top of the main window.
+#. Translators: This is a strftime()-format string for the date displayed above each printed entry.
+#. Translators: This is a strftime()-format string for the dates displayed in search results.
+#: ../src/import-export-dialog.c:482 ../src/main-window.c:394
+#: ../src/main-window.c:419 ../src/main-window.c:1058 ../src/printing.c:263
+#: ../src/search-dialog.c:161
+msgid "%A, %e %B %Y"
+msgstr "%A, %e de %B de %Y"
+
+# (pofilter) puncspacing: checks for bad spacing after punctuation
+#: ../src/import-operation.c:47
+msgid ""
+"Select a _folder containing text files, one per entry, with names in the "
+"format 'yyyy-mm-dd', and no extension. Any and all such files will be "
+"imported."
+msgstr ""
+"Selecione uma _pasta contendo arquivos texto, um por entrada, com nomes no "
+"formato 'aaaa-mm-dd' e sem extensão. Todos e quaisquer desses arquivos serão "
+"importados."
+
+# (pofilter) endwhitespace: checks whether whitespace at the end of the strings matches
+#: ../src/definitions/uri.c:99
+msgid "URI: "
+msgstr "URI:"
+
+# (pofilter) brackets: translation has extra '(', ')'
+#: ../src/main-window.c:891
+msgid ""
+"Almanah is free software: you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation, either version 3 of the License, or (at your option) any later "
+"version."
+msgstr ""
+"O Almanah é um software livre: você pode redistribuí-lo e/ou modificá-lo sob "
+"os termos da Licença Pública Geral GNU (GNU General Public License) "
+"publicada pela Free Software Foundation, tanto na versão 3 da licença, "
+"quanto (a seu critério) qualquer versão posterior."
+
+# (pofilter) brackets: translation has extra '(', ')'
+# (pofilter) acronyms: acronyms should not be translated: WITHOUT, ANY, WARRANTY, MERCHANTABILITY, FITNESS, FOR, PURPOSE
+# (pofilter) doublespacing: checks for bad double-spaces by comparing to original
+#: ../src/main-window.c:895
+msgid ""
+"Almanah is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details."
+msgstr ""
+"O Almanah é distribuído na esperança de que será útil, mas SEM NENHUMA "
+"GARANTIA; sem mesmo a garantia implícita de COMERCIALIZAÇÃO ou ADEQUAÇÃO A "
+"UM PROPÓSITO EM PARTICULAR. Veja a Licença Pública Geral GNU (GNU General "
+"Public License) para mais detalhes."
+
+# (pofilter) sentencecount: The number of sentences differ: 2 versus 1
+# (pofilter) brackets: translation has extra '(', ')'
+# (pofilter) doublespacing: checks for bad double-spaces by comparing to original
+#: ../src/main-window.c:899
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"Almanah.  If not, see <http://www.gnu.org/licenses/>."
+msgstr ""
+"Você deve ter recebido uma cópia da Licença Pública Geral GNU (GNU General "
+"Public License) junto com o Almanah; se não, consulte <http://www.gnu.org/"
+"licenses/>."
+
+# (pofilter) unchanged: please translate
+#: ../src/main-window.c:916
+msgid "Copyright © 2008-2009 Philip Withnall"
+msgstr "Copyright © 2008-2009 Philip Withnall"
+
+# (pofilter) credits: checks for messages containing translation credits instead of normal
+#         translations.
+# (pofilter) long: checks whether a translation is much longer than the original
+#         string
+#. Translators: please include your names here to be credited for your hard work!
+#. * Format:
+#. * "Translator name 1 <translator@email.address>\n"
+#. * "Translator name 2 <translator2@email.address>"
+#.
+#: ../src/main-window.c:924
+msgid "translator-credits"
+msgstr ""
+"Fabrício Godoy <skarllot@gmail.com>\n"
+"Fábio Nogueira <deb-user-ba@ubuntu.com>\n"
+"Taylon Silmer <taylonsilva@gmail.com>\n"
+"Vladimir Melo <vmelo@gnome.org>\n"
+"Antonio Fernandes C. Neto <fernandes@pelivre.org>\n"
+"Carlos José Pereira <carlao2005@gmail.com>"

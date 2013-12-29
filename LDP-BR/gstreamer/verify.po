@@ -1,0 +1,615 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gstreamer-1.2.1\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
+"POT-Creation-Date: 2013-11-09 12:05+0100\n"
+"PO-Revision-Date: 2013-12-29 18:20-0200\n"
+"Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
+"Language-Team: Brazilian Portuguese <ldpbr-"
+"translation@lists.sourceforge.net>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Translate Toolkit 1.9.0\n"
+
+# (pofilter) acronyms: Consider not translating acronyms: LEVEL
+#: gst/gst.c:245
+msgid "LEVEL"
+msgstr "NÍVEL"
+
+# (pofilter) doublequoting: Different quotation marks
+#: gst/gst.c:247
+msgid ""
+"Comma-separated list of category_name:level pairs to set specific levels for "
+"the individual categories. Example: GST_AUTOPLUG:5,GST_ELEMENT_*:3"
+msgstr ""
+"Lista de \"categoria_nome:nível\" separados por vírgulas, para definir "
+"níveis específicos para as categorias individuais. Exemplo: GST_AUTOPLUG:5,"
+"GST_ELEMENT_*:3"
+
+# (pofilter) brackets: Added '(', ')'
+#: gst/gst.c:256
+msgid ""
+"Changes coloring mode of the debug log. Possible modes: off, on, disable, "
+"auto, unix"
+msgstr ""
+"Altera o modo de cor do log de depuração. Modos possíveis: off (desligado), "
+"on (ligado), disable (desabilitado), auto (automático) e unix"
+
+# (pofilter) acronyms: Consider not translating acronyms: PATHS
+#: gst/gst.c:268
+msgid "PATHS"
+msgstr "CAMINHOS"
+
+# (pofilter) acronyms: Consider not translating acronyms: PLUGINS
+#: gst/gst.c:273
+msgid "PLUGINS"
+msgstr "PLUG-INS"
+
+# (pofilter) brackets: Added '(', ')'
+#: gst/gsterror.c:144
+msgid "Internal GStreamer error: thread problem."
+msgstr "Erro interno no GStreamer: problema no segmento (thread)."
+
+# (pofilter) simplecaps: Different capitalization
+#: gst/gsterror.c:251
+msgid "There is no codec present that can handle the stream's type."
+msgstr "Não há um CODEC presente que possa manipular esse tipo de fluxo."
+
+# (pofilter) brackets: Added '(', ')'
+#: gst/gsttaglist.c:112
+msgid "person(s) responsible for the recording"
+msgstr "pessoa(s) responsável(is) pela gravação"
+
+# (pofilter) brackets: Added '(', ')'
+#: gst/gsttaglist.c:117
+msgid "person(s) responsible for the recording for sorting purposes"
+msgstr "pessoa(s) responsável(is) pela gravação, para ordenação"
+
+# (pofilter) simplecaps: Different capitalization
+#: gst/gsttaglist.c:152
+msgid "free text commenting the data in key=value or key[en]=comment form"
+msgstr ""
+"texto livre comentando os dados, usando o formato chave=valor ou chave[pt_BR]"
+"=comentário"
+
+# (pofilter) brackets: Added '(', ')'
+#: gst/gsttaglist.c:191
+msgid "International Standard Recording Code - see http://www.ifpi.org/isrc/"
+msgstr ""
+"Código de Gravação Padrão Internacional (ISRC) - consulte http://www.ifpi."
+"org/isrc/"
+
+# (pofilter) unchanged: Consider translating
+#: gst/gsttaglist.c:198
+msgid "copyright"
+msgstr "copyright"
+
+# (pofilter) simplecaps: Different capitalization
+# (pofilter) startcaps: Different capitalization at the start
+#: gst/gsttaglist.c:200
+msgid "copyright uri"
+msgstr "URI do copyright"
+
+# (pofilter) simplecaps: Different capitalization
+# (pofilter) startcaps: Different capitalization at the start
+#: gst/gsttaglist.c:211
+msgid "license uri"
+msgstr "URI da licença"
+
+# (pofilter) simpleplurals: The original uses plural(s)
+# (pofilter) brackets: Added '(', ')'
+#: gst/gsttaglist.c:216
+msgid "person(s) performing"
+msgstr "pessoa(s) participante(s)"
+
+# (pofilter) brackets: Added '(', ')'
+#: gst/gsttaglist.c:220
+msgid "person(s) who composed the recording"
+msgstr "pessoa(s) que compôs(useram) a gravação"
+
+# (pofilter) unchanged: Consider translating
+# (pofilter) simplecaps: Different capitalization
+# (pofilter) startcaps: Different capitalization at the start
+#: gst/gsttaglist.c:227
+msgid "codec"
+msgstr "CODEC"
+
+# (pofilter) simplecaps: Different capitalization
+# (pofilter) startcaps: Different capitalization at the start
+#: gst/gsttaglist.c:228
+msgid "codec the data is stored in"
+msgstr "CODEC usado nos dados"
+
+# (pofilter) simplecaps: Different capitalization
+# (pofilter) startcaps: Different capitalization at the start
+#: gst/gsttaglist.c:231
+msgid "video codec"
+msgstr "CODEC de vídeo"
+
+# (pofilter) simplecaps: Different capitalization
+# (pofilter) startcaps: Different capitalization at the start
+#: gst/gsttaglist.c:231
+msgid "codec the video data is stored in"
+msgstr "CODEC de vídeo usado nos dados"
+
+# (pofilter) simplecaps: Different capitalization
+# (pofilter) startcaps: Different capitalization at the start
+#: gst/gsttaglist.c:234
+msgid "audio codec"
+msgstr "CODEC de áudio"
+
+# (pofilter) simplecaps: Different capitalization
+# (pofilter) startcaps: Different capitalization at the start
+#: gst/gsttaglist.c:234
+msgid "codec the audio data is stored in"
+msgstr "CODEC de áudio usado nos dados"
+
+# (pofilter) simplecaps: Different capitalization
+# (pofilter) startcaps: Different capitalization at the start
+#: gst/gsttaglist.c:237
+msgid "subtitle codec"
+msgstr "CODEC de legenda"
+
+# (pofilter) simplecaps: Different capitalization
+# (pofilter) startcaps: Different capitalization at the start
+#: gst/gsttaglist.c:237
+msgid "codec the subtitle data is stored in"
+msgstr "CODEC de legenda usado nos dados"
+
+# (pofilter) simplecaps: Different capitalization
+# (pofilter) brackets: Added '(', ')'
+#: gst/gsttaglist.c:259
+msgid "replaygain track gain"
+msgstr "ganho da faixa (ReplayGain)"
+
+# (pofilter) simplecaps: Different capitalization
+# (pofilter) brackets: Added '(', ')'
+#: gst/gsttaglist.c:261
+msgid "replaygain track peak"
+msgstr "pico da faixa (ReplayGain)"
+
+# (pofilter) simplecaps: Different capitalization
+# (pofilter) brackets: Added '(', ')'
+#: gst/gsttaglist.c:263
+msgid "replaygain album gain"
+msgstr "ganho do álbum (ReplayGain)"
+
+# (pofilter) simplecaps: Different capitalization
+# (pofilter) brackets: Added '(', ')'
+#: gst/gsttaglist.c:265
+msgid "replaygain album peak"
+msgstr "pico do álbum (ReplayGain)"
+
+# (pofilter) simplecaps: Different capitalization
+# (pofilter) brackets: Added '(', ')'
+#: gst/gsttaglist.c:267
+msgid "replaygain reference level"
+msgstr "nível de referência (ReplayGain)"
+
+# (pofilter) doublespacing: Different use of double spaces
+#: gst/gsttaglist.c:302
+msgid ""
+"geo longitude location of where the media has been recorded or produced in "
+"degrees according to WGS84 (zero at the prime meridian in Greenwich/UK,  "
+"negative values for western longitudes)"
+msgstr ""
+"longitude da localização geográfica de onde a mídia foi gravada ou produzida "
+"em graus de acordo com WGS84 (zero corresponde ao meridiano de Greenwich/UK "
+"e valores negativos a latitudes ao oeste)"
+
+# (pofilter) brackets: Missing '(', ')'
+#: gst/gsttaglist.c:311
+msgid "country (english name) where the media has been recorded or produced"
+msgstr "país, em inglês, onde a mídia foi gravada ou produzida"
+
+# (pofilter) brackets: Missing '(', ')'
+#: gst/gsttaglist.c:315
+msgid "city (english name) where the media has been recorded or produced"
+msgstr "cidade, em inglês, onde a mídia foi gravada ou produzida"
+
+# (pofilter) doublespacing: Different use of double spaces
+#: gst/gsttaglist.c:327
+msgid ""
+"movement speed of the capturing device while performing the capture in m/s"
+msgstr ""
+"velocidade de movimento do  dispositivo de captura ao realizar a captura, em "
+"m/s"
+
+# (pofilter) simplecaps: Different capitalization
+#: gst/gsttaglist.c:331
+msgid ""
+"indicates the movement direction of the device performing the capture of a "
+"media. It is represented as degrees in floating point representation, 0 "
+"means the geographic north, and increases clockwise"
+msgstr ""
+"indica a direção de movimento do dispositivo ao realizar a captura de uma "
+"mídia. É representado como graus em representação fracionária, 0 indica "
+"Norte e incrementa-se no sentido do relógio"
+
+# (pofilter) simplecaps: Different capitalization
+# (pofilter) doublespacing: Different use of double spaces
+#: gst/gsttaglist.c:337
+msgid ""
+"indicates the direction the device is pointing to when capturing  a media. "
+"It is represented as degrees in floating point  representation, 0 means the "
+"geographic north, and increases clockwise"
+msgstr ""
+"indica a direção que o dispositivo estava apontando quando capturava uma "
+"mídia. É representado como graus em representação fracionária, 0 indica "
+"Norte e incrementa-se no sentido do relógio"
+
+# (pofilter) simplecaps: Different capitalization
+#: gst/gsttaglist.c:344
+msgid "Name of the tv/podcast/series show the media is from"
+msgstr ""
+"Nome do programa de TV, do podcast ou da série de onde a mídia tem origem"
+
+# (pofilter) simplecaps: Different capitalization
+#: gst/gsttaglist.c:350
+msgid ""
+"Name of the tv/podcast/series show the media is from, for sorting purposes"
+msgstr ""
+"Nome do programa de TV, do podcast ou da série de onde a mídia tem origem, "
+"para ordenação"
+
+# (pofilter) simplecaps: Different capitalization
+# (pofilter) startcaps: Different capitalization at the start
+#: gst/gsttaglist.c:385
+msgid "application data"
+msgstr "Dados do aplicativo"
+
+# (pofilter) singlequoting: Different quotation marks
+# (pofilter) doublequoting: Different quotation marks
+#: gst/gsturi.c:764
+#, c-format
+msgid "URI scheme '%s' not supported"
+msgstr "Não há suporte para o esquema URI \"%s\""
+
+# (pofilter) acronyms: Consider not translating acronyms: ERROR
+#: gst/gstutils.c:2352 tools/gst-launch.c:321
+#, c-format
+msgid "ERROR: from element %s: %s\n"
+msgstr "ERRO: do elemento %s: %s\n"
+
+# (pofilter) puncspacing: Different spacing around punctuation
+#: gst/parse/grammar.y:228
+#, c-format
+msgid "specified empty bin \"%s\", not allowed"
+msgstr "o arquivo \"%s\" está vazio, operação não permitida"
+
+# (pofilter) simplecaps: Different capitalization
+#: gst/parse/grammar.y:724
+#, c-format
+msgid "could not parse caps \"%s\""
+msgstr "não foi possível analisar o Caps \"%s\""
+
+# (pofilter) unchanged: Consider translating
+# (pofilter) simplecaps: Different capitalization
+# (pofilter) startcaps: Different capitalization at the start
+#: plugins/elements/gsttypefindelement.c:204
+msgid "caps"
+msgstr "Caps"
+
+# (pofilter) simplecaps: Different capitalization
+#: plugins/elements/gsttypefindelement.c:213
+msgid "force caps"
+msgstr "forçar Caps"
+
+# (pofilter) simplecaps: Different capitalization
+#: plugins/elements/gsttypefindelement.c:214
+msgid "force caps without doing a typefind"
+msgstr "forçar Caps sem usar o typefind"
+
+# (pofilter) acronyms: Consider not translating acronyms: NULL, READY, PAUSED, PLAYING
+#: tools/gst-inspect.c:362
+msgid "changeable in NULL, READY, PAUSED or PLAYING state"
+msgstr "estado alterável para NULO, PRONTO, PAUSADO ou REPRODUZINDO"
+
+# (pofilter) acronyms: Consider not translating acronyms: NULL, READY, PAUSED
+#: tools/gst-inspect.c:364
+msgid "changeable only in NULL, READY or PAUSED state"
+msgstr "estado alterável apenas para NULO, PRONTO ou PAUSADO"
+
+# (pofilter) acronyms: Consider not translating acronyms: NULL, READY
+#: tools/gst-inspect.c:366
+msgid "changeable only in NULL or READY state"
+msgstr "estado alterável apenas para NULO ou PRONTO"
+
+# (pofilter) singlequoting: Different quotation marks
+# (pofilter) doublequoting: Different quotation marks
+#: tools/gst-inspect.c:1704
+#, c-format
+msgid "No such element or plugin '%s'\n"
+msgstr "Nenhum elemento ou plug-in \"%s\"\n"
+
+# (pofilter) simplecaps: Different capitalization
+#: tools/gst-launch.c:530
+#, c-format
+msgid "Got message #%u from pad \"%s:%s\" (%s): "
+msgstr "Obtida a mensagem #%u do Pad \"%s:%s\" (%s): "
+
+# (pofilter) acronyms: Consider not translating acronyms: EOS
+#: tools/gst-launch.c:570
+#, c-format
+msgid "Got EOS from element \"%s\".\n"
+msgstr "Obtido o final do fluxo do elemento \"%s\".\n"
+
+# (pofilter) sentencecount: Different number of sentences: 1 ≠ 3
+# (pofilter) acronyms: Consider not translating acronyms: FOUND, TAG
+# (pofilter) doublespacing: Different use of double spaces
+#: tools/gst-launch.c:579
+#, c-format
+msgid "FOUND TAG      : found by element \"%s\".\n"
+msgstr "ETIQ. ENCONTR. : encontrada pelo elemento \"%s\".\n"
+
+# (pofilter) sentencecount: Different number of sentences: 1 ≠ 3
+# (pofilter) acronyms: Consider not translating acronyms: FOUND, TAG
+# (pofilter) doublespacing: Different use of double spaces
+#: tools/gst-launch.c:582
+#, c-format
+msgid "FOUND TAG      : found by pad \"%s:%s\".\n"
+msgstr "ETIQ. ENCONTR. : encontrada pelo Pad \"%s:%s\".\n"
+
+# (pofilter) sentencecount: Different number of sentences: 1 ≠ 3
+# (pofilter) acronyms: Consider not translating acronyms: FOUND, TAG
+# (pofilter) doublespacing: Different use of double spaces
+#: tools/gst-launch.c:585
+#, c-format
+msgid "FOUND TAG      : found by object \"%s\".\n"
+msgstr "ETIQ. ENCONTR. : encontrada pelo objeto \"%s\".\n"
+
+# (pofilter) acronyms: Consider not translating acronyms: FOUND, TAG
+#: tools/gst-launch.c:588
+msgid "FOUND TAG\n"
+msgstr "ETIQUETA ENCONTRADA\n"
+
+# (pofilter) sentencecount: Different number of sentences: 1 ≠ 2
+# (pofilter) acronyms: Consider not translating acronyms: FOUND
+# (pofilter) doublespacing: Different use of double spaces
+#: tools/gst-launch.c:603
+#, c-format
+msgid "FOUND TOC      : found by element \"%s\".\n"
+msgstr "TOC ENCONTR.   : encontrada pelo elemento \"%s\".\n"
+
+# (pofilter) sentencecount: Different number of sentences: 1 ≠ 2
+# (pofilter) acronyms: Consider not translating acronyms: FOUND
+# (pofilter) doublespacing: Different use of double spaces
+#: tools/gst-launch.c:606
+#, c-format
+msgid "FOUND TOC      : found by object \"%s\".\n"
+msgstr "TOC ENCONTR.   : encontrada pelo objeto \"%s\".\n"
+
+# (pofilter) acronyms: Consider not translating acronyms: FOUND
+#: tools/gst-launch.c:609
+msgid "FOUND TOC\n"
+msgstr "TOC ENCONTRADA\n"
+
+# (pofilter) simplecaps: Different capitalization
+#: tools/gst-launch.c:626
+#, c-format
+msgid ""
+"INFO:\n"
+"%s\n"
+msgstr ""
+"INFORMAÇÃO:\n"
+"%s\n"
+
+# (pofilter) acronyms: Consider not translating acronyms: WARNING
+#: tools/gst-launch.c:643
+#, c-format
+msgid "WARNING: from element %s: %s\n"
+msgstr "AVISO: do elemento %s: %s\n"
+
+# (pofilter) endpunc: Different punctuation at the end
+# (pofilter) acronyms: Consider not translating acronyms: PLAYING
+#: tools/gst-launch.c:705
+msgid "Done buffering, setting pipeline to PLAYING ...\n"
+msgstr ""
+"Preenchimento do buffer completo, definindo a fila de processamento para "
+"REPRODUZIR...\n"
+
+# (pofilter) endpunc: Different punctuation at the end
+# (pofilter) acronyms: Consider not translating acronyms: PAUSED
+#: tools/gst-launch.c:713
+msgid "Buffering, setting pipeline to PAUSED ...\n"
+msgstr ""
+"Preenchendo buffer, definindo a fila de processamento para PAUSADO...\n"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: tools/gst-launch.c:749
+msgid "Interrupt: Stopping pipeline ...\n"
+msgstr "Interrupção: Parando a fila de processamento...\n"
+
+# (pofilter) singlequoting: Different quotation marks
+# (pofilter) doublequoting: Different quotation marks
+#: tools/gst-launch.c:805
+#, c-format
+msgid "Got context from element '%s': %s=%s\n"
+msgstr "Contexto obtido do elemento \"%s\": %s=%s\n"
+
+# (pofilter) acronyms: Consider not translating acronyms: TYPE
+#: tools/gst-launch.c:901
+msgid "Do not output status information of TYPE"
+msgstr "Não é possível obter informações do estado de saída do TIPO"
+
+# (pofilter) acronyms: Consider not translating acronyms: TYPE1,TYPE2
+#: tools/gst-launch.c:901
+msgid "TYPE1,TYPE2,..."
+msgstr "TIPO1,TIPO2,..."
+
+# (pofilter) acronyms: Consider not translating acronyms: EOS
+#: tools/gst-launch.c:905
+msgid "Force EOS on sources before shutting the pipeline down"
+msgstr ""
+"Forçar finalização do fluxo nos elementos fonte antes de desligar a fila de "
+"processamento"
+
+# (pofilter) acronyms: Consider not translating acronyms: ERROR
+#: tools/gst-launch.c:969
+#, c-format
+msgid "ERROR: pipeline could not be constructed: %s.\n"
+msgstr "ERRO: não foi possível construir a fila de processamento: %s.\n"
+
+# (pofilter) acronyms: Consider not translating acronyms: ERROR
+#: tools/gst-launch.c:973
+msgid "ERROR: pipeline could not be constructed.\n"
+msgstr "ERRO: não foi possível construir a fila de processamento.\n"
+
+# (pofilter) acronyms: Consider not translating acronyms: WARNING
+#: tools/gst-launch.c:977
+#, c-format
+msgid "WARNING: erroneous pipeline: %s\n"
+msgstr "AVISO: fila de processamento com erros: %s\n"
+
+# (pofilter) singlequoting: Different quotation marks
+# (pofilter) doublequoting: Different quotation marks
+# (pofilter) acronyms: Consider not translating acronyms: ERROR
+#: tools/gst-launch.c:1000
+msgid "ERROR: the 'pipeline' element wasn't found.\n"
+msgstr "ERRO: o elemento de \"fila de processamento\" não foi encontrado.\n"
+
+# (pofilter) endpunc: Different punctuation at the end
+# (pofilter) acronyms: Consider not translating acronyms: PAUSED
+#: tools/gst-launch.c:1027 tools/gst-launch.c:1123
+msgid "Setting pipeline to PAUSED ...\n"
+msgstr "Definindo a fila de processamento para PAUSADO...\n"
+
+# (pofilter) acronyms: Consider not translating acronyms: ERROR
+#: tools/gst-launch.c:1032
+msgid "ERROR: Pipeline doesn't want to pause.\n"
+msgstr "ERRO: A fila do processamento não quer pausar.\n"
+
+# (pofilter) endpunc: Different punctuation at the end
+# (pofilter) acronyms: Consider not translating acronyms: PREROLL
+#: tools/gst-launch.c:1037
+msgid "Pipeline is live and does not need PREROLL ...\n"
+msgstr ""
+"A fila de processamento está executando e não necessita de PREPARAÇÃO...\n"
+
+# (pofilter) endpunc: Different punctuation at the end
+# (pofilter) acronyms: Consider not translating acronyms: PREROLLING
+#: tools/gst-launch.c:1041
+msgid "Pipeline is PREROLLING ...\n"
+msgstr "A fila de processamento está PREPARANDO...\n"
+
+# (pofilter) acronyms: Consider not translating acronyms: ERROR
+#: tools/gst-launch.c:1044 tools/gst-launch.c:1057
+msgid "ERROR: pipeline doesn't want to preroll.\n"
+msgstr "ERRO: a fila de processamento não quer preparar.\n"
+
+# (pofilter) endpunc: Different punctuation at the end
+# (pofilter) acronyms: Consider not translating acronyms: PREROLLED
+#: tools/gst-launch.c:1050
+msgid "Pipeline is PREROLLED ...\n"
+msgstr "A fila de processamento foi PREPARADA...\n"
+
+# (pofilter) endpunc: Different punctuation at the end
+# (pofilter) acronyms: Consider not translating acronyms: PLAYING
+#: tools/gst-launch.c:1062
+msgid "Setting pipeline to PLAYING ...\n"
+msgstr "Definindo a fila de processamento para REPRODUZINDO...\n"
+
+# (pofilter) acronyms: Consider not translating acronyms: ERROR
+#: tools/gst-launch.c:1069
+msgid "ERROR: pipeline doesn't want to play.\n"
+msgstr "ERRO: a fila de processamento não quer reproduzir.\n"
+
+# (pofilter) acronyms: Consider not translating acronyms: EOS, EOS
+#: tools/gst-launch.c:1087
+msgid "EOS on shutdown enabled -- Forcing EOS on the pipeline\n"
+msgstr ""
+"Finalizar fluxo ao sair habilitado -- Forçando finalização do fluxo na fila "
+"de processamento\n"
+
+# (pofilter) acronyms: Consider not translating acronyms: EOS, EOS
+#: tools/gst-launch.c:1091
+msgid "EOS on shutdown enabled -- waiting for EOS after Error\n"
+msgstr ""
+"Finalizar fluxo ao sair habilitado -- esperando o fim do fluxo após erro\n"
+
+# (pofilter) acronyms: Consider not translating acronyms: EOS
+#: tools/gst-launch.c:1094
+msgid "Waiting for EOS...\n"
+msgstr "Esperando pelo final do fluxo...\n"
+
+# (pofilter) acronyms: Consider not translating acronyms: EOS
+#: tools/gst-launch.c:1101
+msgid "EOS received - stopping pipeline...\n"
+msgstr "Final do fluxo encontrado - parando a fila de processamento...\n"
+
+# (pofilter) acronyms: Consider not translating acronyms: EOS
+#: tools/gst-launch.c:1105
+msgid "Interrupt while waiting for EOS - stopping pipeline...\n"
+msgstr ""
+"Interrupção recebida enquanto a finalização do fluxo estava sendo aguardada "
+"- parando a fila de processamento...\n"
+
+# (pofilter) acronyms: Consider not translating acronyms: EOS
+#: tools/gst-launch.c:1109
+msgid "An error happened while waiting for EOS\n"
+msgstr "Um erro ocorreu ao esperar pelo final do fluxo\n"
+
+# (pofilter) endpunc: Different punctuation at the end
+# (pofilter) acronyms: Consider not translating acronyms: READY
+#: tools/gst-launch.c:1135
+msgid "Setting pipeline to READY ...\n"
+msgstr "Definindo a fila de processamento para PRONTO...\n"
+
+# (pofilter) endpunc: Different punctuation at the end
+# (pofilter) acronyms: Consider not translating acronyms: NULL
+#: tools/gst-launch.c:1147
+msgid "Setting pipeline to NULL ...\n"
+msgstr "Definindo a fila de processamento para NULO...\n"
+
+# (pofilter) endpunc: Different punctuation at the end
+#: tools/gst-launch.c:1151
+msgid "Freeing pipeline ...\n"
+msgstr "Liberando a fila de processamento...\n"
+
+# (pofilter) xmltags: Different XML tags
+#~ msgid "Usage: gst-xmllaunch <file.xml> [ element.property=value ... ]\n"
+#~ msgstr ""
+#~ "Uso: gst-xmllaunch <arquivo.xml> [ elemento.propriedade=valor ... ]\n"
+
+# (pofilter) singlequoting: Different quotation marks
+# (pofilter) doublequoting: Different quotation marks
+# (pofilter) acronyms: Consider not translating acronyms: ERROR
+#~ msgid "ERROR: parse of xml file '%s' failed.\n"
+#~ msgstr "ERRO: a validação do arquivo xml \"%s\" falhou.\n"
+
+# (pofilter) singlequoting: Different quotation marks
+# (pofilter) doublequoting: Different quotation marks
+# (pofilter) acronyms: Consider not translating acronyms: ERROR
+#~ msgid "ERROR: no toplevel pipeline element in file '%s'.\n"
+#~ msgstr ""
+#~ "ERRO: nenhum elemento de nível superior na fila de processamento do "
+#~ "arquivo \"%s\".\n"
+
+# (pofilter) acronyms: Consider not translating acronyms: WARNING
+#~ msgid "WARNING: only one toplevel element is supported at this time.\n"
+#~ msgstr ""
+#~ "AVISO: atualmente há suporte apenas a um elemento de nível superior.\n"
+
+# (pofilter) acronyms: Consider not translating acronyms: ERROR
+#~ msgid "ERROR: could not parse command line argument %d: %s.\n"
+#~ msgstr ""
+#~ "ERRO: não foi possível validar o argumento %d da linha de comando: %s.\n"
+
+# (pofilter) singlequoting: Different quotation marks
+# (pofilter) doublequoting: Different quotation marks
+# (pofilter) acronyms: Consider not translating acronyms: WARNING
+#~ msgid "WARNING: element named '%s' not found.\n"
+#~ msgstr "AVISO: o elemento com o nome \"%s\" não foi encontrado.\n"
+
+# (pofilter) acronyms: Consider not translating acronyms: FILE
+#~ msgid "Save xml representation of pipeline to FILE and exit"
+#~ msgstr ""
+#~ "Salvar representação da fila de processamento como xml para o ARQUIVO e "
+#~ "sair"
+
+# (pofilter) acronyms: Consider not translating acronyms: FILE
+#~ msgid "FILE"
+#~ msgstr "ARQUIVO"

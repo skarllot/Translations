@@ -1,0 +1,2064 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: glib\n"
+"Report-Msgid-Bugs-To: "
+"http://bugzilla.gnome.org/enter_bug.cgi?product=glib&component=general\n"
+"POT-Creation-Date: 2010-09-18 21:44+0000\n"
+"PO-Revision-Date: 2010-09-26 18:32-0300\n"
+"Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
+"Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Translate Toolkit 1.8.0\n"
+"X-Poedit-Country: BRAZIL\n"
+"X-Poedit-Language: Portuguese\n"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gbookmarkfile.c:780
+#, c-format
+msgid "Unexpected attribute '%s' for element '%s'"
+msgstr "Atributo \"%s\" inesperado para o elemento \"%s\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gbookmarkfile.c:791 ../glib/gbookmarkfile.c:862
+#: ../glib/gbookmarkfile.c:872 ../glib/gbookmarkfile.c:979
+#, c-format
+msgid "Attribute '%s' of element '%s' not found"
+msgstr "Não foi localizado atributo \"%s\" do elemento \"%s\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gbookmarkfile.c:1149 ../glib/gbookmarkfile.c:1214
+#: ../glib/gbookmarkfile.c:1278 ../glib/gbookmarkfile.c:1288
+#, c-format
+msgid "Unexpected tag '%s', tag '%s' expected"
+msgstr "Marca \"%s\" inesperada, esperava marca \"%s\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gbookmarkfile.c:1174 ../glib/gbookmarkfile.c:1188
+#: ../glib/gbookmarkfile.c:1256 ../glib/gbookmarkfile.c:1308
+#, c-format
+msgid "Unexpected tag '%s' inside '%s'"
+msgstr "Marca \"%s\" inesperada dentro de \"%s\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gbookmarkfile.c:2035
+#, c-format
+msgid "A bookmark for URI '%s' already exists"
+msgstr "Já existe um marcador para o URI \"%s\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gbookmarkfile.c:2081 ../glib/gbookmarkfile.c:2239
+#: ../glib/gbookmarkfile.c:2324 ../glib/gbookmarkfile.c:2404
+#: ../glib/gbookmarkfile.c:2489 ../glib/gbookmarkfile.c:2572
+#: ../glib/gbookmarkfile.c:2650 ../glib/gbookmarkfile.c:2729
+#: ../glib/gbookmarkfile.c:2771 ../glib/gbookmarkfile.c:2868
+#: ../glib/gbookmarkfile.c:2994 ../glib/gbookmarkfile.c:3184
+#: ../glib/gbookmarkfile.c:3260 ../glib/gbookmarkfile.c:3425
+#: ../glib/gbookmarkfile.c:3514 ../glib/gbookmarkfile.c:3604
+#: ../glib/gbookmarkfile.c:3732
+#, c-format
+msgid "No bookmark found for URI '%s'"
+msgstr "Não foi localizado marcador para o URI \"%s\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gbookmarkfile.c:2413
+#, c-format
+msgid "No MIME type defined in the bookmark for URI '%s'"
+msgstr "Não foi definido tipo MIME no marcador para o URI \"%s\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gbookmarkfile.c:2498
+#, c-format
+msgid "No private flag has been defined in bookmark for URI '%s'"
+msgstr "Não foi definido sinal de particular no marcador para o URI \"%s\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gbookmarkfile.c:2877
+#, c-format
+msgid "No groups set in bookmark for URI '%s'"
+msgstr "Não há grupos definidos no marcador para o URI \"%s\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gbookmarkfile.c:3278 ../glib/gbookmarkfile.c:3435
+#, c-format
+msgid "No application with name '%s' registered a bookmark for '%s'"
+msgstr "Nenhum aplicativo chamado \"%s\" registrou um marcador para \"%s\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gbookmarkfile.c:3458
+#, c-format
+msgid "Failed to expand exec line '%s' with URI '%s'"
+msgstr "Falha em expandir linha de execução \"%s\" com URI \"%s\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gconvert.c:567 ../glib/gconvert.c:645 ../glib/giochannel.c:1403
+#: ../gio/gcharsetconverter.c:458
+#, c-format
+msgid "Conversion from character set '%s' to '%s' is not supported"
+msgstr ""
+"Não há suporte à conversão do conjunto de caracteres \"%s\" para \"%s\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gconvert.c:571 ../glib/gconvert.c:649
+#: ../gio/gcharsetconverter.c:462
+#, c-format
+msgid "Could not open converter from '%s' to '%s'"
+msgstr "Não foi possível abrir conversor de \"%s\" para \"%s\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gconvert.c:1058
+#, c-format
+msgid "Cannot convert fallback '%s' to codeset '%s'"
+msgstr ""
+"Não é possível converter a seqüência \"%s\" para conjunto caracteres \"%s\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gconvert.c:1881
+#, c-format
+msgid "The URI '%s' is not an absolute URI using the \"file\" scheme"
+msgstr "O URI \"%s\" não é um URI absoluto que utilize o esquema \"file\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gconvert.c:1891
+#, c-format
+msgid "The local file URI '%s' may not include a '#'"
+msgstr "O URI de arquivo local \"%s\" não pode incluir um \"#\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gconvert.c:1908
+#, c-format
+msgid "The URI '%s' is invalid"
+msgstr "O URI \"%s\" é inválido"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gconvert.c:1920
+#, c-format
+msgid "The hostname of the URI '%s' is invalid"
+msgstr "O nome de servidor do URI \"%s\" é inválido"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gconvert.c:1936
+#, c-format
+msgid "The URI '%s' contains invalidly escaped characters"
+msgstr "O URI \"%s\" contém caracteres com escape inválido"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gconvert.c:2031
+#, c-format
+msgid "The pathname '%s' is not an absolute path"
+msgstr "O nome de caminho \"%s\" não é um caminho absoluto"
+
+# (pofilter) unchanged: please translate
+#. Translators: 'before midday' indicator
+#: ../glib/gdatetime.c:149
+msgctxt "GDateTime"
+msgid "am"
+msgstr "am"
+
+# (pofilter) unchanged: please translate
+#. Translators: 'after midday' indicator
+#: ../glib/gdatetime.c:153
+msgctxt "GDateTime"
+msgid "pm"
+msgstr "pm"
+
+# (pofilter) printf: checks whether printf format strings match
+#. Translators: this is the preferred format for expressing the date
+#: ../glib/gdatetime.c:164
+msgctxt "GDateTime"
+msgid "%m/%d/%y"
+msgstr "%d/%m/%y"
+
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) startcaps: checks that the message starts with the correct capitalisation
+#: ../glib/gdatetime.c:193
+msgctxt "full month name"
+msgid "January"
+msgstr "janeiro"
+
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) startcaps: checks that the message starts with the correct capitalisation
+#: ../glib/gdatetime.c:195
+msgctxt "full month name"
+msgid "February"
+msgstr "fevereiro"
+
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) startcaps: checks that the message starts with the correct capitalisation
+#: ../glib/gdatetime.c:197
+msgctxt "full month name"
+msgid "March"
+msgstr "março"
+
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) startcaps: checks that the message starts with the correct capitalisation
+#: ../glib/gdatetime.c:199
+msgctxt "full month name"
+msgid "April"
+msgstr "abril"
+
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) startcaps: checks that the message starts with the correct capitalisation
+#: ../glib/gdatetime.c:201
+msgctxt "full month name"
+msgid "May"
+msgstr "maio"
+
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) startcaps: checks that the message starts with the correct capitalisation
+#: ../glib/gdatetime.c:203
+msgctxt "full month name"
+msgid "June"
+msgstr "junho"
+
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) startcaps: checks that the message starts with the correct capitalisation
+#: ../glib/gdatetime.c:205
+msgctxt "full month name"
+msgid "July"
+msgstr "julho"
+
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) startcaps: checks that the message starts with the correct capitalisation
+#: ../glib/gdatetime.c:207
+msgctxt "full month name"
+msgid "August"
+msgstr "agosto"
+
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) startcaps: checks that the message starts with the correct capitalisation
+#: ../glib/gdatetime.c:209
+msgctxt "full month name"
+msgid "September"
+msgstr "setembro"
+
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) startcaps: checks that the message starts with the correct capitalisation
+#: ../glib/gdatetime.c:211
+msgctxt "full month name"
+msgid "October"
+msgstr "outubro"
+
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) startcaps: checks that the message starts with the correct capitalisation
+#: ../glib/gdatetime.c:213
+msgctxt "full month name"
+msgid "November"
+msgstr "novembro"
+
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) startcaps: checks that the message starts with the correct capitalisation
+#: ../glib/gdatetime.c:215
+msgctxt "full month name"
+msgid "December"
+msgstr "dezembro"
+
+# (pofilter) unchanged: please translate
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) startcaps: checks that the message starts with the correct capitalisation
+#: ../glib/gdatetime.c:230
+msgctxt "abbreviated month name"
+msgid "Jan"
+msgstr "jan"
+
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) startcaps: checks that the message starts with the correct capitalisation
+#: ../glib/gdatetime.c:232
+msgctxt "abbreviated month name"
+msgid "Feb"
+msgstr "fev"
+
+# (pofilter) unchanged: please translate
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) startcaps: checks that the message starts with the correct capitalisation
+#: ../glib/gdatetime.c:234
+msgctxt "abbreviated month name"
+msgid "Mar"
+msgstr "mar"
+
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) startcaps: checks that the message starts with the correct capitalisation
+#: ../glib/gdatetime.c:236
+msgctxt "abbreviated month name"
+msgid "Apr"
+msgstr "abr"
+
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) startcaps: checks that the message starts with the correct capitalisation
+#: ../glib/gdatetime.c:238
+msgctxt "abbreviated month name"
+msgid "May"
+msgstr "mai"
+
+# (pofilter) unchanged: please translate
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) startcaps: checks that the message starts with the correct capitalisation
+#: ../glib/gdatetime.c:240
+msgctxt "abbreviated month name"
+msgid "Jun"
+msgstr "jun"
+
+# (pofilter) unchanged: please translate
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) startcaps: checks that the message starts with the correct capitalisation
+#: ../glib/gdatetime.c:242
+msgctxt "abbreviated month name"
+msgid "Jul"
+msgstr "jul"
+
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) startcaps: checks that the message starts with the correct capitalisation
+#: ../glib/gdatetime.c:244
+msgctxt "abbreviated month name"
+msgid "Aug"
+msgstr "ago"
+
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) startcaps: checks that the message starts with the correct capitalisation
+#: ../glib/gdatetime.c:246
+msgctxt "abbreviated month name"
+msgid "Sep"
+msgstr "set"
+
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) startcaps: checks that the message starts with the correct capitalisation
+#: ../glib/gdatetime.c:248
+msgctxt "abbreviated month name"
+msgid "Oct"
+msgstr "out"
+
+# (pofilter) unchanged: please translate
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) startcaps: checks that the message starts with the correct capitalisation
+#: ../glib/gdatetime.c:250
+msgctxt "abbreviated month name"
+msgid "Nov"
+msgstr "nov"
+
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) startcaps: checks that the message starts with the correct capitalisation
+#: ../glib/gdatetime.c:252
+msgctxt "abbreviated month name"
+msgid "Dec"
+msgstr "dez"
+
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) startcaps: checks that the message starts with the correct capitalisation
+#: ../glib/gdatetime.c:267
+msgctxt "full weekday name"
+msgid "Monday"
+msgstr "segunda-feira"
+
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) startcaps: checks that the message starts with the correct capitalisation
+#: ../glib/gdatetime.c:269
+msgctxt "full weekday name"
+msgid "Tuesday"
+msgstr "terça-feira"
+
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) startcaps: checks that the message starts with the correct capitalisation
+#: ../glib/gdatetime.c:271
+msgctxt "full weekday name"
+msgid "Wednesday"
+msgstr "quarta-feira"
+
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) startcaps: checks that the message starts with the correct capitalisation
+#: ../glib/gdatetime.c:273
+msgctxt "full weekday name"
+msgid "Thursday"
+msgstr "quinta-feira"
+
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) startcaps: checks that the message starts with the correct capitalisation
+#: ../glib/gdatetime.c:275
+msgctxt "full weekday name"
+msgid "Friday"
+msgstr "sexta-feira"
+
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) startcaps: checks that the message starts with the correct capitalisation
+#: ../glib/gdatetime.c:277
+msgctxt "full weekday name"
+msgid "Saturday"
+msgstr "sábado"
+
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) startcaps: checks that the message starts with the correct capitalisation
+#: ../glib/gdatetime.c:279
+msgctxt "full weekday name"
+msgid "Sunday"
+msgstr "domingo"
+
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) startcaps: checks that the message starts with the correct capitalisation
+#: ../glib/gdatetime.c:294
+msgctxt "abbreviated weekday name"
+msgid "Mon"
+msgstr "seg"
+
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) startcaps: checks that the message starts with the correct capitalisation
+#: ../glib/gdatetime.c:296
+msgctxt "abbreviated weekday name"
+msgid "Tue"
+msgstr "ter"
+
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) startcaps: checks that the message starts with the correct capitalisation
+#: ../glib/gdatetime.c:298
+msgctxt "abbreviated weekday name"
+msgid "Wed"
+msgstr "qua"
+
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) startcaps: checks that the message starts with the correct capitalisation
+#: ../glib/gdatetime.c:300
+msgctxt "abbreviated weekday name"
+msgid "Thu"
+msgstr "qui"
+
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) startcaps: checks that the message starts with the correct capitalisation
+#: ../glib/gdatetime.c:302
+msgctxt "abbreviated weekday name"
+msgid "Fri"
+msgstr "sex"
+
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) startcaps: checks that the message starts with the correct capitalisation
+#: ../glib/gdatetime.c:304
+msgctxt "abbreviated weekday name"
+msgid "Sat"
+msgstr "sab"
+
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) startcaps: checks that the message starts with the correct capitalisation
+#: ../glib/gdatetime.c:306
+msgctxt "abbreviated weekday name"
+msgid "Sun"
+msgstr "dom"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gdir.c:114 ../glib/gdir.c:137
+#, c-format
+msgid "Error opening directory '%s': %s"
+msgstr "Erro ao abrir o diretório \"%s\": %s"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gfileutils.c:551
+#, c-format
+msgid "Error reading file '%s': %s"
+msgstr "Erro ao ler arquivo \"%s\": %s"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gfileutils.c:648
+#, c-format
+msgid "Failed to read from file '%s': %s"
+msgstr "Falha ao ler do arquivo \"%s\": %s"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gfileutils.c:699 ../glib/gfileutils.c:786
+#, c-format
+msgid "Failed to open file '%s': %s"
+msgstr "Falha ao abrir arquivo \"%s\": %s"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gfileutils.c:716 ../glib/gmappedfile.c:169
+#, c-format
+msgid "Failed to get attributes of file '%s': fstat() failed: %s"
+msgstr "Falha ao obter atributos do arquivo \"%s\": fstat() falhou: %s"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gfileutils.c:750
+#, c-format
+msgid "Failed to open file '%s': fdopen() failed: %s"
+msgstr "Falha ao abrir arquivo \"%s\": fdopen() falhou: %s"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gfileutils.c:858
+#, c-format
+msgid "Failed to rename file '%s' to '%s': g_rename() failed: %s"
+msgstr "Falha ao renomear arquivo \"%s\" para \"%s\": g_rename() falhou: %s"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gfileutils.c:900 ../glib/gfileutils.c:1369
+#, c-format
+msgid "Failed to create file '%s': %s"
+msgstr "Falha ao criar arquivo \"%s\": %s"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gfileutils.c:914
+#, c-format
+msgid "Failed to open file '%s' for writing: fdopen() failed: %s"
+msgstr "Falha ao abrir arquivo \"%s\" para escrita: fdopen() falhou: %s"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gfileutils.c:939
+#, c-format
+msgid "Failed to write file '%s': fwrite() failed: %s"
+msgstr "Falha ao escrever no arquivo \"%s\": fwrite() falhou: %s"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gfileutils.c:958
+#, c-format
+msgid "Failed to write file '%s': fflush() failed: %s"
+msgstr "Falha ao escrever no arquivo \"%s\": fflush() falhou: %s"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gfileutils.c:987
+#, c-format
+msgid "Failed to write file '%s': fsync() failed: %s"
+msgstr "Falha ao escrever no arquivo \"%s\": fsync() falhou: %s"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gfileutils.c:1006
+#, c-format
+msgid "Failed to close file '%s': fclose() failed: %s"
+msgstr "Falha ao fechar arquivo \"%s\": fclose() falhou: %s"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gfileutils.c:1127
+#, c-format
+msgid "Existing file '%s' could not be removed: g_unlink() failed: %s"
+msgstr "O arquivo \"%s\" não pôde ser removido: g_unlink() falhou: %s"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gfileutils.c:1331
+#, c-format
+msgid "Template '%s' invalid, should not contain a '%s'"
+msgstr "Modelo \"%s\" inválido, não deveria conter um \"%s\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gfileutils.c:1344
+#, c-format
+msgid "Template '%s' doesn't contain XXXXXX"
+msgstr "Modelo \"%s\" não contém XXXXXX"
+
+# (pofilter) unchanged: (u'please translate',)
+#: ../glib/gfileutils.c:1777
+#, c-format
+msgid "%u byte"
+msgid_plural "%u bytes"
+msgstr[0] "%u byte"
+msgstr[1] "%u bytes"
+
+# (pofilter) unchanged: please translate
+#: ../glib/gfileutils.c:1785
+#, c-format
+msgid "%.1f KB"
+msgstr "%.1f KB"
+
+# (pofilter) unchanged: please translate
+#: ../glib/gfileutils.c:1790
+#, c-format
+msgid "%.1f MB"
+msgstr "%.1f MB"
+
+# (pofilter) unchanged: please translate
+#: ../glib/gfileutils.c:1795
+#, c-format
+msgid "%.1f GB"
+msgstr "%.1f GB"
+
+# (pofilter) unchanged: please translate
+#: ../glib/gfileutils.c:1800
+#, c-format
+msgid "%.1f TB"
+msgstr "%.1f TB"
+
+# (pofilter) unchanged: please translate
+#: ../glib/gfileutils.c:1805
+#, c-format
+msgid "%.1f PB"
+msgstr "%.1f PB"
+
+# (pofilter) unchanged: please translate
+#: ../glib/gfileutils.c:1810
+#, c-format
+msgid "%.1f EB"
+msgstr "%.1f EB"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gfileutils.c:1853
+#, c-format
+msgid "Failed to read the symbolic link '%s': %s"
+msgstr "Falha ao ler link simbólico \"%s\": %s"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/giochannel.c:1407
+#, c-format
+msgid "Could not open converter from '%s' to '%s': %s"
+msgstr "Não foi possível abrir conversor de \"%s\" para \"%s\": %s"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gmappedfile.c:150
+#, c-format
+msgid "Failed to open file '%s': open() failed: %s"
+msgstr "Falha ao abrir arquivo \"%s\": open() falhou: %s"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gmappedfile.c:229
+#, c-format
+msgid "Failed to map file '%s': mmap() failed: %s"
+msgstr "Falha ao mapear arquivo \"%s\": mmap() falhou: %s"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gmarkup.c:367 ../glib/gmarkup.c:445
+#, c-format
+msgid "Invalid UTF-8 encoded text in name - not valid '%s'"
+msgstr "Texto do nome codificado em UTF-8 inválido - \"%s\" não válido"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+# (pofilter) startpunc: checks whether punctuation at the beginning of the strings match
+#: ../glib/gmarkup.c:378
+#, c-format
+msgid "'%s' is not a valid name "
+msgstr "\"%s\" não é um nome válido "
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+# (pofilter) startpunc: checks whether punctuation at the beginning of the strings match
+#: ../glib/gmarkup.c:394
+#, c-format
+msgid "'%s' is not a valid name: '%c' "
+msgstr "\"%s\" não é um nome válido: \"%c\" "
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gmarkup.c:582
+#, c-format
+msgid ""
+"Failed to parse '%-.*s', which should have been a digit inside a character "
+"reference (&#234; for example) - perhaps the digit is too large"
+msgstr ""
+"Falha ao analisar \"%-.*s\", que deveria ter sido um dígito dentro de uma "
+"referência de caractere (&#234; por exemplo) - talvez o dígito seja grande "
+"demais"
+
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gmarkup.c:594
+msgid ""
+"Character reference did not end with a semicolon; most likely you used an "
+"ampersand character without intending to start an entity - escape ampersand "
+"as &amp;"
+msgstr ""
+"Referência de caractere não terminou com um ponto e vírgula; provavelmente "
+"utilizou um caractere \"e comercial\" sem desejar iniciar uma entidade - "
+"escape-o com &amp;"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gmarkup.c:620
+#, c-format
+msgid "Character reference '%-.*s' does not encode a permitted character"
+msgstr "Referência de caractere \"%-.*s\" não codifica um caractere permitido"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gmarkup.c:658
+msgid ""
+"Empty entity '&;' seen; valid entities are: &amp; &quot; &lt; &gt; &apos;"
+msgstr ""
+"Entidade \"&;\" vazia vista; as entidades válidas são: &amp; &quot; &lt; "
+"&gt; &apos;"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gmarkup.c:666
+#, c-format
+msgid "Entity name '%-.*s' is not known"
+msgstr "Nome de entidade \"%-.*s\" não é conhecido"
+
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gmarkup.c:671
+msgid ""
+"Entity did not end with a semicolon; most likely you used an ampersand "
+"character without intending to start an entity - escape ampersand as &amp;"
+msgstr ""
+"Entidade não termina com um ponto e vírgula; provavelmente você utilizou um "
+"\"e comercial\" sem desejar iniciar uma entidade - escape-o com &amp;"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+# (pofilter) startpunc: checks whether punctuation at the beginning of the strings match
+#: ../glib/gmarkup.c:1058
+#, c-format
+msgid ""
+"'%s' is not a valid character following a '<' character; it may not begin an "
+"element name"
+msgstr ""
+"\"%s\" não é um caractere válido após um caractere \"<\"; não poderá começar "
+"um nome de elemento"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gmarkup.c:1126
+#, c-format
+msgid ""
+"Odd character '%s', expected a '>' character to end the empty-element tag '%"
+"s'"
+msgstr ""
+"Caractere estranho \"%s\", esperado um caractere \">\" para finalizar a "
+"marca \"%s\" de elemento vazio"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gmarkup.c:1210
+#, c-format
+msgid ""
+"Odd character '%s', expected a '=' after attribute name '%s' of element '%s'"
+msgstr ""
+"Caractere estranho \"%s\", esperava-se um \"=\" após o nome do atributo \"%s"
+"\" do elemento \"%s\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gmarkup.c:1251
+#, c-format
+msgid ""
+"Odd character '%s', expected a '>' or '/' character to end the start tag of "
+"element '%s', or optionally an attribute; perhaps you used an invalid "
+"character in an attribute name"
+msgstr ""
+"Caractere estranho \"%s\", esperava-se um caractere \">\" ou \"/\" para "
+"terminar a marca inicial do elemento \"%s\", ou opcionalmente um atributo; "
+"talvez tenha utilizado um caractere inválido no nome de atributo"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gmarkup.c:1295
+#, c-format
+msgid ""
+"Odd character '%s', expected an open quote mark after the equals sign when "
+"giving value for attribute '%s' of element '%s'"
+msgstr ""
+"Caractere estranho \"%s\", esperava-se uma aspa aberta após o sinal de igual "
+"ao atribuir o valor ao atributo \"%s\" do elemento \"%s\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+# (pofilter) startpunc: checks whether punctuation at the beginning of the strings match
+#: ../glib/gmarkup.c:1429
+#, c-format
+msgid ""
+"'%s' is not a valid character following the characters '</'; '%s' may not "
+"begin an element name"
+msgstr ""
+"\"%s\" não é um caractere válido após os caracteres \"</\"; \"%s\" não "
+"poderá começar o nome de um elemento"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+# (pofilter) startpunc: checks whether punctuation at the beginning of the strings match
+#: ../glib/gmarkup.c:1465
+#, c-format
+msgid ""
+"'%s' is not a valid character following the close element name '%s'; the "
+"allowed character is '>'"
+msgstr ""
+"\"%s\" não é um caractere válido após o nome do elemento de fecho \"%s\"; o "
+"caractere permitido é \">\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gmarkup.c:1476
+#, c-format
+msgid "Element '%s' was closed, no element is currently open"
+msgstr "Elemento \"%s\" foi fechado, nenhum elemento está atualmente aberto"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gmarkup.c:1485
+#, c-format
+msgid "Element '%s' was closed, but the currently open element is '%s'"
+msgstr "Elemento \"%s\" foi fechado, mas o elemento atualmente aberto é \"%s\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gmarkup.c:1666
+msgid "Document ended unexpectedly just after an open angle bracket '<'"
+msgstr "Documento terminou inesperadamente logo após um menor que \"<\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gmarkup.c:1674 ../glib/gmarkup.c:1719
+#, c-format
+msgid ""
+"Document ended unexpectedly with elements still open - '%s' was the last "
+"element opened"
+msgstr ""
+"Documento terminou inesperadamente com elementos ainda abertos - \"%s\" foi "
+"o último elemento aberto"
+
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+# (pofilter) brackets: translation has extra '(', ')'
+#: ../glib/gmarkup.c:1682
+#, c-format
+msgid ""
+"Document ended unexpectedly, expected to see a close angle bracket ending "
+"the tag <%s/>"
+msgstr ""
+"Documento terminou inesperadamente, esperava-se ver um sinal de maior (\">"
+"\") para terminar a marca <%s/>"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gmarkup.c:1728
+#, c-format
+msgid "Document ended unexpectedly inside the close tag for element '%s'"
+msgstr ""
+"Documento terminou inesperadamente dentro da marca de fechamento do elemento "
+"\"%s\""
+
+# (pofilter) startcaps: checks that the message starts with the correct capitalisation
+#: ../glib/gregex.c:301
+msgid "POSIX named classes are supported only within a class"
+msgstr "classes nomeadas POSIX têm suporte apenas dentro de uma classe"
+
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+# (pofilter) startpunc: checks whether punctuation at the beginning of the strings match
+#. translators: '(?R' and '(?[+-]digits' are both meant as (groups of)
+#. * sequences here, '(?-54' would be an example for the second group.
+#.
+#: ../glib/gregex.c:315
+msgid "(?R or (?[+-]digits must be followed by )"
+msgstr "\"(?R\" ou \"(?[+-]digitos\" devem ser seguidos por )"
+
+# (pofilter) puncspacing: checks for bad spacing after punctuation
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+# (pofilter) startpunc: checks whether punctuation at the beginning of the strings match
+#: ../glib/gregex.c:321
+msgid "missing ) after comment"
+msgstr "\")\" em falta após o comentário"
+
+# (pofilter) startcaps: checks that the message starts with the correct capitalisation
+#: ../glib/gregex.c:345
+msgid "POSIX collating elements are not supported"
+msgstr "elementos de arranjo POSIX sem suporte"
+
+# (pofilter) acronyms: acronyms should not be translated: UTF8
+#: ../glib/gregex.c:1155
+msgid "PCRE library is compiled without UTF8 support"
+msgstr "Biblioteca PCRE compilada sem suporte a UTF-8"
+
+# (pofilter) acronyms: acronyms should not be translated: UTF8
+#: ../glib/gregex.c:1164
+msgid "PCRE library is compiled without UTF8 properties support"
+msgstr "Biblioteca PCRE compilada sem suporte às propriedades UTF-8"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gregex.c:2128
+msgid "hexadecimal digit or '}' expected"
+msgstr "esperava-se dígito hexadecimal ou \"}\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+# (pofilter) startpunc: checks whether punctuation at the beginning of the strings match
+#: ../glib/gregex.c:2184
+msgid "missing '<' in symbolic reference"
+msgstr "\"<\" em falta na referência simbólica"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+# (pofilter) startpunc: checks whether punctuation at the beginning of the strings match
+#: ../glib/gregex.c:2291
+msgid "stray final '\\'"
+msgstr "\"\\\" final errado"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gshell.c:559
+#, c-format
+msgid "Text ended just after a '\\' character. (The text was '%s')"
+msgstr "Texto terminou logo após um caractere \"\\\". (O texto era \"%s\")"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gshell.c:566
+#, c-format
+msgid "Text ended before matching quote was found for %c. (The text was '%s')"
+msgstr ""
+"Texto terminou antes da aspa equivalente ter sido localizada para %c. (texto "
+"era \"%s\")"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gspawn-win32.c:369 ../glib/gspawn.c:1352
+#, c-format
+msgid "Failed to change to directory '%s' (%s)"
+msgstr "Falha ao ir para diretório \"%s\" (%s)"
+
+# (pofilter) acronyms: acronyms should not be translated: OPTION
+#: ../glib/goption.c:760
+msgid "[OPTION...]"
+msgstr "[OPÇÃO...]"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/goption.c:997 ../glib/goption.c:1067
+#, c-format
+msgid "Cannot parse integer value '%s' for %s"
+msgstr "Não é possível analisar o valor inteiro \"%s\" para %s"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/goption.c:1007 ../glib/goption.c:1075
+#, c-format
+msgid "Integer value '%s' for %s out of range"
+msgstr "Valor inteiro \"%s\" para %s fora dos limites"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/goption.c:1032
+#, c-format
+msgid "Cannot parse double value '%s' for %s"
+msgstr ""
+"Não é possível analisar o ponto flutuante com dupla precisão \"%s\" para %s"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/goption.c:1040
+#, c-format
+msgid "Double value '%s' for %s out of range"
+msgstr "Ponto flutuante com dupla precisão \"%s\" para %s fora dos limites"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gkeyfile.c:764
+#, c-format
+msgid ""
+"Key file contains line '%s' which is not a key-value pair, group, or comment"
+msgstr ""
+"Arquivo de chave contém a linha \"%s\" que não é um par chave-valor, grupo "
+"ou comentário"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gkeyfile.c:899
+#, c-format
+msgid "Key file contains unsupported encoding '%s'"
+msgstr "Arquivo de chave contém codificação \"%s\" sem suporte"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gkeyfile.c:1115 ../glib/gkeyfile.c:1277 ../glib/gkeyfile.c:2656
+#: ../glib/gkeyfile.c:2722 ../glib/gkeyfile.c:2857 ../glib/gkeyfile.c:2990
+#: ../glib/gkeyfile.c:3143 ../glib/gkeyfile.c:3330 ../glib/gkeyfile.c:3391
+#, c-format
+msgid "Key file does not have group '%s'"
+msgstr "Arquivo de chave não tem grupo \"%s\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gkeyfile.c:1289
+#, c-format
+msgid "Key file does not have key '%s'"
+msgstr "Arquivo de chave não tem chave \"%s\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gkeyfile.c:1396 ../glib/gkeyfile.c:1511
+#, c-format
+msgid "Key file contains key '%s' with value '%s' which is not UTF-8"
+msgstr "Arquivo de chave contém chave \"%s\" com valor \"%s\" que não é UTF-8"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gkeyfile.c:1416 ../glib/gkeyfile.c:1910
+#, c-format
+msgid "Key file contains key '%s' which has value that cannot be interpreted."
+msgstr ""
+"Arquivo de chave contém chave \"%s\" que tem valor que não pode ser "
+"interpretado."
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gkeyfile.c:1531
+#, c-format
+msgid ""
+"Key file contains key '%s' which has a value that cannot be interpreted."
+msgstr ""
+"Arquivo de chave contém chave \"%s\" cujo valor não pode ser interpretado."
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gkeyfile.c:2125 ../glib/gkeyfile.c:2487
+#, c-format
+msgid ""
+"Key file contains key '%s' in group '%s' which has value that cannot be "
+"interpreted."
+msgstr ""
+"Arquivo de chave contém chave \"%s\" no grupo \"%s\" que tem valor que não "
+"pode ser interpretado."
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gkeyfile.c:2671 ../glib/gkeyfile.c:2872 ../glib/gkeyfile.c:3402
+#, c-format
+msgid "Key file does not have key '%s' in group '%s'"
+msgstr "Arquivo de chave não tem chave \"%s\" no grupo \"%s\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gkeyfile.c:3658
+#, c-format
+msgid "Key file contains invalid escape sequence '%s'"
+msgstr "Arquivo de chave contém seqüência de escape \"%s\" inválida"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gkeyfile.c:3800
+#, c-format
+msgid "Value '%s' cannot be interpreted as a number."
+msgstr "O valor \"%s\" não pode ser interpretado como um número."
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gkeyfile.c:3814
+#, c-format
+msgid "Integer value '%s' out of range"
+msgstr "Valor inteiro \"%s\" fora dos limites"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gkeyfile.c:3847
+#, c-format
+msgid "Value '%s' cannot be interpreted as a float number."
+msgstr "O valor \"%s\" não pode ser interpretado como ponto flutuante."
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../glib/gkeyfile.c:3871
+#, c-format
+msgid "Value '%s' cannot be interpreted as a boolean."
+msgstr "O valor \"%s\" não pode ser interpretado como um booleano."
+
+# (pofilter) acronyms: acronyms should not be translated: OS
+#: ../gio/gcredentials.c:246 ../gio/gcredentials.c:441
+msgid "GCredentials is not implemented on this OS"
+msgstr "GCredentials não está implementado neste SO"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusaddress.c:142 ../gio/gdbusaddress.c:230
+#: ../gio/gdbusaddress.c:304
+#, c-format
+msgid "Unsupported key `%s' in address entry `%s'"
+msgstr "Não há suporte a chave \"%s\" na entrada de endereço \"%s\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusaddress.c:169
+#, c-format
+msgid ""
+"Address `%s' is invalid (need exactly one of path, tmpdir or abstract keys)"
+msgstr ""
+"O endereço \"%s\" não é válido (é necessário exatamente um dentre: caminho, "
+"tmpdir e chaves abstratas)"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusaddress.c:182
+#, c-format
+msgid "Meaningless key/value pair combination in address entry `%s'"
+msgstr ""
+"Combinação de pares chave/valor sem sentido na entrada de endereço \"%s\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusaddress.c:245 ../gio/gdbusaddress.c:319
+#, c-format
+msgid "Error in address `%s' - the port attribute is malformed"
+msgstr "Erro no endereço \"%s\" - o atributo porta é inválido"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusaddress.c:256 ../gio/gdbusaddress.c:330
+#, c-format
+msgid "Error in address `%s' - the family attribute is malformed"
+msgstr "Erro no endereço \"%s\" - o atributo família é inválido"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusaddress.c:434
+#, c-format
+msgid "Address element `%s', does not contain a colon (:)"
+msgstr "O elemento endereço \"%s\", não contém um dois-pontos (:)"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusaddress.c:455
+#, c-format
+msgid ""
+"Key/Value pair %d, `%s', in address element `%s', does not contain an equal "
+"sign"
+msgstr ""
+"O par chave/valor %d, \"%s\", no elemento endereço \"%s\", não contém um "
+"sinal de igual"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusaddress.c:469
+#, c-format
+msgid ""
+"Error unescaping key or value in Key/Value pair %d, `%s', in address element "
+"`%s'"
+msgstr ""
+"Erro ao distinguir a chave ou valor no par chave/valor %d, \"%s\", no "
+"elemento endereço \"%s\""
+
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusaddress.c:547
+#, c-format
+msgid ""
+"Error in address `%s' - the unix transport requires exactly one of the keys "
+"`path' or `abstract' to be set"
+msgstr ""
+"Erro no endereço \"%s\" - o transporte Unix requer exatamente uma das chaves "
+"\"path\" ou \"abstract\" sejam definidas"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusaddress.c:583
+#, c-format
+msgid "Error in address `%s' - the host attribute is missing or malformed"
+msgstr ""
+"Erro no endereço \"%s\" - o atributo servidor está faltando ou é inválido"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusaddress.c:597
+#, c-format
+msgid "Error in address `%s' - the port attribute is missing or malformed"
+msgstr "Erro no endereço \"%s\" - o atributo porta está faltando ou é inválido"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusaddress.c:611
+#, c-format
+msgid "Error in address `%s' - the noncefile attribute is missing or malformed"
+msgstr ""
+"Erro no endereço \"%s\" - o atributo noncefile está faltando ou é inválido"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusaddress.c:640
+#, c-format
+msgid "Unknown or unsupported transport `%s' for address `%s'"
+msgstr ""
+"O transporte \"%s\" para o endereço \"%s\" é desconhecido ou não há suporte"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusaddress.c:676
+#, c-format
+msgid "Error opening nonce file `%s': %s"
+msgstr "Erro ao abrir arquivo nonce \"%s\": %s"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusaddress.c:694
+#, c-format
+msgid "Error reading from nonce file `%s': %s"
+msgstr "Erro ao ler arquivo nonce \"%s\": %s"
+
+# (pofilter) sentencecount: The number of sentences differ: 1 versus 2
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusaddress.c:703
+#, c-format
+msgid "Error reading from nonce file `%s', expected 16 bytes, got %d"
+msgstr ""
+"Erro ao ler arquivo nonce \"%s\". É esperado 16 bytes, mas foi obtido %d"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusaddress.c:721
+#, c-format
+msgid "Error writing contents of nonce file `%s' to stream:"
+msgstr "Erro ao escrever do arquivo nonce \"%s\" no fluxo:"
+
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+#: ../gio/gdbusaddress.c:1011
+msgid "Cannot spawn a message bus without a machine-id: "
+msgstr ""
+"Não foi possível chamar um barramento de mensagens sem um ID de máquina: "
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusaddress.c:1048
+#, c-format
+msgid "Error spawning command line `%s': "
+msgstr "Erro ao chamar a linha de comandos \"%s\": "
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusaddress.c:1059
+#, c-format
+msgid "Abnormal program termination spawning command line `%s': %s"
+msgstr "Término anormal de programa ao chamar a linha de comandos \"%s\": %s"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusaddress.c:1073
+#, c-format
+msgid "Command line `%s' exited with non-zero exit status %d: %s"
+msgstr "A linha de comandos \"%s\" saiu com status de saída não-zero, %d: %s"
+
+# (pofilter) acronyms: acronyms should not be translated: OS
+#: ../gio/gdbusaddress.c:1146
+#, c-format
+msgid "Cannot determine session bus address (not implemented for this OS)"
+msgstr ""
+"Não foi possível determinar o endereço de barramento da sessão (sem "
+"implementação para este SO)"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusaddress.c:1245 ../gio/gdbusconnection.c:6016
+#, c-format
+msgid ""
+"Cannot determine bus address from DBUS_STARTER_BUS_TYPE environment variable "
+"- unknown value `%s'"
+msgstr ""
+"Não foi possível determinar o endereço de barramento da variável de ambiente "
+"DBUS_STARTER_BUS_TYPE, o valor \"%s\" é desconhecido"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusauthmechanismsha1.c:266
+#, c-format
+msgid "Error statting directory `%s': %s"
+msgstr "Erro ao avaliar o diretório \"%s\": %s"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusauthmechanismsha1.c:278
+#, c-format
+msgid ""
+"Permissions on directory `%s' are malformed. Expected mode 0700, got 0%o"
+msgstr ""
+"As permissões no diretório \"%s\" são inválidas. É esperado 0700, mas foi "
+"obtido 0%o"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusauthmechanismsha1.c:299
+#, c-format
+msgid "Error creating directory `%s': %s"
+msgstr "Erro ao criar o diretório \"%s\": %s"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusauthmechanismsha1.c:382
+#, c-format
+msgid "Error opening keyring `%s' for reading: "
+msgstr "Erro ao abrir o chaveiro \"%s\" para leitura: "
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusauthmechanismsha1.c:406 ../gio/gdbusauthmechanismsha1.c:715
+#, c-format
+msgid "Line %d of the keyring at `%s' with content `%s' is malformed"
+msgstr "A linha %d do chaveiro em \"%s\" com o conteúdo \"%s\" é inválida"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusauthmechanismsha1.c:420 ../gio/gdbusauthmechanismsha1.c:729
+#, c-format
+msgid ""
+"First token of line %d of the keyring at `%s' with content `%s' is malformed"
+msgstr ""
+"O primeiro símbolo da linha %d do chaveiro em \"%s\" com o conteúdo \"%s\" é "
+"inválido"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusauthmechanismsha1.c:434 ../gio/gdbusauthmechanismsha1.c:743
+#, c-format
+msgid ""
+"Second token of line %d of the keyring at `%s' with content `%s' is malformed"
+msgstr ""
+"O segundo símbolo da linha %d do chaveiro em \"%s\" com o conteúdo \"%s\" é "
+"inválido"
+
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusauthmechanismsha1.c:458
+#, c-format
+msgid "Didn't find cookie with id %d in the keyring at `%s'"
+msgstr "Não foi encotrado um anexo com o ID %d no chaveiro em \"%s\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusauthmechanismsha1.c:535
+#, c-format
+msgid "Error deleting stale lock file `%s': %s"
+msgstr "Erro ao excluir o arquivo de bloqueio anterior \"%s\": %s"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusauthmechanismsha1.c:566
+#, c-format
+msgid "Error creating lock file `%s': %s"
+msgstr "Erro ao criar o arquivo de bloqueio \"%s\": %s"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusauthmechanismsha1.c:596
+#, c-format
+msgid "Error closing (unlinked) lock file `%s': %s"
+msgstr "Erro ao fechar o arquivo de bloqueio (desvinculado) \"%s\": %s"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusauthmechanismsha1.c:606
+#, c-format
+msgid "Error unlinking lock file `%s': %s"
+msgstr "Erro ao desvincular o arquivo de bloqueio \"%s\": %s"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusauthmechanismsha1.c:682
+#, c-format
+msgid "Error opening keyring `%s' for writing: "
+msgstr "Erro ao abrir o chaveiro \"%s\" para escrita: "
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusauthmechanismsha1.c:877
+#, c-format
+msgid "(Additionally, releasing the lock for `%s' also failed: %s) "
+msgstr "(Adicionalmente, liberar o bloqueio de \"%s\" também falhou: %s) "
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusconnection.c:3599 ../gio/gdbusconnection.c:3917
+#, c-format
+msgid ""
+"No such interface `org.freedesktop.DBus.Properties' on object at path %s"
+msgstr ""
+"Nenhuma interface \"org.freedesktop.DBus.Properties\" no objeto no caminho %s"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusconnection.c:3671
+#, c-format
+msgid "Error setting property `%s': Expected type `%s' but got `%s'"
+msgstr ""
+"Erro ao definir a propriedade \"%s\": o tipo esperado é \"%s\", mas obteve "
+"\"%s\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusconnection.c:3766
+#, c-format
+msgid "No such property `%s'"
+msgstr "Nenhuma propriedade \"%s\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusconnection.c:3778
+#, c-format
+msgid "Property `%s' is not readable"
+msgstr "A propriedade \"%s\" está sem leitura"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusconnection.c:3789
+#, c-format
+msgid "Property `%s' is not writable"
+msgstr "A propriedade \"%s\" está sem escrita"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusconnection.c:3859 ../gio/gdbusconnection.c:5450
+#, c-format
+msgid "No such interface `%s'"
+msgstr "Nenhuma interface \"%s\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusconnection.c:4263 ../gio/gdbusconnection.c:5966
+#, c-format
+msgid "No such interface `%s' on object at path %s"
+msgstr "Nenhuma interface \"%s\" no objeto no caminho %s"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusconnection.c:4315
+#, c-format
+msgid "No such method `%s'"
+msgstr "Nenhum método \"%s\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusconnection.c:4346
+#, c-format
+msgid "Type of message, `%s', does not match expected type `%s'"
+msgstr "O tipo da mensagem, \"%s\", não equivale ao tipo esperado \"%s\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusconnection.c:4759
+#, c-format
+msgid "Method `%s' returned type `%s', but expected `%s'"
+msgstr "O método \"%s\" retornou o tipo \"%s\", mas é esperado \"%s\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusconnection.c:5561
+#, c-format
+msgid "Method `%s' on interface `%s' with signature `%s' does not exist"
+msgstr "O método \"%s\" na interface \"%s\" com a assinatura \"%s\" não existe"
+
+# (pofilter) brackets: translation has extra '(', ')'
+#: ../gio/gdbusmessage.c:994
+#, c-format
+msgid "Wanted to read %lu bytes but got EOF"
+msgstr "Ao tentar ler %lu bytes obteve-se EOF (fim de arquivo)"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusmessage.c:1019
+#, c-format
+msgid ""
+"Expected valid UTF-8 string but found invalid bytes at byte offset %d "
+"(length of string is %d). The valid UTF-8 string up until that point was `%s'"
+msgstr ""
+"Era esperado um texto UTF-8 válido, mas foi localizado bytes inválidos na "
+"posição %d (tamanho do texto é %d). O texto UTF-8 válido até este ponto era "
+"\"%s\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+# (pofilter) brackets: translation has extra '(', ')'
+#: ../gio/gdbusmessage.c:1032
+#, c-format
+msgid "Expected NUL byte after the string `%s' but found byte %d"
+msgstr ""
+"Era esperado um byte NUL (nulo) após o texto \"%s\", mas foi localizado o "
+"byte %d"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusmessage.c:1231
+#, c-format
+msgid "Parsed value `%s' is not a valid D-Bus object path"
+msgstr "O valor \"%s\" analisado não é um objeto de caminho D-Bus válido"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusmessage.c:1257
+#, c-format
+msgid "Parsed value `%s' is not a valid D-Bus signature"
+msgstr "O valor \"%s\" analisado não é uma assinatura D-Bus válida"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusmessage.c:1472
+#, c-format
+msgid "Parsed value `%s' for variant is not a valid D-Bus signature"
+msgstr ""
+"O valor \"%s\" analisado para variante não é uma assinatura D-Bus válida"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusmessage.c:1499
+#, c-format
+msgid ""
+"Error deserializing GVariant with type string `%s' from the D-Bus wire format"
+msgstr ""
+"Erro ao desserializar GVariant com o texto de tipo \"%s\" do formato "
+"demilitado pelo D-Bus"
+
+# (pofilter) puncspacing: checks for bad spacing after punctuation
+#: ../gio/gdbusmessage.c:1683
+#, c-format
+msgid ""
+"Invalid endianness value. Expected 0x6c ('l') or 0x42 ('B') but found value "
+"0x%02x"
+msgstr ""
+"Valor identificador de endian inválido. Era esperado 0x6c ('l') ou 0x42 "
+"('B'), mas foi localizado o valor 0x%02x"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusmessage.c:1754
+#, c-format
+msgid "Signature header with signature `%s' found but message body is empty"
+msgstr ""
+"O cabeçalho de assinatura foi localizado com a assinatura \"%s\", mas o "
+"corpo da mensagem está vazio"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusmessage.c:1768
+#, c-format
+msgid "Parsed value `%s' is not a valid D-Bus signature (for body)"
+msgstr ""
+"O valor \"%s\" analisado não é uma assinatura D-Bus válida (para o corpo)"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusmessage.c:2131
+#, c-format
+msgid ""
+"Error serializing GVariant with type string `%s' to the D-Bus wire format"
+msgstr ""
+"Erro ao serializar GVariant com o texto de tipo \"%s\" para o formato "
+"demilitado pelo D-Bus"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusmessage.c:2324
+#, c-format
+msgid "Message body has signature `%s' but there is no signature header"
+msgstr ""
+"O corpo da mensagem tem a assinatura \"%s\", mas não há um cabeçalho de "
+"assinatura"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusmessage.c:2334
+#, c-format
+msgid ""
+"Message body has type signature `%s' but signature in the header field is `%"
+"s'"
+msgstr ""
+"O corpo da mensagem tem o tipo de assinatura \"%s\", mas a assinatura no "
+"campo de cabeçalho é \"%s\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusmessage.c:2350
+#, c-format
+msgid "Message body is empty but signature in the header field is `(%s)'"
+msgstr ""
+"O corpo da mensagem está vazio, mas a assinatura no campo de cabeçalho é \"(%"
+"s)\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusmessage.c:2907
+#, c-format
+msgid "Error return with body of type `%s'"
+msgstr "Retorno de erro com o corpo de tipo \"%s\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusmethodinvocation.c:375
+#, c-format
+msgid "Type of return value is incorrect, got `%s', expected `%s'"
+msgstr ""
+"O tipo do valor de retorno está incorreto, obtido \"%s\", era esperado \"%s\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusserver.c:882
+#, c-format
+msgid "Error writing nonce file at `%s': %s"
+msgstr "Erro ao escrever no arquivo nonce em \"%s\": %s"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusserver.c:1044
+#, c-format
+msgid "The string `%s' is not a valid D-Bus GUID"
+msgstr "O texto \"%s\" não é válido para GUID D-Bus"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbusserver.c:1084
+#, c-format
+msgid "Cannot listen on unsupported transport `%s'"
+msgstr "Não é possível escutar no transporte \"%s\" por falta de suporte"
+
+# (pofilter) acronyms: acronyms should not be translated: COMMAND
+#: ../gio/gdbus-tool.c:87 ../gio/gsettings-tool.c:76
+msgid "COMMAND"
+msgstr "COMANDO"
+
+# (pofilter) acronyms: acronyms should not be translated: COMMAND
+#: ../gio/gdbus-tool.c:92
+#, c-format
+msgid ""
+"Commands:\n"
+"  help         Shows this information\n"
+"  introspect   Introspect a remote object\n"
+"  monitor      Monitor a remote object\n"
+"  call         Invoke a method on a remote object\n"
+"\n"
+"Use \"%s COMMAND --help\" to get help on each command.\n"
+msgstr ""
+"Comandos:\n"
+"  help         Mostra esta informação\n"
+"  introspect   Auto-exame de um objeto remoto\n"
+"  monitor      Monitora um objeto remoto\n"
+"  call         Chama um método de um objeto remoto\n"
+"\n"
+"Use \"%s COMANDO --help\" para obter ajuda de cada comando.\n"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbus-tool.c:459
+#, c-format
+msgid ""
+"Warning: According to introspection data, interface `%s' does not exist\n"
+msgstr ""
+"Aviso: De acordo com os dados de auto-exame a interface \"%s\" não existe\n"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbus-tool.c:468
+#, c-format
+msgid ""
+"Warning: According to introspection data, method `%s' does not exist on "
+"interface `%s'\n"
+msgstr ""
+"Aviso: De acordo com os dados de auto-exame o método \"%s\" não existe na "
+"interface \"%s\"\n"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbus-tool.c:713
+#, c-format
+msgid "Error: Method name `%s' is invalid\n"
+msgstr "Erro: O nome de método \"%s\" é inválido\n"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gdbus-tool.c:778
+#, c-format
+msgid "Error parsing parameter %d of type `%s': %s\n"
+msgstr "Erro ao analisar o parâmetro %d do tipo \"%s\": %s\n"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gfile.c:3622
+#, c-format
+msgid "File names cannot contain '%c'"
+msgstr "Nomes de arquivo não podem conter \"%c\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/glib-compile-schemas.c:712
+#, c-format
+msgid "invalid name '%s': names must begin with a lowercase letter"
+msgstr "nome \"%s\" inválido: nomes precisam começar com uma letra minúscula"
+
+# (pofilter) puncspacing: checks for bad spacing after punctuation
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/glib-compile-schemas.c:724
+#, c-format
+msgid ""
+"invalid name '%s': invalid character '%c'; only lowercase letters, numbers "
+"and dash ('-') are permitted."
+msgstr ""
+"nome \"%s\" inválido: caractere \"%c\" inválido, apenas é permitido letras "
+"minúsculas, números e traços (\"-\")."
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/glib-compile-schemas.c:733
+#, c-format
+msgid "invalid name '%s': two successive dashes ('--') are not permitted."
+msgstr ""
+"nome \"%s\" inválido: dois traços (\"--\") consecutivos não são permitidos."
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/glib-compile-schemas.c:742
+#, c-format
+msgid "invalid name '%s': the last character may not be a dash ('-')."
+msgstr ""
+"nome \"%s\" inválido: o último caractere não pode ser um traço (\"-\")."
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/glib-compile-schemas.c:750
+#, c-format
+msgid "invalid name '%s': maximum length is 32"
+msgstr "nome \"%s\" inválido: o tamanho máximo é 32"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/glib-compile-schemas.c:845
+msgid "can not add keys to a 'list-of' schema"
+msgstr "não é possível adicionar chaves ao esquema \"list-of\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/glib-compile-schemas.c:885
+#, c-format
+msgid ""
+"exactly one of 'type', 'enum' or 'flags' must be specified as an attribute "
+"to <key>"
+msgstr ""
+"apenas um entre \"type\", \"enum\" ou \"flags\" deve ser especificado como "
+"atributo para <key>"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/glib-compile-schemas.c:919
+#, c-format
+msgid "invalid GVariant type string '%s'"
+msgstr "tipo de texto GVariant \"%s\" é inválido"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/glib-compile-schemas.c:1048
+#, c-format
+msgid "<schema id='%s'> extends not yet existing schema '%s'"
+msgstr "<schema id='%s'> extende um esquema ainda não existente \"%s\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/glib-compile-schemas.c:1064
+#, c-format
+msgid "<schema id='%s'> is list of not yet existing schema '%s'"
+msgstr "<schema id='%s'> é uma lista de esquema ainda não existente \"%s\""
+
+# (pofilter) puncspacing: checks for bad spacing after punctuation
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/glib-compile-schemas.c:1102
+#, c-format
+msgid ""
+"<schema id='%s' list-of='%s'> extends <schema id='%s' list-of='%s'> but '%s' "
+"does not extend '%s'"
+msgstr ""
+"<schema id='%s' list-of='%s'> extende <schema id='%s' list-of='%s'>, mas \"%s"
+"\" não extende \"%s\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/glib-compile-schemas.c:1126
+#, c-format
+msgid "the path of a list must end with ':/'"
+msgstr "o caminho de uma lista precisa terminar com \":/\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/glib-compile-schemas.c:1674
+#, c-format
+msgid "No such schema `%s' specified in override file `%s'"
+msgstr "Nenhum esquema \"%s\" especificado no arquivo de sobrescrita \"%s\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/glib-compile-schemas.c:1698
+#, c-format
+msgid "No such key `%s' in schema `%s' as specified in override file `%s'"
+msgstr ""
+"Nenhuma chave \"%s\" no esquema \"%s\" como especificado no arquivo de "
+"sobrescrita \"%s\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/glib-compile-schemas.c:1731
+#, c-format
+msgid ""
+"override for key `%s' in schema `%s' in override file `%s' is out of the "
+"range given in the schema"
+msgstr ""
+"sobrescrita para chave \"%s\" no esquema \"%s\" no arquivo de sobrescrita \"%"
+"s\" está fora dos limites dado pelo esquema"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/glib-compile-schemas.c:1752
+#, c-format
+msgid ""
+"override for key `%s' in schema `%s' in override file `%s' is not in the "
+"list of valid choices"
+msgstr ""
+"sobrescrita para a chave \"%s\" no esquema \"%s\" no arquivo de sobrescrita "
+"\"%s\" não está na lista de escolhas válidas"
+
+# (pofilter) acronyms: acronyms should not be translated: DIRECTORY
+#: ../gio/glib-compile-schemas.c:1797 ../gio/glib-compile-schemas.c:1809
+msgid "DIRECTORY"
+msgstr "DIRETÓRIO"
+
+# (pofilter) puncspacing: checks for bad spacing after punctuation
+#: ../gio/glib-compile-schemas.c:1812
+msgid ""
+"Compile all GSettings schema files into a schema cache.\n"
+"Schema files are required to have the extension .gschema.xml,\n"
+"and the cache file is called gschemas.compiled."
+msgstr ""
+"Compila todos os arquivos schema GSettings em um cache schema.\n"
+"É necessário que os arquivos schema tenham a extensão\n"
+".gschema.xml, e o arquivo de cache é chamado gschemas.compiled."
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/glocalfileinfo.c:774
+#, c-format
+msgid "Error setting extended attribute '%s': %s"
+msgstr "Erro ao definir atributo estendido \"%s\": %s"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/glocalfileinfo.c:1483 ../gio/glocalfileoutputstream.c:833
+#, c-format
+msgid "Error stating file '%s': %s"
+msgstr "Erro ao iniciar arquivo \"%s\": %s"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/glocalfileoutputstream.c:577 ../gio/glocalfileoutputstream.c:630
+#: ../gio/glocalfileoutputstream.c:675 ../gio/glocalfileoutputstream.c:815
+#: ../gio/glocalfileoutputstream.c:1058 ../gio/glocalfileoutputstream.c:1157
+#, c-format
+msgid "Error opening file '%s': %s"
+msgstr "Erro ao abrir arquivo \"%s\": %s"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gnetworkaddress.c:318
+#, c-format
+msgid "Hostname '%s' contains '[' but not ']'"
+msgstr "Nome da máquina \"%s\" contém \"[\" mas não \"]\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gresolver.c:735
+#, c-format
+msgid "Error resolving '%s': %s"
+msgstr "Erro ao resolver \"%s\": %s"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gresolver.c:785
+#, c-format
+msgid "Error reverse-resolving '%s': %s"
+msgstr "Erro ao resolver reversamente \"%s\": %s"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gresolver.c:820 ../gio/gresolver.c:898
+#, c-format
+msgid "No service record for '%s'"
+msgstr "Nenhum serviço de registro para \"%s\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gresolver.c:825 ../gio/gresolver.c:903
+#, c-format
+msgid "Temporarily unable to resolve '%s'"
+msgstr "Temporariamente sem condições de resolver \"%s\""
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gresolver.c:830 ../gio/gresolver.c:908
+#, c-format
+msgid "Error resolving '%s'"
+msgstr "Erro ao resolver \"%s\""
+
+# (pofilter) acronyms: acronyms should not be translated: COMMAND
+#: ../gio/gsettings-tool.c:79
+#, c-format
+msgid ""
+"Commands:\n"
+"  help        Show this information\n"
+"  get         Get the value of a key\n"
+"  set         Set the value of a key\n"
+"  reset       Reset the value of a key\n"
+"  monitor     Monitor a key for changes\n"
+"  writable    Check if a key is writable\n"
+"\n"
+"Use '%s COMMAND --help' to get help for individual commands.\n"
+msgstr ""
+"Comandos:\n"
+"  help        Mostra esta informação\n"
+"  get         Obtém o valor de uma chave\n"
+"  set         Define o valor de uma chave\n"
+"  reset       Restaura o valor de uma chave\n"
+"  monitor     Monitora uma chave por alterações\n"
+"  writable    Verifica se uma chave é gravável\n"
+"\n"
+"Use '%s COMANDO --help' para obter ajuda para comando individuais.\n"
+
+# (pofilter) acronyms: acronyms should not be translated: PATH
+#: ../gio/gsettings-tool.c:220 ../gio/gsettings-tool.c:320
+#: ../gio/gsettings-tool.c:436 ../gio/gsettings-tool.c:531
+#: ../gio/gsettings-tool.c:644
+msgid "PATH"
+msgstr "CAMINHO"
+
+# (pofilter) acronyms: acronyms should not be translated: SCHEMA, KEY
+#: ../gio/gsettings-tool.c:228 ../gio/gsettings-tool.c:539
+#: ../gio/gsettings-tool.c:652
+msgid "SCHEMA KEY"
+msgstr "ESQUEMA CHAVE"
+
+# (pofilter) acronyms: acronyms should not be translated: KEY
+#: ../gio/gsettings-tool.c:230
+msgid "Get the value of KEY"
+msgstr "Obtém o valor de CHAVE"
+
+# (pofilter) acronyms: acronyms should not be translated: SCHEMA, KEY
+# (pofilter) doublespacing: checks for bad double-spaces by comparing to original
+#: ../gio/gsettings-tool.c:232 ../gio/gsettings-tool.c:448
+#: ../gio/gsettings-tool.c:543 ../gio/gsettings-tool.c:659
+msgid ""
+"Arguments:\n"
+"  SCHEMA      The id of the schema\n"
+"  KEY         The name of the key\n"
+msgstr ""
+"Argumentos:\n"
+"  ESQUEMA     A identificação do esquema\n"
+"  CHAVE       O nome da chave\n"
+
+# (pofilter) acronyms: acronyms should not be translated: SCHEMA, KEY, VALUE
+#: ../gio/gsettings-tool.c:328 ../gio/gsettings-tool.c:444
+msgid "SCHEMA KEY VALUE"
+msgstr "ESQUEMA CHAVE VALOR"
+
+# (pofilter) acronyms: acronyms should not be translated: KEY
+#: ../gio/gsettings-tool.c:330
+msgid "Set the value of KEY"
+msgstr "Define o valor de CHAVE"
+
+# (pofilter) acronyms: acronyms should not be translated: SCHEMA, KEY, VALUE
+# (pofilter) doublespacing: checks for bad double-spaces by comparing to original
+#: ../gio/gsettings-tool.c:332
+msgid ""
+"Arguments:\n"
+"  SCHEMA      The id of the schema\n"
+"  KEY         The name of the key\n"
+"  VALUE       The value to set key to, as a serialized GVariant\n"
+msgstr ""
+"Argumentos:\n"
+"  ESQUEMA     A identificação do esquema\n"
+"  CHAVE       O nome da chave\n"
+"  VALOR       O valor para definir na chave, como um GVariant serializado\n"
+
+# (pofilter) acronyms: acronyms should not be translated: KEY
+#: ../gio/gsettings-tool.c:446
+msgid "Sets KEY to its default value"
+msgstr "Define CHAVE para seu valor predefinido"
+
+# (pofilter) acronyms: acronyms should not be translated: KEY
+#: ../gio/gsettings-tool.c:541
+msgid "Find out whether KEY is writable"
+msgstr "Descobrir se CHAVE é gravável"
+
+# (pofilter) acronyms: acronyms should not be translated: KEY
+#: ../gio/gsettings-tool.c:655
+msgid ""
+"Monitor KEY for changes and print the changed values.\n"
+"Monitoring will continue until the process is terminated."
+msgstr ""
+"Monitorar CHAVE por alterações e exibir os valores alterados.\n"
+"O monitoramento continuará até que o processo seja terminado."
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gsettings-tool.c:831
+#, c-format
+msgid "Unknown command '%s'\n"
+msgstr "Comando \"%s\" desconhecido\n"
+
+# (pofilter) acronyms: acronyms should not be translated: OS
+#: ../gio/gsocket.c:3494
+msgid "g_socket_get_credentials not implemented for this OS"
+msgstr "g_socket_get_credentials não está implementado para este SO"
+
+# (pofilter) simplecaps: checks the capitalisation of two strings isn't wildly different
+# (pofilter) startcaps: checks that the message starts with the correct capitalisation
+#: ../gio/gsocketclient.c:674 ../gio/gsocketclient.c:1153
+msgid "Unknown error on connect"
+msgstr "erro desconhecido ao conectar"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gsocketclient.c:749 ../gio/gsocketclient.c:1061
+#, c-format
+msgid "Proxy protocol '%s' is not supported."
+msgstr "Não há suporte ao protocolo de proxy \"%s\"."
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gsocks4aproxy.c:121
+#, c-format
+msgid "SOCKSv4 does not support IPv6 address '%s'"
+msgstr "Não há suporte ao endereço IPv6 \"%s\" pelo SOCKSv4"
+
+# (pofilter) sentencecount: The number of sentences differ: 1 versus 2
+#: ../gio/gsocks5proxy.c:208
+#, c-format
+msgid "Username or password is too long for SOCKSv5 protocol (max. is %i)."
+msgstr ""
+"O nome de usuário ou a senha são muito longos para o protocolo SOCKSv5 (máx. "
+"é %i)."
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gsocks5proxy.c:289
+#, c-format
+msgid "Hostname '%s' too long for SOCKSv5 protocol (maximum is %i bytes)"
+msgstr ""
+"O nome de servidor \"%s\" é muito longo para o protocolo SOCKSv5 (o máximo é "
+"%i bytes)"
+
+# (pofilter) singlequoting: checks whether singlequoting is consistent between the two strings
+# (pofilter) doublequoting: checks whether doublequoting is consistent between the two strings
+#: ../gio/gsocks5proxy.c:390
+msgid "SOCKSv5 proxy does not support 'connect' command."
+msgstr "Proxy SOCKSv5 sem suporte ao comando \"connect\"."

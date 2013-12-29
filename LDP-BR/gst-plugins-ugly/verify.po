@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gst-plugins-ugly-1.0.3\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
+"POT-Creation-Date: 2012-11-21 00:14+0000\n"
+"PO-Revision-Date: 2013-08-20 22:54-0300\n"
+"Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
+"Language-Team: Brazilian Portuguese <ldpbr-"
+"translation@lists.sourceforge.net>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Translate Toolkit 1.9.0\n"
+
+# (pofilter) singlequoting: Different quotation marks
+# (pofilter) doublequoting: Different quotation marks
+#: ext/lame/gstlamemp3enc.c:426 ext/twolame/gsttwolamemp2enc.c:486
+#, c-format
+msgid ""
+"The requested bitrate %d kbit/s for property '%s' is not allowed. The "
+"bitrate was changed to %d kbit/s."
+msgstr ""
+"A taxa de bits, %d kbits/s, requisitada pela propriedade \"%s\" não é "
+"permitida. A taxa de bits foi alterada para %d kbits/s."
+
+# (pofilter) singlequoting: Different quotation marks
+# (pofilter) doublequoting: Different quotation marks
+#~ msgid "Failed to open DVD device '%s'."
+#~ msgstr "Falha ao abrir o dispositivo de DVD \"%s\"."
