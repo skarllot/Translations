@@ -4,13 +4,15 @@
 # Fabrício Godoy <skarllot@gmail.com>, 2008-2013.
 #
 # PCM -> PCM
+# buffering -> preenchendo buffer
+# sink -> consumidor
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gst-plugins-base-1.2.1\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2013-11-09 12:14+0100\n"
-"PO-Revision-Date: 2013-12-29 16:49-0300\n"
+"PO-Revision-Date: 2013-12-29 17:33-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
 "net>\n"
@@ -277,7 +279,7 @@ msgstr "Codificação Run-length"
 
 #: gst-libs/gst/pbutils/descriptions.c:272
 msgid "Timed Text"
-msgstr ""
+msgstr "Texto Temporizado"
 
 #: gst-libs/gst/pbutils/descriptions.c:276
 msgid "Subtitle"
@@ -318,34 +320,29 @@ msgid "Uncompressed gray"
 msgstr "Arquivo monocromático sem compressão"
 
 #: gst-libs/gst/pbutils/descriptions.c:380
-#, fuzzy, c-format
-#| msgid "Uncompressed packed YUV 4:2:2"
+#, c-format
 msgid "Uncompressed packed YUV %s"
-msgstr "YUV 4:2:2 empacotado sem compressão"
+msgstr "YUV %s empacotado sem compressão"
 
 #: gst-libs/gst/pbutils/descriptions.c:382
-#, fuzzy, c-format
-#| msgid "Uncompressed planar YUV 4:2:0"
+#, c-format
 msgid "Uncompressed semi-planar YUV %s"
-msgstr "YUV 4:2:0 plano sem compressão"
+msgstr "YUV %s semi-plano sem compressão"
 
 #: gst-libs/gst/pbutils/descriptions.c:384
-#, fuzzy, c-format
-#| msgid "Uncompressed planar YUV 4:2:0"
+#, c-format
 msgid "Uncompressed planar YUV %s"
-msgstr "YUV 4:2:0 plano sem compressão"
+msgstr "YUV %s plano sem compressão"
 
 #: gst-libs/gst/pbutils/descriptions.c:395
-#, fuzzy, c-format
-#| msgid "Uncompressed %s%d-bit %s"
+#, c-format
 msgid "Uncompressed palettized %d-bit %s"
-msgstr "%1$s de %2$d bits %3$s sem compressão"
+msgstr "%2$s de %1$d bits sem compressão com paletas"
 
 #: gst-libs/gst/pbutils/descriptions.c:398
-#, fuzzy, c-format
-#| msgid "Uncompressed %s%d-bit %s"
+#, c-format
 msgid "Uncompressed %d-bit %s"
-msgstr "%1$s de %2$d bits %3$s sem compressão"
+msgstr "%2$s de %1$d bits sem compressão"
 
 #: gst-libs/gst/pbutils/descriptions.c:452
 #, c-format
@@ -691,32 +688,34 @@ msgstr "Nota ou acorde inicial da música"
 
 #: tools/gst-play.c:170
 msgid "Buffering..."
-msgstr ""
+msgstr "Preenchendo buffer..."
 
 #: tools/gst-play.c:446
 msgid "Print version information and exit"
-msgstr ""
+msgstr "Exibe informações de versão e sai"
 
 #: tools/gst-play.c:448
 msgid "Video sink to use (default is autovideosink)"
 msgstr ""
+"Elemento consumidor de vídeo utilizado (predefinido para autovideosink)"
 
 #: tools/gst-play.c:450
 msgid "Audio sink to use (default is autoaudiosink)"
 msgstr ""
+"Elemento consumidor de áudio utilizado (predefinido para autoaudiosink)"
 
 #: tools/gst-play.c:452
 msgid "Enable gapless playback"
-msgstr ""
+msgstr "Ativar reprodução sem intervalos"
 
 #: tools/gst-play.c:488
 #, c-format
 msgid "Usage: %s FILE1|URI1 [FILE2|URI2] [FILE3|URI3] ..."
-msgstr ""
+msgstr "Uso: %s ARQ1|URI1 [ARQ2|URI2] [ARQ3|URI3] ..."
 
 #: tools/gst-play.c:492
 msgid "You must provide at least one filename or URI to play."
-msgstr ""
+msgstr "Você deve fornecer ao menos um nome de arquivo ou URI para reproduzir."
 
 #~ msgid "Uncompressed %s YUV %s"
 #~ msgstr "%2$s YUV %1$s sem compressão"
