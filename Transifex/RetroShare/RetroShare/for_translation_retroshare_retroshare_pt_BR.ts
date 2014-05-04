@@ -18,19 +18,19 @@
     </message>
     <message>
         <source>close</source>
-        <translation>Fechar</translation>
+        <translation>fechar</translation>
     </message>
     <message>
         <source>About RetroShare %1</source>
-        <translation>Sobre Retroshare</translation>
+        <translation>Sobre Retroshare %1</translation>
     </message>
     <message>
         <source>Max score: %1</source>
-        <translation>Pontuação Máxima: %1</translation>
+        <translation>Pontuação máxima: %1</translation>
     </message>
     <message>
         <source>Score: %1</source>
-        <translation>Pontuação:</translation>
+        <translation>Pontuação: %1</translation>
     </message>
     <message>
         <source>Level: %1</source>
@@ -38,7 +38,7 @@
     </message>
     <message>
         <source>Have fun ;-)</source>
-        <translation>Divirta-se</translation>
+        <translation>Divirta-se ;-)</translation>
     </message>
 </context>
 <context>
@@ -52,7 +52,7 @@
     <name>AddFileAssociationDialog</name>
     <message>
         <source>File type(extension):</source>
-        <translation>Tipo(extensão)</translation>
+        <translation>Tipo(extensão):</translation>
     </message>
     <message>
         <source>Use default command</source>
@@ -64,35 +64,36 @@
     </message>
     <message>
         <source>RetroShare</source>
-        <translation>Retroshare</translation>
+        <translation>RetroShare</translation>
     </message>
     <message>
         <source>Sorry, can't determine system default command for this file
 </source>
-        <translation>Desculpe, não foi possivél determinar o comando padrão para este tipo de arquivo</translation>
+        <translation>Desculpe, não foi possível determinar o comando padrão para este tipo de arquivo
+</translation>
     </message>
 </context>
 <context>
     <name>AdvancedSearchDialog</name>
     <message>
         <source>RetroShare: Advanced Search</source>
-        <translation>RetroShare: Busca Avançada</translation>
+        <translation>RetroShare: Pesquisa Avançada</translation>
     </message>
     <message>
         <source>Search Criteria</source>
-        <translation>Critério de Busca</translation>
+        <translation>Critério de Pesquisa</translation>
     </message>
     <message>
         <source>Add a further search criterion.</source>
-        <translation>Adicionar outro critério.</translation>
+        <translation>Adicionar outro critério de pesquisa.</translation>
     </message>
     <message>
         <source>Reset the search criteria.</source>
-        <translation>Resetar a busca.</translation>
+        <translation>Redefinir o critério de pesquisa.</translation>
     </message>
     <message>
         <source>Cancels the search.</source>
-        <translation>Cancelar a busca.</translation>
+        <translation>Cancela a pesquisa.</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -100,11 +101,11 @@
     </message>
     <message>
         <source>Perform the advanced search.</source>
-        <translation>Fazer buscar avançada.</translation>
+        <translation>Executar a pesquisa avançada.</translation>
     </message>
     <message>
         <source>Search</source>
-        <translation>Busca</translation>
+        <translation>Pesquisa</translation>
     </message>
 </context>
 <context>
@@ -478,7 +479,7 @@ p, li { white-space: pre-wrap; }
     <name>AvatarWidget</name>
     <message>
         <source>Click to change your avatar</source>
-        <translation>Click para alterar seu avatar</translation>
+        <translation>Clique para alterar seu avatar</translation>
     </message>
 </context>
 <context>
@@ -492,7 +493,7 @@ p, li { white-space: pre-wrap; }
     <name>BandwidthGraph</name>
     <message>
         <source>RetroShare Bandwidth Usage</source>
-        <translation>RetroShare Consumo de Bandwidth - Rede</translation>
+        <translation>Largura de Banda de Consumo do RetroShare</translation>
     </message>
     <message>
         <source>Show Settings</source>
@@ -500,15 +501,15 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Reset</source>
-        <translation>Reset</translation>
+        <translation>Redefinir</translation>
     </message>
     <message>
         <source>Receive Rate</source>
-        <translation>Taxa de Download</translation>
+        <translation>Taxa de Recebimento</translation>
     </message>
     <message>
         <source>Send Rate</source>
-        <translation>Taxa de Upload</translation>
+        <translation>Taxa de Envio</translation>
     </message>
     <message>
         <source>Always on Top</source>
@@ -520,7 +521,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Changes the transparency of the Bandwidth Graph</source>
-        <translation>Altera a transparência do gráfico de largura de banda</translation>
+        <translation>Altera a transparência do Gráfico de Largura de Banda</translation>
     </message>
     <message>
         <source>100</source>
@@ -544,7 +545,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Hide Settings</source>
-        <translation>Esconder Configurações</translation>
+        <translation>Ocultar Configurações</translation>
     </message>
 </context>
 <context>
@@ -567,7 +568,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Last Post</source>
-        <translation>Último Post</translation>
+        <translation>Última Publicação</translation>
     </message>
     <message>
         <source>Blog ID</source>
@@ -583,7 +584,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>OK</source>
-        <translation>Ok</translation>
+        <translation>OK</translation>
     </message>
     <message>
         <source>Close</source>
@@ -594,7 +595,7 @@ p, li { white-space: pre-wrap; }
     <name>BlogMsgItem</name>
     <message>
         <source>Remove Item</source>
-        <translation>Remover item</translation>
+        <translation>Remover Item</translation>
     </message>
     <message>
         <source>Expand</source>
@@ -606,7 +607,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Play Media</source>
-        <translation>Play Media</translation>
+        <translation>Reproduzir Mídia</translation>
     </message>
     <message>
         <source>Hide</source>
@@ -617,11 +618,11 @@ p, li { white-space: pre-wrap; }
     <name>BlogNewItem</name>
     <message>
         <source>Remove Item</source>
-        <translation>Remover item</translation>
+        <translation>Remover Item</translation>
     </message>
     <message>
         <source>Subscribe to Blog</source>
-        <translation>Assinar o Blog</translation>
+        <translation>Inscrever-se no Blog</translation>
     </message>
     <message>
         <source>Expand</source>
@@ -660,7 +661,11 @@ p, li { white-space: pre-wrap; }
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Arial&apos;; font-size:10pt; font-weight:600;&quot;&gt;Blogs&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;⏎ &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;⏎ p, li { white-space: pre-wrap; }⏎ &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;⏎ &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Arial&apos;; font-size:10pt; font-weight:600;&quot;&gt;Blogs&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Arial&apos;; font-size:10pt; font-weight:600;&quot;&gt;Blogs&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Add</source>
@@ -692,7 +697,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Unsubscribe</source>
-        <translation>Remover assinatura</translation>
+        <translation>Cancelar inscrição</translation>
     </message>
     <message>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
@@ -700,15 +705,19 @@ p, li { white-space: pre-wrap; }
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Subscribe To Blog&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;⏎ &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;⏎ p, li { white-space: pre-wrap; }⏎ &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-weight:400; font-style:normal;&quot;&gt;⏎ &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Assinar o Blog&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Inscrever-se no Blog&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Subscribe</source>
-        <translation>Assinar</translation>
+        <translation>Inscrever-se</translation>
     </message>
     <message>
         <source>Create New Blog</source>
-        <translation>Criar um novo Blog</translation>
+        <translation>Criar um Novo Blog</translation>
     </message>
     <message>
         <source>Name</source>
@@ -736,29 +745,31 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Post to Blog</source>
-        <translation>Postar no Blog</translation>
+        <translation>Publicar no Blog</translation>
     </message>
     <message>
         <source>Subscribe to Blog</source>
-        <translation>Assinar o Blog</translation>
+        <translation>Inscrever-se no Blog</translation>
     </message>
     <message>
         <source>Unsubscribe to Blog</source>
-        <translation>Remover assinatura do Blog</translation>
+        <translation>Cancelar a Inscrição no Blog</translation>
     </message>
     <message>
         <source>Show Blog Details</source>
-        <translation>Mostrar detalhes do Blog</translation>
+        <translation>Mostrar Detalhes do Blog</translation>
     </message>
     <message>
         <source>Create a new Blog</source>
-        <translation>Criar novo Blog</translation>
+        <translation>Criar um novo Blog</translation>
     </message>
     <message>
         <source>Popularity: %1
 Fetches: %2
 Available: %3</source>
-        <translation>Popularidade: %1⏎ Buscas: %2⏎ Disponivél: %3</translation>
+        <translation>Popularidade: %1
+Buscas: %2
+Disponível: %3</translation>
     </message>
 </context>
 <context>
@@ -781,7 +792,11 @@ p, li { white-space: pre-wrap; }
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:600; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt; color:#666666;&quot;&gt;DateTime&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;⏎ &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;⏎ p, li { white-space: pre-wrap; }⏎ &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:600; font-style:normal;&quot;&gt;⏎ &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt; color:#666666;&quot;&gt;Data|Hora&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:600; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt; color:#666666;&quot;&gt;Data/Hora&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Expand</source>
@@ -793,11 +808,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Unsubscribe From Channel</source>
-        <translation>Remover Assinatura do Canal</translation>
+        <translation>Cancelar a Assinatura no Canal</translation>
     </message>
     <message>
         <source>Comments here</source>
-        <translation>Comentários Aqui</translation>
+        <translation>Comentários aqui</translation>
     </message>
     <message>
         <source>Comment</source>
@@ -805,7 +820,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Hide</source>
-        <translation>Esconder</translation>
+        <translation>Ocultar</translation>
     </message>
 </context>
 <context>
@@ -883,7 +898,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Share Details</source>
-        <translation>Compartilhar Detalhes</translation>
+        <translation>Detalhes de Compartilhamento</translation>
     </message>
     <message>
         <source>Name:</source>
@@ -891,7 +906,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Location:</source>
-        <translation>Localização</translation>
+        <translation>Localização:</translation>
     </message>
     <message>
         <source>...</source>
@@ -911,11 +926,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Allow List:</source>
-        <translation>Lista Permitida:</translation>
+        <translation>Lista de Permissões:</translation>
     </message>
     <message>
         <source>&lt;Disabled&gt;</source>
-        <translation>Desabilitar</translation>
+        <translation>&lt;Desabilitado&gt;</translation>
     </message>
     <message>
         <source>Add</source>
@@ -927,14 +942,14 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Peer Calendars</source>
-        <translation>Lista de Calendários Compartilhados</translation>
+        <translation>Calendários Pareados</translation>
     </message>
 </context>
 <context>
     <name>ChanMsgItem</name>
     <message>
         <source>Toggle Message Read Status</source>
-        <translation>Alternar Mensagem de Status</translation>
+        <translation>Alternar Status de Leitura da Mensagem</translation>
     </message>
     <message>
         <source>New</source>
@@ -946,15 +961,15 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Play</source>
-        <translation>Play</translation>
+        <translation>Reproduzir</translation>
     </message>
     <message>
         <source>Copy RetroShare Link</source>
-        <translation>Copiar RetroShare Link</translation>
+        <translation>Copiar Link do RetroShare</translation>
     </message>
     <message>
         <source>Unsubscribe From Channel</source>
-        <translation>Remover Assinatura do Canal</translation>
+        <translation>Cancelar a Inscrição no Canal</translation>
     </message>
     <message>
         <source>Expand</source>
@@ -982,7 +997,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Hide</source>
-        <translation>Esconder</translation>
+        <translation>Ocultar</translation>
     </message>
     <message>
         <source>Open</source>
@@ -1001,7 +1016,7 @@ p, li { white-space: pre-wrap; }
     <name>ChanNewItem</name>
     <message>
         <source>Subscribe to Channel</source>
-        <translation>Assinar o Canal</translation>
+        <translation>Inscrever-se no Canal</translation>
     </message>
     <message>
         <source>Expand</source>
@@ -1025,7 +1040,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Updated Channel</source>
-        <translation>Atualizar Canal</translation>
+        <translation>Canal Atualizado</translation>
     </message>
     <message>
         <source>Hide</source>
@@ -1040,7 +1055,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Channel Info</source>
-        <translation>Info do Canal</translation>
+        <translation>Informações do Canal</translation>
     </message>
     <message>
         <source>Channel Name</source>
@@ -1052,7 +1067,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Last Post</source>
-        <translation>Último Post</translation>
+        <translation>Última Publicação</translation>
     </message>
     <message>
         <source>Channel ID</source>
@@ -1068,11 +1083,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Restricted - Anyone can read, limited publishing (Private Publish Key)</source>
-        <translation>Restrito - Qualquer um pode ler, publicação limitada(Private Publish Key)</translation>
+        <translation>Restrito - Qualquer um pode ler e a publicação é limitada (Chave Privada de Publicação)</translation>
     </message>
     <message>
         <source>Private - (Private Publish Key required to view Messages)</source>
-        <translation>Privada-(publicar a chave privada necessária para visualizar mensagens)</translation>
+        <translation>Privado - (Chave Privada de Publicação necessária para visualizar Mensagens)</translation>
     </message>
     <message>
         <source>Destination directory</source>
@@ -1102,15 +1117,15 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Post to Channel</source>
-        <translation>Postar no Canal</translation>
+        <translation>Publicar no Canal</translation>
     </message>
     <message>
         <source>Set all as read</source>
-        <translation>Marcar todas lidas</translation>
+        <translation>Marcar todas como lidas</translation>
     </message>
     <message>
         <source>Enable Auto-Download</source>
-        <translation>Habilitar Auto-Download</translation>
+        <translation>Ativar Download Automático</translation>
     </message>
     <message>
         <source>My Channels</source>
@@ -1118,7 +1133,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Subscribed Channels</source>
-        <translation>Assinar Canais</translation>
+        <translation>Canais Inscritos</translation>
     </message>
     <message>
         <source>Popular Channels</source>
@@ -1130,15 +1145,15 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Subscribe to Channel</source>
-        <translation>Assinar o Canal</translation>
+        <translation>Inscrever-se no Canal</translation>
     </message>
     <message>
         <source>Unsubscribe to Channel</source>
-        <translation>Remover Assinatura do Canal</translation>
+        <translation>Cancelar a Inscrição no Canal</translation>
     </message>
     <message>
         <source>Disable Auto-Download</source>
-        <translation>Desabilitar Auto-Download</translation>
+        <translation>Desativar Download Automático</translation>
     </message>
     <message>
         <source>Show Channel Details</source>
@@ -1146,7 +1161,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Restore Publish Rights for Channel</source>
-        <translation>Restaurar direito de publicação para o canal</translation>
+        <translation>Restaurar Direito de Publicação para o Canal</translation>
     </message>
     <message>
         <source>Edit Channel Details</source>
@@ -1170,7 +1185,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Copy RetroShare Link</source>
-        <translation>Copiar RetroShare Link</translation>
+        <translation>Copiar Link do RetroShare</translation>
     </message>
     <message>
         <source>Select channel destination directory</source>
@@ -1194,7 +1209,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>No Channel Selected</source>
-        <translation>Nenhum canal seleccionado</translation>
+        <translation>Nenhum Canal Selecionado</translation>
     </message>
     <message>
         <source> &lt;h1&gt;&lt;img width=&quot;32&quot; src=&quot;:/images/64px_help.png&quot;&gt;&amp;nbsp;&amp;nbsp;Channels&lt;/h1&gt;                                                             &lt;p&gt;Channels allow you to post data (e.g. movies, music) that will spread in the network                                                    among people who subscribed your channel.  If you activate auto-download on a channel, files attached to each post will start      downloading automatically when the post is received.&lt;/p&gt;                                                                                   &lt;p&gt;You see channels your friends are subscribed to, and forward subscribed channels to                                                    your friends. This promotes good channels in the network.                                                         When you first connect to a new friend, it&apos;s likely     you will receive many such cache files, and new channels will appear.                                                                      &lt;/p&gt;                                                                                                                                       &lt;p&gt;Only the channel&apos;s creator can post on that channel. Other peers                           in the network can only read from it, unless the channel is private. You can however share the posting rights or the reading rights     with your friends.&lt;/p&gt;                                </source>
@@ -1225,7 +1240,8 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Your friend has more than one locations.
 Please choose one of it to chat with.</source>
-        <translation>Seu amigo está em mais de uma local.⏎ Por favor, selicione uma local para conversar com ele.</translation>
+        <translation>Seu amigo está em mais de um local.
+Por favor, selecione um local para conversar com ele.</translation>
     </message>
     <message>
         <source>Talking to </source>
@@ -1240,7 +1256,7 @@ Please choose one of it to chat with.</source>
     </message>
     <message>
         <source>Change nick name</source>
-        <translation>Alterar nick</translation>
+        <translation>Alterar apelido</translation>
     </message>
     <message>
         <source>Mute participant</source>
@@ -1264,7 +1280,7 @@ Please choose one of it to chat with.</source>
     </message>
     <message>
         <source>Welcome to lobby %1</source>
-        <translation>Bem-vindo ao lobby %1</translation>
+        <translation>Bem-vindo à sala %1</translation>
     </message>
     <message>
         <source>Topic: %1</source>
@@ -1272,7 +1288,7 @@ Please choose one of it to chat with.</source>
     </message>
     <message>
         <source>Please enter your new nick name</source>
-        <translation>Por Favor, entre com seu novo nick</translation>
+        <translation>Por favor, digite o seu novo apelido</translation>
     </message>
     <message>
         <source>Lobby chat</source>
@@ -1280,15 +1296,15 @@ Please choose one of it to chat with.</source>
     </message>
     <message>
         <source>Lobby management</source>
-        <translation>Gereciamento do Lobby</translation>
+        <translation>Gerência da sala</translation>
     </message>
     <message>
         <source>%1 has left the lobby.</source>
-        <translation>%1 saiu do lobby.</translation>
+        <translation>%1 saiu da sala.</translation>
     </message>
     <message>
         <source>%1 joined the lobby.</source>
-        <translation>%1 entrou no lobby.</translation>
+        <translation>%1 entrou na sala.</translation>
     </message>
     <message>
         <source>%1 changed his name to: %2</source>
@@ -1296,15 +1312,15 @@ Please choose one of it to chat with.</source>
     </message>
     <message>
         <source>Unsubscribe to lobby</source>
-        <translation>Cancelar a inscrição para o canal</translation>
+        <translation>Cancelar a inscrição na sala</translation>
     </message>
     <message>
         <source>Do you want to unsubscribe to this chat lobby?</source>
-        <translation>Você quer se descadastrar desta sala de chat?</translation>
+        <translation>Você deseja cancelar a inscrição nesta sala de conversa?</translation>
     </message>
     <message>
         <source>Hide Participants</source>
-        <translation>Esconder Participantes</translation>
+        <translation>Ocultar Participantes</translation>
     </message>
     <message>
         <source>Show Participants</source>
@@ -1327,7 +1343,7 @@ Please choose one of it to chat with.</source>
     <name>ChatLobbyToaster</name>
     <message>
         <source>Show Chat Lobby</source>
-        <translation>Exibir Chat Lobby</translation>
+        <translation>Exibir Sala de Conversa</translation>
     </message>
 </context>
 <context>
@@ -1342,7 +1358,7 @@ Please choose one of it to chat with.</source>
     </message>
     <message>
         <source>Count</source>
-        <translation>Contador</translation>
+        <translation>Quantidade</translation>
     </message>
     <message>
         <source>Topic</source>
@@ -1350,23 +1366,23 @@ Please choose one of it to chat with.</source>
     </message>
     <message>
         <source>Private Lobbies</source>
-        <translation>Lobbys Privados</translation>
+        <translation>Salas Privadas</translation>
     </message>
     <message>
         <source>Public Lobbies</source>
-        <translation>Lobbys Públicos</translation>
+        <translation>Salas Públicas</translation>
     </message>
     <message>
         <source>Create chat lobby</source>
-        <translation>Criar um chat lobby</translation>
+        <translation>Criar uma sala de conversação</translation>
     </message>
     <message>
         <source>Unsubscribe</source>
-        <translation>Remover assinatura</translation>
+        <translation>Cancelar Inscrição</translation>
     </message>
     <message>
         <source>Subscribe</source>
-        <translation>Assinar</translation>
+        <translation>Inscrever-se</translation>
     </message>
     <message>
         <source>[No topic provided]</source>
@@ -1390,7 +1406,7 @@ Please choose one of it to chat with.</source>
     </message>
     <message>
         <source>Invitation to chat lobby</source>
-        <translation>Convite para sala de chat</translation>
+        <translation>Convite para sala de conversa</translation>
     </message>
     <message>
         <source>Remove Auto Subscribe</source>
@@ -1483,15 +1499,15 @@ Double click lobbies to enter and chat.</source>
     <name>ChatMsgItem</name>
     <message>
         <source>Remove Item</source>
-        <translation>Remover item</translation>
+        <translation>Remover Item</translation>
     </message>
     <message>
         <source>Write a quick Message</source>
-        <translation>Escrevem uma mensagem rápida</translation>
+        <translation>Escrever uma mensagem rápida</translation>
     </message>
     <message>
         <source>Send Mail</source>
-        <translation>Enviar Mail</translation>
+        <translation>Enviar E-mail</translation>
     </message>
     <message>
         <source>Write Message</source>
@@ -1499,7 +1515,7 @@ Double click lobbies to enter and chat.</source>
     </message>
     <message>
         <source>Start Chat</source>
-        <translation>Iniciar Chat</translation>
+        <translation>Iniciar Conversa</translation>
     </message>
     <message>
         <source>Send</source>
@@ -1511,7 +1527,7 @@ Double click lobbies to enter and chat.</source>
     </message>
     <message>
         <source>Quick Message</source>
-        <translation>Mensagem Rapida</translation>
+        <translation>Mensagem Rápida</translation>
     </message>
 </context>
 <context>
@@ -1522,7 +1538,7 @@ Double click lobbies to enter and chat.</source>
     </message>
     <message>
         <source>Chat Settings</source>
-        <translation>Configurações do Chat</translation>
+        <translation>Configurações de Conversa</translation>
     </message>
     <message>
         <source>Enable Emoticons Private Chat</source>
@@ -1530,7 +1546,7 @@ Double click lobbies to enter and chat.</source>
     </message>
     <message>
         <source>Enable Emoticons Group Chat</source>
-        <translation>Habilitar Emoticons em Chat em Grupo</translation>
+        <translation>Ativar Emoticons na Convesa em Grupo</translation>
     </message>
     <message>
         <source>Enable custom fonts</source>
@@ -1566,11 +1582,11 @@ Double click lobbies to enter and chat.</source>
     </message>
     <message>
         <source>Default nickname for chat lobbies:</source>
-        <translation>Nick padrão para chat lobbys:</translation>
+        <translation>Apelido predefinido para conversas em salas:</translation>
     </message>
     <message>
         <source>Private Chat</source>
-        <translation>Chat Privado</translation>
+        <translation>Conversa Privada</translation>
     </message>
     <message>
         <source>Open Window for new chat</source>
@@ -1590,15 +1606,15 @@ Double click lobbies to enter and chat.</source>
     </message>
     <message>
         <source>Chat Font</source>
-        <translation>Fonte do Chat</translation>
+        <translation>Fonte da Conversa</translation>
     </message>
     <message>
         <source>Change Chat Font</source>
-        <translation>Alterar Fonte do Chat </translation>
+        <translation>Alterar Fonte da Conversa</translation>
     </message>
     <message>
         <source>Chat Font:</source>
-        <translation>Fonte do Chat</translation>
+        <translation>Fonte da Conversa:</translation>
     </message>
     <message>
         <source>History</source>
@@ -1610,7 +1626,7 @@ Double click lobbies to enter and chat.</source>
     </message>
     <message>
         <source>Group chat</source>
-        <translation>Chat em Grupo</translation>
+        <translation>Conversa em grupo</translation>
     </message>
     <message>
         <source>Variant</source>
@@ -1626,35 +1642,35 @@ Double click lobbies to enter and chat.</source>
     </message>
     <message>
         <source>Private chat</source>
-        <translation>Chat Privado</translation>
+        <translation>Conversa privada</translation>
     </message>
     <message>
         <source>Incoming</source>
-        <translation>Recebendo</translation>
+        <translation>Recebido</translation>
     </message>
     <message>
         <source>Outgoing</source>
-        <translation>Enviando</translation>
+        <translation>Enviado</translation>
     </message>
     <message>
         <source>Incoming message in history</source>
-        <translation>Mensagem de entrada na história</translation>
+        <translation>Histórico de mensagens recebidas</translation>
     </message>
     <message>
         <source>Outgoing message in history</source>
-        <translation>Mensagem de saída no histórico</translation>
+        <translation>Histórico de mensagens enviadas</translation>
     </message>
     <message>
         <source>Incoming message</source>
-        <translation>Recebendo mensagem</translation>
+        <translation>Mensagem recebida</translation>
     </message>
     <message>
         <source>Outgoing message</source>
-        <translation>Enviando mensagem</translation>
+        <translation>Mensagem enviada</translation>
     </message>
     <message>
         <source>Outgoing offline message</source>
-        <translation>Enviando mensagem offline</translation>
+        <translation>Mensagem enviada offline</translation>
     </message>
     <message>
         <source>System</source>
@@ -1662,11 +1678,11 @@ Double click lobbies to enter and chat.</source>
     </message>
     <message>
         <source>System message</source>
-        <translation>Mensagem do Sistema</translation>
+        <translation>Mensagem do sistema</translation>
     </message>
     <message>
         <source>Chat</source>
-        <translation>Chat</translation>
+        <translation>Conversa</translation>
     </message>
     <message>
         <source>Distant chat</source>
@@ -1765,19 +1781,19 @@ Double click lobbies to enter and chat.</source>
     <name>ChatStyle</name>
     <message>
         <source>Standard style for group chat</source>
-        <translation>Estilo padrão para chat em grupo</translation>
+        <translation>Estilo padrão para conversa em grupo</translation>
     </message>
     <message>
         <source>Compact style for group chat</source>
-        <translation>Estilo compacto para chat em grupo</translation>
+        <translation>Estilo compacto para conversa em grupo</translation>
     </message>
     <message>
         <source>Standard style for private chat</source>
-        <translation>Estilo padrão para chat privado</translation>
+        <translation>Estilo padrão para conversa privada</translation>
     </message>
     <message>
         <source>Compact style for private chat</source>
-        <translation>Estilo compacto para chat privado</translation>
+        <translation>Estilo compacto para conversa privada</translation>
     </message>
     <message>
         <source>Standard style for history</source>
@@ -1792,7 +1808,7 @@ Double click lobbies to enter and chat.</source>
     <name>ChatToaster</name>
     <message>
         <source>Show Chat</source>
-        <translation>Exibir Chat</translation>
+        <translation>Exibir Conversa</translation>
     </message>
 </context>
 <context>
@@ -1838,15 +1854,15 @@ Double click lobbies to enter and chat.</source>
     </message>
     <message>
         <source>Add a File for your Friend</source>
-        <translation>Adicionar um arquivo para Amigo</translation>
+        <translation>Adicionar um Arquivo para seu Amigo</translation>
     </message>
     <message>
         <source>Strike</source>
-        <translation type="unfinished"/>
+        <translation>Riscar</translation>
     </message>
     <message>
         <source>Clear Chat History</source>
-        <translation>Limpar Histórico do Chat</translation>
+        <translation>Limpar Histórico de Conversa</translation>
     </message>
     <message>
         <source>Disable Emoticons</source>
@@ -1854,23 +1870,23 @@ Double click lobbies to enter and chat.</source>
     </message>
     <message>
         <source>Save Chat History</source>
-        <translation>Salvar Histórico do Chat</translation>
+        <translation>Salvar Histórico de Conversa</translation>
     </message>
     <message>
         <source>Browse Message History</source>
-        <translation>Navegar Histórico de Mensagens</translation>
+        <translation>Procurar no Histórico de Mensagens</translation>
     </message>
     <message>
         <source>Browse History</source>
-        <translation>Navegar Histórico</translation>
+        <translation>Procurar Histórico</translation>
     </message>
     <message>
         <source>Delete Chat History</source>
-        <translation>Deletar Histórico do Chat</translation>
+        <translation>Remover Histórico de Conversa</translation>
     </message>
     <message>
         <source>Deletes all stored and displayed chat history</source>
-        <translation>Exclui tudo que está armazenado e exibe histórico de chat</translation>
+        <translation>Remove todo o histórico de conversa armazenado e exibido</translation>
     </message>
     <message>
         <source>Choose font</source>
@@ -1878,7 +1894,7 @@ Double click lobbies to enter and chat.</source>
     </message>
     <message>
         <source>Reset font to default</source>
-        <translation>Resetar fonte padrão</translation>
+        <translation>Redefinir fonte para o padrão</translation>
     </message>
     <message>
         <source>is typing...</source>
@@ -1894,7 +1910,7 @@ Double click lobbies to enter and chat.</source>
     </message>
     <message>
         <source>Load Picture File</source>
-        <translation>Carregar Imagem</translation>
+        <translation>Carregar Arquivo de Imagem</translation>
     </message>
     <message>
         <source>Save as...</source>
@@ -1902,7 +1918,7 @@ Double click lobbies to enter and chat.</source>
     </message>
     <message>
         <source>Text File (*.txt );;All Files (*)</source>
-        <translation>Arquivo de Texto(*.txt);Todos Arquivos(*)</translation>
+        <translation>Arquivos de Texto (*.txt);;Todos Arquivos (*)</translation>
     </message>
     <message>
         <source>appears to be Offline.</source>
@@ -1910,19 +1926,19 @@ Double click lobbies to enter and chat.</source>
     </message>
     <message>
         <source>Messages you send will be delivered after Friend is again Online</source>
-        <translation>As mensagens que você enviar serão entregues depois que o Amigo estiver Online novamente</translation>
+        <translation>As mensagens enviadas serão entregues quando seu Amigo estiver Online</translation>
     </message>
     <message>
         <source>is Idle and may not reply</source>
-        <translation>Está ocupado e não pode responder</translation>
+        <translation>está Inativo e não pode responder</translation>
     </message>
     <message>
         <source>is Away and may not reply</source>
-        <translation>está Ausente e pode não responder</translation>
+        <translation>está Ausente e não pode responder</translation>
     </message>
     <message>
         <source>is Busy and may not reply</source>
-        <translation>está Ocupado e pode não responder</translation>
+        <translation>está Ocupado e não pode responder</translation>
     </message>
 </context>
 <context>
@@ -2040,7 +2056,7 @@ Double click lobbies to enter and chat.</source>
     </message>
     <message>
         <source>Peer Info</source>
-        <translation>Info do Peer</translation>
+        <translation>Informações do Par</translation>
     </message>
     <message>
         <source>Name</source>
@@ -2060,11 +2076,11 @@ Double click lobbies to enter and chat.</source>
     </message>
     <message>
         <source>Status</source>
-        <translation>Estado</translation>
+        <translation>Status</translation>
     </message>
     <message>
         <source>Last Contact</source>
-        <translation>Último contato</translation>
+        <translation>Último Contato</translation>
     </message>
     <message>
         <source>Version</source>
@@ -2072,7 +2088,7 @@ Double click lobbies to enter and chat.</source>
     </message>
     <message>
         <source>Peer Address</source>
-        <translation>Endereço Peer</translation>
+        <translation>Endereço do Par</translation>
     </message>
     <message>
         <source>Local Address</source>
@@ -2092,7 +2108,7 @@ Double click lobbies to enter and chat.</source>
     </message>
     <message>
         <source>Addresses list</source>
-        <translation>Lista de Endereço</translation>
+        <translation>Lista de Endereços</translation>
     </message>
     <message>
         <source>Trust </source>
@@ -2100,19 +2116,19 @@ Double click lobbies to enter and chat.</source>
     </message>
     <message>
         <source>Your trust in this peer is:</source>
-        <translation>Sua confiança nesse parceiro é:</translation>
+        <translation>Sua confiança nesse par é:</translation>
     </message>
     <message>
         <source>None </source>
-        <translation>nenhum</translation>
+        <translation>Nenhuma</translation>
     </message>
     <message>
         <source>Marginal </source>
-        <translation>Não Confiável</translation>
+        <translation>Relativa</translation>
     </message>
     <message>
         <source>Full </source>
-        <translation>Completo</translation>
+        <translation>Completa</translation>
     </message>
     <message>
         <source>PGP Key</source>
@@ -2128,7 +2144,7 @@ Double click lobbies to enter and chat.</source>
     </message>
     <message>
         <source>Peer key is signed by :</source>
-        <translation>A Chave do Peer é assinada por :</translation>
+        <translation>A chave do par é assinada por:</translation>
     </message>
     <message>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
@@ -2142,9 +2158,9 @@ p, li { white-space: pre-wrap; }
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans&apos;; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Assinar a chave de um amigo é uma maneira de demonstrar que você confia nesta pessoa para seus outros amigos. Apenas peers assinados receberam informação sobre seus outros amigos confiavéis,&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Assinar a chave de um amigo é uma maneira de demonstrar que você confia nesta pessoa para seus outros amigos. Apenas pares assinados recebem informações sobre seus outros amigos confiáveis.&lt;/p&gt;
 &lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;/p&gt;
-&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;A assinatura na chave não pode ser desfeita, aja com cautela.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;A assinatura de chaves não pode ser desfeita, então aja com cautela.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Sign PGP key</source>
@@ -2156,7 +2172,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Make Friend</source>
-        <translation>Tornar amigo</translation>
+        <translation>Tornar Amigo</translation>
     </message>
     <message>
         <source>Certificate</source>
@@ -2202,11 +2218,11 @@ Some services (Discovery, anonymous routing) can be switched off globally, which
     </message>
     <message>
         <source>RetroShare</source>
-        <translation>Retroshare</translation>
+        <translation>RetroShare</translation>
     </message>
     <message>
         <source>Error : cannot get peer details.</source>
-        <translation>Erro: não pode obter detalhes do parceiro.</translation>
+        <translation>Erro: não foi possível obter detalhes do par.</translation>
     </message>
     <message>
         <source>The supplied key algorithm is not supported by RetroShare
@@ -2219,27 +2235,27 @@ Some services (Discovery, anonymous routing) can be switched off globally, which
     </message>
     <message>
         <source>Peer key is signed by : </source>
-        <translation type="unfinished"/>
+        <translation>A chave do par é assinada por:</translation>
     </message>
     <message>
         <source>Your trust in this peer is ultimate, it&apos;s probably a key you own.</source>
-        <translation type="unfinished"/>
+        <translation>Sua confiança nesse par é definitiva, provavelmente é a sua própria chave.</translation>
     </message>
     <message>
         <source>Your trust in this peer is full.</source>
-        <translation type="unfinished"/>
+        <translation>A sua confiança nesse par é completa.</translation>
     </message>
     <message>
         <source>Your trust in this peer is marginal.</source>
-        <translation type="unfinished"/>
+        <translation>A sua confiança nesse par é relativa.</translation>
     </message>
     <message>
         <source>Your trust in this peer is none.</source>
-        <translation type="unfinished"/>
+        <translation>A sua confiança nesse par é nenhuma.</translation>
     </message>
     <message>
         <source>Your trust in this peer is not set.</source>
-        <translation type="unfinished"/>
+        <translation>A sua confiança nesse par não foi definida.</translation>
     </message>
     <message>
         <source>Peer has authenticated me as a friend and did sign my PGP key</source>
@@ -2575,7 +2591,7 @@ Some services (Discovery, anonymous routing) can be switched off globally, which
     </message>
     <message>
         <source>Certificate Load Failed</source>
-        <translation>Falha no Carregamento do Certificado</translation>
+        <translation>Falha ao Carregar o Certificado</translation>
     </message>
     <message>
         <source>Cannot get peer details of PGP key %1</source>
@@ -3188,19 +3204,19 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Type:</source>
-        <translation>Tipo</translation>
+        <translation>Tipo:</translation>
     </message>
     <message>
         <source>Public - Anyone can read and publish (Shared Publish Key)</source>
-        <translation>Público - Qualquer um pode ler e publicar (Chave de Publicação Compartilhada)</translation>
+        <translation>Público - Qualquer um pode ler e publicar (Chave Compartilhada de Publicação)</translation>
     </message>
     <message>
         <source>Restricted - Anyone can read, limited publishing (Private Publish Key)</source>
-        <translation>Restrito - Qualquer um pode ler, publicação limitada(Private Publish Key)</translation>
+        <translation>Restrito - Qualquer um pode ler, publicação limitada (Chave Privada de Publicação)</translation>
     </message>
     <message>
         <source>Private - (Private Publish Key required to view Messages)</source>
-        <translation>Privada-(publicar a chave privada necessária para visualizar mensagens)</translation>
+        <translation>Privado - (Chave Privada de Publicação é necessária para visualizar Mensagens)</translation>
     </message>
     <message>
         <source>Allowed Messages</source>
@@ -3212,15 +3228,15 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Anonymous Messages</source>
-        <translation>Mensagem Anônima</translation>
+        <translation>Mensagens Anônimas</translation>
     </message>
     <message>
         <source>Blog Logo</source>
-        <translation>Logo do Blog</translation>
+        <translation>Logotipo do Blog</translation>
     </message>
     <message>
         <source>Add Blog Logo</source>
-        <translation>Adicionar Logo do Blog</translation>
+        <translation>Adicionar Logotipo ao Blog</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -3232,11 +3248,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>RetroShare</source>
-        <translation>Retroshare</translation>
+        <translation>RetroShare</translation>
     </message>
     <message>
         <source>Please add a Name</source>
-        <translation>Por favor, adicione um nome</translation>
+        <translation>Por favor, adicione um Nome</translation>
     </message>
     <message>
         <source>Load File</source>
@@ -3251,15 +3267,15 @@ p, li { white-space: pre-wrap; }
     <name>CreateBlogMsg</name>
     <message>
         <source>New Blog Post</source>
-        <translation>Novo Post no Blog</translation>
+        <translation>Nova Publicação no Blog</translation>
     </message>
     <message>
         <source>Blog Post</source>
-        <translation type="unfinished"/>
+        <translation>Publicação do Blog</translation>
     </message>
     <message>
         <source>Blog Post to:</source>
-        <translation type="unfinished"/>
+        <translation>Publicação do Blog para:</translation>
     </message>
     <message>
         <source>Visual Editor</source>
@@ -3267,23 +3283,23 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Blog Message</source>
-        <translation type="unfinished"/>
+        <translation>Mensagem do Blog</translation>
     </message>
     <message>
         <source>Subject :</source>
-        <translation>Assunto</translation>
+        <translation>Assunto:</translation>
     </message>
     <message>
         <source>Html Editor</source>
-        <translation>Editor Html</translation>
+        <translation>Editor HTML</translation>
     </message>
     <message>
         <source>toolBar</source>
-        <translation type="unfinished"/>
+        <translation>toolBar</translation>
     </message>
     <message>
         <source>toolBar_2</source>
-        <translation type="unfinished"/>
+        <translation>toolBar_2</translation>
     </message>
     <message>
         <source>blockquote</source>
@@ -3291,11 +3307,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Increase font Size</source>
-        <translation>Aumentar Tamanho da fonte</translation>
+        <translation>Aumentar o tamanho da fonte</translation>
     </message>
     <message>
         <source>Decrease font size</source>
-        <translation>Diminuir tamanho da fonte</translation>
+        <translation>Diminuir o tamanho da fonte</translation>
     </message>
     <message>
         <source>Bold</source>
@@ -3323,15 +3339,15 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>splitPost</source>
-        <translation type="unfinished"/>
+        <translation>splitPost</translation>
     </message>
     <message>
         <source>Ordered List</source>
-        <translation>Lista ordenada</translation>
+        <translation>Lista Ordenada</translation>
     </message>
     <message>
         <source>Unordered List</source>
-        <translation>Lista não ordenada</translation>
+        <translation>Lista Não-Ordenada</translation>
     </message>
     <message>
         <source>Clipboard</source>
@@ -3343,7 +3359,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>RetroShare</source>
-        <translation>Retroshare</translation>
+        <translation>RetroShare</translation>
     </message>
     <message>
         <source>Please add a Subject</source>
@@ -3351,27 +3367,27 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>Arquivo:</translation>
+        <translation>&amp;Arquivo</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>Novo</translation>
+        <translation>&amp;Novo</translation>
     </message>
     <message>
         <source>&amp;Open...</source>
-        <translation>Abrir</translation>
+        <translation>&amp;Abrir...</translation>
     </message>
     <message>
         <source>&amp;Save</source>
-        <translation>Salvar</translation>
+        <translation>&amp;Salvar</translation>
     </message>
     <message>
         <source>Save &amp;As...</source>
-        <translation>Salvar como...</translation>
+        <translation>Salvar &amp;Como...</translation>
     </message>
     <message>
         <source>&amp;Print...</source>
-        <translation>Imprimir...</translation>
+        <translation>Im&amp;primir...</translation>
     </message>
     <message>
         <source>Print Preview...</source>
@@ -3379,83 +3395,83 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>&amp;Export PDF...</source>
-        <translation>Exportar PDF...</translation>
+        <translation>&amp;Exportar PDF...</translation>
     </message>
     <message>
         <source>&amp;Quit</source>
-        <translation>Sair</translation>
+        <translation>Sai&amp;r</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation>Editar</translation>
+        <translation>&amp;Editar</translation>
     </message>
     <message>
         <source>&amp;Undo</source>
-        <translation>Desfazer</translation>
+        <translation>&amp;Desfazer</translation>
     </message>
     <message>
         <source>&amp;Redo</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Refazer</translation>
     </message>
     <message>
         <source>Cu&amp;t</source>
-        <translation>Cortar</translation>
+        <translation>Recor&amp;tar</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>Copiar</translation>
+        <translation>&amp;Copiar</translation>
     </message>
     <message>
         <source>&amp;Paste</source>
-        <translation>Colar</translation>
+        <translation>C&amp;olar</translation>
     </message>
     <message>
         <source>&amp;View</source>
-        <translation>Visualizar</translation>
+        <translation>&amp;Ver</translation>
     </message>
     <message>
         <source>&amp;Insert</source>
-        <translation>Inserir</translation>
+        <translation>&amp;Inserir</translation>
     </message>
     <message>
         <source>&amp;Image</source>
-        <translation>Imagem</translation>
+        <translation>&amp;Imagem</translation>
     </message>
     <message>
         <source>F&amp;ormat</source>
-        <translation>Formatar</translation>
+        <translation>F&amp;ormatar</translation>
     </message>
     <message>
         <source>&amp;Bold</source>
-        <translation>Negrito</translation>
+        <translation>&amp;Negrito</translation>
     </message>
     <message>
         <source>&amp;Italic</source>
-        <translation>Itálico</translation>
+        <translation>&amp;Itálico</translation>
     </message>
     <message>
         <source>&amp;Underline</source>
-        <translation>Sublinhado</translation>
+        <translation>S&amp;ublinhado</translation>
     </message>
     <message>
         <source>&amp;Left</source>
-        <translation>Alinha a Esquerda</translation>
+        <translation>Alinhar à &amp;Esquerda</translation>
     </message>
     <message>
         <source>C&amp;enter</source>
-        <translation>Centralizada</translation>
+        <translation>&amp;Centralizado</translation>
     </message>
     <message>
         <source>&amp;Right</source>
-        <translation>Alinha a Direita</translation>
+        <translation>Alinhar à &amp;Direita</translation>
     </message>
     <message>
         <source>&amp;Justify</source>
-        <translation>Justificar</translation>
+        <translation>&amp;Justificado</translation>
     </message>
     <message>
         <source>&amp;Text Color...</source>
-        <translation>Cor do Texto</translation>
+        <translation>Cor do &amp;Texto...</translation>
     </message>
     <message>
         <source>Application</source>
@@ -3469,7 +3485,7 @@ Você quer salvar suas alterações?</translation>
     </message>
     <message>
         <source>Open File...</source>
-        <translation>Abrir arquivo...</translation>
+        <translation>Abrir Arquivo...</translation>
     </message>
     <message>
         <source>HTML-Files (*.htm *.html);;All Files (*)</source>
@@ -3489,7 +3505,7 @@ Você quer salvar suas alterações?</translation>
     </message>
     <message>
         <source>Export PDF</source>
-        <translation>Exportar PDF...</translation>
+        <translation>Exportar PDF</translation>
     </message>
     <message>
         <source>Choose Image</source>
@@ -3497,7 +3513,7 @@ Você quer salvar suas alterações?</translation>
     </message>
     <message>
         <source>Image Files supported (*.png *.jpeg *.jpg *.gif)</source>
-        <translation>Arquivos de Imagem suportados (*.png *.jpeg *.jpg *.gif)</translation>
+        <translation>Arquivos de Imagem com suporte (*.png *.jpeg *.jpg *.gif)</translation>
     </message>
 </context>
 <context>
@@ -3512,7 +3528,7 @@ Você quer salvar suas alterações?</translation>
     </message>
     <message>
         <source>check peers you would like to share private publish key with</source>
-        <translation>Verificar parceiros com os quais você gostaria de compartilhar chave de publicação pública</translation>
+        <translation>selecione os pares com os quais você gostaria de compartilhar a chave privada de publicação</translation>
     </message>
     <message>
         <source>Share Key With</source>
@@ -3524,15 +3540,15 @@ Você quer salvar suas alterações?</translation>
     </message>
     <message>
         <source>Type:</source>
-        <translation>Tipo</translation>
+        <translation>Tipo:</translation>
     </message>
     <message>
         <source>Restricted - Anyone can read, limited publishing (Private Publish Key)</source>
-        <translation>Restrito - Qualquer um pode ler, publicação limitada(Private Publish Key)</translation>
+        <translation>Restrito - Qualquer um pode ler, publicação limitada (Chave Privada de Publicação)</translation>
     </message>
     <message>
         <source>Private - (Private Publish Key required to view Messages)</source>
-        <translation>Privada-(publicar a chave privada necessária para visualizar mensagens)</translation>
+        <translation>Privado - (Chave Privada de Publicação necessária para visualizar as Mensagens)</translation>
     </message>
     <message>
         <source>Allowed Messages</source>
@@ -3540,7 +3556,7 @@ Você quer salvar suas alterações?</translation>
     </message>
     <message>
         <source>Anonymous Messages</source>
-        <translation>Mensagem Anônima</translation>
+        <translation>Mensagens Anônimas</translation>
     </message>
     <message>
         <source>Authenticated Messages</source>
@@ -3548,23 +3564,23 @@ Você quer salvar suas alterações?</translation>
     </message>
     <message>
         <source>Key Sharing</source>
-        <translation>Compartilhamento de chave</translation>
+        <translation>Compartilhamento de Chave</translation>
     </message>
     <message>
         <source>Key recipients can publish to restricted-type channels, and can view and publish  for private-type channels</source>
-        <translation type="unfinished"/>
+        <translation>Destinatários da chave podem publicar nos canais do tipo restrito, e podem visualizar e publicar nas canais do tipo privado</translation>
     </message>
     <message>
         <source>Share Private Publish Key</source>
-        <translation>Compartilhar Chave de Publicação Privada</translation>
+        <translation>Compartilhar Chave Privada de Publicação</translation>
     </message>
     <message>
         <source>Channel Logo</source>
-        <translation type="unfinished"/>
+        <translation>Logotipo do Canal</translation>
     </message>
     <message>
         <source>Add Channel Logo</source>
-        <translation>Adicionar o logotipo do canal</translation>
+        <translation>Adicionar Logotipo ao Canal</translation>
     </message>
     <message>
         <source>New Channel</source>
@@ -3576,26 +3592,26 @@ Você quer salvar suas alterações?</translation>
     </message>
     <message>
         <source>Please add a Name</source>
-        <translation>Por favor, adicione um nome</translation>
+        <translation>Por favor, adicione um Nome</translation>
     </message>
     <message>
         <source>Load channel logo</source>
-        <translation>Adicionar o logotipo do canal</translation>
+        <translation>Carregar o logotipo do canal</translation>
     </message>
 </context>
 <context>
     <name>CreateChannelMsg</name>
     <message>
         <source>New Channel Post</source>
-        <translation>Novo Post no canal</translation>
+        <translation>Nova Publicação no Canal</translation>
     </message>
     <message>
         <source>Channel Post</source>
-        <translation type="unfinished"/>
+        <translation>Publicação do Canal</translation>
     </message>
     <message>
         <source>Channel Post to:</source>
-        <translation type="unfinished"/>
+        <translation>Publicação do Canal para:</translation>
     </message>
     <message>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
@@ -3609,11 +3625,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Add File to Attach</source>
-        <translation>Adicionar Arquivo a Anexar</translation>
+        <translation>Adicionar Arquivo como Anexo</translation>
     </message>
     <message>
         <source>Add Channel Thumbnail</source>
-        <translation type="unfinished"/>
+        <translation>Adicionar Miniatura ao Canal</translation>
     </message>
     <message>
         <source>Message</source>
@@ -3621,7 +3637,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Subject :</source>
-        <translation>Assunto</translation>
+        <translation>Assunto:</translation>
     </message>
     <message>
         <source>Attachments</source>
@@ -3629,23 +3645,23 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Allow channels to get frame for message thumbnail from movie media attachments or not</source>
-        <translation type="unfinished"/>
+        <translation>Permite ou não que canais obtenham quadros para miniatura de anexos de mídia nas mensagens</translation>
     </message>
     <message>
         <source>Auto Thumbnail</source>
-        <translation type="unfinished"/>
+        <translation>Miniaturas Automáticas</translation>
     </message>
     <message>
         <source>Drag and Drop Files from Search Results</source>
-        <translation>Arrastar and Soltar Arquivos de Resultados de Busca</translation>
+        <translation>Arrastar-e-Soltar Arquivos dos Resultados de Busca</translation>
     </message>
     <message>
         <source>Paste RetroShare Links</source>
-        <translation>Colar Links RetroShare</translation>
+        <translation>Colar Links do RetroShare</translation>
     </message>
     <message>
         <source>Paste RetroShare Link</source>
-        <translation>Colar RetroShare Link</translation>
+        <translation>Colar Link do RetroShare</translation>
     </message>
     <message>
         <source>You are about to add files you&apos;re not actually sharing. Do you still want this to happen?</source>
@@ -3657,11 +3673,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Drop file error.</source>
-        <translation type="unfinished"/>
+        <translation>Erro ao soltar arquivo.</translation>
     </message>
     <message>
         <source>Directory can&apos;t be dropped, only files are accepted.</source>
-        <translation type="unfinished"/>
+        <translation>Diretórios não podem ser soltos, apenas arquivos são aceitos.</translation>
     </message>
     <message>
         <source>File not found or file name not accepted.</source>
@@ -3673,11 +3689,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>RetroShare</source>
-        <translation>Retroshare</translation>
+        <translation>RetroShare</translation>
     </message>
     <message>
         <source>File already Added and Hashed</source>
-        <translation type="unfinished"/>
+        <translation>O arquivo já foi Adicionado e calculado Hash</translation>
     </message>
     <message>
         <source>Please add a Subject</source>
@@ -3685,7 +3701,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Load thumbnail picture</source>
-        <translation type="unfinished"/>
+        <translation>Carregar imagem em miniatura</translation>
     </message>
 </context>
 <context>
@@ -3756,7 +3772,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>RetroShare</source>
-        <translation type="unfinished"/>
+        <translation>RetroShare</translation>
     </message>
     <message>
         <source>Please set a name for your Circle</source>
@@ -3807,7 +3823,7 @@ p, li { white-space: pre-wrap; }
     <name>CreateForum</name>
     <message>
         <source>Create new Forum</source>
-        <translation>Criar novo fórum</translation>
+        <translation>Criar novo Fórum</translation>
     </message>
     <message>
         <source>Name</source>
@@ -3815,7 +3831,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>check peers you would like to share private publish key with</source>
-        <translation>Verificar parceiros com os quais você gostaria de compartilhar chave de publicação privada</translation>
+        <translation>selecionar pares com os quais você gostaria de compartilhar a chave privada de publicação</translation>
     </message>
     <message>
         <source>Share Key With</source>
@@ -3827,31 +3843,31 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Type:</source>
-        <translation>Tipo</translation>
+        <translation>Tipo:</translation>
     </message>
     <message>
         <source>Public - Anyone can read and publish (Shared Publish Key)</source>
-        <translation>Público - Qualquer um pode ler e publicar (Chave de Publicação Compartilhada)</translation>
+        <translation>Público - Qualquer um pode ler e publicar (Chave Compartilhada de Publicação)</translation>
     </message>
     <message>
         <source>Restricted - Anyone can read, limited publishing (Private Publish Key)</source>
-        <translation>Restrito - Qualquer um pode ler, publicação limitada(Private Publish Key)</translation>
+        <translation>Restrito - Qualquer um pode ler, publicação limitada (Chave Privada de Publicação)</translation>
     </message>
     <message>
         <source>Private - (Private Publish Key required to view Messages)</source>
-        <translation>Privada-(publicar a chave privada necessária para visualizar mensagens)</translation>
+        <translation>Privado - (Chave Privada de Publicação é necessária para visualizar as Mensagens)</translation>
     </message>
     <message>
         <source>Key Sharing</source>
-        <translation>Compartilhamento de chave</translation>
+        <translation>Compartilhamento de Chave</translation>
     </message>
     <message>
         <source>Key recipients can publish to restricted-type channels, and can view and publish  for private-type channels</source>
-        <translation type="unfinished"/>
+        <translation>Destinatários da chave podem publicar nos canais do tipo restrito, e podem visualizar e publicar nos canais do tipo privado</translation>
     </message>
     <message>
         <source>Share Private Publish Key</source>
-        <translation>Compartilhar Chave de Publicação Privada</translation>
+        <translation>Compartilhar Chave Privada de Publicação</translation>
     </message>
     <message>
         <source>Allowed Messages</source>
@@ -3863,7 +3879,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Anonymous Messages</source>
-        <translation>Mensagem Anônima</translation>
+        <translation>Mensagens Anônimas</translation>
     </message>
     <message>
         <source>New Forum</source>
@@ -3875,14 +3891,14 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Please add a Name</source>
-        <translation>Por favor, adicione um nome</translation>
+        <translation>Por favor, adicione um Nome</translation>
     </message>
 </context>
 <context>
     <name>CreateForumMsg</name>
     <message>
         <source>Post Forum Message</source>
-        <translation>Postar Mensagem de Fórum</translation>
+        <translation>Publicar Mensagem no Fórum</translation>
     </message>
     <message>
         <source>Forum</source>
@@ -3902,15 +3918,15 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Forum Post</source>
-        <translation>Mensagem de Fórum</translation>
+        <translation>Publicação do Fórum</translation>
     </message>
     <message>
         <source>Attach files via drag and drop</source>
-        <translation>Anexar arquivos através de arrastar e soltar</translation>
+        <translation>Anexar arquivos através de arrastar-e-soltar</translation>
     </message>
     <message>
         <source>You can attach files via drag and drop here in this window</source>
-        <translation>Você pode anexar arquivos através de arrastar e soltar nesta janela</translation>
+        <translation>Você pode anexar arquivos através de arrastar-e-soltar nesta janela</translation>
     </message>
     <message>
         <source>Start New Thread</source>
@@ -3922,11 +3938,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>RetroShare</source>
-        <translation>Retroshare</translation>
+        <translation>RetroShare</translation>
     </message>
     <message>
         <source>Please set a Forum Subject and Forum Message</source>
-        <translation>Por favor defina um Tópico de Fórum e uma Mensagem de Fórum</translation>
+        <translation>Por favor, defina um Assunto e uma Mensagem ao Fórum</translation>
     </message>
     <message>
         <source>Add Extra File</source>
@@ -3945,15 +3961,15 @@ p, li { white-space: pre-wrap; }
     <name>CreateGroup</name>
     <message>
         <source>Create a Group</source>
-        <translation>Criar um grupo</translation>
+        <translation>Criar um Grupo</translation>
     </message>
     <message>
         <source>Group Name</source>
-        <translation>Nome</translation>
+        <translation>Nome do Grupo</translation>
     </message>
     <message>
         <source>Enter a name for your group</source>
-        <translation>Digite um nome para seu grupo</translation>
+        <translation>Digite um nome para o seu grupo</translation>
     </message>
     <message>
         <source>Friends</source>
@@ -3961,7 +3977,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Edit Group</source>
-        <translation>Editar grupo</translation>
+        <translation>Editar Grupo</translation>
     </message>
 </context>
 <context>
@@ -4152,7 +4168,7 @@ p, li { white-space: pre-wrap; }
     <name>CreateLobbyDialog</name>
     <message>
         <source>Create Chat Lobby</source>
-        <translation type="unfinished"/>
+        <translation>Criar Sala de Conversa</translation>
     </message>
     <message>
         <source>A chat lobby is a decentralized and anonymous chat group. All participants receive all messages. Once the lobby is created you can invite other friends from the Friends tab.</source>
@@ -4160,11 +4176,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Lobby name:</source>
-        <translation type="unfinished"/>
+        <translation>Nome da Sala:</translation>
     </message>
     <message>
         <source>Lobby topic:</source>
-        <translation type="unfinished"/>
+        <translation>Tópico da sala:</translation>
     </message>
     <message>
         <source>Your nick name:</source>
@@ -4176,15 +4192,15 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Public (Visible by friends)</source>
-        <translation>Público(Visivél aos Amigos)</translation>
+        <translation>Público (Visível aos amigos)</translation>
     </message>
     <message>
         <source>Private (Works on invitation only)</source>
-        <translation>Privado (Funciona somente com convite)</translation>
+        <translation>Privado (Somente com convite)</translation>
     </message>
     <message>
         <source>Select the Friends with which you want to group chat.</source>
-        <translation>Selecione os Amigos com os quais você deseja ter um chat em grupo.</translation>
+        <translation>Selecione os Amigos com os quais você deseja ter uma conversa em grupo.</translation>
     </message>
     <message>
         <source>Invited friends</source>
@@ -4192,11 +4208,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Put a sensible lobby name here</source>
-        <translation type="unfinished"/>
+        <translation>Ponha aqui um nome razoável para a sala</translation>
     </message>
     <message>
         <source>Your nickname for this lobby (Change default name in options-&gt;chat)</source>
-        <translation type="unfinished"/>
+        <translation>Seu apelido para essa sala (Altere o nome padrão em opções-&gt;conversa)</translation>
     </message>
     <message>
         <source>Contacts:</source>
@@ -4211,7 +4227,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Private chat</source>
-        <translation type="unfinished"/>
+        <translation>Conversa privada</translation>
     </message>
     <message>
         <source>Validity time :</source>
@@ -4350,11 +4366,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Save Key</source>
-        <translation>Salve a chave</translation>
+        <translation>Salvar a Chave</translation>
     </message>
     <message>
         <source>A RetroShare link with your Public Key is copied to Clipboard, paste and send it to your friend via email or some other way</source>
-        <translation>Um link para sua Chave Pública foi copied para a Área de Transferência, cole-o e envie-o para seu amigo via email ou de outra maneira</translation>
+        <translation>Um link do RetroShare com a sua Chave Pública foi copiada para a Área de Transferência, envie-o para seu amigo via e-mail ou de outra maneira</translation>
     </message>
     <message>
         <source>Error</source>
@@ -4366,11 +4382,11 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>RetroShare</source>
-        <translation>Retroshare</translation>
+        <translation>RetroShare</translation>
     </message>
     <message>
         <source>Your Public Key is copied to Clipboard, paste and send it to your friend via email or some other way</source>
-        <translation>Sua Chave Pública foi copiada para a Área de Trabalho, cole-a e envie-a para seu amigo via email ou de alguma outra maneira</translation>
+        <translation>Sua Chave Pública foi copiada para a Área de Transferência, envie-a para seu amigo via e-mail ou de alguma outra maneira</translation>
     </message>
     <message>
         <source>Save as...</source>
@@ -4378,7 +4394,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>RetroShare Certificate (*.rsc );;All Files (*)</source>
-        <translation>Certificado RetroShare (*.rsc );;Todos os Arquivos (*)</translation>
+        <translation>Certificado do RetroShare (*.rsc );;Todos os Arquivos (*)</translation>
     </message>
     <message>
         <source>Identity ID</source>
@@ -4401,15 +4417,15 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>DHT Off</source>
-        <translation>DHT Off</translation>
+        <translation>DHT Desligado</translation>
     </message>
     <message>
         <source>DHT Searching for RetroShare Peers</source>
-        <translation>DHT Buscando por Peers</translation>
+        <translation>DHT Buscando por Pares do RetroShare</translation>
     </message>
     <message>
         <source>RetroShare users in DHT (Total DHT users)</source>
-        <translation>Usuarios Retroshare no DHT(Total de usuarios no DHT)</translation>
+        <translation>Usuários do Retroshare no DHT (Total de usuários no DHT)</translation>
     </message>
     <message>
         <source>DHT Good</source>
@@ -4471,7 +4487,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>retroshare link(s)</source>
-        <translation>link(s) retroshare</translation>
+        <translation>link(s) do retroshare</translation>
     </message>
     <message>
         <source>retroshare link</source>
@@ -4483,7 +4499,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Rating</source>
-        <translation type="unfinished"/>
+        <translation>Avaliação</translation>
     </message>
     <message>
         <source>Comments</source>
@@ -4491,22 +4507,22 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>File Name</source>
-        <translation>Nome do arquivo</translation>
+        <translation>Nome do Arquivo</translation>
     </message>
 </context>
 <context>
     <name>DhtWindow</name>
     <message>
         <source>DHT Details</source>
-        <translation>Detalhes DHT</translation>
+        <translation>Detalhes do DHT</translation>
     </message>
     <message>
         <source>Peer Details</source>
-        <translation>Detalhes do Peer</translation>
+        <translation>Detalhes do Par</translation>
     </message>
     <message>
         <source>Net Status</source>
-        <translation type="unfinished"/>
+        <translation>Status de Rede</translation>
     </message>
     <message>
         <source>Connect Options</source>
@@ -4514,27 +4530,27 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Network Mode</source>
-        <translation>Mode de Rede</translation>
+        <translation>Modo de Rede</translation>
     </message>
     <message>
         <source>Nat Type</source>
-        <translation type="unfinished"/>
+        <translation>Tipo de NAT</translation>
     </message>
     <message>
         <source>Nat Hole</source>
-        <translation type="unfinished"/>
+        <translation>NAT Hole Punching</translation>
     </message>
     <message>
         <source>Peer Address</source>
-        <translation>Endereço Peer</translation>
+        <translation>Endereço do Par</translation>
     </message>
     <message>
         <source>Extra Label</source>
-        <translation>Label Extra</translation>
+        <translation>Rótulo Extra</translation>
     </message>
     <message>
         <source>TextLabel</source>
-        <translation type="unfinished"/>
+        <translation>TextLabel</translation>
     </message>
     <message>
         <source>Name</source>
@@ -4542,7 +4558,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>PeerId</source>
-        <translation type="unfinished"/>
+        <translation>PeerId</translation>
     </message>
     <message>
         <source>DHT Status</source>
@@ -4550,19 +4566,19 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>ConnectLogic</source>
-        <translation type="unfinished"/>
+        <translation>ConnectLogic</translation>
     </message>
     <message>
         <source>Connect Status</source>
-        <translation>Status de Conexão</translation>
+        <translation>Status da Conexão</translation>
     </message>
     <message>
         <source>Connect Mode</source>
-        <translation>Mode de Conexão</translation>
+        <translation>Modo de Conexão</translation>
     </message>
     <message>
         <source>Request Status</source>
-        <translation>Status de Requisição</translation>
+        <translation>Status da Requisição</translation>
     </message>
     <message>
         <source>Cb Status</source>
@@ -4578,7 +4594,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>IP:Port</source>
-        <translation>IP: Porta</translation>
+        <translation>IP:Porta</translation>
     </message>
     <message>
         <source>Key</source>
@@ -4586,7 +4602,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Status Flags</source>
-        <translation type="unfinished"/>
+        <translation>Sinalizadores de Status</translation>
     </message>
     <message>
         <source>Found</source>
@@ -4594,15 +4610,15 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Last Sent</source>
-        <translation>Último enviado</translation>
+        <translation>Último Enviado</translation>
     </message>
     <message>
         <source>Last Recv</source>
-        <translation>Última Recebida</translation>
+        <translation>Último Recebido</translation>
     </message>
     <message>
         <source>Relay Mode</source>
-        <translation type="unfinished"/>
+        <translation>Modo de Retransmissão</translation>
     </message>
     <message>
         <source>Source</source>
@@ -7694,7 +7710,7 @@ before you can comment</source>
     </message>
     <message>
         <source>Key recipients can publish to restricted-type group and can view and publish for private-type channels</source>
-        <translation type="unfinished"/>
+        <translation>Destinatários da chave podem publicar nos grupos do tipo restrito e podem visualizar e publicar nos canais do tipo privado</translation>
     </message>
     <message>
         <source>Share Publish Key</source>
@@ -11086,7 +11102,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>Unsubscribe</source>
-        <translation type="unfinished"/>
+        <translation>Cancelar inscrição</translation>
     </message>
     <message>
         <source>Showing</source>
@@ -11094,7 +11110,7 @@ p, li { white-space: pre-wrap; }
     </message>
     <message>
         <source>RetroShare</source>
-        <translation type="unfinished"/>
+        <translation>RetroShare</translation>
     </message>
     <message>
         <source>Please create or choose a Signing Id before Voting</source>
@@ -11526,7 +11542,7 @@ and open the Make Friend Wizard.
     </message>
     <message>
         <source>Recipients not accepted</source>
-        <translation type="unfinished"/>
+        <translation>Destinatários não aceitos</translation>
     </message>
     <message>
         <source>Unkown recipient</source>
@@ -11534,7 +11550,7 @@ and open the Make Friend Wizard.
     </message>
     <message>
         <source>Unkown recipients</source>
-        <translation type="unfinished"/>
+        <translation>Destinatários desconhecidos</translation>
     </message>
     <message>
         <source>Malformed links</source>
@@ -13915,6 +13931,14 @@ Try to be patient!</source>
     </message>
     <message>
         <source> &lt;h1&gt;&lt;img width=&quot;32&quot; src=&quot;:/images/64px_help.png&quot;&gt;&amp;nbsp;&amp;nbsp;File Transfer&lt;/h1&gt;                                                             &lt;p&gt;Retroshare brings two ways of transferring files: direct transfers from your friends, and                                         distant anonymous tunnelled transfers. In addition, file transfer is multi-source and allows swarming                                          (you can be a source while downloading)&lt;/p&gt;                                         &lt;p&gt;You can share files using the &lt;img src=&quot;:/images/directoryadd_24x24_shadow.png&quot; width=16 /&gt; icon from the left side bar.     These files will be listed in the My Files tab. You can decide for each friend group whether they can or not see these files     in their Friends Files tab&lt;/p&gt;    &lt;p&gt;The search tab reports files from your friends&apos; file lists, and distant files that can be reached     anonymously using the multi-hop tunnelling system.&lt;/p&gt;     </source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Could not delete preview file</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Try it again?</source>
         <translation type="unfinished"/>
     </message>
 </context>
