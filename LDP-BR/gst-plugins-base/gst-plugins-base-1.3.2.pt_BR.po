@@ -1,7 +1,7 @@
 # Brazilian Portuguese translation of gst-plugins-base.
-# Copyright (C) 2008-2013 Free Software Foundation, Inc.
+# Copyright (C) 2008-2015 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gst-plugins-base package.
-# Fabrício Godoy <skarllot@gmail.com>, 2008-2013.
+# Fabrício Godoy <skarllot@gmail.com>, 2008-2015.
 #
 # PCM -> PCM
 # buffering -> preenchendo buffer
@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: gst-plugins-base-1.3.2\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2014-05-21 11:55+0200\n"
-"PO-Revision-Date: 2013-12-29 17:33-0300\n"
+"PO-Revision-Date: 2015-02-01 18:55-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
 "net>\n"
@@ -692,7 +692,7 @@ msgstr "Preenchendo buffer..."
 
 #: tools/gst-play.c:239
 msgid "Clock lost, selecting a new one\n"
-msgstr ""
+msgstr "Temporizador perdido, selecionando um novo\n"
 
 #: tools/gst-play.c:664
 msgid "Print version information and exit"
@@ -714,19 +714,19 @@ msgstr "Ativar reprodução sem intervalos"
 
 #: tools/gst-play.c:672
 msgid "Shuffle playlist"
-msgstr ""
+msgstr "Embaralhar lista de reprodução"
 
 #: tools/gst-play.c:674
 msgid "Interactive control via keyboard"
-msgstr ""
+msgstr "Controle interativo via teclado"
 
 #: tools/gst-play.c:676
 msgid "Volume"
-msgstr ""
+msgstr "Volume"
 
 #: tools/gst-play.c:678
 msgid "Playlist file containing input media files"
-msgstr ""
+msgstr "Arquivo de lista de reprodução que contém arquivos de mídia de entrada"
 
 #: tools/gst-play.c:747
 #, c-format
