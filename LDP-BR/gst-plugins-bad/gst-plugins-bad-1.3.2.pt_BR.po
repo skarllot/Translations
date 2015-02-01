@@ -1,15 +1,15 @@
 # Brazilian Portuguese translation of gst-plugins-bad.
 # This file is distributed under the same license as the gst-plugins-bad package.
-# Copyright (C) 2007-2013 Free Software Foundation, Inc.
+# Copyright (C) 2007-2015 Free Software Foundation, Inc.
 # Raphael Higino <In memorian>, 2007.
-# Fabrício Godoy <skarllot@gmail.com>, 2008-2013.
+# Fabrício Godoy <skarllot@gmail.com>, 2008-2015.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gst-plugins-bad-1.2.1\n"
+"Project-Id-Version: gst-plugins-bad-1.3.2\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2014-05-21 12:31+0200\n"
-"PO-Revision-Date: 2013-12-17 01:09-0200\n"
+"PO-Revision-Date: 2015-02-01 17:31-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
 "net>\n"
@@ -67,10 +67,8 @@ msgid "Couldn't download fragments"
 msgstr "Não foi possível baixar os fragmentos"
 
 #: ext/sndfile/gstsfdec.c:769
-#, fuzzy
-#| msgid "Could not open file \"%s\" for reading."
 msgid "Could not open sndfile stream for reading."
-msgstr "Não foi possível abrir o arquivo \"%s\" para leitura."
+msgstr "Não foi possível abrir o fluxo sndfile para leitura."
 
 #: ext/sndfile/gstsfsink.c:277 ext/sndfile/gstsfsrc.c:346
 #: gst/videomeasure/gstvideomeasure_collector.c:294
@@ -153,11 +151,11 @@ msgstr ""
 "Não foi possível obter as configurações do dispositivo de interface \"%s\"."
 
 #: sys/dvb/gstdvbsrc.c:1053
-#, fuzzy, c-format
-#| msgid "Could not get settings from frontend device \"%s\"."
+#, c-format
 msgid "Cannot enumerate delivery systems from frontend device \"%s\"."
 msgstr ""
-"Não foi possível obter as configurações do dispositivo de interface \"%s\"."
+"Não foi possível listar os sistemas de entrega do dispositivo de interface "
+"\"%s\"."
 
 #: sys/dvb/gstdvbsrc.c:1172
 #, c-format
