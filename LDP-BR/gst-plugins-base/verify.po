@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: gst-plugins-base-1.3.2\n"
+"Project-Id-Version: gst-plugins-base-1.4.0\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
-"POT-Creation-Date: 2014-05-21 11:55+0200\n"
-"PO-Revision-Date: 2015-02-01 18:55-0200\n"
+"POT-Creation-Date: 2014-07-19 16:23+0200\n"
+"PO-Revision-Date: 2015-02-01 19:21-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-"
 "translation@lists.sourceforge.net>\n"
@@ -23,16 +23,16 @@ msgstr "Não foi possível abrir o dispositivo para gravação com %d canais."
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
 #: gst/encoding/gstencodebin.c:1487 gst/playback/gstplaybin2.c:3099
-#: gst/playback/gstplaysink.c:1479 gst/playback/gstplaysink.c:1496
-#: gst/playback/gstplaysink.c:1838 gst/playback/gstplaysink.c:2418
-#: gst/playback/gstplaysink.c:2467 gst/playback/gstplaysink.c:2482
-#: gst/playback/gstplaysink.c:2507 gst/playback/gstplaysink.c:2539
-#: gst/playback/gstplaysink.c:2691 gst/playback/gstplaysink.c:3082
-#: gst/playback/gstplaysink.c:3091 gst/playback/gstplaysink.c:3100
-#: gst/playback/gstplaysink.c:3109 gst/playback/gstplaysink.c:4315
+#: gst/playback/gstplaysink.c:1481 gst/playback/gstplaysink.c:1498
+#: gst/playback/gstplaysink.c:1840 gst/playback/gstplaysink.c:2420
+#: gst/playback/gstplaysink.c:2469 gst/playback/gstplaysink.c:2484
+#: gst/playback/gstplaysink.c:2509 gst/playback/gstplaysink.c:2541
+#: gst/playback/gstplaysink.c:2693 gst/playback/gstplaysink.c:3084
+#: gst/playback/gstplaysink.c:3093 gst/playback/gstplaysink.c:3102
+#: gst/playback/gstplaysink.c:3111 gst/playback/gstplaysink.c:4317
 #: gst/playback/gstplaysinkconvertbin.c:97
 #: gst/playback/gstplaysinkconvertbin.c:117
-#: gst/playback/gsturidecodebin.c:1470
+#: gst/playback/gsturidecodebin.c:1479
 #, c-format
 msgid "Missing element '%s' - check your GStreamer installation."
 msgstr ""
@@ -51,13 +51,13 @@ msgid "No decoder available for type '%s'."
 msgstr "Decodificador não disponível para o tipo \"%s\"."
 
 # (pofilter) puncspacing: Different spacing around punctuation
-#: gst/playback/gsturidecodebin.c:1382
+#: gst/playback/gsturidecodebin.c:1391
 #, c-format
 msgid "Invalid URI \"%s\"."
 msgstr "O URI \"%s\" é inválido."
 
 # (pofilter) puncspacing: Different spacing around punctuation
-#: gst/playback/gsturidecodebin.c:1407
+#: gst/playback/gsturidecodebin.c:1416
 #, c-format
 msgid "No URI handler implemented for \"%s\"."
 msgstr "Nenhum manipulador para o URI \"%s\" foi implementado."
