@@ -9,9 +9,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gst-plugins-base-1.4.0\n"
+"Project-Id-Version: gst-plugins-base-1.4.1\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
-"POT-Creation-Date: 2014-07-19 16:23+0200\n"
+"POT-Creation-Date: 2014-08-27 14:24+0300\n"
 "PO-Revision-Date: 2015-02-01 19:21-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
@@ -128,7 +128,7 @@ msgstr "Não foi possível determinar o tipo de fluxo"
 msgid "This appears to be a text file"
 msgstr "Este parece ser um arquivo de texto"
 
-#: gst/playback/gstplaybin2.c:5161
+#: gst/playback/gstplaybin2.c:5164
 msgid "Could not create \"uridecodebin\" element."
 msgstr "Não foi possível criar o elemento \"uridecodebin\"."
 
