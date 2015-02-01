@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gst-plugins-bad-1.4.0\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2014-07-19 16:40+0200\n"
-"PO-Revision-Date: 2015-02-01 17:31-0200\n"
+"PO-Revision-Date: 2015-02-01 17:53-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
 "net>\n"
@@ -27,7 +27,7 @@ msgstr "Erro interno de fluxo de dados."
 
 #: ext/gl/gstgltestsrc.c:544
 msgid "format wasn't negotiated before get function"
-msgstr ""
+msgstr "O formato não foi negociado antes da chamada da função"
 
 #: ext/resindvd/resindvdsrc.c:362
 msgid "Could not read title information for DVD."
