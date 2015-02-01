@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gst-plugins-bad-1.4.1\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2014-08-27 14:38+0300\n"
-"PO-Revision-Date: 2015-02-01 17:53-0200\n"
+"PO-Revision-Date: 2015-02-01 18:24-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
 "net>\n"
@@ -31,7 +31,7 @@ msgstr "O formato não foi negociado antes da chamada da função"
 
 #: ext/gsettings/org.freedesktop.gstreamer.default-elements.gschema.xml.in:5
 msgid "default GStreamer sound events audiosink"
-msgstr ""
+msgstr "audiosink do GStreamer pré-definido para eventos de som"
 
 #: ext/gsettings/org.freedesktop.gstreamer.default-elements.gschema.xml.in:6
 #: ext/gsettings/org.freedesktop.gstreamer.default-elements.gschema.xml.in:19
@@ -41,37 +41,45 @@ msgid ""
 "choices are osssink, pulsesink and alsasink. The audiosink can be a partial "
 "pipeline instea of just one element."
 msgstr ""
+"O GStreamer pode reproduzir áudio utilizando qualquer quantidade de "
+"elementos de saída. Algumas das opções possíveis são osssink, pulsesink e "
+"alsasink. O audiosink pode ser uma fila de processamento parcial em vez de "
+"apenas um elemento."
 
 #: ext/gsettings/org.freedesktop.gstreamer.default-elements.gschema.xml.in:13
 msgid "description for default GStreamer sound events audiosink"
 msgstr ""
+"descrição para o audiosink do GStreamer pré-definido para eventos de som"
 
 #: ext/gsettings/org.freedesktop.gstreamer.default-elements.gschema.xml.in:14
 #: ext/gsettings/org.freedesktop.gstreamer.default-elements.gschema.xml.in:27
 #: ext/gsettings/org.freedesktop.gstreamer.default-elements.gschema.xml.in:40
 msgid "Describes the selected audiosink element."
-msgstr ""
+msgstr "Descreve o elemento audiosink selecionado."
 
 #: ext/gsettings/org.freedesktop.gstreamer.default-elements.gschema.xml.in:18
 msgid "default GStreamer audiosink for Audio/Video Conferencing"
-msgstr ""
+msgstr "audiosink do GStreamer pré-definido para Conferência de Áudio e Vídeo"
 
 #: ext/gsettings/org.freedesktop.gstreamer.default-elements.gschema.xml.in:26
 msgid ""
 "description for default GStreamer audiosink for Audio/Video Conferencing"
 msgstr ""
+"descrição do audiosink do GStreamer pré-definido para Conferência de Áudio e "
+"Vídeo"
 
 #: ext/gsettings/org.freedesktop.gstreamer.default-elements.gschema.xml.in:31
 msgid "default GStreamer audiosink for Music and Movies"
-msgstr ""
+msgstr "audiosink do GStreamer pré-definido para Músicas e Filmes"
 
 #: ext/gsettings/org.freedesktop.gstreamer.default-elements.gschema.xml.in:39
 msgid "description for default GStreamer audiosink for Music and Movies"
 msgstr ""
+"descrição para o audiosink do GStreamer pré-definido para Músicas e Filmes"
 
 #: ext/gsettings/org.freedesktop.gstreamer.default-elements.gschema.xml.in:44
 msgid "default GStreamer videosink"
-msgstr ""
+msgstr "videosink do GStreamer pré-definido"
 
 #: ext/gsettings/org.freedesktop.gstreamer.default-elements.gschema.xml.in:45
 msgid ""
@@ -79,18 +87,22 @@ msgid ""
 "choices are xvimagesink, ximagesink, sdlvideosink and aasink. The videosink "
 "can be a partial pipeline instead of just one element."
 msgstr ""
+"O GStreamer pode reproduzir vídeo utilizando qualquer quantidade de "
+"elementos de saída. Algumas das opções possíveis são xvimagesink, "
+"ximagesink, sdlvideosink e aasink. O videosink pode ser uma fila de "
+"processamento parcial em vez de apenas um elemento."
 
 #: ext/gsettings/org.freedesktop.gstreamer.default-elements.gschema.xml.in:52
 msgid "description for default GStreamer videosink"
-msgstr ""
+msgstr "descrição para o videosink do GStreamer pré-definido"
 
 #: ext/gsettings/org.freedesktop.gstreamer.default-elements.gschema.xml.in:53
 msgid "Describes the selected videosink element."
-msgstr ""
+msgstr "Descreve o elemento videosink selecionado."
 
 #: ext/gsettings/org.freedesktop.gstreamer.default-elements.gschema.xml.in:57
 msgid "default GStreamer audiosrc"
-msgstr ""
+msgstr "audiosrc do GStreamer pré-definido"
 
 #: ext/gsettings/org.freedesktop.gstreamer.default-elements.gschema.xml.in:58
 msgid ""
@@ -98,18 +110,22 @@ msgid ""
 "choices are osssrc, pulsesrc and alsasrc. The audio source can be a partial "
 "pipeline instead of just one element."
 msgstr ""
+"O GStreamer pode gravar áudio utilizando qualquer quantidade de elementos de "
+"entrada. Algumas das opções possíveis são osssrc, pulsesrc e alsasrc. A "
+"fonte de áudio pode ser uma fila de processamento parcial em vez de apenas "
+"um elemento."
 
 #: ext/gsettings/org.freedesktop.gstreamer.default-elements.gschema.xml.in:65
 msgid "description for default GStreamer audiosrc"
-msgstr ""
+msgstr "descrição para o audiosrc do GStreamer pré-definido"
 
 #: ext/gsettings/org.freedesktop.gstreamer.default-elements.gschema.xml.in:66
 msgid "Describes the selected audiosrc element."
-msgstr ""
+msgstr "Descreve o elemento audiosrc selecionado."
 
 #: ext/gsettings/org.freedesktop.gstreamer.default-elements.gschema.xml.in:70
 msgid "default GStreamer videosrc"
-msgstr ""
+msgstr "videosrc do GStreamer pré-definido"
 
 #: ext/gsettings/org.freedesktop.gstreamer.default-elements.gschema.xml.in:71
 msgid ""
@@ -117,18 +133,22 @@ msgid ""
 "choices are v4lsrc, v4l2src and videotestsrc. The video source can be a "
 "partial pipeline instead of just one element."
 msgstr ""
+"O GStreamer pode gravar vídeo de qualquer quantidade de elementos de "
+"entrada. Algumas das opções possíveis são v4lsrc, v4l2src e videotestsrc. A "
+"fonte de vídeo pode ser uma fila de processamento parcial em vez de apenas "
+"um elemento."
 
 #: ext/gsettings/org.freedesktop.gstreamer.default-elements.gschema.xml.in:77
 msgid "description for default GStreamer videosrc"
-msgstr ""
+msgstr "descrição para o videosrc do GStreamer pré-definido"
 
 #: ext/gsettings/org.freedesktop.gstreamer.default-elements.gschema.xml.in:78
 msgid "Describes the selected videosrc element."
-msgstr ""
+msgstr "Descreve o elemento videosrc selecionado."
 
 #: ext/gsettings/org.freedesktop.gstreamer.default-elements.gschema.xml.in:82
 msgid "default GStreamer visualization"
-msgstr ""
+msgstr "visualização do GStreamer pré-definida"
 
 #: ext/gsettings/org.freedesktop.gstreamer.default-elements.gschema.xml.in:83
 msgid ""
@@ -137,14 +157,18 @@ msgid ""
 "synaesthesia. The visualization plugin can be a partial pipeline instead of "
 "just one element."
 msgstr ""
+"O GStreamer pode colocar plugins de visualização numa fila de processamento "
+"para transformar fluxos de áudio em quadros de vídeo. Algumas das opções "
+"possíveis são goom, goom2k1 e synaesthesia. O plugin de visualização pode "
+"ser uma fila de processamento parcial em vez de apenas um elemento."
 
 #: ext/gsettings/org.freedesktop.gstreamer.default-elements.gschema.xml.in:90
 msgid "description for default GStreamer visualization"
-msgstr ""
+msgstr "descrição da visualização do GStreamer pré-definida"
 
 #: ext/gsettings/org.freedesktop.gstreamer.default-elements.gschema.xml.in:91
 msgid "Describes the selected visualization element."
-msgstr ""
+msgstr "Descreve o elemento de visualização selecionado."
 
 #: ext/resindvd/resindvdsrc.c:362
 msgid "Could not read title information for DVD."
