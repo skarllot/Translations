@@ -9,9 +9,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gst-plugins-good-1.2.1\n"
+"Project-Id-Version: gst-plugins-good-1.3.2\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
-"POT-Creation-Date: 2013-11-09 15:36+0100\n"
+"POT-Creation-Date: 2014-05-21 12:10+0200\n"
 "PO-Revision-Date: 2013-12-29 17:48-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
@@ -22,106 +22,106 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ext/jack/gstjackaudiosink.c:358 ext/jack/gstjackaudiosrc.c:366
+#: ext/jack/gstjackaudiosink.c:356 ext/jack/gstjackaudiosrc.c:364
 msgid "Jack server not found"
 msgstr "Servidor Jack não encontrado"
 
-#: ext/jpeg/gstjpegdec.c:921 ext/jpeg/gstjpegdec.c:1169
-#: ext/jpeg/gstjpegdec.c:1181 ext/jpeg/gstjpegdec.c:1210
-#: ext/jpeg/gstjpegdec.c:1219 ext/jpeg/gstjpegdec.c:1228
-#: ext/jpeg/gstjpegdec.c:1236
+#: ext/jpeg/gstjpegdec.c:923 ext/jpeg/gstjpegdec.c:1171
+#: ext/jpeg/gstjpegdec.c:1183 ext/jpeg/gstjpegdec.c:1211
+#: ext/jpeg/gstjpegdec.c:1220 ext/jpeg/gstjpegdec.c:1229
+#: ext/jpeg/gstjpegdec.c:1237
 msgid "Failed to decode JPEG image"
 msgstr "Falha ao decodificar a imagem JPEG"
 
 #. TRANSLATORS: 'song title' by 'artist name'
-#: ext/pulse/pulsesink.c:3189
+#: ext/pulse/pulsesink.c:3079
 #, c-format
 msgid "'%s' by '%s'"
 msgstr "\"%s\" por \"%s\""
 
-#: ext/shout2/gstshout2.c:549
+#: ext/shout2/gstshout2.c:567
 msgid "Could not connect to server"
 msgstr "Não foi possível conectar ao servidor"
 
-#: ext/soup/gstsouphttpsrc.c:659
+#: ext/soup/gstsouphttpsrc.c:859
 msgid "No URL set."
 msgstr "Nenhum URL definido."
 
-#: ext/soup/gstsouphttpsrc.c:887
+#: ext/soup/gstsouphttpsrc.c:1146
 msgid "Server does not support seeking."
 msgstr "Nâo há suporte a busca pelo servidor."
 
-#: ext/soup/gstsouphttpsrc.c:1142
+#: ext/soup/gstsouphttpsrc.c:1420
 msgid "Could not resolve server name."
 msgstr "Não foi possível resolver o nome do servidor."
 
-#: ext/soup/gstsouphttpsrc.c:1148
+#: ext/soup/gstsouphttpsrc.c:1426
 msgid "Could not establish connection to server."
 msgstr "Não foi possível estabelecer uma conexão com servidor."
 
-#: ext/soup/gstsouphttpsrc.c:1153
+#: ext/soup/gstsouphttpsrc.c:1431
 msgid "Secure connection setup failed."
 msgstr "Configuração de conexão segura falhou."
 
-#: ext/soup/gstsouphttpsrc.c:1158
+#: ext/soup/gstsouphttpsrc.c:1441
 msgid ""
 "A network error occured, or the server closed the connection unexpectedly."
 msgstr ""
 "Um erro de rede ocorreu, ou o servidor fechou a conexão inesperadamente."
 
-#: ext/soup/gstsouphttpsrc.c:1164
+#: ext/soup/gstsouphttpsrc.c:1448
 msgid "Server sent bad data."
 msgstr "O servidor enviou dados ruins."
 
-#: gst/avi/gstavidemux.c:5382
+#: gst/avi/gstavidemux.c:5704
 msgid "Internal data stream error."
 msgstr "Erro interno no fluxo de dados."
 
-#: gst/avi/gstavimux.c:1808
+#: gst/avi/gstavimux.c:1816
 msgid "No or invalid input audio, AVI stream will be corrupt."
 msgstr "Entrada de áudio nula ou inválida, o fluxo AVI pode estar corrompido."
 
-#: gst/isomp4/qtdemux.c:567 gst/isomp4/qtdemux.c:571
+#: gst/isomp4/qtdemux.c:571 gst/isomp4/qtdemux.c:575
 msgid "This file contains no playable streams."
 msgstr "Este arquivo não contêm fluxos reproduzíveis."
 
-#: gst/isomp4/qtdemux.c:617 gst/isomp4/qtdemux.c:4603
-#: gst/isomp4/qtdemux.c:4670 gst/isomp4/qtdemux.c:4872
+#: gst/isomp4/qtdemux.c:621 gst/isomp4/qtdemux.c:4705
+#: gst/isomp4/qtdemux.c:4772 gst/isomp4/qtdemux.c:5008
 msgid "This file is invalid and cannot be played."
 msgstr "Este arquivo é inválido e não pôde ser reproduzido."
 
-#: gst/isomp4/qtdemux.c:2282
+#: gst/isomp4/qtdemux.c:2301
 msgid "Cannot play stream because it is encrypted with PlayReady DRM."
 msgstr ""
 "Não foi possível reproduzir o fluxo por estar criptografado com PlayReady "
 "DRM."
 
-#: gst/isomp4/qtdemux.c:2847 gst/isomp4/qtdemux.c:2923
-#: gst/isomp4/qtdemux.c:2966 gst/isomp4/qtdemux.c:5548
-#: gst/isomp4/qtdemux.c:5555 gst/isomp4/qtdemux.c:6197
-#: gst/isomp4/qtdemux.c:6633 gst/isomp4/qtdemux.c:6640
-#: gst/isomp4/qtdemux.c:8444
+#: gst/isomp4/qtdemux.c:2864 gst/isomp4/qtdemux.c:2940
+#: gst/isomp4/qtdemux.c:2983 gst/isomp4/qtdemux.c:5710
+#: gst/isomp4/qtdemux.c:5717 gst/isomp4/qtdemux.c:6359
+#: gst/isomp4/qtdemux.c:6788 gst/isomp4/qtdemux.c:6795
+#: gst/isomp4/qtdemux.c:8627
 msgid "This file is corrupt and cannot be played."
 msgstr "Este arquivo está corrompido e não pôde ser reproduzido."
 
-#: gst/isomp4/qtdemux.c:3057
+#: gst/isomp4/qtdemux.c:3074
 msgid "Invalid atom size."
 msgstr "Tamanho de Atom inválido."
 
-#: gst/isomp4/qtdemux.c:3125
+#: gst/isomp4/qtdemux.c:3142
 msgid "This file is incomplete and cannot be played."
 msgstr "Este arquivo está incompleto e não pôde ser reproduzido."
 
-#: gst/isomp4/qtdemux.c:7296
+#: gst/isomp4/qtdemux.c:7448
 msgid "The video in this file might not play correctly."
 msgstr "O vídeo neste arquivo pode não ser reproduzido corretamente."
 
-#: gst/isomp4/qtdemux.c:8481
+#: gst/isomp4/qtdemux.c:8668
 #, c-format
 msgid "This file contains too many streams. Only playing first %d"
 msgstr "Este arquivo contêm muitos fluxos. Apenas reproduzindo o primeiro %d"
 
-#: gst/rtsp/gstrtspsrc.c:5788
+#: gst/rtsp/gstrtspsrc.c:6306
 msgid ""
 "No supported stream was found. You might need to install a GStreamer RTSP "
 "extension plugin for Real media streams."
@@ -129,7 +129,7 @@ msgstr ""
 "Nenhum fluxo com suporte foi localizado. Você pode precisar instalar um plug-"
 "in de extensão GStreamer RTSP para fluxos Real media."
 
-#: gst/rtsp/gstrtspsrc.c:5793
+#: gst/rtsp/gstrtspsrc.c:6311
 msgid ""
 "No supported stream was found. You might need to allow more transport "
 "protocols or may otherwise be missing the right GStreamer RTSP extension "
@@ -139,11 +139,11 @@ msgstr ""
 "protocolos de transporte sejam permitidos ou senão o plug-in de extensão "
 "GStreamer RTSP pode estar incorreto."
 
-#: gst/wavparse/gstwavparse.c:2457
+#: gst/wavparse/gstwavparse.c:2167
 msgid "Internal data flow error."
 msgstr "Erro interno no fluxo de dados."
 
-#: sys/oss4/oss4-sink.c:495 sys/oss4/oss4-source.c:360
+#: sys/oss4/oss4-sink.c:493 sys/oss4/oss4-source.c:358
 #: sys/oss/gstosssink.c:384
 msgid ""
 "Could not open audio device for playback. Device is being used by another "
@@ -152,7 +152,7 @@ msgstr ""
 "Não foi possível abrir o dispositivo de áudio para reprodução. O dispositivo "
 "está sendo usado por outro aplicativo."
 
-#: sys/oss4/oss4-sink.c:505 sys/oss4/oss4-source.c:370
+#: sys/oss4/oss4-sink.c:503 sys/oss4/oss4-source.c:368
 #: sys/oss/gstosssink.c:391
 msgid ""
 "Could not open audio device for playback. You don't have permission to open "
@@ -161,12 +161,12 @@ msgstr ""
 "Não foi possível abrir o dispositivo de áudio para reprodução. Você não tem "
 "permissão para abrir o dispositivo."
 
-#: sys/oss4/oss4-sink.c:516 sys/oss4/oss4-source.c:381
+#: sys/oss4/oss4-sink.c:514 sys/oss4/oss4-source.c:379
 #: sys/oss/gstosssink.c:399
 msgid "Could not open audio device for playback."
 msgstr "Não foi possível abrir o dispositivo de áudio para reprodução."
 
-#: sys/oss4/oss4-sink.c:525 sys/oss4/oss4-source.c:391
+#: sys/oss4/oss4-sink.c:523 sys/oss4/oss4-source.c:389
 msgid ""
 "Could not open audio device for playback. This version of the Open Sound "
 "System is not supported by this element."
@@ -174,19 +174,19 @@ msgstr ""
 "Não foi possível abrir o dispositivo de áudio para reprodução. Não há "
 "suporte a este elemento nesta versão do Sistema Aberto de Som (OSS)."
 
-#: sys/oss4/oss4-sink.c:648
+#: sys/oss4/oss4-sink.c:646
 msgid "Playback is not supported by this audio device."
 msgstr "Não há suporte a reprodução por este dispositivo de áudio."
 
-#: sys/oss4/oss4-sink.c:655
+#: sys/oss4/oss4-sink.c:653
 msgid "Audio playback error."
 msgstr "Erro de reprodução de áudio."
 
-#: sys/oss4/oss4-source.c:505
+#: sys/oss4/oss4-source.c:503
 msgid "Recording is not supported by this audio device."
 msgstr "Não há suporte a gravação por este dispositivo de áudio."
 
-#: sys/oss4/oss4-source.c:512
+#: sys/oss4/oss4-source.c:510
 msgid "Error recording from audio device."
 msgstr "Erro ao gravar do dispositivo de áudio."
 
@@ -274,12 +274,12 @@ msgstr "Saída aux. 1"
 msgid "AUX 2 Out"
 msgstr "Saída aux. 2"
 
-#: sys/v4l2/gstv4l2bufferpool.c:1168
+#: sys/v4l2/gstv4l2bufferpool.c:1476
 #, c-format
 msgid "Error reading %d bytes from device '%s'."
 msgstr "Erro ao ler %d bytes do dispositivo \"%s\"."
 
-#: sys/v4l2/gstv4l2object.c:1262
+#: sys/v4l2/gstv4l2object.c:1062
 #, c-format
 msgid "Failed to enumerate possible video formats device '%s' can work with"
 msgstr ""
@@ -303,38 +303,76 @@ msgstr ""
 "O driver do dispositivo \"%s\" não tem suporte a nenhum método conhecido de "
 "E/S."
 
-#: sys/v4l2/gstv4l2object.c:2500
+#: sys/v4l2/gstv4l2object.c:2805
 #, c-format
 msgid "Device '%s' does not support video capture"
 msgstr "O dispositivo \"%s\" não tem suporte a captura de vídeo"
 
-#: sys/v4l2/gstv4l2object.c:2509
+#: sys/v4l2/gstv4l2object.c:2814
 #, c-format
 msgid "Device '%s' is busy"
 msgstr "O dispositivo \"%s\" está ocupado"
 
-#: sys/v4l2/gstv4l2object.c:2515 sys/v4l2/gstv4l2object.c:2526
+#: sys/v4l2/gstv4l2object.c:2820 sys/v4l2/gstv4l2object.c:2831
 #, c-format
 msgid "Device '%s' cannot capture at %dx%d"
 msgstr "O dispositivo \"%s\" não realiza captura a %dx%d"
 
-#: sys/v4l2/gstv4l2object.c:2535
+#: sys/v4l2/gstv4l2object.c:2840
 #, c-format
 msgid "Device '%s' cannot capture in the specified format"
 msgstr "O dispositivo \"%s\" não realiza captura no formato especificado"
 
-#: sys/v4l2/gstv4l2object.c:2548
+#: sys/v4l2/gstv4l2object.c:2851
+#, fuzzy, c-format
+#| msgid "Device '%s' does not support video capture"
+msgid "Device '%s' does support non-contiguous planes"
+msgstr "O dispositivo \"%s\" não tem suporte a captura de vídeo"
+
+#: sys/v4l2/gstv4l2object.c:2861
 #, c-format
 msgid "Could not get parameters on device '%s'"
 msgstr "Não foi possível obter os parâmetros no dispositivo \"%s\""
 
-#: sys/v4l2/gstv4l2object.c:2556
+#: sys/v4l2/gstv4l2object.c:2869
 msgid "Video device did not accept new frame rate setting."
 msgstr "O dispositivo de vídeo não aceita definir uma nova taxa de quadros."
 
-#: sys/v4l2/gstv4l2object.c:2563
-msgid "Video device could not create buffer pool."
+#: sys/v4l2/gstv4l2object.c:2962
+#, fuzzy
+#| msgid "Video device did not accept new frame rate setting."
+msgid "Video device did not provide output format."
+msgstr "O dispositivo de vídeo não aceita definir uma nova taxa de quadros."
+
+#: sys/v4l2/gstv4l2object.c:2968
+msgid "Video device returned invalid dimensions."
+msgstr ""
+
+#: sys/v4l2/gstv4l2object.c:2976
+#, fuzzy
+#| msgid "The driver of device '%s' does not support the IO method %d"
+msgid "Video devices uses an unsupported interlacing method."
+msgstr "O driver do dispositivo \"%s\" não tem suporte ao método %d de E/S"
+
+#: sys/v4l2/gstv4l2object.c:2983
+msgid "Video devices uses an unsupported pixel format."
+msgstr ""
+
+#: sys/v4l2/gstv4l2object.c:3364
+#, fuzzy
+#| msgid "Video device could not create buffer pool."
+msgid "Failed to configure internal buffer pool."
 msgstr "O dispositivo de vídeo não pôde reservar um buffer."
+
+#: sys/v4l2/gstv4l2object.c:3370
+#, fuzzy
+#| msgid "Video device could not create buffer pool."
+msgid "Video device did not suggest any buffer size."
+msgstr "O dispositivo de vídeo não pôde reservar um buffer."
+
+#: sys/v4l2/gstv4l2object.c:3382
+msgid "No downstream pool to import from."
+msgstr ""
 
 #: sys/v4l2/gstv4l2radio.c:138
 #, c-format
@@ -356,7 +394,7 @@ msgstr "O dispositivo \"%s\" não é um sintonizador."
 msgid "Failed to get radio input on device '%s'. "
 msgstr "Falha ao obter a entrada de rádio do dispositivo \"%s\"."
 
-#: sys/v4l2/gstv4l2radio.c:202 sys/v4l2/v4l2_calls.c:956
+#: sys/v4l2/gstv4l2radio.c:202 sys/v4l2/v4l2_calls.c:1092
 #, c-format
 msgid "Failed to set input %d on device %s."
 msgstr "Falha ao definir a entrada %d no dispositivo %s."
@@ -366,12 +404,7 @@ msgstr "Falha ao definir a entrada %d no dispositivo %s."
 msgid "Failed to change mute state for device '%s'."
 msgstr "Falha ao alternar entre com e sem áudio para o dispositivo \"%s\"."
 
-#: sys/v4l2/gstv4l2videooverlay.c:103 sys/v4l2/v4l2_calls.c:559
-#, c-format
-msgid "Cannot identify device '%s'."
-msgstr "O dispositivo \"%s\" não pôde ser identificado."
-
-#: sys/v4l2/v4l2_calls.c:96
+#: sys/v4l2/v4l2_calls.c:89
 #, c-format
 msgid ""
 "Error getting capabilities for device '%s': It isn't a v4l2 driver. Check if "
@@ -380,86 +413,103 @@ msgstr ""
 "Erro ao obter recursos do dispositivo \"%s\": Ele não é um driver v4l2. "
 "Verifique se ele é um driver v4l1."
 
-#: sys/v4l2/v4l2_calls.c:137
+#: sys/v4l2/v4l2_calls.c:153
 #, c-format
 msgid "Failed to query attributes of input %d in device %s"
 msgstr "Falha ao examinar os atributos da entrada %d no dispositivo %s"
 
-#: sys/v4l2/v4l2_calls.c:168
+#: sys/v4l2/v4l2_calls.c:184
 #, c-format
 msgid "Failed to get setting of tuner %d on device '%s'."
 msgstr "Falha ao obter configurações do sintonizador %d no dispositivo \"%s\"."
 
-#: sys/v4l2/v4l2_calls.c:212
+#: sys/v4l2/v4l2_calls.c:232
 #, c-format
 msgid "Failed to query norm on device '%s'."
 msgstr "Falha ao examinar as normas no dispositivo \"%s\"."
 
-#: sys/v4l2/v4l2_calls.c:408
+#: sys/v4l2/v4l2_calls.c:411
 #, c-format
 msgid "Failed getting controls attributes on device '%s'."
 msgstr "Falha ao obter atributos de controle no dispositivo \"%s\"."
 
-#: sys/v4l2/v4l2_calls.c:566
+#: sys/v4l2/v4l2_calls.c:616
+#, c-format
+msgid "Cannot identify device '%s'."
+msgstr "O dispositivo \"%s\" não pôde ser identificado."
+
+#: sys/v4l2/v4l2_calls.c:623
 #, c-format
 msgid "This isn't a device '%s'."
 msgstr "\"%s\" não é um dispositivo."
 
-#: sys/v4l2/v4l2_calls.c:573
+#: sys/v4l2/v4l2_calls.c:630
 #, c-format
 msgid "Could not open device '%s' for reading and writing."
 msgstr "Não foi possível abrir o dispositivo \"%s\" para leitura e gravação."
 
-#: sys/v4l2/v4l2_calls.c:580
+#: sys/v4l2/v4l2_calls.c:637
 #, c-format
 msgid "Device '%s' is not a capture device."
 msgstr "O dispositivo \"%s\" não é um dispositivo de captura."
 
-#: sys/v4l2/v4l2_calls.c:588
+#: sys/v4l2/v4l2_calls.c:645
 #, c-format
 msgid "Device '%s' is not a output device."
 msgstr "O dispositivo \"%s\" não é um dispositivo de saída."
 
-#: sys/v4l2/v4l2_calls.c:687
+#: sys/v4l2/v4l2_calls.c:653
+#, fuzzy, c-format
+#| msgid "Device '%s' is not a output device."
+msgid "Device '%s' is not a M2M device."
+msgstr "O dispositivo \"%s\" não é um dispositivo de saída."
+
+#: sys/v4l2/v4l2_calls.c:715
+#, fuzzy, c-format
+#| msgid "Could not open device '%s' for reading and writing."
+msgid "Could not dup device '%s' for reading and writing."
+msgstr "Não foi possível abrir o dispositivo \"%s\" para leitura e gravação."
+
+#: sys/v4l2/v4l2_calls.c:802
 #, c-format
 msgid "Failed to set norm for device '%s'."
 msgstr "Falha ao definir as normas para o dispositivo \"%s\"."
 
-#: sys/v4l2/v4l2_calls.c:725
+#: sys/v4l2/v4l2_calls.c:840
 #, c-format
 msgid "Failed to get current tuner frequency for device '%s'."
 msgstr "Falha ao obter a freqüência do sintonizador para o dispositivo \"%s\"."
 
-#: sys/v4l2/v4l2_calls.c:767
+#: sys/v4l2/v4l2_calls.c:882
 #, c-format
 msgid "Failed to set current tuner frequency for device '%s' to %lu Hz."
 msgstr ""
 "Falha ao definir a freqüência do sintonizador para o dispositivo \"%s\" à "
 "%lu Hz."
 
-#: sys/v4l2/v4l2_calls.c:801
+#: sys/v4l2/v4l2_calls.c:916
 #, c-format
 msgid "Failed to get signal strength for device '%s'."
 msgstr "Falha ao obter a força do sinal para o dispositivo \"%s\"."
 
-#: sys/v4l2/v4l2_calls.c:837
+#: sys/v4l2/v4l2_calls.c:952
 #, c-format
 msgid "Failed to get value for control %d on device '%s'."
 msgstr "Falha ao obter o valor para o controle %d no dispositivo \"%s\"."
 
-#: sys/v4l2/v4l2_calls.c:872
+#: sys/v4l2/v4l2_calls.c:987
 #, c-format
 msgid "Failed to set value %d for control %d on device '%s'."
 msgstr "Falha ao definir o valor %d para o controle %d no dispositivo \"%s\"."
 
-#: sys/v4l2/v4l2_calls.c:931
+#: sys/v4l2/v4l2_calls.c:1067
 #, c-format
 msgid "Failed to get current input on device '%s'. May be it is a radio device"
 msgstr ""
 "Falha ao obter a entrada atual no dispositivo \"%s\". Talvez seja um "
 "dispositivo de rádio"
 
-#: sys/v4l2/v4l2_calls.c:988
+#: sys/v4l2/v4l2_calls.c:1124
 #, c-format
 msgid ""
 "Failed to get current output on device '%s'. May be it is a radio device"
@@ -467,7 +517,7 @@ msgstr ""
 "Falha ao obter a saída atual no dispositivo \"%s\". Talvez seja um "
 "dispositivo de rádio"
 
-#: sys/v4l2/v4l2_calls.c:1013
+#: sys/v4l2/v4l2_calls.c:1149
 #, c-format
 msgid "Failed to set output %d on device %s."
 msgstr "Falha ao definir a saída %d no dispositivo %s."
