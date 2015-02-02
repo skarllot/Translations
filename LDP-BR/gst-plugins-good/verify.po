@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: gst-plugins-good-1.1.4\n"
+"Project-Id-Version: gst-plugins-good-1.3.2\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
-"POT-Creation-Date: 2013-08-28 12:49+0200\n"
-"PO-Revision-Date: 2013-12-29 17:48-0200\n"
+"POT-Creation-Date: 2014-05-21 12:10+0200\n"
+"PO-Revision-Date: 2015-02-01 22:25-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-"
 "translation@lists.sourceforge.net>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.9.0\n"
 
 # (pofilter) simplecaps: Different capitalization
-#: ext/jack/gstjackaudiosink.c:358 ext/jack/gstjackaudiosrc.c:366
+#: ext/jack/gstjackaudiosink.c:356 ext/jack/gstjackaudiosrc.c:364
 msgid "Jack server not found"
 msgstr "Servidor Jack não encontrado"
 
@@ -23,18 +23,18 @@ msgstr "Servidor Jack não encontrado"
 # (pofilter) doublequoting: Different quotation marks
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: 'song title' by 'artist name'
-#: ext/pulse/pulsesink.c:3189
+#: ext/pulse/pulsesink.c:3079
 #, c-format
 msgid "'%s' by '%s'"
 msgstr "\"%s\" por \"%s\""
 
 # (pofilter) simplecaps: Different capitalization
-#: gst/isomp4/qtdemux.c:3026
+#: gst/isomp4/qtdemux.c:3074
 msgid "Invalid atom size."
 msgstr "Tamanho de Atom inválido."
 
 # (pofilter) brackets: Added '(', ')'
-#: sys/oss4/oss4-sink.c:525 sys/oss4/oss4-source.c:391
+#: sys/oss4/oss4-sink.c:523 sys/oss4/oss4-source.c:389
 msgid ""
 "Could not open audio device for playback. This version of the Open Sound "
 "System is not supported by this element."
@@ -84,14 +84,14 @@ msgstr "Saída aux. 2"
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: sys/v4l2/gstv4l2bufferpool.c:1136
+#: sys/v4l2/gstv4l2bufferpool.c:1476
 #, c-format
 msgid "Error reading %d bytes from device '%s'."
 msgstr "Erro ao ler %d bytes do dispositivo \"%s\"."
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: sys/v4l2/gstv4l2object.c:1262
+#: sys/v4l2/gstv4l2object.c:1062
 #, c-format
 msgid "Failed to enumerate possible video formats device '%s' can work with"
 msgstr ""
@@ -125,35 +125,43 @@ msgstr ""
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: sys/v4l2/gstv4l2object.c:2500
+#: sys/v4l2/gstv4l2object.c:2805
 #, c-format
 msgid "Device '%s' does not support video capture"
 msgstr "O dispositivo \"%s\" não tem suporte a captura de vídeo"
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: sys/v4l2/gstv4l2object.c:2509
+#: sys/v4l2/gstv4l2object.c:2814
 #, c-format
 msgid "Device '%s' is busy"
 msgstr "O dispositivo \"%s\" está ocupado"
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: sys/v4l2/gstv4l2object.c:2515 sys/v4l2/gstv4l2object.c:2526
+#: sys/v4l2/gstv4l2object.c:2820 sys/v4l2/gstv4l2object.c:2831
 #, c-format
 msgid "Device '%s' cannot capture at %dx%d"
 msgstr "O dispositivo \"%s\" não realiza captura a %dx%d"
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: sys/v4l2/gstv4l2object.c:2535
+#: sys/v4l2/gstv4l2object.c:2840
 #, c-format
 msgid "Device '%s' cannot capture in the specified format"
 msgstr "O dispositivo \"%s\" não realiza captura no formato especificado"
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: sys/v4l2/gstv4l2object.c:2548
+#: sys/v4l2/gstv4l2object.c:2851
+#, c-format
+msgid "Device '%s' does support non-contiguous planes"
+msgstr ""
+"O dispositivo \"%s\" não tem suporte a planos de sobreposição não-contínuos"
+
+# (pofilter) singlequoting: Different quotation marks
+# (pofilter) doublequoting: Different quotation marks
+#: sys/v4l2/gstv4l2object.c:2861
 #, c-format
 msgid "Could not get parameters on device '%s'"
 msgstr "Não foi possível obter os parâmetros no dispositivo \"%s\""
@@ -196,14 +204,7 @@ msgstr "Falha ao alternar entre com e sem áudio para o dispositivo \"%s\"."
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: sys/v4l2/gstv4l2videooverlay.c:103 sys/v4l2/v4l2_calls.c:559
-#, c-format
-msgid "Cannot identify device '%s'."
-msgstr "O dispositivo \"%s\" não pôde ser identificado."
-
-# (pofilter) singlequoting: Different quotation marks
-# (pofilter) doublequoting: Different quotation marks
-#: sys/v4l2/v4l2_calls.c:96
+#: sys/v4l2/v4l2_calls.c:89
 #, c-format
 msgid ""
 "Error getting capabilities for device '%s': It isn't a v4l2 driver. Check if "
@@ -214,73 +215,95 @@ msgstr ""
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: sys/v4l2/v4l2_calls.c:168
+#: sys/v4l2/v4l2_calls.c:184
 #, c-format
 msgid "Failed to get setting of tuner %d on device '%s'."
 msgstr "Falha ao obter configurações do sintonizador %d no dispositivo \"%s\"."
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: sys/v4l2/v4l2_calls.c:212
+#: sys/v4l2/v4l2_calls.c:232
 #, c-format
 msgid "Failed to query norm on device '%s'."
 msgstr "Falha ao examinar as normas no dispositivo \"%s\"."
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: sys/v4l2/v4l2_calls.c:408
+#: sys/v4l2/v4l2_calls.c:411
 #, c-format
 msgid "Failed getting controls attributes on device '%s'."
 msgstr "Falha ao obter atributos de controle no dispositivo \"%s\"."
+
+# (pofilter) singlequoting: Different quotation marks
+# (pofilter) doublequoting: Different quotation marks
+#: sys/v4l2/v4l2_calls.c:616
+#, c-format
+msgid "Cannot identify device '%s'."
+msgstr "O dispositivo \"%s\" não pôde ser identificado."
 
 # (pofilter) simplecaps: Different capitalization
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
 # (pofilter) startcaps: Different capitalization at the start
 # (pofilter) startpunc: Different punctuation at the start
-#: sys/v4l2/v4l2_calls.c:566
+#: sys/v4l2/v4l2_calls.c:623
 #, c-format
 msgid "This isn't a device '%s'."
 msgstr "\"%s\" não é um dispositivo."
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: sys/v4l2/v4l2_calls.c:573
+#: sys/v4l2/v4l2_calls.c:630
 #, c-format
 msgid "Could not open device '%s' for reading and writing."
 msgstr "Não foi possível abrir o dispositivo \"%s\" para leitura e gravação."
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: sys/v4l2/v4l2_calls.c:580
+#: sys/v4l2/v4l2_calls.c:637
 #, c-format
 msgid "Device '%s' is not a capture device."
 msgstr "O dispositivo \"%s\" não é um dispositivo de captura."
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: sys/v4l2/v4l2_calls.c:588
+#: sys/v4l2/v4l2_calls.c:645
 #, c-format
 msgid "Device '%s' is not a output device."
 msgstr "O dispositivo \"%s\" não é um dispositivo de saída."
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: sys/v4l2/v4l2_calls.c:687
+#: sys/v4l2/v4l2_calls.c:653
+#, c-format
+msgid "Device '%s' is not a M2M device."
+msgstr "O dispositivo \"%s\" não é um dispositivo M2M."
+
+# (pofilter) singlequoting: Different quotation marks
+# (pofilter) doublequoting: Different quotation marks
+#: sys/v4l2/v4l2_calls.c:715
+#, c-format
+msgid "Could not dup device '%s' for reading and writing."
+msgstr ""
+"Não foi possível duplicar o dispositivo \"%s\" para leitura e gravação."
+
+# (pofilter) singlequoting: Different quotation marks
+# (pofilter) doublequoting: Different quotation marks
+#: sys/v4l2/v4l2_calls.c:802
 #, c-format
 msgid "Failed to set norm for device '%s'."
 msgstr "Falha ao definir as normas para o dispositivo \"%s\"."
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: sys/v4l2/v4l2_calls.c:725
+#: sys/v4l2/v4l2_calls.c:840
 #, c-format
 msgid "Failed to get current tuner frequency for device '%s'."
 msgstr "Falha ao obter a freqüência do sintonizador para o dispositivo \"%s\"."
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: sys/v4l2/v4l2_calls.c:767
+#: sys/v4l2/v4l2_calls.c:882
 #, c-format
 msgid "Failed to set current tuner frequency for device '%s' to %lu Hz."
 msgstr ""
@@ -289,28 +312,28 @@ msgstr ""
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: sys/v4l2/v4l2_calls.c:801
+#: sys/v4l2/v4l2_calls.c:916
 #, c-format
 msgid "Failed to get signal strength for device '%s'."
 msgstr "Falha ao obter a força do sinal para o dispositivo \"%s\"."
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: sys/v4l2/v4l2_calls.c:837
+#: sys/v4l2/v4l2_calls.c:952
 #, c-format
 msgid "Failed to get value for control %d on device '%s'."
 msgstr "Falha ao obter o valor para o controle %d no dispositivo \"%s\"."
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: sys/v4l2/v4l2_calls.c:872
+#: sys/v4l2/v4l2_calls.c:987
 #, c-format
 msgid "Failed to set value %d for control %d on device '%s'."
 msgstr "Falha ao definir o valor %d para o controle %d no dispositivo \"%s\"."
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: sys/v4l2/v4l2_calls.c:931
+#: sys/v4l2/v4l2_calls.c:1067
 #, c-format
 msgid "Failed to get current input on device '%s'. May be it is a radio device"
 msgstr ""
@@ -319,7 +342,7 @@ msgstr ""
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: sys/v4l2/v4l2_calls.c:988
+#: sys/v4l2/v4l2_calls.c:1124
 #, c-format
 msgid ""
 "Failed to get current output on device '%s'. May be it is a radio device"

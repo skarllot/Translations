@@ -1,18 +1,20 @@
 # Brazilian Portuguese translation of gst-plugins-good.
 # This file is distributed under the same license as the gst-plugins-good package.
-# Copyright (C) 2008-2013 Free Software Foundation, Inc.
-# Fabrício Godoy <skarllot@gmail.com>, 2008-2013.
+# Copyright (C) 2008-2015 Free Software Foundation, Inc.
+# Fabrício Godoy <skarllot@gmail.com>, 2008-2015.
 #
 # data flow -> fluxo de dados
 # streaming -> fluxo contínuo
 # clock -> temporizador
+# plane (overlay plane) -> plano de sobreposição
+# pool -> coleção, conjunto, agrupamento
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gst-plugins-good-1.3.2\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2014-05-21 12:10+0200\n"
-"PO-Revision-Date: 2013-12-29 17:48-0200\n"
+"PO-Revision-Date: 2015-02-01 22:25-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
 "net>\n"
@@ -324,10 +326,10 @@ msgid "Device '%s' cannot capture in the specified format"
 msgstr "O dispositivo \"%s\" não realiza captura no formato especificado"
 
 #: sys/v4l2/gstv4l2object.c:2851
-#, fuzzy, c-format
-#| msgid "Device '%s' does not support video capture"
+#, c-format
 msgid "Device '%s' does support non-contiguous planes"
-msgstr "O dispositivo \"%s\" não tem suporte a captura de vídeo"
+msgstr ""
+"O dispositivo \"%s\" não tem suporte a planos de sobreposição não-contínuos"
 
 #: sys/v4l2/gstv4l2object.c:2861
 #, c-format
@@ -339,40 +341,33 @@ msgid "Video device did not accept new frame rate setting."
 msgstr "O dispositivo de vídeo não aceita definir uma nova taxa de quadros."
 
 #: sys/v4l2/gstv4l2object.c:2962
-#, fuzzy
-#| msgid "Video device did not accept new frame rate setting."
 msgid "Video device did not provide output format."
-msgstr "O dispositivo de vídeo não aceita definir uma nova taxa de quadros."
+msgstr "O dispositivo de vídeo não forneceu um formato de saída."
 
 #: sys/v4l2/gstv4l2object.c:2968
 msgid "Video device returned invalid dimensions."
-msgstr ""
+msgstr "O dispositivo de vídeo retornou dimensões inválidas."
 
 #: sys/v4l2/gstv4l2object.c:2976
-#, fuzzy
-#| msgid "The driver of device '%s' does not support the IO method %d"
 msgid "Video devices uses an unsupported interlacing method."
-msgstr "O driver do dispositivo \"%s\" não tem suporte ao método %d de E/S"
+msgstr ""
+"Os dispositivos de vídeo utilizam um método de entrelaçamento não suportado."
 
 #: sys/v4l2/gstv4l2object.c:2983
 msgid "Video devices uses an unsupported pixel format."
-msgstr ""
+msgstr "Os dispositivos de vídeo utilizam um formato para pixel não suportado."
 
 #: sys/v4l2/gstv4l2object.c:3364
-#, fuzzy
-#| msgid "Video device could not create buffer pool."
 msgid "Failed to configure internal buffer pool."
-msgstr "O dispositivo de vídeo não pôde reservar um buffer."
+msgstr "Falha ao configurar uma coleção de buffer interno."
 
 #: sys/v4l2/gstv4l2object.c:3370
-#, fuzzy
-#| msgid "Video device could not create buffer pool."
 msgid "Video device did not suggest any buffer size."
-msgstr "O dispositivo de vídeo não pôde reservar um buffer."
+msgstr "O dispositivo de vídeo não sugeriu nenhum tamanho de buffer."
 
 #: sys/v4l2/gstv4l2object.c:3382
 msgid "No downstream pool to import from."
-msgstr ""
+msgstr "Nenhuma coleção de fluxo de recebimento para importar."
 
 #: sys/v4l2/gstv4l2radio.c:138
 #, c-format
@@ -459,16 +454,15 @@ msgid "Device '%s' is not a output device."
 msgstr "O dispositivo \"%s\" não é um dispositivo de saída."
 
 #: sys/v4l2/v4l2_calls.c:653
-#, fuzzy, c-format
-#| msgid "Device '%s' is not a output device."
+#, c-format
 msgid "Device '%s' is not a M2M device."
-msgstr "O dispositivo \"%s\" não é um dispositivo de saída."
+msgstr "O dispositivo \"%s\" não é um dispositivo M2M."
 
 #: sys/v4l2/v4l2_calls.c:715
-#, fuzzy, c-format
-#| msgid "Could not open device '%s' for reading and writing."
+#, c-format
 msgid "Could not dup device '%s' for reading and writing."
-msgstr "Não foi possível abrir o dispositivo \"%s\" para leitura e gravação."
+msgstr ""
+"Não foi possível duplicar o dispositivo \"%s\" para leitura e gravação."
 
 #: sys/v4l2/v4l2_calls.c:802
 #, c-format
