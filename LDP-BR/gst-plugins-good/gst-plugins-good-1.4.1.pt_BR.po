@@ -11,9 +11,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gst-plugins-good-1.3.90\n"
+"Project-Id-Version: gst-plugins-good-1.4.1\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
-"POT-Creation-Date: 2014-06-28 11:04+0200\n"
+"POT-Creation-Date: 2014-08-27 14:30+0300\n"
 "PO-Revision-Date: 2015-02-01 23:02-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
@@ -75,7 +75,7 @@ msgstr ""
 msgid "Server sent bad data."
 msgstr "O servidor enviou dados ruins."
 
-#: gst/avi/gstavidemux.c:5678
+#: gst/avi/gstavidemux.c:5677
 msgid "Internal data stream error."
 msgstr "Erro interno no fluxo de dados."
 
@@ -123,7 +123,7 @@ msgstr "O vídeo neste arquivo pode não ser reproduzido corretamente."
 msgid "This file contains too many streams. Only playing first %d"
 msgstr "Este arquivo contêm muitos fluxos. Apenas reproduzindo o primeiro %d"
 
-#: gst/rtsp/gstrtspsrc.c:6465
+#: gst/rtsp/gstrtspsrc.c:6469
 msgid ""
 "No supported stream was found. You might need to install a GStreamer RTSP "
 "extension plugin for Real media streams."
@@ -131,7 +131,7 @@ msgstr ""
 "Nenhum fluxo com suporte foi localizado. Você pode precisar instalar um plug-"
 "in de extensão GStreamer RTSP para fluxos Real media."
 
-#: gst/rtsp/gstrtspsrc.c:6470
+#: gst/rtsp/gstrtspsrc.c:6474
 msgid ""
 "No supported stream was found. You might need to allow more transport "
 "protocols or may otherwise be missing the right GStreamer RTSP extension "
@@ -141,7 +141,7 @@ msgstr ""
 "protocolos de transporte sejam permitidos ou senão o plug-in de extensão "
 "GStreamer RTSP pode estar incorreto."
 
-#: gst/wavparse/gstwavparse.c:2178
+#: gst/wavparse/gstwavparse.c:2177
 msgid "Internal data flow error."
 msgstr "Erro interno no fluxo de dados."
 
@@ -276,7 +276,7 @@ msgstr "Saída aux. 1"
 msgid "AUX 2 Out"
 msgstr "Saída aux. 2"
 
-#: sys/v4l2/gstv4l2bufferpool.c:1496
+#: sys/v4l2/gstv4l2bufferpool.c:1506
 #, c-format
 msgid "Error reading %d bytes from device '%s'."
 msgstr "Erro ao ler %d bytes do dispositivo \"%s\"."
@@ -288,84 +288,84 @@ msgstr ""
 "Falha ao relacionar os formatos de vídeo que o dispositivo \"%s\" oferece "
 "suporte"
 
-#: sys/v4l2/gstv4l2object.c:2293
+#: sys/v4l2/gstv4l2object.c:2292
 #, c-format
 msgid "Could not map buffers from device '%s'"
 msgstr "Não foi possível mapear buffers do dispositivo \"%s\""
 
-#: sys/v4l2/gstv4l2object.c:2301
+#: sys/v4l2/gstv4l2object.c:2300
 #, c-format
 msgid "The driver of device '%s' does not support the IO method %d"
 msgstr "O driver do dispositivo \"%s\" não tem suporte ao método %d de E/S"
 
-#: sys/v4l2/gstv4l2object.c:2308
+#: sys/v4l2/gstv4l2object.c:2307
 #, c-format
 msgid "The driver of device '%s' does not support any known IO method."
 msgstr ""
 "O driver do dispositivo \"%s\" não tem suporte a nenhum método conhecido de "
 "E/S."
 
-#: sys/v4l2/gstv4l2object.c:2801
+#: sys/v4l2/gstv4l2object.c:2800
 #, c-format
 msgid "Device '%s' does not support video capture"
 msgstr "O dispositivo \"%s\" não tem suporte a captura de vídeo"
 
-#: sys/v4l2/gstv4l2object.c:2810
+#: sys/v4l2/gstv4l2object.c:2809
 #, c-format
 msgid "Device '%s' is busy"
 msgstr "O dispositivo \"%s\" está ocupado"
 
-#: sys/v4l2/gstv4l2object.c:2816 sys/v4l2/gstv4l2object.c:2827
+#: sys/v4l2/gstv4l2object.c:2815 sys/v4l2/gstv4l2object.c:2826
 #, c-format
 msgid "Device '%s' cannot capture at %dx%d"
 msgstr "O dispositivo \"%s\" não realiza captura a %dx%d"
 
-#: sys/v4l2/gstv4l2object.c:2836
+#: sys/v4l2/gstv4l2object.c:2835
 #, c-format
 msgid "Device '%s' cannot capture in the specified format"
 msgstr "O dispositivo \"%s\" não realiza captura no formato especificado"
 
-#: sys/v4l2/gstv4l2object.c:2847
+#: sys/v4l2/gstv4l2object.c:2846
 #, c-format
 msgid "Device '%s' does support non-contiguous planes"
 msgstr ""
 "O dispositivo \"%s\" não tem suporte a planos de sobreposição não-contínuos"
 
-#: sys/v4l2/gstv4l2object.c:2857
+#: sys/v4l2/gstv4l2object.c:2856
 #, c-format
 msgid "Could not get parameters on device '%s'"
 msgstr "Não foi possível obter os parâmetros no dispositivo \"%s\""
 
-#: sys/v4l2/gstv4l2object.c:2865
+#: sys/v4l2/gstv4l2object.c:2864
 msgid "Video device did not accept new frame rate setting."
 msgstr "O dispositivo de vídeo não aceita definir uma nova taxa de quadros."
 
-#: sys/v4l2/gstv4l2object.c:2958
+#: sys/v4l2/gstv4l2object.c:2957
 msgid "Video device did not provide output format."
 msgstr "O dispositivo de vídeo não forneceu um formato de saída."
 
-#: sys/v4l2/gstv4l2object.c:2964
+#: sys/v4l2/gstv4l2object.c:2963
 msgid "Video device returned invalid dimensions."
 msgstr "O dispositivo de vídeo retornou dimensões inválidas."
 
-#: sys/v4l2/gstv4l2object.c:2972
+#: sys/v4l2/gstv4l2object.c:2971
 msgid "Video devices uses an unsupported interlacing method."
 msgstr ""
 "Os dispositivos de vídeo utilizam um método de entrelaçamento não suportado."
 
-#: sys/v4l2/gstv4l2object.c:2979
+#: sys/v4l2/gstv4l2object.c:2978
 msgid "Video devices uses an unsupported pixel format."
 msgstr "Os dispositivos de vídeo utilizam um formato para pixel não suportado."
 
-#: sys/v4l2/gstv4l2object.c:3392
+#: sys/v4l2/gstv4l2object.c:3393
 msgid "Failed to configure internal buffer pool."
 msgstr "Falha ao configurar uma coleção de buffer interno."
 
-#: sys/v4l2/gstv4l2object.c:3398
+#: sys/v4l2/gstv4l2object.c:3399
 msgid "Video device did not suggest any buffer size."
 msgstr "O dispositivo de vídeo não sugeriu nenhum tamanho de buffer."
 
-#: sys/v4l2/gstv4l2object.c:3413
+#: sys/v4l2/gstv4l2object.c:3414
 msgid "No downstream pool to import from."
 msgstr "Nenhuma coleção de fluxo de recebimento para importar."
 
@@ -403,6 +403,10 @@ msgstr "Falha ao alternar entre com e sem áudio para o dispositivo \"%s\"."
 msgid "Failed to allocated required memory."
 msgstr "Falha ao alocar a memória necessária."
 
+#: sys/v4l2/gstv4l2src.c:477 sys/v4l2/gstv4l2videodec.c:572
+msgid "Failed to allocate required memory."
+msgstr "Falha ao alocar a memória necessária."
+
 #: sys/v4l2/gstv4l2transform.c:143
 #, c-format
 msgid "Converter on device %s has no supported input format"
@@ -425,10 +429,6 @@ msgstr ""
 msgid "Encoder on device %s has no supported output format"
 msgstr ""
 "O codificador no dispositivo %s não tem um formato de saída com suporte"
-
-#: sys/v4l2/gstv4l2videodec.c:572
-msgid "Failed to allocate required memory."
-msgstr "Falha ao alocar a memória necessária."
 
 #: sys/v4l2/gstv4l2videodec.c:586
 msgid "Failed to start decoding thread."
@@ -555,11 +555,11 @@ msgstr ""
 msgid "Failed to set output %d on device %s."
 msgstr "Falha ao definir a saída %d no dispositivo %s."
 
-#: sys/ximage/gstximagesrc.c:790
+#: sys/ximage/gstximagesrc.c:795
 msgid "Changing resolution at runtime is not yet supported."
 msgstr "Ainda não há suporte a mudança de resolução enquanto está executando."
 
-#: sys/ximage/gstximagesrc.c:804
+#: sys/ximage/gstximagesrc.c:809
 msgid "Cannot operate without a clock"
 msgstr "Não é possível operar sem um temporizador"
 
