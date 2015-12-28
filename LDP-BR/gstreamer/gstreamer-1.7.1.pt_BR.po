@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: gstreamer-1.7.1\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2015-12-24 12:45+0100\n"
-"PO-Revision-Date: 2015-12-28 20:49-0200\n"
+"PO-Revision-Date: 2015-12-28 20:54-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
 "net>\n"
@@ -1072,11 +1072,11 @@ msgstr "Número MIDI da nota da trilha de áudio."
 
 #: gst/gsttaglist.c:406
 msgid "private-data"
-msgstr ""
+msgstr "dados-privados"
 
 #: gst/gsttaglist.c:406
 msgid "Private data"
-msgstr ""
+msgstr "Dados privados"
 
 #: gst/gsttaglist.c:446
 msgid ", "
