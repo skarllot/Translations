@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gphoto2 2.5.6\n"
 "Report-Msgid-Bugs-To: gphoto-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2014-12-21 20:43+0100\n"
-"PO-Revision-Date: 2015-12-28 15:32-0200\n"
+"PO-Revision-Date: 2015-12-28 15:47-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
 "net>\n"
@@ -462,17 +462,16 @@ msgstr ""
 "Esperando por %d eventos da câmera. Pressione Ctrl+C para interromper.\n"
 
 #: gphoto2/actions.c:1108
-#, fuzzy, c-format
-#| msgid "Waiting for %d events from camera. Press Ctrl-C to abort.\n"
+#, c-format
 msgid "Waiting for %s event from camera. Press Ctrl-C to abort.\n"
 msgstr ""
-"Esperando por %d eventos da câmera. Pressione Ctrl+C para interromper.\n"
+"Esperando pelo evento %s da câmera. Pressione Ctrl+C para interromper.\n"
 
 #: gphoto2/actions.c:1152 gphoto2/actions.c:1166 gphoto2/actions.c:1178
 #: gphoto2/actions.c:1216 gphoto2/actions.c:1224
 #, c-format
 msgid "event found, stopping wait!\n"
-msgstr ""
+msgstr "evento encontrado, finalizando espera!\n"
 
 #: gphoto2/actions.c:1188 gphoto2/main.c:824
 msgid "Could not set folder."
