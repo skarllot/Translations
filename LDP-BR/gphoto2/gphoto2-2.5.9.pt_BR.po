@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gphoto2 2.5.9\n"
 "Report-Msgid-Bugs-To: gphoto-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-11-18 22:19+0100\n"
-"PO-Revision-Date: 2015-12-28 16:06-0200\n"
+"PO-Revision-Date: 2015-12-28 16:17-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
 "net>\n"
@@ -286,10 +286,9 @@ msgid "                                 : Preview\n"
 msgstr "                                 : Visualização\n"
 
 #: gphoto2/actions.c:709
-#, fuzzy, c-format
-#| msgid "                                 : %i\n"
+#, c-format
 msgid "                                 : Trigger Capture\n"
-msgstr "                                 : %i\n"
+msgstr "                                 : Disparo de captura\n"
 
 #: gphoto2/actions.c:713
 #, c-format
