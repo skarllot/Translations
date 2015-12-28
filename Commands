@@ -1,3 +1,6 @@
+# Create PO from POT
+msginit
+
 # Validate PO file
 msgfmt -cvo /dev/null file.po
 
