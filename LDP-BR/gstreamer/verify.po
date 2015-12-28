@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: gstreamer-1.5.1\n"
+"Project-Id-Version: gstreamer-1.6.0\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
-"POT-Creation-Date: 2015-06-07 09:28+0200\n"
-"PO-Revision-Date: 2015-12-28 20:32-0200\n"
+"POT-Creation-Date: 2015-09-25 22:32+0200\n"
+"PO-Revision-Date: 2015-12-28 20:49-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-"
 "translation@lists.sourceforge.net>\n"
@@ -274,7 +274,7 @@ msgid "URI scheme '%s' not supported"
 msgstr "Não há suporte para o esquema URI \"%s\""
 
 # (pofilter) acronyms: Consider not translating acronyms: ERROR
-#: gst/gstutils.c:2419 tools/gst-launch.c:324
+#: gst/gstutils.c:2424 tools/gst-launch.c:324
 #, c-format
 msgid "ERROR: from element %s: %s\n"
 msgstr "ERRO: do elemento %s: %s\n"
@@ -465,36 +465,31 @@ msgstr "Interrupção: Parando a fila de processamento...\n"
 msgid "Got context from element '%s': %s=%s\n"
 msgstr "Contexto obtido do elemento \"%s\": %s=%s\n"
 
-# (pofilter) acronyms: Consider not translating acronyms: TYPE
-#: tools/gst-launch.c:929
-msgid "Do not output status information of TYPE"
-msgstr "Não é possível obter informações do estado de saída do TIPO"
-
-# (pofilter) acronyms: Consider not translating acronyms: TYPE1,TYPE2
-#: tools/gst-launch.c:929
-msgid "TYPE1,TYPE2,..."
-msgstr "TIPO1,TIPO2,..."
+# (pofilter) acronyms: Consider not translating acronyms: PROPERTY-NAME
+#: tools/gst-launch.c:931
+msgid "PROPERTY-NAME"
+msgstr "NOME-PROPRIEDADE"
 
 # (pofilter) acronyms: Consider not translating acronyms: EOS
-#: tools/gst-launch.c:933
+#: tools/gst-launch.c:935
 msgid "Force EOS on sources before shutting the pipeline down"
 msgstr ""
 "Forçar finalização do fluxo nos elementos fonte antes de desligar a fila de "
 "processamento"
 
 # (pofilter) acronyms: Consider not translating acronyms: ERROR
-#: tools/gst-launch.c:999
+#: tools/gst-launch.c:1001
 #, c-format
 msgid "ERROR: pipeline could not be constructed: %s.\n"
 msgstr "ERRO: não foi possível construir a fila de processamento: %s.\n"
 
 # (pofilter) acronyms: Consider not translating acronyms: ERROR
-#: tools/gst-launch.c:1003
+#: tools/gst-launch.c:1005
 msgid "ERROR: pipeline could not be constructed.\n"
 msgstr "ERRO: não foi possível construir a fila de processamento.\n"
 
 # (pofilter) acronyms: Consider not translating acronyms: WARNING
-#: tools/gst-launch.c:1007
+#: tools/gst-launch.c:1009
 #, c-format
 msgid "WARNING: erroneous pipeline: %s\n"
 msgstr "AVISO: fila de processamento com erros: %s\n"
@@ -502,7 +497,7 @@ msgstr "AVISO: fila de processamento com erros: %s\n"
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
 # (pofilter) acronyms: Consider not translating acronyms: ERROR
-#: tools/gst-launch.c:1023
+#: tools/gst-launch.c:1025
 msgid "ERROR: the 'pipeline' element wasn't found.\n"
 msgstr "ERRO: o elemento de \"fila de processamento\" não foi encontrado.\n"
 
@@ -603,6 +598,14 @@ msgstr "Definindo a fila de processamento para NULO...\n"
 #: tools/gst-launch.c:1184
 msgid "Freeing pipeline ...\n"
 msgstr "Liberando a fila de processamento...\n"
+
+# (pofilter) acronyms: Consider not translating acronyms: TYPE
+#~ msgid "Do not output status information of TYPE"
+#~ msgstr "Não é possível obter informações do estado de saída do TIPO"
+
+# (pofilter) acronyms: Consider not translating acronyms: TYPE1,TYPE2
+#~ msgid "TYPE1,TYPE2,..."
+#~ msgstr "TIPO1,TIPO2,..."
 
 # (pofilter) xmltags: Different XML tags
 #~ msgid "Usage: gst-xmllaunch <file.xml> [ element.property=value ... ]\n"

@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: gstreamer-1.6.0\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2015-09-25 22:32+0200\n"
-"PO-Revision-Date: 2015-12-28 20:32-0200\n"
+"PO-Revision-Date: 2015-12-28 20:49-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
 "net>\n"
@@ -1590,10 +1590,12 @@ msgid ""
 "Do not output status information for the specified property if verbose "
 "output is enabled (can be used multiple times)"
 msgstr ""
+"Não exibir informações de status para a propriedade especificada se o modo "
+"detalhado de saída estiver ativado (pode ser usado várias vezes)"
 
 #: tools/gst-launch.c:931
 msgid "PROPERTY-NAME"
-msgstr ""
+msgstr "NOME-PROPRIEDADE"
 
 #: tools/gst-launch.c:933
 msgid "Do not install a fault handler"
