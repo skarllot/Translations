@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: gst-plugins-bad-1.4.1\n"
+"Project-Id-Version: gst-plugins-bad-1.5.1\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
-"POT-Creation-Date: 2014-08-27 14:38+0300\n"
-"PO-Revision-Date: 2015-02-01 18:24-0200\n"
+"POT-Creation-Date: 2015-06-07 10:59+0200\n"
+"PO-Revision-Date: 2015-12-28 16:56-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-"
 "translation@lists.sourceforge.net>\n"
@@ -16,7 +16,7 @@ msgstr ""
 
 # (pofilter) simplecaps: Different capitalization
 # (pofilter) startcaps: Different capitalization at the start
-#: ext/gl/gstgltestsrc.c:544
+#: ext/gl/gstgltestsrc.c:673
 msgid "format wasn't negotiated before get function"
 msgstr "O formato não foi negociado antes da chamada da função"
 
@@ -29,15 +29,20 @@ msgstr "Falha ao abrir o dispositivo de DVD \"%s\"."
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: gst/camerabin2/camerabingeneral.c:166 gst/camerabin2/gstcamerabin2.c:1874
-#: gst/camerabin2/gstviewfinderbin.c:271
+#: gst/camerabin2/camerabingeneral.c:166 gst/camerabin2/gstcamerabin2.c:1876
+#: gst/camerabin2/gstdigitalzoom.c:282 gst/camerabin2/gstviewfinderbin.c:271
 #, c-format
 msgid "Missing element '%s' - check your GStreamer installation."
 msgstr ""
 "O elemento \"%s\" está faltando, verifique a sua instalação do GStreamer."
 
 # (pofilter) acronyms: Consider not translating acronyms: NULL
-#: gst/camerabin2/gstcamerabin2.c:370
+#: gst/camerabin2/gstcamerabin2.c:364
 msgid "File location is set to NULL, please set it to a valid filename"
 msgstr ""
 "A localização do arquivo está NULA, favor definir um nome de arquivo válido"
+
+# (pofilter) simplecaps: Different capitalization
+#: gst/camerabin2/gstwrappercamerabinsrc.c:584
+msgid "Digitalzoom element cound't be created"
+msgstr "O elemento Digitalzoom não pôde ser criado"

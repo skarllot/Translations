@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gst-plugins-bad-1.5.1\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2015-06-07 10:59+0200\n"
-"PO-Revision-Date: 2015-02-01 18:24-0200\n"
+"PO-Revision-Date: 2015-12-28 16:56-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
 "net>\n"
@@ -30,11 +30,6 @@ msgstr "audiosink do GStreamer pré-definido para eventos de som"
 #: ext/gsettings/org.freedesktop.gstreamer.default-elements.gschema.xml.in:6
 #: ext/gsettings/org.freedesktop.gstreamer.default-elements.gschema.xml.in:19
 #: ext/gsettings/org.freedesktop.gstreamer.default-elements.gschema.xml.in:32
-#, fuzzy
-#| msgid ""
-#| "GStreamer can play audio using any number of output elements. Some "
-#| "possible choices are osssink, pulsesink and alsasink. The audiosink can "
-#| "be a partial pipeline instea of just one element."
 msgid ""
 "GStreamer can play audio using any number of output elements. Some possible "
 "choices are osssink, pulsesink and alsasink. The audiosink can be a partial "
@@ -171,7 +166,7 @@ msgstr "Descreve o elemento de visualização selecionado."
 
 #: ext/opencv/gsttemplatematch.c:442
 msgid "OpenCV failed to load template image"
-msgstr ""
+msgstr "O OpenCV falhou ao carregar a imagem modelo"
 
 #: ext/resindvd/resindvdsrc.c:362
 msgid "Could not read title information for DVD."
@@ -246,7 +241,7 @@ msgstr ""
 
 #: gst/camerabin2/gstwrappercamerabinsrc.c:584
 msgid "Digitalzoom element cound't be created"
-msgstr ""
+msgstr "O elemento Digitalzoom não pôde ser criado"
 
 #: gst/dvdspu/gstdvdspu.c:1036
 msgid "Subpicture format was not configured before data flow"
