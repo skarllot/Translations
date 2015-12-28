@@ -16,9 +16,9 @@
 #: gst/parse/grammar.y:217 gst/parse/grammar.y:222
 msgid ""
 msgstr ""
-"Project-Id-Version: gstreamer-1.5.1\n"
+"Project-Id-Version: gstreamer-1.6.0\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
-"POT-Creation-Date: 2015-06-07 09:28+0200\n"
+"POT-Creation-Date: 2015-09-25 22:32+0200\n"
 "PO-Revision-Date: 2015-12-28 20:32-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
@@ -339,12 +339,12 @@ msgstr "Nenhuma mensagem de erro para o domínio %s."
 msgid "No standard error message for domain %s and code %d."
 msgstr "Nenhuma mensagem de erro predefinida para o domínio %s e código %d."
 
-#: gst/gstpipeline.c:524
+#: gst/gstpipeline.c:549
 msgid "Selected clock cannot be used in pipeline."
 msgstr ""
 "O temporizador selecionado não pôde ser usado na fila de processamento."
 
-#: gst/gstregistry.c:1693
+#: gst/gstregistry.c:1694
 #, c-format
 msgid "Error writing registry cache to %s: %s"
 msgstr "Erro ao escrever o cache de registro em %s: %s"
@@ -1084,12 +1084,12 @@ msgstr "Nenhum manipulador URI para o protocolo %s foi encontrado"
 msgid "URI scheme '%s' not supported"
 msgstr "Não há suporte para o esquema URI \"%s\""
 
-#: gst/gstutils.c:2419 tools/gst-launch.c:324
+#: gst/gstutils.c:2424 tools/gst-launch.c:324
 #, c-format
 msgid "ERROR: from element %s: %s\n"
 msgstr "ERRO: do elemento %s: %s\n"
 
-#: gst/gstutils.c:2421 tools/gst-launch.c:326 tools/gst-launch.c:669
+#: gst/gstutils.c:2426 tools/gst-launch.c:326 tools/gst-launch.c:669
 #, c-format
 msgid ""
 "Additional debug info:\n"
@@ -1177,21 +1177,21 @@ msgstr "nenhum Bin \"%s\", descarregando elementos"
 msgid "empty pipeline not allowed"
 msgstr "não é permitido que a fila de processamento seja vazia"
 
-#: libs/gst/base/gstbasesink.c:2792
+#: libs/gst/base/gstbasesink.c:2845
 msgid "A lot of buffers are being dropped."
 msgstr "Uma grande quantidade de buffers está sendo descartada."
 
-#: libs/gst/base/gstbasesink.c:3319
+#: libs/gst/base/gstbasesink.c:3373
 msgid "Internal data flow problem."
 msgstr "Problema interno no fluxo de dados."
 
-#: libs/gst/base/gstbasesink.c:4013
+#: libs/gst/base/gstbasesink.c:4086
 msgid "Internal data stream error."
 msgstr "Erro interno no fluxo de dados."
 
-#: libs/gst/base/gstbasesink.c:4023 libs/gst/base/gstbasesrc.c:2942
-#: libs/gst/base/gstbasesrc.c:2951 plugins/elements/gstdownloadbuffer.c:1344
-#: plugins/elements/gstqueue.c:968 plugins/elements/gstqueue.c:1514
+#: libs/gst/base/gstbasesink.c:4096 libs/gst/base/gstbasesrc.c:2942
+#: libs/gst/base/gstbasesrc.c:2951 plugins/elements/gstdownloadbuffer.c:1345
+#: plugins/elements/gstqueue.c:966 plugins/elements/gstqueue.c:1513
 #: plugins/elements/gstqueue2.c:2353 plugins/elements/gstqueue2.c:2829
 msgid "Internal data flow error."
 msgstr "Erro interno no fluxo de dados."
@@ -1224,45 +1224,46 @@ msgstr "Modo de Alteração do Caps"
 msgid "Filter caps change behaviour"
 msgstr "Comportamento de alteração do filtro Caps"
 
-#: plugins/elements/gstdownloadbuffer.c:915 plugins/elements/gstqueue2.c:1536
+#: plugins/elements/gstdownloadbuffer.c:916 plugins/elements/gstqueue2.c:1536
 msgid "No Temp directory specified."
 msgstr "Nenhum diretório temporário especificado."
 
-#: plugins/elements/gstdownloadbuffer.c:921 plugins/elements/gstqueue2.c:1542
+#: plugins/elements/gstdownloadbuffer.c:922 plugins/elements/gstqueue2.c:1542
 #, c-format
 msgid "Could not create temp file \"%s\"."
 msgstr "Não foi possível criar o arquivo temporário \"%s\"."
 
-#: plugins/elements/gstdownloadbuffer.c:929 plugins/elements/gstfilesrc.c:518
+#: plugins/elements/gstdownloadbuffer.c:930 plugins/elements/gstfilesrc.c:518
 #: plugins/elements/gstqueue2.c:1550
 #, c-format
 msgid "Could not open file \"%s\" for reading."
 msgstr "Não foi possível abrir o arquivo \"%s\" para leitura."
 
-#: plugins/elements/gstdownloadbuffer.c:1253 plugins/elements/gstqueue2.c:1956
+#: plugins/elements/gstdownloadbuffer.c:1254 plugins/elements/gstqueue2.c:1956
 msgid "Error while writing to download file."
 msgstr "Erro ao escrever no arquivo baixado."
 
-#: plugins/elements/gstfilesink.c:422
+#: plugins/elements/gstfilesink.c:425
 msgid "No file name specified for writing."
 msgstr "Nenhum nome de arquivo especificado para escrita."
 
-#: plugins/elements/gstfilesink.c:428
+#: plugins/elements/gstfilesink.c:431
 #, c-format
 msgid "Could not open file \"%s\" for writing."
 msgstr "Não foi possível abrir o arquivo \"%s\" para escrita."
 
-#: plugins/elements/gstfilesink.c:453
+#: plugins/elements/gstfilesink.c:456
 #, c-format
 msgid "Error closing file \"%s\"."
 msgstr "Erro ao fechar o arquivo \"%s\"."
 
-#: plugins/elements/gstfilesink.c:617
+#: plugins/elements/gstfilesink.c:620
 #, c-format
 msgid "Error while seeking in file \"%s\"."
 msgstr "Erro ao buscar no arquivo \"%s\"."
 
-#: plugins/elements/gstfilesink.c:625
+#: plugins/elements/gstfilesink.c:628 plugins/elements/gstfilesink.c:705
+#: plugins/elements/gstfilesink.c:740
 #, c-format
 msgid "Error while writing to file \"%s\"."
 msgstr "Erro ao escrever no arquivo \"%s\"."
@@ -1286,7 +1287,7 @@ msgstr "\"%s\" é um diretório."
 msgid "File \"%s\" is a socket."
 msgstr "O arquivo \"%s\" é um soquete."
 
-#: plugins/elements/gstidentity.c:643
+#: plugins/elements/gstidentity.c:641
 msgid "Failed after iterations as requested."
 msgstr "Falha após as interações requeridas."
 
@@ -1585,42 +1586,44 @@ msgid "Output messages"
 msgstr "Exibir mensagens"
 
 #: tools/gst-launch.c:929
-msgid "Do not output status information of TYPE"
-msgstr "Não é possível obter informações do estado de saída do TIPO"
-
-#: tools/gst-launch.c:929
-msgid "TYPE1,TYPE2,..."
-msgstr "TIPO1,TIPO2,..."
+msgid ""
+"Do not output status information for the specified property if verbose "
+"output is enabled (can be used multiple times)"
+msgstr ""
 
 #: tools/gst-launch.c:931
+msgid "PROPERTY-NAME"
+msgstr ""
+
+#: tools/gst-launch.c:933
 msgid "Do not install a fault handler"
 msgstr "Não instale um manipulador de falhas"
 
-#: tools/gst-launch.c:933
+#: tools/gst-launch.c:935
 msgid "Force EOS on sources before shutting the pipeline down"
 msgstr ""
 "Forçar finalização do fluxo nos elementos fonte antes de desligar a fila de "
 "processamento"
 
-#: tools/gst-launch.c:936
+#: tools/gst-launch.c:938
 msgid "Gather and print index statistics"
 msgstr "Reunir e imprimir a tabela de estatísticas"
 
-#: tools/gst-launch.c:999
+#: tools/gst-launch.c:1001
 #, c-format
 msgid "ERROR: pipeline could not be constructed: %s.\n"
 msgstr "ERRO: não foi possível construir a fila de processamento: %s.\n"
 
-#: tools/gst-launch.c:1003
+#: tools/gst-launch.c:1005
 msgid "ERROR: pipeline could not be constructed.\n"
 msgstr "ERRO: não foi possível construir a fila de processamento.\n"
 
-#: tools/gst-launch.c:1007
+#: tools/gst-launch.c:1009
 #, c-format
 msgid "WARNING: erroneous pipeline: %s\n"
 msgstr "AVISO: fila de processamento com erros: %s\n"
 
-#: tools/gst-launch.c:1023
+#: tools/gst-launch.c:1025
 msgid "ERROR: the 'pipeline' element wasn't found.\n"
 msgstr "ERRO: o elemento de \"fila de processamento\" não foi encontrado.\n"
 
@@ -1701,6 +1704,12 @@ msgstr "Definindo a fila de processamento para NULO...\n"
 #: tools/gst-launch.c:1184
 msgid "Freeing pipeline ...\n"
 msgstr "Liberando a fila de processamento...\n"
+
+#~ msgid "Do not output status information of TYPE"
+#~ msgstr "Não é possível obter informações do estado de saída do TIPO"
+
+#~ msgid "TYPE1,TYPE2,..."
+#~ msgstr "TIPO1,TIPO2,..."
 
 #~ msgid "link without source element"
 #~ msgstr "vínculo sem o elemento fonte"
