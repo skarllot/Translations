@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: gst-plugins-base-1.5.2\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2015-06-24 22:47+0200\n"
-"PO-Revision-Date: 2015-12-28 17:40-0200\n"
+"PO-Revision-Date: 2015-12-28 17:48-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
 "net>\n"
@@ -713,7 +713,7 @@ msgstr "A lista de reprodução terminou."
 
 #: tools/gst-play.c:465
 msgid "Paused"
-msgstr ""
+msgstr "Pausado"
 
 #: tools/gst-play.c:523
 #, c-format
@@ -792,20 +792,16 @@ msgid "enable/disable trick modes"
 msgstr "ativar/desativar modos avançados"
 
 #: tools/gst-play.c:967
-#, fuzzy
-#| msgid "This CD has no audio tracks"
 msgid "change audio track"
-msgstr "Este CD não tem trilhas de áudio"
+msgstr "alterar trilha de áudio"
 
 #: tools/gst-play.c:968
 msgid "change video track"
-msgstr ""
+msgstr "alterar trilha de vídeo"
 
 #: tools/gst-play.c:969
-#, fuzzy
-#| msgid "Kate subtitle format"
 msgid "change subtitle track"
-msgstr "Formato de legendas Kate"
+msgstr "alterar trilha de legenda"
 
 #: tools/gst-play.c:970
 msgid "show keyboard shortcuts"
