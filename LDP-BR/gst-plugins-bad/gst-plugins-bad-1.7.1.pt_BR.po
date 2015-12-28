@@ -6,9 +6,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gst-plugins-bad-1.6.0\n"
+"Project-Id-Version: gst-plugins-bad-1.7.1\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
-"POT-Creation-Date: 2015-09-25 22:59+0200\n"
+"POT-Creation-Date: 2015-12-24 13:55+0100\n"
 "PO-Revision-Date: 2015-12-28 17:03-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ext/gl/gstgltestsrc.c:673
+#: ext/gl/gstgltestsrc.c:680
 msgid "format wasn't negotiated before get function"
 msgstr "O formato não foi negociado antes da chamada da função"
 
@@ -164,7 +164,7 @@ msgstr "descrição da visualização do GStreamer pré-definida"
 msgid "Describes the selected visualization element."
 msgstr "Descreve o elemento de visualização selecionado."
 
-#: ext/opencv/gsttemplatematch.c:442
+#: ext/opencv/gsttemplatematch.cpp:188
 msgid "OpenCV failed to load template image"
 msgstr "O OpenCV falhou ao carregar a imagem modelo"
 
@@ -181,7 +181,7 @@ msgstr "Falha ao abrir o dispositivo de DVD \"%s\"."
 msgid "Failed to set PGC based seeking."
 msgstr "Falha ao definir busca baseada em PGC."
 
-#: ext/resindvd/resindvdsrc.c:1166
+#: ext/resindvd/resindvdsrc.c:1165
 msgid ""
 "Could not read DVD. This may be because the DVD is encrypted and a DVD "
 "decryption library is not installed."
@@ -189,12 +189,12 @@ msgstr ""
 "Não foi possível ler o DVD. O motivo pode ser que o DVD está criptografado "
 "ou uma biblioteca de descriptografia não está instalada."
 
-#: ext/resindvd/resindvdsrc.c:1171 ext/resindvd/resindvdsrc.c:1180
+#: ext/resindvd/resindvdsrc.c:1170 ext/resindvd/resindvdsrc.c:1179
 msgid "Could not read DVD."
 msgstr "Não foi possível ler o DVD."
 
-#: ext/smoothstreaming/gstmssdemux.c:380
-#: gst-libs/gst/adaptivedemux/gstadaptivedemux.c:525
+#: ext/smoothstreaming/gstmssdemux.c:403
+#: gst-libs/gst/adaptivedemux/gstadaptivedemux.c:619
 msgid "This file contains no playable streams."
 msgstr "Este arquivo não contém fluxos reproduzíveis."
 
@@ -247,18 +247,18 @@ msgstr "O elemento Digitalzoom não pôde ser criado"
 msgid "Subpicture format was not configured before data flow"
 msgstr "O formato de subimagem não foi configurado antes do fluxo de dados"
 
-#: gst-libs/gst/adaptivedemux/gstadaptivedemux.c:2081
+#: gst-libs/gst/adaptivedemux/gstadaptivedemux.c:2531
 msgid "Failed to get fragment URL."
 msgstr "Falha ao obter um fragmento de URL."
 
-#: gst-libs/gst/adaptivedemux/gstadaptivedemux.c:2282
-#: gst-libs/gst/adaptivedemux/gstadaptivedemux.c:2446
-#: gst/mpegtsdemux/mpegtsbase.c:1342 gst/mpegtsdemux/mpegtsbase.c:1346
+#: gst-libs/gst/adaptivedemux/gstadaptivedemux.c:2761
+#: gst-libs/gst/adaptivedemux/gstadaptivedemux.c:2955
+#: gst/mpegtsdemux/mpegtsbase.c:1371 gst/mpegtsdemux/mpegtsbase.c:1375
 #: gst/nuvdemux/gstnuvdemux.c:736
 msgid "Internal data stream error."
 msgstr "Erro interno de fluxo de dados."
 
-#: gst-libs/gst/adaptivedemux/gstadaptivedemux.c:2383
+#: gst-libs/gst/adaptivedemux/gstadaptivedemux.c:2873
 msgid "Couldn't download fragments"
 msgstr "Não foi possível baixar os fragmentos"
 
@@ -306,20 +306,20 @@ msgstr ""
 msgid "Could not open file \"%s\" for reading."
 msgstr "Não foi possível abrir o arquivo \"%s\" para leitura."
 
-#: sys/dvb/parsechannels.c:168
+#: sys/dvb/parsechannels.c:165
 msgid "Couldn't find DVB channel configuration file"
 msgstr "Não foi possível encontrar o arquivo de configuração de canal DVB"
 
-#: sys/dvb/parsechannels.c:171
+#: sys/dvb/parsechannels.c:168
 #, c-format
 msgid "Couldn't load DVB channel configuration file: %s"
 msgstr "Não foi possível carregar o arquivo de configuração de canal DVB: %s"
 
-#: sys/dvb/parsechannels.c:180
+#: sys/dvb/parsechannels.c:175
 msgid "DVB channel configuration file doesn't contain any channels"
 msgstr "O arquivo de configuração de canal DVB não contém nenhum canal"
 
-#: sys/dvb/parsechannels.c:456
+#: sys/dvb/parsechannels.c:449
 #, c-format
 msgid "Couldn't find details for DVB channel %s"
 msgstr "Não foi possível encontrar detalhes para o canal DVB %s"
