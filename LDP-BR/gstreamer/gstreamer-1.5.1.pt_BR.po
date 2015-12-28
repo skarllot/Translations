@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: gstreamer-1.5.1\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2015-06-07 09:28+0200\n"
-"PO-Revision-Date: 2015-12-28 20:13-0200\n"
+"PO-Revision-Date: 2015-12-28 20:32-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
 "net>\n"
@@ -1206,7 +1206,7 @@ msgstr "Falha ao mapear o buffer."
 
 #: plugins/elements/gstcapsfilter.c:128
 msgid "Filter caps"
-msgstr "Caps do filtro"
+msgstr "Filtro Caps"
 
 #: plugins/elements/gstcapsfilter.c:129
 msgid ""
@@ -1218,11 +1218,11 @@ msgstr ""
 
 #: plugins/elements/gstcapsfilter.c:136
 msgid "Caps Change Mode"
-msgstr ""
+msgstr "Modo de Alteração do Caps"
 
 #: plugins/elements/gstcapsfilter.c:137
 msgid "Filter caps change behaviour"
-msgstr ""
+msgstr "Comportamento de alteração do filtro Caps"
 
 #: plugins/elements/gstdownloadbuffer.c:915 plugins/elements/gstqueue2.c:1536
 msgid "No Temp directory specified."
@@ -1312,10 +1312,8 @@ msgstr "forçar Caps sem usar o typefind"
 
 #: plugins/elements/gsttypefindelement.c:932
 #: plugins/elements/gsttypefindelement.c:953
-#, fuzzy
-#| msgid "Stream contains no data."
 msgid "Stream contains not enough data."
-msgstr "O fluxo não contém dados."
+msgstr "O fluxo não contém dados suficientes."
 
 #: plugins/elements/gsttypefindelement.c:1072
 msgid "Stream contains no data."
@@ -1335,7 +1333,7 @@ msgstr "gravável"
 
 #: tools/gst-inspect.c:294
 msgid "deprecated"
-msgstr ""
+msgstr "obsoleto"
 
 #: tools/gst-inspect.c:298
 msgid "controllable"
