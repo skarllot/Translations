@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: gst-plugins-good-1.3.90\n"
+"Project-Id-Version: gst-plugins-good-1.6.0\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
-"POT-Creation-Date: 2014-06-28 11:04+0200\n"
-"PO-Revision-Date: 2015-02-01 23:02-0200\n"
+"POT-Creation-Date: 2015-09-25 22:54+0200\n"
+"PO-Revision-Date: 2015-12-28 19:47-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-"
 "translation@lists.sourceforge.net>\n"
@@ -23,13 +23,13 @@ msgstr "Servidor Jack não encontrado"
 # (pofilter) doublequoting: Different quotation marks
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: 'song title' by 'artist name'
-#: ext/pulse/pulsesink.c:3079
+#: ext/pulse/pulsesink.c:3133
 #, c-format
 msgid "'%s' by '%s'"
 msgstr "\"%s\" por \"%s\""
 
 # (pofilter) simplecaps: Different capitalization
-#: gst/isomp4/qtdemux.c:3067
+#: gst/isomp4/qtdemux.c:3740
 msgid "Invalid atom size."
 msgstr "Tamanho de Atom inválido."
 
@@ -84,14 +84,14 @@ msgstr "Saída aux. 2"
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: sys/v4l2/gstv4l2bufferpool.c:1496
+#: sys/v4l2/gstv4l2bufferpool.c:1672
 #, c-format
 msgid "Error reading %d bytes from device '%s'."
 msgstr "Erro ao ler %d bytes do dispositivo \"%s\"."
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: sys/v4l2/gstv4l2object.c:1058
+#: sys/v4l2/gstv4l2object.c:1085
 #, c-format
 msgid "Failed to enumerate possible video formats device '%s' can work with"
 msgstr ""
@@ -100,7 +100,7 @@ msgstr ""
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: sys/v4l2/gstv4l2object.c:2293
+#: sys/v4l2/gstv4l2object.c:2577
 #, c-format
 msgid "Could not map buffers from device '%s'"
 msgstr "Não foi possível mapear buffers do dispositivo \"%s\""
@@ -108,7 +108,7 @@ msgstr "Não foi possível mapear buffers do dispositivo \"%s\""
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
 # (pofilter) acronyms: Consider not translating acronyms: IO
-#: sys/v4l2/gstv4l2object.c:2301
+#: sys/v4l2/gstv4l2object.c:2585
 #, c-format
 msgid "The driver of device '%s' does not support the IO method %d"
 msgstr "O driver do dispositivo \"%s\" não tem suporte ao método %d de E/S"
@@ -116,7 +116,7 @@ msgstr "O driver do dispositivo \"%s\" não tem suporte ao método %d de E/S"
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
 # (pofilter) acronyms: Consider not translating acronyms: IO
-#: sys/v4l2/gstv4l2object.c:2308
+#: sys/v4l2/gstv4l2object.c:2592
 #, c-format
 msgid "The driver of device '%s' does not support any known IO method."
 msgstr ""
@@ -125,35 +125,28 @@ msgstr ""
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: sys/v4l2/gstv4l2object.c:2801
-#, c-format
-msgid "Device '%s' does not support video capture"
-msgstr "O dispositivo \"%s\" não tem suporte a captura de vídeo"
-
-# (pofilter) singlequoting: Different quotation marks
-# (pofilter) doublequoting: Different quotation marks
-#: sys/v4l2/gstv4l2object.c:2810
+#: sys/v4l2/gstv4l2object.c:3214 sys/v4l2/gstv4l2object.c:3225
 #, c-format
 msgid "Device '%s' is busy"
 msgstr "O dispositivo \"%s\" está ocupado"
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: sys/v4l2/gstv4l2object.c:2816 sys/v4l2/gstv4l2object.c:2827
+#: sys/v4l2/gstv4l2object.c:3231 sys/v4l2/gstv4l2object.c:3243
 #, c-format
 msgid "Device '%s' cannot capture at %dx%d"
 msgstr "O dispositivo \"%s\" não realiza captura a %dx%d"
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: sys/v4l2/gstv4l2object.c:2836
+#: sys/v4l2/gstv4l2object.c:3254
 #, c-format
 msgid "Device '%s' cannot capture in the specified format"
 msgstr "O dispositivo \"%s\" não realiza captura no formato especificado"
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: sys/v4l2/gstv4l2object.c:2847
+#: sys/v4l2/gstv4l2object.c:3267
 #, c-format
 msgid "Device '%s' does support non-contiguous planes"
 msgstr ""
@@ -161,7 +154,7 @@ msgstr ""
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: sys/v4l2/gstv4l2object.c:2857
+#: sys/v4l2/gstv4l2object.c:3278
 #, c-format
 msgid "Could not get parameters on device '%s'"
 msgstr "Não foi possível obter os parâmetros no dispositivo \"%s\""
@@ -349,6 +342,11 @@ msgid ""
 msgstr ""
 "Falha ao obter a saída atual no dispositivo \"%s\". Talvez seja um "
 "dispositivo de rádio"
+
+# (pofilter) singlequoting: Different quotation marks
+# (pofilter) doublequoting: Different quotation marks
+#~ msgid "Device '%s' does not support video capture"
+#~ msgstr "O dispositivo \"%s\" não tem suporte a captura de vídeo"
 
 # (pofilter) unchanged: Consider translating
 #~ msgid "Mixer"

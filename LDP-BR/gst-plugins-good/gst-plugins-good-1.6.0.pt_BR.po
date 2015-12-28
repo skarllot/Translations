@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: gst-plugins-good-1.6.0\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2015-09-25 22:54+0200\n"
-"PO-Revision-Date: 2015-02-01 23:02-0200\n"
+"PO-Revision-Date: 2015-12-28 19:47-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
 "net>\n"
@@ -66,9 +66,6 @@ msgid "Secure connection setup failed."
 msgstr "Configuração de conexão segura falhou."
 
 #: ext/soup/gstsouphttpsrc.c:1566
-#, fuzzy
-#| msgid ""
-#| "A network error occured, or the server closed the connection unexpectedly."
 msgid ""
 "A network error occurred, or the server closed the connection unexpectedly."
 msgstr ""
