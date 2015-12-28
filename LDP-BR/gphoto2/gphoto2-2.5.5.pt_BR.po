@@ -1,15 +1,15 @@
 # Brazilian Portuguese translation of gphoto2.
 # This file is distributed under the same license as the gphoto2 package.
-# Copyright (C) 2002-2014 Free Software Foundation, Inc.
+# Copyright (C) 2002-2015 Free Software Foundation, Inc.
 # Evandro Gardenali <evandro@fasternet.com.br>, 2002.
-# Fabrício Godoy <skarllot@gmail.com>, 2008-2013.
+# Fabrício Godoy <skarllot@gmail.com>, 2008-2015.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gphoto2 2.5.5\n"
 "Report-Msgid-Bugs-To: gphoto-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2014-08-17 19:23+0200\n"
-"PO-Revision-Date: 2014-03-31 16:05-0300\n"
+"PO-Revision-Date: 2015-12-28 15:32-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
 "net>\n"
@@ -589,7 +589,7 @@ msgstr "Falha ao obter os valores do widget de data e hora %s."
 
 #: gphoto2/actions.c:1632
 msgid "Use 'now' as the current time when setting.\n"
-msgstr ""
+msgstr "Usar \"agora\" como a data atual ao configurar.\n"
 
 #: gphoto2/actions.c:1654
 #, c-format
@@ -1043,7 +1043,7 @@ msgstr "Ativar depuração"
 
 #: gphoto2/main.c:1937
 msgid "Set debug level [error|debug|data|all]"
-msgstr ""
+msgstr "Definir o nível de depuração [error|debug|data|all]"
 
 #: gphoto2/main.c:1939
 msgid "Name of file to write debug info to"

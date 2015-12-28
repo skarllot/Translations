@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: gphoto2 2.5.2\n"
+"Project-Id-Version: gphoto2 2.5.5\n"
 "Report-Msgid-Bugs-To: gphoto-devel@lists.sourceforge.net\n"
-"POT-Creation-Date: 2013-05-05 21:52+0200\n"
-"PO-Revision-Date: 2013-12-29 19:34-0200\n"
+"POT-Creation-Date: 2014-08-17 19:23+0200\n"
+"PO-Revision-Date: 2015-12-28 15:32-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-"
 "translation@lists.sourceforge.net>\n"
@@ -16,14 +16,14 @@ msgstr ""
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: gphoto2/actions.c:168
+#: gphoto2/actions.c:174
 #, c-format
 msgid "Number of files in folder '%s': %i\n"
 msgstr "Número de arquivos na pasta \"%s\": %i\n"
 
 # (pofilter) singlequoting: Different quotation marks, Different quotation marks
 # (pofilter) doublequoting: Different quotation marks, Different quotation marks
-#: gphoto2/actions.c:189
+#: gphoto2/actions.c:195
 #, c-format
 msgid "There is %d folder in folder '%s'.\n"
 msgid_plural "There are %d folders in folder '%s'.\n"
@@ -32,14 +32,14 @@ msgstr[1] "Há %d pastas na pasta \"%s\".\n"
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: gphoto2/actions.c:238
+#: gphoto2/actions.c:244
 #, c-format
 msgid "There is no file in folder '%s'.\n"
 msgstr "Não há nenhum arquivo na pasta \"%s\".\n"
 
 # (pofilter) singlequoting: Different quotation marks, Different quotation marks
 # (pofilter) doublequoting: Different quotation marks, Different quotation marks
-#: gphoto2/actions.c:241
+#: gphoto2/actions.c:247
 #, c-format
 msgid "There is %d file in folder '%s'.\n"
 msgid_plural "There are %d files in folder '%s'.\n"
@@ -48,7 +48,7 @@ msgstr[1] "Há %d arquivos na pasta \"%s\".\n"
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: gphoto2/actions.c:263
+#: gphoto2/actions.c:269
 #, c-format
 msgid "Information on file '%s' (folder '%s'):\n"
 msgstr "Informações sobre o arquivo \"%s\" (pasta \"%s\"):\n"
@@ -56,25 +56,25 @@ msgstr "Informações sobre o arquivo \"%s\" (pasta \"%s\"):\n"
 # (pofilter) simplecaps: Different capitalization
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: gphoto2/actions.c:270 gphoto2/actions.c:302
+#: gphoto2/actions.c:276 gphoto2/actions.c:308
 #, c-format
 msgid "  Mime type:   '%s'\n"
 msgstr "  Tipo MIME:   \"%s\"\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: gphoto2/actions.c:272 gphoto2/actions.c:304
+#: gphoto2/actions.c:278 gphoto2/actions.c:310
 #, c-format
 msgid "  Size:        %lu byte(s)\n"
 msgstr "  Tamanho:     %lu byte(s)\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: gphoto2/actions.c:274 gphoto2/actions.c:306
+#: gphoto2/actions.c:280 gphoto2/actions.c:312
 #, c-format
 msgid "  Width:       %i pixel(s)\n"
 msgstr "  Largura:     %i pixel(s)\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: gphoto2/actions.c:278 gphoto2/actions.c:310
+#: gphoto2/actions.c:284 gphoto2/actions.c:316
 #, c-format
 msgid "  Downloaded:  %s\n"
 msgstr "  Baixados:    %s\n"
@@ -82,43 +82,43 @@ msgstr "  Baixados:    %s\n"
 # (pofilter) simplecaps: Different capitalization
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: gphoto2/actions.c:318
+#: gphoto2/actions.c:324
 #, c-format
 msgid "  Mime type:  '%s'\n"
 msgstr "  Tipo MIME:  \"%s\"\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: gphoto2/actions.c:320
+#: gphoto2/actions.c:326
 #, c-format
 msgid "  Size:       %lu byte(s)\n"
 msgstr "  Tamanho:    %lu byte(s)\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: gphoto2/actions.c:322
+#: gphoto2/actions.c:328
 #, c-format
 msgid "  Downloaded: %s\n"
 msgstr "  Baixados:   %s\n"
 
 # (pofilter) acronyms: Consider not translating acronyms: TESTING
-#: gphoto2/actions.c:569
+#: gphoto2/actions.c:575
 #, c-format
 msgid "\t\"%s\" (TESTING)\n"
 msgstr "\t\"%s\" (EM TESTE)\n"
 
 # (pofilter) unchanged: Consider translating
-#: gphoto2/actions.c:572
+#: gphoto2/actions.c:578
 #, c-format
 msgid "\t\"%s\" (EXPERIMENTAL)\n"
 msgstr "\t\"%s\" (EXPERIMENTAL)\n"
 
 # (pofilter) unchanged: Consider translating
-#: gphoto2/actions.c:577
+#: gphoto2/actions.c:583
 #, c-format
 msgid "\t\"%s\"\n"
 msgstr "\t\"%s\"\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: gphoto2/actions.c:622
+#: gphoto2/actions.c:628
 #, c-format
 msgid ""
 "Path                             Description\n"
@@ -128,77 +128,77 @@ msgstr ""
 "--------------------------------------------------------------\n"
 
 # (pofilter) unchanged: Consider translating
-#: gphoto2/actions.c:655 gphoto2/actions.c:660
+#: gphoto2/actions.c:661 gphoto2/actions.c:666
 #, c-format
 msgid "%-30s %-16s\n"
 msgstr "%-30s %-16s\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: gphoto2/actions.c:674
+#: gphoto2/actions.c:680
 #, c-format
 msgid "Abilities for camera             : %s\n"
 msgstr "Habilidades para a câmera        : %s\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: gphoto2/actions.c:675
+#: gphoto2/actions.c:681
 #, c-format
 msgid "Serial port support              : %s\n"
 msgstr "Suporte a porta serial           : %s\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: gphoto2/actions.c:677
+#: gphoto2/actions.c:683
 #, c-format
 msgid "USB support                      : %s\n"
 msgstr "Suporte a USB                    : %s\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 # (pofilter) doublespacing: Different use of double spaces
-#: gphoto2/actions.c:680
+#: gphoto2/actions.c:686
 #, c-format
 msgid "Transfer speeds supported        :\n"
 msgstr "Vel. de transf. permitidas       :\n"
 
 # (pofilter) unchanged: Consider translating
-#: gphoto2/actions.c:682
+#: gphoto2/actions.c:688
 #, c-format
 msgid "                                 : %i\n"
 msgstr "                                 : %i\n"
 
 # (pofilter) endpunc: Different punctuation at the end
 # (pofilter) doublespacing: Different use of double spaces
-#: gphoto2/actions.c:685
+#: gphoto2/actions.c:691
 #, c-format
 msgid "Capture choices                  :\n"
 msgstr "Escolhas de captura              :\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: gphoto2/actions.c:705
+#: gphoto2/actions.c:711
 #, c-format
 msgid "Configuration support            : %s\n"
 msgstr "Suporte a configuração           : %s\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: gphoto2/actions.c:710
+#: gphoto2/actions.c:716
 #, c-format
 msgid "Delete all files on camera       : %s\n"
 msgstr "Excluir todos arquivos na câmera : %s\n"
 
 # (pofilter) brackets: Missing '(', ')'
 # (pofilter) doublespacing: Different use of double spaces
-#: gphoto2/actions.c:713
+#: gphoto2/actions.c:719
 #, c-format
 msgid "File preview (thumbnail) support : %s\n"
 msgstr "Suporte a miniaturas             : %s\n"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: gphoto2/actions.c:716
+#: gphoto2/actions.c:722
 #, c-format
 msgid "File upload support              : %s\n"
 msgstr "Suporte a envio de arquivos      : %s\n"
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: gphoto2/actions.c:733
+#: gphoto2/actions.c:739
 #, c-format
 msgid ""
 "Ports must look like 'serial:/dev/ttyS0' or 'usb:', but '%s' is missing a "
@@ -209,7 +209,7 @@ msgstr ""
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: gphoto2/actions.c:767
+#: gphoto2/actions.c:773
 #, c-format
 msgid ""
 "The port you specified ('%s') can not be found. Please specify one of the "
@@ -221,7 +221,7 @@ msgstr ""
 "está escrevendo corretamente (com prefixo \"serial:\" ou \"usb:\")."
 
 # (pofilter) startcaps: Different capitalization at the start
-#: gphoto2/actions.c:893
+#: gphoto2/actions.c:899
 msgid "OS/2 port by Bart van Leeuwen\n"
 msgstr "portado para OS/2 por Bart van Leeuwen\n"
 
@@ -229,7 +229,7 @@ msgstr "portado para OS/2 por Bart van Leeuwen\n"
 # (pofilter) newlines: Different line endings
 # (pofilter) acronyms: Consider not translating acronyms: NO, WARRANTY
 # (pofilter) brackets: Added '(', ')'
-#: gphoto2/actions.c:897
+#: gphoto2/actions.c:903
 #, c-format
 msgid ""
 "gphoto2 %s\n"
@@ -258,13 +258,13 @@ msgstr ""
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: gphoto2/actions.c:997
+#: gphoto2/actions.c:1003
 msgid "Could not open 'movie.mjpg'."
 msgstr "Não foi possível abrir \"movie.mjpg\"."
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: gphoto2/actions.c:1004
+#: gphoto2/actions.c:1010
 #, c-format
 msgid "Capturing preview frames as movie to '%s'. Press Ctrl-C to abort.\n"
 msgstr ""
@@ -273,7 +273,7 @@ msgstr ""
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: gphoto2/actions.c:1008
+#: gphoto2/actions.c:1014
 #, c-format
 msgid "Capturing preview frames as movie to '%s' for %d seconds.\n"
 msgstr ""
@@ -282,32 +282,38 @@ msgstr ""
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: gphoto2/actions.c:1013
+#: gphoto2/actions.c:1019
 #, c-format
 msgid "Capturing %d preview frames as movie to '%s'.\n"
 msgstr "Capturando %d quadros de pré-visualização como vídeo em \"%s\".\n"
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: gphoto2/actions.c:1028
+#: gphoto2/actions.c:1034
 #, c-format
 msgid "Movie capture error... Unhandled MIME type '%s'."
 msgstr "Erro na captura de vídeo... Tipo MIME \"%s\" não manipulável."
 
 # (pofilter) simplecaps: Different capitalization
 # (pofilter) startcaps: Different capitalization at the start
-#: gphoto2/actions.c:1176 gphoto2/main.c:764
+#: gphoto2/actions.c:1182 gphoto2/main.c:838
 msgid "Buggy libcanon.so?"
 msgstr "libcanon.so defeituoso?"
 
 # (pofilter) acronyms: Consider not translating acronyms: ALWAYS, INCLUDE, THE, FOLLOWING, LINES, WHEN, SENDING, DEBUG, MESSAGES, TO, THE, MAILING
-#: gphoto2/actions.c:1371
+#: gphoto2/actions.c:1387
 msgid ""
 "ALWAYS INCLUDE THE FOLLOWING LINES WHEN SENDING DEBUG MESSAGES TO THE "
 "MAILING LIST:"
 msgstr ""
 "SEMPRE INCLUA AS SEGUINTES LINHAS AO ENVIAR MENSAGENS DE DEPURAÇÃO PARA A "
 "LISTA DE DISCUSSÃO:"
+
+# (pofilter) singlequoting: Different quotation marks
+# (pofilter) doublequoting: Different quotation marks
+#: gphoto2/actions.c:1632
+msgid "Use 'now' as the current time when setting.\n"
+msgstr "Usar \"agora\" como a data atual ao configurar.\n"
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
@@ -360,39 +366,39 @@ msgstr "*** Erro ***               \n"
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: gphoto2/main.c:255
+#: gphoto2/main.c:266
 #, c-format
 msgid "The filename provided by the camera ('%s') does not contain a suffix!"
 msgstr "O nome do arquivo fornecido pela câmera (\"%s\") não contêm um sufixo!"
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: gphoto2/main.c:310
+#: gphoto2/main.c:335
 #, c-format
 msgid "Invalid format '%s' (error at position %i)."
 msgstr "Formato inválido \"%s\" (erro na posição %i)."
 
 # (pofilter) acronyms: Consider not translating acronyms: FOLDER_ADDED
-#: gphoto2/main.c:814
+#: gphoto2/main.c:888
 #, c-format
 msgid "Event FOLDER_ADDED %s/%s during wait, ignoring.\n"
 msgstr "Evento de pasta adicionada %s/%s durante a espera, ignorando.\n"
 
 # (pofilter) acronyms: Consider not translating acronyms: UNKNOWN
-#: gphoto2/main.c:824
+#: gphoto2/main.c:898
 #, c-format
 msgid "Event UNKNOWN %s during wait, ignoring.\n"
 msgstr "Evento desconhecido %s durante a espera, ignorando.\n"
 
 # (pofilter) acronyms: Consider not translating acronyms: ERROR
-#: gphoto2/main.c:1124
+#: gphoto2/main.c:1211
 #, c-format
 msgid "ERROR: "
 msgstr "ERRO: "
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: gphoto2/main.c:1306
+#: gphoto2/main.c:1395
 #, c-format
 msgid ""
 "Use the following syntax a:b=c:d to treat any USB device detected as a:b as "
@@ -406,7 +412,7 @@ msgstr ""
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) endwhitespace: Different whitespace at the end
 # (pofilter) doublespacing: Different use of double spaces
-#: gphoto2/main.c:1744
+#: gphoto2/main.c:1838
 #, c-format
 msgid ""
 "*** Error (%i: '%s') ***       \n"
@@ -418,7 +424,7 @@ msgstr ""
 # (pofilter) puncspacing: Different spacing around punctuation
 # (pofilter) xmltags: Different XML tags
 # (pofilter) numbers: Different numbers
-#: gphoto2/main.c:1749
+#: gphoto2/main.c:1843
 #, c-format
 msgid ""
 "For debugging messages, please use the --debug option.\n"
@@ -438,72 +444,72 @@ msgstr ""
 "\n"
 
 # (pofilter) acronyms: Consider not translating acronyms: FILENAME
-#: gphoto2/main.c:1843 gphoto2/main.c:1848 gphoto2/main.c:1854
-#: gphoto2/main.c:1978
+#: gphoto2/main.c:1939 gphoto2/main.c:1944 gphoto2/main.c:1950
+#: gphoto2/main.c:2074
 msgid "FILENAME"
 msgstr "NOME_ARQUIVO"
 
 # (pofilter) acronyms: Consider not translating acronyms: SPEED
-#: gphoto2/main.c:1856
+#: gphoto2/main.c:1952
 msgid "SPEED"
 msgstr "VELOCIDADE"
 
 # (pofilter) startpunc: Different punctuation at the start
 # (pofilter) startcaps: Different capitalization at the start
-#: gphoto2/main.c:1860
+#: gphoto2/main.c:1956
 msgid "(expert only) Override USB IDs"
 msgstr "Sobrescrever ID do USB (especialistas)"
 
 # (pofilter) unchanged: Consider translating
-#: gphoto2/main.c:1860
+#: gphoto2/main.c:1956
 msgid "USBIDs"
 msgstr "USBIDs"
 
 # (pofilter) acronyms: Consider not translating acronyms: COUNT
-#: gphoto2/main.c:1904 gphoto2/main.c:1906 gphoto2/main.c:1913
-#: gphoto2/main.c:1929
+#: gphoto2/main.c:2000 gphoto2/main.c:2002 gphoto2/main.c:2009
+#: gphoto2/main.c:2025
 msgid "COUNT"
 msgstr "QTDE"
 
 # (pofilter) acronyms: Consider not translating acronyms: SECONDS
-#: gphoto2/main.c:1911 gphoto2/main.c:1915
+#: gphoto2/main.c:2007 gphoto2/main.c:2011
 msgid "SECONDS"
 msgstr "SEGUNDOS"
 
 # (pofilter) acronyms: Consider not translating acronyms: COUNT, SECONDS
-#: gphoto2/main.c:1925
+#: gphoto2/main.c:2021
 msgid "COUNT or SECONDS"
 msgstr "QTDE ou SEGUNDOS"
 
 # (pofilter) acronyms: Consider not translating acronyms: DIRNAME
-#: gphoto2/main.c:1941 gphoto2/main.c:1943
+#: gphoto2/main.c:2037 gphoto2/main.c:2039
 msgid "DIRNAME"
 msgstr "NOME_DIRETORIO"
 
 # (pofilter) acronyms: Consider not translating acronyms: RANGE
-#: gphoto2/main.c:1947 gphoto2/main.c:1951 gphoto2/main.c:1956
-#: gphoto2/main.c:1963 gphoto2/main.c:1969 gphoto2/main.c:1974
+#: gphoto2/main.c:2043 gphoto2/main.c:2047 gphoto2/main.c:2052
+#: gphoto2/main.c:2059 gphoto2/main.c:2065 gphoto2/main.c:2070
 msgid "RANGE"
 msgstr "INTERVALO"
 
 # (pofilter) acronyms: Consider not translating acronyms: FILENAME_PATTERN
-#: gphoto2/main.c:1980
+#: gphoto2/main.c:2076
 msgid "FILENAME_PATTERN"
 msgstr "PADRAO_NOME_ARQUIVO"
 
 # (pofilter) acronyms: Consider not translating acronyms: FOLDER
-#: gphoto2/main.c:1982
+#: gphoto2/main.c:2078
 msgid "FOLDER"
 msgstr "PASTA"
 
 # (pofilter) simplecaps: Different capitalization
 # (pofilter) startcaps: Different capitalization at the start
-#: gphoto2/main.c:2017
+#: gphoto2/main.c:2115
 msgid "gPhoto shell"
 msgstr "Shell do gPhoto"
 
 # (pofilter) brackets: Missing '(', ')'
-#: gphoto2/main.c:2027
+#: gphoto2/main.c:2125
 msgid "Get information on software and host system (not from the camera)"
 msgstr "Obter informações no software e no sistema hospedeiro, não da câmera"
 
