@@ -6,9 +6,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gst-plugins-ugly-1.4.1\n"
+"Project-Id-Version: gst-plugins-ugly-1.7.1\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
-"POT-Creation-Date: 2014-08-27 14:47+0300\n"
+"POT-Creation-Date: 2015-12-24 14:03+0100\n"
 "PO-Revision-Date: 2013-08-20 22:54-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
@@ -31,22 +31,22 @@ msgstr "Não foi possível abrir o dispositivo de CD para leitura."
 msgid "Disc is not an Audio CD."
 msgstr "O disco não é um CD de áudio."
 
-#: ext/dvdread/dvdreadsrc.c:228 ext/dvdread/dvdreadsrc.c:235
+#: ext/dvdread/dvdreadsrc.c:231 ext/dvdread/dvdreadsrc.c:238
 msgid "Could not open DVD"
 msgstr "Não foi possível abrir o DVD"
 
-#: ext/dvdread/dvdreadsrc.c:242 ext/dvdread/dvdreadsrc.c:618
-#: ext/dvdread/dvdreadsrc.c:625
+#: ext/dvdread/dvdreadsrc.c:245 ext/dvdread/dvdreadsrc.c:621
+#: ext/dvdread/dvdreadsrc.c:628
 #, c-format
 msgid "Could not open DVD title %d"
 msgstr "Não foi possível abrir o título %d do DVD"
 
-#: ext/dvdread/dvdreadsrc.c:248
+#: ext/dvdread/dvdreadsrc.c:251
 #, c-format
 msgid "Failed to go to chapter %d of DVD title %d"
 msgstr "Falha ao avançar para o capítulo %d do título %d do DVD"
 
-#: ext/dvdread/dvdreadsrc.c:632
+#: ext/dvdread/dvdreadsrc.c:635
 #, c-format
 msgid ""
 "Could not open DVD title %d. Interactive titles are not supported by this "
@@ -55,7 +55,7 @@ msgstr ""
 "Não foi possível abrir o título %d do DVD. Não há suporte a títulos "
 "interativos por este elemento"
 
-#: ext/dvdread/dvdreadsrc.c:986
+#: ext/dvdread/dvdreadsrc.c:989
 msgid ""
 "Could not read DVD. This may be because the DVD is encrypted and a DVD "
 "decryption library is not installed."
@@ -63,18 +63,18 @@ msgstr ""
 "Não foi possível ler o DVD. O motivo pode ser que o DVD está criptografado e "
 "uma biblioteca de descriptografia de DVD não está instalada."
 
-#: ext/dvdread/dvdreadsrc.c:989
+#: ext/dvdread/dvdreadsrc.c:992
 msgid "Could not read DVD."
 msgstr "Não foi possível ler o DVD."
 
-#: ext/lame/gstlamemp3enc.c:394
+#: ext/lame/gstlamemp3enc.c:395
 msgid ""
 "Failed to configure LAME mp3 audio encoder. Check your encoding parameters."
 msgstr ""
 "Falha ao configurar o codificador de áudio MP3 LAME. Verifique seus "
 "parâmetros de codificação."
 
-#: ext/lame/gstlamemp3enc.c:426 ext/twolame/gsttwolamemp2enc.c:486
+#: ext/lame/gstlamemp3enc.c:427 ext/twolame/gsttwolamemp2enc.c:488
 #, c-format
 msgid ""
 "The requested bitrate %d kbit/s for property '%s' is not allowed. The "
@@ -89,11 +89,11 @@ msgstr ""
 "Falha ao configurar o codificador TwoLAME. Verifique seus parâmetros de "
 "codificação."
 
-#: gst/asfdemux/gstasfdemux.c:413
+#: gst/asfdemux/gstasfdemux.c:425
 msgid "This stream contains no data."
 msgstr "Este fluxo não contém dados."
 
-#: gst/asfdemux/gstasfdemux.c:420 gst/asfdemux/gstasfdemux.c:1961
+#: gst/asfdemux/gstasfdemux.c:432 gst/asfdemux/gstasfdemux.c:2018
 msgid "Internal data stream error."
 msgstr "Erro interno no fluxo de dados."
 
