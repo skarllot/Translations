@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gphoto2 2.5.8\n"
 "Report-Msgid-Bugs-To: gphoto-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-07-05 22:44+0200\n"
-"PO-Revision-Date: 2015-12-28 15:47-0200\n"
+"PO-Revision-Date: 2015-12-28 16:06-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
 "net>\n"
@@ -1115,10 +1115,9 @@ msgid "List supported port devices"
 msgstr "Lista os dispositivos de porta que há suporte"
 
 #: gphoto2/main.c:1986
-#, fuzzy
-#| msgid "Display camera/driver abilities"
 msgid "Display the camera/driver abilities in the libgphoto2 database"
-msgstr "Exibe as habilidades da câmera e driver"
+msgstr ""
+"Exibe as especificações da câmera/driver no banco de dados do libgphoto2"
 
 #: gphoto2/main.c:1993
 msgid "Configure"
@@ -1157,10 +1156,8 @@ msgid "Keep images on camera after capturing"
 msgstr "Manter as imagens na câmera após a captura"
 
 #: gphoto2/main.c:2016
-#, fuzzy
-#| msgid "Keep images on camera after capturing"
 msgid "Keep RAW images on camera after capturing"
-msgstr "Manter as imagens na câmera após a captura"
+msgstr "Manter as imagens originais na câmera após a captura"
 
 #: gphoto2/main.c:2018
 msgid "Remove images from camera after capturing"
@@ -1172,7 +1169,7 @@ msgstr "Espera por evento(s) da câmera"
 
 #: gphoto2/main.c:2020 gphoto2/main.c:2022 gphoto2/main.c:2048
 msgid "COUNT, SECONDS, MILLISECONDS or MATCHSTRING"
-msgstr ""
+msgstr "QTDE, SEGUNDOS, MILISSEGUNDOS ou TEXTO_CORRESPONDENTE"
 
 #: gphoto2/main.c:2022
 msgid "Wait for event(s) from the camera and download new images"
@@ -1184,7 +1181,7 @@ msgstr "Capturar uma visualização rápida"
 
 #: gphoto2/main.c:2028
 msgid "Show a quick preview as Ascii Art"
-msgstr ""
+msgstr "Exibir uma visualização rápida com ASCII Art"
 
 #: gphoto2/main.c:2030
 msgid "Set bulb exposure time in seconds"
@@ -1376,20 +1373,16 @@ msgid "List auto-detected cameras"
 msgstr "Lista as câmeras detectadas automaticamente"
 
 #: gphoto2/main.c:2125 gphoto2/shell.c:138
-#, fuzzy
-#| msgid "Show EXIF information"
 msgid "Show EXIF information of JPEG images"
-msgstr "Exibir informação EXIF"
+msgstr "Exibir informação EXIF das imagens JPEG"
 
 #: gphoto2/main.c:2128 gphoto2/shell.c:132
 msgid "Show image information, like width, height, and capture time"
-msgstr ""
+msgstr "Exibir informações da imagem como largura, altura e data de captura"
 
 #: gphoto2/main.c:2130
-#, fuzzy
-#| msgid "Show summary"
 msgid "Show camera summary"
-msgstr "Mostrar resumo"
+msgstr "Mostrar resumo da câmera"
 
 #: gphoto2/main.c:2132
 msgid "Show camera driver manual"
