@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: gst-plugins-base-1.5.1\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2015-06-07 09:34+0200\n"
-"PO-Revision-Date: 2015-02-01 19:21-0200\n"
+"PO-Revision-Date: 2015-12-28 17:40-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
 "net>\n"
@@ -694,10 +694,9 @@ msgstr ""
 "dispositivos serem adicionados ou removidos."
 
 #: tools/gst-play.c:236
-#, fuzzy, c-format
-#| msgid "Volume"
+#, c-format
 msgid "Volume: %.0f%%"
-msgstr "Volume"
+msgstr "Volume: %.0f%%"
 
 #: tools/gst-play.c:275
 msgid "Buffering..."
@@ -710,96 +709,91 @@ msgstr "Temporizador perdido, selecionando um novo\n"
 #: tools/gst-play.c:326 tools/gst-play.c:372 tools/gst-play.c:691
 #: tools/gst-play.c:905
 msgid "Reached end of play list."
-msgstr ""
+msgstr "A lista de reprodução terminou."
 
 #: tools/gst-play.c:505
 #, c-format
 msgid "Now playing %s\n"
-msgstr ""
+msgstr "Reproduzindo %s\n"
 
 #: tools/gst-play.c:568
 #, c-format
 msgid "About to finish, preparing next title: %s"
-msgstr ""
+msgstr "Quase terminando, preparando a próxima faixa: %s"
 
 #: tools/gst-play.c:787
 #, c-format
 msgid "Playback rate: %.2f"
-msgstr ""
+msgstr "Taxa de reprodução: %.2f"
 
 #: tools/gst-play.c:791
-#, fuzzy, c-format
-#| msgid "Could not open device for playback in stereo mode."
+#, c-format
 msgid "Could not change playback rate to %.2f"
-msgstr "Não foi possível abrir o dispositivo para reprodução em estéreo."
+msgstr "Não foi possível alterar a taxa de reprodução para %.2f"
 
 #: tools/gst-play.c:855
 msgid "space"
-msgstr ""
+msgstr "espaço"
 
 #: tools/gst-play.c:855
 msgid "pause/unpause"
-msgstr ""
+msgstr "pausar/cancelar"
 
 #: tools/gst-play.c:856
 msgid "q or ESC"
-msgstr ""
+msgstr "q ou ESC"
 
 #: tools/gst-play.c:856
 msgid "quit"
-msgstr ""
+msgstr "sair"
 
 #: tools/gst-play.c:857
 msgid "play next"
-msgstr ""
+msgstr "reproduzir próxima"
 
 #: tools/gst-play.c:858
 msgid "play previous"
-msgstr ""
+msgstr "reproduzir anterior"
 
 #: tools/gst-play.c:859
 msgid "seek forward"
-msgstr ""
+msgstr "buscar à frente"
 
 #: tools/gst-play.c:860
 msgid "seek backward"
-msgstr ""
+msgstr "buscar para trás"
 
 #: tools/gst-play.c:861
-#, fuzzy
-#| msgid "Volume"
 msgid "volume up"
-msgstr "Volume"
+msgstr "aumentar volume"
 
 #: tools/gst-play.c:862
 msgid "volume down"
-msgstr ""
+msgstr "diminuir volume"
 
 #: tools/gst-play.c:863
 msgid "increase playback rate"
-msgstr ""
+msgstr "aumentar taxa de reprodução"
 
 #: tools/gst-play.c:864
 msgid "decrease playback rate"
-msgstr ""
+msgstr "diminuir taxa de reprodução"
 
 #: tools/gst-play.c:865
 msgid "change playback direction"
-msgstr ""
+msgstr "alterar direção de reprodução"
 
 #: tools/gst-play.c:866
 msgid "enable/disable trick modes"
-msgstr ""
+msgstr "ativar/desativar modos avançados"
 
 #: tools/gst-play.c:867
 msgid "show keyboard shortcuts"
-msgstr ""
+msgstr "exibir atalhos de teclado"
 
 #: tools/gst-play.c:870
-#, fuzzy
-#| msgid "Interactive control via keyboard"
 msgid "Interactive mode - keyboard controls:"
-msgstr "Controle interativo via teclado"
+msgstr "Modo interativo - teclas de comando:"
 
 #: tools/gst-play.c:984
 msgid "Video sink to use (default is autovideosink)"
@@ -820,10 +814,8 @@ msgid "Shuffle playlist"
 msgstr "Embaralhar lista de reprodução"
 
 #: tools/gst-play.c:993
-#, fuzzy
-#| msgid "Interactive control via keyboard"
 msgid "Disable interactive control via the keyboard"
-msgstr "Controle interativo via teclado"
+msgstr "Desativar controle interativo via teclado"
 
 #: tools/gst-play.c:995
 msgid "Volume"
@@ -835,7 +827,7 @@ msgstr "Arquivo de lista de reprodução que contém arquivos de mídia de entra
 
 #: tools/gst-play.c:999
 msgid "Do not print any output (apart from errors)"
-msgstr ""
+msgstr "Não exibir nenhuma saída (além dos erros)"
 
 #: tools/gst-play.c:1068
 #, c-format
@@ -848,7 +840,7 @@ msgstr "Você deve fornecer ao menos um nome de arquivo ou URI para reproduzir."
 
 #: tools/gst-play.c:1105
 msgid "Press 'k' to see a list of keyboard shortcuts.\n"
-msgstr ""
+msgstr "Pressione \"k\" para ver a lista de atalhos do teclado.\n"
 
 #~ msgid "A %s plugin is required to play this stream, but not installed."
 #~ msgstr ""
