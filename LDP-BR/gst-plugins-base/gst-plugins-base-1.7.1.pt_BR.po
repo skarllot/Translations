@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: gst-plugins-base-1.7.1\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2015-12-24 12:56+0100\n"
-"PO-Revision-Date: 2015-12-28 17:48-0200\n"
+"PO-Revision-Date: 2015-12-28 18:04-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
 "net>\n"
@@ -805,7 +805,7 @@ msgstr "alterar trilha de legenda"
 
 #: tools/gst-play.c:976
 msgid "seek to beginning"
-msgstr ""
+msgstr "pular para o começo"
 
 #: tools/gst-play.c:977
 msgid "show keyboard shortcuts"
