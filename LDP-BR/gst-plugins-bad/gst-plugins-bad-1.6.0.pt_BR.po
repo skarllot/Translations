@@ -6,9 +6,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gst-plugins-bad-1.5.1\n"
+"Project-Id-Version: gst-plugins-bad-1.6.0\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
-"POT-Creation-Date: 2015-06-07 10:59+0200\n"
+"POT-Creation-Date: 2015-09-25 22:59+0200\n"
 "PO-Revision-Date: 2015-12-28 16:56-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
@@ -194,7 +194,7 @@ msgid "Could not read DVD."
 msgstr "Não foi possível ler o DVD."
 
 #: ext/smoothstreaming/gstmssdemux.c:380
-#: gst-libs/gst/adaptivedemux/gstadaptivedemux.c:520
+#: gst-libs/gst/adaptivedemux/gstadaptivedemux.c:525
 msgid "This file contains no playable streams."
 msgstr "Este arquivo não contém fluxos reproduzíveis."
 
@@ -222,7 +222,7 @@ msgstr "Não foi possível iniciar o sndio"
 msgid "Internal data flow error."
 msgstr "Erro interno de fluxo de dados."
 
-#: gst/asfmux/gstasfmux.c:1803
+#: gst/asfmux/gstasfmux.c:1832
 msgid "Generated file has a larger preroll time than its streams duration"
 msgstr ""
 "O arquivo gerado tem um tempo de preparação maior que a sua duração de fluxo"
@@ -240,25 +240,27 @@ msgstr ""
 "A localização do arquivo está NULA, favor definir um nome de arquivo válido"
 
 #: gst/camerabin2/gstwrappercamerabinsrc.c:584
-msgid "Digitalzoom element cound't be created"
+#, fuzzy
+#| msgid "Digitalzoom element cound't be created"
+msgid "Digitalzoom element couldn't be created"
 msgstr "O elemento Digitalzoom não pôde ser criado"
 
-#: gst/dvdspu/gstdvdspu.c:1036
+#: gst/dvdspu/gstdvdspu.c:1040
 msgid "Subpicture format was not configured before data flow"
 msgstr "O formato de subimagem não foi configurado antes do fluxo de dados"
 
-#: gst-libs/gst/adaptivedemux/gstadaptivedemux.c:1913
+#: gst-libs/gst/adaptivedemux/gstadaptivedemux.c:2081
 msgid "Failed to get fragment URL."
 msgstr "Falha ao obter um fragmento de URL."
 
-#: gst-libs/gst/adaptivedemux/gstadaptivedemux.c:2101
-#: gst-libs/gst/adaptivedemux/gstadaptivedemux.c:2265
-#: gst/mpegtsdemux/mpegtsbase.c:1337 gst/mpegtsdemux/mpegtsbase.c:1341
+#: gst-libs/gst/adaptivedemux/gstadaptivedemux.c:2282
+#: gst-libs/gst/adaptivedemux/gstadaptivedemux.c:2446
+#: gst/mpegtsdemux/mpegtsbase.c:1342 gst/mpegtsdemux/mpegtsbase.c:1346
 #: gst/nuvdemux/gstnuvdemux.c:736
 msgid "Internal data stream error."
 msgstr "Erro interno de fluxo de dados."
 
-#: gst-libs/gst/adaptivedemux/gstadaptivedemux.c:2202
+#: gst-libs/gst/adaptivedemux/gstadaptivedemux.c:2383
 msgid "Couldn't download fragments"
 msgstr "Não foi possível baixar os fragmentos"
 
