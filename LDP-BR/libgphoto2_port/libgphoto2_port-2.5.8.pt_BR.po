@@ -1,15 +1,15 @@
 # Brazilian Portuguese translation of libgphoto2.
+# Copyright (C) 2002-2015 Free Software Foundation, Inc.
 # This file is distributed under the same license as the libgphoto2 package.
-# Copyright (C) 2002-2010 Free Software Foundation, Inc.
 # Evandro Gardenali <evandro@fasternet.com.br>, 2002.
-# Fabrício Godoy <skarllot@gmail.com>, 2010.
+# Fabrício Godoy <skarllot@gmail.com>, 2010, 2015.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: libgphoto2_port 2.5.8\n"
 "Report-Msgid-Bugs-To: gphoto-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-06-17 23:53+0200\n"
-"PO-Revision-Date: 2010-05-09 20:44-0300\n"
+"PO-Revision-Date: 2015-12-28 21:20-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
 "Language: pt_BR\n"
@@ -178,22 +178,19 @@ msgid "Serial Port %i"
 msgstr "Porta serial %i"
 
 #: serial/unix.c:430
-#, fuzzy, c-format
-#| msgid "Failed to open '%s' (%m)."
+#, c-format
 msgid "Failed to open '%s' (%s)."
-msgstr "Falhou ao abrir \"%s\" (%m)."
+msgstr "Falha ao abrir \"%s\" (%s)."
 
 #: serial/unix.c:450
-#, fuzzy, c-format
-#| msgid "Could not close '%s' (%m)."
+#, c-format
 msgid "Could not close '%s' (%s)."
-msgstr "Não foi possível fechar \"%s\" (%m)."
+msgstr "Não foi possível fechar \"%s\" (%s)."
 
 #: serial/unix.c:506
-#, fuzzy, c-format
-#| msgid "Could not write to port (%m)"
+#, c-format
 msgid "Could not write to port (%s)"
-msgstr "Não foi possível escrever para a porta (%m)"
+msgstr "Não foi possível gravar na porta (%s)"
 
 #: serial/unix.c:583
 msgid "Parity error."
@@ -210,22 +207,19 @@ msgid "Unknown pin %i."
 msgstr "Pino desconhecido %i."
 
 #: serial/unix.c:652
-#, fuzzy, c-format
-#| msgid "Could not get level of pin %i (%m)."
+#, c-format
 msgid "Could not get level of pin %i (%s)."
-msgstr "Não foi possível obter o nível do pino %i (%m)."
+msgstr "Não foi possível obter o nível do pino %i (%s)."
 
 #: serial/unix.c:688
-#, fuzzy, c-format
-#| msgid "Could not set level of pin %i to %i (%m)."
+#, c-format
 msgid "Could not set level of pin %i to %i (%s)."
-msgstr "Não foi possível ajustar o nível do pino de %i para %i (%m)."
+msgstr "Não foi possível ajustar o nível do pino %i para %i (%s)."
 
 #: serial/unix.c:715
-#, fuzzy, c-format
-#| msgid "Could not flush '%s' (%m)."
+#, c-format
 msgid "Could not flush '%s' (%s)."
-msgstr "Não foi possível descarregar \"%s\" (%m)."
+msgstr "Não foi possível descarregar \"%s\" (%s)."
 
 #: serial/unix.c:827
 #, c-format
@@ -262,10 +256,9 @@ msgid "Could not read from '%s' (%m)."
 msgstr "Não foi possível ler de \"%s\" (%m)."
 
 #: usb/libusb.c:261 libusb1/libusb1.c:378
-#, fuzzy, c-format
-#| msgid "Could not open USB device (%m)."
+#, c-format
 msgid "Could not open USB device (%s)."
-msgstr "Não foi possível abrir o dispositivo USB (%m)."
+msgstr "Não foi possível abrir o dispositivo USB (%s)."
 
 #: usb/libusb.c:274 libusb1/libusb1.c:387
 msgid "Camera is already in use."
@@ -283,57 +276,48 @@ msgid "Could not query kernel driver of device."
 msgstr "Não foi possível examinar o driver de kernel do dispositivo."
 
 #: usb/libusb.c:296 libusb1/libusb1.c:409
-#, fuzzy, c-format
-#| msgid ""
-#| "Could not claim interface %d (%m). Make sure no other program or kernel "
-#| "module (such as %s) is using the device and you have read/write access to "
-#| "the device."
+#, c-format
 msgid ""
 "Could not claim interface %d (%s). Make sure no other program (%s) or kernel "
 "module (such as %s) is using the device and you have read/write access to "
 "the device."
 msgstr ""
-"Não foi possível chamar a interface %d (%m). Tenha certeza de que nenhum "
-"outro programa ou módulo do kernel (como %s) está usando o dispositivo e que "
-"você tem acesso de leitura e escrita para o dispositivo."
+"Não foi possível chamar a interface %d (%s). Tenha certeza de que nenhum "
+"outro programa (%s) ou módulo do kernel (como %s) está usando o dispositivo, "
+"e que você tem acesso de leitura e escrita para o dispositivo."
 
 #: usb/libusb.c:308 libusb1/libusb1.c:420
 msgid "MacOS PTPCamera service"
-msgstr ""
+msgstr "Serviço PTPCamera MacOS"
 
 #: usb/libusb.c:310 libusb1/libusb1.c:422
 msgid "unknown libgphoto2 using program"
-msgstr ""
+msgstr "O programa está usando uma libgphoto2 desconhecida"
 
 #: usb/libusb.c:327 libusb1/libusb1.c:475
-#, fuzzy, c-format
-#| msgid "Could not release interface %d (%m)."
+#, c-format
 msgid "Could not release interface %d (%s)."
-msgstr "Não foi possível liberar a interface %d (%m)."
+msgstr "Não foi possível liberar a interface %d (%s)."
 
 #: usb/libusb.c:342 libusb1/libusb1.c:489
-#, fuzzy, c-format
-#| msgid "Could not reset USB port (%m)."
+#, c-format
 msgid "Could not reset USB port (%s)."
-msgstr "Não foi possível reiniciar a porta USB (%m)."
+msgstr "Não foi possível reiniciar a porta USB (%s)."
 
 #: usb/libusb.c:372
-#, fuzzy, c-format
-#| msgid "Could not close USB port (%m)."
+#, c-format
 msgid "Could not close USB port (%s)."
-msgstr "Não foi possível fechar a porta USB (%m)."
+msgstr "Não foi possível fechar a porta USB (%s)."
 
 #: usb/libusb.c:633 libusb1/libusb1.c:824
-#, fuzzy, c-format
-#| msgid "Could not set config %d/%d (%m)"
+#, c-format
 msgid "Could not set config %d/%d (%s)"
-msgstr "Não foi possível definir a configuração %d/%d (%m)"
+msgstr "Não foi possível definir a configuração %d/%d (%s)"
 
 #: usb/libusb.c:664 libusb1/libusb1.c:853
-#, fuzzy, c-format
-#| msgid "Could not set altsetting from %d to %d (%m)"
+#, c-format
 msgid "Could not set altsetting from %d to %d (%s)"
-msgstr "Não foi possível definir a configuração alternativa de %d para %d (%m)"
+msgstr "Não foi possível definir a configuração alternativa de %d para %d (%s)"
 
 #: usb/libusb.c:753 libusb1/libusb1.c:1018
 #, c-format
@@ -361,38 +345,28 @@ msgstr ""
 "computador."
 
 #: libusb1/libusb1.c:396
-#, fuzzy
-#| msgid "Could not detach kernel driver '%s' of camera device."
 msgid "Could not detach kernel driver of camera device."
 msgstr ""
-"Não foi possível desanexar o driver de kernel \"%s\" do dispositivo de "
-"câmera."
+"Não foi possível desanexar o driver de kernel do dispositivo de câmera."
 
 #: libusb1/libusb1.c:498
-#, fuzzy
-#| msgid "Could not detach kernel driver '%s' of camera device."
 msgid "Could not reattach kernel driver of camera device."
-msgstr ""
-"Não foi possível desanexar o driver de kernel \"%s\" do dispositivo de "
-"câmera."
+msgstr "Não foi possível reanexar o driver de kernel do dispositivo de câmera."
 
 #: usbscsi/linux.c:109
-#, fuzzy, c-format
-#| msgid "Device '%s' is locked by pid %d"
+#, c-format
 msgid "Device '%s' is locked by another app."
-msgstr "O dispositivo \"%s\" está travado pelo PID %d"
+msgstr "O dispositivo \"%s\" está bloqueado por outro aplicativo."
 
 #: usbscsi/linux.c:114
-#, fuzzy, c-format
-#| msgid "Failed to open '%s' (%m)."
+#, c-format
 msgid "Failed to lock '%s' (%m)."
-msgstr "Falhou ao abrir \"%s\" (%m)."
+msgstr "Falha ao bloquear \"%s\" (%m)."
 
 #: usbscsi/linux.c:130
-#, fuzzy, c-format
-#| msgid "Failed to open '%s' (%m)."
+#, c-format
 msgid "Failed to unlock '%s' (%m)."
-msgstr "Falhou ao abrir \"%s\" (%m)."
+msgstr "Falha ao desbloquear \"%s\" (%m)."
 
 #: usbscsi/linux.c:231
 msgid "USB Mass Storage raw SCSI"
