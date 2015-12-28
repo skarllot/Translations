@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gst-plugins-bad-1.6.0\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2015-09-25 22:59+0200\n"
-"PO-Revision-Date: 2015-12-28 16:56-0200\n"
+"PO-Revision-Date: 2015-12-28 17:03-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
 "net>\n"
@@ -240,8 +240,6 @@ msgstr ""
 "A localização do arquivo está NULA, favor definir um nome de arquivo válido"
 
 #: gst/camerabin2/gstwrappercamerabinsrc.c:584
-#, fuzzy
-#| msgid "Digitalzoom element cound't be created"
 msgid "Digitalzoom element couldn't be created"
 msgstr "O elemento Digitalzoom não pôde ser criado"
 
