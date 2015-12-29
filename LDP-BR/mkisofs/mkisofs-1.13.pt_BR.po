@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: GNU mkisofs 1.13\n"
 "Report-Msgid-Bugs-To: rmh.mkisofs@aybabtu.com\n"
 "POT-Creation-Date: 2010-01-08 16:53+0100\n"
-"PO-Revision-Date: 2015-12-28 21:44-0200\n"
+"PO-Revision-Date: 2015-12-28 22:19-0200\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
 "net>\n"
@@ -21,37 +21,39 @@ msgstr ""
 #: src/eltorito.c:96
 #, c-format
 msgid "A boot catalog exists and appears corrupted.\n"
-msgstr ""
+msgstr "Um catálogo de inicialização existe e parece corrompido.\n"
 
 #: src/eltorito.c:97
 #, c-format
 msgid "Please check the following file: %s.\n"
-msgstr ""
+msgstr "Por favor, verifique o seguinte arquivo: %s.\n"
 
 #: src/eltorito.c:98
 #, c-format
 msgid "This file must be removed before a bootable CD can be done.\n"
 msgstr ""
+"Este arquivo precisa ser removido antes que um CD inicializável possa ser "
+"feito.\n"
 
 #: src/eltorito.c:110
 #, c-format
 msgid "Error creating boot catalog (%s)"
-msgstr ""
+msgstr "Erro ao criar um catálogo de inicialização (%s)"
 
 #: src/eltorito.c:114
 #, c-format
 msgid "Error writing to boot catalog (%s)"
-msgstr ""
+msgstr "Erro ao escrever no catálogo de inicialização (%s)"
 
 #: src/eltorito.c:144
 #, c-format
 msgid "Boot catalog cannot be found!\n"
-msgstr ""
+msgstr "O catálogo de inicialização não pôde ser encontrado!\n"
 
 #: src/eltorito.c:158
 #, c-format
 msgid "Boot image cannot be found!\n"
-msgstr ""
+msgstr "A imagem de inicialização não pôde ser encontrada!\n"
 
 #: src/eltorito.c:221
 #, c-format
@@ -59,26 +61,28 @@ msgid ""
 "\n"
 "Size of boot image is %d sectors"
 msgstr ""
+"\n"
+"O tamanho da imagem de inicialização é %d setores"
 
 #: src/eltorito.c:227
 #, c-format
 msgid "No emulation\n"
-msgstr ""
+msgstr "Sem emulação\n"
 
 #: src/eltorito.c:235
 #, c-format
 msgid "Emulating a 1.44 meg floppy\n"
-msgstr ""
+msgstr "Emulando um disquete de 1,44 MB\n"
 
 #: src/eltorito.c:240
 #, c-format
 msgid "Emulating a 2.88 meg floppy\n"
-msgstr ""
+msgstr "Emulando um disquete de 2,88 MB\n"
 
 #: src/eltorito.c:245
 #, c-format
 msgid "Emulating a 1.2 meg floppy\n"
-msgstr ""
+msgstr "Emulando um disquete de 1,2 MB\n"
 
 #: src/eltorito.c:249
 #, c-format
@@ -86,165 +90,175 @@ msgid ""
 "\n"
 "Error - boot image is not the an allowable size.\n"
 msgstr ""
+"\n"
+"Erro - a imagem de inicialização não está dentro do tamanho permitido.\n"
 
 #: src/eltorito.c:269
 #, c-format
 msgid "Error opening boot catalog for update"
-msgstr ""
+msgstr "Erro ao abrir o catálogo de inicialização para atualização"
 
 #: src/eltorito.c:275 src/eltorito.c:277
 #, c-format
 msgid "Error writing to boot catalog"
-msgstr ""
+msgstr "Error ao escrever no catálogo de inicialização"
 
 #: src/eltorito.c:291
 #, c-format
 msgid "Error opening boot image file '%s' for update"
 msgstr ""
+"Erro ao abrir o arquivo \"%s\" com a imagem de inicialização para atualização"
 
 #: src/eltorito.c:299
 #, c-format
 msgid "Odd alignment at non-end-of-file in boot image '%s'"
 msgstr ""
+"Alinhamento inesperado no meio do arquivo da imagem de inicialização \"%s\""
 
 #: src/eltorito.c:311
 #, c-format
 msgid "Boot image file '%s' changed unexpectedly"
 msgstr ""
+"O arquivo \"%s\" com a imagem de inicialização foi inesperadamente alterado"
 
 #: src/eltorito.c:323
 #, c-format
 msgid "Error writing to boot image (%s)"
-msgstr ""
+msgstr "Erro ao escrever na imagem de inicialização (%s)"
 
 #: src/joliet.c:359 src/write.c:984
 #, c-format
 msgid "Unable to generate sane path tables - too many directories (%d)\n"
 msgstr ""
+"Não foi possível gerar tabelas de caminhos de maneira aceitável - muitos "
+"diretórios (%d)\n"
 
 #: src/joliet.c:398 src/write.c:1020
 #, c-format
 msgid "Entry %d not in path tables\n"
-msgstr ""
+msgstr "A entrada %d não está nas tabelas de caminho\n"
 
 #: src/joliet.c:412
 #, c-format
 msgid "Fatal goof - directory has amnesia\n"
-msgstr ""
+msgstr "Erro fatal bobo - o diretório tem amnésia\n"
 
 #: src/joliet.c:478
 #, c-format
 msgid "Joliet path table lengths do not match %d %d\n"
-msgstr ""
+msgstr "Os tamanho da tabela de caminho Joliet não correspondem a %d %d\n"
 
 #: src/joliet.c:530
 #, c-format
 msgid "Unable to locate relocated directory\n"
-msgstr ""
+msgstr "Não foi possível localizar o diretório realocado\n"
 
 #: src/joliet.c:605
 #, c-format
 msgid "Fatal goof - unable to find directory location\n"
 msgstr ""
+"Erro fatal bobo - não foi possível encontrar a localização do diretório\n"
 
 #: src/joliet.c:654
 #, c-format
 msgid "Unexpected joliet directory length %d %d %s\n"
-msgstr ""
+msgstr "Tamanho inesperado para o diretório Joliet %d %d %s\n"
 
 #: src/mkisofs.c:203
 msgid "Process all files (don't skip backup files)"
-msgstr ""
+msgstr "Processar todos os arquivos (não pular os arquivos de backup)"
 
 #: src/mkisofs.c:205 src/mkisofs.c:209 src/mkisofs.c:211 src/mkisofs.c:213
 #: src/mkisofs.c:217 src/mkisofs.c:219 src/mkisofs.c:257 src/mkisofs.c:265
 #: src/mkisofs.c:295
 msgid "FILE"
-msgstr ""
+msgstr "ARQUIVO"
 
 #: src/mkisofs.c:205
 msgid "Set Abstract filename"
-msgstr ""
+msgstr "Definir nome de arquivo de resumo"
 
 #: src/mkisofs.c:207 src/mkisofs.c:281 src/mkisofs.c:287 src/mkisofs.c:289
 msgid "ID"
-msgstr ""
+msgstr "Id."
 
 #: src/mkisofs.c:207
 msgid "Set Application ID"
-msgstr ""
+msgstr "Definir Id. Aplicativo"
 
 #: src/mkisofs.c:209
 msgid "Set Bibliographic filename"
-msgstr ""
+msgstr "Definir o nome de arquivo bibliográfico"
 
 #: src/mkisofs.c:211
 msgid "Set Copyright filename"
-msgstr ""
+msgstr "Definir o nome de arquivo de direito autorais"
 
 #: src/mkisofs.c:213
 msgid "Set embedded boot image name"
-msgstr ""
+msgstr "Definir o nome da imagem de inicialização embutida"
 
 #: src/mkisofs.c:215
 msgid "Patch a protective DOS-style label in the image"
-msgstr ""
+msgstr "Na imagem, arrumar o título para o estilo DOS para proteção"
 
 #: src/mkisofs.c:217
 msgid "Set El Torito boot image name"
-msgstr ""
+msgstr "Definir o nome da imagem de inicialização El Torito"
 
 #: src/mkisofs.c:219
 msgid "Set El Torito boot catalog name"
-msgstr ""
+msgstr "Definir o nome do catálogo de inicialização El Torito"
 
 #: src/mkisofs.c:221
 msgid "Patch Boot Info Table in El Torito boot image"
 msgstr ""
+"Arrumar a tabela de informações de inicialização na imagem de inicialização "
+"El Torito"
 
 #: src/mkisofs.c:223
 msgid "Dummy option for backward compatibility"
-msgstr ""
+msgstr "Opção inútil para compatibilidade"
 
 #: src/mkisofs.c:225
 msgid "Enable floppy drive emulation for El Torito"
-msgstr ""
+msgstr "Ativar emulação de disquete para El Torito"
 
 #: src/mkisofs.c:227
 msgid "PARAMS"
-msgstr ""
+msgstr "PARAMS"
 
 #: src/mkisofs.c:227
 msgid "Magic parameters from cdrecord"
-msgstr ""
+msgstr "Parâmetros mágicos para cdrecord"
 
 #: src/mkisofs.c:229
 msgid "Omit trailing periods from filenames"
-msgstr ""
+msgstr "Omitir o ponto no final para nomes de arquivos"
 
 #: src/mkisofs.c:231
 msgid "Disable deep directory relocation"
-msgstr ""
+msgstr "Desativar realocação profunda de diretórios"
 
 #: src/mkisofs.c:233
 msgid "Follow symbolic links"
-msgstr ""
+msgstr "Seguir links simbólicos"
 
 #: src/mkisofs.c:235 src/mkisofs.c:237
 msgid "Print option help"
-msgstr ""
+msgstr "Exibir ajuda da opção"
 
 #: src/mkisofs.c:239
 msgid "Print version information and exit"
-msgstr ""
+msgstr "Exibir informações de versão e sair"
 
 #: src/mkisofs.c:241 src/mkisofs.c:243 src/mkisofs.c:255
 msgid "GLOBFILE"
-msgstr ""
+msgstr "GLOBFILE"
 
 #: src/mkisofs.c:241
 msgid "Hide ISO9660/RR file"
-msgstr ""
+msgstr "Ocultar o arquivo ISO9660/RR"
 
 #: src/mkisofs.c:243
 msgid "Hide Joliet file"
