@@ -1,0 +1,241 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: evince\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=evince"
+"&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2015-12-28 05:02+0000\n"
+"PO-Revision-Date: 2016-01-05 00:44-0200\n"
+"Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
+"Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.8.6\n"
+
+# (pofilter) unchanged: Consider translating
+#: ../backend/pdf/ev-poppler.cc:1078
+msgid "TrueType"
+msgstr "TrueType"
+
+# (pofilter) unchanged: Consider translating
+#: ../backend/pdf/ev-poppler.cc:1084
+msgid "TrueType (CID)"
+msgstr "TrueType (CID)"
+
+# (pofilter) spellcheck: Check the spelling of TIFF (could be TIFE / TIFA / TIFO / TIFÃO / TIFLO)
+#: ../backend/tiff/evince-tiffdocument.metainfo.xml.in.in.h:1
+#: ../backend/tiff/tiffdocument.evince-backend.in.in.h:1
+msgid "TIFF Documents"
+msgstr "Documentos TIFF"
+
+# (pofilter) spellcheck: Check the spelling of TIFF (could be TIFE / TIFA / TIFO / TIFÃO / TIFLO)
+#: ../backend/tiff/evince-tiffdocument.metainfo.xml.in.in.h:2
+msgid "Adds support for reading TIFF documents"
+msgstr "Adiciona suporte para leitura de documentos TIFF"
+
+# (pofilter) spellcheck: Check the spelling of postscript (could be postscênico / criptocisto / criptonisco / posteriori / proscritor), Check the spelling of tiff (could be tife / tifa / tifo / tifão / tiflo)
+#: ../data/evince.desktop.in.in.h:3
+msgid "pdf;ps;postscript;dvi;xps;djvu;tiff;document;presentation;"
+msgstr "pdf;ps;postscript;dvi;xps;djvu;tiff;documento;apresentação;"
+
+# (pofilter) spellcheck: Check the spelling of MiB (could be MB / Mi / Miá / Miã / Mie)
+#: ../data/org.gnome.Evince.gschema.xml.in.h:7
+msgid "Page cache size in MiB"
+msgstr "Tamanho do cache de página em MiB"
+
+# (pofilter) spellcheck: Check the spelling of maiúsc (could be maiúsculo / Maia-SC / Maio-SC / maiscanga / marisca), Check the spelling of minúsc (could be minúsculo / minúcia / minidisco / minicasa / minuscula)
+# (pofilter) endpunc: Different punctuation at the end
+#: ../libmisc/ev-search-box.c:323
+msgid "C_ase Sensitive"
+msgstr "_Diferenciar maiúsc./minúsc."
+
+# (pofilter) acronyms: Consider not translating acronyms: FILE
+#: ../previewer/ev-previewer.c:46
+msgid "FILE"
+msgstr "ARQUIVO"
+
+# (pofilter) spellcheck: Check the spelling of GNOME (could be GONEM / GOME / NOME / AGNOME / GNOSE)
+#: ../previewer/ev-previewer.c:175 ../previewer/ev-previewer.c:207
+msgid "GNOME Document Previewer"
+msgstr "Visualizador de documentos do GNOME"
+
+# (pofilter) singlequoting: Different quotation marks
+#: ../previewer/ev-previewer-window.c:223
+#, c-format
+msgid "The selected printer '%s' could not be found"
+msgstr "Não foi possível localizar a impressora selecionada \"%s\""
+
+# (pofilter) spellcheck: Check the spelling of Qtde (could be Quede / QT)
+#: ../properties/ev-properties-view.c:70
+msgid "Number of Pages:"
+msgstr "Qtde. de páginas:"
+
+# (pofilter) unchanged: Consider translating
+# (pofilter) spellcheck: Check the spelling of default (could be defaunar / defalana / defunta / defrauda / defaunação)
+#. Translate to the default units to use for presenting
+#. * lengths to the user. Translate to default:inch if you
+#. * want inches, otherwise translate to default:mm.
+#. * Do *not* translate it to "predefinito:mm", if it
+#. * it isn't default:mm or default:inch it will not work
+#.
+#: ../properties/ev-properties-view.c:233
+msgid "default:mm"
+msgstr "default:mm"
+
+# (pofilter) unchanged: Consider translating
+#: ../properties/ev-properties-view.c:277
+#, c-format
+msgid "%.0f × %.0f mm"
+msgstr "%.0f × %.0f mm"
+
+# (pofilter) spellcheck: Check the spelling of pol (could be pois / polé / pole / poli / pola)
+# (pofilter) endpunc: Different punctuation at the end
+#: ../properties/ev-properties-view.c:281
+#, c-format
+msgid "%.2f × %.2f inch"
+msgstr "%.2f × %.2f pol."
+
+# (pofilter) spellcheck: Check the spelling of Evince (could be Evenci / Envice / Evence / Cevina / Vincendo)
+# (pofilter) brackets: Added '(', ')'
+#: ../shell/ev-application.c:995
+msgid ""
+"Evince is free software; you can redistribute it and/or modify it under the "
+"terms of the GNU General Public License as published by the Free Software "
+"Foundation; either version 2 of the License, or (at your option) any later "
+"version.\n"
+msgstr ""
+"Evince é um software livre; você pode redistribuí-lo e/ou modificá-lo sob os "
+"termos da Licença Pública Geral GNU (GPL) como publicada pela Fundação do "
+"Software Livre; seja a versão 2 da Licença ou (se preferir) qualquer versão "
+"mais recente.\n"
+
+# (pofilter) brackets: Added '(', ')'
+# (pofilter) spellcheck: Check the spelling of Evince (could be Evenci / Envice / Evence / Cevina / Vincendo)
+# (pofilter) acronyms: Consider not translating acronyms: WITHOUT, ANY, WARRANTY, MERCHANTABILITY, FITNESS, FOR, PURPOSE
+# (pofilter) doublespacing: Different use of double spaces
+#: ../shell/ev-application.c:999
+msgid ""
+"Evince is distributed in the hope that it will be useful, but WITHOUT ANY "
+"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
+"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
+"details.\n"
+msgstr ""
+"O Evince é distribuído na esperança de que seja útil, mas SEM NENHUMA "
+"GARANTIA; até mesmo sem a garantia implícita de COMERCIALIZAÇÃO ou de "
+"ADAPTAÇÃO A UM PROPÓSITO EM PARTICULAR. Veja a Licença Pública Geral GNU "
+"(GPL) para mais detalhes.\n"
+
+# (pofilter) puncspacing: Different spacing around punctuation
+# (pofilter) brackets: Added '(', ')'
+# (pofilter) spellcheck: Check the spelling of Evince (could be Evenci / Envice / Evence / Cevina / Vincendo), Check the spelling of Free (could be Fere / Frese / Freei / Freie / Frene), Check the spelling of Foundation (could be Fecundativo / Fundacional / Dioxationa / Fonativo / Mandatátio), Check the spelling of Inc (could be Iná / Ince / Inca / Inã / Iné), Check the spelling of Street (could be Stress / Estreto / Sastre / Estrece / Estreme), Check the spelling of Fifth (could be Fifi / Fife / Fifó / Iftá), Check the spelling of Floor (could be Floro / Flor / Flúor / Florino / Flor-RN)
+# (pofilter) numbers: Different numbers
+# (pofilter) doublespacing: Different use of double spaces
+#: ../shell/ev-application.c:1003
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"Evince; if not, write to the Free Software Foundation, Inc., 51 Franklin "
+"Street, Fifth Floor, Boston, MA 02110-1301  USA\n"
+msgstr ""
+"Você deve ter recebido uma cópia da Licença Pública Geral GNU (GPL) junto "
+"com o Evince; se não, escreva para a Free Software Foundation, Inc. 51 "
+"Franklin Street, Fifth Floor, Boston, MA  02111-1301  USA\n"
+
+# (pofilter) unchanged: Consider translating
+# (pofilter) spellcheck: Check the spelling of Evince (could be Evenci / Envice / Evence / Cevina / Vincendo)
+#: ../shell/ev-application.c:1024 ../evince.appdata.xml.in.h:1
+msgid "Evince"
+msgstr "Evince"
+
+# (pofilter) spellcheck: Check the spelling of Evince (could be Evenci / Envice / Evence / Cevina / Vincendo)
+#: ../shell/ev-application.c:1026
+msgid "© 1996–2014 The Evince authors"
+msgstr "© 1996–2014 Os autores do Evince"
+
+# (pofilter) credits: Don't translate. Just credit the translators.
+# (pofilter) spellcheck: Check the spelling of Raphael (could be Rafael / Rapichel / Rapelho / Rapelar / Rappel), Check the spelling of Licio (could be Lirio / Cicio / Vicio / Lício / Li cio), Check the spelling of liciofernando (could be perfeicionando / fernandopolitano / Fernandópolis / Fernando-RN / perfeicionado), Check the spelling of gmail (could be Ismail / magmafila / e-mail / malagma / magilo), Check the spelling of Fontenelle (could be Fototelefone / Montenelo / Pantelefone / Fontanela / Monotelefone), Check the spelling of leonardof (could be Leonardo / leonardesco / leonardite / Leonaldo / leonado), Check the spelling of gnome (could be gonem / gome / nome / agnome / gnose), Check the spelling of org (could be orá / oré / oró / orô / ore), Check the spelling of washington (could be Washington), Check the spelling of lins (could be Lins / lina / lis / linas / tlins), Check the spelling of uol (could be ulo / luo / sol / rol / dol), Check the spelling of br (could be BR / Br / bró / ber / bar), Check the spelling of rodrigomarquesflores (could be marques-loureiro / flores-da-quaresma / flores-de-quaresma / amélia-rodriguenses / flores-dos-formigueiros), Check the spelling of gmail (could be Ismail / magmafila / e-mail / malagma / magilo), Check the spelling of Doria (could be Dario / Dorina / Coria / Moria / Poria), Check the spelling of hugodoria (could be hugolatria / odorizaria / engomadoria / ouvidoria / humorizaria), Check the spelling of gmail (could be Ismail / magmafila / e-mail / malagma / magilo), Check the spelling of vmelo (could be velo / melo / emelo / vielo / amelo), Check the spelling of gnome (could be gonem / gome / nome / agnome / gnose), Check the spelling of org (could be orá / oré / oró / orô / ore), Check the spelling of Taylon (could be Taylor / Tayloriano / Talona / Tayloríea / Tayloriza), Check the spelling of Silmer (could be Simere / Silmara / Esmeril / Silberol / Silerca), Check the spelling of taylonsilva (could be transilvano / taylorizava / transilvana / transilvaniano / pintassilva), Check the spelling of gmail (could be Ismail / magmafila / e-mail / malagma / magilo), Check the spelling of skarllot (could be marlotar / arlota / arlotia / amorlotar / Carloto), Check the spelling of gmail (could be Ismail / magmafila / e-mail / malagma / magilo), Check the spelling of Gondim (could be Ondim / Mondim / Gondi / Gondis / Gondii), Check the spelling of Og (could be Ng / Mg / kg / Oz / Ogue), Check the spelling of ogmaciel (could be Maciel / macielense / Graciela / Graciele / macuaiela), Check the spelling of gnome (could be gonem / gome / nome / agnome / gnose), Check the spelling of org (could be orá / oré / oró / orô / ore), Check the spelling of hpmachado (could be machadado / machado / Machado-SP / Machado-PR / Machado-SC), Check the spelling of gnome (could be gonem / gome / nome / agnome / gnose), Check the spelling of org (could be orá / oré / oró / orô / ore), Check the spelling of Antonio (could be Antônio / Atonio / Antonino / Antoniano / Antonita), Check the spelling of fernandesn (could be Fernandes-RN / Fernandes / Fernando-RN / Ernandes / fernandino), Check the spelling of gnome (could be gonem / gome / nome / agnome / gnose), Check the spelling of org (could be orá / oré / oró / orô / ore), Check the spelling of rafael (could be Rafael), Check the spelling of gmail (could be Ismail / magmafila / e-mail / malagma / magilo), Check the spelling of Nicoletto (could be Nicolato / Nicolítico / Cetofenicol / Nicotol / Nictoclepto), Check the spelling of liverig (could be Guliver / Liverpool / erigível / Oliver / livelar), Check the spelling of gmail (could be Ismail / magmafila / e-mail / malagma / magilo)
+# (pofilter) long: The translation is much longer than the original
+#: ../shell/ev-application.c:1032
+msgid "translator-credits"
+msgstr ""
+"Raphael Higino <In memoriam>\n"
+"Licio Fernando <liciofernando@gmail.com>\n"
+"Leonardo Ferreira Fontenelle <leonardof@gnome.org>\n"
+"Washington Lins <washington-lins@uol.com.br>\n"
+"Rodrigo Flores <rodrigomarquesflores@gmail.com>\n"
+"Hugo Doria <hugodoria@gmail.com>\n"
+"Vladimir Melo <vmelo@gnome.org>\n"
+"Taylon Silmer <taylonsilva@gmail.com>\n"
+"Fabrício Godoy <skarllot@gmail.com>\n"
+"André Gondim <In Memoriam>\n"
+"Og Maciel <ogmaciel@gnome.org>\n"
+"Henrique P. Machado <hpmachado@gnome.org>\n"
+"Antonio Fernandes C. Neto <fernandesn@gnome.org>\n"
+"Rafael Ferreira <rafael.f.f1@gmail.com>\n"
+"Enrico Nicoletto <liverig@gmail.com>"
+
+# (pofilter) spellcheck: Check the spelling of GNOME (could be GONEM / GOME / NOME / AGNOME / GNOSE)
+#: ../shell/main.c:63 ../shell/main.c:269
+msgid "GNOME Document Viewer"
+msgstr "Visualizador de documentos do GNOME"
+
+# (pofilter) acronyms: Consider not translating acronyms: PAGE
+#: ../shell/main.c:71
+msgid "PAGE"
+msgstr "PÁGINA"
+
+# (pofilter) acronyms: Consider not translating acronyms: NUMBER
+#: ../shell/main.c:72
+msgid "NUMBER"
+msgstr "NÚMERO"
+
+# (pofilter) simplecaps: Different capitalization
+# (pofilter) spellcheck: Check the spelling of Evince (could be Evenci / Envice / Evence / Cevina / Vincendo)
+#: ../shell/main.c:74
+msgid "Run evince in fullscreen mode"
+msgstr "Executa o Evince em modo de tela cheia"
+
+# (pofilter) simplecaps: Different capitalization
+# (pofilter) spellcheck: Check the spelling of Evince (could be Evenci / Envice / Evence / Cevina / Vincendo)
+#: ../shell/main.c:75
+msgid "Run evince in presentation mode"
+msgstr "Executa o Evince em modo de apresentação"
+
+# (pofilter) simplecaps: Different capitalization
+# (pofilter) spellcheck: Check the spelling of Evince (could be Evenci / Envice / Evence / Cevina / Vincendo)
+#: ../shell/main.c:76
+msgid "Run evince as a previewer"
+msgstr "Executa o Evince como visualizador"
+
+#  Opção "--find=STRING"
+# (pofilter) acronyms: Consider not translating acronyms: STRING
+#: ../shell/main.c:77
+msgid "STRING"
+msgstr "EXPRESSÃO"
+
+# (pofilter) acronyms: Consider not translating acronyms: FILE
+#: ../shell/main.c:81
+msgid "[FILE…]"
+msgstr "[ARQUIVO…]"
+
+# (pofilter) spellcheck: Check the spelling of touchpad (could be pachouchada / tuchado / chupadouro / pachuchada / pachoucho)
+#: ../shell/help-overlay.ui.h:27
+msgid "Touchpad gestures"
+msgstr "Gestos do touchpad"
+
+# (pofilter) spellcheck: Check the spelling of GNOME (could be GONEM / GOME / NOME / AGNOME / GNOSE)
+#: ../evince.appdata.xml.in.h:3
+msgid "This is a document viewer for the GNOME desktop."
+msgstr "Este é um visualizador de documentos para a área de trabalho GNOME."
+
+# (pofilter) puncspacing: Different spacing around punctuation
+# (pofilter) spellcheck: Check the spelling of TIFF (could be TIFE / TIFA / TIFO / TIFÃO / TIFLO), Check the spelling of CB (could be CÁ / CÊ / AB / CU / cm)
+#: ../evince.appdata.xml.in.h:4
+msgid ""
+"It supports the following document formats: PDF, PS, EPS, XPS, DjVu, TIFF, "
+"DVI (with SyncTeX), and Comic Books archives (CBR, CBT, CBZ, CB7)."
+msgstr ""
+"Há suporte aos seguintes formatos de documentos: PDF, PS, EPS, XPS, DjVu, "
+"TIFF, DVI (com SyncTeX) e arquivos de revistas em quadrinhos (CBR, CBT, CBZ, "
+"CB7)."
