@@ -1159,7 +1159,7 @@ msgstr "Quantidade de luz azul na cor."
 
 #: gtk/deprecated/gtkcolorsel.c:475
 msgid "Op_acity:"
-msgstr "Op_acidade:"
+msgstr "Opaci_dade:"
 
 #: gtk/deprecated/gtkcolorsel.c:483 gtk/deprecated/gtkcolorsel.c:493
 msgid "Transparency of the color."
@@ -1175,7 +1175,7 @@ msgid ""
 "such as “orange” in this entry."
 msgstr ""
 "Você pode inserir um valor de cor hexadecimal no estilo HTML, ou "
-"simplesmente um nome da cor tal como \"orange\" (laranja) nesta entrada."
+"simplesmente o nome da cor tal como \"orange\" (laranja)."
 
 #: gtk/deprecated/gtkcolorsel.c:547
 msgid "_Palette:"
@@ -1667,7 +1667,7 @@ msgstr "Esquecer associação"
 
 #: gtk/gtkappchooserdialog.c:453
 msgid "Failed to start GNOME Software"
-msgstr "Falha ao iniciar o GNOME Softwares"
+msgstr "Falha ao iniciar o GNOME Programas"
 
 #: gtk/gtkappchooserwidget.c:626
 msgid "Default Application"
@@ -2192,7 +2192,7 @@ msgstr "C_olar"
 #: gtk/gtkentry.c:9468 gtk/gtkfilechooserwidget.c:1464
 #: gtk/gtkfilechooserwidget.c:2262 gtk/gtklabel.c:6678 gtk/gtktextview.c:9470
 msgid "_Delete"
-msgstr "_Excluir"
+msgstr "E_xcluir"
 
 #: gtk/gtkentry.c:9479 gtk/gtklabel.c:6687 gtk/gtktextview.c:9484
 msgid "Select _All"
@@ -2230,6 +2230,8 @@ msgstr "Área de trabalho"
 msgid "(None)"
 msgstr "(Nenhum)"
 
+#  Botão que abre a caixa de diálog para escolha de arquivo. O contexto seria
+#  algo como "Escolher OUTRA localização..."
 #: gtk/gtkfilechooserbutton.c:2125
 msgid "Other…"
 msgstr "Outra…"
@@ -2286,7 +2288,7 @@ msgstr "Não foi possível criar um arquivo em %s, pois não é uma pasta"
 #: gtk/gtkfilechooserwidget.c:815
 msgid "Cannot create file as the filename is too long"
 msgstr ""
-"Não foi possível criar o arquivo, pois o nome de arquivo é muito grande"
+"Não foi possível criar o arquivo, pois o nome do arquivo é muito longo"
 
 #: gtk/gtkfilechooserwidget.c:816
 msgid "Try using a shorter name."
@@ -2294,12 +2296,12 @@ msgstr "Tente usar um nome mais curto."
 
 #: gtk/gtkfilechooserwidget.c:826
 msgid "You may only select folders"
-msgstr "Não foi possível selecionar pastas"
+msgstr "Você pode apenas selecionar pastas"
 
 #: gtk/gtkfilechooserwidget.c:827
 msgid "The item that you selected is not a folder try using a different item."
 msgstr ""
-"O item que você selecionou não é uma pasta; tente utilizar um item diferente."
+"O item que você selecionou não é uma pasta, tente utilizar um item diferente."
 
 #: gtk/gtkfilechooserwidget.c:835
 msgid "Invalid file name"
@@ -2319,27 +2321,27 @@ msgstr "O arquivo não pôde ser movido para a Lixeira"
 
 #: gtk/gtkfilechooserwidget.c:1007
 msgid "A folder with that name already exists"
-msgstr "Uma pasta com aquele nome já existe"
+msgstr "Uma pasta com esse nome já existe"
 
 #: gtk/gtkfilechooserwidget.c:1009
 msgid "A file with that name already exists"
-msgstr "Um arquivo com aquele nome já existe"
+msgstr "Um arquivo com esse nome já existe"
 
 #: gtk/gtkfilechooserwidget.c:1044
 msgid "A folder cannot be called “.”"
-msgstr "Uma pasta não pode se chamar \".\""
+msgstr "O nome da pasta não pode ser \".\""
 
 #: gtk/gtkfilechooserwidget.c:1045
 msgid "A file cannot be called “.”"
-msgstr "Uma arquivo não pode se chamar \".\""
+msgstr "O nome do arquivo não pode ser \".\""
 
 #: gtk/gtkfilechooserwidget.c:1048
 msgid "A folder cannot be called “..”"
-msgstr "Uma pasta não pode se chamar \"..\""
+msgstr "O nome da pasta não pode ser \"..\""
 
 #: gtk/gtkfilechooserwidget.c:1049
 msgid "A file cannot be called “..”"
-msgstr "Uma arquivo não pode se chamar \"..\""
+msgstr "O nome do arquivo não pode ser \"..\""
 
 #: gtk/gtkfilechooserwidget.c:1052
 msgid "Folder names cannot contain “/”"
@@ -2355,7 +2357,7 @@ msgstr "Nomes de pastas não devem começar com um espaço"
 
 #: gtk/gtkfilechooserwidget.c:1080
 msgid "File names should not begin with a space"
-msgstr "Nomes de arquivos não deve começar com um espaço"
+msgstr "Nomes de arquivos não devem começar com um espaço"
 
 #: gtk/gtkfilechooserwidget.c:1084
 msgid "Folder names should not end with a space"
@@ -2363,15 +2365,15 @@ msgstr "Nomes de pastas não devem terminar com um espaço"
 
 #: gtk/gtkfilechooserwidget.c:1085
 msgid "File names should not end with a space"
-msgstr "Nomes de arquivos não deve terminar com um espaço"
+msgstr "Nomes de arquivos não devem terminar com um espaço"
 
 #: gtk/gtkfilechooserwidget.c:1088
 msgid "Folder names starting with a “.” are hidden"
-msgstr "Nomes de pastas começando com um \".\" são ocultos"
+msgstr "Pastas com nomes começando com \".\" são ocultas"
 
 #: gtk/gtkfilechooserwidget.c:1089
 msgid "File names starting with a “.” are hidden"
-msgstr "Nomes de arquivos começando com um \".\" são ocultos"
+msgstr "Arquivos com nomes começando com \".\" são ocultos"
 
 #: gtk/gtkfilechooserwidget.c:1459
 #, c-format
@@ -2397,7 +2399,7 @@ msgstr "_Visitar arquivo"
 
 #: gtk/gtkfilechooserwidget.c:2258
 msgid "_Open With File Manager"
-msgstr "_Abrir com gerenciador de arquivos"
+msgstr "Abrir com _gerenciador de arquivos"
 
 #: gtk/gtkfilechooserwidget.c:2259
 msgid "_Copy Location"
@@ -2543,7 +2545,7 @@ msgstr ""
 
 #: gtk/gtkfilechooserwidget.c:7181
 msgid "Could not send the search request"
-msgstr "Não foi possível enviar o pedido de pesquisa"
+msgstr "Não foi possível enviar a requisição de pesquisa"
 
 #: gtk/gtkfilechooserwidget.c:7474
 msgid "Accessed"
