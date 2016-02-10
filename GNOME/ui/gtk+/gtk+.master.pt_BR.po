@@ -2658,8 +2658,8 @@ msgid ""
 "Launch specified application by its desktop file info\n"
 "optionally passing list of URIs as arguments."
 msgstr ""
-"Lança o aplicativo especificado na informação de seu arquivo\n"
-" de área de trabalho passando uma lista de URIs como argumentos opcionais."
+"Inicia o aplicativo especificado com base no seu arquivo desktop\n"
+"opcionalmente uma lista de URIs pode ser passada como argumento."
 
 #: gtk/gtk-launch.c:87
 #, c-format
@@ -2684,7 +2684,7 @@ msgstr "%s: faltando o nome do aplicativo"
 msgid "Creating AppInfo from id not supported on non unix operating systems"
 msgstr ""
 "Não há suporte para criação de AppInfo de ID em sistemas operacionais não "
-"unix"
+"Unix"
 
 #. Translators: the first %s is the program name, the second one
 #. is the application name.
@@ -2698,7 +2698,7 @@ msgstr "%s: nenhum aplicativo %s"
 #: gtk/gtk-launch.c:147
 #, c-format
 msgid "%s: error launching application: %s\n"
-msgstr "%s: erro ao lançar o aplicativo: %s\n"
+msgstr "%s: erro ao iniciar o aplicativo: %s\n"
 
 #: gtk/gtklinkbutton.c:419
 msgid "Copy URL"
@@ -2755,15 +2755,17 @@ msgstr "MÓDULOS"
 msgid "Make all warnings fatal"
 msgstr "Torna todos os avisos fatais"
 
+#  Manter compacto para exibição no terminal
 #. Description of --gtk-debug=FLAGS in --help output
 #: gtk/gtkmain.c:461
 msgid "GTK+ debugging flags to set"
-msgstr "Sinalizadores de depuração GTK+ a serem ativados"
+msgstr "Ativa sinalizadores de depuração GTK+"
 
+#  Manter compacto para exibição no terminal
 #. Description of --gtk-no-debug=FLAGS in --help output
 #: gtk/gtkmain.c:464
 msgid "GTK+ debugging flags to unset"
-msgstr "Sinalizadores de depuração GTK+ a serem desativados"
+msgstr "Desativa sinalizadores de depuração GTK+"
 
 #: gtk/gtkmain.c:788
 #, c-format
@@ -2809,7 +2811,7 @@ msgstr "_Anonimamente"
 
 #: gtk/gtkmountoperation.c:640
 msgid "Registered U_ser"
-msgstr "U_suário registrado"
+msgstr "Usuário _registrado"
 
 #: gtk/gtkmountoperation.c:651
 msgid "_Username"
@@ -2852,7 +2854,7 @@ msgstr "_Finalizar processo"
 #: gtk/gtkmountoperation-stub.c:62
 #, c-format
 msgid "Cannot kill process with PID %d. Operation is not implemented."
-msgstr "Não é possível matar o processo PID %d. Operação não implementada."
+msgstr "Não foi possível matar o processo com PID %d. Operação não implementada."
 
 #. translators: this string is a name for the 'less' command
 #: gtk/gtkmountoperation-x11.c:955
@@ -2878,7 +2880,7 @@ msgstr "Z Shell"
 #: gtk/gtkmountoperation-x11.c:1056
 #, c-format
 msgid "Cannot end process with PID %d: %s"
-msgstr "Não pode finalizar o processo PID %d: %s"
+msgstr "Não foi possível finalizar o processo com PID %d: %s"
 
 #: gtk/gtknotebook.c:5070 gtk/gtknotebook.c:7330
 #, c-format
