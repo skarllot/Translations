@@ -2937,7 +2937,7 @@ msgstr "Arquivos recentes"
 
 #: gtk/gtkplacessidebar.c:921
 msgid "Open your personal folder"
-msgstr "Abra a sua pasta pessoal"
+msgstr "Abre a sua pasta pessoal"
 
 #: gtk/gtkplacessidebar.c:936
 msgid "Open the contents of your desktop in a folder"
@@ -2957,17 +2957,17 @@ msgstr "Lixeira"
 
 #: gtk/gtkplacessidebar.c:965
 msgid "Open the trash"
-msgstr "Abrir a lixeira"
+msgstr "Abre a lixeira"
 
 #: gtk/gtkplacessidebar.c:1034 gtk/gtkplacessidebar.c:1062
 #: gtk/gtkplacessidebar.c:1269
 #, c-format
 msgid "Mount and open “%s”"
-msgstr "Montar e abrir %s"
+msgstr "Monta e abre \"%s\""
 
 #: gtk/gtkplacessidebar.c:1149
 msgid "Open the contents of the file system"
-msgstr "Abrir o conteúdo do sistema de arquivos"
+msgstr "Abre o conteúdo do sistema de arquivos"
 
 #: gtk/gtkplacessidebar.c:1233
 msgid "New bookmark"
@@ -2975,7 +2975,7 @@ msgstr "Novo marcador"
 
 #: gtk/gtkplacessidebar.c:1235
 msgid "Add a new bookmark"
-msgstr "Adicionar um novo favorito"
+msgstr "Adiciona um novo marcador"
 
 #: gtk/gtkplacessidebar.c:1248
 msgid "Connect to Server"
@@ -2987,11 +2987,11 @@ msgstr "Conecta a um endereço de servidor de rede"
 
 #: gtk/gtkplacessidebar.c:1312
 msgid "Other Locations"
-msgstr "Outras localizações"
+msgstr "Outros locais"
 
 #: gtk/gtkplacessidebar.c:1313
 msgid "Show other locations"
-msgstr "Mostrar outras localizações"
+msgstr "Mostra outros locais"
 
 #. Adjust start/stop items to reflect the type of the drive
 #: gtk/gtkplacessidebar.c:2103 gtk/gtkplacessidebar.c:3454
@@ -3009,7 +3009,7 @@ msgstr "_Ligar"
 
 #: gtk/gtkplacessidebar.c:2112
 msgid "_Safely Remove Drive"
-msgstr "_Remover com segurança a unidade"
+msgstr "_Remover unidade com segurança"
 
 #: gtk/gtkplacessidebar.c:2116
 msgid "_Connect Drive"
@@ -3021,11 +3021,11 @@ msgstr "_Desconectar unidade"
 
 #: gtk/gtkplacessidebar.c:2121
 msgid "_Start Multi-disk Device"
-msgstr "_Iniciar unidade multi-disco"
+msgstr "_Iniciar dispositivo multi-disco"
 
 #: gtk/gtkplacessidebar.c:2122
 msgid "_Stop Multi-disk Device"
-msgstr "_Parar unidade multi-disco"
+msgstr "_Parar dispositivo multi-disco"
 
 #. stop() for type G_DRIVE_START_STOP_TYPE_PASSWORD is normally not used
 #: gtk/gtkplacessidebar.c:2127
@@ -3034,21 +3034,21 @@ msgstr "Desbloquear dispositivo"
 
 #: gtk/gtkplacessidebar.c:2128
 msgid "_Lock Device"
-msgstr "_Bloquear unidade"
+msgstr "_Bloquear dispositivo"
 
 #: gtk/gtkplacessidebar.c:2166 gtk/gtkplacessidebar.c:3202
 #, c-format
 msgid "Unable to start “%s”"
-msgstr "Não foi possível inciar \"%s\""
+msgstr "Não foi possível iniciar \"%s\""
 
 #: gtk/gtkplacessidebar.c:2196
 #, c-format
 msgid "Unable to access “%s”"
-msgstr "Não foi possível acessar %s"
+msgstr "Não foi possível acessar \"%s\""
 
 #: gtk/gtkplacessidebar.c:2397
 msgid "This name is already taken"
-msgstr "Este nome já é utilizado"
+msgstr "Este nome já foi escolhido"
 
 #: gtk/gtkplacessidebar.c:2466 gtk/inspector/actions.ui:52
 #: gtk/inspector/css-node-tree.ui:107 gtk/inspector/object-tree.ui:109
@@ -3080,12 +3080,16 @@ msgstr "Não foi possível ejetar %s"
 #: gtk/gtkplacessidebar.c:3154
 #, c-format
 msgid "Unable to poll “%s” for media changes"
-msgstr "Não foi possível verificar \"%s\" para alterações de mídia"
+msgstr "Não foi possível verificar \"%s\" por alterações de mídia"
 
+#  Concorre com "A_brir", "Abrir em nova _janela", "_Propriedades", "_Remover",
+#  "Digitar _local" e "_Marcar este local".
 #: gtk/gtkplacessidebar.c:3437 gtk/gtkplacesview.c:1610
 msgid "Open in New _Tab"
-msgstr "Abrir em nova a_ba"
+msgstr "Abrir em _nova aba"
 
+#  Concorre com "A_brir", "Abrir em _nova aba", "_Propriedades", "_Remover",
+#  "Digitar _local" e "_Marcar este local".
 #: gtk/gtkplacessidebar.c:3440 gtk/gtkplacesview.c:1621
 msgid "Open in New _Window"
 msgstr "Abrir em nova _janela"
@@ -3124,11 +3128,11 @@ msgstr "Computador"
 
 #: gtk/gtkplacesview.c:881
 msgid "Searching for network locations"
-msgstr "Pesquisando por localizações de rede"
+msgstr "Pesquisando por locais de rede"
 
 #: gtk/gtkplacesview.c:888
 msgid "No network locations found"
-msgstr "Nenhuma localização de rede encontrada."
+msgstr "Nenhum local de rede encontrado"
 
 #. if it wasn't cancelled show a dialog
 #: gtk/gtkplacesview.c:1163 gtk/gtkplacesview.c:1207 gtk/gtkplacesview.c:1258
@@ -3143,7 +3147,7 @@ msgstr "Co_nectar"
 #. if it wasn't cancelled show a dialog
 #: gtk/gtkplacesview.c:1321
 msgid "Unable to unmount volume"
-msgstr "Não foi possível desmontar a unidade"
+msgstr "Não foi possível desmontar o volume"
 
 #. Allow to cancel the operation
 #: gtk/gtkplacesview.c:1403
@@ -3160,7 +3164,7 @@ msgstr "_Conectar"
 
 #: gtk/gtkplacesview.c:1820
 msgid "Unable to get remote server location"
-msgstr "Não foi possível obter localização de servidor remoto"
+msgstr "Não foi possível obter a localização do servidor remoto"
 
 #: gtk/gtkplacesview.c:1957 gtk/gtkplacesview.c:1966
 msgid "Networks"
@@ -3178,8 +3182,8 @@ msgstr "Neste computador"
 #, c-format
 msgid "%s / %s available"
 msgid_plural "%s / %s available"
-msgstr[0] "%s / %s disponível"
-msgstr[1] "%s / %s disponíveis"
+msgstr[0] "%s de %s disponível"
+msgstr[1] "%s de %s disponíveis"
 
 #: gtk/gtkplacesviewrow.c:470
 msgid "Disconnect"
@@ -3242,7 +3246,7 @@ msgstr "Esperando"
 #: gtk/gtkprintoperation.c:1823
 msgctxt "print operation status"
 msgid "Blocking on issue"
-msgstr "Bloqueando na questão"
+msgstr "Bloqueado por problema"
 
 #: gtk/gtkprintoperation.c:1824
 msgctxt "print operation status"
@@ -3286,7 +3290,7 @@ msgstr "A razão mais provável é que um arquivo temporário não pôde ser cri
 
 #: gtk/gtkprintoperation-unix.c:308
 msgid "Error launching preview"
-msgstr "Erro ao lançar visualização"
+msgstr "Erro ao iniciar visualização"
 
 #: gtk/gtkprintoperation-win32.c:617
 msgid "Printer offline"
@@ -3300,7 +3304,7 @@ msgstr "Sem papel"
 #: gtk/gtkprintoperation-win32.c:621
 #: modules/printbackends/cups/gtkprintbackendcups.c:2524
 msgid "Paused"
-msgstr "Pausado"
+msgstr "Pausada"
 
 #: gtk/gtkprintoperation-win32.c:623
 msgid "Need user intervention"
@@ -3312,7 +3316,7 @@ msgstr "Tamanho personalizado"
 
 #: gtk/gtkprintoperation-win32.c:1545
 msgid "No printer found"
-msgstr "Nenhuma impressora localizada"
+msgstr "Nenhuma impressora encontrada"
 
 #: gtk/gtkprintoperation-win32.c:1572
 msgid "Invalid argument to CreateDC"
@@ -3320,7 +3324,7 @@ msgstr "Argumento inválido para CreateDC"
 
 #: gtk/gtkprintoperation-win32.c:1608 gtk/gtkprintoperation-win32.c:1854
 msgid "Error from StartDoc"
-msgstr "Erro de StartDoc"
+msgstr "Erro do StartDoc"
 
 #: gtk/gtkprintoperation-win32.c:1709 gtk/gtkprintoperation-win32.c:1732
 #: gtk/gtkprintoperation-win32.c:1780
@@ -3443,7 +3447,7 @@ msgstr "%.0f %%"
 #: gtk/gtkrecentchooserdefault.c:1077 gtk/gtkrecentchooserdefault.c:1114
 #, c-format
 msgid "No item for URI '%s' found"
-msgstr "Nenhum item localizado para o URI \"%s\""
+msgstr "Nenhum item encontrado para o URI \"%s\""
 
 #: gtk/gtkrecentchooserdefault.c:1241
 msgid "Untitled filter"
@@ -3485,12 +3489,12 @@ msgstr "Mostrar recursos _privados"
 #.
 #: gtk/gtkrecentchoosermenu.c:343
 msgid "No items found"
-msgstr "Nenhum item localizado"
+msgstr "Nenhum item encontrado"
 
 #: gtk/gtkrecentchoosermenu.c:534 gtk/gtkrecentchoosermenu.c:590
 #, c-format
 msgid "No recently used resource found with URI '%s'"
-msgstr "Nenhum recurso usado recentemente encontrado com a URI \"%s\""
+msgstr "Nenhum recurso usado recentemente foi encontrado com o URI \"%s\""
 
 #: gtk/gtkrecentchoosermenu.c:789
 #, c-format
@@ -3527,14 +3531,13 @@ msgstr "%d. %s"
 #: gtk/gtkrecentmanager.c:1278
 #, c-format
 msgid "Unable to find an item with URI '%s'"
-msgstr "Não foi possível localizar um item com o URI \"%s\""
+msgstr "Não foi possível encontrar um item com o URI \"%s\""
 
 #: gtk/gtkrecentmanager.c:2468
 #, c-format
 msgid "No registered application with name '%s' for item with URI '%s' found"
 msgstr ""
-"Nenhum aplicativo registrado com o nome \"%s\" para o item com URI \"%s\" "
-"encontrado"
+"Não foi encontrado nenhum aplicativo registrado com o nome \"%s\" para o item com URI \"%s\""
 
 #: gtk/gtksearchentry.c:371
 msgid "Search"
@@ -3566,17 +3569,21 @@ msgstr "D"
 msgid "_Show All"
 msgstr "_Mostrar todos"
 
-# Verificar contexto e adequação na GUI
+#  Movimento de juntar dois dedos, comumente associado a ação de reduzir
+#  (zoom out).
+#  Contexto: descrição do gesto.
+#  Ref: https://blogs.gnome.org/aday/2015/12/14/shortcuts-love/
 #: gtk/gtkshortcutsshortcut.c:133
-#, fuzzy
 msgid "Two finger pinch"
-msgstr "Juntar dois dedos (diminuir)"
+msgstr "Pinçar com dois dedos"
 
-# Verificar contexto e adequação na GUI
+#  Movimento de afastar dois dedos, comumente associado a ação de ampliar
+#  (zoom in).
+#  Contexto: descrição do gesto.
+#  Ref: https://blogs.gnome.org/aday/2015/12/14/shortcuts-love/
 #: gtk/gtkshortcutsshortcut.c:137
-#, fuzzy
 msgid "Two finger stretch"
-msgstr "Separar dois dedos (ampliar)"
+msgstr "Separar dois dedos"
 
 #: gtk/gtkshortcutsshortcut.c:141
 msgid "Rotate clockwise"
@@ -3586,27 +3593,32 @@ msgstr "Girar no sentido horário"
 msgid "Rotate counterclockwise"
 msgstr "Girar no sentido anti-horário"
 
+#  Contexto: descrição do gesto.
+#  Ref: https://blogs.gnome.org/aday/2015/12/14/shortcuts-love/
 #: gtk/gtkshortcutsshortcut.c:149
 msgid "Two finger swipe left"
 msgstr "Deslizar dois dedos para esquerda"
 
+#  Contexto: descrição do gesto.
+#  Ref: https://blogs.gnome.org/aday/2015/12/14/shortcuts-love/
 #: gtk/gtkshortcutsshortcut.c:153
 msgid "Two finger swipe right"
 msgstr "Deslizar dois dedos para direita"
 
+#  Título da janela exibindo os atalhos disponíveis
 #: gtk/gtkshortcutswindow.c:859
 msgid "Shortcuts"
 msgstr "Atalhos"
 
-# Verificar contexto e adequação na GUI
+#  Título da janela com os resultados da pesquisa
 #: gtk/gtkshortcutswindow.c:864
-#, fuzzy
 msgid "Search Results"
-msgstr "Pesquisar resultados"
+msgstr "Resultados da pesquisa"
 
-# Verificar contexto e adequação na GUI
+#  Texto exibido na caixa de pesquisa quando nada foi digitado (placeholder).
+#  Source code using placeholder: https://goo.gl/ItWsmZ
+#  GtkEntry placeholder reference: https://goo.gl/e5Ehwr
 #: gtk/gtkshortcutswindow.c:918
-#, fuzzy
 msgid "Search Shortcuts"
 msgstr "Pesquisar atalhos"
 
@@ -3614,10 +3626,11 @@ msgstr "Pesquisar atalhos"
 msgid "No Results Found"
 msgstr "Nenhum resultado encontrado"
 
+#  Texto exibido abaixo do título anterior (No Results Found).
 #: gtk/gtkshortcutswindow.c:990 gtk/ui/gtkfilechooserwidget.ui:323
 #: gtk/ui/gtkplacesview.ui:181
 msgid "Try a different search"
-msgstr "Tentar uma pesquisa diferente"
+msgstr "Tente uma pesquisa diferente"
 
 #. Translators: if the "on" state label requires more than three
 #. * glyphs then use MEDIUM VERTICAL BAR (U+2759) as the text for
@@ -3644,27 +3657,27 @@ msgstr "Ocorreu um erro desconhecido ao tentar desserializar %s"
 #: gtk/gtktextbufferrichtext.c:707
 #, c-format
 msgid "No deserialize function found for format %s"
-msgstr "Nenhuma função deserialize localizada para o formato %s"
+msgstr "Nenhuma função encontrada para desserializar o formato %s"
 
 #: gtk/gtktextbufferserialize.c:806 gtk/gtktextbufferserialize.c:832
 #, c-format
 msgid "Both \"id\" and \"name\" were found on the <%s> element"
-msgstr "Tanto \"id\" quanto \"name\" foram localizados no elemento <%s>"
+msgstr "Tanto \"id\" quanto \"name\" foram encontrados no elemento <%s>"
 
 #: gtk/gtktextbufferserialize.c:816 gtk/gtktextbufferserialize.c:842
 #, c-format
 msgid "The attribute \"%s\" was found twice on the <%s> element"
-msgstr "O atributo \"%s\" foi localizado duas vezes no elemento <%s>"
+msgstr "O atributo \"%s\" foi encontrado duas vezes no elemento <%s>"
 
 #: gtk/gtktextbufferserialize.c:858
 #, c-format
 msgid "<%s> element has invalid ID \"%s\""
-msgstr "<%s> elemento tem ID \"%s\" inválido"
+msgstr "O ID \"%2$s\" do elemento <%1$s> é inválido"
 
 #: gtk/gtktextbufferserialize.c:868
 #, c-format
 msgid "<%s> element has neither a \"name\" nor an \"id\" attribute"
-msgstr "O elemento <%s> não tem os atributos \"name\" ou \"id\""
+msgstr "O elemento <%s> não tem o atributo \"name\" nem \"id\""
 
 #: gtk/gtktextbufferserialize.c:955
 #, c-format
@@ -3683,12 +3696,12 @@ msgstr "A tag \"%s\" não foi definida."
 
 #: gtk/gtktextbufferserialize.c:1049
 msgid "Anonymous tag found and tags can not be created."
-msgstr "Tag anônima localizada e tags não puderam ser criadas."
+msgstr "Tag anônima encontrada e tags não podem ser criadas."
 
 #: gtk/gtktextbufferserialize.c:1060
 #, c-format
 msgid "Tag \"%s\" does not exist in buffer and tags can not be created."
-msgstr "A tag \"%s\" não existe no buffer e tags não puderam ser criadas."
+msgstr "A tag \"%s\" não existe no buffer e tags não podem ser criadas."
 
 #: gtk/gtktextbufferserialize.c:1161 gtk/gtktextbufferserialize.c:1236
 #: gtk/gtktextbufferserialize.c:1341 gtk/gtktextbufferserialize.c:1415
@@ -3727,12 +3740,12 @@ msgstr "A tag \"%s\" já foi definida"
 #: gtk/gtktextbufferserialize.c:1317
 #, c-format
 msgid "Tag \"%s\" has invalid priority \"%s\""
-msgstr "A tag \"%s\" tem prioridade inválida \"%s\""
+msgstr "A prioridade \"%2$s\" da tag \"%1$s\" é inválida"
 
 #: gtk/gtktextbufferserialize.c:1370
 #, c-format
 msgid "Outermost element in text must be <text_view_markup> not <%s>"
-msgstr "O elemento mais externo no texto deve ser <text_view_markup>, não <%s>"
+msgstr "O elemento mais externo no texto deve ser <text_view_markup> e não <%s>"
 
 #: gtk/gtktextbufferserialize.c:1379 gtk/gtktextbufferserialize.c:1395
 #, c-format
@@ -3756,43 +3769,43 @@ msgstr ""
 
 #: gtk/gtktextutil.c:57
 msgid "LRM _Left-to-right mark"
-msgstr "LRM Marca da es_querda para a direita"
+msgstr "Marca de es_querda para a direita (LRM)"
 
 #: gtk/gtktextutil.c:58
 msgid "RLM _Right-to-left mark"
-msgstr "RLM Marca da _direita para a esquerda"
+msgstr "Marca de _direita para a esquerda (RLM)"
 
 #: gtk/gtktextutil.c:59
 msgid "LRE Left-to-right _embedding"
-msgstr "LRE _Embutido da esquerda para a direita"
+msgstr "_Embutido da esquerda para a direita (LRE)"
 
 #: gtk/gtktextutil.c:60
 msgid "RLE Right-to-left e_mbedding"
-msgstr "RLE E_mbutido da direita para a esquerda"
+msgstr "E_mbutido da direita para a esquerda (RLE)"
 
 #: gtk/gtktextutil.c:61
 msgid "LRO Left-to-right _override"
-msgstr "LRO _Sobrepor da esquerda para a direita"
+msgstr "_Sobrepor da esquerda para a direita (LRO)"
 
 #: gtk/gtktextutil.c:62
 msgid "RLO Right-to-left o_verride"
-msgstr "RLO S_obrepor da direita para a esquerda"
+msgstr "S_obrepor da direita para a esquerda (RLO)"
 
 #: gtk/gtktextutil.c:63
 msgid "PDF _Pop directional formatting"
-msgstr "PDF _Mostrar formatação direcional"
+msgstr "_Mostrar formatação direcional (PDF)"
 
 #: gtk/gtktextutil.c:64
 msgid "ZWS _Zero width space"
-msgstr "ZWS Espaço de largura _zero"
+msgstr "Espaço de largura _zero (ZWS)"
 
 #: gtk/gtktextutil.c:65
 msgid "ZWJ Zero width _joiner"
-msgstr "ZWJ _União de largura zero"
+msgstr "_União de largura zero (ZWJ)"
 
 #: gtk/gtktextutil.c:66
 msgid "ZWNJ Zero width _non-joiner"
-msgstr "ZWNJ _Não-união de largura zero"
+msgstr "_Não-união de largura zero (ZWNJ)"
 
 #: gtk/gtkvolumebutton.c:189
 msgid "Adjusts the volume"
@@ -3830,8 +3843,8 @@ msgid ""
 "break or crash."
 msgstr ""
 "Inspetor GTK+ é um depurador interativo que permite que você explore e "
-"modifique as configurações de qualquer aplicativo GTK+. Usá-lo pode resultar "
-"em travamento."
+"modifique o estado interno de qualquer aplicativo GTK+. Usá-lo pode fazer que "
+"o aplicativo se encerre ou falhe."
 
 #: gtk/gtkwindow.c:12244
 msgid "Don't show this message again"
@@ -3860,7 +3873,7 @@ msgstr "Tipo de parâmetro"
 
 #: gtk/inspector/css-editor.c:148 gtk/inspector/css-editor.c:154
 msgid "You can type here any CSS rule recognized by GTK+."
-msgstr "Você pode digitar aqui qualquer regra CSS reconhecida por GTK+."
+msgstr "Você pode digitar aqui qualquer regra CSS que o GTK+ reconheça."
 
 #: gtk/inspector/css-editor.c:149 gtk/inspector/css-editor.c:155
 msgid ""
@@ -3873,68 +3886,80 @@ msgstr ""
 #: gtk/inspector/css-editor.c:150
 msgid "Changes are applied instantly and globally, for the whole application."
 msgstr ""
-"Alterações são aplicadas instantaneamente e globalmente, para todo o "
+"As alterações são aplicadas instantaneamente e globalmente, para todo o "
 "aplicativo."
 
 #: gtk/inspector/css-editor.c:156
 msgid "Changes are applied instantly, only for this selected widget."
 msgstr ""
-"Alterações são aplicados instantaneamente, apenas para esse componente "
+"As alterações são aplicados instantaneamente, apenas para esse componente "
 "selecionado."
 
 #: gtk/inspector/css-editor.c:218
 #, c-format
 msgid "Saving CSS failed"
-msgstr "Salvamento de CSS falhou"
+msgstr "Falha ao salvar CSS"
 
+#  Tooltip do botão "Pausar"
 #: gtk/inspector/css-editor.ui:34
 msgid "Disable this custom CSS"
-msgstr "Desabilitar esse CSS personalizado"
+msgstr "Desabilita o CSS atual"
 
+#  Tooltip do botão "Salvar"
 #: gtk/inspector/css-editor.ui:55
 msgid "Save the current CSS"
-msgstr "Salvar o CSS atual"
+msgstr "Salva o CSS atual"
 
+#  Menu em "Nós CSS"
 #: gtk/inspector/css-node-tree.c:206
 msgid "Change name"
-msgstr "Altera nome"
+msgstr "Alterar nome"
 
+#  Menu em "Nós CSS"
 #: gtk/inspector/css-node-tree.c:221
 msgid "Change classes"
 msgstr "Alterar classes"
 
+#  Menu em "Nós CSS"
 #: gtk/inspector/css-node-tree.c:230
 msgid "CSS properties"
 msgstr "Propriedades CSS"
 
+#  Tooltip botão "<"
 #: gtk/inspector/css-node-tree.ui:31
 msgid "Show all CSS nodes"
-msgstr "Mostrar todos nós CSS"
+msgstr "Mostra todos os nós CSS"
 
+#  Tooltip botão ">"
 #: gtk/inspector/css-node-tree.ui:51
 msgid "Show CSS properties"
-msgstr "Mostrar propriedades CSS"
+msgstr "Mostra propriedades CSS"
 
+#  Cabeçalho de tabela
 #: gtk/inspector/css-node-tree.ui:94 gtk/inspector/statistics.ui:53
 msgid "Type"
 msgstr "Tipo"
 
+#  Cabeçalho de tabela
 #: gtk/inspector/css-node-tree.ui:120
 msgid "ID"
 msgstr "ID"
 
+#  Cabeçalho de tabela
 #: gtk/inspector/css-node-tree.ui:133
 msgid "Classes"
 msgstr "Classes"
 
 #: gtk/inspector/css-node-tree.ui:175
 msgid "Node:"
-msgstr "Nós:"
+msgstr "Nó:"
 
+#  Cabeçalho de tabela
 #: gtk/inspector/css-node-tree.ui:198
 msgid "CSS Property"
 msgstr "Propriedade CSS"
 
+#  Cabeçalho de tabela
 #: gtk/inspector/css-node-tree.ui:213 gtk/inspector/prop-list.ui:105
 #: gtk/ui/gtkcoloreditor.ui:293
 msgid "Value"
@@ -3954,7 +3979,7 @@ msgstr "Backend GDK"
 
 #: gtk/inspector/general.ui:373
 msgid "Display"
-msgstr "Exibir"
+msgstr "Vídeo"
 
 #: gtk/inspector/general.ui:408
 msgid "RGBA visual"
@@ -3970,16 +3995,19 @@ msgstr "Versão GL"
 
 #: gtk/inspector/general.ui:524
 msgid "GL Vendor"
-msgstr "Fabricante GL"
+msgstr "Fornecedor GL"
 
+#  Drop-down item
 #: gtk/inspector/gestures.c:129
 msgid "Capture"
 msgstr "Capturar"
 
+#  Drop-down item
 #: gtk/inspector/gestures.c:130
 msgid "Bubble"
 msgstr "Bolha"
 
+#  Drop-down item
 #: gtk/inspector/gestures.c:131 gtk/inspector/menu.ui:61
 msgid "Target"
 msgstr "Alvo"
