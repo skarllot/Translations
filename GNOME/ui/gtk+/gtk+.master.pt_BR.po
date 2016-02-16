@@ -3998,19 +3998,22 @@ msgid "GL Vendor"
 msgstr "Fornecedor GL"
 
 #  Drop-down item
+#  https://developer.mozilla.org/en-US/docs/Web/API/Event/eventPhase
 #: gtk/inspector/gestures.c:129
 msgid "Capture"
-msgstr "Capturar"
+msgstr "Descendente"
 
 #  Drop-down item
+#  https://developer.mozilla.org/en-US/docs/Web/API/Event/eventPhase
 #: gtk/inspector/gestures.c:130
 msgid "Bubble"
-msgstr "Bolha"
+msgstr "Ascendente"
 
 #  Drop-down item
+#  https://developer.mozilla.org/en-US/docs/Web/API/Event/eventPhase
 #: gtk/inspector/gestures.c:131 gtk/inspector/menu.ui:61
 msgid "Target"
-msgstr "Alvo"
+msgstr "Destino"
 
 #: gtk/inspector/menu.c:93
 msgid "Unnamed section"
@@ -4034,11 +4037,11 @@ msgstr "Endereço"
 
 #: gtk/inspector/misc-info.ui:76
 msgid "Reference count"
-msgstr "Contagem referência"
+msgstr "Número de referências"
 
 #: gtk/inspector/misc-info.ui:144
 msgid "Buildable ID"
-msgstr "ID compilável"
+msgstr "GtkBuild ID"
 
 #: gtk/inspector/misc-info.ui:178
 msgid "Default Widget"
@@ -4064,16 +4067,12 @@ msgid "Request mode"
 msgstr "Modo de requisição"
 
 #: gtk/inspector/misc-info.ui:335
-#, fuzzy
-#| msgid "Location"
 msgid "Allocation"
-msgstr "Localização"
+msgstr "Alocação"
 
 #: gtk/inspector/misc-info.ui:369
-#, fuzzy
-#| msgid "Show Baselines"
 msgid "Baseline"
-msgstr "Mostra linhas base"
+msgstr "Linha de base"
 
 #: gtk/inspector/misc-info.ui:403
 msgid "Clip area"
@@ -4113,7 +4112,7 @@ msgstr "Realizado"
 
 #: gtk/inspector/misc-info.ui:717
 msgid "Is Toplevel"
-msgstr "É nível superior"
+msgstr "Nível superior"
 
 #: gtk/inspector/misc-info.ui:753
 msgid "Child Visible"
@@ -4149,7 +4148,7 @@ msgstr "Objeto: %p (%s)"
 #: gtk/inspector/prop-editor.c:1141
 #, c-format
 msgid "Uneditable property type: %s"
-msgstr "Tipo de propriedade não editável: %s"
+msgstr "Tipo de propriedade não-editável: %s"
 
 #: gtk/inspector/prop-editor.c:1259
 msgid "Attribute mapping"
@@ -4319,15 +4318,15 @@ msgstr "Habilite estatísticas com GOBJECT_DEBUG=instance-count"
 
 #: gtk/inspector/visual.c:288 gtk/inspector/visual.c:303
 msgid "Theme is hardcoded by GTK_THEME"
-msgstr "Tema está codificado por GTK_THEME"
+msgstr "O tema está fixo no código por GTK_THEME"
 
 #: gtk/inspector/visual.c:498
 msgid "Backend does not support window scaling"
-msgstr "Backend não oferece suporte a escala de janela"
+msgstr "O backend não oferece suporte ao dimensionamento de janela"
 
 #: gtk/inspector/visual.c:537
 msgid "Setting is hardcoded by GTK_TEST_TOUCHSCREEN"
-msgstr "Definição está codificada por GTK_TEST_TOUCHSCREEN"
+msgstr "A configuração está fixa no código por GTK_TEST_TOUCHSCREEN"
 
 #: gtk/inspector/visual.c:602
 msgid ""
@@ -4335,20 +4334,20 @@ msgid ""
 "Use GDK_GL=always or GDK_GL=disable instead"
 msgstr ""
 "Não configurável em tempo real.\n"
-"Use GDK_GL=always ou GDK_GL=disable ao invés"
+"Alternativamente use GDK_GL=always ou GDK_GL=disable"
 
 #: gtk/inspector/visual.c:616 gtk/inspector/visual.c:617
 #: gtk/inspector/visual.c:618
 msgid "GL rendering is disabled"
-msgstr "Renderização GL está desabilitada"
+msgstr "A renderização GL está desativada"
 
 #: gtk/inspector/visual.ui:49
 msgid "GTK+ Theme"
-msgstr "Tema de GTK+"
+msgstr "Tema do GTK+"
 
 #: gtk/inspector/visual.ui:82
 msgid "Dark Variant"
-msgstr "Variante escura"
+msgstr "Versão escura"
 
 #: gtk/inspector/visual.ui:115
 msgid "Cursor Theme"
@@ -4360,7 +4359,7 @@ msgstr "Tamanho do cursor"
 
 #: gtk/inspector/visual.ui:185
 msgid "Icon Theme"
-msgstr "Tema de ícones"
+msgstr "Tema dos ícones"
 
 #: gtk/inspector/visual.ui:218 gtk/ui/gtkfontbutton.ui:13
 msgid "Font"
@@ -4380,7 +4379,7 @@ msgstr "Direita para esquerda"
 
 #: gtk/inspector/visual.ui:289
 msgid "Window scaling"
-msgstr "Escala de janela"
+msgstr "Dimensionamento da janela"
 
 #: gtk/inspector/visual.ui:324
 msgid "Animations"
@@ -4404,23 +4403,23 @@ msgstr "Gravação"
 
 #: gtk/inspector/visual.ui:408
 msgid "Show Graphic Updates"
-msgstr "Mostrar atualizações de visuais"
+msgstr "Mostrar atualizações visuais"
 
 #: gtk/inspector/visual.ui:442
 msgid "Show Baselines"
-msgstr "Mostra linhas base"
+msgstr "Mostrar linhas base"
 
 #: gtk/inspector/visual.ui:476
 msgid "Show Pixel Cache"
-msgstr "Mostra cache de pixels"
+msgstr "Mostrar cache de pixels"
 
 #: gtk/inspector/visual.ui:510
 msgid "Show Widget Resizes"
-msgstr "Mostrar redimensionamentos de componentes"
+msgstr "Mostrar redimens. de componentes"
 
 #: gtk/inspector/visual.ui:544
 msgid "Simulate touchscreen"
-msgstr "Simula touchscreen"
+msgstr "Simular touchscreen"
 
 #: gtk/inspector/visual.ui:589
 msgid "GL Rendering"
@@ -4436,19 +4435,19 @@ msgstr "Sempre"
 
 #: gtk/inspector/visual.ui:603
 msgid "Disabled"
-msgstr "Desabilitado"
+msgstr "Desativado"
 
 #: gtk/inspector/visual.ui:627
 msgid "Software GL"
-msgstr "Software GL"
+msgstr "GL via software"
 
 #: gtk/inspector/visual.ui:661
 msgid "Software Surfaces"
-msgstr "Superfícies software"
+msgstr "Superfícies via software"
 
 #: gtk/inspector/visual.ui:695
 msgid "Texture Rectangle Extension"
-msgstr "Extensão do retângulo da textura"
+msgstr "Extensão para textura retangular"
 
 #: gtk/inspector/window.ui:24
 msgid "Select an Object"
@@ -4483,7 +4482,7 @@ msgstr "Sinais"
 
 #: gtk/inspector/window.ui:287
 msgid "Child Properties"
-msgstr "Propriedades do filho"
+msgstr "Prop. filho"
 
 #: gtk/inspector/window.ui:296
 msgid "Hierarchy"
@@ -4499,7 +4498,7 @@ msgstr "CSS"
 
 #: gtk/inspector/window.ui:330
 msgid "Size Groups"
-msgstr "Grupos de tamanho"
+msgstr "Grupos de dimen."
 
 #: gtk/inspector/window.ui:337
 msgid "Data"
@@ -5180,7 +5179,7 @@ msgstr "Formulário contínuo europeu"
 #: gtk/paper_names_offsets.c:132
 msgctxt "paper size"
 msgid "Fan-Fold US"
-msgstr "Formulário contínuo dos E.U.A"
+msgstr "Formulário contínuo americano"
 
 #: gtk/paper_names_offsets.c:133
 msgctxt "paper size"
@@ -5230,27 +5229,27 @@ msgstr "Tabloide"
 #: gtk/paper_names_offsets.c:142
 msgctxt "paper size"
 msgid "US Legal"
-msgstr "Ofício dos E.U.A"
+msgstr "Ofício americano"
 
 #: gtk/paper_names_offsets.c:143
 msgctxt "paper size"
 msgid "US Legal Extra"
-msgstr "Ofício extra dos E.U.A"
+msgstr "Ofício extra americano"
 
 #: gtk/paper_names_offsets.c:144
 msgctxt "paper size"
 msgid "US Letter"
-msgstr "Carta dos E.U.A"
+msgstr "Carta americano"
 
 #: gtk/paper_names_offsets.c:145
 msgctxt "paper size"
 msgid "US Letter Extra"
-msgstr "Carta extra dos E.U.A"
+msgstr "Carta extra americano"
 
 #: gtk/paper_names_offsets.c:146
 msgctxt "paper size"
 msgid "US Letter Plus"
-msgstr "Carta plus dos E.U.A"
+msgstr "Carta plus americano"
 
 #: gtk/paper_names_offsets.c:147
 msgctxt "paper size"
@@ -5574,17 +5573,18 @@ msgstr "Nome da pasta"
 msgid "_Create"
 msgstr "_Criar"
 
+#  Título da janela
 #: gtk/ui/gtkfontchooserdialog.ui:6
 msgid "Select Font"
 msgstr "Selecionar fonte"
 
 #: gtk/ui/gtkfontchooserwidget.ui:50
 msgid "Search font name"
-msgstr "Pesquisar nome da fonte"
+msgstr "Pesquisar o nome da fonte"
 
 #: gtk/ui/gtkfontchooserwidget.ui:97
 msgid "Font Family"
-msgstr "Font Family"
+msgstr "Família tipográfica"
 
 #: gtk/ui/gtkfontchooserwidget.ui:119
 msgid "Preview text"
@@ -5652,7 +5652,7 @@ msgstr "Conectar a _servidor"
 
 #: gtk/ui/gtkplacesview.ui:243
 msgid "Enter server address…"
-msgstr "Insira endereço do servidor…"
+msgstr "Insira o endereço do servidor…"
 
 #: gtk/ui/gtkprintunixdialog.ui:117
 msgid "Printer"
