@@ -1,5 +1,5 @@
 # Create PO from POT
-msginit
+msginit -l pt_BR -o pt_BR.po -i appname.pot
 
 # Validate PO file
 msgfmt -cvo /dev/null file.po
