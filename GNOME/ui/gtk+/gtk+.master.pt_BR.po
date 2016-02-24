@@ -21,12 +21,15 @@
 # Rafael Fontenelle <rffontenelle@gmail.com>, 2013-2016.
 # Fabrício Godoy <skarllot@gmail.com>, 2010, 2016.
 #
+# Padrões adotados:
+# launch -> iniciar
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Gtk+\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-17 12:19+0000\n"
-"PO-Revision-Date: 2016-01-26 15:12-0200\n"
+"PO-Revision-Date: 2016-02-23 23:29-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "Language: pt_BR\n"
@@ -1746,17 +1749,7 @@ msgid "Can't parse file: %s\n"
 msgstr "Não foi possível analisar o arquivo: %s\n"
 
 #: gtk/gtk-builder-tool.c:955
-#, fuzzy, c-format
-#| msgid ""
-#| "Usage:\n"
-#| "  gtk-builder-tool [COMMAND] FILE\n"
-#| "\n"
-#| "Commands:\n"
-#| "  validate    Validate the file\n"
-#| "  simplify    Simplify the file\n"
-#| "  enumerate   List all named objects\n"
-#| "\n"
-#| "Perform various tasks on GtkBuilder .ui files.\n"
+#, c-format
 msgid ""
 "Usage:\n"
 "  gtk-builder-tool [COMMAND] FILE\n"
@@ -1777,9 +1770,14 @@ msgstr ""
 "  gtk-builder-tool [COMANDO] ARQUIVO\n"
 "\n"
 "Comandos:\n"
-"  validate    Valida o arquivo\n"
-"  simplify    Simplifica o arquivo\n"
-"  enumerate   Lista todos os objetos nomeados\n"
+"  validate           Valida o arquivo\n"
+"  simplify           Simplifica o arquivo\n"
+"  enumerate          Lista todos os objetos nomeados\n"
+"  preview [OPÇÕES]   Visualiza o arquivo\n"
+"\n"
+"Opções de \"preview\":\n"
+"  --id=ID            Visualiza apenas o objeto indicado\n"
+"  --css=ARQ          Utiliza estilo de um arquivo CSS\n"
 "\n"
 "Efetua várias tarefas em arquivos .ui do GtkBuilder.\n"
 
@@ -2583,8 +2581,6 @@ msgid "Pick a Font"
 msgstr "Selecione uma fonte"
 
 #: gtk/gtkfontbutton.c:1224
-#, fuzzy
-#| msgid "None"
 msgctxt "font"
 msgid "None"
 msgstr "Nenhuma"
@@ -2659,24 +2655,18 @@ msgid "Copy _Link Address"
 msgstr "Copiar endereço do _link"
 
 #: gtk/gtk-launch.c:73
-#, fuzzy
-#| msgid "APPLICATION [URI…] — launch an APPLICATION with URI."
 msgid "APPLICATION [URI...] — launch an APPLICATION"
-msgstr "APLICATIVO [URI…] — lança um APLICATIVO com URI."
+msgstr "APLICATIVO [URI...] — inicia um APLICATIVO"
 
 #. Translators: this message will appear after the usage string
 #. and before the list of options.
 #: gtk/gtk-launch.c:77
-#, fuzzy
-#| msgid ""
-#| "Launch specified application by its desktop file info\n"
-#| "optionally passing list of URIs as arguments."
 msgid ""
 "Launch an application (specified by its desktop file name),\n"
 "optionally passing one or more URIs as arguments."
 msgstr ""
-"Inicia o aplicativo especificado com base no seu arquivo desktop\n"
-"opcionalmente uma lista de URIs pode ser passada como argumento."
+"Inicia o aplicativo especificado com base no seu arquivo desktop,\n"
+"e opcionalmente uma lista de URIs pode ser passada como argumento."
 
 #: gtk/gtk-launch.c:89
 #, c-format
@@ -3981,18 +3971,14 @@ msgid "Show data"
 msgstr "Mostrar dados"
 
 #: gtk/inspector/general.c:225
-#, fuzzy
-#| msgid "None"
 msgctxt "GL version"
 msgid "None"
 msgstr "Nenhuma"
 
 #: gtk/inspector/general.c:226
-#, fuzzy
-#| msgid "None"
 msgctxt "GL vendor"
 msgid "None"
-msgstr "Nenhuma"
+msgstr "Nenhum"
 
 #: gtk/inspector/general.ui:34
 msgid "GTK+ Version"
@@ -4022,18 +4008,16 @@ msgstr "Versão GL"
 msgid "GL Vendor"
 msgstr "Fornecedor GL"
 
+#  Drop-down item
+#  https://developer.mozilla.org/en-US/docs/Web/API/Event/eventPhase
 #: gtk/inspector/gestures.c:128
-#, fuzzy
-#| msgid "None"
 msgctxt "event phase"
 msgid "None"
-msgstr "Nenhuma"
+msgstr "Nenhum"
 
 #  Drop-down item
 #  https://developer.mozilla.org/en-US/docs/Web/API/Event/eventPhase
 #: gtk/inspector/gestures.c:129
-#, fuzzy
-#| msgid "Capture"
 msgctxt "event phase"
 msgid "Capture"
 msgstr "Descendente"
@@ -4041,8 +4025,6 @@ msgstr "Descendente"
 #  Drop-down item
 #  https://developer.mozilla.org/en-US/docs/Web/API/Event/eventPhase
 #: gtk/inspector/gestures.c:130
-#, fuzzy
-#| msgid "Bubble"
 msgctxt "event phase"
 msgid "Bubble"
 msgstr "Ascendente"
@@ -4050,8 +4032,6 @@ msgstr "Ascendente"
 #  Drop-down item
 #  https://developer.mozilla.org/en-US/docs/Web/API/Event/eventPhase
 #: gtk/inspector/gestures.c:131
-#, fuzzy
-#| msgid "Target"
 msgctxt "event phase"
 msgid "Target"
 msgstr "Destino"
@@ -4215,11 +4195,9 @@ msgid "Column:"
 msgstr "Coluna:"
 
 #: gtk/inspector/prop-editor.c:1285
-#, fuzzy
-#| msgid "None"
 msgctxt "property name"
 msgid "None"
-msgstr "Nenhuma"
+msgstr "Nenhum"
 
 #: gtk/inspector/prop-editor.c:1389
 #, c-format
@@ -4331,32 +4309,24 @@ msgid "Mode"
 msgstr "Modo"
 
 #: gtk/inspector/size-groups.c:252
-#, fuzzy
-#| msgid "None"
 msgctxt "sizegroup mode"
 msgid "None"
-msgstr "Nenhuma"
+msgstr "Nenhum"
 
 #: gtk/inspector/size-groups.c:253
-#, fuzzy
-#| msgid "Horizontal"
 msgctxt "sizegroup mode"
 msgid "Horizontal"
 msgstr "Horizontal"
 
 #: gtk/inspector/size-groups.c:254
-#, fuzzy
-#| msgid "Vertical"
 msgctxt "sizegroup mode"
 msgid "Vertical"
 msgstr "Vertical"
 
 #: gtk/inspector/size-groups.c:255
-#, fuzzy
-#| msgid "Both"
 msgctxt "sizegroup mode"
 msgid "Both"
-msgstr "Ambas"
+msgstr "Ambos"
 
 #  Cabeçalho de tabela
 #: gtk/inspector/statistics.ui:53
@@ -4544,9 +4514,10 @@ msgstr "Coletar estatísticas"
 msgid "Show all Resources"
 msgstr "Mostrar todos recursos"
 
+#  Aba onde estão propriedades sem categorização.
 #: gtk/inspector/window.ui:257
 msgid "Miscellaneous"
-msgstr "Outras opções"
+msgstr "Geral"
 
 #: gtk/inspector/window.ui:277
 msgid "Signals"
@@ -5819,7 +5790,7 @@ msgstr "Páginas ímpares"
 
 #: gtk/ui/gtkprintunixdialog.ui:584
 msgid "Sc_ale:"
-msgstr "Esc_ala:"
+msgstr "E_scala:"
 
 #: gtk/ui/gtkprintunixdialog.ui:647
 msgid "Paper"
@@ -5839,7 +5810,7 @@ msgstr "_Bandeja de saída:"
 
 #: gtk/ui/gtkprintunixdialog.ui:774
 msgid "Or_ientation:"
-msgstr "_Orientação:"
+msgstr "Ori_entação:"
 
 #: gtk/ui/gtkprintunixdialog.ui:874
 msgid "Job Details"
@@ -5851,7 +5822,7 @@ msgstr "Pri_oridade:"
 
 #: gtk/ui/gtkprintunixdialog.ui:921
 msgid "_Billing info:"
-msgstr "Informações de _valores:"
+msgstr "Inf. de _faturamento:"
 
 #: gtk/ui/gtkprintunixdialog.ui:965
 msgid "Print Document"
@@ -5922,7 +5893,7 @@ msgstr "Cor"
 #. This will appear as a tab label in the print dialog. It's a typographical term, as in "Binding and finishing"
 #: gtk/ui/gtkprintunixdialog.ui:1278
 msgid "Finishing"
-msgstr "Concluindo"
+msgstr "Finalização"
 
 #: gtk/ui/gtkprintunixdialog.ui:1311
 msgid "Advanced"
@@ -5993,7 +5964,7 @@ msgstr "Falha ao gravar arquivo de cache: %s\n"
 #: gtk/updateiconcache.c:1552
 #, c-format
 msgid "The generated cache was invalid.\n"
-msgstr "O cache gerado estava inválido.\n"
+msgstr "O cache gerado era inválido.\n"
 
 #: gtk/updateiconcache.c:1566
 #, c-format
@@ -6200,24 +6171,20 @@ msgstr "É necessário autenticar-se para imprimir um documento em %s"
 #: modules/printbackends/cups/gtkprintbackendcups.c:1136
 #, c-format
 msgid "Authentication is required to get attributes of job “%s”"
-msgstr ""
-"É necessário autenticar-se para obter as características do trabalho \"%s\""
+msgstr "É necessário autenticar-se para obter os atributos do trabalho \"%s\""
 
 #: modules/printbackends/cups/gtkprintbackendcups.c:1138
 msgid "Authentication is required to get attributes of a job"
-msgstr ""
-"É necessário autenticar-se para obter as características de um trabalho"
+msgstr "É necessário autenticar-se para obter os atributos de um trabalho"
 
 #: modules/printbackends/cups/gtkprintbackendcups.c:1142
 #, c-format
 msgid "Authentication is required to get attributes of printer %s"
-msgstr ""
-"É necessário autenticar-se para obter as características da impressora %s"
+msgstr "É necessário autenticar-se para obter os atributos da impressora %s"
 
 #: modules/printbackends/cups/gtkprintbackendcups.c:1144
 msgid "Authentication is required to get attributes of a printer"
-msgstr ""
-"É necessário autenticar-se para obter as características de uma impressora"
+msgstr "É necessário autenticar-se para obter os atributos de uma impressora"
 
 #: modules/printbackends/cups/gtkprintbackendcups.c:1147
 #, c-format
@@ -6342,67 +6309,49 @@ msgstr "; "
 
 #: modules/printbackends/cups/gtkprintbackendcups.c:4255
 #: modules/printbackends/cups/gtkprintbackendcups.c:4322
-#, fuzzy
-#| msgid "Two Sided"
 msgctxt "printing option"
 msgid "Two Sided"
 msgstr "Dois lados"
 
 #: modules/printbackends/cups/gtkprintbackendcups.c:4256
-#, fuzzy
-#| msgid "Paper Type"
 msgctxt "printing option"
 msgid "Paper Type"
 msgstr "Tipo de papel"
 
 #: modules/printbackends/cups/gtkprintbackendcups.c:4257
-#, fuzzy
-#| msgid "Paper Source"
 msgctxt "printing option"
 msgid "Paper Source"
 msgstr "Origem do papel"
 
 #: modules/printbackends/cups/gtkprintbackendcups.c:4258
 #: modules/printbackends/cups/gtkprintbackendcups.c:4323
-#, fuzzy
-#| msgid "Output Tray"
 msgctxt "printing option"
 msgid "Output Tray"
 msgstr "Bandeja de saída"
 
 #: modules/printbackends/cups/gtkprintbackendcups.c:4259
-#, fuzzy
-#| msgid "Resolution"
 msgctxt "printing option"
 msgid "Resolution"
 msgstr "Resolução"
 
 #: modules/printbackends/cups/gtkprintbackendcups.c:4260
-#, fuzzy
-#| msgid "GhostScript pre-filtering"
 msgctxt "printing option"
 msgid "GhostScript pre-filtering"
 msgstr "Pré-filtragem GhostScript"
 
 #: modules/printbackends/cups/gtkprintbackendcups.c:4269
-#, fuzzy
-#| msgid "One Sided"
 msgctxt "printing option value"
 msgid "One Sided"
 msgstr "Um lado"
 
 #. Translators: this is an option of "Two Sided"
 #: modules/printbackends/cups/gtkprintbackendcups.c:4271
-#, fuzzy
-#| msgid "Long Edge (Standard)"
 msgctxt "printing option value"
 msgid "Long Edge (Standard)"
 msgstr "Virar na borda maior (padrão)"
 
 #. Translators: this is an option of "Two Sided"
 #: modules/printbackends/cups/gtkprintbackendcups.c:4273
-#, fuzzy
-#| msgid "Short Edge (Flip)"
 msgctxt "printing option value"
 msgid "Short Edge (Flip)"
 msgstr "Virar na borda menor"
@@ -6411,8 +6360,6 @@ msgstr "Virar na borda menor"
 #: modules/printbackends/cups/gtkprintbackendcups.c:4275
 #: modules/printbackends/cups/gtkprintbackendcups.c:4277
 #: modules/printbackends/cups/gtkprintbackendcups.c:4285
-#, fuzzy
-#| msgid "Auto Select"
 msgctxt "printing option value"
 msgid "Auto Select"
 msgstr "Selecionar automaticamente"
@@ -6423,40 +6370,30 @@ msgstr "Selecionar automaticamente"
 #: modules/printbackends/cups/gtkprintbackendcups.c:4281
 #: modules/printbackends/cups/gtkprintbackendcups.c:4283
 #: modules/printbackends/cups/gtkprintbackendcups.c:4287
-#, fuzzy
-#| msgid "Printer Default"
 msgctxt "printing option value"
 msgid "Printer Default"
 msgstr "Padrão da impressora"
 
 #. Translators: this is an option of "GhostScript"
 #: modules/printbackends/cups/gtkprintbackendcups.c:4289
-#, fuzzy
-#| msgid "Embed GhostScript fonts only"
 msgctxt "printing option value"
 msgid "Embed GhostScript fonts only"
 msgstr "Somente para fontes GhostScript embutidas"
 
 #. Translators: this is an option of "GhostScript"
 #: modules/printbackends/cups/gtkprintbackendcups.c:4291
-#, fuzzy
-#| msgid "Convert to PS level 1"
 msgctxt "printing option value"
 msgid "Convert to PS level 1"
 msgstr "Converter para PS nível 1"
 
 #. Translators: this is an option of "GhostScript"
 #: modules/printbackends/cups/gtkprintbackendcups.c:4293
-#, fuzzy
-#| msgid "Convert to PS level 2"
 msgctxt "printing option value"
 msgid "Convert to PS level 2"
 msgstr "Converter para PS nível 2"
 
 #. Translators: this is an option of "GhostScript"
 #: modules/printbackends/cups/gtkprintbackendcups.c:4295
-#, fuzzy
-#| msgid "No pre-filtering"
 msgctxt "printing option value"
 msgid "No pre-filtering"
 msgstr "Sem pré-filtragem"
@@ -6464,8 +6401,6 @@ msgstr "Sem pré-filtragem"
 #. Translators: "Miscellaneous" is the label for a button, that opens
 #. up an extra panel of settings in a print dialog.
 #: modules/printbackends/cups/gtkprintbackendcups.c:4304
-#, fuzzy
-#| msgid "Miscellaneous"
 msgctxt "printing option group"
 msgid "Miscellaneous"
 msgstr "Outras opções"
@@ -6497,7 +6432,7 @@ msgstr "Bandeja superior"
 #: modules/printbackends/cups/gtkprintbackendcups.c:4340
 msgctxt "output-bin"
 msgid "Middle Bin"
-msgstr "Bandeja do médio"
+msgstr "Bandeja do meio"
 
 # Diferenciar "bottom" de "down".
 # Traduzir de forma consistente com "_Top".
@@ -6621,63 +6556,47 @@ msgstr "Prioridade do trabalho"
 #.
 #: modules/printbackends/cups/gtkprintbackendcups.c:5315
 msgid "Billing Info"
-msgstr "Informações de valores"
+msgstr "Inf. de faturamento"
 
 #: modules/printbackends/cups/gtkprintbackendcups.c:5339
-#, fuzzy
-#| msgid "None"
 msgctxt "cover page"
 msgid "None"
 msgstr "Nenhuma"
 
 #: modules/printbackends/cups/gtkprintbackendcups.c:5340
-#, fuzzy
-#| msgid "Classified"
 msgctxt "cover page"
 msgid "Classified"
-msgstr "Classificado"
+msgstr "Restrito"
 
 #: modules/printbackends/cups/gtkprintbackendcups.c:5341
-#, fuzzy
-#| msgid "Confidential"
 msgctxt "cover page"
 msgid "Confidential"
 msgstr "Confidencial"
 
 #: modules/printbackends/cups/gtkprintbackendcups.c:5342
-#, fuzzy
-#| msgid "Secret"
 msgctxt "cover page"
 msgid "Secret"
 msgstr "Secreto"
 
 #: modules/printbackends/cups/gtkprintbackendcups.c:5343
-#, fuzzy
-#| msgid "Standard"
 msgctxt "cover page"
 msgid "Standard"
 msgstr "Padrão"
 
 #: modules/printbackends/cups/gtkprintbackendcups.c:5344
-#, fuzzy
-#| msgid "Top Secret"
 msgctxt "cover page"
 msgid "Top Secret"
 msgstr "Ultra secreto"
 
 #: modules/printbackends/cups/gtkprintbackendcups.c:5345
-#, fuzzy
-#| msgid "Unclassified"
 msgctxt "cover page"
 msgid "Unclassified"
-msgstr "Não classificado"
+msgstr "Irrestrito"
 
 #. Translators, this string is used to label the pages-per-sheet option
 #. * in the print dialog
 #.
 #: modules/printbackends/cups/gtkprintbackendcups.c:5357
-#, fuzzy
-#| msgid "Pages per Sheet"
 msgctxt "printer option"
 msgid "Pages per Sheet"
 msgstr "Páginas por folha"
@@ -6686,8 +6605,6 @@ msgstr "Páginas por folha"
 #. * dialog that controls in what order multiple pages are arranged
 #.
 #: modules/printbackends/cups/gtkprintbackendcups.c:5374
-#, fuzzy
-#| msgid "Page Ordering"
 msgctxt "printer option"
 msgid "Page Ordering"
 msgstr "Ordem das páginas"
@@ -6696,8 +6613,6 @@ msgstr "Ordem das páginas"
 #. * dialog that controls the front cover page.
 #.
 #: modules/printbackends/cups/gtkprintbackendcups.c:5416
-#, fuzzy
-#| msgid "Before"
 msgctxt "printer option"
 msgid "Before"
 msgstr "Antes"
@@ -6706,8 +6621,6 @@ msgstr "Antes"
 #. * dialog that controls the back cover page.
 #.
 #: modules/printbackends/cups/gtkprintbackendcups.c:5431
-#, fuzzy
-#| msgid "After"
 msgctxt "printer option"
 msgid "After"
 msgstr "Depois"
@@ -6717,8 +6630,6 @@ msgstr "Depois"
 #. * or 'on hold'
 #.
 #: modules/printbackends/cups/gtkprintbackendcups.c:5451
-#, fuzzy
-#| msgid "Print at"
 msgctxt "printer option"
 msgid "Print at"
 msgstr "Imprimir em"
@@ -6727,8 +6638,6 @@ msgstr "Imprimir em"
 #. * to specify a time when a print job will be printed.
 #.
 #: modules/printbackends/cups/gtkprintbackendcups.c:5462
-#, fuzzy
-#| msgid "Print at time"
 msgctxt "printer option"
 msgid "Print at time"
 msgstr "Imprimir na hora"
@@ -6744,16 +6653,12 @@ msgid "Custom %s×%s"
 msgstr "Personalizado %sx%s"
 
 #: modules/printbackends/cups/gtkprintbackendcups.c:5613
-#, fuzzy
-#| msgid "Printer Profile"
 msgctxt "printer option"
 msgid "Printer Profile"
 msgstr "Perfil da impressora"
 
 #. TRANSLATORS: this is when color profile information is unavailable
 #: modules/printbackends/cups/gtkprintbackendcups.c:5620
-#, fuzzy
-#| msgid "Unavailable"
 msgctxt "printer option value"
 msgid "Unavailable"
 msgstr "Não disponível"
@@ -6843,7 +6748,7 @@ msgstr "desconhecido"
 #: modules/printbackends/test/gtkprintbackendtest.c:232
 #, c-format
 msgid "test-output.%s"
-msgstr "saída-teste.%s"
+msgstr "saida-teste.%s"
 
 #: modules/printbackends/test/gtkprintbackendtest.c:465
 msgid "Print to Test Printer"
@@ -6915,7 +6820,7 @@ msgstr "Imprimir para testar impressora"
 #~ msgstr "Função de tipo inválida na linha %d: \"%s\""
 
 #~ msgid "Duplicate object ID '%s' on line %d (previously on line %d)"
-#~ msgstr "ID de objeto duplicado \"%s\" na linha %d (antes na linha %d)"
+#~ msgstr "ID de objeto duplicado \"%s\" na linha %d (outro na linha %d)"
 
 #~ msgid "Invalid signal '%s' for type '%s' on line %d"
 #~ msgstr "Sinal inválido \"%s\" para o tipo \"%s\" na linha %d"
@@ -6937,7 +6842,7 @@ msgstr "Imprimir para testar impressora"
 
 #~ msgctxt "progress bar label"
 #~ msgid "%d %%"
-#~ msgstr "%d%%"
+#~ msgstr "%d %%"
 
 #~ msgctxt "volume percentage"
 #~ msgid "%d %%"
@@ -7144,7 +7049,7 @@ msgstr "Imprimir para testar impressora"
 #~ msgstr "Digite um nome de arquivo"
 
 #~ msgid "_Find Applications in Software "
-#~ msgstr "_Localizar aplicativos no Softwares"
+#~ msgstr "_Localizar aplicativos no Programas "
 
 #~ msgid "Select an application to open “%s”"
 #~ msgstr "Selecione um aplicativo para abrir \"%s\""
@@ -7156,11 +7061,11 @@ msgstr "Imprimir para testar impressora"
 #~ "Click \"Show other applications\", for more options, or \"Software\" to "
 #~ "install a new application"
 #~ msgstr ""
-#~ "Clique em \"Mostrar outros aplicativos\", para mais opções, ou \"Softwares"
+#~ "Clique em \"Mostrar outros aplicativos\", para mais opções, ou \"Programas"
 #~ "\" para instalar um novo aplicativo"
 
 #~ msgid "Software"
-#~ msgstr "Softwares"
+#~ msgstr "Programas"
 
 #~ msgid "+"
 #~ msgstr "+"
