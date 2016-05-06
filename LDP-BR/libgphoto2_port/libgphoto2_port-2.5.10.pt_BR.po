@@ -1,15 +1,15 @@
 # Brazilian Portuguese translation of libgphoto2.
-# Copyright (C) 2002-2015 Free Software Foundation, Inc.
+# Copyright (C) 2002-2016 Free Software Foundation, Inc.
 # This file is distributed under the same license as the libgphoto2 package.
 # Evandro Gardenali <evandro@fasternet.com.br>, 2002.
-# Fabrício Godoy <skarllot@gmail.com>, 2010, 2015.
+# Fabrício Godoy <skarllot@gmail.com>, 2010, 2016.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: libgphoto2_port 2.5.10\n"
 "Report-Msgid-Bugs-To: gphoto-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2016-02-22 21:02+0100\n"
-"PO-Revision-Date: 2015-12-28 21:20-0200\n"
+"PO-Revision-Date: 2016-05-06 18:36-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
 "net>\n"
@@ -179,10 +179,8 @@ msgid "Serial Port %i"
 msgstr "Porta serial %i"
 
 #: serial/unix.c:352
-#, fuzzy
-#| msgid "Serial Port %i"
 msgid "Serial Port Device"
-msgstr "Porta serial %i"
+msgstr "Dispositivo de porta serial"
 
 #: serial/unix.c:434
 #, c-format

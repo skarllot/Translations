@@ -1,11 +1,12 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: libgphoto2_port 2.5.8\n"
+"Project-Id-Version: libgphoto2_port 2.5.10\n"
 "Report-Msgid-Bugs-To: gphoto-devel@lists.sourceforge.net\n"
-"POT-Creation-Date: 2015-06-17 23:53+0200\n"
-"PO-Revision-Date: 2015-12-28 21:01-0200\n"
+"POT-Creation-Date: 2016-02-22 21:02+0100\n"
+"PO-Revision-Date: 2016-05-06 18:36-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
-"Language-Team: Brazilian Portuguese <ldp-br@bazar.conectiva.com.br>\n"
+"Language-Team: Brazilian Portuguese <ldpbr-"
+"translation@lists.sourceforge.net>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,15 +28,15 @@ msgstr "Não há suporte a operação \"%s\" por esse dispositivo"
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: disk/disk.c:147 disk/disk.c:148 disk/disk.c:219 disk/disk.c:220
-#: disk/disk.c:260 disk/disk.c:283
+#: disk/disk.c:147 disk/disk.c:148 disk/disk.c:224 disk/disk.c:225
+#: disk/disk.c:265 disk/disk.c:288
 #, c-format
 msgid "Media '%s'"
 msgstr "Mídia \"%s\""
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: serial/unix.c:226
+#: serial/unix.c:223
 #, c-format
 msgid "Could not lock device '%s'"
 msgstr "Não foi possível travar o dispositivo \"%s\""
@@ -43,21 +44,21 @@ msgstr "Não foi possível travar o dispositivo \"%s\""
 # (pofilter) simplecaps: Different capitalization
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: serial/unix.c:236 usbdiskdirect/linux.c:96
+#: serial/unix.c:233 usbdiskdirect/linux.c:95
 #, c-format
 msgid "Device '%s' is locked by pid %d"
 msgstr "O dispositivo \"%s\" está travado pelo PID %d"
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: serial/unix.c:239 usbdiskdirect/linux.c:99
+#: serial/unix.c:236 usbdiskdirect/linux.c:98
 #, c-format
 msgid "Device '%s' could not be locked (dev_lock returned %d)"
 msgstr "O dispositivo \"%s\" não pôde ser travado (dev_lock retornou %d)"
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: serial/unix.c:268
+#: serial/unix.c:265
 #, c-format
 msgid "Device '%s' could not be unlocked."
 msgstr "O dispositivo \"%s\" não pôde ser destravado."
@@ -65,7 +66,7 @@ msgstr "O dispositivo \"%s\" não pôde ser destravado."
 # (pofilter) simplecaps: Different capitalization
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: serial/unix.c:280 usbdiskdirect/linux.c:128
+#: serial/unix.c:277 usbdiskdirect/linux.c:127
 #, c-format
 msgid "Device '%s' could not be unlocked as it is locked by pid %d."
 msgstr ""
@@ -73,75 +74,75 @@ msgstr ""
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: serial/unix.c:284 usbdiskdirect/linux.c:132
+#: serial/unix.c:281 usbdiskdirect/linux.c:131
 #, c-format
 msgid "Device '%s' could not be unlocked (dev_unlock returned %d)"
 msgstr "O dispositivo \"%s\" não pôde ser destravado (dev_unlock retornou %d)"
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: serial/unix.c:430
+#: serial/unix.c:434
 #, c-format
 msgid "Failed to open '%s' (%s)."
-msgstr "Falhou ao abrir \"%s\" (%s)."
+msgstr "Falha ao abrir \"%s\" (%s)."
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: serial/unix.c:450
+#: serial/unix.c:454
 #, c-format
 msgid "Could not close '%s' (%s)."
 msgstr "Não foi possível fechar \"%s\" (%s)."
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: serial/unix.c:715
+#: serial/unix.c:719
 #, c-format
 msgid "Could not flush '%s' (%s)."
 msgstr "Não foi possível descarregar \"%s\" (%s)."
 
 # (pofilter) acronyms: Consider not translating acronyms: IO
-#: usbdiskdirect/linux.c:235
+#: usbdiskdirect/linux.c:234
 msgid "USB Mass Storage direct IO"
 msgstr "E/S direta para armazenamento em massa USB"
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: usbdiskdirect/linux.c:286 usbscsi/linux.c:270
+#: usbdiskdirect/linux.c:285 usbscsi/linux.c:269
 #, c-format
 msgid "Failed to open '%s' (%m)."
 msgstr "Falhou ao abrir \"%s\" (%m)."
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: usbdiskdirect/linux.c:300 usbscsi/linux.c:298
+#: usbdiskdirect/linux.c:299 usbscsi/linux.c:297
 #, c-format
 msgid "Could not close '%s' (%m)."
 msgstr "Não foi possível fechar \"%s\" (%m)."
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: usbdiskdirect/linux.c:324
+#: usbdiskdirect/linux.c:323
 #, c-format
 msgid "Could not seek to offset: %x on '%s' (%m)."
 msgstr "Não foi possível buscar até a posição %x em \"%s\" (%m)."
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: usbdiskdirect/linux.c:346
+#: usbdiskdirect/linux.c:345
 #, c-format
 msgid "Could not write to '%s' (%m)."
 msgstr "Não foi possível escrever para \"%s\" (%m)."
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: usbdiskdirect/linux.c:367
+#: usbdiskdirect/linux.c:366
 #, c-format
 msgid "Could not read from '%s' (%m)."
 msgstr "Não foi possível ler de \"%s\" (%m)."
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: usb/libusb.c:282
+#: usb/libusb.c:281
 #, c-format
 msgid "Could not detach kernel driver '%s' of camera device."
 msgstr ""
@@ -150,33 +151,33 @@ msgstr ""
 
 # (pofilter) simplecaps: Different capitalization
 # (pofilter) startcaps: Different capitalization at the start
-#: usb/libusb.c:310 libusb1/libusb1.c:422
+#: usb/libusb.c:309 libusb1/libusb1.c:417
 msgid "unknown libgphoto2 using program"
 msgstr "O programa está usando uma libgphoto2 desconhecida"
 
 # (pofilter) simplecaps: Different capitalization
-#: usb/libusb.c:753 libusb1/libusb1.c:1018
+#: usb/libusb.c:752 libusb1/libusb1.c:1033
 #, c-format
 msgid "The supplied vendor or product id (0x%x,0x%x) is not valid."
 msgstr "O fabricante ou o ID do produto (0x%x,0x%x) não é válido."
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: usbscsi/linux.c:109
+#: usbscsi/linux.c:108
 #, c-format
 msgid "Device '%s' is locked by another app."
 msgstr "O dispositivo \"%s\" está bloqueado por outro aplicativo."
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: usbscsi/linux.c:114
+#: usbscsi/linux.c:113
 #, c-format
 msgid "Failed to lock '%s' (%m)."
 msgstr "Falha ao bloquear \"%s\" (%m)."
 
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: usbscsi/linux.c:130
+#: usbscsi/linux.c:129
 #, c-format
 msgid "Failed to unlock '%s' (%m)."
 msgstr "Falha ao desbloquear \"%s\" (%m)."
@@ -184,7 +185,7 @@ msgstr "Falha ao desbloquear \"%s\" (%m)."
 # (pofilter) simplecaps: Different capitalization
 # (pofilter) singlequoting: Different quotation marks
 # (pofilter) doublequoting: Different quotation marks
-#: usbscsi/linux.c:342
+#: usbscsi/linux.c:341
 #, c-format
 msgid "Could not send scsi command to: '%s' (%m)."
 msgstr "Não foi possível enviar um comando SCSI para \"%s\" (%m)."
