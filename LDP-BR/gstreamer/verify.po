@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: gstreamer-1.7.1\n"
+"Project-Id-Version: gstreamer-1.7.2\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
-"POT-Creation-Date: 2015-12-24 12:45+0100\n"
-"PO-Revision-Date: 2015-12-28 20:54-0200\n"
+"POT-Creation-Date: 2016-02-19 10:29+0200\n"
+"PO-Revision-Date: 2016-05-06 17:33-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-"
 "translation@lists.sourceforge.net>\n"
@@ -15,12 +15,12 @@ msgstr ""
 "X-Generator: Translate Toolkit 1.9.0\n"
 
 # (pofilter) acronyms: Consider not translating acronyms: LEVEL
-#: gst/gst.c:254
+#: gst/gst.c:256
 msgid "LEVEL"
 msgstr "NÍVEL"
 
 # (pofilter) doublequoting: Different quotation marks
-#: gst/gst.c:256
+#: gst/gst.c:258
 msgid ""
 "Comma-separated list of category_name:level pairs to set specific levels for "
 "the individual categories. Example: GST_AUTOPLUG:5,GST_ELEMENT_*:3"
@@ -30,7 +30,7 @@ msgstr ""
 "GST_ELEMENT_*:3"
 
 # (pofilter) brackets: Added '(', ')'
-#: gst/gst.c:265
+#: gst/gst.c:267
 msgid ""
 "Changes coloring mode of the debug log. Possible modes: off, on, disable, "
 "auto, unix"
@@ -39,12 +39,12 @@ msgstr ""
 "on (ligado), disable (desabilitado), auto (automático) e unix"
 
 # (pofilter) acronyms: Consider not translating acronyms: PATHS
-#: gst/gst.c:277
+#: gst/gst.c:279
 msgid "PATHS"
 msgstr "CAMINHOS"
 
 # (pofilter) acronyms: Consider not translating acronyms: PLUGINS
-#: gst/gst.c:282
+#: gst/gst.c:284
 msgid "PLUGINS"
 msgstr "PLUG-INS"
 
@@ -280,13 +280,13 @@ msgid "ERROR: from element %s: %s\n"
 msgstr "ERRO: do elemento %s: %s\n"
 
 # (pofilter) simplecaps: Different capitalization
-#: gst/parse/grammar.y:758
+#: gst/parse/grammar.y:783
 #, c-format
 msgid "unexpected pad-reference \"%s\" - ignoring"
 msgstr "referência ao Pad inesperada \"%s\" - ignorando"
 
 # (pofilter) simplecaps: Different capitalization
-#: gst/parse/grammar.y:797
+#: gst/parse/grammar.y:822
 #, c-format
 msgid "could not parse caps \"%s\""
 msgstr "não foi possível analisar o Caps \"%s\""
@@ -294,19 +294,19 @@ msgstr "não foi possível analisar o Caps \"%s\""
 # (pofilter) unchanged: Consider translating
 # (pofilter) simplecaps: Different capitalization
 # (pofilter) startcaps: Different capitalization at the start
-#: gst/parse/grammar.y:948
+#: gst/parse/grammar.y:973
 msgid "bin"
 msgstr "Bin"
 
 # (pofilter) puncspacing: Different spacing around punctuation
 # (pofilter) simplecaps: Different capitalization
-#: gst/parse/grammar.y:957
+#: gst/parse/grammar.y:982
 #, c-format
 msgid "specified empty bin \"%s\", not allowed"
 msgstr "o Bin \"%s\" está vazio, operação não permitida"
 
 # (pofilter) simplecaps: Different capitalization
-#: gst/parse/grammar.y:967
+#: gst/parse/grammar.y:992
 #, c-format
 msgid "no bin \"%s\", unpacking elements"
 msgstr "nenhum Bin \"%s\", descarregando elementos"

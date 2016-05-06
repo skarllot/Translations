@@ -1,7 +1,7 @@
 # Brazilian Portuguese translation of GStreamer.
-# Copyright (C) 2008-2013 Free Software Foundation, Inc.
+# Copyright (C) 2008-2016 Free Software Foundation, Inc.
 # This file is distributed under the same license as the GStreamer package.
-# Fabrício Godoy <skarllot@gmail.com>, 2008-2015.
+# Fabrício Godoy <skarllot@gmail.com>, 2008-2016.
 #
 # pipeline -> fila de processamento
 # sink -> consumidor
@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: gstreamer-1.7.2\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2016-02-19 10:29+0200\n"
-"PO-Revision-Date: 2015-12-28 20:54-0200\n"
+"PO-Revision-Date: 2016-05-06 17:33-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
 "net>\n"
@@ -1130,7 +1130,7 @@ msgstr ""
 
 #: gst/parse/grammar.y:503
 msgid "Delayed linking failed."
-msgstr ""
+msgstr "Falha no vínculo postergado."
 
 #: gst/parse/grammar.y:641
 #, c-format
@@ -1325,8 +1325,6 @@ msgstr "forçar Caps sem usar o typefind"
 
 #: plugins/elements/gsttypefindelement.c:932
 #: plugins/elements/gsttypefindelement.c:953
-#, fuzzy
-#| msgid "Stream contains not enough data."
 msgid "Stream doesn't contain enough data."
 msgstr "O fluxo não contém dados suficientes."
 
