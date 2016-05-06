@@ -1,7 +1,7 @@
 # Brazilian Portuguese translation of gst-plugins-base.
-# Copyright (C) 2008-2015 Free Software Foundation, Inc.
+# Copyright (C) 2008-2016 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gst-plugins-base package.
-# Fabrício Godoy <skarllot@gmail.com>, 2008-2015.
+# Fabrício Godoy <skarllot@gmail.com>, 2008-2016.
 #
 # PCM -> PCM
 # buffering -> preenchendo buffer
@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: gst-plugins-base-1.7.90\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2016-03-01 16:53+0200\n"
-"PO-Revision-Date: 2015-12-28 18:04-0200\n"
+"PO-Revision-Date: 2016-05-06 16:47-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
 "net>\n"
@@ -752,7 +752,7 @@ msgstr "sair"
 
 #: tools/gst-play.c:991
 msgid "> or n"
-msgstr ""
+msgstr "> ou n"
 
 #: tools/gst-play.c:991
 msgid "play next"
@@ -760,7 +760,7 @@ msgstr "reproduzir próxima"
 
 #: tools/gst-play.c:992
 msgid "< or b"
-msgstr ""
+msgstr "< ou b"
 
 #: tools/gst-play.c:992
 msgid "play previous"
@@ -800,15 +800,15 @@ msgstr "ativar/desativar modos avançados"
 
 #: tools/gst-play.c:1001
 msgid "change audio track"
-msgstr "alterar trilha de áudio"
+msgstr "alterar a trilha de áudio"
 
 #: tools/gst-play.c:1002
 msgid "change video track"
-msgstr "alterar trilha de vídeo"
+msgstr "alterar a trilha de vídeo"
 
 #: tools/gst-play.c:1003
 msgid "change subtitle track"
-msgstr "alterar trilha de legenda"
+msgstr "alterar a trilha de legenda"
 
 #: tools/gst-play.c:1004
 msgid "seek to beginning"
@@ -822,44 +822,54 @@ msgstr "exibir atalhos de teclado"
 msgid "Interactive mode - keyboard controls:"
 msgstr "Modo interativo - teclas de comando:"
 
+#  Flag: verbose
 #: tools/gst-play.c:1140
 msgid "Output status information and property notifications"
-msgstr ""
+msgstr "Exibe informações de status e notificações de propriedade"
 
+#  Flag: flags
 #: tools/gst-play.c:1142
 msgid "Control playback behaviour setting playbin 'flags' property"
 msgstr ""
+"Controla o comportamento de reprodução definindo a propriedade \"flags\" do "
+"Playbin"
 
+#  Flag: videosink
 #: tools/gst-play.c:1147
 msgid "Video sink to use (default is autovideosink)"
-msgstr ""
-"Elemento consumidor de vídeo utilizado (predefinido para autovideosink)"
+msgstr "Define o elemento consumidor de vídeo (predefinido para autovideosink)"
 
+#  Flag: audiosink
 #: tools/gst-play.c:1149
 msgid "Audio sink to use (default is autoaudiosink)"
-msgstr ""
-"Elemento consumidor de áudio utilizado (predefinido para autoaudiosink)"
+msgstr "Define o elemento consumidor de áudio (predefinido para autoaudiosink)"
 
+#  Flag: gapless
 #: tools/gst-play.c:1151
 msgid "Enable gapless playback"
 msgstr "Ativar reprodução sem intervalos"
 
+#  Flag: shuffle
 #: tools/gst-play.c:1153
 msgid "Shuffle playlist"
 msgstr "Embaralhar lista de reprodução"
 
+#  Flag: no-interactive
 #: tools/gst-play.c:1156
 msgid "Disable interactive control via the keyboard"
 msgstr "Desativar controle interativo via teclado"
 
+#  Flag: volume
 #: tools/gst-play.c:1158
 msgid "Volume"
 msgstr "Volume"
 
+#  Flag: playlist
 #: tools/gst-play.c:1160
 msgid "Playlist file containing input media files"
 msgstr "Arquivo de lista de reprodução que contém arquivos de mídia de entrada"
 
+#  Flag: quiet
 #: tools/gst-play.c:1162
 msgid "Do not print any output (apart from errors)"
 msgstr "Não exibir nenhuma saída (além dos erros)"
