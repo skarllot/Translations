@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: gstreamer-1.7.90\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2016-03-01 16:45+0200\n"
-"PO-Revision-Date: 2016-05-06 17:33-0300\n"
+"PO-Revision-Date: 2016-05-06 18:23-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
 "net>\n"
@@ -603,11 +603,11 @@ msgstr "pessoa(s) que compôs(useram) a gravação"
 
 #: gst/gsttaglist.c:226
 msgid "conductor"
-msgstr ""
+msgstr "maestro"
 
 #: gst/gsttaglist.c:227
 msgid "conductor/performer refinement"
-msgstr ""
+msgstr "maestro/músico de afinação"
 
 #: gst/gsttaglist.c:230
 msgid "duration"

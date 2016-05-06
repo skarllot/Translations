@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: gstreamer-1.7.2\n"
+"Project-Id-Version: gstreamer-1.7.90\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
-"POT-Creation-Date: 2016-02-19 10:29+0200\n"
-"PO-Revision-Date: 2016-05-06 17:33-0300\n"
+"POT-Creation-Date: 2016-03-01 16:45+0200\n"
+"PO-Revision-Date: 2016-05-06 18:23-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-"
 "translation@lists.sourceforge.net>\n"
@@ -113,84 +113,84 @@ msgstr "pessoa(s) que compôs(useram) a gravação"
 # (pofilter) unchanged: Consider translating
 # (pofilter) simplecaps: Different capitalization
 # (pofilter) startcaps: Different capitalization at the start
-#: gst/gsttaglist.c:229
+#: gst/gsttaglist.c:233
 msgid "codec"
 msgstr "CODEC"
 
 # (pofilter) simplecaps: Different capitalization
 # (pofilter) startcaps: Different capitalization at the start
-#: gst/gsttaglist.c:230
+#: gst/gsttaglist.c:234
 msgid "codec the data is stored in"
 msgstr "CODEC usado nos dados"
 
 # (pofilter) simplecaps: Different capitalization
 # (pofilter) startcaps: Different capitalization at the start
-#: gst/gsttaglist.c:233
+#: gst/gsttaglist.c:237
 msgid "video codec"
 msgstr "CODEC de vídeo"
 
 # (pofilter) simplecaps: Different capitalization
 # (pofilter) startcaps: Different capitalization at the start
-#: gst/gsttaglist.c:233
+#: gst/gsttaglist.c:237
 msgid "codec the video data is stored in"
 msgstr "CODEC de vídeo usado nos dados"
 
 # (pofilter) simplecaps: Different capitalization
 # (pofilter) startcaps: Different capitalization at the start
-#: gst/gsttaglist.c:236
+#: gst/gsttaglist.c:240
 msgid "audio codec"
 msgstr "CODEC de áudio"
 
 # (pofilter) simplecaps: Different capitalization
 # (pofilter) startcaps: Different capitalization at the start
-#: gst/gsttaglist.c:236
+#: gst/gsttaglist.c:240
 msgid "codec the audio data is stored in"
 msgstr "CODEC de áudio usado nos dados"
 
 # (pofilter) simplecaps: Different capitalization
 # (pofilter) startcaps: Different capitalization at the start
-#: gst/gsttaglist.c:239
+#: gst/gsttaglist.c:243
 msgid "subtitle codec"
 msgstr "CODEC de legenda"
 
 # (pofilter) simplecaps: Different capitalization
 # (pofilter) startcaps: Different capitalization at the start
-#: gst/gsttaglist.c:239
+#: gst/gsttaglist.c:243
 msgid "codec the subtitle data is stored in"
 msgstr "CODEC de legenda usado nos dados"
 
 # (pofilter) simplecaps: Different capitalization
 # (pofilter) brackets: Added '(', ')'
-#: gst/gsttaglist.c:261
+#: gst/gsttaglist.c:265
 msgid "replaygain track gain"
 msgstr "ganho da faixa (ReplayGain)"
 
 # (pofilter) simplecaps: Different capitalization
 # (pofilter) brackets: Added '(', ')'
-#: gst/gsttaglist.c:263
+#: gst/gsttaglist.c:267
 msgid "replaygain track peak"
 msgstr "pico da faixa (ReplayGain)"
 
 # (pofilter) simplecaps: Different capitalization
 # (pofilter) brackets: Added '(', ')'
-#: gst/gsttaglist.c:265
+#: gst/gsttaglist.c:269
 msgid "replaygain album gain"
 msgstr "ganho do álbum (ReplayGain)"
 
 # (pofilter) simplecaps: Different capitalization
 # (pofilter) brackets: Added '(', ')'
-#: gst/gsttaglist.c:267
+#: gst/gsttaglist.c:271
 msgid "replaygain album peak"
 msgstr "pico do álbum (ReplayGain)"
 
 # (pofilter) simplecaps: Different capitalization
 # (pofilter) brackets: Added '(', ')'
-#: gst/gsttaglist.c:269
+#: gst/gsttaglist.c:273
 msgid "replaygain reference level"
 msgstr "nível de referência (ReplayGain)"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: gst/gsttaglist.c:304
+#: gst/gsttaglist.c:308
 msgid ""
 "geo longitude location of where the media has been recorded or produced in "
 "degrees according to WGS84 (zero at the prime meridian in Greenwich/UK,  "
@@ -201,17 +201,17 @@ msgstr ""
 "e valores negativos a latitudes ao oeste)"
 
 # (pofilter) brackets: Missing '(', ')'
-#: gst/gsttaglist.c:313
+#: gst/gsttaglist.c:317
 msgid "country (english name) where the media has been recorded or produced"
 msgstr "país, em inglês, onde a mídia foi gravada ou produzida"
 
 # (pofilter) brackets: Missing '(', ')'
-#: gst/gsttaglist.c:317
+#: gst/gsttaglist.c:321
 msgid "city (english name) where the media has been recorded or produced"
 msgstr "cidade, em inglês, onde a mídia foi gravada ou produzida"
 
 # (pofilter) doublespacing: Different use of double spaces
-#: gst/gsttaglist.c:329
+#: gst/gsttaglist.c:333
 msgid ""
 "movement speed of the capturing device while performing the capture in m/s"
 msgstr ""
@@ -219,7 +219,7 @@ msgstr ""
 "m/s"
 
 # (pofilter) simplecaps: Different capitalization
-#: gst/gsttaglist.c:333
+#: gst/gsttaglist.c:337
 msgid ""
 "indicates the movement direction of the device performing the capture of a "
 "media. It is represented as degrees in floating point representation, 0 "
@@ -231,7 +231,7 @@ msgstr ""
 
 # (pofilter) simplecaps: Different capitalization
 # (pofilter) doublespacing: Different use of double spaces
-#: gst/gsttaglist.c:339
+#: gst/gsttaglist.c:343
 msgid ""
 "indicates the direction the device is pointing to when capturing  a media. "
 "It is represented as degrees in floating point  representation, 0 means the "
@@ -242,13 +242,13 @@ msgstr ""
 "Norte e incrementa-se no sentido do relógio"
 
 # (pofilter) simplecaps: Different capitalization
-#: gst/gsttaglist.c:346
+#: gst/gsttaglist.c:350
 msgid "Name of the tv/podcast/series show the media is from"
 msgstr ""
 "Nome do programa de TV, do podcast ou da série de onde a mídia tem origem"
 
 # (pofilter) simplecaps: Different capitalization
-#: gst/gsttaglist.c:352
+#: gst/gsttaglist.c:356
 msgid ""
 "Name of the tv/podcast/series show the media is from, for sorting purposes"
 msgstr ""
@@ -257,12 +257,12 @@ msgstr ""
 
 # (pofilter) simplecaps: Different capitalization
 # (pofilter) startcaps: Different capitalization at the start
-#: gst/gsttaglist.c:387
+#: gst/gsttaglist.c:391
 msgid "application data"
 msgstr "Dados do aplicativo"
 
 # (pofilter) simplecaps: Different capitalization
-#: gst/gsttaglist.c:403
+#: gst/gsttaglist.c:407
 msgid "Midi note number of the audio track."
 msgstr "Número MIDI da nota da trilha de áudio."
 
