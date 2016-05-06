@@ -1,7 +1,7 @@
 # Brazilian Portuguese translation of gst-plugins-good.
 # This file is distributed under the same license as the gst-plugins-good package.
-# Copyright (C) 2008-2015 Free Software Foundation, Inc.
-# Fabrício Godoy <skarllot@gmail.com>, 2008-2015.
+# Copyright (C) 2008-2016 Free Software Foundation, Inc.
+# Fabrício Godoy <skarllot@gmail.com>, 2008-2016.
 #
 # data flow -> fluxo de dados
 # streaming -> fluxo contínuo
@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: gst-plugins-good-1.7.2\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2016-02-19 10:31+0200\n"
-"PO-Revision-Date: 2015-12-28 19:47-0200\n"
+"PO-Revision-Date: 2016-05-06 17:49-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
 "net>\n"
@@ -202,11 +202,11 @@ msgstr "Não foi possível abrir o dispositivo de áudio para gravação."
 
 #: sys/osxaudio/gstosxaudioringbuffer.c:149
 msgid "CoreAudio device not found"
-msgstr ""
+msgstr "Dispositivo CoreAudio não encontrado"
 
 #: sys/osxaudio/gstosxaudioringbuffer.c:155
 msgid "CoreAudio device could not be opened"
-msgstr ""
+msgstr "Dispositivo CoreAudio não pôde ser aberto"
 
 #: sys/sunaudio/gstsunaudiomixeroptions.c:109
 msgid "Record Source"
