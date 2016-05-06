@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: gst-plugins-bad-1.6.0\n"
+"Project-Id-Version: gst-plugins-bad-1.7.1\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
-"POT-Creation-Date: 2015-09-25 22:59+0200\n"
-"PO-Revision-Date: 2015-12-28 17:03-0200\n"
+"POT-Creation-Date: 2016-02-19 10:32+0200\n"
+"PO-Revision-Date: 2016-05-06 16:02-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-"
 "translation@lists.sourceforge.net>\n"
@@ -16,7 +16,7 @@ msgstr ""
 
 # (pofilter) simplecaps: Different capitalization
 # (pofilter) startcaps: Different capitalization at the start
-#: ext/gl/gstgltestsrc.c:673
+#: ext/gl/gstgltestsrc.c:680
 msgid "format wasn't negotiated before get function"
 msgstr "O formato não foi negociado antes da chamada da função"
 
