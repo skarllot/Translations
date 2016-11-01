@@ -6,15 +6,18 @@
 # Juan Carlos Castro y Castro <jcastro@vialink.com.br>, 2003.
 # Rodolfo Ribeiro Gomes <rodolforg@gmail.com>, 2008, 2010, 2012.
 # Rafael Fontenelle <rffontenelle@gmail.com>, 2016.
+#
+#: src/stty.c:955
 msgid ""
 msgstr ""
 "Project-Id-Version: coreutils-8.25-pre1\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2016-01-13 12:48+0000\n"
-"PO-Revision-Date: 2016-04-17 01:31-0200\n"
+"PO-Revision-Date: 2016-10-29 21:11-0200\n"
 "Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>\n"
 "Language: pt_BR\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -42,10 +45,10 @@ msgstr "erro ao fechar o arquivo"
 #: lib/closeout.c:112 src/base64.c:138 src/base64.c:150 src/base64.c:156
 #: src/base64.c:197 src/base64.c:253 src/cat.c:186 src/cat.c:202 src/cat.c:286
 #: src/cksum.c:251 src/expand.c:329 src/expand.c:354 src/factor.c:2366
-#: src/mktemp.c:338 src/od.c:969 src/paste.c:162 src/shuf.c:599 src/split.c:873
-#: src/split.c:1123 src/split.c:1128 src/tail.c:1233 src/tail.c:1365
-#: src/tail.c:2355 src/tr.c:1619 src/tr.c:1844 src/tr.c:1938 src/unexpand.c:426
-#: src/unexpand.c:442
+#: src/mktemp.c:338 src/od.c:969 src/paste.c:162 src/shuf.c:599
+#: src/split.c:873 src/split.c:1123 src/split.c:1128 src/tail.c:1233
+#: src/tail.c:1365 src/tail.c:2355 src/tr.c:1619 src/tr.c:1844 src/tr.c:1938
+#: src/unexpand.c:426 src/unexpand.c:442
 #, c-format
 msgid "write error"
 msgstr "erro de gravação"
@@ -351,8 +354,8 @@ msgstr "”"
 msgid "%s: end of file"
 msgstr "%s: fim do arquivo"
 
-#: lib/randread.c:128 src/du.c:1070 src/md5sum.c:675 src/od.c:953 src/tac.c:250
-#: src/tac.c:356 src/tac.c:513 src/tac.c:599 src/wc.c:765
+#: lib/randread.c:128 src/du.c:1070 src/md5sum.c:675 src/od.c:953
+#: src/tac.c:250 src/tac.c:356 src/tac.c:513 src/tac.c:599 src/wc.c:765
 #, c-format
 msgid "%s: read error"
 msgstr "%s: erro da leitura"
@@ -809,7 +812,7 @@ msgstr ""
 #: lib/version-etc.c:247
 #, c-format
 msgid "Report %s bugs to: %s\n"
-msgstr "Relate os problemas de %s para: %s\n"
+msgstr "Relate problemas de %s para: %s\n"
 
 #: lib/version-etc.c:251
 #, c-format
@@ -945,8 +948,8 @@ msgstr "tamanho inválido para quebra"
 #: src/hostname.c:112 src/id.c:189 src/install.c:979 src/join.c:974
 #: src/link.c:85 src/ln.c:581 src/logname.c:71 src/mknod.c:181 src/mv.c:462
 #: src/nproc.c:115 src/od.c:1869 src/ptx.c:2087 src/seq.c:594 src/shuf.c:500
-#: src/sort.c:4573 src/split.c:1480 src/tr.c:1796 src/tsort.c:560 src/tty.c:112
-#: src/uname.c:251 src/uniq.c:525 src/uniq.c:542 src/unlink.c:81
+#: src/sort.c:4573 src/split.c:1480 src/tr.c:1796 src/tsort.c:560
+#: src/tty.c:112 src/uname.c:251 src/uniq.c:525 src/uniq.c:542 src/unlink.c:81
 #: src/uptime.c:252 src/users.c:146 src/wc.c:698 src/who.c:827 src/whoami.c:79
 #, c-format
 msgid "extra operand %s"
@@ -958,16 +961,17 @@ msgid "closing standard input"
 msgstr "fechando entrada padrão"
 
 #. This is a proper name. See the gettext manual, section Names.
-#: src/basename.c:29 src/chgrp.c:37 src/chmod.c:38 src/chown.c:36 src/comm.c:38
-#: src/cp.c:57 src/csplit.c:44 src/cut.c:46 src/date.c:39 src/dd.c:44
-#: src/df.c:43 src/dirname.c:32 src/du.c:53 src/env.c:33 src/expand.c:49
-#: src/fold.c:35 src/groups.c:36 src/head.c:46 src/id.c:41 src/install.c:49
-#: src/ln.c:41 src/ls.c:126 src/mkdir.c:38 src/mkfifo.c:35 src/mknod.c:36
-#: src/mv.c:41 src/nice.c:39 src/nl.c:41 src/paste.c:52 src/pathchk.c:32
-#: src/pinky.c:37 src/printenv.c:44 src/printf.c:67 src/rm.c:40 src/rmdir.c:37
-#: src/stty.c:67 src/sum.c:38 src/tac.c:57 src/tail.c:72 src/tee.c:37
-#: src/touch.c:44 src/tty.c:43 src/uname.c:60 src/unexpand.c:50 src/uniq.c:42
-#: src/uptime.c:46 src/users.c:36 src/wc.c:50 src/who.c:49 src/yes.c:32
+#: src/basename.c:29 src/chgrp.c:37 src/chmod.c:38 src/chown.c:36
+#: src/comm.c:38 src/cp.c:57 src/csplit.c:44 src/cut.c:46 src/date.c:39
+#: src/dd.c:44 src/df.c:43 src/dirname.c:32 src/du.c:53 src/env.c:33
+#: src/expand.c:49 src/fold.c:35 src/groups.c:36 src/head.c:46 src/id.c:41
+#: src/install.c:49 src/ln.c:41 src/ls.c:126 src/mkdir.c:38 src/mkfifo.c:35
+#: src/mknod.c:36 src/mv.c:41 src/nice.c:39 src/nl.c:41 src/paste.c:52
+#: src/pathchk.c:32 src/pinky.c:37 src/printenv.c:44 src/printf.c:67
+#: src/rm.c:40 src/rmdir.c:37 src/stty.c:67 src/sum.c:38 src/tac.c:57
+#: src/tail.c:72 src/tee.c:37 src/touch.c:44 src/tty.c:43 src/uname.c:60
+#: src/unexpand.c:50 src/uniq.c:42 src/uptime.c:46 src/users.c:36 src/wc.c:50
+#: src/who.c:49 src/yes.c:32
 msgid "David MacKenzie"
 msgstr "David MacKenzie"
 
@@ -997,7 +1001,7 @@ msgstr ""
 "  -a, --multiple       provê suporte a múltiplos argumentos e trata cada um\n"
 "                         como um NOME\n"
 "  -s, --suffix=SUFIXO  remove um SUFIXO; implica em -a\n"
-"  -z, --zero           termina as linhas de saída com NULO, e não nova-linha\n"
+"  -z, --zero           termina as linhas de saída com NULO, e não nova linha\n"
 
 #: src/basename.c:67
 #, c-format
@@ -1061,13 +1065,12 @@ msgid ""
 "  -s, --squeeze-blank      suppress repeated empty output lines\n"
 msgstr ""
 "\n"
-"  -A, --show-all          equivalente a -vET\n"
-"  -b, --number-nonblank   numera linhas de saída que não estiverem em branco,\n"
-"                            sobrepõe -n\n"
-"  -e                      equivalente a -vE\n"
-"  -E, --show-ends         exibe $ ao final de cada linha\n"
-"  -n, --number            numera todas as linhas de saída\n"
-"  -s, --squeeze-blank     suprime linhas em branco repetidas\n"
+"  -A, --show-all           equivalente a -vET\n"
+"  -b, --number-nonblank    numera linhas de saída não vazias, sobrepõe -n\n"
+"  -e                       equivalente a -vE\n"
+"  -E, --show-ends          exibe $ ao final de cada linha\n"
+"  -n, --number             numera todas as linhas de saída\n"
+"  -s, --squeeze-blank      suprime linhas em branco repetidas\n"
 
 #: src/cat.c:106
 msgid ""
@@ -1076,10 +1079,10 @@ msgid ""
 "  -u                       (ignored)\n"
 "  -v, --show-nonprinting   use ^ and M- notation, except for LFD and TAB\n"
 msgstr ""
-"  -t                      equivalente a -vT\n"
-"  -T, --show-tabs         exibe os caracteres de tabulação como ^I\n"
-"  -u                      (ignorado)\n"
-"  -v, --show-nonprinting  utiliza a notação ^ e M-, exceto para LFD e TAB\n"
+"  -t                       equivalente a -vT\n"
+"  -T, --show-tabs          exibe os caracteres de tabulação como ^I\n"
+"  -u                       (ignorado)\n"
+"  -v, --show-nonprinting   utiliza a notação ^ e M-, exceto para LFD e TAB\n"
 
 #: src/cat.c:114
 #, c-format
@@ -1144,7 +1147,7 @@ msgstr "falha ao obter o contexto de segurança de %s"
 #: src/chcon.c:165
 #, c-format
 msgid "can't apply partial context to unlabeled file %s"
-msgstr "não é possível aplicar o contexto parcial para o arquivo não-rotulado %s"
+msgstr "não é possível aplicar o contexto parcial para o arquivo não rotulado %s"
 
 #: src/chcon.c:189
 #, c-format
@@ -1188,7 +1191,7 @@ msgid ""
 msgstr ""
 "Uso: %s [OPÇÃO]... CONTEXTO ARQUIVO...\n"
 " ou: %s [OPÇÃO]... [-u USUÁRIO] [-r REGRA] [-l FAIXA] [-t TIPO] ARQUIVO...\n"
-" ou: %s [OPÇÃO]... --reference=ARQUIVOREF ARQUIVO...\n"
+" ou: %s [OPÇÃO]... --reference=ARQREF ARQUIVO...\n"
 
 #: src/chcon.c:357
 msgid ""
@@ -1197,7 +1200,7 @@ msgid ""
 msgstr ""
 "Muda o contexto de segurança SELinux de cada ARQUIVO para CONTEXTO.\n"
 "Com --reference, altera o contexto de segurança de cada ARQUIVO para o mesmo\n"
-"do de ARQUIVOREF.\n"
+"do de ARQREF.\n"
 
 #: src/chcon.c:364 src/chgrp.c:124 src/chown.c:94
 msgid ""
@@ -1206,9 +1209,9 @@ msgid ""
 "  -h, --no-dereference   affect symbolic links instead of any referenced file\n"
 msgstr ""
 "      --dereference      afeta a referência de cada link simbólico em vez\n"
-"                            do próprio link em si (isso é o padrão)\n"
+"                           do próprio link em si (isso é o padrão)\n"
 "  -h, --no-dereference   afeta os links simbólicos em vez dos arquivos\n"
-"                            referenciados por elas\n"
+"                           referenciados por elas\n"
 
 #: src/chcon.c:369
 msgid ""
@@ -1245,7 +1248,7 @@ msgstr "  -R, --recursive        opera em arquivos e diretórios recursivamente\
 
 #: src/chcon.c:386
 msgid "  -v, --verbose          output a diagnostic for every file processed\n"
-msgstr "  -v, --verbose          emite um diagnóstico para cada arquivo processado\n"
+msgstr "  -v, --verbose          emite diagnóstico para cada arquivo processado\n"
 
 #: src/chcon.c:389 src/chgrp.c:144 src/chown.c:121
 msgid ""
@@ -1319,7 +1322,7 @@ msgid ""
 "  or:  %s [OPTION]... --reference=RFILE FILE...\n"
 msgstr ""
 "Uso: %s [OPÇÃO]... GRUPO ARQUIVO...\n"
-" ou: %s [OPÇÃO]... --reference=ARQUIVOREF ARQUIVO...\n"
+" ou: %s [OPÇÃO]... --reference=ARQREF ARQUIVO...\n"
 
 #: src/chgrp.c:114
 msgid ""
@@ -1328,8 +1331,7 @@ msgid ""
 "\n"
 msgstr ""
 "Altera o grupo de cada ARQUIVO para GRUPO.\n"
-"Com --reference, altera o grupo de cada ARQUIVO para o mesmo de\n"
-"ARQUIVOREF.\n"
+"Com --reference, altera o grupo de cada ARQUIVO para o mesmo de ARQREF.\n"
 "\n"
 
 #: src/chgrp.c:119 src/chmod.c:384 src/chown.c:89
@@ -1451,7 +1453,7 @@ msgstr ""
 #: src/chmod.c:515
 #, c-format
 msgid "cannot combine mode and --reference options"
-msgstr "énão é possível combinar as opções MODO e --reference"
+msgstr "não é possível combinar as opções MODO e --reference"
 
 #: src/chmod.c:546
 #, c-format
@@ -1516,7 +1518,7 @@ msgstr "dono de %s mantido\n"
 #: src/chown-core.c:378
 #, c-format
 msgid "cannot dereference %s"
-msgstr "não é possível obter o alvo referenciado por %s"
+msgstr "não foi possível obter o alvo referenciado por %s"
 
 #: src/chown-core.c:466
 #, c-format
@@ -1782,10 +1784,10 @@ msgstr ""
 msgid "  --output-delimiter=STR  separate columns with STR\n"
 msgstr "  --output-delimiter=TXT  separa colunas com texto TXT\n"
 
-#: src/comm.c:138 src/cut.c:178 src/head.c:133 src/numfmt.c:944 src/paste.c:453
-#: src/tail.c:304
+#: src/comm.c:138 src/cut.c:178 src/head.c:133 src/numfmt.c:944
+#: src/paste.c:453 src/tail.c:304
 msgid "  -z, --zero-terminated    line delimiter is NUL, not newline\n"
-msgstr "  -z, --zero-terminated     delimitador de é NULO, e não com \"nova-linha\"\n"
+msgstr "  -z, --zero-terminated     delimitador de é NULO, e não com nova linha\n"
 
 #: src/comm.c:143
 msgid ""
@@ -1961,7 +1963,7 @@ msgstr "%s: substituir %s, desobedecendo o modo %04lo (%s)? "
 #: src/copy.c:1675
 #, c-format
 msgid "%s: unwritable %s (mode %04lo, %s); try anyway? "
-msgstr "%s: não é possível escrever %s (modo %04lo, %s); tentar novamente? "
+msgstr "%s: não é possível escrever %s (modo %04lo, %s); tentar mesmo assim? "
 
 #: src/copy.c:1682
 #, c-format
@@ -2389,7 +2391,7 @@ msgstr ""
 #: src/cp.c:324
 #, c-format
 msgid "failed to preserve times for %s"
-msgstr "falha ao preservar horário para %s"
+msgstr "falha ao preservar horários para %s"
 
 #: src/cp.c:355
 #, c-format
@@ -2477,9 +2479,7 @@ msgstr "não é possível definir o contexto alvo e preservá-lo ao mesmo tempo"
 #: src/cp.c:1190
 #, c-format
 msgid "cannot preserve security context without an SELinux-enabled kernel"
-msgstr ""
-"não é possível preservar o contexto de segurança sem um kernel habilitado com\n"
-"SELinux"
+msgstr "não é possível preservar o contexto de segurança sem um kernel habilitado com SELinux"
 
 #: src/cp.c:1206
 #, c-format
@@ -2529,7 +2529,7 @@ msgstr "erro ao escrever em %s"
 #: src/csplit.c:1092
 #, c-format
 msgid "%s: integer expected after delimiter"
-msgstr "%s: espera-se um número inteiro depois do delimitador"
+msgstr "%s: era esperado um número inteiro depois do delimitador"
 
 #: src/csplit.c:1109
 #, c-format
@@ -2615,7 +2615,7 @@ msgid ""
 "Output pieces of FILE separated by PATTERN(s) to files 'xx00', 'xx01', ...,\n"
 "and output byte counts of each piece to standard output.\n"
 msgstr ""
-"Emite pedaços do ARQUIVO separado pelo PADRÃO(ões) para os arquivos \"xx00\",\n"
+"Emite pedaços do ARQUIVO separados pelo PADRÃO(ões) para os arquivos \"xx00\",\n"
 "\"xx01\", ..., e emite o total de bytes de cada pedaço na saída padrão.\n"
 
 #: src/csplit.c:1496
@@ -2649,7 +2649,7 @@ msgid ""
 "  -z, --elide-empty-files    remove empty output files\n"
 msgstr ""
 "  -n, --digits=DÍGITOS       usa o número especificado de dígitos em vez de 2\n"
-"  -s, --quiet, --silent      não emite o tamanho dos arquivos de saída\n"
+"  -s, --quiet, --silent      não exibe o tamanho dos arquivos de saída\n"
 "  -z, --elide-empty-files    remove arquivos de saída vazios\n"
 
 #: src/csplit.c:1518
@@ -2672,8 +2672,8 @@ msgstr ""
 "  {INTEIRO}          repete o padrão anterior o número de vezes especificado.\n"
 "  {*}                repete o padrão anterior tantas vezes quanto possível\n"
 "\n"
-"O DESLOCamento de linhas, quando usado, deve utilizar um \"+\" ou \"-\" seguido de\n"
-"um inteiro positivo.\n"
+"O DESLOCamento de linhas, quando usado, deve utilizar um \"+\" ou \"-\" seguido\n"
+"de um inteiro positivo.\n"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/cut.c:45 src/paste.c:51
@@ -2697,7 +2697,7 @@ msgid ""
 msgstr ""
 "  -b, --bytes=LISTA       seleciona apenas estes bytes\n"
 "  -c, --characters=LISTA  seleciona apenas estes caracteres\n"
-"  -d, --delimiter=DELIM   usa DELIM em vez de TAB como delimitador de campo\n"
+"  -d, --delimiter=DELIM   usa DELIM em vez de Tab como delimitador de campo\n"
 
 #: src/cut.c:163
 msgid ""
@@ -2780,7 +2780,7 @@ msgid ""
 "suppressing non-delimited lines makes sense\n"
 "\tonly when operating on fields"
 msgstr ""
-"suprimir as linhas não delimitadas só tem sentido\n"
+"suprimir as linhas não delimitadas só faz sentido\n"
 "\tquando se processa campos"
 
 #: src/date.c:123
@@ -2790,7 +2790,7 @@ msgid ""
 "  or:  %s [-u|--utc|--universal] [MMDDhhmm[[CC]YY][.ss]]\n"
 msgstr ""
 "Uso: %s [OPÇÃO]... [+FORMATO]\n"
-" ou:  %s [-u|--utc|--universal] [MMDDhhmm[[CC]YY][.ss]]\n"
+" ou: %s [-u|--utc|--universal] [MMDDhhmm[[CC]YY][.ss]]\n"
 
 #: src/date.c:128
 msgid "Display the current time in the given FORMAT, or set the system date.\n"
@@ -2801,8 +2801,8 @@ msgid ""
 "  -d, --date=STRING          display time described by STRING, not 'now'\n"
 "  -f, --file=DATEFILE        like --date; once for each line of DATEFILE\n"
 msgstr ""
-"  -d, --date=TEXTO          exibe a hora descrita no TEXTO, não a de \"agora\"\n"
-"  -f, --file=ARQDATA        como --date uma vez para cada linha de ARQDATA\n"
+"  -d, --date=TEXTO           exibe a hora descrita no TEXTO, não a de \"agora\"\n"
+"  -f, --file=ARQDATA         como --date; uma vez para cada linha de ARQDATA\n"
 
 #: src/date.c:138
 msgid ""
@@ -2932,8 +2932,8 @@ msgid ""
 "  %R   24-hour hour and minute; same as %H:%M\n"
 "  %s   seconds since 1970-01-01 00:00:00 UTC\n"
 msgstr ""
-"  %n   um caractere de nova-linha\n"
-"  %N   nanosegundos (000000000..999999999)\n"
+"  %n   um caractere de nova linha\n"
+"  %N   nanossegundos (000000000..999999999)\n"
 "  %p   o equivalente na localidade para AM ou PM; em branco se desconhecido\n"
 "  %P   como %p, mas em minúsculo\n"
 "  %r   a hora no relógio de 12 horas na localidade (por exemplo, 11:11:04 PM)\n"
@@ -3067,7 +3067,7 @@ msgstr "data inválida %s"
 #: src/date.c:424 src/date.c:458
 #, c-format
 msgid "multiple output formats specified"
-msgstr "foram especificados múltiplos formatos de saída"
+msgstr "múltiplos formatos de saída foram especificados"
 
 #: src/date.c:436
 #, c-format
@@ -3125,7 +3125,7 @@ msgid ""
 "  count=N         copy only N input blocks\n"
 "  ibs=BYTES       read up to BYTES bytes at a time (default: 512)\n"
 msgstr ""
-"Copia um arquivo, convertendo e formatando conforme os operandos.\n"
+"Copia um arquivo, convertendo-o e formatando-o conforme os operandos.\n"
 "\n"
 "  bs=BYTES        lê e escreve até BYTES bytes de uma vez\n"
 "  cbs=BYTES       converte BYTES bytes de uma vez\n"
@@ -3158,9 +3158,9 @@ msgstr ""
 "  skip=N          salta N blocos de tamanho ditado por ibs a partir do início\n"
 "                    da entrada\n"
 "  status=NÍVEL    O nível de informação para enviar para erro padrão;\n"
-"                  'none' suprime tudo, exceto mensagens de erro,\n"
-"                  'noxfer' suprime as estatísticas da transferência finais,\n"
-"                  'progress' mostra estatísticas de tempo em tempo\n"
+"                  \"none\" suprime tudo, exceto mensagens de erro,\n"
+"                  \"noxfer\" suprime as estatísticas finais da transferência,\n"
+"                  \"progress\" mostra estatísticas de tempo em tempo\n"
 
 #: src/dd.c:581
 msgid ""
@@ -3197,10 +3197,10 @@ msgstr ""
 "  ascii     de EBCDIC para ASCII\n"
 "  ebcdic    de ASCII para EBCDIC\n"
 "  ibm       de ASCII para EBCDIC alternativo\n"
-"  block     preenche registros terminados por caractere de nova-linha com\n"
+"  block     preenche registros terminados por caractere de nova linha com\n"
 "              espaços até o tamanho ditado por cbs\n"
 "  unblock   substitui os espaços ao final dos registros de tamanho cbs\n"
-"              por caractere de nova-linha\n"
+"              por caractere de nova linha\n"
 "  lcase     altera as maiúsculas para minúsculas\n"
 "  ucase     altera as minúsculas para maiúsculas\n"
 "  sparse    tenta buscar em vez de escrever saída para blocos de entrada NULOS\n"
@@ -3221,7 +3221,7 @@ msgstr ""
 "  nocreat   não cria o arquivo de saída\n"
 "  notrunc   não trunca o arquivo de saída\n"
 "  noerror   continua mesmo após erros de leitura\n"
-"  fdatasync  escreve fisicamente os dados do arquivo de saída antes de concluir\n"
+"  fdatasync escreve fisicamente os dados do arquivo de saída antes de concluir\n"
 "  fsync     similar, mas também escreve metadados\n"
 
 #: src/dd.c:611
@@ -3246,7 +3246,7 @@ msgstr "  direct    usa E/S direta para dados\n"
 
 #: src/dd.c:622
 msgid "  directory  fail unless a directory\n"
-msgstr "  directory  falha a menos que seja um diretório\n"
+msgstr "  directory falha a menos que seja um diretório\n"
 
 #: src/dd.c:624
 msgid "  dsync     use synchronized I/O for data\n"
@@ -3258,7 +3258,7 @@ msgstr "  sync      similar, mas também para metadados\n"
 
 #: src/dd.c:627
 msgid "  fullblock  accumulate full blocks of input (iflag only)\n"
-msgstr "  fullblock  acumula blocos de entrada completos (iflag apenas)\n"
+msgstr "  fullblock acumula blocos de entrada completos (iflag apenas)\n"
 
 #: src/dd.c:630
 msgid "  nonblock  use non-blocking I/O\n"
@@ -3268,9 +3268,10 @@ msgstr "  nonblock  usa E/S não-bloqueante\n"
 msgid "  noatime   do not update access time\n"
 msgstr "  noatime   não atualiza o horário de acesso\n"
 
+# saída de --help do "dd"; manter minúsculo inicial para se adequar às outras mensagens -- Rafael
 #: src/dd.c:635
 msgid "  nocache   Request to drop cache.  See also oflag=sync\n"
-msgstr "  nocache   Requisita descartar o cache. Ver também oflag=sync\n"
+msgstr "  nocache   requisita descartar o cache; veja também oflag=sync\n"
 
 #: src/dd.c:639
 msgid "  noctty    do not assign controlling terminal from file\n"
@@ -3294,7 +3295,7 @@ msgstr "  text      usa E/S textual para dados\n"
 
 #: src/dd.c:650
 msgid "  count_bytes  treat 'count=N' as a byte count (iflag only)\n"
-msgstr "  count_bytes  trata 'count=N' como uma contagem de bytes (iflag apenas)\n"
+msgstr "  count_bytes trata 'count=N' como uma contagem de bytes (iflag apenas)\n"
 
 #: src/dd.c:653
 msgid "  skip_bytes  treat 'skip=N' as a byte count (iflag only)\n"
@@ -3315,8 +3316,8 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"Enviar um sinal %s para um processo 'dd' em execução faz com que\n"
-"ele mostre as estatísticas de E/S para o erro padrão e, então,\n"
+"O envio de um sinal %s para um processo \"dd\" em execução faz com\n"
+"que ele mostre as estatísticas de E/S para o erro padrão e, então,\n"
 "continue a cópia.\n"
 "\n"
 "As opções são:\n"
@@ -3497,7 +3498,7 @@ msgstr "\"fsync\" falhou para %s"
 #: src/dd.c:2378 src/dd.c:2408 src/nohup.c:160 src/nohup.c:162
 #, c-format
 msgid "failed to open %s"
-msgstr "falhou em abrir %s"
+msgstr "falha ao abrir %s"
 
 #: src/dd.c:2418
 #, c-format
@@ -3507,12 +3508,12 @@ msgstr "deslocamento muito grande: não foi possível truncar para um compriment
 #: src/dd.c:2439
 #, c-format
 msgid "failed to truncate to %<PRIuMAX> bytes in output file %s"
-msgstr "falhou em truncar aos %<PRIuMAX> bytes no arquivo de saída %s"
+msgstr "falha ao truncar aos %<PRIuMAX> bytes no arquivo de saída %s"
 
 #: src/dd.c:2456 src/dd.c:2462
 #, c-format
 msgid "failed to discard cache for: %s"
-msgstr "falhou em descartar o cache para: %s"
+msgstr "falha ao descartar o cache para: %s"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/df.c:44 src/du.c:54 src/expr.c:151 src/kill.c:34 src/pathchk.c:31
@@ -3528,9 +3529,10 @@ msgstr "Sist. Arq."
 msgid "Type"
 msgstr "Tipo"
 
+# Manter inicial maiúsculo para usar na mensagem "%s-%s"; vide 'df -P'
 #: src/df.c:180 src/df.c:547
 msgid "blocks"
-msgstr "blocos"
+msgstr "Blocos"
 
 #: src/df.c:183
 msgid "Used"
@@ -3595,7 +3597,7 @@ msgstr "Capacid."
 #: src/df.c:550 src/df.c:559
 #, c-format
 msgid "%s-%s"
-msgstr "%2s de %1s"
+msgstr "%2$s de %1$s"
 
 #: src/df.c:1242
 #, c-format
@@ -3639,7 +3641,7 @@ msgstr ""
 "  -i, --inodes          lista informações do inode, em vez de uso de bloco\n"
 "  -k                    o mesmo que --block-size=1K\n"
 "  -l, --local           limita a listagem a sistemas locais de arquivo\n"
-"      --no-sync         não invocar \"sync\" ao obter informações de uso (padrão)\n"
+"      --no-sync         não invoca \"sync\" ao obter informações de uso (padrão)\n"
 
 #: src/df.c:1435
 msgid ""
@@ -3773,8 +3775,8 @@ msgid ""
 "the options to output dircolors' internal database and\n"
 "to select a shell syntax are mutually exclusive"
 msgstr ""
-"a opção para emitir a base de dados interna de dircolors e a para selecionar\n"
-"uma sintaxe de shell são mutuamente exclusivas"
+"a opção para emitir a base de dados interna de dircolors e\n"
+"para selecionar uma sintaxe de shell são mutuamente exclusivas"
 
 #: src/dircolors.c:451
 msgid "file operands cannot be combined with --print-database (-p)"
@@ -3804,7 +3806,7 @@ msgstr ""
 
 #: src/dirname.c:59
 msgid "  -z, --zero     end each output line with NUL, not newline\n"
-msgstr "  -z, --zero     termina cada linha de saída com NULO, e não com \"nova-linha\"\n"
+msgstr "  -z, --zero     termina cada linha de saída com NULO, e não com nova linha\n"
 
 #: src/dirname.c:64
 #, c-format
@@ -3843,7 +3845,8 @@ msgid ""
 "                          larger due to holes in ('sparse') files, internal\n"
 "                          fragmentation, indirect blocks, and the like\n"
 msgstr ""
-"  -0, --null            termina cada linha de saída com NULO, e não com \"nova-linha\"\n"
+"  -0, --null            termina cada linha de saída com NULO, e não com\n"
+"                          nova linha\n"
 "  -a, --all             escreve as contagens para todos os arquivos, e não\n"
 "                          apenas para diretórios\n"
 "      --apparent-size   emite os tamanhos aparentes, em vez do uso em disco;\n"
@@ -4029,7 +4032,7 @@ msgid ""
 "  or:  %s LONG-OPTION\n"
 msgstr ""
 "Uso: %s [OPÇÃO-CURTA]... [TEXTO]...\n"
-" ou: %s OPÇÃO\n"
+" ou: %s OPÇÃO-LONGA\n"
 
 #: src/echo.c:45
 msgid ""
@@ -4039,14 +4042,14 @@ msgid ""
 msgstr ""
 "Ecoa o(s) TEXTO(s) para a saída padrão.\n"
 "\n"
-"  -n             não emitir o caractere de nova-linha do final do TEXTO\n"
+"  -n             não emitir o caractere de nova linha do final do TEXTO\n"
 
 #: src/echo.c:51
 msgid ""
 "  -e             enable interpretation of backslash escapes (default)\n"
 "  -E             disable interpretation of backslash escapes\n"
 msgstr ""
-"  -e             habilita a interpretação de escape por barra invertida\n"
+"  -e             interpretação de escape por barra invertida\n"
 "                   (padrão)\n"
 "  -E             desabilita a interpretação de escape por barra invertida\n"
 
@@ -4088,7 +4091,7 @@ msgstr ""
 "  \\c     produz nenhuma outra saída\n"
 "  \\e     escapa\n"
 "  \\f     form feed (nova página)\n"
-"  \\n     nova-linha\n"
+"  \\n     nova linha\n"
 "  \\r     retorno de carro\n"
 "  \\t     tabulação horizontal\n"
 "  \\v     tabulação vertical\n"
@@ -4122,7 +4125,7 @@ msgid ""
 "  -u, --unset=NAME     remove variable from the environment\n"
 msgstr ""
 "  -i, --ignore-environment  começa com um ambiente vazio\n"
-"  -0, --null           termina cada linha de saída com NUL, e não nova-linha\n"
+"  -0, --null           termina cada linha de saída com NUL, e não nova linha\n"
 "  -u, --unset=NOME     remover variável NOME do ambiente\n"
 
 #: src/env.c:68
@@ -4157,7 +4160,7 @@ msgid ""
 "  -i, --initial       do not convert tabs after non blanks\n"
 "  -t, --tabs=NUMBER   have tabs NUMBER characters apart, not 8\n"
 msgstr ""
-"  -i, --initial       não converte TABs após caracteres não-brancos\n"
+"  -i, --initial       não converte tabulações após caracteres não brancos\n"
 "  -t, --tabs=NÚMERO   as tabulações têm largura de NÚMERO caracteres, e não 8\n"
 
 #: src/expand.c:118
@@ -4222,7 +4225,7 @@ msgid ""
 msgstr ""
 "\n"
 "Emite o valor de EXPRESSÃO para a saída padrão. Uma linha em branco abaixo\n"
-"separa os grupos em ordem crescente de precedência.  EXPRESSÃO pode ser:\n"
+"separa os grupos em ordem crescente de precedência. EXPRESSÃO pode ser:\n"
 "\n"
 "  ARG1 | ARG2       ARG1 se não for nulo ou 0; ARG2, em caso contrário\n"
 "\n"
@@ -4280,7 +4283,7 @@ msgid ""
 "  length STRING              length of STRING\n"
 msgstr ""
 "\n"
-"  TEXTO : EXPREG   ocorrência de padrão ancorado de EXPREG no TEXTO\n"
+"  TEXTO : EXPREG    ocorrência de padrão ancorado de EXPREG no TEXTO\n"
 "\n"
 "  match TEXTO EXPREG         o mesmo que TEXTO : EXPREG\n"
 "  substr TEXTO POS TAMANHO   subtexto do TEXTO, POS contado a partir do 1\n"
@@ -4295,11 +4298,11 @@ msgid ""
 "\n"
 "  ( EXPRESSION )             value of EXPRESSION\n"
 msgstr ""
-"  + TOKEN                   interpreta TOKEN como um texto, mesmo se for uma\n"
+"  + TOKEN                    interpreta TOKEN como texto, mesmo se for uma\n"
 "                               palavra-chave como \"match\" ou um operador\n"
 "                               como \"/\"\n"
 "\n"
-"  ( EXPRESSÃO )             valor de EXPRESSÃO\n"
+"  ( EXPRESSÃO )              valor de EXPRESSÃO\n"
 
 #: src/expr.c:255
 msgid ""
@@ -4311,8 +4314,8 @@ msgid ""
 msgstr ""
 "\n"
 "Note que muitos operadores precisam ser \"escapados\" ou postos entre aspas\n"
-"para shells.Comparações são aritméticas se ambos os ARGumentos forem números; de outra\n"
-"forma, serão lexicográficas.\n"
+"para shells.Comparações são aritméticas se ambos os ARGumentos forem números;\n"
+"de outra forma, serão lexicográficas.\n"
 "A ocorrência de padrões retorna o texto coincidente entre \\( e \\) ou nulo;\n"
 "se \\( e \\) não forem usados, elas retornarão o número de caracteres\n"
 "coincidentes ou 0.\n"
@@ -4341,7 +4344,7 @@ msgstr "erro na busca da expressão regular"
 #: src/expr.c:782 src/expr.c:819
 #, c-format
 msgid "non-integer argument"
-msgstr "argumento não-inteiro"
+msgstr "argumento não inteiro"
 
 #: src/expr.c:784 src/truncate.c:288
 #, c-format
@@ -4366,7 +4369,7 @@ msgstr "Niels Moller"
 #: src/factor.c:1269 src/factor.c:1369 src/factor.c:1445
 #, c-format
 msgid "Lucas prime test failure.  This should not happen"
-msgstr "falha no teste de fatores primos de Lucas. Isso não deveria acontecer"
+msgstr "Falha no teste de fatores primos de Lucas. Isso não deveria acontecer"
 
 #: src/factor.c:2082
 #, c-format
@@ -4416,7 +4419,7 @@ msgstr "não foi possível mudar para diretório %s"
 #: src/find-mount-point.c:69
 #, c-format
 msgid "cannot stat current directory (now %s)"
-msgstr "não foi possível realizar \"stat\" no diretório atual (agora %s)"
+msgstr "não foi possível obter estado do diretório atual (agora %s)"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/fmt.c:37
@@ -4592,8 +4595,8 @@ msgid ""
 "  -q, --quiet, --silent    never print headers giving file names\n"
 "  -v, --verbose            always print headers giving file names\n"
 msgstr ""
-"  -q, --quiet, --silent    nunca emitir cabeçalhos com os nomes dos arquivos\n"
-"  -v, --verbose            sempre emitir cabeçalhos com nomes dos arquivos\n"
+"  -q, --quiet, --silent    nunca emite cabeçalhos com os nomes dos arquivos\n"
+"  -v, --verbose            sempre emite cabeçalhos com nomes dos arquivos\n"
 
 #: src/head.c:138
 msgid ""
@@ -4819,7 +4822,7 @@ msgstr "criando o diretório %s"
 #: src/install.c:485
 #, c-format
 msgid "cannot change ownership of %s"
-msgstr "não foi possível mudar a posse de %s"
+msgstr "não foi possível mudar o dono de %s"
 
 #: src/install.c:509
 #, c-format
@@ -5063,7 +5066,7 @@ msgstr ""
 
 #: src/join.c:226 src/shuf.c:82 src/sort.c:507 src/uniq.c:205
 msgid "  -z, --zero-terminated     line delimiter is NUL, not newline\n"
-msgstr "  -z, --zero-terminated     termina linhas com byte 0, e não com \"nova-linha\"\n"
+msgstr "  -z, --zero-terminated     termina linhas com byte 0, e não com nova linha\n"
 
 #: src/join.c:231
 msgid ""
@@ -7643,8 +7646,8 @@ msgstr ""
 "                    expande os CARACTEREs de entrada (TABs) para a LARGURA\n"
 "                    de tabulação (8)\n"
 "  -F, -f, --form-feed\n"
-"                    usa caractere de nova-página (form feed) em vez de um de\n"
-"                    nova-linha para separar páginas (por um cabeçalho de 3\n"
+"                    usa caractere de nova página (form feed) em vez de um de\n"
+"                    nova linha para separar páginas (por um cabeçalho de 3\n"
 "                    linhas com -F ou por cabeçalho e rodapé de 5 linhas sem\n"
 "                    -F)\n"
 
@@ -7768,7 +7771,7 @@ msgid ""
 msgstr ""
 "  -T, --omit-pagination\n"
 "                    omite os cabeçalhos e rodapés das páginas, elimina toda\n"
-"                    paginação por caracteres de nova-página no arquivos de\n"
+"                    paginação por caracteres de nova página no arquivos de\n"
 "                    entrada\n"
 "  -v, --show-nonprinting\n"
 "                    usa octal com barra invertida\n"
@@ -7804,7 +7807,7 @@ msgstr ""
 
 #: src/printenv.c:69
 msgid "  -0, --null     end each output line with NUL, not newline\n"
-msgstr "  -0, --null     termina cada linha de saída com NULO, e não com \"nova-linha\"\n"
+msgstr "  -0, --null     termina cada linha de saída com NULO, e não com nova linha\n"
 
 #: src/printf.c:83
 #, c-format
@@ -8112,7 +8115,7 @@ msgstr ""
 "  -s, --silent                  suprime a maioria das mensagens de erro\n"
 "  -v, --verbose                 relata mensagens de erro\n"
 "  -z, --zero                    termina as linhas de saída com NULO,\n"
-"                                  ao invés de nova-linha\n"
+"                                  ao invés de nova linha\n"
 
 #: src/readlink.c:152
 #, c-format
@@ -8154,7 +8157,7 @@ msgstr ""
 "                                 caminhos sob ARQUIVO\n"
 "  -s, --strip, --no-symlinks   não expande links simbólicos\n"
 "  -z, --zero                   termina as linhas de saída com NULO, e não\n"
-"                                 nova-linha\n"
+"                                 nova linha\n"
 "\n"
 
 #: src/relpath.c:130
@@ -9441,7 +9444,7 @@ msgstr ""
 "      --filter=COMANDO    escrita COMANDO para o shell; nome de arquivo é $FILE\n"
 "  -l, --lines=NÚMERO      coloca NÚMERO linhas/registros por arquivo de saída\n"
 "  -n, --number=PARTES     gera arquivos de saída em PARTES; explicação abaixo\n"
-"  -t, --separator=SEP     usa SEP ao invés de nova-linha como o separador de\n"
+"  -t, --separator=SEP     usa SEP ao invés de nova linha como o separador de\n"
 "                            registro; '\\0' (zero) especifica o caractere NULO\n"
 "  -u, --unbuffered        copia imediatamente entrada para saída com \"-n r/...\"\n"
 
@@ -9740,11 +9743,11 @@ msgid ""
 "  -t, --terse           print the information in terse form\n"
 msgstr ""
 "  -c  --format=FORMATO  usa o FORMATO especificado, em vez do padrão;\n"
-"                          emite uma nova-linha após cada uso do FORMATO\n"
+"                          emite uma nova linha após cada uso do FORMATO\n"
 "      --printf=FORMATO  como --format, mas interpreta escapes de barra\n"
-"                          invertida, e não emite um caractere de nova-linha\n"
+"                          invertida, e não emite um caractere de nova linha\n"
 "                          obrigatório ao final; se desejar um caractere de\n"
-"                          nova-linha, inclua \\n no FORMATO.\n"
+"                          nova linha, inclua \\n no FORMATO.\n"
 "  -t, --terse           emite as informações de forma sucinta\n"
 
 #: src/stat.c:1453
@@ -10189,7 +10192,7 @@ msgstr ""
 "\n"
 "Configurações da entrada:\n"
 "   [-]brkint     \"break\" causa um sinal de interrupção\n"
-"   [-]icrnl      traduz retorno de carro como nova-linha\n"
+"   [-]icrnl      traduz retorno de carro como nova linha\n"
 "   [-]ignbrk     ignora caracteres \"break\"\n"
 "   [-]igncr      ignora retorno de carro\n"
 "   [-]ignpar     ignora caracteres com erros de paridade\n"
@@ -10206,7 +10209,7 @@ msgid ""
 "   [-]inpck      enable input parity checking\n"
 "   [-]istrip     clear high (8th) bit of input characters\n"
 msgstr ""
-"   [-]inlcr      traduz nova-linha por retorno de carro\n"
+"   [-]inlcr      traduz nova linha por retorno de carro\n"
 "   [-]inpck      habilita a verificação de paridade da entrada\n"
 "   [-]istrip     zera o bit mais significativo (8º) dos caracteres de entrada\n"
 
@@ -10258,11 +10261,11 @@ msgstr " * ffN           estilo de atraso de form feed (nova página), N em [0..
 
 #: src/stty.c:741
 msgid " * nlN           newline delay style, N in [0..1]\n"
-msgstr " * nlN           estilo de atraso de nova-linha, N em [0..1]\n"
+msgstr " * nlN           estilo de atraso de nova linha, N em [0..1]\n"
 
 #: src/stty.c:746
 msgid " * [-]ocrnl      translate carriage return to newline\n"
-msgstr " * [-]ocrnl      traduz retorno de carro para nova-linha\n"
+msgstr " * [-]ocrnl      traduz retorno de carro para nova linha\n"
 
 #: src/stty.c:751
 msgid " * [-]ofdel      use delete characters for fill instead of NUL characters\n"
@@ -10278,11 +10281,11 @@ msgstr " * [-]olcuc      traduz caracteres minúsculos para maiúsculos\n"
 
 #: src/stty.c:766
 msgid " * [-]onlcr      translate newline to carriage return-newline\n"
-msgstr " * [-]onlcr      traduz nova-linha para retorno de carro + nova-linha\n"
+msgstr " * [-]onlcr      traduz nova linha para retorno de carro + nova linha\n"
 
 #: src/stty.c:771
 msgid " * [-]onlret     newline performs a carriage return\n"
-msgstr " * [-]onlret     nova-linha provoca um retorno de carro\n"
+msgstr " * [-]onlret     nova linha provoca um retorno de carro\n"
 
 #: src/stty.c:776
 msgid " * [-]onocr      do not print carriage returns in the first column\n"
@@ -10342,7 +10345,7 @@ msgid ""
 "   [-]echok      echo a newline after a kill character\n"
 msgstr ""
 "   [-]echoe      o mesmo que [-]crterase\n"
-"   [-]echok      ecoa uma nova-linha depois de um caractere de \"kill\"\n"
+"   [-]echok      ecoa uma nova linha depois de um caractere de \"kill\"\n"
 
 #: src/stty.c:824
 msgid " * [-]echoke     same as [-]crtkill\n"
@@ -10350,7 +10353,7 @@ msgstr " * [-]echoke     o mesmo que [-]crtkill\n"
 
 #: src/stty.c:828
 msgid "   [-]echonl     echo newline even if not echoing other characters\n"
-msgstr "   [-]echonl     ecoa nova-linha mesmo se não estiver ecoando outros caracteres\n"
+msgstr "   [-]echonl     ecoa nova linha mesmo se não estiver ecoando outros caracteres\n"
 
 #: src/stty.c:832
 msgid " * [-]echoprt    echo erased characters backward, between '\\' and '/'\n"
@@ -10793,7 +10796,7 @@ msgstr ""
 "                             colocar depois\n"
 "  -r,  --regex             interpreta o separador como uma expressão regular\n"
 "  -s,  --separator=TEXTO   usa TEXTO como separador, em vez do caractere de\n"
-"                             \"nova-linha\"\n"
+"                             nova linha\n"
 
 #: src/tac.c:222 src/tac.c:232 src/tac.c:342
 #, c-format
@@ -11440,7 +11443,7 @@ msgid ""
 "                   see 'kill -l' for a list of signals\n"
 msgstr ""
 "      --preserve-status\n"
-"                 sai com o mesmo estado do COMMAND, ainda que o comando\n"
+"                 sai com o mesmo estado de COMANDO, ainda que o comando\n"
 "                   tenha esgotado seu tempo limite\n"
 "      --foreground\n"
 "                 quando não se está executando timeout diretamente de\n"
@@ -11650,14 +11653,14 @@ msgstr ""
 "\n"
 "CONJUNTOs são especificados como cadeias de caracteres. A maioria representa\n"
 "eles mesmos.\n"
-"As sequencias interpretadas são:\n"
+"As sequências interpretadas são:\n"
 "\n"
 "  \\NNN            caractere com valor octal NNN (1 a 3 dígitos em octal)\n"
 "  \\\\              barra invertida\n"
 "  \\a              sino (BEL) audível\n"
 "  \\b              backspace\n"
-"  \\f              nova-página (\"form feed\")\n"
-"  \\n              nova-linha\n"
+"  \\f              nova página (\"form feed\")\n"
+"  \\n              nova linha\n"
 "  \\r              retorno (\"enter\")\n"
 "  \\t              tabulação horizontal\n"
 
@@ -11898,7 +11901,7 @@ msgid ""
 "  -r, --reference=RFILE  base size on RFILE\n"
 "  -s, --size=SIZE        set or adjust the file size by SIZE bytes\n"
 msgstr ""
-"  -r, --reference=ARQR   baseia-se o tamanho em ARQR\n"
+"  -r, --reference=ARQREF baseia-se o tamanho em ARQREF\n"
 "  -s, --size=TAM         define ou ajusta o tamanho do arquivo para TAM bytes\n"
 
 #: src/truncate.c:94
@@ -12292,7 +12295,7 @@ msgid ""
 "an uninterruptible sleep state also contribute to the load average.\n"
 msgstr ""
 "  Processos em\n"
-"um estado de sono ininterrompível também contribuem para a carga média.\n"
+"um estado de sono ininterrupto também contribuem para a carga média.\n"
 
 #: src/uptime.c:214
 #, c-format
@@ -12371,7 +12374,7 @@ msgstr "id="
 
 #: src/who.c:462 src/who.c:467
 msgid "term="
-msgstr "térm="
+msgstr "term="
 
 #: src/who.c:464 src/who.c:468
 msgid "exit="
@@ -12834,8 +12837,8 @@ msgstr ""
 #~ "Configurações de saída:\n"
 #~ " * bsN           estilo do atraso do backspace, N em [0..1]\n"
 #~ " * crN           estilo do atraso do retorno de carro, N em [0..3]\n"
-#~ " * ffN           estilo do atraso do caractere de nova-página, N em [0..1]\n"
-#~ " * nlN           estilo do atraso do caractere de nova-linha, N em [0..1]\n"
+#~ " * ffN           estilo do atraso do caractere de nova página, N em [0..1]\n"
+#~ " * nlN           estilo do atraso do caractere de nova linha, N em [0..1]\n"
 
 #~ msgid ""
 #~ " * [-]ocrnl      translate carriage return to newline\n"
@@ -12845,12 +12848,12 @@ msgstr ""
 #~ " * [-]onlcr      translate newline to carriage return-newline\n"
 #~ " * [-]onlret     newline performs a carriage return\n"
 #~ msgstr ""
-#~ " * [-]ocrnl      traduz retorno de carro para nova-linha\n"
+#~ " * [-]ocrnl      traduz retorno de carro para nova linha\n"
 #~ " * [-]ofdel      usa caracteres de \"delete\" para preencher em vez de nulo\n"
 #~ " * [-]ofill      usa caractere de preenchimento em vez de esperar por atrasos\n"
 #~ " * [-]olcuc      traduz minúsculas para maiúsculas\n"
-#~ " * [-]onlcr      traduz nova-linha para retorno de carro-nova-linha\n"
-#~ " * [-]onlret     nova-linha provoca um retorno de carro\n"
+#~ " * [-]onlcr      traduz nova linha para retorno de carro-nova linha\n"
+#~ " * [-]onlret     nova linha provoca um retorno de carro\n"
 
 #~ msgid ""
 #~ " * [-]onocr      do not print carriage returns in the first column\n"
@@ -12880,7 +12883,7 @@ msgstr ""
 #~ "   [-]echo       ecoa caracteres de entrada\n"
 #~ " * [-]echoctl    o mesmo que [-]ctlecho\n"
 #~ "   [-]echoe      o mesmo que [-]crterase\n"
-#~ "   [-]echok      ecoa uma nova-linha depois de um caractere de \"kill\"\n"
+#~ "   [-]echok      ecoa uma nova linha depois de um caractere de \"kill\"\n"
 
 #, fuzzy
 #~ msgid ""
@@ -12891,7 +12894,7 @@ msgstr ""
 #~ "   [-]iexten     enable non-POSIX special characters\n"
 #~ msgstr ""
 #~ " * [-]echoke     o mesmo que [-]crtkill\n"
-#~ "   [-]echonl     ecoa uma nova-linha mesmo se não estiver ecoando os demais\n"
+#~ "   [-]echonl     ecoa uma nova linha mesmo se não estiver ecoando os demais\n"
 #~ "                   caracteres\n"
 #~ " * [-]echoprt    ecoa os caracteres apagados pra trás entre \"\\\" e \"/\"\n"
 #~ "   [-]icanon     habilita os caracteres especiais de erase (apagar), kill\n"
@@ -13046,7 +13049,7 @@ msgstr ""
 #~ "  -i, --ignore-case     ignora as diferenças entre maiúsculas e minúsculas\n"
 #~ "  -s, --skip-chars=N    evita comparar os N primeiros caracteres\n"
 #~ "  -u, --unique          emite apenas as linhas únicas\n"
-#~ "  -z, --zero-terminated  termina as linhas com o byte 0, e não com nova-linha\n"
+#~ "  -z, --zero-terminated  termina as linhas com o byte 0, e não com nova linha\n"
 
 #~ msgid "%s: cannot find name for user ID %lu\n"
 #~ msgstr "%s: não foi possível encontrar o nome para a ID de usuário %lu\n"
@@ -13406,7 +13409,7 @@ msgstr ""
 #~ "  \\a      alerta (BEL)\n"
 #~ "  \\b      backspace (volta um caractere)\n"
 #~ "  \\c      encerra a saída\n"
-#~ "  \\f      form feed (nova-página)\n"
+#~ "  \\f      form feed (nova página)\n"
 
 #~ msgid ""
 #~ "  \\n      new line\n"
@@ -13414,7 +13417,7 @@ msgstr ""
 #~ "  \\t      horizontal tab\n"
 #~ "  \\v      vertical tab\n"
 #~ msgstr ""
-#~ "  \\n      nova-linha\n"
+#~ "  \\n      nova linha\n"
 #~ "  \\r      retorno de carro\n"
 #~ "  \\t      tabulação horizontal\n"
 #~ "  \\v      tabulação vertical\n"
