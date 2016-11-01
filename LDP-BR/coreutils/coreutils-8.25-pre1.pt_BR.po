@@ -6,6 +6,7 @@
 # Juan Carlos Castro y Castro <jcastro@vialink.com.br>, 2003.
 # Rodolfo Ribeiro Gomes <rodolforg@gmail.com>, 2008, 2010, 2012.
 # Rafael Fontenelle <rffontenelle@gmail.com>, 2016.
+# Fabrício Godoy <skarllot@gmail.com>, 2016.
 #
 #: src/stty.c:955
 msgid ""
@@ -13,8 +14,8 @@ msgstr ""
 "Project-Id-Version: coreutils-8.25-pre1\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2016-01-13 12:48+0000\n"
-"PO-Revision-Date: 2016-10-29 21:11-0200\n"
-"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>\n"
+"PO-Revision-Date: 2016-10-31 23:42-0200\n"
+"Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>\n"
 "Language: pt_BR\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
@@ -90,9 +91,10 @@ msgstr "semáforo"
 msgid "shared memory object"
 msgstr "objeto de memória compartilhada"
 
+#  Ref: POSIX 1003.1 Advanced Real Time
 #: lib/file-type.c:61
 msgid "typed memory object"
-msgstr "objeto de memória tipificada"
+msgstr "objeto de memória com tipo"
 
 #: lib/file-type.c:66
 msgid "block special file"
@@ -110,9 +112,10 @@ msgstr "dados contíguos"
 msgid "fifo"
 msgstr "fifo"
 
+#  Ref: https://en.wikipedia.org/wiki/Doors_(computing)
 #: lib/file-type.c:78
 msgid "door"
-msgstr "porta"
+msgstr "porta (IPC)"
 
 #: lib/file-type.c:81
 msgid "multiplexed block special file"
@@ -150,9 +153,11 @@ msgstr "porta"
 msgid "socket"
 msgstr "socket"
 
+#  Ref: http://www.linuxjournal.com/node/7714/print
+#  Ref: http://www.thefreedictionary.com/whiteout
 #: lib/file-type.c:108
 msgid "whiteout"
-msgstr "whiteout"
+msgstr "corretivo"
 
 #: lib/file-type.c:110
 msgid "weird file"
@@ -160,7 +165,7 @@ msgstr "arquivo estranho"
 
 #: lib/gai_strerror.c:57
 msgid "Address family for hostname not supported"
-msgstr "Não há suporte para família de endereços para nome de máquina"
+msgstr "Não há suporte para família de endereços para esse nome de máquina"
 
 #: lib/gai_strerror.c:58
 msgid "Temporary failure in name resolution"
@@ -192,7 +197,7 @@ msgstr "Nome ou serviço desconhecido"
 
 #: lib/gai_strerror.c:65
 msgid "Servname not supported for ai_socktype"
-msgstr "ai_socktype não oferece suporte a nome de serviço"
+msgstr "ai_socktype não oferece suporte a esse nome de serviço"
 
 #: lib/gai_strerror.c:66
 msgid "ai_socktype not supported"
@@ -228,7 +233,7 @@ msgstr "Interrompido por um sinal"
 
 #: lib/gai_strerror.c:75
 msgid "Parameter string not correctly encoded"
-msgstr "Texto do parâmetro codificado incorretamente"
+msgstr "Texto do parâmetro não está codificado corretamente"
 
 #: lib/gai_strerror.c:87
 msgid "Unknown error"
