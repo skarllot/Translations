@@ -1,18 +1,19 @@
 # Brazilian Portuguese translation of gst-plugins-base.
-# Copyright (C) 2008-2016 Free Software Foundation, Inc.
+# Copyright (C) 2008-2018 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gst-plugins-base package.
-# Fabrício Godoy <skarllot@gmail.com>, 2008-2016.
+# Fabrício Godoy <skarllot@gmail.com>, 2008-2018.
 #
 # PCM -> PCM
 # buffering -> preenchendo buffer
 # sink -> consumidor
+# handler -> controlador
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gst-plugins-base-1.10.0\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2016-11-01 17:42+0200\n"
-"PO-Revision-Date: 2016-05-06 16:47-0300\n"
+"PO-Revision-Date: 2018-10-20 16:32-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
 "net>\n"
@@ -117,23 +118,19 @@ msgstr "Não foi possível determinar o tipo de fluxo"
 
 #: gst/playback/gstdecodebin2.c:2841 gst/playback/gstparsebin.c:2378
 msgid "This appears to be a text file"
-msgstr "Este parece ser um arquivo de texto"
+msgstr "Este arquivo parece ser de texto"
 
 #: gst/playback/gstplaybin2.c:5446
 msgid "Could not create \"uridecodebin\" element."
 msgstr "Não foi possível criar o elemento \"uridecodebin\"."
 
 #: gst/playback/gstplaybin3.c:4618
-#, fuzzy
-#| msgid "Could not create \"decodebin2\" element."
 msgid "Could not create \"decodebin3\" element."
-msgstr "Não foi possível criar o elemento \"decodebin2\"."
+msgstr "Não foi possível criar o elemento \"decodebin3\"."
 
 #: gst/playback/gstplaybin3.c:4864
-#, fuzzy
-#| msgid "Could not create \"uridecodebin\" element."
 msgid "Could not create \"urisourcebin\" element."
-msgstr "Não foi possível criar o elemento \"uridecodebin\"."
+msgstr "Não foi possível criar o elemento \"urisourcebin\"."
 
 #: gst/playback/gstplaysink.c:1961
 #, c-format
@@ -173,7 +170,7 @@ msgstr "Os elementos autoaudiosink e %s estão faltando."
 
 #: gst/playback/gstplaysink.c:2891
 msgid "The autoaudiosink element is missing."
-msgstr "O elemento autoaudiosink não está faltando."
+msgstr "O elemento autoaudiosink está faltando."
 
 #: gst/playback/gstplaysink.c:2896
 #, c-format
@@ -215,7 +212,7 @@ msgstr "Este tipo de fluxo ainda não pode ser reproduzido."
 #: gst/playback/gsturidecodebin.c:1426 gst/playback/gsturisourcebin.c:1545
 #, c-format
 msgid "No URI handler implemented for \"%s\"."
-msgstr "Nenhum manipulador para o URI \"%s\" foi implementado."
+msgstr "Nenhum controlador para o URI \"%s\" foi implementado."
 
 #: gst/playback/gsturidecodebin.c:2292 gst/playback/gsturisourcebin.c:2200
 msgid "Source element is invalid."
@@ -313,10 +310,8 @@ msgid "Kate subtitle format"
 msgstr "Formato de legendas Kate"
 
 #: gst-libs/gst/pbutils/descriptions.c:290
-#, fuzzy
-#| msgid "Kate subtitle format"
 msgid "WebVTT subtitle format"
-msgstr "Formato de legendas Kate"
+msgstr "Formato de legendas WebVTT"
 
 #: gst-libs/gst/pbutils/descriptions.c:453
 #: gst-libs/gst/pbutils/descriptions.c:456
@@ -365,7 +360,7 @@ msgstr "Áudio sem compressão"
 #: gst-libs/gst/pbutils/descriptions.c:837
 #, c-format
 msgid "Raw %d-bit %s audio"
-msgstr "Áudio Raw de %d bits %s"
+msgstr "Áudio bruto de %d bits %s"
 
 #: gst-libs/gst/pbutils/descriptions.c:937
 msgid "Audio CD source"
@@ -445,7 +440,7 @@ msgstr "Elemento \"%s\" do GStreamer"
 
 #: gst-libs/gst/pbutils/missing-plugins.c:566
 msgid "Unknown source element"
-msgstr "Elemento de origem desconhecida"
+msgstr "Elemento de origem desconhecido"
 
 #: gst-libs/gst/pbutils/missing-plugins.c:569
 msgid "Unknown sink element"
@@ -536,17 +531,15 @@ msgid "Focal length of the lens used capturing the image, in mm"
 msgstr "Distância focal das lentes utilizada ao capturar a imagem, em mm"
 
 #: gst-libs/gst/tag/tags.c:123
-#, fuzzy
-#| msgid "capturing focal length"
 msgid "capturing 35 mm equivalent focal length"
-msgstr "distância focal ao capturar"
+msgstr "distância focal equivalente à captura de 35 mm"
 
 #: gst-libs/gst/tag/tags.c:124
-#, fuzzy
-#| msgid "Focal length of the lens used capturing the image, in mm"
 msgid ""
 "35 mm equivalent focal length of the lens used capturing the image, in mm"
-msgstr "Distância focal das lentes utilizada ao capturar a imagem, em mm"
+msgstr ""
+"Distância focal das lentes equivalente a 35 mm utilizada ao capturar a "
+"imagem, em mm"
 
 #: gst-libs/gst/tag/tags.c:128
 msgid "capturing digital zoom ratio"
@@ -668,29 +661,29 @@ msgstr ""
 
 #: gst-libs/gst/tag/tags.c:188
 msgid "capturing source"
-msgstr "fonte ao capturar"
+msgstr "origem ao capturar"
 
 #: gst-libs/gst/tag/tags.c:189
 msgid "The source or type of device used for the capture"
-msgstr "A fonte ou tipo de dispositivo utilizado para a captura"
+msgstr "A origem ou tipo de dispositivo utilizado para a captura"
 
 #: gst-libs/gst/tag/tags.c:192
 msgid "image horizontal ppi"
-msgstr "PPI horizontal da imagem"
+msgstr "PPP horizontal da imagem"
 
 #: gst-libs/gst/tag/tags.c:193
 msgid "Media (image/video) intended horizontal pixel density in ppi"
 msgstr ""
-"Densidade de pixels horizontais desejado para a mídia (imagem/vídeo), em PPI"
+"Densidade de pixels horizontais desejada para a mídia (imagem/vídeo), em PPP"
 
 #: gst-libs/gst/tag/tags.c:196
 msgid "image vertical ppi"
-msgstr "PPI vertical da imagem"
+msgstr "PPP vertical da imagem"
 
 #: gst-libs/gst/tag/tags.c:197
 msgid "Media (image/video) intended vertical pixel density in ppi"
 msgstr ""
-"Densidade de pixels verticais desejado para a mídia (imagem/vídeo), em PPI"
+"Densidade de pixels verticais desejada para a mídia (imagem/vídeo), em PPP"
 
 #: gst-libs/gst/tag/tags.c:200
 msgid "ID3v2 frame"
@@ -812,15 +805,15 @@ msgstr "diminuir volume"
 
 #: tools/gst-play.c:1018
 msgid "increase playback rate"
-msgstr "aumentar taxa de reprodução"
+msgstr "aumentar a taxa de reprodução"
 
 #: tools/gst-play.c:1019
 msgid "decrease playback rate"
-msgstr "diminuir taxa de reprodução"
+msgstr "diminuir a taxa de reprodução"
 
 #: tools/gst-play.c:1020
 msgid "change playback direction"
-msgstr "alterar direção de reprodução"
+msgstr "alterar a direção de reprodução"
 
 #: tools/gst-play.c:1021
 msgid "enable/disable trick modes"
