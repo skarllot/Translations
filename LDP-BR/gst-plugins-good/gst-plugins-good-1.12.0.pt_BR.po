@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: gst-plugins-good-1.12.0\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2017-05-04 15:05+0300\n"
-"PO-Revision-Date: 2018-10-20 17:03-0300\n"
+"PO-Revision-Date: 2018-10-20 17:12-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
 "net>\n"
@@ -340,17 +340,13 @@ msgid "Video device returned invalid dimensions."
 msgstr "O dispositivo de vídeo retornou dimensões inválidas."
 
 #: sys/v4l2/gstv4l2object.c:3786
-#, fuzzy
-#| msgid "Video devices uses an unsupported interlacing method."
 msgid "Video device uses an unsupported interlacing method."
 msgstr ""
-"Os dispositivos de vídeo utilizam um método de entrelaçamento não suportado."
+"O dispositivo de vídeo utiliza um método de entrelaçamento não suportado."
 
 #: sys/v4l2/gstv4l2object.c:3793
-#, fuzzy
-#| msgid "Video devices uses an unsupported pixel format."
 msgid "Video device uses an unsupported pixel format."
-msgstr "Os dispositivos de vídeo utilizam um formato para pixel não suportado."
+msgstr "O dispositivo de vídeo utiliza um formato para pixel não suportado."
 
 #: sys/v4l2/gstv4l2object.c:4219
 msgid "Failed to configure internal buffer pool."
