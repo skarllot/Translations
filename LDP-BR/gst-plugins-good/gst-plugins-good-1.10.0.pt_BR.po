@@ -1,7 +1,7 @@
 # Brazilian Portuguese translation of gst-plugins-good.
 # This file is distributed under the same license as the gst-plugins-good package.
 # Copyright (C) 2008-2018 Free Software Foundation, Inc.
-# Fabrício Godoy <skarllot@gmail.com>, 2008-2016.
+# Fabrício Godoy <skarllot@gmail.com>, 2008-2018.
 #
 # data flow -> fluxo de dados
 # streaming -> fluxo contínuo
@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: gst-plugins-good-1.10.0\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2016-11-01 17:46+0200\n"
-"PO-Revision-Date: 2016-05-06 17:49-0300\n"
+"PO-Revision-Date: 2018-10-20 17:03-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
 "net>\n"
