@@ -15,10 +15,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gstreamer-1.7.90\n"
+"Project-Id-Version: gstreamer-1.15.1\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2019-01-17 01:38+0000\n"
-"PO-Revision-Date: 2019-12-23 19:19-0300\n"
+"PO-Revision-Date: 2019-12-23 19:54-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
 "net>\n"
@@ -1212,6 +1212,7 @@ msgstr "não é permitido que a fila de processamento seja vazia"
 #: libs/gst/base/gstbasesink.c:1210
 msgid "Pipeline construction is invalid, please add queues."
 msgstr ""
+"A construção da fila de processamento está inválida, favor acrescentar filas."
 
 #: libs/gst/base/gstbasesink.c:3004
 msgid "A lot of buffers are being dropped."
@@ -1323,7 +1324,7 @@ msgstr "Falha após as interações requeridas."
 
 #: plugins/elements/gstidentity.c:903
 msgid "eos-after and error-after can't both be defined."
-msgstr ""
+msgstr "Não é permitido definir eos-after e error-after ao mesmo tempo."
 
 #: plugins/elements/gsttypefindelement.c:251
 msgid "caps"
@@ -1355,10 +1356,9 @@ msgid "Stream contains no data."
 msgstr "O fluxo não contém dados."
 
 #: tools/gst-inspect.c:280
-#, fuzzy, c-format
-#| msgid "Implemented Interfaces:\n"
+#, c-format
 msgid "%sImplemented Interfaces%s:\n"
-msgstr "Interfaces implementadas:\n"
+msgstr "%sInterfaces implementadas%s:\n"
 
 #: tools/gst-inspect.c:390
 msgid "readable"
@@ -1393,10 +1393,9 @@ msgid "Blacklisted files:"
 msgstr "Arquivos colocados na lista negra:"
 
 #: tools/gst-inspect.c:1131 tools/gst-inspect.c:1264
-#, fuzzy, c-format
-#| msgid "Total count: "
+#, c-format
 msgid "%sTotal count%s: %s"
-msgstr "Contagem total: "
+msgstr "%sContagem total%s: %s"
 
 #: tools/gst-inspect.c:1133
 #, c-format
@@ -1427,27 +1426,24 @@ msgstr[0] "%d recurso"
 msgstr[1] "%d recursos"
 
 #: tools/gst-inspect.c:1875
-#, fuzzy, c-format
-#| msgid "Error closing file \"%s\"."
+#, c-format
 msgid "Error creating pipe: %s\n"
-msgstr "Erro ao fechar o arquivo \"%s\"."
+msgstr "Erro ao criar o pipe: %s\n"
 
 #: tools/gst-inspect.c:1881
-#, fuzzy, c-format
-#| msgid "Error closing file \"%s\"."
+#, c-format
 msgid "Error forking: %s\n"
-msgstr "Erro ao fechar o arquivo \"%s\"."
+msgstr "Erro ao dividir processo: %s\n"
 
 #: tools/gst-inspect.c:1917
 #, c-format
 msgid "Error reading from console: %s\n"
-msgstr ""
+msgstr "Erro ao ler do console: %s\n"
 
 #: tools/gst-inspect.c:1927
-#, fuzzy, c-format
-#| msgid "Error while writing to file \"%s\"."
+#, c-format
 msgid "Error writing to console: %s\n"
-msgstr "Erro ao escrever no arquivo \"%s\"."
+msgstr "Erro ao escrever no console: %s\n"
 
 #: tools/gst-inspect.c:1963
 msgid "Print all elements"
@@ -1502,6 +1498,8 @@ msgid ""
 "Disable colors in output. You can also achieve the same by "
 "setting'GST_INSPECT_NO_COLORS' environment variable to any value."
 msgstr ""
+"Desabilita saída colorida. Você consegue o mesmo resultado definindo a "
+"variável de ambiente \"GST_INSPECT_NO_COLORS\" para qualquer valor."
 
 #: tools/gst-inspect.c:2146
 #, c-format
