@@ -6,9 +6,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gst-plugins-ugly-1.10.0\n"
+"Project-Id-Version: gst-plugins-ugly-1.15.1\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
-"POT-Creation-Date: 2016-11-01 17:53+0200\n"
+"POT-Creation-Date: 2019-01-17 02:02+0000\n"
 "PO-Revision-Date: 2019-12-24 19:18-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
@@ -35,8 +35,8 @@ msgstr "O disco não é um CD de áudio."
 msgid "Could not open DVD"
 msgstr "Não foi possível abrir o DVD"
 
-#: ext/dvdread/dvdreadsrc.c:245 ext/dvdread/dvdreadsrc.c:621
-#: ext/dvdread/dvdreadsrc.c:628
+#: ext/dvdread/dvdreadsrc.c:245 ext/dvdread/dvdreadsrc.c:622
+#: ext/dvdread/dvdreadsrc.c:629
 #, c-format
 msgid "Could not open DVD title %d"
 msgstr "Não foi possível abrir o título %d do DVD"
@@ -46,7 +46,7 @@ msgstr "Não foi possível abrir o título %d do DVD"
 msgid "Failed to go to chapter %d of DVD title %d"
 msgstr "Falha ao avançar para o capítulo %d do título %d do DVD"
 
-#: ext/dvdread/dvdreadsrc.c:635
+#: ext/dvdread/dvdreadsrc.c:636
 #, c-format
 msgid ""
 "Could not open DVD title %d. Interactive titles are not supported by this "
@@ -55,7 +55,7 @@ msgstr ""
 "Não foi possível abrir o título %d do DVD. Não há suporte a títulos "
 "interativos por este elemento"
 
-#: ext/dvdread/dvdreadsrc.c:990
+#: ext/dvdread/dvdreadsrc.c:991
 msgid ""
 "Could not read DVD. This may be because the DVD is encrypted and a DVD "
 "decryption library is not installed."
@@ -63,35 +63,33 @@ msgstr ""
 "Não foi possível ler o DVD. O motivo pode ser que o DVD está criptografado e "
 "uma biblioteca de descriptografia de DVD não está instalada."
 
-#: ext/dvdread/dvdreadsrc.c:993
+#: ext/dvdread/dvdreadsrc.c:994
 msgid "Could not read DVD."
 msgstr "Não foi possível ler o DVD."
 
-#: ext/lame/gstlamemp3enc.c:395
-msgid ""
-"Failed to configure LAME mp3 audio encoder. Check your encoding parameters."
-msgstr ""
-"Falha ao configurar o codificador de áudio MP3 LAME. Verifique seus "
-"parâmetros de codificação."
-
-#: ext/lame/gstlamemp3enc.c:427 ext/twolame/gsttwolamemp2enc.c:488
-#, c-format
-msgid ""
-"The requested bitrate %d kbit/s for property '%s' is not allowed. The "
-"bitrate was changed to %d kbit/s."
-msgstr ""
-"A taxa de bits, %d kbits/s, requisitada pela propriedade \"%s\" não é "
-"permitida. A taxa de bits foi alterada para %d kbits/s."
-
-#: ext/twolame/gsttwolamemp2enc.c:411
-msgid "Failed to configure TwoLAME encoder. Check your encoding parameters."
-msgstr ""
-"Falha ao configurar o codificador TwoLAME. Verifique seus parâmetros de "
-"codificação."
-
-#: gst/asfdemux/gstasfdemux.c:446
+#: gst/asfdemux/gstasfdemux.c:446 gst/asfdemux/gstasfdemux.c:454
 msgid "This stream contains no data."
 msgstr "Este fluxo não contém dados."
+
+#~ msgid ""
+#~ "Failed to configure LAME mp3 audio encoder. Check your encoding "
+#~ "parameters."
+#~ msgstr ""
+#~ "Falha ao configurar o codificador de áudio MP3 LAME. Verifique seus "
+#~ "parâmetros de codificação."
+
+#, c-format
+#~ msgid ""
+#~ "The requested bitrate %d kbit/s for property '%s' is not allowed. The "
+#~ "bitrate was changed to %d kbit/s."
+#~ msgstr ""
+#~ "A taxa de bits, %d kbits/s, requisitada pela propriedade \"%s\" não é "
+#~ "permitida. A taxa de bits foi alterada para %d kbits/s."
+
+#~ msgid "Failed to configure TwoLAME encoder. Check your encoding parameters."
+#~ msgstr ""
+#~ "Falha ao configurar o codificador TwoLAME. Verifique seus parâmetros de "
+#~ "codificação."
 
 #~ msgid "Internal data stream error."
 #~ msgstr "Erro interno no fluxo de dados."
