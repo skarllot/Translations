@@ -1,7 +1,7 @@
 # Brazilian Portuguese translation of gst-plugins-good.
 # This file is distributed under the same license as the gst-plugins-good package.
-# Copyright (C) 2008-2018 Free Software Foundation, Inc.
-# Fabrício Godoy <skarllot@gmail.com>, 2008-2018.
+# Copyright (C) 2008-2019 Free Software Foundation, Inc.
+# Fabrício Godoy <skarllot@gmail.com>, 2008-2019.
 #
 # data flow -> fluxo de dados
 # streaming -> fluxo contínuo
@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: gst-plugins-good-1.15.1\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2019-01-17 01:59+0000\n"
-"PO-Revision-Date: 2018-10-20 17:12-0300\n"
+"PO-Revision-Date: 2019-12-24 16:34-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
 "net>\n"
@@ -39,6 +39,7 @@ msgstr "Falha ao decodificar a imagem JPEG"
 msgid ""
 "Failed to configure LAME mp3 audio encoder. Check your encoding parameters."
 msgstr ""
+"Falha ao configurar o codificador de áudio MP3 LAME. Verifique os parâmetros de codificação."
 
 #: ext/lame/gstlamemp3enc.c:425 ext/twolame/gsttwolamemp2enc.c:488
 #, c-format
@@ -46,6 +47,7 @@ msgid ""
 "The requested bitrate %d kbit/s for property '%s' is not allowed. The "
 "bitrate was changed to %d kbit/s."
 msgstr ""
+"A taxa de bits solicitada de %d kbit/s para a propriedade \"%s\" não é permitida. A taxa de bits foi alterada para %d kbit/s."
 
 #. TRANSLATORS: 'song title' by 'artist name'
 #: ext/pulse/pulsesink.c:3127
@@ -89,7 +91,7 @@ msgstr "Nâo há suporte a busca pelo servidor."
 
 #: ext/twolame/gsttwolamemp2enc.c:411
 msgid "Failed to configure TwoLAME encoder. Check your encoding parameters."
-msgstr ""
+msgstr "Falha ao configurar o codificador TwoLAME. Verifique os parâmetros de codificação."
 
 #: gst/avi/gstavimux.c:1832
 msgid "No or invalid input audio, AVI stream will be corrupt."
@@ -241,16 +243,15 @@ msgstr ""
 "E/S."
 
 #: sys/v4l2/gstv4l2object.c:3741 sys/v4l2/gstv4l2object.c:3765
-#, fuzzy, c-format
-#| msgid "Encoder on device %s has no supported input format"
+#, c-format
 msgid "Device '%s' has no supported format"
 msgstr ""
-"O codificador no dispositivo %s não tem um formato de entrada com suporte"
+"O dispositivo \"%s\" tem um formato sem suporte"
 
 #: sys/v4l2/gstv4l2object.c:3747 sys/v4l2/gstv4l2object.c:3771
 #, c-format
 msgid "Device '%s' failed during initialization"
-msgstr ""
+msgstr "O dispositivo \"%s\" falhou durante a inicialização"
 
 #: sys/v4l2/gstv4l2object.c:3759
 #, c-format
@@ -274,16 +275,14 @@ msgstr ""
 "O dispositivo \"%s\" não tem suporte a planos de sobreposição não-contínuos"
 
 #: sys/v4l2/gstv4l2object.c:3817
-#, fuzzy, c-format
-#| msgid "Device '%s' does not support video capture"
+#, c-format
 msgid "Device '%s' does not support %s interlacing"
-msgstr "O dispositivo \"%s\" não tem suporte a captura de vídeo"
+msgstr "O dispositivo \"%s\" não tem suporte a entrelaçamento %s"
 
 #: sys/v4l2/gstv4l2object.c:3831
-#, fuzzy, c-format
-#| msgid "Device '%s' does not support video capture"
+#, c-format
 msgid "Device '%s' does not support %s colorimetry"
-msgstr "O dispositivo \"%s\" não tem suporte a captura de vídeo"
+msgstr "O dispositivo \"%s\" não tem suporte a colorimetria %s"
 
 #: sys/v4l2/gstv4l2object.c:3843
 #, c-format
@@ -374,18 +373,16 @@ msgid "Converter on device %s has no supported output format"
 msgstr "O conversor no dispositivo %s não tem um formato de saída com suporte"
 
 #: sys/v4l2/gstv4l2videodec.c:136
-#, fuzzy, c-format
-#| msgid "Encoder on device %s has no supported input format"
+#, c-format
 msgid "Decoder on device %s has no supported input format"
 msgstr ""
-"O codificador no dispositivo %s não tem um formato de entrada com suporte"
+"O decodificador no dispositivo %s não tem um formato de entrada com suporte"
 
 #: sys/v4l2/gstv4l2videodec.c:281
-#, fuzzy, c-format
-#| msgid "Encoder on device %s has no supported output format"
+#, c-format
 msgid "Decoder on device %s has no supported output format"
 msgstr ""
-"O codificador no dispositivo %s não tem um formato de saída com suporte"
+"O decodificador no dispositivo %s não tem um formato de saída com suporte"
 
 #: sys/v4l2/gstv4l2videodec.c:770
 msgid "Failed to start decoding thread."
@@ -408,10 +405,8 @@ msgstr ""
 "O codificador no dispositivo %s não tem um formato de entrada com suporte"
 
 #: sys/v4l2/gstv4l2videoenc.c:795
-#, fuzzy
-#| msgid "Failed to start decoding thread."
 msgid "Failed to start encoding thread."
-msgstr "Falha ao iniciar o segmento de decodificação."
+msgstr "Falha ao iniciar o segmento de codificação."
 
 #: sys/v4l2/v4l2_calls.c:92
 #, c-format
