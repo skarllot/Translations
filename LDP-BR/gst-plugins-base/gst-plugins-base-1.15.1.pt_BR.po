@@ -1,7 +1,7 @@
 # Brazilian Portuguese translation of gst-plugins-base.
-# Copyright (C) 2008-2018 Free Software Foundation, Inc.
+# Copyright (C) 2008-2019 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gst-plugins-base package.
-# Fabrício Godoy <skarllot@gmail.com>, 2008-2018.
+# Fabrício Godoy <skarllot@gmail.com>, 2008-2019.
 #
 # PCM -> PCM
 # buffering -> preenchendo buffer
@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: gst-plugins-base-1.15.1\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2019-01-17 01:50+0000\n"
-"PO-Revision-Date: 2018-10-20 16:32-0300\n"
+"PO-Revision-Date: 2019-12-24 12:54-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
 "net>\n"
@@ -97,15 +97,15 @@ msgstr "Não foi possível ler o CD."
 
 #: ext/gl/gstgltestsrc.c:491
 msgid "failed to draw pattern"
-msgstr ""
+msgstr "falha ao desenhar padrão"
 
 #: ext/gl/gstgltestsrc.c:492
 msgid "A GL error occurred"
-msgstr ""
+msgstr "Um erro ocorreu com o GL"
 
 #: ext/gl/gstgltestsrc.c:498
 msgid "format wasn't negotiated before get function"
-msgstr ""
+msgstr "o formato não foi negociado antes da função get"
 
 #: gst/encoding/gstencodebin.c:1636 gst/playback/gstplaybin2.c:3399
 #: gst/playback/gstplaysink.c:1522 gst/playback/gstplaysink.c:1535
@@ -137,10 +137,8 @@ msgid "Could not create \"uridecodebin\" element."
 msgstr "Não foi possível criar o elemento \"uridecodebin\"."
 
 #: gst/playback/gstplaybin3.c:4558
-#, fuzzy
-#| msgid "Could not create \"uridecodebin\" element."
 msgid "Could not create \"uridecodebin3\" element."
-msgstr "Não foi possível criar o elemento \"uridecodebin\"."
+msgstr "Não foi possível criar o elemento \"uridecodebin3\"."
 
 #: gst/playback/gstplaysink.c:2003
 #, c-format
@@ -317,11 +315,11 @@ msgstr "Formato de legendas TMPlayer"
 
 #: gst-libs/gst/pbutils/descriptions.c:286
 msgid "CEA 608 Closed Caption"
-msgstr ""
+msgstr "Closed Caption CEA 608"
 
 #: gst-libs/gst/pbutils/descriptions.c:287
 msgid "CEA 708 Closed Caption"
-msgstr ""
+msgstr "Closed Caption CEA 708"
 
 #: gst-libs/gst/pbutils/descriptions.c:288
 msgid "Kate subtitle format"
@@ -915,11 +913,13 @@ msgstr "Não exibir nenhuma saída (além dos erros)"
 
 #: tools/gst-play.c:1461
 msgid "Use playbin3 pipeline"
-msgstr ""
+msgstr "Utiliza a fila de processamento playbin3"
 
 #: tools/gst-play.c:1462
 msgid "(default varies depending on 'USE_PLAYBIN' env variable)"
 msgstr ""
+"(valor predefinido varia de acordo com a variável de ambiente \"USE_PLAYBIN"
+"\")"
 
 #: tools/gst-play.c:1536
 #, c-format
