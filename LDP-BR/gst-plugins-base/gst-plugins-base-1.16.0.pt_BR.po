@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: gst-plugins-base-1.16.0\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2019-04-19 00:20+0100\n"
-"PO-Revision-Date: 2019-12-24 12:54-0300\n"
+"PO-Revision-Date: 2019-12-24 13:55-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
 "net>\n"
@@ -926,6 +926,8 @@ msgid ""
 "Keep showing the last frame on EOS until quit or playlist change command "
 "(gapless is ignored)"
 msgstr ""
+"Continua exibindo o último quadro ao final do fluxo até sair ou ocorrer "
+"alteração da lista de reprodução (reprodução sem intervalos é ignorada)"
 
 #: tools/gst-play.c:1546
 #, c-format
