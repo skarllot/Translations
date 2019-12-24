@@ -1,15 +1,15 @@
 # Brazilian Portuguese translation of libgphoto2.
-# Copyright (C) 2002-2016 Free Software Foundation, Inc.
+# Copyright (C) 2002-2019 Free Software Foundation, Inc.
 # This file is distributed under the same license as the libgphoto2 package.
 # Evandro Gardenali <evandro@fasternet.com.br>, 2002.
-# Fabrício Godoy <skarllot@gmail.com>, 2010, 2016.
+# Fabrício Godoy <skarllot@gmail.com>, 2010, 2016, 2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: libgphoto2_port 2.5.23\n"
 "Report-Msgid-Bugs-To: gphoto-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2019-05-04 15:58+0200\n"
-"PO-Revision-Date: 2016-05-06 18:36-0300\n"
+"PO-Revision-Date: 2019-12-24 20:20-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
 "net>\n"
