@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: gst-plugins-good-1.12.0\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
-"POT-Creation-Date: 2017-05-04 15:05+0300\n"
-"PO-Revision-Date: 2018-10-20 17:12-0300\n"
+"Project-Id-Version: gst-plugins-good-1.19.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-23 01:33+0100\n"
+"PO-Revision-Date: 2021-09-26 11:49-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge.net>"
 "\n"
@@ -12,29 +12,51 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Translate Toolkit 2.3.0\n"
+"X-Generator: Poedit 3.0\n"
 
 # (pofilter) simplecaps: Different capitalization
-#: ext/jack/gstjackaudiosink.c:356 ext/jack/gstjackaudiosrc.c:364
+# (pofilter) spellcheck: Check the spelling of: Jack
 msgid "Jack server not found"
 msgstr "Servidor Jack não encontrado"
 
-# (pofilter) doublequoting: Different quotation marks
-# (pofilter) singlequoting: Different quotation marks
+# (pofilter) spellcheck: Check the spelling of: LAME
+msgid ""
+"Failed to configure LAME mp3 audio encoder. Check your encoding parameters."
+msgstr ""
+"Falha ao configurar o codificador de áudio MP3 LAME. Verifique os parâmetros "
+"de codificação."
+
 # (pofilter) startpunc: Different punctuation at the start
 #. TRANSLATORS: 'song title' by 'artist name'
-#: ext/pulse/pulsesink.c:3126
 #, c-format
 msgid "'%s' by '%s'"
 msgstr "\"%s\" por \"%s\""
 
 # (pofilter) simplecaps: Different capitalization
-#: gst/isomp4/qtdemux.c:4278
+# (pofilter) spellcheck: Check the spelling of: Atom
 msgid "Invalid atom size."
 msgstr "Tamanho de Atom inválido."
 
+# (pofilter) spellcheck: Check the spelling of: plug
+msgid ""
+"No supported stream was found. You might need to install a GStreamer RTSP "
+"extension plugin for Real media streams."
+msgstr ""
+"Nenhum fluxo com suporte foi localizado. Você pode precisar instalar um plug-"
+"in de extensão GStreamer RTSP para fluxos Real media."
+
+# (pofilter) spellcheck: Check the spelling of: plug
+msgid ""
+"No supported stream was found. You might need to allow more transport "
+"protocols or may otherwise be missing the right GStreamer RTSP extension "
+"plugin."
+msgstr ""
+"Nenhum fluxo com suporte foi localizado. Talvez haja necessidade de que mais "
+"protocolos de transporte sejam permitidos ou senão o plug-in de extensão "
+"GStreamer RTSP pode estar incorreto."
+
 # (pofilter) brackets: Added '(', ')'
-#: sys/oss4/oss4-sink.c:523 sys/oss4/oss4-source.c:389
+# (pofilter) spellcheck: Check the spelling of: OSS
 msgid ""
 "Could not open audio device for playback. This version of the Open Sound "
 "System is not supported by this element."
@@ -42,161 +64,42 @@ msgstr ""
 "Não foi possível abrir o dispositivo de áudio para reprodução. Não há "
 "suporte a este elemento nesta versão do Sistema Aberto de Som (OSS)."
 
-# (pofilter) acronyms: Consider not translating acronyms: AUX
-# (pofilter) simplecaps: Different capitalization
-#: sys/sunaudio/gstsunaudiomixeroptions.c:124
-msgid "AUX 1 In"
-msgstr "Entrada aux. 1"
+# (pofilter) spellcheck: Check the spelling of: Raspberry
+msgid "Raspberry Pi Camera Module"
+msgstr "Módulo de câmera Raspberry Pi"
 
-# (pofilter) acronyms: Consider not translating acronyms: AUX
-# (pofilter) simplecaps: Different capitalization
-#: sys/sunaudio/gstsunaudiomixeroptions.c:125
-msgid "AUX 2 In"
-msgstr "Entrada aux. 2"
-
-# (pofilter) unchanged: Consider translating
-#: sys/sunaudio/gstsunaudiomixeroptions.c:126
-msgid "Codec Loopback"
-msgstr "CODEC Loopback"
-
-# (pofilter) unchanged: Consider translating
-#: sys/sunaudio/gstsunaudiomixeroptions.c:127
-msgid "SunVTS Loopback"
-msgstr "SunVTS Loopback"
-
-# (pofilter) unchanged: Consider translating
-#: sys/sunaudio/gstsunaudiomixertrack.c:69
-msgid "Volume"
-msgstr "Volume"
-
-# (pofilter) acronyms: Consider not translating acronyms: AUX
-# (pofilter) simplecaps: Different capitalization
-#: sys/sunaudio/gstsunaudiomixertrack.c:76
-msgid "AUX 1 Out"
-msgstr "Saída aux. 1"
-
-# (pofilter) acronyms: Consider not translating acronyms: AUX
-# (pofilter) simplecaps: Different capitalization
-#: sys/sunaudio/gstsunaudiomixertrack.c:77
-msgid "AUX 2 Out"
-msgstr "Saída aux. 2"
-
-# (pofilter) doublequoting: Different quotation marks
-# (pofilter) singlequoting: Different quotation marks
-#: sys/v4l2/gstv4l2bufferpool.c:1684
-#, c-format
-msgid "Error reading %d bytes from device '%s'."
-msgstr "Erro ao ler %d bytes do dispositivo \"%s\"."
-
-# (pofilter) doublequoting: Different quotation marks
-# (pofilter) singlequoting: Different quotation marks
-#: sys/v4l2/gstv4l2object.c:1168
-#, c-format
-msgid "Failed to enumerate possible video formats device '%s' can work with"
-msgstr ""
-"Falha ao relacionar os formatos de vídeo que o dispositivo \"%s\" oferece "
-"suporte"
-
-# (pofilter) doublequoting: Different quotation marks
-# (pofilter) singlequoting: Different quotation marks
-#: sys/v4l2/gstv4l2object.c:2889
+# (pofilter) spellcheck: Check the spelling of: buffers
 #, c-format
 msgid "Could not map buffers from device '%s'"
 msgstr "Não foi possível mapear buffers do dispositivo \"%s\""
 
 # (pofilter) acronyms: Consider not translating acronyms: IO
-# (pofilter) doublequoting: Different quotation marks
-# (pofilter) singlequoting: Different quotation marks
-#: sys/v4l2/gstv4l2object.c:2897
+# (pofilter) spellcheck: Check the spelling of: driver
 #, c-format
 msgid "The driver of device '%s' does not support the IO method %d"
 msgstr "O driver do dispositivo \"%s\" não tem suporte ao método %d de E/S"
 
 # (pofilter) acronyms: Consider not translating acronyms: IO
-# (pofilter) doublequoting: Different quotation marks
-# (pofilter) singlequoting: Different quotation marks
-#: sys/v4l2/gstv4l2object.c:2904
+# (pofilter) spellcheck: Check the spelling of: driver
 #, c-format
 msgid "The driver of device '%s' does not support any known IO method."
 msgstr ""
 "O driver do dispositivo \"%s\" não tem suporte a nenhum método conhecido de "
 "E/S."
 
-# (pofilter) doublequoting: Different quotation marks
-# (pofilter) singlequoting: Different quotation marks
-#: sys/v4l2/gstv4l2object.c:3578 sys/v4l2/gstv4l2object.c:3589
-#, c-format
-msgid "Device '%s' is busy"
-msgstr "O dispositivo \"%s\" está ocupado"
+# (pofilter) spellcheck: Check the spelling of: Caps
+msgid "Invalid caps"
+msgstr "Caps inválido"
 
-# (pofilter) doublequoting: Different quotation marks
-# (pofilter) singlequoting: Different quotation marks
-#: sys/v4l2/gstv4l2object.c:3595 sys/v4l2/gstv4l2object.c:3607
-#, c-format
-msgid "Device '%s' cannot capture at %dx%d"
-msgstr "O dispositivo \"%s\" não realiza captura a %dx%d"
+# (pofilter) spellcheck: Check the spelling of: buffer
+msgid "Failed to configure internal buffer pool."
+msgstr "Falha ao configurar uma coleção interna de buffer."
 
-# (pofilter) doublequoting: Different quotation marks
-# (pofilter) singlequoting: Different quotation marks
-#: sys/v4l2/gstv4l2object.c:3618
-#, c-format
-msgid "Device '%s' cannot capture in the specified format"
-msgstr "O dispositivo \"%s\" não realiza captura no formato especificado"
+# (pofilter) spellcheck: Check the spelling of: buffer
+msgid "Video device did not suggest any buffer size."
+msgstr "O dispositivo de vídeo não sugeriu nenhum tamanho de buffer."
 
-# (pofilter) doublequoting: Different quotation marks
-# (pofilter) singlequoting: Different quotation marks
-#: sys/v4l2/gstv4l2object.c:3631
-#, c-format
-msgid "Device '%s' does support non-contiguous planes"
-msgstr ""
-"O dispositivo \"%s\" não tem suporte a planos de sobreposição não-contínuos"
-
-# (pofilter) doublequoting: Different quotation marks
-# (pofilter) singlequoting: Different quotation marks
-#: sys/v4l2/gstv4l2object.c:3642
-#, c-format
-msgid "Could not get parameters on device '%s'"
-msgstr "Não foi possível obter os parâmetros no dispositivo \"%s\""
-
-# (pofilter) doublequoting: Different quotation marks
-# (pofilter) singlequoting: Different quotation marks
-#: sys/v4l2/gstv4l2radio.c:143
-#, c-format
-msgid "Failed to get settings of tuner %d on device '%s'."
-msgstr "Falha ao obter configurações do sintonizador %d no dispositivo \"%s\"."
-
-# (pofilter) doublequoting: Different quotation marks
-# (pofilter) singlequoting: Different quotation marks
-#: sys/v4l2/gstv4l2radio.c:150
-#, c-format
-msgid "Error getting capabilities for device '%s'."
-msgstr "Erro ao obter funcionalidades do dispositivo \"%s\"."
-
-# (pofilter) doublequoting: Different quotation marks
-# (pofilter) singlequoting: Different quotation marks
-#: sys/v4l2/gstv4l2radio.c:157
-#, c-format
-msgid "Device '%s' is not a tuner."
-msgstr "O dispositivo \"%s\" não é um sintonizador."
-
-# (pofilter) endwhitespace: Different whitespace at the end
-# (pofilter) doublequoting: Different quotation marks
-# (pofilter) singlequoting: Different quotation marks
-#: sys/v4l2/gstv4l2radio.c:184
-#, c-format
-msgid "Failed to get radio input on device '%s'. "
-msgstr "Falha ao obter a entrada de rádio do dispositivo \"%s\"."
-
-# (pofilter) doublequoting: Different quotation marks
-# (pofilter) singlequoting: Different quotation marks
-#: sys/v4l2/gstv4l2radio.c:241
-#, c-format
-msgid "Failed to change mute state for device '%s'."
-msgstr "Falha ao alternar entre com e sem áudio para o dispositivo \"%s\"."
-
-# (pofilter) doublequoting: Different quotation marks
-# (pofilter) singlequoting: Different quotation marks
-#: sys/v4l2/v4l2_calls.c:94
+# (pofilter) spellcheck: Check the spelling of: driver
 #, c-format
 msgid ""
 "Error getting capabilities for device '%s': It isn't a v4l2 driver. Check if "
@@ -205,153 +108,71 @@ msgstr ""
 "Erro ao obter recursos do dispositivo \"%s\": Ele não é um driver v4l2. "
 "Verifique se ele é um driver v4l1."
 
-# (pofilter) doublequoting: Different quotation marks
-# (pofilter) singlequoting: Different quotation marks
-#: sys/v4l2/v4l2_calls.c:189
-#, c-format
-msgid "Failed to get setting of tuner %d on device '%s'."
-msgstr "Falha ao obter configurações do sintonizador %d no dispositivo \"%s\"."
-
-# (pofilter) doublequoting: Different quotation marks
-# (pofilter) singlequoting: Different quotation marks
-#: sys/v4l2/v4l2_calls.c:237
-#, c-format
-msgid "Failed to query norm on device '%s'."
-msgstr "Falha ao examinar as normas no dispositivo \"%s\"."
-
-# (pofilter) doublequoting: Different quotation marks
-# (pofilter) singlequoting: Different quotation marks
-#: sys/v4l2/v4l2_calls.c:416
-#, c-format
-msgid "Failed getting controls attributes on device '%s'."
-msgstr "Falha ao obter atributos de controle no dispositivo \"%s\"."
-
-# (pofilter) doublequoting: Different quotation marks
-# (pofilter) singlequoting: Different quotation marks
-#: sys/v4l2/v4l2_calls.c:610
-#, c-format
-msgid "Cannot identify device '%s'."
-msgstr "O dispositivo \"%s\" não pôde ser identificado."
-
-# (pofilter) doublequoting: Different quotation marks
 # (pofilter) simplecaps: Different capitalization
-# (pofilter) singlequoting: Different quotation marks
 # (pofilter) startcaps: Different capitalization at the start
 # (pofilter) startpunc: Different punctuation at the start
-#: sys/v4l2/v4l2_calls.c:617
 #, c-format
 msgid "This isn't a device '%s'."
 msgstr "\"%s\" não é um dispositivo."
 
-# (pofilter) doublequoting: Different quotation marks
-# (pofilter) singlequoting: Different quotation marks
-#: sys/v4l2/v4l2_calls.c:624
-#, c-format
-msgid "Could not open device '%s' for reading and writing."
-msgstr "Não foi possível abrir o dispositivo \"%s\" para leitura e gravação."
+# (pofilter) acronyms: Consider not translating acronyms: AUX
+# (pofilter) simplecaps: Different capitalization
+# (pofilter) spellcheck: Check the spelling of: aux
+#~ msgid "AUX 1 In"
+#~ msgstr "Entrada aux. 1"
 
-# (pofilter) doublequoting: Different quotation marks
-# (pofilter) singlequoting: Different quotation marks
-#: sys/v4l2/v4l2_calls.c:631
-#, c-format
-msgid "Device '%s' is not a capture device."
-msgstr "O dispositivo \"%s\" não é um dispositivo de captura."
-
-# (pofilter) doublequoting: Different quotation marks
-# (pofilter) singlequoting: Different quotation marks
-#: sys/v4l2/v4l2_calls.c:639
-#, c-format
-msgid "Device '%s' is not a output device."
-msgstr "O dispositivo \"%s\" não é um dispositivo de saída."
-
-# (pofilter) doublequoting: Different quotation marks
-# (pofilter) singlequoting: Different quotation marks
-#: sys/v4l2/v4l2_calls.c:647
-#, c-format
-msgid "Device '%s' is not a M2M device."
-msgstr "O dispositivo \"%s\" não é um dispositivo M2M."
-
-# (pofilter) doublequoting: Different quotation marks
-# (pofilter) singlequoting: Different quotation marks
-#: sys/v4l2/v4l2_calls.c:699
-#, c-format
-msgid "Could not dup device '%s' for reading and writing."
-msgstr ""
-"Não foi possível duplicar o dispositivo \"%s\" para leitura e gravação."
-
-# (pofilter) doublequoting: Different quotation marks
-# (pofilter) singlequoting: Different quotation marks
-#: sys/v4l2/v4l2_calls.c:783
-#, c-format
-msgid "Failed to set norm for device '%s'."
-msgstr "Falha ao definir as normas para o dispositivo \"%s\"."
-
-# (pofilter) doublequoting: Different quotation marks
-# (pofilter) singlequoting: Different quotation marks
-#: sys/v4l2/v4l2_calls.c:821
-#, c-format
-msgid "Failed to get current tuner frequency for device '%s'."
-msgstr "Falha ao obter a freqüência do sintonizador para o dispositivo \"%s\"."
-
-# (pofilter) doublequoting: Different quotation marks
-# (pofilter) singlequoting: Different quotation marks
-#: sys/v4l2/v4l2_calls.c:863
-#, c-format
-msgid "Failed to set current tuner frequency for device '%s' to %lu Hz."
-msgstr ""
-"Falha ao definir a freqüência do sintonizador para o dispositivo \"%s\" à "
-"%lu Hz."
-
-# (pofilter) doublequoting: Different quotation marks
-# (pofilter) singlequoting: Different quotation marks
-#: sys/v4l2/v4l2_calls.c:897
-#, c-format
-msgid "Failed to get signal strength for device '%s'."
-msgstr "Falha ao obter a força do sinal para o dispositivo \"%s\"."
-
-# (pofilter) doublequoting: Different quotation marks
-# (pofilter) singlequoting: Different quotation marks
-#: sys/v4l2/v4l2_calls.c:933
-#, c-format
-msgid "Failed to get value for control %d on device '%s'."
-msgstr "Falha ao obter o valor para o controle %d no dispositivo \"%s\"."
-
-# (pofilter) doublequoting: Different quotation marks
-# (pofilter) singlequoting: Different quotation marks
-#: sys/v4l2/v4l2_calls.c:968
-#, c-format
-msgid "Failed to set value %d for control %d on device '%s'."
-msgstr "Falha ao definir o valor %d para o controle %d no dispositivo \"%s\"."
-
-# (pofilter) doublequoting: Different quotation marks
-# (pofilter) singlequoting: Different quotation marks
-#: sys/v4l2/v4l2_calls.c:1048
-#, c-format
-msgid "Failed to get current input on device '%s'. May be it is a radio device"
-msgstr ""
-"Falha ao obter a entrada atual no dispositivo \"%s\". Talvez seja um "
-"dispositivo de rádio"
-
-# (pofilter) doublequoting: Different quotation marks
-# (pofilter) singlequoting: Different quotation marks
-#: sys/v4l2/v4l2_calls.c:1105
-#, c-format
-msgid ""
-"Failed to get current output on device '%s'. May be it is a radio device"
-msgstr ""
-"Falha ao obter a saída atual no dispositivo \"%s\". Talvez seja um "
-"dispositivo de rádio"
-
-# (pofilter) doublequoting: Different quotation marks
-# (pofilter) singlequoting: Different quotation marks
-#~ msgid "Device '%s' does not support video capture"
-#~ msgstr "O dispositivo \"%s\" não tem suporte a captura de vídeo"
+# (pofilter) acronyms: Consider not translating acronyms: AUX
+# (pofilter) simplecaps: Different capitalization
+# (pofilter) spellcheck: Check the spelling of: aux
+#~ msgid "AUX 2 In"
+#~ msgstr "Entrada aux. 2"
 
 # (pofilter) unchanged: Consider translating
+# (pofilter) spellcheck: Check the spelling of: CODEC
+#~ msgid "Codec Loopback"
+#~ msgstr "CODEC Loopback"
+
+# (pofilter) unchanged: Consider translating
+#~ msgid "SunVTS Loopback"
+#~ msgstr "SunVTS Loopback"
+
+# (pofilter) unchanged: Consider translating
+#~ msgid "Volume"
+#~ msgstr "Volume"
+
+# (pofilter) acronyms: Consider not translating acronyms: AUX
+# (pofilter) simplecaps: Different capitalization
+# (pofilter) spellcheck: Check the spelling of: aux
+#~ msgid "AUX 1 Out"
+#~ msgstr "Saída aux. 1"
+
+# (pofilter) acronyms: Consider not translating acronyms: AUX
+# (pofilter) simplecaps: Different capitalization
+# (pofilter) spellcheck: Check the spelling of: aux
+#~ msgid "AUX 2 Out"
+#~ msgstr "Saída aux. 2"
+
+# (pofilter) spellcheck: Check the spelling of: PCM
+#~ msgid "PCM"
+#~ msgstr "PCM"
+
+# (pofilter) unchanged: Consider translating
+# (pofilter) spellcheck: Check the spelling of: Mixer
 #~ msgid "Mixer"
 #~ msgstr "Mixer"
 
+# (pofilter) spellcheck: Check the spelling of: PCM
+#~ msgid "PCM-2"
+#~ msgstr "PCM-2"
+
+# (pofilter) spellcheck: Check the spelling of: mixer
+#~ msgid "Could not open audio device for mixer control handling."
+#~ msgstr ""
+#~ "Não foi possível abrir o dispositivo de áudio para manipulação do "
+#~ "controlador do mixer."
+
 # (pofilter) brackets: Added '(', ')'
+# (pofilter) spellcheck: Check the spelling of: mixer, OSS
 #~ msgid ""
 #~ "Could not open audio device for mixer control handling. This version of "
 #~ "the Open Sound System is not supported by this element."
@@ -361,22 +182,30 @@ msgstr ""
 #~ "Sistema Aberto de Som (OSS)."
 
 # (pofilter) unchanged: Consider translating
+# (pofilter) spellcheck: Check the spelling of: Surround
 #~ msgid "Surround"
 #~ msgstr "Surround"
 
 # (pofilter) acronyms: Consider not translating acronyms: AUX
 # (pofilter) endpunc: Different punctuation at the end
 # (pofilter) simplecaps: Different capitalization
+# (pofilter) spellcheck: Check the spelling of: aux
 #~ msgid "AUX Out"
 #~ msgstr "Saída aux."
 
 # (pofilter) acronyms: Consider not translating acronyms: AUX
 # (pofilter) endpunc: Different punctuation at the end
 # (pofilter) simplecaps: Different capitalization
+# (pofilter) spellcheck: Check the spelling of: aux
 #~ msgid "AUX In"
 #~ msgstr "Entrada aux."
 
+# (pofilter) spellcheck: Check the spelling of: surround
+#~ msgid "Surround Sound"
+#~ msgstr "Som surround"
+
 # (pofilter) unchanged: Consider translating
+# (pofilter) spellcheck: Check the spelling of: Jack
 #~ msgid "Jack"
 #~ msgstr "Jack"
 
@@ -388,6 +217,18 @@ msgstr ""
 #~ msgid "Modem"
 #~ msgstr "Modem"
 
+# (pofilter) spellcheck: Check the spelling of: mixer
+#~ msgid "Virtual Mixer Input"
+#~ msgstr "Entrada do mixer virtual"
+
+# (pofilter) spellcheck: Check the spelling of: mixer
+#~ msgid "Virtual Mixer Output"
+#~ msgstr "Saída do mixer virtual"
+
+# (pofilter) spellcheck: Check the spelling of: mixer
+#~ msgid "Virtual Mixer Channels"
+#~ msgstr "Canais do mixer virtual"
+
 # (pofilter) simplecaps: Different capitalization
 #~ msgid "%s %d Function"
 #~ msgstr "%s %d"
@@ -396,20 +237,9 @@ msgstr ""
 #~ msgid "%s Function"
 #~ msgstr "%s"
 
-# (pofilter) doublequoting: Different quotation marks
-# (pofilter) singlequoting: Different quotation marks
-#~ msgid "Error reading %d bytes on device '%s'."
-#~ msgstr "Erro ao ler %d bytes no dispositivo \"%s\"."
-
-# (pofilter) doublequoting: Different quotation marks
-# (pofilter) singlequoting: Different quotation marks
+# (pofilter) spellcheck: Check the spelling of: buffers
 #~ msgid "Could not enqueue buffers in device '%s'."
 #~ msgstr "Não possível adicionar buffers à fila no dispositivo \"%s\"."
-
-# (pofilter) doublequoting: Different quotation marks
-# (pofilter) singlequoting: Different quotation marks
-#~ msgid "Failed trying to get video frames from device '%s'."
-#~ msgstr "Falha ao tentar obter os quadros de vídeo do dispositivo \"%s\"."
 
 # (pofilter) sentencecount: Different number of sentences: 1 ≠ 3
 # (pofilter) simplecaps: Different capitalization
