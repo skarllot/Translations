@@ -1,15 +1,15 @@
 # Brazilian Portuguese translation of gst-plugins-ugly.
 # This file is distributed under the same license as the gst-plugins-ugly package.
-# Copyright (C) 2007-2019 Free Software Foundation, Inc.
+# Copyright (C) 2007-2021 Free Software Foundation, Inc.
 # Raphael Higino <In memoriam>, 2007.
-# Fabrício Godoy <skarllot@gmail.com>, 2008-2019.
+# Fabrício Godoy <skarllot@gmail.com>, 2008-2021.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gst-plugins-ugly-1.15.1\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
-"POT-Creation-Date: 2019-01-17 02:02+0000\n"
-"PO-Revision-Date: 2019-12-24 19:18-0300\n"
+"Project-Id-Version: gst-plugins-ugly-1.19.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-23 01:34+0100\n"
+"PO-Revision-Date: 2021-09-26 12:38-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
 "net>\n"
@@ -18,35 +18,36 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.0\n"
 
-#: ext/cdio/gstcdiocddasrc.c:199
+#: ext/cdio/gstcdiocddasrc.c:197
 msgid "Could not read from CD."
 msgstr "Não foi possível ler as informações do CD."
 
-#: ext/cdio/gstcdiocddasrc.c:406
+#: ext/cdio/gstcdiocddasrc.c:404
 msgid "Could not open CD device for reading."
 msgstr "Não foi possível abrir o dispositivo de CD para leitura."
 
-#: ext/cdio/gstcdiocddasrc.c:413
+#: ext/cdio/gstcdiocddasrc.c:411
 msgid "Disc is not an Audio CD."
 msgstr "O disco não é um CD de áudio."
 
-#: ext/dvdread/dvdreadsrc.c:231 ext/dvdread/dvdreadsrc.c:238
+#: ext/dvdread/dvdreadsrc.c:233 ext/dvdread/dvdreadsrc.c:240
 msgid "Could not open DVD"
 msgstr "Não foi possível abrir o DVD"
 
-#: ext/dvdread/dvdreadsrc.c:245 ext/dvdread/dvdreadsrc.c:622
-#: ext/dvdread/dvdreadsrc.c:629
+#: ext/dvdread/dvdreadsrc.c:247 ext/dvdread/dvdreadsrc.c:628
+#: ext/dvdread/dvdreadsrc.c:635
 #, c-format
 msgid "Could not open DVD title %d"
 msgstr "Não foi possível abrir o título %d do DVD"
 
-#: ext/dvdread/dvdreadsrc.c:251
+#: ext/dvdread/dvdreadsrc.c:253
 #, c-format
 msgid "Failed to go to chapter %d of DVD title %d"
 msgstr "Falha ao avançar para o capítulo %d do título %d do DVD"
 
-#: ext/dvdread/dvdreadsrc.c:636
+#: ext/dvdread/dvdreadsrc.c:642
 #, c-format
 msgid ""
 "Could not open DVD title %d. Interactive titles are not supported by this "
@@ -55,7 +56,7 @@ msgstr ""
 "Não foi possível abrir o título %d do DVD. Não há suporte a títulos "
 "interativos por este elemento"
 
-#: ext/dvdread/dvdreadsrc.c:991
+#: ext/dvdread/dvdreadsrc.c:997
 msgid ""
 "Could not read DVD. This may be because the DVD is encrypted and a DVD "
 "decryption library is not installed."
@@ -63,11 +64,11 @@ msgstr ""
 "Não foi possível ler o DVD. O motivo pode ser que o DVD está criptografado e "
 "uma biblioteca de descriptografia de DVD não está instalada."
 
-#: ext/dvdread/dvdreadsrc.c:994
+#: ext/dvdread/dvdreadsrc.c:1000
 msgid "Could not read DVD."
 msgstr "Não foi possível ler o DVD."
 
-#: gst/asfdemux/gstasfdemux.c:446 gst/asfdemux/gstasfdemux.c:454
+#: gst/asfdemux/gstasfdemux.c:455 gst/asfdemux/gstasfdemux.c:463
 msgid "This stream contains no data."
 msgstr "Este fluxo não contém dados."
 
