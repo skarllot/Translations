@@ -13,5 +13,5 @@ msgmerge --previous file-old.po file-new.pot > file-new.po
 # Perform quality tests
 pofilter file.po > verify.po
 pofilter --gnome file.po > verify.po
-pofilter --gnome --language pt_BR --excludefilter=doublequoting file.po > verify.po
+pofilter --gnome --language pt_BR --excludefilter=doublequoting file.po | grep -v -e "^#:" > verify.po
 
