@@ -1,15 +1,15 @@
 # Brazilian Portuguese translation of gst-plugins-bad.
 # This file is distributed under the same license as the gst-plugins-bad package.
-# Copyright (C) 2007-2019 Free Software Foundation, Inc.
+# Copyright (C) 2007-2021 Free Software Foundation, Inc.
 # Raphael Higino <In memorian>, 2007.
-# Fabrício Godoy <skarllot@gmail.com>, 2008-2019.
+# Fabrício Godoy <skarllot@gmail.com>, 2008-2021.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gst-plugins-bad-1.15.1\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
-"POT-Creation-Date: 2019-01-17 02:16+0000\n"
-"PO-Revision-Date: 2019-11-24 20:09-0300\n"
+"Project-Id-Version: gst-plugins-bad-1.19.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-23 01:34+0100\n"
+"PO-Revision-Date: 2021-09-26 12:26-0300\n"
 "Last-Translator: Fabrício Godoy <skarllot@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
 "net>\n"
@@ -18,12 +18,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.0\n"
 
-#: ext/curl/gstcurlhttpsrc.c:1265
+#: ext/curl/gstcurlhttpsrc.c:1439
 msgid "No URL set."
 msgstr "Nenhum URL definido."
 
-#: ext/opencv/gsttemplatematch.cpp:202
+#: ext/opencv/gsttemplatematch.cpp:189
 msgid "OpenCV failed to load template image"
 msgstr "O OpenCV falhou ao carregar a imagem modelo"
 
@@ -52,82 +53,84 @@ msgstr ""
 msgid "Could not read DVD."
 msgstr "Não foi possível ler o DVD."
 
-#: ext/smoothstreaming/gstmssdemux.c:421
-#: gst-libs/gst/adaptivedemux/gstadaptivedemux.c:731
+#: ext/smoothstreaming/gstmssdemux.c:430
+#: gst-libs/gst/adaptivedemux/gstadaptivedemux.c:735
 msgid "This file contains no playable streams."
 msgstr "Este arquivo não contém fluxos reproduzíveis."
 
-#: ext/sndfile/gstsfdec.c:769
+#: ext/sndfile/gstsfdec.c:771
 msgid "Could not open sndfile stream for reading."
 msgstr "Não foi possível abrir o fluxo sndfile para leitura."
 
-#: gst/asfmux/gstasfmux.c:1832
+#: gst/asfmux/gstasfmux.c:1834
 msgid "Generated file has a larger preroll time than its streams duration"
 msgstr ""
 "O arquivo gerado tem um tempo de preparação maior que a sua duração de fluxo"
 
-#: gst/camerabin2/camerabingeneral.c:167 gst/camerabin2/gstcamerabin2.c:1859
-#: gst/camerabin2/gstdigitalzoom.c:283 gst/camerabin2/gstviewfinderbin.c:270
+#: gst/camerabin2/camerabingeneral.c:167 gst/camerabin2/gstcamerabin2.c:1866
+#: gst/camerabin2/gstdigitalzoom.c:283 gst/camerabin2/gstviewfinderbin.c:275
 #, c-format
 msgid "Missing element '%s' - check your GStreamer installation."
 msgstr ""
 "O elemento \"%s\" está faltando, verifique a sua instalação do GStreamer."
 
-#: gst/camerabin2/gstcamerabin2.c:347
+#: gst/camerabin2/gstcamerabin2.c:352
 msgid "File location is set to NULL, please set it to a valid filename"
 msgstr ""
 "A localização do arquivo está NULA, favor definir um nome de arquivo válido"
 
-#: gst/camerabin2/gstwrappercamerabinsrc.c:585
+#: gst/camerabin2/gstwrappercamerabinsrc.c:587
 msgid "Digitalzoom element couldn't be created"
 msgstr "O elemento Digitalzoom não pôde ser criado"
 
-#: gst/dvdspu/gstdvdspu.c:1041
+#: gst/dvdspu/gstdvdspu.c:1044
 msgid "Subpicture format was not configured before data flow"
-msgstr "O formato de subimagem não foi configurado antes do fluxo de dados"
+msgstr "O formato de sub-imagem não foi configurado antes do fluxo de dados"
 
-#: gst-libs/gst/adaptivedemux/gstadaptivedemux.c:3564
+#: gst-libs/gst/adaptivedemux/gstadaptivedemux.c:3626
 msgid "Failed to get fragment URL."
 msgstr "Falha ao obter um fragmento de URL."
 
-#: gst-libs/gst/adaptivedemux/gstadaptivedemux.c:3951
+#: gst-libs/gst/adaptivedemux/gstadaptivedemux.c:4013
+#, c-format
 msgid "Couldn't download fragments"
 msgstr "Não foi possível baixar os fragmentos"
 
-#: gst-libs/gst/adaptivedemux/gstadaptivedemux.c:4040
-#: gst/mpegtsdemux/mpegtsbase.c:1640
+#: gst-libs/gst/adaptivedemux/gstadaptivedemux.c:4102
+#: gst/mpegtsdemux/mpegtsbase.c:1693
 msgid "Internal data stream error."
 msgstr "Erro interno de fluxo de dados."
 
-#: sys/dvb/gstdvbsrc.c:1580 sys/dvb/gstdvbsrc.c:1794
+#: sys/dvb/gstdvbsrc.c:1597 sys/dvb/gstdvbsrc.c:1811
 #, c-format
 msgid "Device \"%s\" does not exist."
 msgstr "O dispositivo \"%s\" não existe."
 
-#: sys/dvb/gstdvbsrc.c:1584
+#: sys/dvb/gstdvbsrc.c:1601
 #, c-format
 msgid "Could not open frontend device \"%s\"."
 msgstr "Não foi possível abrir o dispositivo de interface \"%s\"."
 
-#: sys/dvb/gstdvbsrc.c:1603
+#: sys/dvb/gstdvbsrc.c:1620
 #, c-format
 msgid "Could not get settings from frontend device \"%s\"."
 msgstr ""
 "Não foi possível obter as configurações do dispositivo de interface \"%s\"."
 
-#: sys/dvb/gstdvbsrc.c:1620
+#: sys/dvb/gstdvbsrc.c:1637
 #, c-format
 msgid "Cannot enumerate delivery systems from frontend device \"%s\"."
 msgstr ""
 "Não foi possível listar os sistemas de entrega do dispositivo de interface "
 "\"%s\"."
 
-#: sys/dvb/gstdvbsrc.c:1798
+#: sys/dvb/gstdvbsrc.c:1815
 #, c-format
 msgid "Could not open file \"%s\" for reading."
 msgstr "Não foi possível abrir o arquivo \"%s\" para leitura."
 
 #: sys/dvb/parsechannels.c:410
+#, c-format
 msgid "Couldn't find channel configuration file"
 msgstr "Não foi possível encontrar o arquivo de configuração de canal"
 
@@ -139,7 +142,7 @@ msgstr "Não foi possível carregar o arquivo de configuração de canal: \"%s\"
 #: sys/dvb/parsechannels.c:421 sys/dvb/parsechannels.c:846
 #, c-format
 msgid "Couldn't find details for channel '%s'"
-msgstr "Não foi possível encontrar detalhes para o canal DVB \"%s\""
+msgstr "Não foi possível encontrar detalhes para o canal \"%s\""
 
 #: sys/dvb/parsechannels.c:430
 #, c-format
@@ -157,6 +160,7 @@ msgid "Couldn't find channel configuration file: '%s'"
 msgstr "Não foi possível encontrar o arquivo de configuração de canal: \"%s\""
 
 #: sys/dvb/parsechannels.c:570
+#, c-format
 msgid "Channel configuration file doesn't contain any channels"
 msgstr "Nenhum canal foi encontrado no arquivo de configuração de canal"
 
@@ -167,7 +171,7 @@ msgstr "Nenhum canal foi encontrado no arquivo de configuração de canal"
 #~ msgstr "Um erro ocorreu no GL"
 
 #~ msgid "format wasn't negotiated before get function"
-#~ msgstr "O formato não foi negociado antes da chamada da função"
+#~ msgstr "o formato não foi negociado antes da chamada da função"
 
 #~ msgid "Could not establish connection to sndio"
 #~ msgstr "Não foi possível estabelecer a conexão para sndio"
